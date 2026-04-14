@@ -1,49 +1,67 @@
 import anthropic
 import json
 import os
+import urllib.request
 from datetime import datetime
 
-client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+ANTHROPIC_KEY = os.environ["ANTHROPIC_API_KEY"]
+NEWS_KEY = os.environ["NEWS_API_KEY"]
 
-prompt = """Search the web for the 20 most recent news articles about Identity and Access Management (IAM).
-Include topics like: IAM security, identity governance, SSO, MFA, privileged access management (PAM), zero trust, Active Directory, OAuth, SAML, SCIM, Okta, Microsoft Entra, CyberArk, SailPoint, Ping Identity, ForgeRock, and related IAM vendors and technologies.
+def fetch_articles():
+    url = (
+        "https://newsapi.org/v2/everything"
+        "?q=identity+access+management+OR+IAM+OR+%22privileged+access%22+OR+%22zero+trust%22+OR+%22single+sign-on%22+OR+Okta+OR+%22Microsoft+Entra%22+OR+CyberArk+OR+SailPoint"
+        "&language=en"
+        "&sortBy=publishedAt"
+        "&pageSize=20"
+        f"&apiKey={NEWS_KEY}"
+    )
+    req = urllib.request.Request(url, headers={"User-Agent": "IAMNews/1.0"})
+    with urllib.request.urlopen(req) as r:
+        data = json.loads(r.read())
+    if data.get("status") != "ok":
+        raise ValueError(f"NewsAPI error: {data.get('message')}")
+    return data["articles"]
 
-For each article return a JSON array (no markdown, no backticks, raw JSON only) with exactly these fields:
-- title: the article headline
-- url: the direct link to the article
-- source: the publisher name
-- date: publication date as a short string like "Apr 12, 2025"
-- summary: a 2-3 sentence summary written for IAM professionals, explaining what happened and why it matters
-- image: the article's main image URL if available, otherwise null
+def summarize(client, article):
+    content = f"Title: {article['title']}\nDescription: {article.get('description') or ''}\nContent: {article.get('content') or ''}"
+    response = client.messages.create(
+        model="claude-sonnet-4-6",
+        max_tokens=300,
+        messages=[{"role": "user", "content": f"Write a 2-3 sentence summary of this news article for IAM professionals, explaining what happened and why it matters:\n\n{content}"}]
+    )
+    return response.content[0].text.strip()
 
-IMPORTANT: Return ONLY the raw JSON array. No preamble, no explanation, no markdown code blocks. Start directly with [ and end with ]"""
+print("Fetching articles from NewsAPI...")
+raw_articles = fetch_articles()
+print(f"Got {len(raw_articles)} articles. Generating summaries...")
 
-print("Fetching IAM news...")
-response = client.messages.create(
-    model="claude-sonnet-4-6",
-    max_tokens=4000,
-    tools=[{"type": "web_search_20250305", "name": "web_search"}],
-    messages=[{"role": "user", "content": prompt}]
-)
+client = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
 
-text_block = next((b for b in response.content if b.type == "text"), None)
-if not text_block:
-    all_types = [b.type for b in response.content]
-    raise ValueError(f"No text block found. Block types were: {all_types}")
+articles = []
+for i, a in enumerate(raw_articles):
+    print(f"Summarizing {i+1}/{len(raw_articles)}: {a['title'][:60]}")
+    try:
+        summary = summarize(client, a)
+    except Exception as e:
+        print(f"  Warning: could not summarize: {e}")
+        summary = a.get("description") or ""
 
-raw = text_block.text.strip()
-print("Raw response preview:", raw[:300])
+    pub = a.get("publishedAt", "")
+    try:
+        dt = datetime.strptime(pub, "%Y-%m-%dT%H:%M:%SZ")
+        date_str = dt.strftime("%b %d, %Y")
+    except Exception:
+        date_str = pub[:10]
 
-raw = raw.replace("```json", "").replace("```", "").strip()
-
-start = raw.find("[")
-end = raw.rfind("]")
-
-if start == -1 or end == -1:
-    raise ValueError(f"No JSON array found in response. Full text:\n{raw}")
-
-articles = json.loads(raw[start:end+1])
-articles = articles[:20]
+    articles.append({
+        "title": a.get("title") or "",
+        "url": a.get("url") or "",
+        "source": (a.get("source") or {}).get("name") or "",
+        "date": date_str,
+        "summary": summary,
+        "image": a.get("urlToImage") or None,
+    })
 
 output = {
     "updated": datetime.utcnow().strftime("%B %d, %Y at %H:%M UTC"),
@@ -53,4 +71,4 @@ output = {
 with open("news.json", "w", encoding="utf-8") as f:
     json.dump(output, f, ensure_ascii=False, indent=2)
 
-print(f"Saved {len(articles)} articles to news.json")
+print(f"Done. Saved {len(articles)} articles to news.json")
