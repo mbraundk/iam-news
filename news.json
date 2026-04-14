@@ -1,28 +1,12 @@
 {
-  "updated": "April 14, 2026 at 20:04 UTC",
+  "updated": "April 14, 2026 at 20:33 UTC",
   "articles": [
-    {
-      "title": "localstack-keycloak added to PyPI",
-      "url": "https://pypi.org/project/localstack-keycloak/",
-      "source": "Pypi.org",
-      "date": "Apr 13, 2026",
-      "summary": "A new PyPI package, `localstack-keycloak`, enables security professionals to run Keycloak IAM locally alongside LocalStack for testing and developing identity and access management workflows in simulated AWS environments.",
-      "image": "https://pypi.org/static/images/twitter.abaf4b19.webp"
-    },
-    {
-      "title": "openhound-okta added to PyPI",
-      "url": "https://pypi.org/project/openhound-okta/",
-      "source": "Pypi.org",
-      "date": "Apr 13, 2026",
-      "summary": "A new PyPI package called \"openhound-okta\" has been published that functions as an OpenGraph collector for Okta environments using the OpenHound framework, which security teams should vet carefully before use due to its potential for credential or directory data harvesting.",
-      "image": "https://pypi.org/static/images/twitter.abaf4b19.webp"
-    },
     {
       "title": "Top 10 Enterprise Picks for the Best HR Management Software in 2026",
       "url": "https://thenextweb.com/news/best-hr-management-software-2026/",
       "source": "The Next Web",
       "date": "Apr 13, 2026",
-      "summary": "Enterprise HR management platforms in 2026 increasingly integrate identity and access management capabilities, making the selection of the right solution critical for organizations seeking to streamline employee lifecycle management, provisioning, and access governance from a single unified system.",
+      "summary": "Enterprise HR management platforms like Workday, SAP SuccessFactors, and competitors are converging on unified identity lifecycle management capabilities, making HR system selection a critical decision for organizations seeking to automate employee provisioning, deprovisioning, and access governance workflows.",
       "image": "https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2026/04/best-hr-management-software-2026.png"
     },
     {
@@ -30,23 +14,15 @@
       "url": "https://www.cmswire.com/customer-data-platforms/you-bought-a-customer-data-platform-did-you-build-for-it/",
       "source": "CMSWire",
       "date": "Apr 13, 2026",
-      "summary": "Without a mature identity framework, governance structure, and clear data ownership, Customer Data Platforms will fail to deliver value regardless of the technology investment made.",
+      "summary": "Deploying a Customer Data Platform without first establishing a stable identity framework, clear data governance policies, and defined ownership structures will undermine the platform's effectiveness regardless of its technical capabilities.",
       "image": "https://www.cmswire.com/-/media/ab2cf420433e4a65a0dd033fafe7eba1.ashx"
-    },
-    {
-      "title": "scopebound added to PyPI",
-      "url": "https://pypi.org/project/scopebound/",
-      "source": "Pypi.org",
-      "date": "Apr 13, 2026",
-      "summary": "A new PyPI package called **scopebound** has been published, claiming to provide zero-trust identity and access enforcement capabilities specifically designed for AI agents.",
-      "image": null
     },
     {
       "title": "How to build effective reward functions with AWS Lambda for Amazon Nova model customization",
       "url": "https://aws.amazon.com/blogs/machine-learning/how-to-build-effective-reward-functions-with-aws-lambda-for-amazon-nova-model-customization/",
       "source": "Amazon.com",
       "date": "Apr 13, 2026",
-      "summary": "AWS Lambda's serverless architecture can be leveraged to build scalable reward functions for customizing Amazon Nova AI models using reinforcement learning techniques, which security professionals should monitor for potential misuse in automating adversarial model fine-tuning or evading detection systems.",
+      "summary": "AWS Lambda's serverless architecture enables scalable and cost-effective reward functions for customizing Amazon Nova models using Reinforcement Learning via Verifiable Rewards (RLVR) for objectively verifiable tasks.",
       "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/04/13/ml-20419-1120x630.png"
     },
     {
@@ -54,7 +30,7 @@
       "url": "https://ringmast4r.substack.com/p/we-may-be-living-through-the-most",
       "source": "Substack.com",
       "date": "Apr 13, 2026",
-      "summary": "The first four months of 2026 have seen an unprecedented cascade of major cyber incidents—including Chinese state-sponsored attacks, critical infrastructure breaches, and significant identity and access compromises—that collectively represent a potentially historic inflection point in the global cybersecurity threat landscape.",
+      "summary": "The first four months of 2026 have delivered an unprecedented cascade of major cyber incidents—including Chinese state-sponsored attacks, critical infrastructure breaches, and significant identity and access compromises—that individually would have been headline-dominating events in prior years but are now collectively struggling to receive the sustained attention they deserve from the security community.",
       "image": "https://substackcdn.com/image/fetch/$s_!RcBr!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb09ed54b-8599-421a-919a-7fcb5b93d65a_5760x3840.jpeg"
     },
     {
@@ -62,7 +38,7 @@
       "url": "https://www.globenewswire.com/news-release/2026/04/13/3272649/0/en/Cybersecurity-Market-Surges-to-351-92-billion-by-2030-CAGR-9-1.html",
       "source": "GlobeNewswire",
       "date": "Apr 13, 2026",
-      "summary": "The global cybersecurity market is projected to grow from $227.59 billion in 2025 to $351.92 billion by 2030, reflecting a 9.1% CAGR driven by escalating threats and increased enterprise security investment.",
+      "summary": "The global cybersecurity market is projected to grow from $227.59 billion in 2025 to $351.92 billion by 2030, reflecting a 9.1% CAGR driven by escalating threats and increasing enterprise security investments.",
       "image": "https://ml.globenewswire.com/Resource/Download/afcc5182-4ae0-43a8-a965-4351d590b7ed"
     },
     {
@@ -70,7 +46,7 @@
       "url": "https://www.windowscentral.com/microsoft/windows-11/microsoft-explains-killed-windows-11-phone-activation",
       "source": "Windows Central",
       "date": "Apr 13, 2026",
-      "summary": "Microsoft has eliminated offline phone-based Windows activation, requiring internet connectivity for all Windows 10/11 activations to improve security, reliability, and the overall user authentication experience.",
+      "summary": "Microsoft has eliminated the last offline activation method for Windows 10 and 11, requiring internet connectivity for all license activations in order to enhance security, reliability, and user experience.",
       "image": "https://cdn.mos.cms.futurecdn.net/h3agKLDKE9ZKwXkveszGmi-2000-80.jpg"
     },
     {
@@ -78,7 +54,7 @@
       "url": "https://www.techradar.com/pro/no-decision-is-the-new-breach-why-inaction-is-becoming-a-career-risk-for-cisos-in-2026",
       "source": "TechRadar",
       "date": "Apr 13, 2026",
-      "summary": "In 2026, CISOs face greater career risk from slow, unexplained responses to breaches than from the incidents themselves, as boards now measure security leaders on their ability to rapidly scope, communicate, and contain threats.",
+      "summary": "In 2026, CISOs face growing career risk not from breaches themselves but from their inability to swiftly explain, scope, and contain incidents — making decisiveness and board-level communication skills as critical as technical controls.",
       "image": "https://cdn.mos.cms.futurecdn.net/sqGgDPxHyGtqunPo56h9cL-2560-80.jpg"
     },
     {
@@ -86,47 +62,23 @@
       "url": "https://www.computerweekly.com/blog/CW-Developer-Network/Sapiom-CEO-Software-is-becoming-the-customer-of-the-Internet",
       "source": "ComputerWeekly.com",
       "date": "Apr 13, 2026",
-      "summary": "As AI agents increasingly act autonomously on behalf of humans online, security professionals must rethink traditional IAM, fraud detection, and risk models that were built around human users rather than software as the primary \"customer\" of internet services.",
+      "summary": "As AI agents increasingly act autonomously on behalf of humans online, security professionals must rethink traditional IAM frameworks — originally designed for human users — to address authentication, authorization, and risk models for non-human, software-driven identities.",
       "image": null
-    },
-    {
-      "title": "agentmesh_platform 3.1.0",
-      "url": "https://pypi.org/project/agentmesh_platform/",
-      "source": "Pypi.org",
-      "date": "Apr 13, 2026",
-      "summary": "AgentMesh Platform 3.1.0 introduces a public preview of a cloud-native identity, trust, and governance framework for AI agent ecosystems, functioning as an SSL-equivalent security layer to manage authentication, authorization, and oversight of production AI agents.",
-      "image": "https://pypi.org/static/images/twitter.abaf4b19.webp"
     },
     {
       "title": "Bringing governance and visibility to machine and AI identities",
       "url": "https://www.helpnetsecurity.com/2026/04/13/archit-lohokare-appviewx-ai-agent-identity/",
       "source": "Help Net Security",
       "date": "Apr 13, 2026",
-      "summary": "AppViewX CEO Archit Lohokare warns security professionals that the convergence of machine and AI agent identities demands unified governance and visibility strategies to address the rapidly expanding, often ungoverned non-human identity attack surface.",
+      "summary": "AppViewX CEO Archit Lohokare warns security professionals that AI-driven environments are accelerating the convergence of machine and AI agent identities, demanding unified governance frameworks and enhanced visibility to manage the expanding non-human attack surface.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/04/10082116/archit_lohokare-2-appviewx.webp"
-    },
-    {
-      "title": "agent_governance_toolkit 3.1.0",
-      "url": "https://pypi.org/project/agent_governance_toolkit/",
-      "source": "Pypi.org",
-      "date": "Apr 13, 2026",
-      "summary": "A new Agent Governance Toolkit (v3.1.0) in public preview offers a unified installer and runtime policy enforcement covering the full governance stack, including kernel, trust mesh, runtime supervisor, and reliability engineering components.",
-      "image": "https://pypi.org/static/images/twitter.abaf4b19.webp"
-    },
-    {
-      "title": "okta 3.4.1",
-      "url": "https://pypi.org/project/okta/3.4.1/",
-      "source": "Pypi.org",
-      "date": "Apr 12, 2026",
-      "summary": "Okta has released version 3.4.1 of its Python SDK for the Okta Management API, though full release details are currently inaccessible due to content loading issues.",
-      "image": null
     },
     {
       "title": "The death of standing privilege in the age of AI agents",
       "url": "https://www.itnews.com.au/feature/the-death-of-standing-privilege-in-the-age-of-ai-agents-624862",
       "source": "iTnews",
       "date": "Apr 12, 2026",
-      "summary": "As AI agents increasingly operate as highly privileged identities with dynamic, autonomous access needs, traditional PAM controls built around static standing privilege are becoming obsolete, forcing security teams to adopt just-in-time, ephemeral access models to close critical security gaps.",
+      "summary": "AI agents are emerging as highly privileged, autonomous identities that expose critical gaps in traditional PAM frameworks, accelerating the industry shift toward just-in-time, ephemeral access models over standing privilege.",
       "image": "https://i.nextmedia.com.au/Features/Untitled_design_(22).jpg"
     },
     {
@@ -134,23 +86,15 @@
       "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/from-ai-to-everything-how-anthropic-is-taking-on-techs-old-guard/articleshow/130210267.cms",
       "source": "The Times of India",
       "date": "Apr 12, 2026",
-      "summary": "Anthropic is aggressively expanding into enterprise security with an AI-powered code vulnerability scanning tool, directly challenging established cybersecurity vendors while simultaneously disrupting legal, financial, and HR software markets.",
+      "summary": "Anthropic is expanding beyond its safety-focused AI roots by launching specialized tools across legal, financial, HR, and cybersecurity domains—including a code vulnerability scanner—positioning itself as a direct competitor to established enterprise software and security vendors.",
       "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-101462,resizemode-75,msid-130210267/tech/artificial-intelligence/from-ai-to-everything-how-anthropic-is-taking-on-techs-old-guard.jpg"
-    },
-    {
-      "title": "django-saml2-auth-community added to PyPI",
-      "url": "https://pypi.org/project/django-saml2-auth-community/",
-      "source": "Pypi.org",
-      "date": "Apr 11, 2026",
-      "summary": "A new community-maintained Django SAML2 authentication library, `django-saml2-auth-community`, has been published to PyPI to simplify SAML SSO integration in Django applications.",
-      "image": "https://pypi.org/static/images/twitter.abaf4b19.webp"
     },
     {
       "title": "Coder Technologies Coder 2.31.9",
       "url": "https://post.rlsbb.to/coder-technologies-coder-2-31-9/",
       "source": "Rlsbb.to",
       "date": "Apr 11, 2026",
-      "summary": "Coder Technologies has released version 2.31.9 of its self-hosted, open-source cloud development environment platform, which enables organizations to maintain complete security and control over developer infrastructure by deploying and managing fully configured environments on their own infrastructure.",
+      "summary": "Coder Technologies has released version 2.31.9 of its self-hosted, open-source cloud development environment platform, offering security teams full control over infrastructure and developer onboarding processes.",
       "image": null
     },
     {
@@ -158,8 +102,200 @@
       "url": "https://hackread.com/google-chrome-update-infostealer-cookie-theft/",
       "source": "HackRead",
       "date": "Apr 11, 2026",
-      "summary": "Google's Chrome 146 introduces Device Bound Session Credentials (DBSC) on Windows, binding session cookies to hardware keys to prevent infostealers from hijacking authenticated sessions even after cookie theft.",
+      "summary": "Google's Chrome 146 introduces Device Bound Session Credentials (DBSC), binding session cookies to hardware keys on Windows to prevent infostealers from exploiting stolen authentication tokens.",
       "image": "https://hackread.com/wp-content/uploads/2026/04/google-chrome-update-infostealer-cookie-theft.jpg"
+    },
+    {
+      "title": "Stocks Settle Mixed Awaiting US-Iran Peace Talks",
+      "url": "https://www.barchart.com/story/news/1249054/stocks-settle-mixed-awaiting-us-iran-peace-talks",
+      "source": "Barchart.com",
+      "date": "Apr 10, 2026",
+      "summary": "This article contains no IAM (Identity and Access Management) relevant content and is instead a financial markets report covering stock index performance and US-Iran geopolitical developments.",
+      "image": "https://s.yimg.com/ny/api/res/1.2/laoh9VcfqdCh6OeR1TBj2w--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/barchart_com_477/3bce3a270ead73f60ed4a61bc197a034"
+    },
+    {
+      "title": "UNC6783 Hackers Use Fake Okta Pages in Corporate Breach Campaign",
+      "url": "https://hackread.com/unc6783-hackers-fake-okta-pages-corporate-breach/",
+      "source": "HackRead",
+      "date": "Apr 10, 2026",
+      "summary": "UNC6783 threat actors are conducting corporate breach campaigns by impersonating IT support staff and deploying fake Okta login pages to harvest credentials and exfiltrate sensitive organizational data.",
+      "image": "https://hackread.com/wp-content/uploads/2026/04/unc6783-hackers-fake-okta-pages-corporate-breach.jpg"
+    },
+    {
+      "title": "Crushing the Axios supply chain threat with Tenable Hexa AI: Use cases for agentic AI",
+      "url": "https://www.tenable.com/blog/crushing-axios-supply-chain-threat-tenable-hexa-ai-agentic-ai-use-cases",
+      "source": "Tenable.com",
+      "date": "Apr 10, 2026",
+      "summary": "Tenable's Hexa AI agentic platform enables security teams to rapidly detect exposure to the Axios npm supply chain attack by automating scan configuration, asset identification, and remediation prioritization within minutes.",
+      "image": "https://www.tenable.com/sites/default/files/styles/640x360/public/images/articles/AdobeStock_321371261_0.jpeg?itok=NLoRW1Mh"
+    },
+    {
+      "title": "5 Useful Things to Do with Google’s Antigravity Besides Coding",
+      "url": "https://www.kdnuggets.com/5-useful-things-to-do-with-googles-antigravity-besides-coding",
+      "source": "Kdnuggets.com",
+      "date": "Apr 10, 2026",
+      "summary": "Google's Antigravity platform extends beyond code generation to offer security professionals a range of agent-driven capabilities built on Gemini 3 that can be leveraged for non-coding IAM and security workflows.",
+      "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-davies-5-useful-things-to-do-with-googles-antigravity-besides-coding.png"
+    },
+    {
+      "title": "Morning Brief: A big day for inflation",
+      "url": "https://finance.yahoo.com/news/morning-brief-a-big-day-for-inflation-100052155.html",
+      "source": "Yahoo Entertainment",
+      "date": "Apr 10, 2026",
+      "summary": "This article does not contain IAM (Identity and Access Management) relevant content and instead covers macroeconomic topics such as inflation data, oil prices, and geopolitical developments.",
+      "image": "https://s.yimg.com/ny/api/res/1.2/1zwMhDOoAPUaU2PPk1g6Wg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03MjM7Y2Y9d2VicA--/https://s.yimg.com/os/creatr-uploaded-images/2026-04/4442d6f0-345d-11f1-b367-42741f02b771"
+    },
+    {
+      "title": "To counter cookie theft, Chrome ships device-bound session credentials",
+      "url": "https://www.helpnetsecurity.com/2026/04/10/google-chrome-device-bound-session-credentials/",
+      "source": "Help Net Security",
+      "date": "Apr 10, 2026",
+      "summary": "Chrome's new Device Bound Session Credentials (DBSC) feature cryptographically binds authentication sessions to a specific device, rendering stolen cookies useless to attackers even if exfiltrated by infostealer malware.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/04/10112054/cookie-1500.webp"
+    },
+    {
+      "title": "Google Chrome 146 Adds Device Bound Session Credentials to Stop Session Cookie Theft on Windows",
+      "url": "https://www.ghacks.net/2026/04/10/google-chrome-146-adds-device-bound-session-credentials-to-stop-session-cookie-theft-on-windows/",
+      "source": "Ghacks Technology News",
+      "date": "Apr 10, 2026",
+      "summary": "Google Chrome 146 introduces Device Bound Session Credentials (DBSC) for Windows, cryptographically binding session cookies to device hardware to prevent stolen cookies from being used by attackers on other machines.",
+      "image": "https://www.ghacks.net/wp-content/uploads/2026/04/gHacks-articles-2026-04-10T090108.645.png"
+    },
+    {
+      "title": "US Stock Market: AI anxiety batters US software stocks as growth narrative faces fresh test",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stock-market-ai-anxiety-batters-us-software-stocks-as-growth-narrative-faces-fresh-test/articleshow/130160184.cms",
+      "source": "The Times of India",
+      "date": "Apr 10, 2026",
+      "summary": "U.S. software stocks suffered significant declines as Anthropic's cautious AI model rollout reignited investor fears that advanced AI could disrupt and devalue traditional software markets, posing potential implications for IAM vendors reliant on conventional software licensing models.",
+      "image": "https://img.etimg.com/thumb/msid-130160144,width-1200,height-630,imgsize-59286,overlay-etmarkets/articleshow.jpg"
+    },
+    {
+      "title": "Google Chrome adds infostealer protection against session cookie theft",
+      "url": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/",
+      "source": "BleepingComputer",
+      "date": "Apr 09, 2026",
+      "summary": "Google has deployed Device Bound Session Credentials (DBSC) in Chrome 146 for Windows to cryptographically bind session cookies to specific devices, preventing infostealer malware from exfiltrating and reusing stolen authentication tokens.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2023/06/16/Google-Chrome-headpic.jpg"
+    },
+    {
+      "title": "'Several dozen' high-value corporations hit by new extortion crew in helpdesk phishing spree",
+      "url": "https://www.theregister.com/2026/04/09/several_dozen_highvalue_corporations_targeted/",
+      "source": "Theregister.com",
+      "date": "Apr 09, 2026",
+      "summary": "A new financially motivated extortion group has compromised several dozen high-value organizations by exploiting helpdesk social engineering and phishing attacks, with a possible connection to the claimed Adobe breach, according to Google Threat Intelligence Group.",
+      "image": "https://regmedia.co.uk/2022/10/26/shutterstock_racoon_pc.jpg"
+    },
+    {
+      "title": "Protecting Cookies with Device Bound Session Credentials",
+      "url": "https://www.blogger.com/browser-not-supported/?ref=/comment/fullpage/post/1176949257541686127/3718049046001981559",
+      "source": "Blogger.com",
+      "date": "Apr 09, 2026",
+      "summary": "Google's Device Bound Session Credentials (DBSC) initiative cryptographically binds browser session cookies to specific devices, preventing attackers from exfiltrating and replaying stolen cookies on other machines.",
+      "image": null
+    },
+    {
+      "title": "Embed a live AI browser agent in your React app with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/embed-a-live-ai-browser-agent-in-your-react-app-with-amazon-bedrock-agentcore/",
+      "source": "Amazon.com",
+      "date": "Apr 09, 2026",
+      "summary": "Amazon Bedrock AgentCore enables developers to embed live browser agent sessions directly into React applications, providing users real-time visibility into AI agents navigating and interacting with web content on their behalf.",
+      "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/04/09/ml-20716-1120x630.png"
+    },
+    {
+      "title": "Next-generation firewall buyer's guide for CISOs",
+      "url": "https://www.techtarget.com/searchsecurity/tip/Next-generation-firewall-buyers-guide-for-CISOs",
+      "source": "Techtarget.com",
+      "date": "Apr 09, 2026",
+      "summary": "Next-generation firewalls offer CISOs advanced threat detection and network enforcement capabilities, but require careful evaluation of deployment complexity, ongoing maintenance demands, and total cost of ownership before procurement.",
+      "image": "https://www.techtarget.com/rms/onlineimages/disaster_recovery_g1173579202.jpg"
+    },
+    {
+      "title": "US software stocks fall as Anthropic's new AI model revives disruption fears",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-software-stocks-fall-as-anthropics-new-ai-model-revives-disruption-fears/articleshow/130147616.cms",
+      "source": "The Times of India",
+      "date": "Apr 09, 2026",
+      "summary": "Anthropic's decision to delay the broad release of a powerful AI model due to concerns over hidden cybersecurity vulnerabilities triggered a sell-off in U.S. software stocks, heightening industry fears about AI-driven disruption to traditional security frameworks.",
+      "image": "https://img.etimg.com/thumb/msid-130147616,width-1200,height-630,imgsize-24772,overlay-etmarkets/articleshow.jpg"
+    },
+    {
+      "title": "US software stocks slump on renewed AI disruption jitters",
+      "url": "https://www.channelnewsasia.com/business/us-software-stocks-slump-renewed-ai-disruption-jitters-6047126",
+      "source": "CNA",
+      "date": "Apr 09, 2026",
+      "summary": "U.S. software stocks declined sharply as Anthropic's latest AI advancements reignited investor fears that autonomous AI agents could displace traditional software solutions, posing potential disruption risks to IAM and security vendors reliant on conventional software licensing models.",
+      "image": "https://dam.mediacorp.sg/image/upload/s--NdqIetVH--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-04-09T152738Z_1_LYNXMPEM38109_RTROPTP_3_ANTHROPIC-AI-CYBERSECURITY.JPG?itok=oWFFJziu"
+    },
+    {
+      "title": "US software stocks fall as Anthropic's new AI model revives disruption fears",
+      "url": "https://www.channelnewsasia.com/business/us-software-stocks-fall-anthropics-new-ai-model-revives-disruption-fears-6047126",
+      "source": "CNA",
+      "date": "Apr 09, 2026",
+      "summary": "Anthropic delayed broad release of a powerful AI model citing concerns over potential exposure of hidden cybersecurity vulnerabilities, triggering a sell-off in U.S. software stocks amid growing fears of AI-driven disruption to traditional security paradigms.",
+      "image": "https://dam.mediacorp.sg/image/upload/s--NdqIetVH--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-04-09T152738Z_1_LYNXMPEM38109_RTROPTP_3_ANTHROPIC-AI-CYBERSECURITY.JPG?itok=oWFFJziu"
+    },
+    {
+      "title": "Investigating Storm-2755: “Payroll pirate” attacks targeting Canadian employees",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/09/investigating-storm-2755-payroll-pirate-attacks-targeting-canadian-employees/",
+      "source": "Microsoft.com",
+      "date": "Apr 09, 2026",
+      "summary": "Microsoft DART researchers have identified Storm-2755, a financially motivated threat actor targeting Canadian employee accounts to gain unauthorized access and redirect payroll deposits.",
+      "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/04/Storm-2755-featured-image.jpg"
+    },
+    {
+      "title": "Introducing Amazon MSK Express Broker power for Kiro",
+      "url": "https://aws.amazon.com/blogs/big-data/introducing-amazon-msk-express-broker-power-for-kiro/",
+      "source": "Amazon.com",
+      "date": "Apr 09, 2026",
+      "summary": "Amazon has introduced MSK Express Broker integration for Kiro, enabling developers to manage and diagnose Amazon MSK Kafka clusters through natural language conversations using contextual AI-powered tooling — security professionals should assess the access controls and permissions granted to Kiro when interacting with MSK cluster configurations and sensitive streaming infrastructure.",
+      "image": "https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2026/04/08/bdb-5759-1120x630.png"
+    },
+    {
+      "title": "When attackers already have the keys, MFA is just another door to open",
+      "url": "https://www.bleepingcomputer.com/news/security/when-attackers-already-have-the-keys-mfa-is-just-another-door-to-open/",
+      "source": "BleepingComputer",
+      "date": "Apr 09, 2026",
+      "summary": "Stolen credentials render traditional MFA ineffective against modern phishing relay and session hijacking attacks, requiring architectural shifts toward continuous user verification methods like wearable biometric authentication rather than relying on session-based security controls.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/04/06/token-login-prompt.jpg"
+    },
+    {
+      "title": "ThreatsDay Bulletin: Hybrid P2P Botnet, 13-Year-Old Apache RCE and 18 More Stories",
+      "url": "https://thehackernews.com/2026/04/threatsday-bulletin-hybrid-p2p-botnet.html",
+      "source": "Internet",
+      "date": "Apr 09, 2026",
+      "summary": "This week's threat roundup highlights a hybrid P2P botnet, a newly exploited 13-year-old Apache RCE vulnerability, and 18 additional security incidents underscoring the persistent risk of unpatched legacy systems and overlooked attack surfaces.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6d4nK1zoWjzSmbdUmGPSycMwGmzcYM2XRrFH_ueobgO_8j7hwRdv8Ct856gg_k29HqAOw1-HGCtPpxyGDcuQIKY53ATLKb8bQCsJR5b_Jf8VqX1igItYBIe4iQazqSRe5fmFrFXS1fCcKdz6enbI6zYngIztjJ_UI262_ynNGJrd1EB_OUV1ZKYVl04-h/s1700-e365/threatsdays-main.jpg"
+    },
+    {
+      "title": "Keycloak 26.6 bringt Zero-Downtime-Updates und Workflows",
+      "url": "https://www.heise.de/news/Keycloak-26-6-bringt-Zero-Downtime-Updates-und-Workflows-11250371.html",
+      "source": "heise online",
+      "date": "Apr 09, 2026",
+      "summary": "Keycloak 26.6 promotes five features to production-ready status, including Federated Client Authentication and Zero-Downtime updates, enhancing the open-source IAM platform's enterprise reliability.",
+      "image": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/5/0/6/0/0/9/0/shutterstock_530643055-cb48726f12054cf8.jpg"
+    },
+    {
+      "title": "The Hidden Security Risks of Shadow AI in Enterprises",
+      "url": "https://thehackernews.com/2026/04/the-hidden-security-risks-of-shadow-ai.html",
+      "source": "Internet",
+      "date": "Apr 09, 2026",
+      "summary": "Unauthorized employee adoption of AI tools outside IT oversight creates significant security blind spots, exposing enterprises to data leakage, compliance violations, and unmanaged access risks that security teams must address through governance frameworks and Shadow AI discovery strategies.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhO6OQHlRJgIjpCieiOfi48Mexu0Puimw_dz6w0h1spC2ZjcqifD2YPod5wd1AtUhr-e7CtAAoZ0bnRGnCH-BZRz4pDlB5Db2hJ4vFqsq5jc42UI4VTGXkxD8gNX1Ods9PpQZL4lk84RNL6EDSeI4YFCdjBgKSqKGimsqcsjekAAmr8CGYr3a2wPkchNYA/s1700-e365/keeper.jpg"
+    },
+    {
+      "title": "From the field to the report and back again: How incident responders can use the Year in Review",
+      "url": "https://blog.talosintelligence.com/from-the-field-to-the-report-and-back-again-how-incident-responders-can-use-the-year-in-review/",
+      "source": "Talosintelligence.com",
+      "date": "Apr 09, 2026",
+      "summary": "Cisco Talos' annual Year in Review report should be actively integrated into defenders' preparation cycles—not just consumed passively—by using its structured threat intelligence to inform incident response planning, tabletop exercises, and security controls validation.",
+      "image": "https://storage.ghost.io/c/af/a0/afa04ee3-414f-4481-8d23-7e7c146f192e/content/images/size/w1200/2026/04/2025YiR-topic_IR.jpg"
+    },
+    {
+      "title": "Google Warns of New Threat Group Targeting BPOs and Helpdesks",
+      "url": "https://www.infosecurity-magazine.com/news/google-warns-group-targeting-bpos/",
+      "source": "Infosecurity Magazine",
+      "date": "Apr 09, 2026",
+      "summary": "Google's Threat Intelligence Group has identified a new extortion threat actor, UNC6783, potentially linked to the \"Raccoon\" persona, that is actively targeting BPO organizations and large enterprises through live chat channels to conduct extortion campaigns.",
+      "image": "https://assets.infosecurity-magazine.com/webpage/og/ee085c96-92f8-4783-936c-46e175e5339e.jpg"
     }
   ]
 }
