@@ -545,7 +545,12 @@ async function load() {
 
     const hero = articles[0];
     const rest = articles.slice(1);
-    const sideItems = articles.slice(0, 6);
+
+    // Use top_stories URLs to pick sidebar items by importance score
+    const topUrls = new Set(data.top_stories || []);
+    const sideItems = topUrls.size > 0
+      ? articles.filter(a => topUrls.has(a.url)).slice(0, 6)
+      : articles.slice(0, 6);
 
     const feedEl = document.getElementById('feed');
     feedEl.innerHTML = `<div class="feed-section">
@@ -652,7 +657,12 @@ async function load() {
 
     const hero = articles[0];
     const rest = articles.slice(1);
-    const sideItems = articles.slice(0, 6);
+
+    // Use top_stories URLs to pick sidebar items by importance score
+    const topUrls = new Set(data.top_stories || []);
+    const sideItems = topUrls.size > 0
+      ? articles.filter(a => topUrls.has(a.url)).slice(0, 6)
+      : articles.slice(0, 6);
 
     const feedEl = document.getElementById('feed');
     feedEl.innerHTML = `<div class="feed-section">
