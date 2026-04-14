@@ -10,7 +10,7 @@ NEWS_KEY = os.environ["NEWS_API_KEY"]
 def fetch_articles():
     url = (
         "https://newsapi.org/v2/everything"
-        "?q=identity+access+management+OR+IAM+OR+%22privileged+access%22+OR+%22zero+trust%22+OR+%22single+sign-on%22+OR+Okta+OR+%22Microsoft+Entra%22+OR+CyberArk+OR+SailPoint"
+        "?q=%22identity+and+access+management%22+OR+%22privileged+access+management%22+OR+%22zero+trust+identity%22+OR+%22Okta%22+OR+%22Microsoft+Entra%22+OR+%22CyberArk%22+OR+%22SailPoint%22+OR+%22identity+governance%22"
         "&language=en"
         "&sortBy=publishedAt"
         "&pageSize=20"
@@ -27,8 +27,8 @@ def summarize(client, article):
     content = f"Title: {article['title']}\nDescription: {article.get('description') or ''}\nContent: {article.get('content') or ''}"
     response = client.messages.create(
         model="claude-sonnet-4-6",
-        max_tokens=300,
-        messages=[{"role": "user", "content": f"Write a 2-3 sentence summary of this news article for IAM professionals, explaining what happened and why it matters:\n\n{content}"}]
+        max_tokens=150,
+        messages=[{"role": "user", "content": f"Summarize this IAM news article in exactly one sentence for security professionals. Reply with only the sentence, no prefix or label:\n\n{content}"}]
     )
     return response.content[0].text.strip()
 
