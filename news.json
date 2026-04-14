@@ -1,0 +1,165 @@
+{
+  "updated": "April 14, 2026 at 20:04 UTC",
+  "articles": [
+    {
+      "title": "localstack-keycloak added to PyPI",
+      "url": "https://pypi.org/project/localstack-keycloak/",
+      "source": "Pypi.org",
+      "date": "Apr 13, 2026",
+      "summary": "A new PyPI package, `localstack-keycloak`, enables security professionals to run Keycloak IAM locally alongside LocalStack for testing and developing identity and access management workflows in simulated AWS environments.",
+      "image": "https://pypi.org/static/images/twitter.abaf4b19.webp"
+    },
+    {
+      "title": "openhound-okta added to PyPI",
+      "url": "https://pypi.org/project/openhound-okta/",
+      "source": "Pypi.org",
+      "date": "Apr 13, 2026",
+      "summary": "A new PyPI package called \"openhound-okta\" has been published that functions as an OpenGraph collector for Okta environments using the OpenHound framework, which security teams should vet carefully before use due to its potential for credential or directory data harvesting.",
+      "image": "https://pypi.org/static/images/twitter.abaf4b19.webp"
+    },
+    {
+      "title": "Top 10 Enterprise Picks for the Best HR Management Software in 2026",
+      "url": "https://thenextweb.com/news/best-hr-management-software-2026/",
+      "source": "The Next Web",
+      "date": "Apr 13, 2026",
+      "summary": "Enterprise HR management platforms in 2026 increasingly integrate identity and access management capabilities, making the selection of the right solution critical for organizations seeking to streamline employee lifecycle management, provisioning, and access governance from a single unified system.",
+      "image": "https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2026/04/best-hr-management-software-2026.png"
+    },
+    {
+      "title": "You Bought a Customer Data Platform. Did You Build for It?",
+      "url": "https://www.cmswire.com/customer-data-platforms/you-bought-a-customer-data-platform-did-you-build-for-it/",
+      "source": "CMSWire",
+      "date": "Apr 13, 2026",
+      "summary": "Without a mature identity framework, governance structure, and clear data ownership, Customer Data Platforms will fail to deliver value regardless of the technology investment made.",
+      "image": "https://www.cmswire.com/-/media/ab2cf420433e4a65a0dd033fafe7eba1.ashx"
+    },
+    {
+      "title": "scopebound added to PyPI",
+      "url": "https://pypi.org/project/scopebound/",
+      "source": "Pypi.org",
+      "date": "Apr 13, 2026",
+      "summary": "A new PyPI package called **scopebound** has been published, claiming to provide zero-trust identity and access enforcement capabilities specifically designed for AI agents.",
+      "image": null
+    },
+    {
+      "title": "How to build effective reward functions with AWS Lambda for Amazon Nova model customization",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-to-build-effective-reward-functions-with-aws-lambda-for-amazon-nova-model-customization/",
+      "source": "Amazon.com",
+      "date": "Apr 13, 2026",
+      "summary": "AWS Lambda's serverless architecture can be leveraged to build scalable reward functions for customizing Amazon Nova AI models using reinforcement learning techniques, which security professionals should monitor for potential misuse in automating adversarial model fine-tuning or evading detection systems.",
+      "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/04/13/ml-20419-1120x630.png"
+    },
+    {
+      "title": "We May Be Living Through the Most Consequential Hundred Days in Cyber History",
+      "url": "https://ringmast4r.substack.com/p/we-may-be-living-through-the-most",
+      "source": "Substack.com",
+      "date": "Apr 13, 2026",
+      "summary": "The first four months of 2026 have seen an unprecedented cascade of major cyber incidents—including Chinese state-sponsored attacks, critical infrastructure breaches, and significant identity and access compromises—that collectively represent a potentially historic inflection point in the global cybersecurity threat landscape.",
+      "image": "https://substackcdn.com/image/fetch/$s_!RcBr!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb09ed54b-8599-421a-919a-7fcb5b93d65a_5760x3840.jpeg"
+    },
+    {
+      "title": "Cybersecurity Market Surges to $351.92 billion by 2030 | CAGR 9.1%",
+      "url": "https://www.globenewswire.com/news-release/2026/04/13/3272649/0/en/Cybersecurity-Market-Surges-to-351-92-billion-by-2030-CAGR-9-1.html",
+      "source": "GlobeNewswire",
+      "date": "Apr 13, 2026",
+      "summary": "The global cybersecurity market is projected to grow from $227.59 billion in 2025 to $351.92 billion by 2030, reflecting a 9.1% CAGR driven by escalating threats and increased enterprise security investment.",
+      "image": "https://ml.globenewswire.com/Resource/Download/afcc5182-4ae0-43a8-a965-4351d590b7ed"
+    },
+    {
+      "title": "\"More secure, reliable, user-friendly\": Microsoft explains why it quietly killed Windows 11's phone activation option",
+      "url": "https://www.windowscentral.com/microsoft/windows-11/microsoft-explains-killed-windows-11-phone-activation",
+      "source": "Windows Central",
+      "date": "Apr 13, 2026",
+      "summary": "Microsoft has eliminated offline phone-based Windows activation, requiring internet connectivity for all Windows 10/11 activations to improve security, reliability, and the overall user authentication experience.",
+      "image": "https://cdn.mos.cms.futurecdn.net/h3agKLDKE9ZKwXkveszGmi-2000-80.jpg"
+    },
+    {
+      "title": "‘No Decision’ is the new breach: Why inaction is becoming a career risk for CISOs in 2026",
+      "url": "https://www.techradar.com/pro/no-decision-is-the-new-breach-why-inaction-is-becoming-a-career-risk-for-cisos-in-2026",
+      "source": "TechRadar",
+      "date": "Apr 13, 2026",
+      "summary": "In 2026, CISOs face greater career risk from slow, unexplained responses to breaches than from the incidents themselves, as boards now measure security leaders on their ability to rapidly scope, communicate, and contain threats.",
+      "image": "https://cdn.mos.cms.futurecdn.net/sqGgDPxHyGtqunPo56h9cL-2560-80.jpg"
+    },
+    {
+      "title": "Sapiom CEO: Software is becoming the ‘customer' of the Internet",
+      "url": "https://www.computerweekly.com/blog/CW-Developer-Network/Sapiom-CEO-Software-is-becoming-the-customer-of-the-Internet",
+      "source": "ComputerWeekly.com",
+      "date": "Apr 13, 2026",
+      "summary": "As AI agents increasingly act autonomously on behalf of humans online, security professionals must rethink traditional IAM, fraud detection, and risk models that were built around human users rather than software as the primary \"customer\" of internet services.",
+      "image": null
+    },
+    {
+      "title": "agentmesh_platform 3.1.0",
+      "url": "https://pypi.org/project/agentmesh_platform/",
+      "source": "Pypi.org",
+      "date": "Apr 13, 2026",
+      "summary": "AgentMesh Platform 3.1.0 introduces a public preview of a cloud-native identity, trust, and governance framework for AI agent ecosystems, functioning as an SSL-equivalent security layer to manage authentication, authorization, and oversight of production AI agents.",
+      "image": "https://pypi.org/static/images/twitter.abaf4b19.webp"
+    },
+    {
+      "title": "Bringing governance and visibility to machine and AI identities",
+      "url": "https://www.helpnetsecurity.com/2026/04/13/archit-lohokare-appviewx-ai-agent-identity/",
+      "source": "Help Net Security",
+      "date": "Apr 13, 2026",
+      "summary": "AppViewX CEO Archit Lohokare warns security professionals that the convergence of machine and AI agent identities demands unified governance and visibility strategies to address the rapidly expanding, often ungoverned non-human identity attack surface.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/04/10082116/archit_lohokare-2-appviewx.webp"
+    },
+    {
+      "title": "agent_governance_toolkit 3.1.0",
+      "url": "https://pypi.org/project/agent_governance_toolkit/",
+      "source": "Pypi.org",
+      "date": "Apr 13, 2026",
+      "summary": "A new Agent Governance Toolkit (v3.1.0) in public preview offers a unified installer and runtime policy enforcement covering the full governance stack, including kernel, trust mesh, runtime supervisor, and reliability engineering components.",
+      "image": "https://pypi.org/static/images/twitter.abaf4b19.webp"
+    },
+    {
+      "title": "okta 3.4.1",
+      "url": "https://pypi.org/project/okta/3.4.1/",
+      "source": "Pypi.org",
+      "date": "Apr 12, 2026",
+      "summary": "Okta has released version 3.4.1 of its Python SDK for the Okta Management API, though full release details are currently inaccessible due to content loading issues.",
+      "image": null
+    },
+    {
+      "title": "The death of standing privilege in the age of AI agents",
+      "url": "https://www.itnews.com.au/feature/the-death-of-standing-privilege-in-the-age-of-ai-agents-624862",
+      "source": "iTnews",
+      "date": "Apr 12, 2026",
+      "summary": "As AI agents increasingly operate as highly privileged identities with dynamic, autonomous access needs, traditional PAM controls built around static standing privilege are becoming obsolete, forcing security teams to adopt just-in-time, ephemeral access models to close critical security gaps.",
+      "image": "https://i.nextmedia.com.au/Features/Untitled_design_(22).jpg"
+    },
+    {
+      "title": "From AI to everything: How Anthropic is taking on tech’s old guard",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/from-ai-to-everything-how-anthropic-is-taking-on-techs-old-guard/articleshow/130210267.cms",
+      "source": "The Times of India",
+      "date": "Apr 12, 2026",
+      "summary": "Anthropic is aggressively expanding into enterprise security with an AI-powered code vulnerability scanning tool, directly challenging established cybersecurity vendors while simultaneously disrupting legal, financial, and HR software markets.",
+      "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-101462,resizemode-75,msid-130210267/tech/artificial-intelligence/from-ai-to-everything-how-anthropic-is-taking-on-techs-old-guard.jpg"
+    },
+    {
+      "title": "django-saml2-auth-community added to PyPI",
+      "url": "https://pypi.org/project/django-saml2-auth-community/",
+      "source": "Pypi.org",
+      "date": "Apr 11, 2026",
+      "summary": "A new community-maintained Django SAML2 authentication library, `django-saml2-auth-community`, has been published to PyPI to simplify SAML SSO integration in Django applications.",
+      "image": "https://pypi.org/static/images/twitter.abaf4b19.webp"
+    },
+    {
+      "title": "Coder Technologies Coder 2.31.9",
+      "url": "https://post.rlsbb.to/coder-technologies-coder-2-31-9/",
+      "source": "Rlsbb.to",
+      "date": "Apr 11, 2026",
+      "summary": "Coder Technologies has released version 2.31.9 of its self-hosted, open-source cloud development environment platform, which enables organizations to maintain complete security and control over developer infrastructure by deploying and managing fully configured environments on their own infrastructure.",
+      "image": null
+    },
+    {
+      "title": "Google Chrome Update Disrupts Infostealer Cookie Theft",
+      "url": "https://hackread.com/google-chrome-update-infostealer-cookie-theft/",
+      "source": "HackRead",
+      "date": "Apr 11, 2026",
+      "summary": "Google's Chrome 146 introduces Device Bound Session Credentials (DBSC) on Windows, binding session cookies to hardware keys to prevent infostealers from hijacking authenticated sessions even after cookie theft.",
+      "image": "https://hackread.com/wp-content/uploads/2026/04/google-chrome-update-infostealer-cookie-theft.jpg"
+    }
+  ]
+}
