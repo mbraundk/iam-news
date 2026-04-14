@@ -5,7 +5,7 @@ from datetime import datetime
 
 client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
-prompt = """Search the web for the 50 most recent news articles about Identity and Access Management (IAM).
+prompt = """Search the web for the 20 most recent news articles about Identity and Access Management (IAM).
 Include topics like: IAM security, identity governance, SSO, MFA, privileged access management (PAM), zero trust, Active Directory, OAuth, SAML, SCIM, Okta, Microsoft Entra, CyberArk, SailPoint, Ping Identity, ForgeRock, and related IAM vendors and technologies.
 
 For each article return a JSON array (no markdown, no backticks, raw JSON only) with exactly these fields:
@@ -43,7 +43,7 @@ if start == -1 or end == -1:
     raise ValueError(f"No JSON array found in response. Full text:\n{raw}")
 
 articles = json.loads(raw[start:end+1])
-articles = articles[:50]
+articles = articles[:20]
 
 output = {
     "updated": datetime.utcnow().strftime("%B %d, %Y at %H:%M UTC"),
