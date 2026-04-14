@@ -3,8 +3,42 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>IAM News</title>
+
+  <!-- Primary SEO -->
+  <title>IAM News – Latest Identity & Access Management News</title>
+  <meta name="description" content="Stay up to date with the latest news in Identity and Access Management (IAM). Daily coverage of zero trust, PAM, SSO, MFA, identity governance, and leading IAM vendors." />
+  <meta name="keywords" content="IAM news, identity and access management, zero trust, privileged access management, PAM, SSO, MFA, Okta, CyberArk, SailPoint, Microsoft Entra, identity governance" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://iamnews.org/" />
+
+  <!-- Open Graph (social sharing) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="IAM News – Latest Identity & Access Management News" />
+  <meta property="og:description" content="Daily news for IAM professionals. Covering zero trust, PAM, SSO, MFA, identity governance, and leading vendors." />
+  <meta property="og:url" content="https://iamnews.org/" />
+  <meta property="og:site_name" content="IAM News" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="IAM News – Latest Identity & Access Management News" />
+  <meta name="twitter:description" content="Daily news for IAM professionals. Covering zero trust, PAM, SSO, MFA, identity governance, and leading vendors." />
+
+  <!-- Structured data: NewsMediaOrganization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsMediaOrganization",
+    "name": "IAM News",
+    "url": "https://iamnews.org/",
+    "description": "Daily news for Identity and Access Management professionals.",
+    "inLanguage": "en"
+  }
+  </script>
+
+  <!-- Performance -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -463,17 +497,19 @@
   </div>
 </div>
 
+<h1 style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap">IAM News – Latest Identity and Access Management News</h1>
 <div class="page">
-  <div class="feed" id="feed">
+  <main class="feed" id="feed" aria-label="IAM news feed">
     <div class="state-box">
       <div class="spinner"></div>
       <p>Loading IAM news…</p>
     </div>
   </div>
-  <div class="sidebar" id="sidebar"></div>
+  </main>
+  <aside class="sidebar" id="sidebar" aria-label="Top stories"></aside>
 </div>
 
-<footer>Updated daily · IAM News</footer>
+<footer role="contentinfo">Updated daily · IAM News</footer>
 
 <script>
 function esc(s) {
@@ -564,6 +600,28 @@ async function load() {
       ${sideItems.map(a => sidebarItem(a)).join('')}
     </div>`;
 
+    // Inject per-article structured data for Google
+    const schema = {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Latest IAM News",
+      "itemListElement": articles.slice(0, 10).map((a, i) => ({
+        "@type": "ListItem",
+        "position": i + 1,
+        "url": a.url,
+        "name": a.title
+      }))
+    };
+    const sd = document.createElement('script');
+    sd.type = 'application/ld+json';
+    sd.textContent = JSON.stringify(schema);
+    document.head.appendChild(sd);
+
+    // Update page title with latest article
+    if (articles[0]) {
+      document.title = articles[0].title + ' – IAM News';
+    }
+
   } catch (e) {
     document.getElementById('feed').innerHTML =
       `<div class="error-box">Could not load news: ${esc(e.message)}</div>`;
@@ -572,12 +630,5 @@ async function load() {
 
 load();
 </script>
-</body>
-</html>
-
-</div>
-
-<footer>Updated daily · IAM News</footer>
-
 </body>
 </html>
