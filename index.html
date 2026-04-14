@@ -463,19 +463,112 @@
   </div>
 </div>
 
-<div class="chips-bar">
-  <div class="chips-inner">
-    <div class="chip active">All</div>
-    <div class="chip">Zero Trust</div>
-    <div class="chip">PAM</div>
-    <div class="chip">Identity Gov.</div>
-    <div class="chip">SSO &amp; MFA</div>
-    <div class="chip">Okta</div>
-    <div class="chip">Microsoft Entra</div>
-    <div class="chip">CyberArk</div>
-    <div class="chip">Standards</div>
+<div class="page">
+  <div class="feed" id="feed">
+    <div class="state-box">
+      <div class="spinner"></div>
+      <p>Loading IAM news…</p>
+    </div>
   </div>
+  <div class="sidebar" id="sidebar"></div>
 </div>
+
+<footer>Updated daily · IAM News</footer>
+
+<script>
+function esc(s) {
+  if (!s) return '';
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function initials(source) {
+  return (source || '?').charAt(0).toUpperCase();
+}
+
+function thumb(url, w, h, r) {
+  if (!url) return '';
+  return `<img style="width:${w}px;height:${h}px;border-radius:${r}px;object-fit:cover;flex-shrink:0" src="${esc(url)}" alt="" loading="lazy" onerror="this.remove()" />`;
+}
+
+function heroCard(a) {
+  const imgHtml = a.image
+    ? `<div class="hero-img-wrap"><img class="hero-img" src="${esc(a.image)}" alt="" loading="lazy" onerror="this.parentElement.remove()"></div>`
+    : '';
+  return `<a href="${esc(a.url)}" target="_blank" rel="noopener" class="story-hero" style="text-decoration:none;display:block">
+    ${imgHtml}
+    <div class="hero-body">
+      <div class="hero-source"><span class="source-dot">${initials(a.source)}</span>${esc(a.source)}</div>
+      <div class="hero-title">${esc(a.title)}</div>
+      <div class="hero-summary">${esc(a.summary)}</div>
+      <div class="hero-meta">${esc(a.date)}</div>
+    </div>
+  </a>`;
+}
+
+function storyCard(a) {
+  return `<a href="${esc(a.url)}" target="_blank" rel="noopener" class="story-cluster" style="text-decoration:none;display:block">
+    <div class="cluster-main">
+      <div class="cluster-text">
+        <div class="cluster-source"><span class="source-dot">${initials(a.source)}</span>${esc(a.source)}</div>
+        <div class="cluster-title">${esc(a.title)}</div>
+        <div class="cluster-summary">${esc(a.summary)}</div>
+        <div class="cluster-meta">${esc(a.date)}</div>
+      </div>
+      ${thumb(a.image, 96, 72, 8)}
+    </div>
+  </a>`;
+}
+
+function sidebarItem(a) {
+  const t = a.image
+    ? `<img class="sidebar-thumb" src="${esc(a.image)}" alt="" loading="lazy" onerror="this.parentElement.removeChild(this)">`
+    : '';
+  return `<a href="${esc(a.url)}" target="_blank" rel="noopener" class="sidebar-item" style="text-decoration:none">
+    <div class="sidebar-item-text">
+      <div class="sidebar-item-source">${esc(a.source)} · ${esc(a.date)}</div>
+      <div class="sidebar-item-title">${esc(a.title)}</div>
+    </div>
+    ${t}
+  </a>`;
+}
+
+async function load() {
+  try {
+    const res = await fetch('news.json?t=' + Date.now());
+    if (!res.ok) throw new Error('news.json not found — run the fetch script first.');
+    const data = await res.json();
+    const articles = data.articles || [];
+
+    document.getElementById('updated').textContent = data.updated ? 'Updated ' + data.updated : '';
+
+    if (articles.length === 0) throw new Error('No articles found.');
+
+    const hero = articles[0];
+    const rest = articles.slice(1);
+    const sideItems = articles.slice(0, 6);
+
+    const feedEl = document.getElementById('feed');
+    feedEl.innerHTML = `<div class="feed-section">
+      ${heroCard(hero)}
+      ${rest.map(a => storyCard(a)).join('')}
+    </div>`;
+
+    const sidebarEl = document.getElementById('sidebar');
+    sidebarEl.innerHTML = `<div class="sidebar-card">
+      <div class="sidebar-header">Top stories</div>
+      ${sideItems.map(a => sidebarItem(a)).join('')}
+    </div>`;
+
+  } catch (e) {
+    document.getElementById('feed').innerHTML =
+      `<div class="error-box">Could not load news: ${esc(e.message)}</div>`;
+  }
+}
+
+load();
+</script>
+</body>
+</html>
 
 <div class="page">
   <div class="feed" id="feed">
