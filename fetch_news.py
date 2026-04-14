@@ -13,7 +13,7 @@ def fetch_articles():
         "?q=%22identity+and+access+management%22+OR+%22privileged+access+management%22+OR+%22zero+trust+identity%22+OR+%22Okta%22+OR+%22Microsoft+Entra%22+OR+%22CyberArk%22+OR+%22SailPoint%22+OR+%22identity+governance%22"
         "&language=en"
         "&sortBy=publishedAt"
-        "&pageSize=30"
+        "&pageSize=100"
         f"&apiKey={NEWS_KEY}"
     )
     req = urllib.request.Request(url, headers={"User-Agent": "IAMNews/1.0"})
