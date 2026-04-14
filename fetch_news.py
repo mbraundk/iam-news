@@ -13,7 +13,7 @@ def fetch_articles():
         "?q=%22identity+and+access+management%22+OR+%22privileged+access+management%22+OR+%22zero+trust+identity%22+OR+%22Okta%22+OR+%22Microsoft+Entra%22+OR+%22CyberArk%22+OR+%22SailPoint%22+OR+%22identity+governance%22"
         "&language=en"
         "&sortBy=publishedAt"
-        "&pageSize=20"
+        "&pageSize=50"
         f"&apiKey={NEWS_KEY}"
     )
     req = urllib.request.Request(url, headers={"User-Agent": "IAMNews/1.0"})
@@ -21,7 +21,9 @@ def fetch_articles():
         data = json.loads(r.read())
     if data.get("status") != "ok":
         raise ValueError(f"NewsAPI error: {data.get('message')}")
-    return data["articles"]
+    articles = data["articles"]
+    articles = [a for a in articles if "pypi.org" not in (a.get("url") or "")]
+    return articles
 
 def summarize(client, article):
     content = f"Title: {article['title']}\nDescription: {article.get('description') or ''}\nContent: {article.get('content') or ''}"
