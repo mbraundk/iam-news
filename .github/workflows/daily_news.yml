@@ -2,7 +2,7 @@ name: Daily IAM News Fetch
 
 on:
   schedule:
-    - cron: '0 7 * * *'
+    - cron: '0 7 * * */2'
   workflow_dispatch:
 
 jobs:
@@ -26,6 +26,7 @@ jobs:
       - name: Fetch IAM news
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
         run: python fetch_news.py
 
       - name: Commit and push news.json
