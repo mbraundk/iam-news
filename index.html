@@ -500,14 +500,13 @@ function initials(source) {
 }
 
 function thumb(url, w, h, r) {
-  const ph = `<div class="cluster-thumb-placeholder" style="width:${w}px;height:${h}px;border-radius:${r}px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21,15 16,10 5,21"/></svg></div>`;
-  if (!url) return ph;
-  return `<img style="width:${w}px;height:${h}px;border-radius:${r}px;object-fit:cover;flex-shrink:0" src="${esc(url)}" alt="" loading="lazy" onerror="this.outerHTML='${ph.replace(/'/g,"&#39;")}'" />`;
+  if (!url) return '';
+  return `<img style="width:${w}px;height:${h}px;border-radius:${r}px;object-fit:cover;flex-shrink:0" src="${esc(url)}" alt="" loading="lazy" onerror="this.remove()" />`;
 }
 
 function heroCard(a) {
   const imgHtml = a.image
-    ? `<div class="hero-img-wrap"><img class="hero-img" src="${esc(a.image)}" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>`
+    ? `<div class="hero-img-wrap"><img class="hero-img" src="${esc(a.image)}" alt="" loading="lazy" onerror="this.parentElement.remove()"></div>`
     : '';
   return `<a href="${esc(a.url)}" target="_blank" rel="noopener" class="story-hero" style="text-decoration:none;display:block">
     ${imgHtml}
@@ -536,8 +535,8 @@ function storyCard(a) {
 
 function sidebarItem(a) {
   const t = a.image
-    ? `<img class="sidebar-thumb" src="${esc(a.image)}" alt="" loading="lazy" onerror="this.outerHTML='<div class=sidebar-thumb-ph></div>'">`
-    : `<div class="sidebar-thumb-ph"></div>`;
+    ? `<img class="sidebar-thumb" src="${esc(a.image)}" alt="" loading="lazy" onerror="this.parentElement.removeChild(this)">`
+    : '';
   return `<a href="${esc(a.url)}" target="_blank" rel="noopener" class="sidebar-item" style="text-decoration:none">
     <div class="sidebar-item-text">
       <div class="sidebar-item-source">${esc(a.source)} · ${esc(a.date)}</div>
