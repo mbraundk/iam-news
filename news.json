@@ -1,21 +1,21 @@
 {
-  "updated": "April 14, 2026 at 21:06 UTC",
+  "updated": "April 14, 2026 at 21:12 UTC",
   "articles": [
     {
       "title": "Sapiom CEO: Software is becoming the ‘customer' of the Internet",
       "url": "https://www.computerweekly.com/blog/CW-Developer-Network/Sapiom-CEO-Software-is-becoming-the-customer-of-the-Internet",
       "source": "ComputerWeekly.com",
       "date": "Apr 13, 2026",
-      "summary": "A CEO-level perspective argues that AI agents are becoming the primary \"customers\" of the internet, signaling a fundamental shift in how authentication and identity systems must evolve to handle non-human software identities at scale.",
+      "summary": "Sapiom CEO argues that AI agents are becoming the primary \"customers\" of the internet, raising identity and authentication challenges as traditional IAM models built for humans struggle to accommodate non-human software identities.",
       "image": null,
-      "importance": 6
+      "importance": 5
     },
     {
       "title": "Bringing governance and visibility to machine and AI identities",
       "url": "https://www.helpnetsecurity.com/2026/04/13/archit-lohokare-appviewx-ai-agent-identity/",
       "source": "Help Net Security",
       "date": "Apr 13, 2026",
-      "summary": "AppViewX CEO discusses the convergence of machine and AI agent identity management, highlighting governance and visibility challenges that IAM professionals must address as AI adoption accelerates.",
+      "summary": "AppViewX CEO discusses how AI agent identities are converging with machine identity management, highlighting growing governance and visibility challenges that IAM professionals must address as non-human identities proliferate.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/04/10082116/archit_lohokare-2-appviewx.webp",
       "importance": 7
     },
@@ -24,7 +24,7 @@
       "url": "https://www.itnews.com.au/feature/the-death-of-standing-privilege-in-the-age-of-ai-agents-624862",
       "source": "iTnews",
       "date": "Apr 12, 2026",
-      "summary": "This article argues that AI agents are emerging as highly privileged non-human identities that traditional PAM controls are ill-equipped to manage, signaling a critical evolution in privileged access management strategy for IAM professionals.",
+      "summary": "This article argues that AI agents are emerging as highly privileged identities that expose critical gaps in traditional PAM controls, advocating for just-in-time access and ephemeral credentials as the new standard for managing non-human identities.",
       "image": "https://i.nextmedia.com.au/Features/Untitled_design_(22).jpg",
       "importance": 8
     },
@@ -33,7 +33,7 @@
       "url": "https://hackread.com/google-chrome-update-infostealer-cookie-theft/",
       "source": "HackRead",
       "date": "Apr 11, 2026",
-      "summary": "Google's Device Bound Session Credentials (DBSC) in Chrome 146 binds session cookies to hardware keys on Windows, directly countering infostealer-based session hijacking attacks that bypass MFA and SSO protections — a meaningful defense for IAM professionals managing browser-based authentication risks.",
+      "summary": "Google's Device Bound Session Credentials (DBSC) in Chrome 146 binds session cookies to hardware keys on Windows, directly countering infostealer-based session hijacking attacks that bypass MFA and SSO protections—a significant development for IAM professionals managing browser-based authentication security.",
       "image": "https://hackread.com/wp-content/uploads/2026/04/google-chrome-update-infostealer-cookie-theft.jpg",
       "importance": 7
     },
@@ -42,7 +42,7 @@
       "url": "https://hackread.com/unc6783-hackers-fake-okta-pages-corporate-breach/",
       "source": "HackRead",
       "date": "Apr 10, 2026",
-      "summary": "Google's Threat Intelligence Group warns of UNC6783, a threat actor conducting targeted corporate breaches via fake Okta login pages and social engineering impersonation of IT support staff, posing a critical phishing and credential theft risk for organizations using Okta SSO.",
+      "summary": "Google Threat Intelligence Group warns of UNC6783, a threat actor using fake Okta login pages and social engineering impersonation tactics to breach corporate networks and exfiltrate sensitive data, directly threatening organizations relying on Okta for identity management.",
       "image": "https://hackread.com/wp-content/uploads/2026/04/unc6783-hackers-fake-okta-pages-corporate-breach.jpg",
       "importance": 9
     },
@@ -51,17 +51,143 @@
       "url": "https://www.helpnetsecurity.com/2026/04/10/google-chrome-device-bound-session-credentials/",
       "source": "Help Net Security",
       "date": "Apr 10, 2026",
-      "summary": "Google Chrome is shipping device-bound session credentials (DBSC) to cryptographically tie authentication cookies to specific devices, directly countering infostealer-based session hijacking attacks that bypass MFA and threaten enterprise SSO sessions.",
+      "summary": "Google Chrome is shipping device-bound session credentials (DBSC) to cryptographically tie authentication cookies to specific devices, directly countering infostealer-based session hijacking attacks that bypass MFA and SSO protections.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/04/10112054/cookie-1500.webp",
       "importance": 7
+    },
+    {
+      "title": "Google Chrome 146 Adds Device Bound Session Credentials to Stop Session Cookie Theft on Windows",
+      "url": "https://www.ghacks.net/2026/04/10/google-chrome-146-adds-device-bound-session-credentials-to-stop-session-cookie-theft-on-windows/",
+      "source": "Ghacks Technology News",
+      "date": "Apr 10, 2026",
+      "summary": "Google Chrome 146 introduces Device Bound Session Credentials (DBSC) for Windows, cryptographically binding session cookies to device hardware—directly addressing session hijacking attacks that bypass MFA and represent a critical threat vector IAM professionals must account for in their authentication strategies.",
+      "image": "https://www.ghacks.net/wp-content/uploads/2026/04/gHacks-articles-2026-04-10T090108.645.png",
+      "importance": 8
+    },
+    {
+      "title": "Google Chrome adds infostealer protection against session cookie theft",
+      "url": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/",
+      "source": "BleepingComputer",
+      "date": "Apr 09, 2026",
+      "summary": "Google Chrome 146 introduces Device Bound Session Credentials (DBSC) to cryptographically bind session cookies to a specific device, directly addressing session hijacking attacks that bypass MFA and authentication controls — a critical threat vector for IAM practitioners.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2023/06/16/Google-Chrome-headpic.jpg",
+      "importance": 8
+    },
+    {
+      "title": "'Several dozen' high-value corporations hit by new extortion crew in helpdesk phishing spree",
+      "url": "https://www.theregister.com/2026/04/09/several_dozen_highvalue_corporations_targeted/",
+      "source": "Theregister.com",
+      "date": "Apr 09, 2026",
+      "summary": "A new extortion group is compromising enterprise accounts by social-engineering IT helpdesks—a direct attack vector against identity verification processes that IAM teams need to defend against, consistent with tactics used in high-profile MFA bypass incidents.",
+      "image": "https://regmedia.co.uk/2022/10/26/shutterstock_racoon_pc.jpg",
+      "importance": 7
+    },
+    {
+      "title": "Protecting Cookies with Device Bound Session Credentials",
+      "url": "https://www.blogger.com/browser-not-supported/?ref=/comment/fullpage/post/1176949257541686127/3718049046001981559",
+      "source": "Blogger.com",
+      "date": "Apr 09, 2026",
+      "summary": "Google's Chrome team is advancing Device Bound Session Credentials (DBSC), a security mechanism that cryptographically binds session cookies to specific devices, directly addressing session hijacking attacks that can bypass MFA and SSO protections.",
+      "image": null,
+      "importance": 7
+    },
+    {
+      "title": "Investigating Storm-2755: “Payroll pirate” attacks targeting Canadian employees",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/09/investigating-storm-2755-payroll-pirate-attacks-targeting-canadian-employees/",
+      "source": "Microsoft.com",
+      "date": "Apr 09, 2026",
+      "summary": "Microsoft DART researchers detail Storm-2755, a financially motivated threat actor compromising Canadian employee accounts to redirect payroll, highlighting critical risks around account takeover, identity-based attacks, and the need for strong MFA and access controls in enterprise environments.",
+      "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/04/Storm-2755-featured-image.jpg",
+      "importance": 8
+    },
+    {
+      "title": "When attackers already have the keys, MFA is just another door to open",
+      "url": "https://www.bleepingcomputer.com/news/security/when-attackers-already-have-the-keys-mfa-is-just-another-door-to-open/",
+      "source": "BleepingComputer",
+      "date": "Apr 09, 2026",
+      "summary": "Analysis of the Figure breach (967,200 email records exposed) argues that stolen credentials render traditional MFA ineffective and advocates for wearable biometric authentication that verifies users rather than sessions to block phishing relays and MFA bypass attacks—directly relevant to IAM architects reconsidering authentication strategies.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/04/06/token-login-prompt.jpg",
+      "importance": 7
+    },
+    {
+      "title": "Keycloak 26.6 bringt Zero-Downtime-Updates und Workflows",
+      "url": "https://www.heise.de/news/Keycloak-26-6-bringt-Zero-Downtime-Updates-und-Workflows-11250371.html",
+      "source": "heise online",
+      "date": "Apr 09, 2026",
+      "summary": "Keycloak 26.6 releases with five features graduating to production status, including Federated Client Authentication and Zero-Downtime Updates, which are significant operational improvements for organizations running this widely-used open-source IAM platform.",
+      "image": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/5/0/6/0/0/9/0/shutterstock_530643055-cb48726f12054cf8.jpg",
+      "importance": 7
+    },
+    {
+      "title": "AI agent intent is a starting point, not a security strategy",
+      "url": "https://www.helpnetsecurity.com/2026/04/09/itamar-apelblat-token-security-ai-agents-security-risks/",
+      "source": "Help Net Security",
+      "date": "Apr 09, 2026",
+      "summary": "Token Security research reveals 65% of agentic AI chatbots hold live access credentials despite never being used, highlighting critical non-human identity and credential sprawl risks that IAM professionals must address as agentic AI adoption grows.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/04/07091618/itamar_apelblat-2-token_security.webp",
+      "importance": 7
+    },
+    {
+      "title": "Microsoft Confirms New And Widespread 2FA Code Attacks Ongoing",
+      "url": "https://www.forbes.com/sites/daveywinder/2026/04/08/microsoft-warning-new-and-widespread-2fa-code-attacks-confirmed/",
+      "source": "Forbes",
+      "date": "Apr 08, 2026",
+      "summary": "Microsoft has confirmed an active, widespread MFA device code attack campaign (\"EvilTokens\") compromising hundreds of organizations daily, representing a critical threat to authentication security that IAM professionals must address immediately.",
+      "image": "https://s.yimg.com/lo/mysterio/api/976FD2E9A5306C72A79C94ABC34FFC0F517AD877F96BE98F012C3B888EDDDD12/subgraphmysterio/resizefit_w1200;quality_90;format_webp/https:%2F%2Fs.yimg.com%2Fos%2Fen%2Fforbes_contributor_845%2Ffa57244bbfe3468c73cb2df8d4b2fca6",
+      "importance": 9
+    },
+    {
+      "title": "Auth0 Metric Streams（Beta）でRPSをNew Relicで監視してみた",
+      "url": "https://dev.classmethod.jp/articles/auth0-metric-streams/",
+      "source": "Classmethod.jp",
+      "date": "Apr 08, 2026",
+      "summary": "A technical tutorial (in Japanese) demonstrates how to monitor Auth0 authentication requests-per-second (RPS) metrics using the beta Metric Streams feature integrated with New Relicobservability platform, relevant to teams managing Auth0 deployments.",
+      "image": "https://devio2024-media.developers.io/image/upload/v1775645222/user-gen-eyecatch/nflteafozwooctzmkdke.png",
+      "importance": 4
+    },
+    {
+      "title": "What managing partners should ask AI vendors before signing any contract",
+      "url": "https://www.helpnetsecurity.com/2026/04/08/kumar-ravi-tmf-group-professional-services-cybersecurity-risk/",
+      "source": "Help Net Security",
+      "date": "Apr 08, 2026",
+      "summary": "TMF Group's CSRO argues that over-privileged access and weak workflow controls represent a greater threat than ransomware, offering IAM-relevant guidance on evaluating AI vendor contracts for access control risks.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/04/07083649/kumar_ravi-2-tmf_group2.webp",
+      "importance": 6
+    },
+    {
+      "title": "Hundreds of orgs compromised daily in Microsoft device code phishing attacks",
+      "url": "https://www.theregister.com/2026/04/07/microsoft_device_code_phishing/",
+      "source": "Theregister.com",
+      "date": "Apr 07, 2026",
+      "summary": "A sophisticated phishing campaign is compromising hundreds of organizations daily by exploiting Microsoft's device code authentication flow to steal OAuth tokens, effectively bypassing MFA and granting persistent access to corporate email—a critical threat to IAM defenders relying on Microsoft Entra/Azure AD authentication.",
+      "image": "https://regmedia.co.uk/2021/09/27/microsoft_shutterstock.jpg",
+      "importance": 9
+    },
+    {
+      "title": "Agentic AI's role in amplifying and creating insider risks",
+      "url": "https://www.techtarget.com/searchsecurity/feature/Agentic-AIs-role-in-amplifying-and-creating-insider-risks",
+      "source": "Techtarget.com",
+      "date": "Apr 07, 2026",
+      "summary": "Agentic AI is emerging as a distinct insider risk vector requiring IAM professionals to extend identity governance, access controls, and monitoring frameworks to cover non-human AI agent identities alongside human users.",
+      "image": "https://www.techtarget.com/rms/onlineimages/ai_g1183318665.jpg",
+      "importance": 6
+    },
+    {
+      "title": "Show HN: QRAuth – Open-source QR verification with passkeys and device trust",
+      "url": "https://github.com/QRAuth-io/qrauth",
+      "source": "Github.com",
+      "date": "Apr 07, 2026",
+      "summary": "An open-source identity verification platform called QRAuth has launched, combining QR codes, WebAuthn passkeys, and device trust into a single SDK for passwordless authentication and physical access control — potentially useful for IAM practitioners evaluating passkey implementations, but as an early-stage open-source project with limited adoption signals.",
+      "image": "https://opengraph.githubassets.com/23c6b717ac19798ad90144d50cfd69d16a23d784180b4650d3b71f07ef42a06f/qrauth-io/qrauth",
+      "importance": 5
     }
   ],
   "top_stories": [
     "https://hackread.com/unc6783-hackers-fake-okta-pages-corporate-breach/",
+    "https://www.forbes.com/sites/daveywinder/2026/04/08/microsoft-warning-new-and-widespread-2fa-code-attacks-confirmed/",
+    "https://www.theregister.com/2026/04/07/microsoft_device_code_phishing/",
     "https://www.itnews.com.au/feature/the-death-of-standing-privilege-in-the-age-of-ai-agents-624862",
-    "https://www.helpnetsecurity.com/2026/04/13/archit-lohokare-appviewx-ai-agent-identity/",
-    "https://hackread.com/google-chrome-update-infostealer-cookie-theft/",
-    "https://www.helpnetsecurity.com/2026/04/10/google-chrome-device-bound-session-credentials/",
-    "https://www.computerweekly.com/blog/CW-Developer-Network/Sapiom-CEO-Software-is-becoming-the-customer-of-the-Internet"
+    "https://www.ghacks.net/2026/04/10/google-chrome-146-adds-device-bound-session-credentials-to-stop-session-cookie-theft-on-windows/",
+    "https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/"
   ]
 }
