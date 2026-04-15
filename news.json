@@ -1,22 +1,13 @@
 {
-  "updated": "April 15, 2026 at 08:36 UTC",
+  "updated": "April 15, 2026 at 10:45 UTC",
   "top_stories": [
     {
       "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
       "url": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
       "source": "Krebs on Security",
       "date": "Apr 07, 2026",
-      "summary": "Russian military intelligence-linked threat actors exploited vulnerabilities in legacy internet routers to harvest Microsoft Office authentication tokens at scale, affecting over 18,000 networks. The campaign leveraged known router flaws to silently intercept authentication tokens without deploying malware, representing a sophisticated token-theft attack against Microsoft's authentication infrastructure. This incident highlights critical vulnerabilities in token-based authentication systems and underscores the real-world risk of credential and session token theft as an attack vector that bypasses traditional MFA protections.",
+      "summary": "Russian military intelligence hackers exploited vulnerabilities in older internet routers to mass harvest Microsoft Office authentication tokens across more than 18,000 networks. The campaign enabled token theft without deploying malware, representing a large-scale attack on authentication infrastructure affecting enterprise Office users globally.",
       "image": null,
-      "importance": 9
-    },
-    {
-      "title": "The death of standing privilege in the age of AI agents",
-      "url": "https://www.itnews.com.au/feature/the-death-of-standing-privilege-in-the-age-of-ai-agents-624862",
-      "source": "iTnews",
-      "date": "Apr 12, 2026",
-      "summary": "The article examines how AI agents are emerging as highly privileged identities that expose critical gaps in traditional Privileged Access Management (PAM) frameworks. Unlike human users, AI agents operate continuously and autonomously, making standing privilege models—where access is persistently granted—particularly dangerous and ill-suited to govern their behavior. This development represents a significant inflection point for IAM and PAM architecture, as organizations deploying agentic AI must reconsider foundational access control models including just-in-time privilege, dynamic authorization, and non-human identity governance.",
-      "image": "https://i.nextmedia.com.au/Features/Untitled_design_(22).jpg",
       "importance": 9
     },
     {
@@ -24,7 +15,7 @@
       "url": "https://hackread.com/unc6783-hackers-fake-okta-pages-corporate-breach/",
       "source": "HackRead",
       "date": "Apr 10, 2026",
-      "summary": "A threat actor tracked as UNC6783 is conducting corporate breach campaigns by impersonating support staff and deploying fraudulent Okta login pages to harvest credentials and gain unauthorized access to enterprise systems. The group combines social engineering tactics with fake identity provider interfaces, specifically targeting Okta's widely deployed SSO infrastructure to intercept authentication credentials at scale. This campaign highlights the continued exploitation of trusted IAM platforms as attack vectors, with identity-layer phishing representing a critical threat to organizations relying on Okta for centralized authentication.",
+      "summary": "A threat group tracked as UNC6783 is conducting a corporate breach campaign by impersonating support staff and using fake Okta login pages to steal credentials and access corporate systems. The attackers combine social engineering with the fraudulent Okta authentication pages to exfiltrate sensitive data from targeted organizations.",
       "image": "https://hackread.com/wp-content/uploads/2026/04/unc6783-hackers-fake-okta-pages-corporate-breach.jpg",
       "importance": 9
     },
@@ -33,17 +24,26 @@
       "url": "https://thehackernews.com/2026/04/google-rolls-out-dbsc-in-chrome-146-to.html",
       "source": "The Hacker News",
       "date": "Apr 10, 2026",
-      "summary": "Google has launched Device Bound Session Credentials (DBSC) as a generally available feature in Chrome 146 for Windows users, with macOS support planned in a future release. DBSC cryptographically binds browser sessions to the device using secure hardware, preventing stolen session cookies from being replayed by attackers even after successful theft. This development is highly significant to IAM professionals as session hijacking is a primary method for bypassing MFA and SSO protections, and broad adoption of DBSC could fundamentally reduce post-authentication token theft attacks.",
+      "summary": "Google has made Device Bound Session Credentials (DBSC) generally available to Windows users in Chrome 146, a security feature that cryptographically binds browser sessions to a specific device to prevent session token theft. DBSC uses the device's TPM chip to tie authentication sessions to hardware, making stolen session cookies unusable on other devices.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiC-kFnk6uDzN76983rxMJBgJzi5ByxqZ0SM5RAfG1171e3I_lRUCBHIZ0kmMRkxERMiWEO9WRX3D6mkadUuRhw69KYHi4VzPrIa4s4IVilNmFANa2EMbuk1blKF_4ChwqIBuTb4FLj_dqhTDUDsivEnw8OmDL85giaaJTiqATwZArXUq6_3_X7tfd_RLbV/s1600/chrome-cookies.jpg",
       "importance": 8
     },
     {
-      "title": "Google Chrome Update Disrupts Infostealer Cookie Theft",
-      "url": "https://hackread.com/google-chrome-update-infostealer-cookie-theft/",
-      "source": "HackRead",
-      "date": "Apr 11, 2026",
-      "summary": "Google has introduced Device Bound Session Credentials (DBSC) in Chrome 146, a security feature that binds session cookies to hardware keys on Windows devices, rendering stolen cookies unusable by infostealers. DBSC leverages cryptographic hardware (such as TPM chips) to cryptographically tie browser sessions to specific devices, directly countering a major attack vector where malware exfiltrates session cookies to bypass authentication entirely. This development carries significant IAM implications as session cookie theft has been a primary method for circumventing MFA and SSO protections, and DBSC represents a platform-level mitigation that could influence enterprise authentication architecture and browser security policy.",
-      "image": "https://hackread.com/wp-content/uploads/2026/04/google-chrome-update-infostealer-cookie-theft.jpg",
+      "title": "The death of standing privilege in the age of AI agents",
+      "url": "https://www.itnews.com.au/feature/the-death-of-standing-privilege-in-the-age-of-ai-agents-624862",
+      "source": "iTnews",
+      "date": "Apr 12, 2026",
+      "summary": "The article addresses the emergence of AI agents as highly privileged identities that expose limitations in traditional Privileged Access Management (PAM) controls. The core argument centers on the inadequacy of standing privilege models for managing AI agent access, implying a need for just-in-time or ephemeral privilege approaches.",
+      "image": "https://i.nextmedia.com.au/Features/Untitled_design_(22).jpg",
+      "importance": 8
+    },
+    {
+      "title": "Google Chrome 146 Adds Device Bound Session Credentials to Stop Session Cookie Theft on Windows",
+      "url": "https://www.ghacks.net/2026/04/10/google-chrome-146-adds-device-bound-session-credentials-to-stop-session-cookie-theft-on-windows/",
+      "source": "Ghacks Technology News",
+      "date": "Apr 10, 2026",
+      "summary": "Google has introduced Device Bound Session Credentials (DBSC) in Chrome 146 for Windows, a security feature designed to prevent session cookie theft. DBSC cryptographically binds browser sessions to a specific device, making stolen session cookies unusable on other machines.",
+      "image": "https://www.ghacks.net/wp-content/uploads/2026/04/gHacks-articles-2026-04-10T090108.645.png",
       "importance": 8
     }
   ],
@@ -53,7 +53,7 @@
       "url": "https://www.darkreading.com/vulnerabilities-threats/privilege-elevation-dominates-microsoft-patch-update",
       "source": "Dark Reading",
       "date": "Apr 14, 2026",
-      "summary": "Microsoft's latest patch update addressed 165 vulnerabilities, with privilege elevation bugs comprising more than half of the total, including two zero-day vulnerabilities in that category. Elevation-of-privilege flaws are particularly significant in IAM contexts as they allow attackers to bypass access controls and gain unauthorized permissions beyond their intended authorization level. The scale of this patch cycle and the dominance of privilege-related vulnerabilities underscores ongoing risks to access control integrity across Microsoft environments widely used in enterprise IAM deployments.",
+      "summary": "Microsoft released a massive patch update addressing 165 vulnerabilities, with privilege elevation bugs accounting for more than half of the total. Two zero-day vulnerabilities were included among the elevation-of-privilege flaws, making this a significant update for teams managing privileged access.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt0c595c01e195b02e/69dea89ff56bbb6d65296357/patch_tomeqs_shutterstock.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 7
     },
@@ -62,16 +62,16 @@
       "url": "https://www.darkreading.com/cloud-security/apt41-zero-detection-backdoor-harvest-cloud-credentials",
       "source": "Dark Reading",
       "date": "Apr 13, 2026",
-      "summary": "APT41, a China-backed advanced persistent threat group, has deployed a new \"zero-detection\" backdoor specifically designed to harvest cloud credentials across AWS, Google Azure, and Alibaba environments. The campaign leverages typosquatting techniques to disguise command-and-control communications, targeting identity credentials stored in major cloud platforms. This development is significant to IAM professionals as it demonstrates sophisticated nation-state focus on cloud identity infrastructure, highlighting risks to credential stores and cloud access management systems.",
+      "summary": "APT41, a China-backed threat group, has deployed a new backdoor specifically designed to harvest credentials from major cloud platforms including AWS, Google Azure, and Alibaba. The group is using typosquatting techniques to obscure command-and-control communications while targeting cloud identity credentials.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt2e8cc931a1c1d4d4/69dcc2c014d9c34775418603/chinaiptheft_Pixels_Hunter_shutterstock.jpg?width=1280&auto=webp&quality=80&disable=upscale",
-      "importance": 7
+      "importance": 6
     },
     {
       "title": "Your Next Breach Will Look Like Business as Usual",
       "url": "https://www.darkreading.com/identity-access-management-security/your-next-breach-business-as-usual",
       "source": "Dark Reading",
       "date": "Apr 10, 2026",
-      "summary": "The article addresses the growing threat of credential-based attacks and the detection model shifts required to counter them. It focuses on how attackers increasingly leverage stolen or compromised credentials to blend in with normal activity, making traditional perimeter-based detection insufficient. The piece is directly relevant to IAM professionals as credential security, identity-based threat detection, and behavioral analytics sit at the intersection of authentication and access management disciplines.",
+      "summary": "The article addresses the growing threat of credential-based attacks and the detection model shifts required to counter them. It focuses on how attackers are using legitimate credentials to blend in with normal activity, making identity-centric detection approaches critical for cybersecurity teams.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt331a3aad1718e6b2/69d856203032b2ee7b4bf00d/login_page_Yuen_Man_Cheung_Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 7
     },
@@ -80,7 +80,7 @@
       "url": "https://www.darkreading.com/threat-intelligence/russias-fancy-bear-apt-continues-global-onslaught",
       "source": "Dark Reading",
       "date": "Apr 09, 2026",
-      "summary": "A report highlights ongoing global cyberattack activity by Russia's Fancy Bear (APT28) threat group, with security experts noting the group's continued effectiveness against a wide range of targets. The coverage emphasizes patching and zero trust architectures as key defensive measures against the espionage group's tactics. While zero trust is mentioned as a recommended framework, the article is primarily threat intelligence reporting rather than substantive IAM-specific coverage.",
+      "summary": "Russia's Fancy Bear APT group continues its global cyber espionage campaign targeting organizations of varying technical sophistication. Security experts are recommending patching and zero trust implementation as non-negotiable defenses against the threat actor.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltee215733d1f4849e/69d6b1253032b219f34bebeb/Grizzly_bear_photo-fox_Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 5
     },
@@ -89,7 +89,7 @@
       "url": "https://www.bleepingcomputer.com/news/security/over-100-chrome-extensions-in-web-store-target-users-accounts-and-data/",
       "source": "Bleeping Computer",
       "date": "Apr 14, 2026",
-      "summary": "Over 100 malicious Chrome Web Store extensions have been discovered stealing Google OAuth2 Bearer tokens alongside deploying backdoors and conducting ad fraud. The attack specifically targets OAuth2 authentication tokens, which are widely used across enterprise environments for delegated authorization and single sign-on flows. The campaign highlights ongoing risks to token-based identity systems, where compromised bearer tokens can enable unauthorized access to protected resources without requiring credential theft.",
+      "summary": "Over 100 malicious Chrome Web Store extensions have been discovered stealing Google OAuth2 Bearer tokens alongside deploying backdoors and conducting ad fraud. The attack targets OAuth2 authentication tokens, which are used for identity verification and authorization across Google services and connected applications.",
       "image": null,
       "importance": 6
     },
@@ -98,7 +98,7 @@
       "url": "https://www.bleepingcomputer.com/news/security/5-ways-zero-trust-maximizes-identity-security/",
       "source": "Bleeping Computer",
       "date": "Apr 14, 2026",
-      "summary": "Specops has published an analysis outlining five mechanisms by which a Zero Trust architecture strengthens identity security, with a focus on credential theft prevention and privilege escalation mitigation. The piece addresses core IAM concepts including identity-first access controls, device trust enforcement, and lateral movement prevention. The article reflects the continued industry emphasis on integrating Zero Trust principles with identity governance as credential-based attacks remain a leading breach vector.",
+      "summary": "Specops published an explainer on how Zero Trust architecture addresses identity security challenges, focusing on credential theft and privilege escalation. The piece covers five methods including identity-first access controls, device trust enforcement, and lateral movement prevention.",
       "image": null,
       "importance": 7
     },
@@ -107,61 +107,34 @@
       "url": "https://www.bleepingcomputer.com/news/security/fbi-takedown-of-w3ll-phishing-service-leads-to-developer-arrest/",
       "source": "Bleeping Computer",
       "date": "Apr 13, 2026",
-      "summary": "US and Indonesian authorities dismantled the W3LL phishing platform and arrested its alleged developer in a coordinated law enforcement action. W3LL was a sophisticated phishing-as-a-service operation known for selling adversary-in-the-middle (AiTM) phishing kits capable of bypassing MFA, primarily targeting Microsoft 365 accounts across enterprises. The takedown is significant to IAM professionals as W3LL's tooling specifically undermined authentication controls, and its disruption reduces a widely-used capability for credential theft and account compromise.",
+      "summary": "The FBI and Indonesian authorities dismantled the W3LL phishing platform and arrested its alleged developer in the first US-Indonesia coordinated enforcement action against a phishing kit developer. W3LL was a phishing-as-a-service platform known for its adversary-in-the-middle (AiTM) capabilities that could bypass MFA protections, primarily targeting Microsoft 365 accounts.",
       "image": null,
       "importance": 7
     },
     {
-      "title": "Product showcase: Stop secrets from leaking through AI coding tools with GitGuardian",
-      "url": "https://www.helpnetsecurity.com/2026/04/15/product-showcase-gitguardian-ggshield-ai-hook/",
+      "title": "Raspberry Pi OS 6.2 disables passwordless sudo by default",
+      "url": "https://www.helpnetsecurity.com/2026/04/15/raspberry-pi-os-6-2-sudo-security-update/",
       "source": "Help Net Security",
       "date": "Apr 15, 2026",
-      "summary": "GitGuardian has introduced a new capability in its ggshield tool designed to prevent secrets such as API keys from being exposed through AI coding assistants like Cursor, Claude Code, and GitHub Copilot. The solution targets a gap where developers may inadvertently share credentials within AI tool sessions before code reaches a repository or CI pipeline. While not core IAM infrastructure, secrets management and credential leakage prevention are adjacent to IAM concerns around non-human identities and privileged access controls.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/04/14121622/gitguardian_ggshield_ai_hook.webp",
-      "importance": 5
-    },
-    {
-      "title": "Microsoft ends desktop detour for sensitivity labels in Office web apps",
-      "url": "https://www.helpnetsecurity.com/2026/04/15/microsoft-office-sensitivity-labels-permissions/",
-      "source": "Help Net Security",
-      "date": "Apr 14, 2026",
-      "summary": "Microsoft has expanded sensitivity label functionality in Office for the web, allowing users to apply labels with user-defined permissions directly in browser-based versions of Word, Excel, and PowerPoint. Previously, this capability was restricted to desktop applications, forcing web users to use workarounds when document protection required specifying individual user permissions. This update is relevant to IAM and data governance professionals as sensitivity labels are a core component of Microsoft's information protection framework, intersecting with access control policies and identity-based authorization in Microsoft 365 environments.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/08/12122858/ms-office.webp",
-      "importance": 6
+      "summary": "Raspberry Pi OS 6.2 has disabled passwordless sudo by default for new installations as a security hardening measure. This changes the default privilege escalation behavior, requiring users to authenticate with a password when using sudo commands.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/03/29223248/access.webp",
+      "importance": 4
     },
     {
       "title": "FBI and Indonesian Police Dismantle W3LL Phishing Network Behind $20M Fraud Attempts",
       "url": "https://thehackernews.com/2026/04/fbi-and-indonesian-police-dismantle.html",
       "source": "The Hacker News",
       "date": "Apr 13, 2026",
-      "summary": "The FBI and Indonesian National Police dismantled the W3LL phishing network and detained its alleged developer, who created a toolkit used to steal account credentials and attempt over $20 million in fraud. The W3LL toolkit was a commercially available phishing-as-a-service platform specifically engineered to bypass multi-factor authentication and compromise Microsoft 365 accounts at scale. The takedown is significant to IAM professionals as it highlights the continued targeting of enterprise identity infrastructure and the sophistication of adversarial tools designed to circumvent modern authentication controls.",
+      "summary": "The FBI and Indonesian National Police dismantled the W3LL phishing network, arresting its alleged developer and disrupting infrastructure used to steal account credentials in fraud attempts exceeding $20 million. The W3LL toolkit was an off-the-shelf phishing kit specifically designed to bypass MFA and compromise Microsoft 365 business email accounts at scale.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgb77IQHAfOvWFPWb_cgV_YJGdRtNJJJWBcjYH6M6cCawBv2tQdybani7Qet_LGwH1tTBHJ2P3Lr6gWdY0sz3547YLzkSLWX3T2l84-A7ndRK3T55QblpJ-j2ovE9Lq0CoNb6ckWziwD2UjKP_awFJXbGr3yuZ1IMPndUyCo_WfoJ9nnyTPFf-K4HVy5A8g/s1600/well-fbi.jpg",
       "importance": 7
-    },
-    {
-      "title": "The Hidden Security Risks of Shadow AI in Enterprises",
-      "url": "https://thehackernews.com/2026/04/the-hidden-security-risks-of-shadow-ai.html",
-      "source": "The Hacker News",
-      "date": "Apr 09, 2026",
-      "summary": "This article examines the enterprise security risks posed by shadow AI, where employees adopt AI tools without formal IT or security approval. The concern centers on these tools bypassing established security controls and creating visibility gaps for security teams. While tangentially related to IAM through access governance and visibility concepts, the article does not directly address identity or access management technologies, policies, or vendors.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhO6OQHlRJgIjpCieiOfi48Mexu0Puimw_dz6w0h1spC2ZjcqifD2YPod5wd1AtUhr-e7CtAAoZ0bnRGnCH-BZRz4pDlB5Db2hJ4vFqsq5jc42UI4VTGXkxD8gNX1Ods9PpQZL4lk84RNL6EDSeI4YFCdjBgKSqKGimsqcsjekAAmr8CGYr3a2wPkchNYA/s1600/keeper.jpg",
-      "importance": 4
-    },
-    {
-      "title": "How AI Assistants are Moving the Security Goalposts",
-      "url": "https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/",
-      "source": "Krebs on Security",
-      "date": "Mar 08, 2026",
-      "summary": "AI agents with broad access to systems, files, and online services are creating new security challenges that directly impact identity and access management paradigms. The rise of autonomous AI programs blurs traditional trust boundaries, complicating authorization models, least-privilege enforcement, and the distinction between human and non-human identities. This development is significant for IAM professionals as non-human identity governance and machine identity management emerge as critical discipline extensions in response to agentic AI deployment.",
-      "image": null,
-      "importance": 6
     },
     {
       "title": "‘Starkiller’ Phishing Service Proxies Real Login Pages, MFA",
       "url": "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/",
       "source": "Krebs on Security",
       "date": "Feb 20, 2026",
-      "summary": "A new phishing-as-a-service platform called \"Starkiller\" has emerged that proxies real login pages in real time, acting as a man-in-the-middle between victims and legitimate websites to capture credentials and MFA codes. Unlike traditional static phishing pages, the service relays live authentication sessions, effectively bypassing MFA protections by intercepting tokens as they are used. This development is significant to IAM professionals as it demonstrates that MFA alone is insufficient against adversary-in-the-middle (AiTM) attacks, reinforcing the value of phishing-resistant authentication standards such as FIDO2/passkeys.",
+      "summary": "A new phishing-as-a-service platform called \"Starkiller\" proxies real login pages in real-time, acting as a man-in-the-middle relay that captures usernames, passwords, and MFA codes by forwarding credentials to legitimate sites. The service bypasses traditional phishing defenses by using the actual brand websites rather than static copies, effectively defeating MFA protections through adversary-in-the-middle (AiTM) techniques.",
       "image": null,
       "importance": 7
     },
@@ -170,26 +143,35 @@
       "url": "https://github.com/prodnull/prmana",
       "source": "Github.com",
       "date": "Apr 14, 2026",
-      "summary": "A new open-source tool called Prmana has been released that replaces static SSH keys with short-lived OIDC tokens validated at the host through PAM, using DPoP (RFC 9449) for cryptographic proof of token possession. The Rust-based project, licensed under Apache 2.0, integrates OIDC authentication directly into the Linux PAM stack, addressing token theft risks by binding tokens to the holder's private key via DPoP. This represents a meaningful advancement in passwordless, certificate-free SSH access management that intersects PAM, OIDC federation, and zero-trust principles of short-lived credentials.",
+      "summary": "A new open-source tool called Prmana replaces static SSH keys with short-lived OIDC tokens validated at the Linux host via PAM, using DPoP (RFC 9449) for cryptographic proof of token possession. The tool is written in Rust, released under Apache 2.0, and integrates OIDC-based authentication directly into the Linux PAM stack for SSH access.",
       "image": "https://opengraph.githubassets.com/9a8d90688e549d336ffad0a69fe499980fec1d165d6b307363ca2374af43c910/prodnull/prmana",
       "importance": 7
     },
     {
-      "title": "Sapiom CEO: Software is becoming the ‘customer' of the Internet",
-      "url": "https://www.computerweekly.com/blog/CW-Developer-Network/Sapiom-CEO-Software-is-becoming-the-customer-of-the-Internet",
-      "source": "ComputerWeekly.com",
+      "title": "[Sponsor] WorkOS FGA: The Authorization Layer for AI Agents",
+      "url": "https://workos.com/blog/agents-need-authorization-not-just-authentication",
+      "source": "Workos.com",
       "date": "Apr 13, 2026",
-      "summary": "Sapiom's CEO argues that software agents are becoming the primary \"customers\" of the internet, displacing human-centric design assumptions built over two decades. The piece touches on authentication and identity frameworks that were designed for human users and devices, raising questions about how these models adapt to autonomous software agents. While tangentially relevant to emerging IAM concepts around non-human identities and machine identity, the article appears to be a broad opinion piece rather than a focused IAM product, research, or policy development.",
-      "image": null,
-      "importance": 4
+      "summary": "WorkOS has launched Fine-Grained Authorization (FGA), an authorization layer specifically designed for AI agents. The product targets machine-speed authorization requirements for agentic AI systems.",
+      "image": "https://images.workoscdn.com/images/85740be5-63b5-46b9-be9f-eb687428dc69.png?auto=format&fit=clip&q=80",
+      "importance": 6
     },
     {
       "title": "Bringing governance and visibility to machine and AI identities",
       "url": "https://www.helpnetsecurity.com/2026/04/13/archit-lohokare-appviewx-ai-agent-identity/",
       "source": "Help Net Security",
       "date": "Apr 13, 2026",
-      "summary": "AppViewX CEO Archit Lohokare discusses the convergence of machine and AI agent identity management as a unified governance challenge in an interview with Help Net Security. Lohokare, drawing on experience at IBM and CyberArk, addresses how the proliferation of AI agents has accelerated the complexity of non-human identity visibility and control. The commentary reflects a broader industry trend toward extending traditional IAM governance frameworks to cover machine identities, an area receiving increasing attention from security practitioners and vendors alike.",
+      "summary": "AppViewX CEO Archit Lohokare discusses the convergence of machine and AI agent identity management as a unified governance challenge. The interview covers his perspective from experience at IBM and CyberArk on bringing visibility and governance to non-human identities.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/04/10082116/archit_lohokare-2-appviewx.webp",
+      "importance": 7
+    },
+    {
+      "title": "Google Chrome Update Disrupts Infostealer Cookie Theft",
+      "url": "https://hackread.com/google-chrome-update-infostealer-cookie-theft/",
+      "source": "HackRead",
+      "date": "Apr 11, 2026",
+      "summary": "Google has added Device Bound Session Credentials (DBSC) to Chrome 146, using hardware-based cryptographic keys to bind session cookies to specific devices on Windows. This feature directly counters infostealer malware that steals session cookies to bypass authentication, with significant implications for session management and MFA bypass attack vectors relevant to IAM practitioners.",
+      "image": "https://hackread.com/wp-content/uploads/2026/04/google-chrome-update-infostealer-cookie-theft.jpg",
       "importance": 7
     },
     {
@@ -197,25 +179,16 @@
       "url": "https://www.helpnetsecurity.com/2026/04/10/google-chrome-device-bound-session-credentials/",
       "source": "Help Net Security",
       "date": "Apr 10, 2026",
-      "summary": "Google is shipping device-bound session credentials (DBSC) in Chrome to cryptographically bind authentication sessions to a specific device, countering cookie theft attacks. The mechanism prevents stolen cookies from being reused on attacker-controlled systems by tying session validity to a device-held private key, effectively neutralizing a primary technique used by infostealers. This development is significant for IAM professionals as session hijacking via cookie theft is a common post-authentication attack vector that bypasses MFA and identity controls, and DBSC represents a browser-level countermeasure that could influence enterprise authentication architecture and identity provider integrations.",
+      "summary": "Google is shipping Device-Bound Session Credentials (DBSC) in Chrome to counter cookie theft attacks where infostealers extract and exfiltrate authentication cookies for account takeover. DBSC cryptographically binds session credentials to a specific device, rendering stolen cookies useless on attacker-controlled systems.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/04/10112054/cookie-1500.webp",
       "importance": 7
-    },
-    {
-      "title": "Google Chrome 146 Adds Device Bound Session Credentials to Stop Session Cookie Theft on Windows",
-      "url": "https://www.ghacks.net/2026/04/10/google-chrome-146-adds-device-bound-session-credentials-to-stop-session-cookie-theft-on-windows/",
-      "source": "Ghacks Technology News",
-      "date": "Apr 10, 2026",
-      "summary": "Google has introduced Device Bound Session Credentials (DBSC) in Chrome 146 for Windows, a security feature designed to cryptographically bind session cookies to a specific device. DBSC uses the device's TPM chip to tie authentication sessions to hardware, preventing stolen session cookies from being replayed by attackers on different machines. This development is significant for IAM professionals as session cookie theft is a primary technique used to bypass MFA and hijack authenticated sessions, making DBSC a meaningful browser-level control against post-authentication attacks.",
-      "image": "https://www.ghacks.net/wp-content/uploads/2026/04/gHacks-articles-2026-04-10T090108.645.png",
-      "importance": 8
     },
     {
       "title": "Google Chrome adds infostealer protection against session cookie theft",
       "url": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/",
       "source": "BleepingComputer",
       "date": "Apr 09, 2026",
-      "summary": "Google has rolled out Device Bound Session Credentials (DBSC) in Chrome 146 for Windows, a browser-native control that cryptographically binds session cookies to a specific device to prevent theft by infostealer malware. DBSC leverages the device's TPM chip to generate a private key that cannot be exported, meaning stolen session cookies become useless to attackers without physical access to the originating device. This development is directly significant to IAM professionals as session cookie hijacking has been a primary method for bypassing MFA and SSO protections, and DBSC represents a platform-level control that could reduce post-authentication token theft attacks.",
+      "summary": "Google has deployed Device Bound Session Credentials (DBSC) in Chrome 146 for Windows, a security feature that cryptographically binds session cookies to a specific device to prevent theft by infostealer malware. This directly addresses session hijacking attacks that bypass authentication controls, including MFA, by stealing valid session tokens.",
       "image": "https://www.bleepstatic.com/content/hl-images/2023/06/16/Google-Chrome-headpic.jpg",
       "importance": 8
     },
@@ -224,7 +197,7 @@
       "url": "https://www.theregister.com/2026/04/09/several_dozen_highvalue_corporations_targeted/",
       "source": "Theregister.com",
       "date": "Apr 09, 2026",
-      "summary": "Google has identified a new extortion group that has compromised several dozen high-value corporations through helpdesk social engineering and phishing campaigns. The threat actor exploits help desk and identity verification processes to gain unauthorized access, a technique closely associated with vishing and MFA bypass tactics seen in similar attacks like those attributed to Scattered Spider. The campaign highlights ongoing vulnerabilities in human-layer identity verification processes, particularly within helpdesk workflows that serve as a critical control point in enterprise access management.",
+      "summary": "A new extortion crew has compromised several dozen high-value corporations by exploiting helpdesk social engineering and phishing attacks, according to Google. The attacks target identity-related weaknesses by manipulating helpdesk staff to bypass authentication controls, a technique closely associated with MFA fatigue and vishing tactics previously used by groups like Scattered Spider.",
       "image": "https://regmedia.co.uk/2022/10/26/shutterstock_racoon_pc.jpg",
       "importance": 7
     },
@@ -233,7 +206,7 @@
       "url": "https://www.microsoft.com/en-us/security/blog/2026/04/09/investigating-storm-2755-payroll-pirate-attacks-targeting-canadian-employees/",
       "source": "Microsoft.com",
       "date": "Apr 09, 2026",
-      "summary": "Microsoft's DART team has identified a financially motivated threat actor, Storm-2755, conducting account compromise campaigns targeting Canadian employees to gain unauthorized access to employee profiles and redirect payroll. The attacks involve unauthorized access to employee accounts, leveraging compromised credentials to manipulate HR and payroll systems—highlighting weaknesses in authentication and account security controls. The campaign underscores ongoing risks around identity-based attacks targeting enterprise workforce systems, with direct implications for IAM teams responsible for monitoring account takeover and access anomalies.",
+      "summary": "Microsoft DART researchers identified a financially motivated threat actor (Storm-2755) targeting Canadian employee accounts to gain unauthorized access and divert payroll. The attacks involve compromising employee identity accounts and manipulating access to HR/payroll systems, making it directly relevant to account security and access management practices.",
       "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/04/Storm-2755-featured-image.jpg",
       "importance": 7
     },
@@ -242,17 +215,8 @@
       "url": "https://www.bleepingcomputer.com/news/security/when-attackers-already-have-the-keys-mfa-is-just-another-door-to-open/",
       "source": "BleepingComputer",
       "date": "Apr 09, 2026",
-      "summary": "Token, a wearable biometric authentication vendor, is positioning its hardware-based solution as a defense against credential theft and MFA bypass attacks where stolen session tokens render traditional authentication ineffective. The piece highlights the threat model where attackers use phishing relay techniques and stolen credentials to circumvent conventional MFA, framing the wearable device as a continuous user-verification layer rather than a session-based check. The article reflects growing industry attention to post-authentication attack vectors and hardware-bound identity verification as a countermeasure to phishing-resistant authentication gaps.",
+      "summary": "The article addresses how stolen credentials undermine MFA by turning authentication systems into attack surfaces, specifically discussing phishing relay and MFA bypass techniques. Token's wearable biometric authentication solution is presented as a method to verify the user rather than the session to counter these threats.",
       "image": "https://www.bleepstatic.com/content/posts/2026/04/06/token-login-prompt.jpg",
-      "importance": 6
-    },
-    {
-      "title": "Keycloak 26.6 bringt Zero-Downtime-Updates und Workflows",
-      "url": "https://www.heise.de/news/Keycloak-26-6-bringt-Zero-Downtime-Updates-und-Workflows-11250371.html",
-      "source": "heise online",
-      "date": "Apr 09, 2026",
-      "summary": "Keycloak 26.6 has been released, promoting five features to production status including Federated Client Authentication and zero-downtime updates. The open-source IAM platform also introduces workflow capabilities, representing meaningful advances in enterprise deployment reliability and authentication federation. This release is significant for organizations running Keycloak in production environments, as zero-downtime updates directly address a critical operational challenge in identity infrastructure management.",
-      "image": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/5/0/6/0/0/9/0/shutterstock_530643055-cb48726f12054cf8.jpg",
       "importance": 7
     }
   ]
