@@ -306,6 +306,7 @@
       flex-shrink: 0;
     }
 
+
     /* ── AD CARD (inline native) ── */
     .ad-item {
       display: flex;
@@ -362,6 +363,13 @@
       object-fit: cover;
       flex-shrink: 0;
       background: var(--bg);
+    }
+
+    .paywall-label {
+      font-size: 11px;
+      color: var(--text-muted);
+      font-style: italic;
+      margin-top: 4px;
     }
 
     /* ── LOADING / ERROR ── */
@@ -455,6 +463,7 @@
 </footer>
 
 <script>
+
 // ── AD CONFIG ──────────────────────────────────────────────────────────────
 // To show an ad, fill in the fields below and set SHOW_AD = true.
 // Leave SHOW_AD = false to hide the ad slot entirely.
@@ -465,7 +474,7 @@ const AD = {
   advertiser: "Your Company Name",
   image: "",       // URL to a 1200x628px image
   url: "",         // Click-through URL
-  position: 5,     // Insert ad after this many news items (e.g. 5 = after 5th story)
+  position: 5,     // Insert ad after this many news items
 };
 
 // ── HELPERS ────────────────────────────────────────────────────────────────
@@ -494,6 +503,7 @@ function topStoryItem(a) {
       <div class="top-story-title">${esc(a.title)}</div>
       <div class="top-story-summary">${esc(a.summary)}</div>
       <div class="top-story-meta">${esc(a.date)}</div>
+      ${a.paywall ? '<div class="paywall-label">Subscription may be required</div>' : ''}
     </div>
   </a>`;
 }
@@ -508,10 +518,12 @@ function newsItem(a) {
       <div class="news-title">${esc(a.title)}</div>
       <div class="news-summary">${esc(a.summary)}</div>
       <div class="news-meta">${esc(a.date)}</div>
+      ${a.paywall ? '<div class="paywall-label">Subscription may be required</div>' : ''}
     </div>
     ${thumb}
   </a>`;
 }
+
 
 function adItem() {
   const thumb = AD.image
