@@ -7,13 +7,8 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from html.parser import HTMLParser
 
-DANISH_MONTHS = {
-    1: "jan", 2: "feb", 3: "mar", 4: "apr", 5: "maj", 6: "jun",
-    7: "jul", 8: "aug", 9: "sep", 10: "okt", 11: "nov", 12: "dec"
-}
-
 def danish_date(dt):
-    return f"{dt.day}. {DANISH_MONTHS[dt.month]}. {dt.year}" 
+    return f"{dt.day:02d}.{dt.month:02d}.{dt.year}" 
 
 ANTHROPIC_KEY = os.environ["ANTHROPIC_API_KEY"]
 NEWS_KEY = os.environ["NEWS_API_KEY"]
