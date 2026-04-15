@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="80" viewBox="0 0 680 220" role="img">
+  <title>IAMNews logo</title>
+  <desc>IAMNews logo — lock with signal arcs and wordmark</desc>
+
+  <!-- Left signal arcs -->
+  <path d="M304 139 Q295 150 304 161" fill="none" stroke="#1a73e8" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <path d="M292 126 Q275 150 292 174" fill="none" stroke="#1a73e8" stroke-width="3" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- Right signal arcs -->
+  <path d="M376 139 Q385 150 376 161" fill="none" stroke="#1a73e8" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <path d="M388 126 Q405 150 388 174" fill="none" stroke="#1a73e8" stroke-width="3" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- Lock shackle -->
+  <path d="M326 130 L326 118 Q326 104 340 104 Q354 104 354 118 L354 130"
+        fill="none" stroke="#1a73e8" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Lock body -->
+  <rect x="314" y="128" width="52" height="44" rx="7" fill="#1a73e8"/>
+
+  <!-- Keyhole -->
+  <circle cx="340" cy="145" r="7" fill="white"/>
+  <rect x="337" y="149" width="6" height="12" rx="2" fill="white"/>
+
+  <!-- Wordmark -->
+  <text x="340" y="210" text-anchor="middle" font-family="Google Sans, Roboto, sans-serif" font-size="32" letter-spacing="-0.5">
+    <tspan font-weight="600" fill="#1a73e8">IAM</tspan><tspan font-weight="400" fill="#202124">News</tspan>
+  </text>
+
+</svg>
