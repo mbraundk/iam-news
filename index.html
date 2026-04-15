@@ -480,11 +480,23 @@
     /* ── FOOTER ── */
     footer {
       border-top: 1px solid var(--border);
-      padding: 20px 24px;
+      padding: 32px 24px;
       text-align: center;
+      background: var(--surface);
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    footer p {
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    footer p:last-child {
       font-size: 12px;
       color: var(--text-muted);
-      background: var(--surface);
     }
 
     /* ── RESPONSIVE ── */
@@ -509,7 +521,6 @@
       <span class="logo-news">News</span>
     </a>
     <div class="topbar-spacer"></div>
-    <div class="topbar-updated" id="updated"></div>
   </div>
 </header>
 
@@ -520,7 +531,10 @@
   </div>
 </main>
 
-<footer role="contentinfo">Updated daily · IAM News</footer>
+<footer role="contentinfo">
+  <p>IAM News is an independent daily news resource for identity and access management professionals.</p>
+  <p>&copy; 2025 IAMNews.org. All rights reserved.</p>
+</footer>
 
 <script>
 // ── AD CONFIG ──────────────────────────────────────────────────────────────
@@ -618,7 +632,6 @@ async function load() {
     if (!res.ok) throw new Error('news.json not found — run the fetch script first.');
     const data = await res.json();
 
-    document.getElementById('updated').textContent = data.updated ? 'Updated ' + data.updated : '';
 
     const topStories = data.top_stories || [];
     const news = data.news || [];
