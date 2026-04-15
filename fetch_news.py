@@ -7,6 +7,14 @@ import xml.etree.ElementTree as ET
 from datetime import datetime
 from html.parser import HTMLParser
 
+DANISH_MONTHS = {
+    1: "jan", 2: "feb", 3: "mar", 4: "apr", 5: "maj", 6: "jun",
+    7: "jul", 8: "aug", 9: "sep", 10: "okt", 11: "nov", 12: "dec"
+}
+
+def danish_date(dt):
+    return f"{dt.day}. {DANISH_MONTHS[dt.month]}. {dt.year}" 
+
 ANTHROPIC_KEY = os.environ["ANTHROPIC_API_KEY"]
 NEWS_KEY = os.environ["NEWS_API_KEY"]
 
@@ -95,7 +103,7 @@ def parse_rss(source_name, feed_url):
                         "%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%dT%H:%M:%S%z"):
                 try:
                     dt = datetime.strptime(pub.strip(), fmt)
-                    date_str = dt.strftime("%b %d, %Y")
+                    date_str = danish_date(dt)
                     break
                 except Exception:
                     continue
@@ -138,7 +146,7 @@ def fetch_newsapi():
         pub = a.get("publishedAt", "")
         try:
             dt = datetime.strptime(pub, "%Y-%m-%dT%H:%M:%SZ")
-            date_str = dt.strftime("%b %d, %Y")
+            date_str = danish_date(dt)
         except Exception:
             date_str = pub[:10]
         articles.append({
