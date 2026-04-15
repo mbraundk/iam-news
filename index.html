@@ -457,7 +457,7 @@
 <footer role="contentinfo">
   <p>IAM News is an independent daily news resource for identity and access management professionals.</p>
   <p>For advertising enquiries or general contact: <a href="mailto:iamnews@iamnews.org" style="color:inherit">iamnews@iamnews.org</a></p>
-  <p>&copy; 2025 IAMNews.org. All rights reserved.</p>
+  <p>&copy; <span id="year"></span> IAMNews.org. All rights reserved.</p>
 </footer>
 
 <script>
@@ -593,6 +593,7 @@ async function load() {
   }
 }
 
+document.getElementById("year").textContent = new Date().getFullYear();
 load();
 </script>
 </body>
