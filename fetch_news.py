@@ -122,7 +122,7 @@ def fetch_newsapi():
         "https://newsapi.org/v2/everything"
         "?q=%22identity+and+access+management%22+OR+%22privileged+access+management%22"
         "+OR+%22zero+trust+identity%22+OR+%22Okta%22+OR+%22Microsoft+Entra%22"
-        "+OR+%22CyberArk%22+OR+%22SailPoint%22+OR+%22identity+governance%22"
+        "+OR+%22CyberArk%22+OR+%22SailPoint%22+OR+%22identity+governance%22+OR+%22Omada%22"
         "&language=en&sortBy=publishedAt&pageSize=50"
         f"&apiKey={NEWS_KEY}"
     )
@@ -176,7 +176,9 @@ def filter_score_summarize(client, article):
         max_tokens=200,
         messages=[{"role": "user", "content": f"""You are a filter and scorer for an IAM news site read by identity and access management professionals.
 
-Decide if this article is relevant to IAM professionals. It must be directly about identity, authentication, authorization, access management, zero trust, PAM, SSO, MFA, identity governance, or specific IAM vendors (Okta, CyberArk, SailPoint, Microsoft Entra, Ping Identity, ForgeRock, etc.).
+Decide if this article is relevant to IAM professionals. It must be directly about identity, authentication, authorization, access management, zero trust, PAM, SSO, MFA, identity governance, or specific IAM vendors (Okta, CyberArk, SailPoint, Microsoft Entra, Ping Identity, ForgeRock, Omada Identity, etc.).
+
+Note: If the article mentions "Omada", only accept it if it is clearly about Omada Identity (the IAM/IGA vendor), not Omada Health or other unrelated companies.
 
 If NOT relevant, reply with exactly: SKIP
 
@@ -214,6 +216,8 @@ except Exception as e:
 print(f"\nTotal before dedup: {len(all_articles)}")
 all_articles = deduplicate(all_articles)
 print(f"Total after dedup: {len(all_articles)}")
+all_articles = [a for a in all_articles if not is_sponsored(a)]
+print(f"Total after sponsored filter: {len(all_articles)}")
 
 print("\nFiltering, scoring and summarizing with Claude...")
 client = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
@@ -254,6 +258,7 @@ for i, a in enumerate(all_articles):
             "summary": summary,
             "image": image,
             "importance": score,
+            "paywall": is_paywalled(a),
         })
     except Exception as e:
         print(f"    Warning: {e}")
