@@ -11,7 +11,7 @@
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://iamnews.org/" />
 
-  <!-- Open Graph (social sharing) -->
+  <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="IAM News – Latest Identity & Access Management News" />
   <meta property="og:description" content="Daily news for IAM professionals. Covering zero trust, PAM, SSO, MFA, identity governance, and leading vendors." />
@@ -24,7 +24,7 @@
   <meta name="twitter:title" content="IAM News – Latest Identity & Access Management News" />
   <meta name="twitter:description" content="Daily news for IAM professionals. Covering zero trust, PAM, SSO, MFA, identity governance, and leading vendors." />
 
-  <!-- Structured data: NewsMediaOrganization -->
+  <!-- Structured data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -36,10 +36,10 @@
   }
   </script>
 
-  <!-- Performance -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
+
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -52,10 +52,11 @@
       --text-muted: #80868b;
       --blue: #1a73e8;
       --blue-hover: #1557b0;
-      --chip-bg: #e8f0fe;
-      --chip-text: #1a73e8;
       --hover: #f8f9fa;
       --divider: #e8eaed;
+      --sponsored-bg: #fef9e7;
+      --sponsored-border: #f9a825;
+      --sponsored-label: #e65100;
     }
 
     @media (prefers-color-scheme: dark) {
@@ -68,10 +69,11 @@
         --text-muted: #80868b;
         --blue: #8ab4f8;
         --blue-hover: #aecbfa;
-        --chip-bg: #1e3a5f;
-        --chip-text: #8ab4f8;
         --hover: #35363a;
         --divider: #3c4043;
+        --sponsored-bg: #2a2510;
+        --sponsored-border: #f9a825;
+        --sponsored-label: #ffb74d;
       }
     }
 
@@ -83,7 +85,7 @@
       font-size: 14px;
     }
 
-    /* ── TOP BAR ── */
+    /* ── TOPBAR ── */
     .topbar {
       background: var(--surface);
       border-bottom: 1px solid var(--border);
@@ -94,7 +96,7 @@
     }
 
     .topbar-inner {
-      max-width: 1200px;
+      max-width: 1000px;
       margin: 0 auto;
       height: 64px;
       display: flex;
@@ -110,26 +112,18 @@
       flex-shrink: 0;
     }
 
-    .logo-google {
-      font-family: 'Google Sans', 'Roboto', sans-serif;
+    .logo-iam {
+      font-family: 'Google Sans', sans-serif;
       font-size: 22px;
-      font-weight: 400;
-      color: var(--text-secondary);
+      font-weight: 500;
+      color: var(--blue);
     }
 
     .logo-news {
-      font-family: 'Google Sans', 'Roboto', sans-serif;
+      font-family: 'Google Sans', sans-serif;
       font-size: 22px;
       font-weight: 400;
       color: var(--text-primary);
-    }
-
-    .logo-dot {
-      width: 6px; height: 6px;
-      border-radius: 50%;
-      background: #1a73e8;
-      margin: 0 1px 8px;
-      flex-shrink: 0;
     }
 
     .topbar-spacer { flex: 1; }
@@ -140,181 +134,54 @@
       white-space: nowrap;
     }
 
-    /* ── TOPIC CHIPS ── */
-    .chips-bar {
-      background: var(--surface);
-      border-bottom: 1px solid var(--border);
-      padding: 0 24px;
-    }
-
-    .chips-inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      display: flex;
-      gap: 8px;
-      padding: 10px 0;
-      overflow-x: auto;
-      scrollbar-width: none;
-    }
-
-    .chips-inner::-webkit-scrollbar { display: none; }
-
-    .chip {
-      display: inline-flex;
-      align-items: center;
-      padding: 6px 16px;
-      border-radius: 20px;
-      font-size: 13px;
-      font-weight: 500;
-      white-space: nowrap;
-      cursor: pointer;
-      border: 1px solid var(--border);
-      background: var(--surface);
-      color: var(--text-secondary);
-      transition: background 0.1s, color 0.1s;
-    }
-
-    .chip:hover { background: var(--hover); }
-
-    .chip.active {
-      background: var(--chip-bg);
-      color: var(--chip-text);
-      border-color: transparent;
-    }
-
-    /* ── LAYOUT ── */
+    /* ── PAGE ── */
     .page {
-      max-width: 1200px;
+      max-width: 1000px;
       margin: 0 auto;
       padding: 24px;
-      display: grid;
-      grid-template-columns: 1fr 368px;
-      gap: 24px;
-      align-items: start;
-    }
-
-    /* ── MAIN FEED ── */
-    .feed { display: flex; flex-direction: column; gap: 4px; }
-
-    .feed-section {
-      background: var(--surface);
-      border-radius: 8px;
-      overflow: hidden;
-      border: 1px solid var(--border);
-    }
-
-    .story-cluster {
-      padding: 16px;
-      border-bottom: 1px solid var(--divider);
-      cursor: pointer;
-      transition: background 0.1s;
-    }
-
-    .story-cluster:last-child { border-bottom: none; }
-    .story-cluster:hover { background: var(--hover); }
-
-    .cluster-main {
       display: flex;
-      gap: 16px;
-      align-items: flex-start;
+      flex-direction: column;
+      gap: 32px;
     }
 
-    .cluster-text { flex: 1; min-width: 0; }
-
-    .cluster-source {
-      font-size: 12px;
-      font-weight: 500;
-      color: var(--text-secondary);
-      margin-bottom: 4px;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-    }
-
-    .source-dot {
-      width: 16px; height: 16px;
-      border-radius: 50%;
-      background: var(--chip-bg);
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 9px;
-      font-weight: 700;
-      color: var(--chip-text);
-      flex-shrink: 0;
-    }
-
-    .cluster-title {
-      font-family: 'Google Sans', 'Roboto', sans-serif;
+    /* ── SECTION HEADER ── */
+    .section-header {
+      font-family: 'Google Sans', sans-serif;
       font-size: 16px;
       font-weight: 500;
-      line-height: 1.4;
       color: var(--text-primary);
-      margin-bottom: 6px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 16px;
     }
 
-    .story-cluster:hover .cluster-title { color: var(--blue); }
-
-    .cluster-summary {
-      font-size: 13px;
-      line-height: 1.6;
-      color: var(--text-secondary);
-      margin-bottom: 8px;
+    /* ── TOP STORIES ── */
+    .top-stories-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
     }
 
-    .cluster-meta {
-      font-size: 12px;
-      color: var(--text-muted);
+    /* Hero card — spans full left column */
+    .hero-card {
+      grid-row: 1 / 3;
+      background: var(--surface);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      overflow: hidden;
       display: flex;
-      align-items: center;
-      gap: 6px;
-    }
-
-    .cluster-thumb {
-      width: 96px;
-      height: 72px;
-      border-radius: 8px;
-      object-fit: cover;
-      flex-shrink: 0;
-    }
-
-    .cluster-thumb-placeholder {
-      width: 96px;
-      height: 72px;
-      border-radius: 8px;
-      background: var(--bg);
-      flex-shrink: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .cluster-thumb-placeholder svg { opacity: 0.3; }
-
-    .read-link {
-      color: var(--blue);
+      flex-direction: column;
       text-decoration: none;
-      font-size: 12px;
-      font-weight: 500;
+      transition: box-shadow 0.15s;
     }
 
-    .read-link:hover { text-decoration: underline; color: var(--blue-hover); }
-
-    /* ── HERO STORY (first item) ── */
-    .story-hero {
-      padding: 0;
-      border-bottom: 1px solid var(--divider);
-      cursor: pointer;
-      transition: background 0.1s;
-    }
-
-    .story-hero:hover { background: var(--hover); }
+    .hero-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.12); }
 
     .hero-img-wrap {
       width: 100%;
       aspect-ratio: 16/9;
       overflow: hidden;
-      border-radius: 8px 8px 0 0;
+      background: var(--bg);
     }
 
     .hero-img {
@@ -324,114 +191,266 @@
       transition: transform 0.3s;
     }
 
-    .story-hero:hover .hero-img { transform: scale(1.02); }
+    .hero-card:hover .hero-img { transform: scale(1.02); }
 
-    .hero-body { padding: 16px; }
+    .hero-body {
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
 
     .hero-source {
-      font-size: 12px;
-      font-weight: 500;
-      color: var(--text-secondary);
-      margin-bottom: 6px;
       display: flex;
       align-items: center;
       gap: 6px;
-    }
-
-    .hero-title {
-      font-family: 'Google Sans', 'Roboto', sans-serif;
-      font-size: 20px;
-      font-weight: 500;
-      line-height: 1.35;
-      color: var(--text-primary);
       margin-bottom: 8px;
     }
 
-    .story-hero:hover .hero-title { color: var(--blue); }
+    .source-dot {
+      width: 18px; height: 18px;
+      border-radius: 50%;
+      background: #e8f0fe;
+      color: #1a73e8;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 9px;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .source-dot { background: #1e3a5f; color: #8ab4f8; }
+    }
+
+    .source-name {
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--text-secondary);
+    }
+
+    .hero-title {
+      font-family: 'Google Sans', sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 1.4;
+      color: var(--text-primary);
+      margin-bottom: 10px;
+    }
+
+    .hero-card:hover .hero-title { color: var(--blue); }
 
     .hero-summary {
       font-size: 14px;
       line-height: 1.65;
       color: var(--text-secondary);
-      margin-bottom: 10px;
+      flex: 1;
     }
 
     .hero-meta {
       font-size: 12px;
       color: var(--text-muted);
+      margin-top: 10px;
+    }
+
+    /* Small top story cards */
+    .small-card {
+      background: var(--surface);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      transition: box-shadow 0.15s;
+    }
+
+    .small-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.12); }
+
+    .small-img-wrap {
+      width: 100%;
+      aspect-ratio: 16/9;
+      overflow: hidden;
+      background: var(--bg);
+    }
+
+    .small-img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s;
+    }
+
+    .small-card:hover .small-img { transform: scale(1.02); }
+
+    .small-body {
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .small-source {
       display: flex;
       align-items: center;
       gap: 6px;
+      margin-bottom: 6px;
     }
 
-    /* ── SIDEBAR ── */
-    .sidebar { display: flex; flex-direction: column; gap: 16px; }
+    .small-title {
+      font-family: 'Google Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.4;
+      color: var(--text-primary);
+      margin-bottom: 6px;
+    }
 
-    .sidebar-card {
+    .small-card:hover .small-title { color: var(--blue); }
+
+    .small-summary {
+      font-size: 12px;
+      line-height: 1.6;
+      color: var(--text-secondary);
+      flex: 1;
+    }
+
+    .small-meta {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-top: 8px;
+    }
+
+    /* ── NEWS FEED ── */
+    .news-feed {
       background: var(--surface);
-      border-radius: 8px;
+      border-radius: 12px;
       border: 1px solid var(--border);
       overflow: hidden;
     }
 
-    .sidebar-header {
-      padding: 16px 16px 12px;
-      border-bottom: 1px solid var(--divider);
-      font-family: 'Google Sans', 'Roboto', sans-serif;
-      font-size: 14px;
-      font-weight: 500;
-      color: var(--text-primary);
-    }
-
-    .sidebar-item {
-      padding: 12px 16px;
-      border-bottom: 1px solid var(--divider);
-      cursor: pointer;
-      transition: background 0.1s;
+    .news-item {
       display: flex;
-      gap: 12px;
+      gap: 16px;
       align-items: flex-start;
+      padding: 16px;
+      border-bottom: 1px solid var(--divider);
+      text-decoration: none;
+      transition: background 0.1s;
     }
 
-    .sidebar-item:last-child { border-bottom: none; }
-    .sidebar-item:hover { background: var(--hover); }
+    .news-item:last-child { border-bottom: none; }
+    .news-item:hover { background: var(--hover); }
 
-    .sidebar-item-text { flex: 1; min-width: 0; }
+    .news-text { flex: 1; min-width: 0; }
 
-    .sidebar-item-source {
-      font-size: 11px;
+    .news-source {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 4px;
+    }
+
+    .news-source-name {
+      font-size: 12px;
       font-weight: 500;
-      color: var(--text-muted);
-      margin-bottom: 3px;
+      color: var(--text-secondary);
     }
 
-    .sidebar-item-title {
-      font-size: 13px;
+    .news-title {
+      font-family: 'Google Sans', sans-serif;
+      font-size: 15px;
       font-weight: 500;
       line-height: 1.4;
       color: var(--text-primary);
+      margin-bottom: 6px;
     }
 
-    .sidebar-item:hover .sidebar-item-title { color: var(--blue); }
+    .news-item:hover .news-title { color: var(--blue); }
 
-    .sidebar-thumb {
-      width: 56px; height: 56px;
-      border-radius: 4px;
+    .news-summary {
+      font-size: 13px;
+      line-height: 1.6;
+      color: var(--text-secondary);
+      margin-bottom: 6px;
+    }
+
+    .news-meta {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    .news-thumb {
+      width: 96px;
+      height: 72px;
+      border-radius: 8px;
       object-fit: cover;
       flex-shrink: 0;
     }
 
-    .sidebar-thumb-ph {
-      width: 56px; height: 56px;
-      border-radius: 4px;
-      background: var(--bg);
+    /* ── AD CARD (inline native) ── */
+    .ad-item {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      padding: 16px;
+      border-bottom: 1px solid var(--divider);
+      background: var(--sponsored-bg);
+      text-decoration: none;
+    }
+
+    .ad-item:last-child { border-bottom: none; }
+
+    .ad-text { flex: 1; min-width: 0; }
+
+    .ad-label {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--sponsored-label);
+      border: 1px solid var(--sponsored-border);
+      border-radius: 3px;
+      padding: 1px 5px;
+      display: inline-block;
+      margin-bottom: 5px;
+    }
+
+    .ad-title {
+      font-family: 'Google Sans', sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 1.4;
+      color: var(--text-primary);
+      margin-bottom: 6px;
+    }
+
+    .ad-description {
+      font-size: 13px;
+      line-height: 1.6;
+      color: var(--text-secondary);
+      margin-bottom: 6px;
+    }
+
+    .ad-advertiser {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    .ad-thumb {
+      width: 96px;
+      height: 72px;
+      border-radius: 8px;
+      object-fit: cover;
       flex-shrink: 0;
+      background: var(--bg);
     }
 
     /* ── LOADING / ERROR ── */
     .state-box {
       background: var(--surface);
-      border-radius: 8px;
+      border-radius: 12px;
       border: 1px solid var(--border);
       padding: 4rem 2rem;
       text-align: center;
@@ -452,7 +471,7 @@
     .error-box {
       background: var(--surface);
       border: 1px solid #fcc;
-      border-radius: 8px;
+      border-radius: 12px;
       padding: 1.5rem;
       color: #c00;
       font-size: 13px;
@@ -466,52 +485,58 @@
       font-size: 12px;
       color: var(--text-muted);
       background: var(--surface);
-      margin-top: 24px;
     }
 
     /* ── RESPONSIVE ── */
-    @media (max-width: 900px) {
-      .page { grid-template-columns: 1fr; padding: 16px; }
-      .sidebar { display: none; }
-    }
-
-    @media (max-width: 600px) {
+    @media (max-width: 680px) {
       .topbar { padding: 0 16px; }
-      .chips-bar { padding: 0 16px; }
-      .page { padding: 12px; gap: 12px; }
-      .cluster-thumb, .cluster-thumb-placeholder { width: 72px; height: 56px; }
+      .page { padding: 16px; gap: 24px; }
+      .top-stories-grid { grid-template-columns: 1fr; }
+      .hero-card { grid-row: auto; }
+      .news-thumb { width: 72px; height: 56px; }
+      .ad-thumb { width: 72px; height: 56px; }
     }
   </style>
 </head>
 <body>
 
-<div class="topbar">
+<h1 style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap">IAM News – Latest Identity and Access Management News</h1>
+
+<header class="topbar">
   <div class="topbar-inner">
-    <a class="logo" href="#">
-      <span class="logo-google">IAM</span>
-      <span class="logo-dot"></span>
+    <a class="logo" href="https://iamnews.org">
+      <span class="logo-iam">IAM</span>
       <span class="logo-news">News</span>
     </a>
     <div class="topbar-spacer"></div>
     <div class="topbar-updated" id="updated"></div>
   </div>
-</div>
+</header>
 
-<h1 style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap">IAM News – Latest Identity and Access Management News</h1>
-<div class="page">
-  <main class="feed" id="feed" aria-label="IAM news feed">
-    <div class="state-box">
-      <div class="spinner"></div>
-      <p>Loading IAM news…</p>
-    </div>
+<main class="page" id="main">
+  <div class="state-box">
+    <div class="spinner"></div>
+    <p>Loading IAM news…</p>
   </div>
-  </main>
-  <aside class="sidebar" id="sidebar" aria-label="Top stories"></aside>
-</div>
+</main>
 
 <footer role="contentinfo">Updated daily · IAM News</footer>
 
 <script>
+// ── AD CONFIG ──────────────────────────────────────────────────────────────
+// To show an ad, fill in the fields below and set SHOW_AD = true.
+// Leave SHOW_AD = false to hide the ad slot entirely.
+const AD = {
+  show: false,
+  title: "Your ad headline here",
+  description: "One sentence describing your product or service for IAM professionals.",
+  advertiser: "Your Company Name",
+  image: "",       // URL to a 1200x628px image
+  url: "",         // Click-through URL
+  position: 5,     // Insert ad after this many news items (e.g. 5 = after 5th story)
+};
+
+// ── HELPERS ────────────────────────────────────────────────────────────────
 function esc(s) {
   if (!s) return '';
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
@@ -521,19 +546,19 @@ function initials(source) {
   return (source || '?').charAt(0).toUpperCase();
 }
 
-function thumb(url, w, h, r) {
-  if (!url) return '';
-  return `<img style="width:${w}px;height:${h}px;border-radius:${r}px;object-fit:cover;flex-shrink:0" src="${esc(url)}" alt="" loading="lazy" onerror="this.remove()" />`;
+function sourceDot(source) {
+  return `<span class="source-dot">${initials(source)}</span>`;
 }
 
+// ── CARD BUILDERS ──────────────────────────────────────────────────────────
 function heroCard(a) {
-  const imgHtml = a.image
+  const img = a.image
     ? `<div class="hero-img-wrap"><img class="hero-img" src="${esc(a.image)}" alt="" loading="lazy" onerror="this.parentElement.remove()"></div>`
     : '';
-  return `<a href="${esc(a.url)}" target="_blank" rel="noopener" class="story-hero" style="text-decoration:none;display:block">
-    ${imgHtml}
+  return `<a href="${esc(a.url)}" target="_blank" rel="noopener" class="hero-card">
+    ${img}
     <div class="hero-body">
-      <div class="hero-source"><span class="source-dot">${initials(a.source)}</span>${esc(a.source)}</div>
+      <div class="hero-source">${sourceDot(a.source)}<span class="source-name">${esc(a.source)}</span></div>
       <div class="hero-title">${esc(a.title)}</div>
       <div class="hero-summary">${esc(a.summary)}</div>
       <div class="hero-meta">${esc(a.date)}</div>
@@ -541,71 +566,105 @@ function heroCard(a) {
   </a>`;
 }
 
-function storyCard(a) {
-  return `<a href="${esc(a.url)}" target="_blank" rel="noopener" class="story-cluster" style="text-decoration:none;display:block">
-    <div class="cluster-main">
-      <div class="cluster-text">
-        <div class="cluster-source"><span class="source-dot">${initials(a.source)}</span>${esc(a.source)}</div>
-        <div class="cluster-title">${esc(a.title)}</div>
-        <div class="cluster-summary">${esc(a.summary)}</div>
-        <div class="cluster-meta">${esc(a.date)}</div>
-      </div>
-      ${thumb(a.image, 96, 72, 8)}
-    </div>
-  </a>`;
-}
-
-function sidebarItem(a) {
-  const t = a.image
-    ? `<img class="sidebar-thumb" src="${esc(a.image)}" alt="" loading="lazy" onerror="this.parentElement.removeChild(this)">`
+function smallCard(a) {
+  const img = a.image
+    ? `<div class="small-img-wrap"><img class="small-img" src="${esc(a.image)}" alt="" loading="lazy" onerror="this.parentElement.remove()"></div>`
     : '';
-  return `<a href="${esc(a.url)}" target="_blank" rel="noopener" class="sidebar-item" style="text-decoration:none">
-    <div class="sidebar-item-text">
-      <div class="sidebar-item-source">${esc(a.source)} · ${esc(a.date)}</div>
-      <div class="sidebar-item-title">${esc(a.title)}</div>
+  return `<a href="${esc(a.url)}" target="_blank" rel="noopener" class="small-card">
+    ${img}
+    <div class="small-body">
+      <div class="small-source">${sourceDot(a.source)}<span class="source-name">${esc(a.source)}</span></div>
+      <div class="small-title">${esc(a.title)}</div>
+      <div class="small-summary">${esc(a.summary)}</div>
+      <div class="small-meta">${esc(a.date)}</div>
     </div>
-    ${t}
   </a>`;
 }
 
+function newsItem(a) {
+  const thumb = a.image
+    ? `<img class="news-thumb" src="${esc(a.image)}" alt="" loading="lazy" onerror="this.remove()">`
+    : '';
+  return `<a href="${esc(a.url)}" target="_blank" rel="noopener" class="news-item">
+    <div class="news-text">
+      <div class="news-source">${sourceDot(a.source)}<span class="news-source-name">${esc(a.source)}</span></div>
+      <div class="news-title">${esc(a.title)}</div>
+      <div class="news-summary">${esc(a.summary)}</div>
+      <div class="news-meta">${esc(a.date)}</div>
+    </div>
+    ${thumb}
+  </a>`;
+}
+
+function adItem() {
+  const thumb = AD.image
+    ? `<img class="ad-thumb" src="${esc(AD.image)}" alt="" loading="lazy" onerror="this.remove()">`
+    : '';
+  return `<a href="${esc(AD.url)}" target="_blank" rel="noopener sponsored" class="ad-item">
+    <div class="ad-text">
+      <span class="ad-label">Sponsored</span>
+      <div class="ad-title">${esc(AD.title)}</div>
+      <div class="ad-description">${esc(AD.description)}</div>
+      <div class="ad-advertiser">${esc(AD.advertiser)}</div>
+    </div>
+    ${thumb}
+  </a>`;
+}
+
+// ── LOAD ───────────────────────────────────────────────────────────────────
 async function load() {
   try {
     const res = await fetch('news.json?t=' + Date.now());
     if (!res.ok) throw new Error('news.json not found — run the fetch script first.');
     const data = await res.json();
-    const articles = data.articles || [];
 
     document.getElementById('updated').textContent = data.updated ? 'Updated ' + data.updated : '';
 
-    if (articles.length === 0) throw new Error('No articles found.');
+    const topStories = data.top_stories || [];
+    const news = data.news || [];
 
-    const hero = articles[0];
-    const rest = articles.slice(1);
+    if (topStories.length === 0 && news.length === 0) throw new Error('No articles found.');
 
-    // Use top_stories URLs to pick sidebar items by importance score
-    const topUrls = new Set(data.top_stories || []);
-    const sideItems = topUrls.size > 0
-      ? articles.filter(a => topUrls.has(a.url)).slice(0, 6)
-      : articles.slice(0, 6);
+    let html = '';
 
-    const feedEl = document.getElementById('feed');
-    feedEl.innerHTML = `<div class="feed-section">
-      ${heroCard(hero)}
-      ${rest.map(a => storyCard(a)).join('')}
-    </div>`;
+    // ── Top Stories ──
+    if (topStories.length > 0) {
+      const hero = topStories[0];
+      const rest = topStories.slice(1);
+      html += `<section>
+        <div class="section-header">Top stories</div>
+        <div class="top-stories-grid">
+          ${heroCard(hero)}
+          ${rest.map(a => smallCard(a)).join('')}
+        </div>
+      </section>`;
+    }
 
-    const sidebarEl = document.getElementById('sidebar');
-    sidebarEl.innerHTML = `<div class="sidebar-card">
-      <div class="sidebar-header">Top stories</div>
-      ${sideItems.map(a => sidebarItem(a)).join('')}
-    </div>`;
+    // ── News Feed ──
+    if (news.length > 0) {
+      const items = news.map((a, i) => {
+        let out = newsItem(a);
+        if (AD.show && i === AD.position - 1) {
+          out += adItem();
+        }
+        return out;
+      }).join('');
 
-    // Inject per-article structured data for Google
+      html += `<section>
+        <div class="section-header">News</div>
+        <div class="news-feed">${items}</div>
+      </section>`;
+    }
+
+    document.getElementById('main').innerHTML = html;
+
+    // Inject article structured data
+    const allArticles = [...topStories, ...news];
     const schema = {
       "@context": "https://schema.org",
       "@type": "ItemList",
       "name": "Latest IAM News",
-      "itemListElement": articles.slice(0, 10).map((a, i) => ({
+      "itemListElement": allArticles.slice(0, 10).map((a, i) => ({
         "@type": "ListItem",
         "position": i + 1,
         "url": a.url,
@@ -617,13 +676,12 @@ async function load() {
     sd.textContent = JSON.stringify(schema);
     document.head.appendChild(sd);
 
-    // Update page title with latest article
-    if (articles[0]) {
-      document.title = articles[0].title + ' – IAM News';
+    if (topStories[0]) {
+      document.title = topStories[0].title + ' – IAM News';
     }
 
   } catch (e) {
-    document.getElementById('feed').innerHTML =
+    document.getElementById('main').innerHTML =
       `<div class="error-box">Could not load news: ${esc(e.message)}</div>`;
   }
 }
