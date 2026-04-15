@@ -85,7 +85,6 @@
       font-size: 14px;
     }
 
-    /* ── TOPBAR ── */
     .topbar {
       background: var(--surface);
       border-bottom: 1px solid var(--border);
@@ -128,13 +127,6 @@
 
     .topbar-spacer { flex: 1; }
 
-    .topbar-updated {
-      font-size: 12px;
-      color: var(--text-muted);
-      white-space: nowrap;
-    }
-
-    /* ── PAGE ── */
     .page {
       max-width: 1000px;
       margin: 0 auto;
@@ -144,7 +136,6 @@
       gap: 32px;
     }
 
-    /* ── SECTION HEADER ── */
     .section-header {
       font-family: 'Google Sans', sans-serif;
       font-size: 16px;
@@ -155,7 +146,6 @@
       margin-bottom: 16px;
     }
 
-    /* ── TOP STORIES ── */
     .top-stories-list {
       background: var(--surface);
       border-radius: 12px;
@@ -239,7 +229,6 @@
       color: var(--text-muted);
     }
 
-    /* ── NEWS FEED ── */
     .news-feed {
       background: var(--surface);
       border-radius: 12px;
@@ -306,8 +295,6 @@
       flex-shrink: 0;
     }
 
-
-    /* ── AD CARD (inline native) ── */
     .ad-item {
       display: flex;
       gap: 16px;
@@ -319,7 +306,6 @@
     }
 
     .ad-item:last-child { border-bottom: none; }
-
     .ad-text { flex: 1; min-width: 0; }
 
     .ad-label {
@@ -372,7 +358,6 @@
       margin-top: 4px;
     }
 
-    /* ── LOADING / ERROR ── */
     .state-box {
       background: var(--surface);
       border-radius: 12px;
@@ -402,7 +387,6 @@
       font-size: 13px;
     }
 
-    /* ── FOOTER ── */
     footer {
       border-top: 1px solid var(--border);
       padding: 32px 24px;
@@ -424,12 +408,9 @@
       color: var(--text-muted);
     }
 
-    /* ── RESPONSIVE ── */
     @media (max-width: 680px) {
       .topbar { padding: 0 16px; }
       .page { padding: 16px; gap: 24px; }
-      .top-stories-grid { grid-template-columns: 1fr; }
-      .hero-card { grid-row: auto; }
       .top-story-thumb { width: 100px; height: 72px; }
       .news-thumb { width: 72px; height: 56px; }
       .ad-thumb { width: 72px; height: 56px; }
@@ -443,8 +424,7 @@
 <header class="topbar">
   <div class="topbar-inner">
     <a class="logo" href="https://iamnews.org">
-      <span class="logo-iam">IAM</span>
-      <span class="logo-news">News</span>
+      <img src="logo.svg" alt="IAMNews" height="36" style="display:block" />
     </a>
     <div class="topbar-spacer"></div>
   </div>
@@ -463,21 +443,16 @@
 </footer>
 
 <script>
-
-// ── AD CONFIG ──────────────────────────────────────────────────────────────
-// To show an ad, fill in the fields below and set SHOW_AD = true.
-// Leave SHOW_AD = false to hide the ad slot entirely.
 const AD = {
   show: true,
   title: "IdentiBeer Copenhagen - The best event to have a chat about IAM while enjoying a beer.",
   description: "We meet about once a month in a relaxed and informal atmosphere. Come join us - it's free :-)",
   advertiser: "IdentiBeer Copenhagen",
-  image: "IdB-CPH-ad-300x225.png",       // URL to a 300x225px image
-  url: "http://linkedin.com/company/identibeer-cph",         // Click-through URL
-  position: 3,     // Insert ad after this many news items
+  image: "IdB-CPH-ad-300x225.png",
+  url: "http://linkedin.com/company/identibeer-cph",
+  position: 3,
 };
 
-// ── HELPERS ────────────────────────────────────────────────────────────────
 function esc(s) {
   if (!s) return '';
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
@@ -491,7 +466,6 @@ function sourceDot(source) {
   return `<span class="source-dot">${initials(source)}</span>`;
 }
 
-// ── CARD BUILDERS ──────────────────────────────────────────────────────────
 function topStoryItem(a) {
   const thumb = a.image
     ? `<img class="top-story-thumb" src="${esc(a.image)}" alt="" loading="lazy" onerror="this.remove()">`
@@ -524,7 +498,6 @@ function newsItem(a) {
   </a>`;
 }
 
-
 function adItem() {
   const thumb = AD.image
     ? `<img class="ad-thumb" src="${esc(AD.image)}" alt="" loading="lazy" onerror="this.remove()">`
@@ -540,13 +513,11 @@ function adItem() {
   </a>`;
 }
 
-// ── LOAD ───────────────────────────────────────────────────────────────────
 async function load() {
   try {
     const res = await fetch('news.json?t=' + Date.now());
     if (!res.ok) throw new Error('news.json not found — run the fetch script first.');
     const data = await res.json();
-
 
     const topStories = data.top_stories || [];
     const news = data.news || [];
@@ -555,7 +526,6 @@ async function load() {
 
     let html = '';
 
-    // ── Top Stories ──
     if (topStories.length > 0) {
       html += `<section>
         <div class="section-header">Top stories</div>
@@ -565,7 +535,6 @@ async function load() {
       </section>`;
     }
 
-    // ── News Feed ──
     if (news.length > 0) {
       const items = news.map((a, i) => {
         let out = newsItem(a);
@@ -583,7 +552,6 @@ async function load() {
 
     document.getElementById('main').innerHTML = html;
 
-    // Inject article structured data
     const allArticles = [...topStories, ...news];
     const schema = {
       "@context": "https://schema.org",
