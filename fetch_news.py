@@ -8,7 +8,7 @@ from datetime import datetime, timezone, timedelta
 from html.parser import HTMLParser
 
 def danish_date(dt):
-    return f"{dt.day:02d}.{dt.month:02d}.{dt.year}" 
+    return dt.strftime("%-d %b %Y")
 
 ANTHROPIC_KEY = os.environ["ANTHROPIC_API_KEY"]
 NEWS_KEY = os.environ["NEWS_API_KEY"]
