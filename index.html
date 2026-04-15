@@ -86,46 +86,53 @@
     }
 
     .topbar {
-      background: var(--surface);
-      border-bottom: 1px solid var(--border);
-      padding: 0 24px;
-      position: sticky;
-      top: 0;
-      z-index: 100;
+      background: #1a73e8;
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .topbar-inner {
-      max-width: 1000px;
-      margin: 0 auto;
-      height: 116px;
       display: flex;
+      flex-direction: column;
       align-items: center;
-      gap: 16px;
     }
 
     .logo {
       display: flex;
       align-items: center;
-      gap: 4px;
+      gap: 10px;
       text-decoration: none;
-      flex-shrink: 0;
     }
 
     .logo-iam {
       font-family: 'Google Sans', sans-serif;
-      font-size: 22px;
-      font-weight: 500;
-      color: var(--blue);
+      font-size: 32px;
+      font-weight: 600;
+      color: #ffffff;
+      letter-spacing: -0.5px;
     }
 
     .logo-news {
       font-family: 'Google Sans', sans-serif;
-      font-size: 22px;
+      font-size: 32px;
       font-weight: 400;
-      color: var(--text-primary);
+      color: rgba(255,255,255,0.85);
+      letter-spacing: -0.5px;
     }
 
-    .topbar-spacer { flex: 1; }
+    .logo-tagline {
+      font-family: 'Google Sans', sans-serif;
+      font-size: 12px;
+      color: rgba(255,255,255,0.65);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      text-align: center;
+      margin-top: 4px;
+    }
+
+    .topbar-spacer { display: none; }
 
     .page {
       max-width: 1000px;
@@ -424,9 +431,19 @@
 <header class="topbar">
   <div class="topbar-inner">
     <a class="logo" href="https://iamnews.org">
-      <img src="logo.svg" alt="IAMNews" height="100" style="display:block" />
+      <svg width="40" height="40" viewBox="270 95 150 90">
+        <path d="M304 139 Q295 150 304 161" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+        <path d="M292 126 Q275 150 292 174" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+        <path d="M376 139 Q385 150 376 161" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+        <path d="M388 126 Q405 150 388 174" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+        <path d="M326 130 L326 118 Q326 104 340 104 Q354 104 354 118 L354 130" fill="none" stroke="white" stroke-width="5" stroke-linecap="round"/>
+        <rect x="314" y="128" width="52" height="44" rx="7" fill="white"/>
+        <circle cx="340" cy="145" r="7" fill="#1a73e8"/>
+        <rect x="337" y="149" width="6" height="12" rx="2" fill="#1a73e8"/>
+      </svg>
+      <span class="logo-iam">IAM</span><span class="logo-news">News</span>
     </a>
-    <div class="topbar-spacer"></div>
+    <div class="logo-tagline">Identity &amp; Access Management</div>
   </div>
 </header>
 
