@@ -586,9 +586,7 @@ async function load() {
     sd.textContent = JSON.stringify(schema);
     document.head.appendChild(sd);
 
-    if (topStories[0]) {
-      document.title = topStories[0].title + ' – IAM News';
-    }
+
 
   } catch (e) {
     document.getElementById('main').innerHTML =
