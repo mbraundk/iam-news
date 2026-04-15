@@ -4,7 +4,7 @@ import os
 import urllib.request
 import urllib.error
 import xml.etree.ElementTree as ET
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from html.parser import HTMLParser
 
 DANISH_MONTHS = {
@@ -161,6 +161,17 @@ def fetch_newsapi():
 
 # ── DEDUPLICATION ─────────────────────────────────────────────────────────────
 
+def is_sponsored(article):
+    indicators = ["sponsored", "partner content", "paid post", "advertorial", "promoted"]
+    title = (article.get("title") or "").lower()
+    desc = (article.get("description") or "").lower()
+    url = (article.get("url") or "").lower()
+    return any(i in title or i in desc or i in url for i in indicators)
+
+def is_paywalled(article):
+    url = (article.get("url") or "").lower()
+    return any(domain in url for domain in PAYWALL_DOMAINS)
+
 def deduplicate(articles):
     seen_urls = set()
     seen_titles = set()
@@ -273,8 +284,22 @@ for i, a in enumerate(all_articles):
 
 print(f"\nProcessed {len(processed)} relevant articles")
 
+# Filter to last 48 hours for top story candidates
+now = datetime.now(timezone.utc)
+
+def parse_date_str(date_str):
+    for fmt in ("%d. %b. %Y", "%b %d, %Y"):
+        try:
+            return datetime.strptime(date_str, fmt).replace(tzinfo=timezone.utc)
+        except Exception:
+            pass
+    return None
+
+recent = [a for a in processed if (lambda d: d and (now - d).days < 2)(parse_date_str(a.get("date", "")))]
+top_story_pool = recent if recent else processed
+
 # Sort by importance for top stories, keep chronological for news
-top_stories = sorted(processed, key=lambda x: x.get("importance", 0), reverse=True)[:5]
+top_stories = sorted(top_story_pool, key=lambda x: x.get("importance", 0), reverse=True)[:5]
 top_urls = {a["url"] for a in top_stories}
 news = [a for a in processed if a["url"] not in top_urls][:30]
 
