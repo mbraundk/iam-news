@@ -182,7 +182,7 @@ If NOT relevant, reply with exactly: SKIP
 
 If relevant, reply in this exact format and nothing else:
 SCORE: <number 1-10>
-SUMMARY: <single sentence for IAM professionals explaining what happened and why it matters>
+SUMMARY: <three sentences in analyst style: first states what happened, second provides key details or context, third explains the broader significance. Report facts only, no prescriptive language like "must" or "should">
 
 Score 9-10: major breach, acquisition, product launch, or policy change with wide IAM impact
 Score 6-8: significant vendor news, new research, or regulatory update relevant to IAM
