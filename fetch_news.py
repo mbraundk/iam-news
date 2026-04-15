@@ -2,37 +2,181 @@ import anthropic
 import json
 import os
 import urllib.request
+import urllib.error
+import xml.etree.ElementTree as ET
 from datetime import datetime
+from html.parser import HTMLParser
 
 ANTHROPIC_KEY = os.environ["ANTHROPIC_API_KEY"]
 NEWS_KEY = os.environ["NEWS_API_KEY"]
 
-def fetch_articles():
+RSS_FEEDS = [
+    ("Dark Reading",        "https://www.darkreading.com/rss.xml"),
+    ("Bleeping Computer",   "https://www.bleepingcomputer.com/feed/"),
+    ("Help Net Security",   "https://www.helpnetsecurity.com/feed/"),
+    ("SC Magazine",         "https://www.scmagazine.com/feed"),
+    ("The Hacker News",     "https://feeds.feedburner.com/TheHackersNews"),
+    ("Krebs on Security",   "https://krebsonsecurity.com/feed/"),
+]
+
+HEADERS = {"User-Agent": "IAMNews/1.0 (+https://iamnews.org)"}
+
+# ── OG IMAGE FETCHER ──────────────────────────────────────────────────────────
+
+class OGParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.og_image = None
+    def handle_starttag(self, tag, attrs):
+        if tag == "meta" and not self.og_image:
+            d = dict(attrs)
+            if d.get("property") == "og:image" and d.get("content"):
+                self.og_image = d["content"]
+            elif d.get("name") == "og:image" and d.get("content"):
+                self.og_image = d["content"]
+
+def get_og_image(url):
+    try:
+        req = urllib.request.Request(url, headers={**HEADERS, "Range": "bytes=0-8192"})
+        with urllib.request.urlopen(req, timeout=5) as r:
+            html = r.read().decode("utf-8", errors="ignore")
+        parser = OGParser()
+        parser.feed(html)
+        return parser.og_image
+    except Exception:
+        return None
+
+# ── RSS FETCHER ───────────────────────────────────────────────────────────────
+
+NS = {
+    "media":   "http://search.yahoo.com/mrss/",
+    "content": "http://purl.org/rss/1.0/modules/content/",
+    "dc":      "http://purl.org/dc/elements/1.1/",
+}
+
+def parse_rss(source_name, feed_url):
+    articles = []
+    try:
+        req = urllib.request.Request(feed_url, headers=HEADERS)
+        with urllib.request.urlopen(req, timeout=10) as r:
+            raw = r.read()
+        root = ET.fromstring(raw)
+        channel = root.find("channel") or root
+        items = channel.findall("item") or root.findall(".//{http://www.w3.org/2005/Atom}entry")
+        for item in items[:30]:
+            def t(tag, ns=None):
+                el = item.find(tag) if ns is None else item.find(tag, ns)
+                return (el.text or "").strip() if el is not None and el.text else ""
+
+            title = t("title")
+            url   = t("link") or t("guid")
+            if not url and item.find("{http://www.w3.org/2005/Atom}link") is not None:
+                url = item.find("{http://www.w3.org/2005/Atom}link").get("href", "")
+            desc  = t("description") or t("{http://www.w3.org/2005/Atom}summary")
+            pub   = t("pubDate") or t("published") or t("{http://www.w3.org/2005/Atom}published")
+
+            # Try to get image from media tags
+            image = None
+            mc = item.find("media:content", NS)
+            if mc is not None:
+                image = mc.get("url")
+            if not image:
+                mt = item.find("media:thumbnail", NS)
+                if mt is not None:
+                    image = mt.get("url")
+            if not image:
+                enc = item.find("enclosure")
+                if enc is not None and "image" in (enc.get("type") or ""):
+                    image = enc.get("url")
+
+            # Parse date
+            date_str = ""
+            for fmt in ("%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S GMT",
+                        "%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%dT%H:%M:%S%z"):
+                try:
+                    dt = datetime.strptime(pub.strip(), fmt)
+                    date_str = dt.strftime("%b %d, %Y")
+                    break
+                except Exception:
+                    continue
+            if not date_str and pub:
+                date_str = pub[:10]
+
+            if title and url:
+                articles.append({
+                    "title": title,
+                    "url": url,
+                    "source": source_name,
+                    "date": date_str,
+                    "description": desc,
+                    "image": image,
+                })
+    except Exception as e:
+        print(f"  Warning: could not fetch {source_name}: {e}")
+    return articles
+
+# ── NEWSAPI FETCHER ───────────────────────────────────────────────────────────
+
+def fetch_newsapi():
     url = (
         "https://newsapi.org/v2/everything"
-        "?q=%22identity+and+access+management%22+OR+%22privileged+access+management%22+OR+%22zero+trust+identity%22+OR+%22Okta%22+OR+%22Microsoft+Entra%22+OR+%22CyberArk%22+OR+%22SailPoint%22+OR+%22identity+governance%22"
-        "&language=en"
-        "&sortBy=publishedAt"
-        "&pageSize=100"
+        "?q=%22identity+and+access+management%22+OR+%22privileged+access+management%22"
+        "+OR+%22zero+trust+identity%22+OR+%22Okta%22+OR+%22Microsoft+Entra%22"
+        "+OR+%22CyberArk%22+OR+%22SailPoint%22+OR+%22identity+governance%22"
+        "&language=en&sortBy=publishedAt&pageSize=50"
         f"&apiKey={NEWS_KEY}"
     )
-    req = urllib.request.Request(url, headers={"User-Agent": "IAMNews/1.0"})
-    with urllib.request.urlopen(req) as r:
+    req = urllib.request.Request(url, headers=HEADERS)
+    with urllib.request.urlopen(req, timeout=10) as r:
         data = json.loads(r.read())
     if data.get("status") != "ok":
         raise ValueError(f"NewsAPI error: {data.get('message')}")
-    articles = data["articles"]
-    articles = [a for a in articles if "pypi.org" not in (a.get("url") or "")]
+    articles = []
+    for a in data["articles"]:
+        if "pypi.org" in (a.get("url") or ""):
+            continue
+        pub = a.get("publishedAt", "")
+        try:
+            dt = datetime.strptime(pub, "%Y-%m-%dT%H:%M:%SZ")
+            date_str = dt.strftime("%b %d, %Y")
+        except Exception:
+            date_str = pub[:10]
+        articles.append({
+            "title": a.get("title") or "",
+            "url": a.get("url") or "",
+            "source": (a.get("source") or {}).get("name") or "",
+            "date": date_str,
+            "description": a.get("description") or "",
+            "image": a.get("urlToImage") or None,
+        })
     return articles
 
-def filter_summarize_score(client, article):
-    content = f"Title: {article['title']}\nDescription: {article.get('description') or ''}\nContent: {article.get('content') or ''}"
+# ── DEDUPLICATION ─────────────────────────────────────────────────────────────
+
+def deduplicate(articles):
+    seen_urls = set()
+    seen_titles = set()
+    unique = []
+    for a in articles:
+        url = a.get("url", "").split("?")[0].rstrip("/")
+        title_key = a.get("title", "").lower()[:60]
+        if url in seen_urls or title_key in seen_titles:
+            continue
+        seen_urls.add(url)
+        seen_titles.add(title_key)
+        unique.append(a)
+    return unique
+
+# ── CLAUDE FILTER + SCORE + SUMMARIZE ────────────────────────────────────────
+
+def filter_score_summarize(client, article):
+    content = f"Title: {article['title']}\nDescription: {article.get('description') or ''}"
     response = client.messages.create(
         model="claude-sonnet-4-6",
         max_tokens=200,
         messages=[{"role": "user", "content": f"""You are a filter and scorer for an IAM news site read by identity and access management professionals.
 
-First decide if this article is relevant to IAM professionals. It must be directly about identity, authentication, authorization, access management, zero trust, PAM, SSO, MFA, identity governance, or specific IAM vendors (Okta, CyberArk, SailPoint, Microsoft Entra, Ping Identity, ForgeRock, etc.).
+Decide if this article is relevant to IAM professionals. It must be directly about identity, authentication, authorization, access management, zero trust, PAM, SSO, MFA, identity governance, or specific IAM vendors (Okta, CyberArk, SailPoint, Microsoft Entra, Ping Identity, ForgeRock, etc.).
 
 If NOT relevant, reply with exactly: SKIP
 
@@ -49,21 +193,39 @@ Article:
     )
     return response.content[0].text.strip()
 
-print("Fetching articles from NewsAPI...")
-raw_articles = fetch_articles()
-print(f"Got {len(raw_articles)} articles. Filtering, scoring and summarizing...")
+# ── MAIN ──────────────────────────────────────────────────────────────────────
 
+print("Fetching RSS feeds...")
+all_articles = []
+for name, url in RSS_FEEDS:
+    print(f"  {name}...")
+    items = parse_rss(name, url)
+    print(f"    Got {len(items)} items")
+    all_articles.extend(items)
+
+print("Fetching NewsAPI...")
+try:
+    newsapi_items = fetch_newsapi()
+    print(f"  Got {len(newsapi_items)} items")
+    all_articles.extend(newsapi_items)
+except Exception as e:
+    print(f"  Warning: NewsAPI failed: {e}")
+
+print(f"\nTotal before dedup: {len(all_articles)}")
+all_articles = deduplicate(all_articles)
+print(f"Total after dedup: {len(all_articles)}")
+
+print("\nFiltering, scoring and summarizing with Claude...")
 client = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
 
-articles = []
-for i, a in enumerate(raw_articles):
-    print(f"Processing {i+1}/{len(raw_articles)}: {a['title'][:60]}")
+processed = []
+for i, a in enumerate(all_articles):
+    print(f"  [{i+1}/{len(all_articles)}] {a['title'][:70]}")
     try:
-        result = filter_summarize_score(client, a)
+        result = filter_score_summarize(client, a)
         if result == "SKIP":
-            print("  → Skipped (not IAM relevant)")
+            print("    → Skipped")
             continue
-
         score = 5
         summary = ""
         for line in result.splitlines():
@@ -74,47 +236,42 @@ for i, a in enumerate(raw_articles):
                     pass
             elif line.startswith("SUMMARY:"):
                 summary = line.replace("SUMMARY:", "").strip()
-
         if not summary:
             summary = a.get("description") or ""
+        print(f"    → Score: {score}")
 
-        print(f"  → Score: {score}")
+        # Fetch og:image if no image found in feed
+        image = a.get("image")
+        if not image and a.get("url"):
+            print(f"    → Fetching og:image...")
+            image = get_og_image(a["url"])
 
+        processed.append({
+            "title": a["title"],
+            "url": a["url"],
+            "source": a["source"],
+            "date": a["date"],
+            "summary": summary,
+            "image": image,
+            "importance": score,
+        })
     except Exception as e:
-        print(f"  Warning: could not process: {e}")
-        score = 5
-        summary = a.get("description") or ""
+        print(f"    Warning: {e}")
 
-    pub = a.get("publishedAt", "")
-    try:
-        dt = datetime.strptime(pub, "%Y-%m-%dT%H:%M:%SZ")
-        date_str = dt.strftime("%b %d, %Y")
-    except Exception:
-        date_str = pub[:10]
+print(f"\nProcessed {len(processed)} relevant articles")
 
-    articles.append({
-        "title": a.get("title") or "",
-        "url": a.get("url") or "",
-        "source": (a.get("source") or {}).get("name") or "",
-        "date": date_str,
-        "summary": summary,
-        "image": a.get("urlToImage") or None,
-        "importance": score,
-    })
-
-articles = articles[:20]
-
-# Top stories = highest importance score
-top_stories = sorted(articles, key=lambda x: x.get("importance", 0), reverse=True)[:6]
-top_urls = [a["url"] for a in top_stories]
+# Sort by importance for top stories, keep chronological for news
+top_stories = sorted(processed, key=lambda x: x.get("importance", 0), reverse=True)[:5]
+top_urls = {a["url"] for a in top_stories}
+news = [a for a in processed if a["url"] not in top_urls][:30]
 
 output = {
     "updated": datetime.utcnow().strftime("%B %d, %Y at %H:%M UTC"),
-    "articles": articles,
-    "top_stories": top_urls
+    "top_stories": top_stories,
+    "news": news,
 }
 
 with open("news.json", "w", encoding="utf-8") as f:
     json.dump(output, f, ensure_ascii=False, indent=2)
 
-print(f"Done. Saved {len(articles)} articles, {len(top_stories)} top stories to news.json")
+print(f"Done. Saved {len(top_stories)} top stories and {len(news)} news articles.")
