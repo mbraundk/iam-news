@@ -30,8 +30,6 @@ PAYWALL_DOMAINS = [
 
 HEADERS = {"User-Agent": "IAMNews/1.0 (+https://iamnews.org)"}
 
-# ── OG IMAGE FETCHER ──────────────────────────────────────────────────────────
-
 class OGParser(HTMLParser):
     def __init__(self):
         super().__init__()
@@ -54,8 +52,6 @@ def get_og_image(url):
         return parser.og_image
     except Exception:
         return None
-
-# ── RSS FETCHER ───────────────────────────────────────────────────────────────
 
 NS = {
     "media":   "http://search.yahoo.com/mrss/",
@@ -84,7 +80,6 @@ def parse_rss(source_name, feed_url):
             desc  = t("description") or t("{http://www.w3.org/2005/Atom}summary")
             pub   = t("pubDate") or t("published") or t("{http://www.w3.org/2005/Atom}published")
 
-            # Try to get image from media tags
             image = None
             mc = item.find("media:content", NS)
             if mc is not None:
@@ -98,7 +93,6 @@ def parse_rss(source_name, feed_url):
                 if enc is not None and "image" in (enc.get("type") or ""):
                     image = enc.get("url")
 
-            # Parse date
             date_str = ""
             for fmt in ("%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S GMT",
                         "%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%dT%H:%M:%S%z"):
@@ -123,8 +117,6 @@ def parse_rss(source_name, feed_url):
     except Exception as e:
         print(f"  Warning: could not fetch {source_name}: {e}")
     return articles
-
-# ── NEWSAPI FETCHER ───────────────────────────────────────────────────────────
 
 def fetch_newsapi():
     url = (
@@ -160,8 +152,6 @@ def fetch_newsapi():
         })
     return articles
 
-# ── DEDUPLICATION ─────────────────────────────────────────────────────────────
-
 def is_sponsored(article):
     indicators = ["sponsored", "partner content", "paid post", "advertorial", "promoted"]
     title = (article.get("title") or "").lower()
@@ -186,8 +176,6 @@ def deduplicate(articles):
         seen_titles.add(title_key)
         unique.append(a)
     return unique
-
-# ── CLAUDE FILTER + SCORE + SUMMARIZE ────────────────────────────────────────
 
 def filter_score_summarize(client, article):
     content = f"Title: {article['title']}\nDescription: {article.get('description') or ''}"
@@ -214,8 +202,6 @@ Article:
 {content}"""}]
     )
     return response.content[0].text.strip()
-
-# ── MAIN ──────────────────────────────────────────────────────────────────────
 
 print("Fetching RSS feeds...")
 all_articles = []
@@ -264,7 +250,6 @@ for i, a in enumerate(all_articles):
             summary = a.get("description") or ""
         print(f"    → Score: {score}")
 
-        # Fetch og:image if no image found in feed
         image = a.get("image")
         if not image and a.get("url"):
             print(f"    → Fetching og:image...")
@@ -285,21 +270,27 @@ for i, a in enumerate(all_articles):
 
 print(f"\nProcessed {len(processed)} relevant articles")
 
-# Filter to last 5 days for top story candidates
 now = datetime.now(timezone.utc)
 
 def parse_date_str(date_str):
-    for fmt in ("%d. %b. %Y", "%b %d, %Y"):
+    for fmt in ("%d %b %Y", "%b %d, %Y"):
         try:
-            return datetime.strptime(date_str, fmt).replace(tzinfo=timezone.utc)
+            return datetime.strptime(date_str.strip(), fmt).replace(tzinfo=timezone.utc)
         except Exception:
             pass
+    # Handle single digit day like "7 Apr 2026"
+    try:
+        parts = date_str.strip().split()
+        if len(parts) == 3:
+            normalized = f"{int(parts[0]):02d} {parts[1]} {parts[2]}"
+            return datetime.strptime(normalized, "%d %b %Y").replace(tzinfo=timezone.utc)
+    except Exception:
+        pass
     return None
 
 recent = [a for a in processed if (lambda d: d and (now - d).days < 5)(parse_date_str(a.get("date", "")))]
 top_story_pool = recent if recent else processed
 
-# Sort by importance for top stories, keep chronological for news
 top_stories = sorted(top_story_pool, key=lambda x: x.get("importance", 0), reverse=True)[:5]
 top_urls = {a["url"] for a in top_stories}
 news = [a for a in processed if a["url"] not in top_urls][:30]
