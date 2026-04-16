@@ -7,9 +7,6 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from html.parser import HTMLParser
 
-def danish_date(dt):
-    return dt.strftime("%-d %b %Y")
-
 ANTHROPIC_KEY = os.environ["ANTHROPIC_API_KEY"]
 NEWS_KEY = os.environ["NEWS_API_KEY"]
 
@@ -98,12 +95,12 @@ def parse_rss(source_name, feed_url):
                         "%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%dT%H:%M:%S%z"):
                 try:
                     dt = datetime.strptime(pub.strip(), fmt)
-                    date_str = danish_date(dt)
+                    date_str = dt.strftime("%Y-%m-%d")
                     break
                 except Exception:
                     continue
             if not date_str and pub:
-                date_str = pub[:10]
+                date_str = pub[:10]  # fallback to ISO-like prefix
 
             if title and url:
                 articles.append({
@@ -139,7 +136,7 @@ def fetch_newsapi():
         pub = a.get("publishedAt", "")
         try:
             dt = datetime.strptime(pub, "%Y-%m-%dT%H:%M:%SZ")
-            date_str = danish_date(dt)
+            date_str = dt.strftime("%Y-%m-%d")
         except Exception:
             date_str = pub[:10]
         articles.append({
@@ -273,20 +270,10 @@ print(f"\nProcessed {len(processed)} relevant articles")
 now = datetime.now(timezone.utc)
 
 def parse_date_str(date_str):
-    for fmt in ("%d %b %Y", "%b %d, %Y"):
-        try:
-            return datetime.strptime(date_str.strip(), fmt).replace(tzinfo=timezone.utc)
-        except Exception:
-            pass
-    # Handle single digit day like "7 Apr 2026"
     try:
-        parts = date_str.strip().split()
-        if len(parts) == 3:
-            normalized = f"{int(parts[0]):02d} {parts[1]} {parts[2]}"
-            return datetime.strptime(normalized, "%d %b %Y").replace(tzinfo=timezone.utc)
+        return datetime.strptime(date_str[:10], "%Y-%m-%d").replace(tzinfo=timezone.utc)
     except Exception:
-        pass
-    return None
+        return None
 
 recent = [a for a in processed if (lambda d: d and (now - d).days < 5)(parse_date_str(a.get("date", "")))]
 top_story_pool = recent if recent else processed
