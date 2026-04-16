@@ -464,12 +464,19 @@
 const AD = {
   show: true,
   title: "IdentiBeer Copenhagen – Come for the beer. Stay for the identity talk.",
-  description: "Monthly IAM meetups in Copenhagen – informal, vendor-neutral, no slides, no pitches. Just honest conversations about identity, access and security over a cold beer. Whether you're a seasoned IAM professional or just starting out in the identity space, you're welcome here. We don't judge – we discuss. Come as you are, bring your questions, your stories, or just your curiosity. Free to join, but you pay for your own beer 🙂",
+  description: "Monthly, informal, vendor-neutral meetups. No slides, no pitches, meet your peers. Free to join, but pay for your beer :-)",
   advertiser: "IdentiBeer Copenhagen",
   image: "IdB-CPH-ad-300x225.png",
   url: "http://linkedin.com/company/identibeer-cph",
   position: 3,
 };
+
+function formatDate(dateStr) {
+  if (!dateStr) return '';
+  const d = new Date(dateStr);
+  if (isNaN(d)) return dateStr;
+  return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+}
 
 function esc(s) {
   if (!s) return '';
@@ -494,7 +501,7 @@ function topStoryItem(a) {
       <div class="top-story-source">${sourceDot(a.source)}<span class="source-name">${esc(a.source)}</span></div>
       <div class="top-story-title">${esc(a.title)}</div>
       <div class="top-story-summary">${esc(a.summary)}</div>
-      <div class="top-story-meta">${esc(a.date)}</div>
+      <div class="top-story-meta">${formatDate(a.date)}</div>
       ${a.paywall ? '<div class="paywall-label">Subscription may be required</div>' : ''}
     </div>
   </a>`;
@@ -509,7 +516,7 @@ function newsItem(a) {
       <div class="news-source">${sourceDot(a.source)}<span class="news-source-name">${esc(a.source)}</span></div>
       <div class="news-title">${esc(a.title)}</div>
       <div class="news-summary">${esc(a.summary)}</div>
-      <div class="news-meta">${esc(a.date)}</div>
+      <div class="news-meta">${formatDate(a.date)}</div>
       ${a.paywall ? '<div class="paywall-label">Subscription may be required</div>' : ''}
     </div>
     ${thumb}
