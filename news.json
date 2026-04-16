@@ -1,12 +1,12 @@
 {
-  "updated": "April 15, 2026 at 12:40 UTC",
+  "updated": "April 16, 2026 at 06:59 UTC",
   "top_stories": [
     {
       "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
       "url": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
       "source": "Krebs on Security",
       "date": "7 Apr 2026",
-      "summary": "Russian military intelligence hackers exploited vulnerabilities in older internet routers to harvest Microsoft Office authentication tokens from over 18,000 networks. The campaign enabled credential theft without deploying malware by targeting router flaws to silently siphon authentication tokens at scale.",
+      "summary": "Russian military intelligence hackers exploited vulnerabilities in older internet routers to harvest Microsoft Office authentication tokens from over 18,000 networks. The campaign operated without deploying malware, relying solely on stolen authentication tokens to gain unauthorized access.",
       "image": null,
       "importance": 8,
       "paywall": false
@@ -16,7 +16,7 @@
       "url": "https://www.itnews.com.au/feature/the-death-of-standing-privilege-in-the-age-of-ai-agents-624862",
       "source": "iTnews",
       "date": "12 Apr 2026",
-      "summary": "The article addresses the security challenges posed by AI agents as highly privileged identities that traditional Privileged Access Management (PAM) controls are inadequate to manage. The piece focuses on the concept of eliminating standing privilege in favor of just-in-time access models to address risks introduced by AI agent identities.",
+      "summary": "The article examines how AI agents are emerging as highly privileged identities that traditional Privileged Access Management (PAM) controls are not designed to handle. It argues that standing privilege models are inadequate for AI agent workloads, pointing to the need for just-in-time access and dynamic authorization approaches.",
       "image": "https://i.nextmedia.com.au/Features/Untitled_design_(22).jpg",
       "importance": 8,
       "paywall": false
@@ -26,7 +26,7 @@
       "url": "https://hackread.com/unc6783-hackers-fake-okta-pages-corporate-breach/",
       "source": "HackRead",
       "date": "10 Apr 2026",
-      "summary": "A threat actor tracked as UNC6783 is conducting a corporate breach campaign by impersonating support staff and using fake Okta login pages to steal credentials and gain access to corporate systems. The campaign combines social engineering with phishing infrastructure mimicking Okta to exfiltrate sensitive data from targeted organizations.",
+      "summary": "A threat actor tracked as UNC6783 is conducting corporate breach campaigns by impersonating support staff and using fake Okta login pages to steal credentials and gain unauthorized access to corporate systems. The campaign combines social engineering with phishing infrastructure mimicking Okta's authentication pages to capture credentials and exfiltrate sensitive data.",
       "image": "https://hackread.com/wp-content/uploads/2026/04/unc6783-hackers-fake-okta-pages-corporate-breach.jpg",
       "importance": 8,
       "paywall": false
@@ -36,7 +36,7 @@
       "url": "https://www.darkreading.com/vulnerabilities-threats/privilege-elevation-dominates-microsoft-patch-update",
       "source": "Dark Reading",
       "date": "14 Apr 2026",
-      "summary": "Microsoft released a massive patch update addressing 165 vulnerabilities, with privilege elevation bugs accounting for more than half of the total. Two zero-day vulnerabilities were included among the elevation-of-privilege flaws, making this patch cycle particularly relevant to access control and privileged access management.",
+      "summary": "Microsoft released a massive patch update addressing 165 vulnerabilities, with privilege elevation bugs accounting for more than half of the total. Two zero-day vulnerabilities were included among the elevation-of-privilege flaws, making this a significant update for PAM and access management security.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt0c595c01e195b02e/69dea89ff56bbb6d65296357/patch_tomeqs_shutterstock.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -46,7 +46,7 @@
       "url": "https://www.darkreading.com/identity-access-management-security/your-next-breach-business-as-usual",
       "source": "Dark Reading",
       "date": "10 Apr 2026",
-      "summary": "The article addresses the growing threat of credential-based attacks and the need for cybersecurity teams to shift their detection models to identify breaches that mimic normal business activity. The focus is on detecting identity-based intrusions where attackers use legitimate credentials, making it directly relevant to IAM and authentication security practices.",
+      "summary": "The article addresses the growing threat of credential-based attacks and the detection model shifts cybersecurity teams need to adopt in response. It focuses on how breaches increasingly exploit legitimate credentials, making them appear as normal activity and challenging traditional security approaches.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt331a3aad1718e6b2/69d856203032b2ee7b4bf00d/login_page_Yuen_Man_Cheung_Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -58,19 +58,19 @@
       "url": "https://www.darkreading.com/threat-intelligence/russias-fancy-bear-apt-continues-global-onslaught",
       "source": "Dark Reading",
       "date": "9 Apr 2026",
-      "summary": "Russian APT group Fancy Bear is continuing its global cyberattack campaign targeting organizations across multiple sectors. Security experts recommend patching and zero trust implementation as non-negotiable defensive measures against the threat.",
+      "summary": "Russia's Fancy Bear APT group continues conducting global cyber espionage campaigns targeting organizations of varying technical sophistication. Security experts recommend patching and zero trust implementation as non-negotiable defensive measures against the threat group.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltee215733d1f4849e/69d6b1253032b219f34bebeb/Grizzly_bear_photo-fox_Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 4,
       "paywall": false
     },
     {
-      "title": "5 Ways Zero Trust Maximizes Identity Security",
-      "url": "https://www.bleepingcomputer.com/news/security/5-ways-zero-trust-maximizes-identity-security/",
-      "source": "Bleeping Computer",
-      "date": "14 Apr 2026",
-      "summary": "Specops outlines five ways Zero Trust architecture strengthens identity security, focusing on limiting access and preventing privilege escalation from stolen credentials. The piece covers identity-first Zero Trust principles including device trust enforcement and lateral movement prevention.",
-      "image": null,
-      "importance": 7,
+      "title": "Product showcase: Ente Auth encrypts, backs up, and syncs 2FA",
+      "url": "https://www.helpnetsecurity.com/2026/04/16/product-showcase-ente-auth-authenticator-app/",
+      "source": "Help Net Security",
+      "date": "16 Apr 2026",
+      "summary": "Ente Auth is a free, open-source authenticator app that generates and stores one-time passcodes for two-factor authentication with cross-device sync and backup capabilities. The app supports QR code and manual account setup, and allows importing from other authenticator apps.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/04/15121000/ente_auth-1500.webp",
+      "importance": 5,
       "paywall": false
     },
     {
@@ -78,7 +78,7 @@
       "url": "https://thehackernews.com/2026/04/fbi-and-indonesian-police-dismantle.html",
       "source": "The Hacker News",
       "date": "13 Apr 2026",
-      "summary": "The FBI and Indonesian National Police dismantled the W3LL phishing network, arresting its alleged developer and disrupting infrastructure used to steal account credentials in fraud attempts exceeding $20 million. The W3LL toolkit was a commercially available phishing-as-a-service platform specifically designed to bypass MFA and compromise Microsoft 365 accounts at scale.",
+      "summary": "The FBI and Indonesian National Police dismantled the W3LL phishing network, arresting its alleged developer and disrupting infrastructure used to steal account credentials in over $20 million in fraud attempts. The W3LL toolkit was a commercial phishing-as-a-service platform specifically designed to bypass MFA and compromise Microsoft 365 accounts at scale.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgb77IQHAfOvWFPWb_cgV_YJGdRtNJJJWBcjYH6M6cCawBv2tQdybani7Qet_LGwH1tTBHJ2P3Lr6gWdY0sz3547YLzkSLWX3T2l84-A7ndRK3T55QblpJ-j2ovE9Lq0CoNb6ckWziwD2UjKP_awFJXbGr3yuZ1IMPndUyCo_WfoJ9nnyTPFf-K4HVy5A8g/s1600/well-fbi.jpg",
       "importance": 6,
       "paywall": false
@@ -88,7 +88,7 @@
       "url": "https://thehackernews.com/2026/04/google-rolls-out-dbsc-in-chrome-146-to.html",
       "source": "The Hacker News",
       "date": "10 Apr 2026",
-      "summary": "Google has made Device Bound Session Credentials (DBSC) generally available to Windows users in Chrome 146, a security feature designed to block session theft by binding browser sessions to the device. DBSC aims to prevent cookie hijacking attacks where stolen session tokens are used to bypass authentication, with macOS support planned for a future Chrome release.",
+      "summary": "Google has made Device Bound Session Credentials (DBSC) generally available to Windows users in Chrome 146, a security feature designed to prevent session cookie theft. DBSC binds browser sessions to a specific device using cryptographic keys, making stolen session cookies unusable on other devices.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiC-kFnk6uDzN76983rxMJBgJzi5ByxqZ0SM5RAfG1171e3I_lRUCBHIZ0kmMRkxERMiWEO9WRX3D6mkadUuRhw69KYHi4VzPrIa4s4IVilNmFANa2EMbuk1blKF_4ChwqIBuTb4FLj_dqhTDUDsivEnw8OmDL85giaaJTiqATwZArXUq6_3_X7tfd_RLbV/s1600/chrome-cookies.jpg",
       "importance": 7,
       "paywall": false
@@ -98,9 +98,39 @@
       "url": "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/",
       "source": "Krebs on Security",
       "date": "20 Feb 2026",
-      "summary": "A new phishing-as-a-service platform called \"Starkiller\" proxies real login pages in real-time, relaying victims' credentials and MFA codes to legitimate sites rather than using static copied pages. The service effectively bypasses MFA protections by acting as a man-in-the-middle between the victim and the authentic website, making traditional phishing defenses less effective.",
+      "summary": "A new phishing-as-a-service platform called \"Starkiller\" bypasses traditional detection by proxying real login pages and relaying credentials including MFA tokens between victims and legitimate sites in real time. The service effectively defeats MFA protections by acting as a man-in-the-middle, capturing usernames, passwords, and one-time codes as they are entered.",
       "image": null,
       "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "TechJutsu launches browser extension to bring MFA to the web",
+      "url": "https://betakit.com/techjutsu-launches-browser-extension-to-bring-mfa-to-the-web/",
+      "source": "BetaKit",
+      "date": "14 Apr 2026",
+      "summary": "TechJutsu has launched a browser extension designed to bring MFA capabilities to web-based applications. No additional details about the product's specific features, target market, or technical implementation are provided in the available description.",
+      "image": "https://cdn.betakit.com/wp-content/uploads/2019/04/security-265130_1280-e1554820553137.jpg",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "5 Ways Zero Trust Maximizes Identity Security",
+      "url": "https://www.bleepingcomputer.com/news/security/5-ways-zero-trust-maximizes-identity-security/",
+      "source": "BleepingComputer",
+      "date": "14 Apr 2026",
+      "summary": "Specops published a piece outlining five ways Zero Trust architecture strengthens identity security, focusing on credential theft and privilege escalation risks. The article covers identity-first Zero Trust principles including access limitation, device trust enforcement, and lateral movement prevention.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/04/06/specops-mobile-device-lock.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Cisco just made moves to own the AI infrastructure stack",
+      "url": "https://www.networkworld.com/article/4158694/cisco-just-made-two-moves-to-own-the-ai-infrastructure-stack.html",
+      "source": "Network World",
+      "date": "14 Apr 2026",
+      "summary": "Cisco has acquired Astrix Security to bolster its identity capabilities as part of a broader strategy to dominate AI infrastructure. The acquisition targets non-human identity and machine identity management, positioning Cisco's security portfolio to govern agentic AI systems.",
+      "image": "https://www.networkworld.com/wp-content/uploads/2026/04/4158694-0-98110600-1776275063-shutterstock_2284091345.jpg?quality=50&strip=all&w=1024",
+      "importance": 6,
       "paywall": false
     },
     {
@@ -108,7 +138,7 @@
       "url": "https://github.com/prodnull/prmana",
       "source": "Github.com",
       "date": "14 Apr 2026",
-      "summary": "A new open-source tool called Prmana replaces static SSH keys with short-lived OIDC tokens validated at the Linux host through PAM, using DPoP (RFC 9449) for cryptographic proof of token possession. The tool is written in Rust, licensed under Apache 2.0, and integrates OIDC-based authentication directly into the Linux PAM stack for SSH access.",
+      "summary": "Prmana is a new open-source tool written in Rust (Apache 2.0) that replaces static SSH keys with short-lived OIDC tokens validated at the host via PAM. The implementation uses DPoP (RFC 9449) to provide cryptographic proof of token possession, differentiating it from other OIDC-based SSH authentication approaches.",
       "image": "https://opengraph.githubassets.com/9a8d90688e549d336ffad0a69fe499980fec1d165d6b307363ca2374af43c910/prodnull/prmana",
       "importance": 6,
       "paywall": false
@@ -118,9 +148,19 @@
       "url": "https://www.helpnetsecurity.com/2026/04/13/archit-lohokare-appviewx-ai-agent-identity/",
       "source": "Help Net Security",
       "date": "13 Apr 2026",
-      "summary": "AppViewX CEO Archit Lohokare discusses the convergence of machine and AI agent identity management as a unified governance challenge in a Help Net Security interview. The conversation draws on his experience at IBM and CyberArk to address visibility and governance approaches for non-human identities.",
+      "summary": "AppViewX CEO Archit Lohokare discusses the convergence of machine and AI agent identity management as a unified governance challenge. The interview covers his experience at IBM and CyberArk and addresses how organizations can bring visibility and governance to non-human identities.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/04/10082116/archit_lohokare-2-appviewx.webp",
       "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Identity Protection in the AI Era",
+      "url": "https://www.trendmicro.com/en_us/research/26/d/ai-era-identity-production.html",
+      "source": "Trendmicro.com",
+      "date": "13 Apr 2026",
+      "summary": "The article presents a security framework focused on identity-first approaches incorporating zero trust enforcement, threat detection, and AI protection into a unified model. Key elements include visibility, threat response, and identity protection strategies relevant to modern IAM practices.",
+      "image": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/thumbnails/26/identity-protection-in-the-ai-era-blog-img.jpg",
+      "importance": 6,
       "paywall": false
     },
     {
@@ -128,7 +168,7 @@
       "url": "https://hackread.com/google-chrome-update-infostealer-cookie-theft/",
       "source": "HackRead",
       "date": "11 Apr 2026",
-      "summary": "Google has added Device Bound Session Credentials (DBSC) to Chrome 146, using hardware-based keys to cryptographically bind session cookies to specific devices on Windows. This directly counters infostealer malware that steals session cookies to bypass authentication, addressing a common method used to circumvent MFA and session-based access controls.",
+      "summary": "Google has added Device Bound Session Credentials (DBSC) to Chrome 146, using hardware-based cryptographic keys to bind session cookies to specific devices on Windows. This directly counters infostealer malware that steals session cookies to bypass authentication, a common technique used to circumvent MFA protections.",
       "image": "https://hackread.com/wp-content/uploads/2026/04/google-chrome-update-infostealer-cookie-theft.jpg",
       "importance": 7,
       "paywall": false
@@ -138,7 +178,7 @@
       "url": "https://www.helpnetsecurity.com/2026/04/10/google-chrome-device-bound-session-credentials/",
       "source": "Help Net Security",
       "date": "10 Apr 2026",
-      "summary": "Google is shipping device-bound session credentials in Chrome to counter cookie theft attacks where infostealer malware extracts and exfiltrates authentication cookies. The feature cryptographically binds session credentials to a specific device, preventing stolen cookies from being used on attacker-controlled systems.",
+      "summary": "Google is shipping device-bound session credentials in Chrome to counter cookie theft attacks where infostealer malware extracts and exfiltrates authentication cookies. The feature cryptographically binds session credentials to the specific device, preventing stolen cookies from being used on attacker-controlled systems even when the cookies have extended lifetimes.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/04/10112054/cookie-1500.webp",
       "importance": 7,
       "paywall": false
@@ -148,40 +188,10 @@
       "url": "https://www.ghacks.net/2026/04/10/google-chrome-146-adds-device-bound-session-credentials-to-stop-session-cookie-theft-on-windows/",
       "source": "Ghacks Technology News",
       "date": "10 Apr 2026",
-      "summary": "Google has introduced Device Bound Session Credentials (DBSC) in Chrome 146 for Windows, a security feature designed to prevent session cookie theft. DBSC cryptographically binds browser sessions to a specific device, making stolen session cookies unusable on other devices and directly addressing a common authentication bypass technique.",
+      "summary": "Google has introduced Device Bound Session Credentials (DBSC) in Chrome 146 for Windows, a security feature designed to prevent session cookie theft. DBSC cryptographically binds session credentials to a specific device, making stolen session cookies unusable on other machines.",
       "image": "https://www.ghacks.net/wp-content/uploads/2026/04/gHacks-articles-2026-04-10T090108.645.png",
       "importance": 7,
       "paywall": false
-    },
-    {
-      "title": "Google Chrome adds infostealer protection against session cookie theft",
-      "url": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/",
-      "source": "BleepingComputer",
-      "date": "9 Apr 2026",
-      "summary": "Google has rolled out Device Bound Session Credentials (DBSC) in Chrome 146 for Windows, a security feature that cryptographically binds session cookies to a specific device to prevent theft by infostealer malware. DBSC uses public-key cryptography tied to the device's hardware, meaning stolen session cookies cannot be replayed by attackers on different machines.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2023/06/16/Google-Chrome-headpic.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "'Several dozen' high-value corporations hit by new extortion crew in helpdesk phishing spree",
-      "url": "https://www.theregister.com/2026/04/09/several_dozen_highvalue_corporations_targeted/",
-      "source": "Theregister.com",
-      "date": "9 Apr 2026",
-      "summary": "A new extortion group has compromised several dozen high-value corporations by exploiting helpdesk social engineering and phishing attacks, according to Google. The campaign targets identity verification weaknesses at IT helpdesks to gain unauthorized access, a technique closely associated with vishing/MFA bypass attacks used by threat actors like Scattered Spider.",
-      "image": "https://regmedia.co.uk/2022/10/26/shutterstock_racoon_pc.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Investigating Storm-2755: “Payroll pirate” attacks targeting Canadian employees",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/09/investigating-storm-2755-payroll-pirate-attacks-targeting-canadian-employees/",
-      "source": "Microsoft.com",
-      "date": "9 Apr 2026",
-      "summary": "Microsoft's DART team has identified a financially motivated threat actor, Storm-2755, targeting Canadian employee accounts to gain unauthorized access and redirect payroll. The attacks focus on compromising employee identity and account access to divert salary payments, making it directly relevant to authentication and account security practices.",
-      "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/04/Storm-2755-featured-image.jpg",
-      "importance": 7,
-      "paywall": true
     }
   ]
 }
