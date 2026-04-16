@@ -285,7 +285,7 @@ for i, a in enumerate(all_articles):
 
 print(f"\nProcessed {len(processed)} relevant articles")
 
-# Filter to last 7 days for top story candidates
+# Filter to last 5 days for top story candidates
 now = datetime.now(timezone.utc)
 
 def parse_date_str(date_str):
@@ -296,7 +296,7 @@ def parse_date_str(date_str):
             pass
     return None
 
-recent = [a for a in processed if (lambda d: d and (now - d).days < 7)(parse_date_str(a.get("date", "")))]
+recent = [a for a in processed if (lambda d: d and (now - d).days < 5)(parse_date_str(a.get("date", "")))]
 top_story_pool = recent if recent else processed
 
 # Sort by importance for top stories, keep chronological for news
