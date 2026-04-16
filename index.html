@@ -87,16 +87,30 @@
 
     .topbar {
       background: #1a73e8;
-      padding: 20px 24px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      padding: 20px 32px;
     }
 
     .topbar-inner {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .topbar-left {
       display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items: flex-start;
+    }
+
+    .topbar-right {
+      max-width: 300px;
+      font-size: 13px;
+      color: rgba(255,255,255,0.7);
+      line-height: 1.6;
+      text-align: right;
     }
 
     .logo {
@@ -417,6 +431,9 @@
 
     @media (max-width: 680px) {
       .topbar { padding: 16px; }
+      .topbar-inner { flex-direction: column; align-items: center; gap: 12px; }
+      .topbar-left { align-items: center; }
+      .topbar-right { display: block; max-width: 100%; text-align: center; font-size: 12px; }
       .page { padding: 16px; gap: 24px; }
       .top-story-thumb { width: 100px; height: 72px; }
       .news-thumb { width: 72px; height: 56px; }
@@ -426,36 +443,39 @@
 </head>
 <body>
 
-<h1 style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap">IAM News – Latest Identity and Access Management News</h1>
+<h1 style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap">IAM News - Latest Identity and Access Management News</h1>
 
 <header class="topbar">
   <div class="topbar-inner">
-    <a class="logo" href="https://iamnews.org">
-      <svg width="40" height="40" viewBox="270 95 150 90">
-        <path d="M304 139 Q295 150 304 161" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
-        <path d="M292 126 Q275 150 292 174" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
-        <path d="M376 139 Q385 150 376 161" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
-        <path d="M388 126 Q405 150 388 174" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
-        <path d="M326 130 L326 118 Q326 104 340 104 Q354 104 354 118 L354 130" fill="none" stroke="white" stroke-width="5" stroke-linecap="round"/>
-        <rect x="314" y="128" width="52" height="44" rx="7" fill="white"/>
-        <circle cx="340" cy="145" r="7" fill="#1a73e8"/>
-        <rect x="337" y="149" width="6" height="12" rx="2" fill="#1a73e8"/>
-      </svg>
-      <span class="logo-iam">IAM</span><span class="logo-news">News</span>
-    </a>
-    <div class="logo-tagline">Identity &amp; Access Management</div>
+    <div class="topbar-left">
+      <a class="logo" href="https://iamnews.org">
+        <svg width="40" height="40" viewBox="270 95 150 90">
+          <path d="M304 139 Q295 150 304 161" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+          <path d="M292 126 Q275 150 292 174" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+          <path d="M376 139 Q385 150 376 161" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+          <path d="M388 126 Q405 150 388 174" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+          <path d="M326 130 L326 118 Q326 104 340 104 Q354 104 354 118 L354 130" fill="none" stroke="white" stroke-width="5" stroke-linecap="round"/>
+          <rect x="314" y="128" width="52" height="44" rx="7" fill="white"/>
+          <circle cx="340" cy="145" r="7" fill="#1a73e8"/>
+          <rect x="337" y="149" width="6" height="12" rx="2" fill="#1a73e8"/>
+        </svg>
+        <span class="logo-iam">IAM</span><span class="logo-news">News</span>
+      </a>
+      <div class="logo-tagline">Identity &amp; Access Management</div>
+    </div>
+    <div class="topbar-right">The independent daily news resource for identity and access management professionals.</div>
   </div>
 </header>
 
 <main class="page" id="main">
   <div class="state-box">
     <div class="spinner"></div>
-    <p>Loading IAM news…</p>
+    <p>Loading IAM news...</p>
   </div>
 </main>
 
 <footer role="contentinfo">
-  <p>IAM News is an independent daily news resource for identity and access management professionals.</p>
+  <p>The independent daily news resource for identity and access management professionals.</p>
   <p>For advertising enquiries or general contact: <a href="mailto:iamnews@iamnews.org" style="color:inherit">iamnews@iamnews.org</a></p>
   <p>&copy; <span id="year"></span> IAMNews.org. All rights reserved.</p>
 </footer>
@@ -463,8 +483,8 @@
 <script>
 const AD = {
   show: true,
-  title: "IdentiBeer Copenhagen – Come for the beer. Stay for the identity talk.",
-  description: "Monthly, informal, vendor-neutral meetups. No slides, no pitches, meet your peers. Free to join, but pay for your beer :-)",
+  title: "IdentiBeer Copenhagen - Come for the beer. Stay for the identity talk.",
+  description: "Monthly IAM meetups in Copenhagen - informal, vendor-neutral, no slides, no pitches. Just honest conversations about identity, access and security over a cold beer. Whether you're a seasoned IAM professional or just starting out in the identity space, you're welcome here. We don't judge - we discuss. Come as you are, bring your questions, your stories, or just your curiosity. Free to join, but you pay for your own beer :-)",
   advertiser: "IdentiBeer Copenhagen",
   image: "IdB-CPH-ad-300x225.png",
   url: "http://linkedin.com/company/identibeer-cph",
@@ -488,60 +508,60 @@ function initials(source) {
 }
 
 function sourceDot(source) {
-  return `<span class="source-dot">${initials(source)}</span>`;
+  return '<span class="source-dot">' + initials(source) + '</span>';
 }
 
 function topStoryItem(a) {
   const thumb = a.image
-    ? `<img class="top-story-thumb" src="${esc(a.image)}" alt="" loading="lazy" onerror="this.remove()">`
+    ? '<img class="top-story-thumb" src="' + esc(a.image) + '" alt="" loading="lazy" onerror="this.remove()">'
     : '';
-  return `<a href="${esc(a.url)}" target="_blank" rel="noopener" class="top-story-item">
-    ${thumb}
-    <div class="top-story-text">
-      <div class="top-story-source">${sourceDot(a.source)}<span class="source-name">${esc(a.source)}</span></div>
-      <div class="top-story-title">${esc(a.title)}</div>
-      <div class="top-story-summary">${esc(a.summary)}</div>
-      <div class="top-story-meta">${formatDate(a.date)}</div>
-      ${a.paywall ? '<div class="paywall-label">Subscription may be required</div>' : ''}
-    </div>
-  </a>`;
+  return '<a href="' + esc(a.url) + '" target="_blank" rel="noopener" class="top-story-item">'
+    + thumb
+    + '<div class="top-story-text">'
+    + '<div class="top-story-source">' + sourceDot(a.source) + '<span class="source-name">' + esc(a.source) + '</span></div>'
+    + '<div class="top-story-title">' + esc(a.title) + '</div>'
+    + '<div class="top-story-summary">' + esc(a.summary) + '</div>'
+    + '<div class="top-story-meta">' + formatDate(a.date) + '</div>'
+    + (a.paywall ? '<div class="paywall-label">Subscription may be required</div>' : '')
+    + '</div>'
+    + '</a>';
 }
 
 function newsItem(a) {
   const thumb = a.image
-    ? `<img class="news-thumb" src="${esc(a.image)}" alt="" loading="lazy" onerror="this.remove()">`
+    ? '<img class="news-thumb" src="' + esc(a.image) + '" alt="" loading="lazy" onerror="this.remove()">'
     : '';
-  return `<a href="${esc(a.url)}" target="_blank" rel="noopener" class="news-item">
-    <div class="news-text">
-      <div class="news-source">${sourceDot(a.source)}<span class="news-source-name">${esc(a.source)}</span></div>
-      <div class="news-title">${esc(a.title)}</div>
-      <div class="news-summary">${esc(a.summary)}</div>
-      <div class="news-meta">${formatDate(a.date)}</div>
-      ${a.paywall ? '<div class="paywall-label">Subscription may be required</div>' : ''}
-    </div>
-    ${thumb}
-  </a>`;
+  return '<a href="' + esc(a.url) + '" target="_blank" rel="noopener" class="news-item">'
+    + '<div class="news-text">'
+    + '<div class="news-source">' + sourceDot(a.source) + '<span class="news-source-name">' + esc(a.source) + '</span></div>'
+    + '<div class="news-title">' + esc(a.title) + '</div>'
+    + '<div class="news-summary">' + esc(a.summary) + '</div>'
+    + '<div class="news-meta">' + formatDate(a.date) + '</div>'
+    + (a.paywall ? '<div class="paywall-label">Subscription may be required</div>' : '')
+    + '</div>'
+    + thumb
+    + '</a>';
 }
 
 function adItem() {
   const thumb = AD.image
-    ? `<img class="ad-thumb" src="${esc(AD.image)}" alt="" loading="lazy" onerror="this.remove()">`
+    ? '<img class="ad-thumb" src="' + esc(AD.image) + '" alt="" loading="lazy" onerror="this.remove()">'
     : '';
-  return `<a href="${esc(AD.url)}" target="_blank" rel="noopener sponsored" class="ad-item">
-    <div class="ad-text">
-      <span class="ad-label">Sponsored</span>
-      <div class="ad-title">${esc(AD.title)}</div>
-      <div class="ad-description">${esc(AD.description)}</div>
-      <div class="ad-advertiser">${esc(AD.advertiser)}</div>
-    </div>
-    ${thumb}
-  </a>`;
+  return '<a href="' + esc(AD.url) + '" target="_blank" rel="noopener sponsored" class="ad-item">'
+    + '<div class="ad-text">'
+    + '<span class="ad-label">Sponsored</span>'
+    + '<div class="ad-title">' + esc(AD.title) + '</div>'
+    + '<div class="ad-description">' + esc(AD.description) + '</div>'
+    + '<div class="ad-advertiser">' + esc(AD.advertiser) + '</div>'
+    + '</div>'
+    + thumb
+    + '</a>';
 }
 
 async function load() {
   try {
     const res = await fetch('news.json?t=' + Date.now());
-    if (!res.ok) throw new Error('news.json not found — run the fetch script first.');
+    if (!res.ok) throw new Error('news.json not found - run the fetch script first.');
     const data = await res.json();
 
     const topStories = data.top_stories || [];
@@ -552,12 +572,12 @@ async function load() {
     let html = '';
 
     if (topStories.length > 0) {
-      html += `<section>
-        <div class="section-header">Top stories</div>
-        <div class="top-stories-list">
-          ${topStories.map(a => topStoryItem(a)).join('')}
-        </div>
-      </section>`;
+      html += '<section>'
+        + '<div class="section-header">Top stories</div>'
+        + '<div class="top-stories-list">'
+        + topStories.map(a => topStoryItem(a)).join('')
+        + '</div>'
+        + '</section>';
     }
 
     if (news.length > 0) {
@@ -569,10 +589,10 @@ async function load() {
         return out;
       }).join('');
 
-      html += `<section>
-        <div class="section-header">News</div>
-        <div class="news-feed">${items}</div>
-      </section>`;
+      html += '<section>'
+        + '<div class="section-header">News</div>'
+        + '<div class="news-feed">' + items + '</div>'
+        + '</section>';
     }
 
     document.getElementById('main').innerHTML = html;
@@ -596,7 +616,7 @@ async function load() {
 
   } catch (e) {
     document.getElementById('main').innerHTML =
-      `<div class="error-box">Could not load news: ${esc(e.message)}</div>`;
+      '<div class="error-box">Could not load news: ' + esc(e.message) + '</div>';
   }
 }
 
