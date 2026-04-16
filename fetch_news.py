@@ -275,13 +275,20 @@ def parse_date_str(date_str):
     except Exception:
         return None
 
-# Apply 7-day limit to all articles
+# Apply 7-day limit to top story candidates only
 filtered = [a for a in processed if (lambda d: d and (now - d).days < 7)(parse_date_str(a.get("date", "")))]
-pool = filtered if filtered else processed
+top_pool = filtered if filtered else processed
 
-top_stories = sorted(pool, key=lambda x: x.get("importance", 0), reverse=True)[:5]
+# Top stories: highest importance within 7 days
+top_stories = sorted(top_pool, key=lambda x: x.get("importance", 0), reverse=True)[:5]
 top_urls = {a["url"] for a in top_stories}
-news = [a for a in pool if a["url"] not in top_urls][:30]
+
+# News: all remaining articles sorted by date descending
+news = sorted(
+    [a for a in processed if a["url"] not in top_urls],
+    key=lambda x: parse_date_str(x.get("date", "")) or datetime.min.replace(tzinfo=timezone.utc),
+    reverse=True
+)[:30]
 
 output = {
     "updated": datetime.utcnow().strftime("%B %d, %Y at %H:%M UTC"),
