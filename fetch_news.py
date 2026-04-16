@@ -189,7 +189,7 @@ If NOT relevant, reply with exactly: SKIP
 
 If relevant, reply in this exact format and nothing else:
 SCORE: <number 1-10>
-SUMMARY: <two sentences, factual and direct: first states what happened, second provides the key details or context. No implications, no significance statements, no editorializing. Just the facts.>
+SUMMARY: <two sentences, factual and direct: first states what happened, second provides the key details or context. No implications, no significance statements, no editorializing. Just the facts. If the description is too vague or thin to write a meaningful factual summary, reply with SKIP instead.>
 
 Score 9-10: major breach, acquisition, product launch, or policy change with wide IAM impact
 Score 6-8: significant vendor news, new research, or regulatory update relevant to IAM
