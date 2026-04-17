@@ -1,33 +1,33 @@
 {
-  "updated": "April 16, 2026 at 09:46 UTC",
+  "updated": "April 17, 2026 at 05:37 UTC",
   "top_stories": [
+    {
+      "title": "Cisco Patches Four Critical Identity Services, Webex Flaws Enabling Code Execution",
+      "url": "https://thehackernews.com/2026/04/cisco-patches-four-critical-identity.html",
+      "source": "The Hacker News",
+      "date": "2026-04-16",
+      "summary": "Cisco has released patches for four critical vulnerabilities affecting its Identity Services Engine (ISE) and Webex, with CVSS scores reaching 9.8. The flaws include improper certificate validation in SSO integration that could allow attackers to impersonate any user within the service, alongside other vulnerabilities enabling arbitrary code execution.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihdjDVphpsoBIBjhimILabg28ZsD4p-xNzJol1uD3SSIRBvkp-juko45B2sjKpQmJi-h2tHZf2yWAvuCOZRs3m3q4w5sj7x-MyXWosuKglLblipF_94T8f8OQ8_peVgqZTrnjxF8dPRLfv63K8zrbQYqh898b31p_2C37UO0DNAuR8cESZeo4XTFlsDs0C/s1600/cisco-flaws.jpg",
+      "importance": 9,
+      "paywall": false
+    },
     {
       "title": "The death of standing privilege in the age of AI agents",
       "url": "https://www.itnews.com.au/feature/the-death-of-standing-privilege-in-the-age-of-ai-agents-624862",
       "source": "iTnews",
       "date": "2026-04-12",
-      "summary": "The article addresses how AI agents are emerging as highly privileged identities that traditional Privileged Access Management (PAM) controls are inadequate to govern. The core argument centers on the limitations of standing privilege models when applied to AI agents, positioning this as a gap requiring new approaches to PAM and identity security.",
+      "summary": "AI agents are emerging as highly privileged identities that traditional Privileged Access Management (PAM) controls are not designed to handle. The article addresses the security gap created by standing privilege models when applied to autonomous AI agents, which require dynamic, just-in-time access approaches instead.",
       "image": "https://i.nextmedia.com.au/Features/Untitled_design_(22).jpg",
       "importance": 8,
       "paywall": false
     },
     {
-      "title": "UNC6783 Hackers Use Fake Okta Pages in Corporate Breach Campaign",
-      "url": "https://hackread.com/unc6783-hackers-fake-okta-pages-corporate-breach/",
-      "source": "HackRead",
-      "date": "2026-04-10",
-      "summary": "A threat actor group tracked as UNC6783 is conducting a corporate breach campaign using fake Okta login pages combined with social engineering and impersonation of support staff. The attackers use these fraudulent Okta authentication pages to harvest credentials and gain unauthorized access to corporate systems for data theft and extortion.",
-      "image": "https://hackread.com/wp-content/uploads/2026/04/unc6783-hackers-fake-okta-pages-corporate-breach.jpg",
-      "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Google Rolls Out DBSC in Chrome 146 to Block Session Theft on Windows",
-      "url": "https://thehackernews.com/2026/04/google-rolls-out-dbsc-in-chrome-146-to.html",
-      "source": "The Hacker News",
-      "date": "2026-04-10",
-      "summary": "Google has made Device Bound Session Credentials (DBSC) generally available to Windows users in Chrome 146, a security feature designed to prevent session cookie theft by binding browser sessions to the device. macOS support is planned for a future Chrome release, with DBSC aiming to mitigate token/session hijacking attacks that bypass MFA.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiC-kFnk6uDzN76983rxMJBgJzi5ByxqZ0SM5RAfG1171e3I_lRUCBHIZ0kmMRkxERMiWEO9WRX3D6mkadUuRhw69KYHi4VzPrIa4s4IVilNmFANa2EMbuk1blKF_4ChwqIBuTb4FLj_dqhTDUDsivEnw8OmDL85giaaJTiqATwZArXUq6_3_X7tfd_RLbV/s1600/chrome-cookies.jpg",
+      "title": "SailPoint、AWSとの戦略的協業契約を締結　ユニファイド アイデンティティ ガバナンス レイヤーによるAIエージェントの保護を可能に",
+      "url": "https://prtimes.jp/main/html/rd/p/000000036.000096451.html",
+      "source": "Prtimes.jp",
+      "date": "2026-04-16",
+      "summary": "SailPoint has announced a strategic collaboration agreement with AWS to enable protection of AI agents through a unified identity governance layer. The partnership focuses on extending SailPoint's identity governance capabilities to secure agentic AI systems within AWS environments.",
+      "image": "https://prtimes.jp/common/pc_v4/og.png",
       "importance": 7,
       "paywall": false
     },
@@ -36,30 +36,40 @@
       "url": "https://www.bleepingcomputer.com/news/security/5-ways-zero-trust-maximizes-identity-security/",
       "source": "BleepingComputer",
       "date": "2026-04-14",
-      "summary": "Specops published a piece outlining five ways Zero Trust architecture can maximize identity security. The article covers limiting access, enforcing device trust, and blocking lateral movement as countermeasures against credential theft and privilege escalation.",
+      "summary": "Specops outlines five ways a Zero Trust architecture can strengthen identity security, focusing on credential theft prevention and privilege escalation mitigation. The article covers access limitation, device trust enforcement, and lateral movement blocking as key Zero Trust identity controls.",
       "image": "https://www.bleepstatic.com/content/posts/2026/04/06/specops-mobile-device-lock.jpg",
       "importance": 7,
       "paywall": false
     },
     {
-      "title": "Bringing governance and visibility to machine and AI identities",
-      "url": "https://www.helpnetsecurity.com/2026/04/13/archit-lohokare-appviewx-ai-agent-identity/",
-      "source": "Help Net Security",
-      "date": "2026-04-13",
-      "summary": "AppViewX CEO Archit Lohokare discusses governance and visibility challenges for machine and AI agent identities in a Help Net Security interview. The conversation draws on his experience at IBM and CyberArk to address how AI has driven convergence of machine and AI identity management into a unified problem space.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/04/10082116/archit_lohokare-2-appviewx.webp",
+      "title": "Cisco just made moves to own the AI infrastructure stack",
+      "url": "https://www.networkworld.com/article/4158694/cisco-just-made-two-moves-to-own-the-ai-infrastructure-stack.html",
+      "source": "Network World",
+      "date": "2026-04-14",
+      "summary": "Cisco acquired Astrix Security to bolster its identity security capabilities as part of a broader strategy to own the AI infrastructure stack. The move positions Cisco to manage identity and access controls for agentic AI systems, adding non-human identity and API security to its portfolio.",
+      "image": "https://www.networkworld.com/wp-content/uploads/2026/04/4158694-0-98110600-1776275063-shutterstock_2284091345.jpg?quality=50&strip=all&w=1024",
       "importance": 7,
       "paywall": false
     }
   ],
   "news": [
     {
-      "title": "Anthropic tests user trust with ID and selfie checks for Claude",
-      "url": "https://www.helpnetsecurity.com/2026/04/16/anthropic-claude-identity-verification-government-id/",
-      "source": "Help Net Security",
+      "title": "Two-Factor Authentication Breaks Free from the Desktop",
+      "url": "https://www.darkreading.com/endpoint-security/two-factor-authentication-breaks-free-from-the-desktop",
+      "source": "Dark Reading",
       "date": "2026-04-16",
-      "summary": "Anthropic has introduced identity verification for its Claude AI chatbot, requiring users to submit government-issued ID and selfie checks, making it the first major AI chatbot platform to implement such verification. This development touches on identity proofing and user authentication practices in consumer-facing AI services, with no equivalent requirement currently imposed by competitors like OpenAI's ChatGPT or Google's Gemini.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/04/16081836/claude-veritication-1500.webp",
+      "summary": "The article discusses extending two-factor authentication (2FA) beyond traditional desktop/IT environments to address physical security threats. It explores implementing 2FA as an additional security barrier in non-traditional settings where threat actors can bypass conventional security systems.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltda93213c910e1221/69dfbf29f06161c424ab3b28/R5PNG0.jpg?width=1280&auto=webp&quality=80&disable=upscale",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "[Webinar] Find and Eliminate Orphaned Non-Human Identities in Your Environment",
+      "url": "https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html",
+      "source": "The Hacker News",
+      "date": "2026-04-16",
+      "summary": "A webinar is being promoted on finding and eliminating orphaned non-human identities, including service accounts, API tokens, and OAuth grants. The session addresses the management of non-human identities, citing that compromised service accounts and forgotten API keys were responsible for 68% of cloud breaches in 2024.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6vJpO9kksCQDpSksNkqDFNUCbXD70dMGYqI6P9S_XPMY5d8BR8PVdrsVQP1ZJO_-nzL6eQShM3Cap9heQ5kAglsPjfxwIcXPSsf_cfgUVnGQ2XzIWVOuo7JhxMjnHYDN6r9KlQ6LqZJisRZkjatnWChuzUkSlXRa1hFseUPq28PZ5gjGR7L2WzTFdZ3fM/s1600/ghost.jpg",
       "importance": 6,
       "paywall": false
     },
@@ -68,19 +78,19 @@
       "url": "https://www.darkreading.com/cloud-security/microsoft-salesforce-patch-ai-agent-data-leak-flaws",
       "source": "Dark Reading",
       "date": "2026-04-15",
-      "summary": "Microsoft and Salesforce patched prompt injection vulnerabilities in their respective AI agents—Copilot and Agentforce—that could have allowed external attackers to exfiltrate sensitive data. The flaws were fixed recently and relate to AI agent behavior rather than core identity or access control mechanisms.",
+      "summary": "Microsoft and Salesforce patched prompt injection vulnerabilities in their respective AI agents, Copilot and Agentforce, that could have allowed external attackers to leak sensitive data. The flaws relate to AI agent security rather than core IAM functionality, though they touch on access control boundaries within AI-assisted enterprise tools.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte7dc263e75be56e5/69de87e3a047c9fc38c21430/AI_magnifying_glass_Techa_Tungateja_Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 4,
       "paywall": false
     },
     {
-      "title": "Microsoft pays $2.3M for cloud and AI flaws at Zero Day Quest",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-pays-23-million-for-cloud-and-ai-flaws-at-zero-day-quest/",
-      "source": "Bleeping Computer",
+      "title": "Capsule Security debuts with $7 million funding to secure AI agent behavior",
+      "url": "https://www.helpnetsecurity.com/2026/04/15/capsule-security-platform/",
+      "source": "Help Net Security",
       "date": "2026-04-15",
-      "summary": "Microsoft awarded $2.3 million in bug bounties to security researchers following nearly 700 submissions to its Zero Day Quest hacking contest. The contest focused on cloud and AI security vulnerabilities in Microsoft's platform.",
-      "image": null,
-      "importance": 4,
+      "summary": "Capsule Security has emerged from stealth with $7 million in seed funding to provide security controls for AI agent behavior. The company focuses on preventing AI agents from being manipulated or exfiltrating data, touching on access and authorization concerns in agentic AI contexts.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
+      "importance": 5,
       "paywall": false
     },
     {
@@ -88,19 +98,9 @@
       "url": "https://www.darkreading.com/vulnerabilities-threats/privilege-elevation-dominates-microsoft-patch-update",
       "source": "Dark Reading",
       "date": "2026-04-14",
-      "summary": "Microsoft released a major patch update addressing 165 vulnerabilities, with privilege elevation bugs accounting for more than half of the total. Two zero-day vulnerabilities were included among the elevation-of-privilege flaws patched in the update.",
+      "summary": "Microsoft released a major patch update addressing 165 vulnerabilities, with elevation-of-privilege bugs comprising more than half of the total. Two zero-day vulnerabilities were included among the privilege escalation flaws patched in the update.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt0c595c01e195b02e/69dea89ff56bbb6d65296357/patch_tomeqs_shutterstock.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Over 100 Chrome Web Store extensions steal user accounts, data",
-      "url": "https://www.bleepingcomputer.com/news/security/over-100-chrome-extensions-in-web-store-target-users-accounts-and-data/",
-      "source": "Bleeping Computer",
-      "date": "2026-04-14",
-      "summary": "Over 100 malicious Chrome Web Store extensions have been discovered stealing Google OAuth2 Bearer tokens and deploying backdoors. The attack targets authentication tokens used in OAuth2 flows, potentially allowing attackers to hijack user accounts without credentials.",
-      "image": null,
-      "importance": 4,
       "paywall": false
     },
     {
@@ -108,19 +108,9 @@
       "url": "https://betakit.com/techjutsu-launches-browser-extension-to-bring-mfa-to-the-web/",
       "source": "BetaKit",
       "date": "2026-04-14",
-      "summary": "TechJutsu has launched a browser extension designed to bring multi-factor authentication capabilities to web applications. The product targets MFA delivery through the browser layer rather than application-level integration.",
+      "summary": "TechJutsu has launched a browser extension designed to bring multi-factor authentication (MFA) capabilities to web-based applications. No additional details about the product's specific features, target market, or technical implementation are provided in the description.",
       "image": "https://cdn.betakit.com/wp-content/uploads/2019/04/security-265130_1280-e1554820553137.jpg",
       "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Cisco just made moves to own the AI infrastructure stack",
-      "url": "https://www.networkworld.com/article/4158694/cisco-just-made-two-moves-to-own-the-ai-infrastructure-stack.html",
-      "source": "Network World",
-      "date": "2026-04-14",
-      "summary": "Cisco has acquired Astrix Security to bolster its identity security capabilities as part of a broader AI infrastructure strategy. The acquisition positions Cisco to manage non-human identities and machine-to-machine access in agentic AI environments.",
-      "image": "https://www.networkworld.com/wp-content/uploads/2026/04/4158694-0-98110600-1776275063-shutterstock_2284091345.jpg?quality=50&strip=all&w=1024",
-      "importance": 6,
       "paywall": false
     },
     {
@@ -128,7 +118,7 @@
       "url": "https://github.com/prodnull/prmana",
       "source": "Github.com",
       "date": "2026-04-14",
-      "summary": "Prmana is an open-source tool (Rust, Apache 2.0) that replaces static SSH keys with short-lived OIDC tokens validated at the host through PAM. The implementation uses DPoP (RFC 9449) to cryptographically bind tokens to the requesting party, distinguishing it from other OIDC-for-SSH approaches.",
+      "summary": "Prmana is an open-source tool (Rust, Apache 2.0) that replaces static SSH keys with short-lived OIDC tokens validated at the host via PAM. The implementation uses DPoP (RFC 9449) to cryptographically bind tokens to the key holder, differentiating it from other OIDC-for-SSH approaches.",
       "image": "https://opengraph.githubassets.com/9a8d90688e549d336ffad0a69fe499980fec1d165d6b307363ca2374af43c910/prodnull/prmana",
       "importance": 6,
       "paywall": false
@@ -138,7 +128,7 @@
       "url": "https://www.darkreading.com/cloud-security/apt41-zero-detection-backdoor-harvest-cloud-credentials",
       "source": "Dark Reading",
       "date": "2026-04-13",
-      "summary": "APT41, a China-backed threat group, has deployed a new backdoor designed to harvest credentials from major cloud environments including AWS, Google Azure, and Alibaba. The campaign uses typosquatting techniques to obscure command-and-control communication and achieves near-zero detection rates.",
+      "summary": "APT41, a China-backed threat group, has deployed a \"zero-detection\" backdoor specifically designed to harvest cloud credentials from AWS, Google, Azure, and Alibaba environments. The attack uses typosquatting techniques to obscure command-and-control communication while targeting cloud identity credentials.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt2e8cc931a1c1d4d4/69dcc2c014d9c34775418603/chinaiptheft_Pixels_Hunter_shutterstock.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 6,
       "paywall": false
@@ -148,18 +138,18 @@
       "url": "https://thehackernews.com/2026/04/fbi-and-indonesian-police-dismantle.html",
       "source": "The Hacker News",
       "date": "2026-04-13",
-      "summary": "The FBI and Indonesian National Police dismantled the W3LL phishing network, arresting its alleged developer and seizing associated infrastructure. The operation targeted account credentials at scale, with W3LL functioning as a phishing-as-a-service toolkit capable of bypassing MFA and enabling over $20 million in fraud attempts.",
+      "summary": "The FBI and Indonesian National Police dismantled the W3LL phishing network, arresting its alleged developer and disrupting infrastructure used to steal account credentials and attempt over $20 million in fraud. The W3LL toolkit was an off-the-shelf phishing kit designed to bypass MFA and compromise Microsoft 365 accounts at scale.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgb77IQHAfOvWFPWb_cgV_YJGdRtNJJJWBcjYH6M6cCawBv2tQdybani7Qet_LGwH1tTBHJ2P3Lr6gWdY0sz3547YLzkSLWX3T2l84-A7ndRK3T55QblpJ-j2ovE9Lq0CoNb6ckWziwD2UjKP_awFJXbGr3yuZ1IMPndUyCo_WfoJ9nnyTPFf-K4HVy5A8g/s1600/well-fbi.jpg",
       "importance": 6,
       "paywall": false
     },
     {
-      "title": "Google Chrome Update Disrupts Infostealer Cookie Theft",
-      "url": "https://hackread.com/google-chrome-update-infostealer-cookie-theft/",
-      "source": "HackRead",
-      "date": "2026-04-11",
-      "summary": "Google has added Device Bound Session Credentials (DBSC) to Chrome 146, a security feature that uses hardware keys to prevent infostealers from exploiting stolen session cookies on Windows. DBSC cryptographically binds authenticated sessions to a specific device, making stolen cookies unusable for session hijacking attacks.",
-      "image": "https://hackread.com/wp-content/uploads/2026/04/google-chrome-update-infostealer-cookie-theft.jpg",
+      "title": "Bringing governance and visibility to machine and AI identities",
+      "url": "https://www.helpnetsecurity.com/2026/04/13/archit-lohokare-appviewx-ai-agent-identity/",
+      "source": "Help Net Security",
+      "date": "2026-04-13",
+      "summary": "AppViewX CEO Archit Lohokare discusses the convergence of machine and AI agent identity management as a unified governance challenge. The interview draws on his experience at IBM and CyberArk to address visibility and governance approaches for non-human identities.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/04/10082116/archit_lohokare-2-appviewx.webp",
       "importance": 7,
       "paywall": false
     },
@@ -168,19 +158,9 @@
       "url": "https://www.darkreading.com/identity-access-management-security/your-next-breach-business-as-usual",
       "source": "Dark Reading",
       "date": "2026-04-10",
-      "summary": "The article addresses the growing threat of credential-based attacks and the detection model shifts cybersecurity teams need to adopt in response. The focus is on identifying malicious activity that mimics legitimate user behavior, a core challenge in identity and access management.",
+      "summary": "The article addresses the growing threat of credential-based attacks and the detection model changes cybersecurity teams need to adopt to counter them. The focus is on identifying malicious activity that mimics legitimate user behavior, a core challenge in identity and access management.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt331a3aad1718e6b2/69d856203032b2ee7b4bf00d/login_page_Yuen_Man_Cheung_Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "To counter cookie theft, Chrome ships device-bound session credentials",
-      "url": "https://www.helpnetsecurity.com/2026/04/10/google-chrome-device-bound-session-credentials/",
-      "source": "Help Net Security",
-      "date": "2026-04-10",
-      "summary": "Google is shipping device-bound session credentials in Chrome to counter cookie theft attacks where infostealer malware extracts and exfiltrates authentication cookies. The feature cryptographically binds session credentials to a specific device, preventing stolen cookies from being used on attacker-controlled systems.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/04/10112054/cookie-1500.webp",
-      "importance": 7,
       "paywall": false
     },
     {
@@ -188,7 +168,7 @@
       "url": "https://www.darkreading.com/threat-intelligence/russias-fancy-bear-apt-continues-global-onslaught",
       "source": "Dark Reading",
       "date": "2026-04-09",
-      "summary": "Russia's Fancy Bear APT group continues conducting global cyberattacks, with security experts recommending patching and zero trust adoption as essential defensive measures. The article frames zero trust as a non-negotiable response to nation-state level threats rather than detailing specific IAM implementations or products.",
+      "summary": "The article covers ongoing cyberattacks by Russia's Fancy Bear (APT28) threat group targeting global organizations. Security experts recommend patching and zero trust architecture as essential defensive measures against the group's espionage campaigns.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltee215733d1f4849e/69d6b1253032b219f34bebeb/Grizzly_bear_photo-fox_Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 4,
       "paywall": false
@@ -198,19 +178,9 @@
       "url": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
       "source": "Krebs on Security",
       "date": "2026-04-07",
-      "summary": "Russian military intelligence hackers exploited vulnerabilities in older internet routers to harvest Microsoft Office authentication tokens from users across more than 18,000 networks. The campaign operated without deploying malware, relying solely on token theft to silently compromise authentication credentials at scale.",
+      "summary": "Russian military intelligence-linked hackers exploited vulnerabilities in older routers to harvest Microsoft Office authentication tokens across more than 18,000 networks. The campaign operated without deploying malware, relying solely on token theft to gain unauthorized access to user accounts.",
       "image": null,
       "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "How AI Assistants are Moving the Security Goalposts",
-      "url": "https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/",
-      "source": "Krebs on Security",
-      "date": "2026-03-08",
-      "summary": "The article examines how AI agents with broad access to computers, files, and online services are shifting security priorities for organizations. The piece addresses how these tools blur lines around trust, insider threats, and access control, touching on IAM-relevant concepts around authorization and access management for autonomous agents.",
-      "image": null,
-      "importance": 5,
       "paywall": false
     },
     {
@@ -218,7 +188,7 @@
       "url": "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/",
       "source": "Krebs on Security",
       "date": "2026-02-20",
-      "summary": "A new phishing-as-a-service platform called \"Starkiller\" proxies real login pages in real time, relaying victims' credentials and MFA codes between the target and legitimate sites. The service bypasses traditional anti-phishing takedowns by using the actual brand's website rather than static copies, effectively defeating MFA protections.",
+      "summary": "A new phishing-as-a-service platform called \"Starkiller\" proxies real login pages in real time, relaying victims' credentials and MFA codes to legitimate sites rather than using static page copies. The service effectively bypasses MFA protections by acting as a man-in-the-middle between the victim and the authentic website, capturing valid session tokens in the process.",
       "image": null,
       "importance": 7,
       "paywall": false
