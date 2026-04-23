@@ -1,13 +1,13 @@
 {
-  "updated": "April 22, 2026 at 05:35 UTC",
+  "updated": "April 23, 2026 at 05:39 UTC",
   "top_stories": [
     {
-      "title": "Cisco Patches Four Critical Identity Services, Webex Flaws Enabling Code Execution",
-      "url": "https://thehackernews.com/2026/04/cisco-patches-four-critical-identity.html",
-      "source": "The Hacker News",
-      "date": "2026-04-16",
-      "summary": "Cisco has released patches for four critical vulnerabilities affecting its Identity Services Engine (ISE) and Webex, with CVSS scores up to 9.8. The flaws include improper certificate validation in SSO integration that could allow attackers to impersonate any user within the service, alongside other vulnerabilities enabling arbitrary code execution.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihdjDVphpsoBIBjhimILabg28ZsD4p-xNzJol1uD3SSIRBvkp-juko45B2sjKpQmJi-h2tHZf2yWAvuCOZRs3m3q4w5sj7x-MyXWosuKglLblipF_94T8f8OQ8_peVgqZTrnjxF8dPRLfv63K8zrbQYqh898b31p_2C37UO0DNAuR8cESZeo4XTFlsDs0C/s1600/cisco-flaws.jpg",
+      "title": "Phishing and MFA exploitation: Targeting the keys to the kingdom",
+      "url": "https://blog.talosintelligence.com/phishing-and-mfa-exploitation-targeting-the-keys-to-the-kingdom/",
+      "source": "Talosintelligence.com",
+      "date": "2026-04-21",
+      "summary": "A 2025 security analysis identifies increasing attacker focus on exploiting weaknesses in MFA workflows and using compromised credentials to launch phishing attacks from trusted accounts. The report centers on trust exploitation as a core theme, highlighting how valid credentials and MFA bypass techniques are being weaponized against organizations.",
+      "image": "https://storage.ghost.io/c/af/a0/afa04ee3-414f-4481-8d23-7e7c146f192e/content/images/size/w1200/2026/04/2025YiR-topic_phishing-identity.jpg",
       "importance": 8,
       "paywall": false
     },
@@ -16,27 +16,17 @@
       "url": "https://www.microsoft.com/en-us/security/blog/2026/04/18/crosstenant-helpdesk-impersonation-data-exfiltration-human-operated-intrusion-playbook/",
       "source": "Microsoft.com",
       "date": "2026-04-18",
-      "summary": "Threat actors are exploiting Microsoft Teams' cross-tenant external collaboration features to impersonate IT helpdesk staff and socially engineer users into granting remote access. The attack chain leverages legitimate admin tools and standard protocols for lateral movement and data exfiltration, making it directly relevant to identity-based attack vectors and access management controls.",
+      "summary": "Threat actors are conducting social engineering attacks via Microsoft Teams, impersonating IT helpdesk staff to trick users into granting remote access across tenant boundaries. The attack chain leverages legitimate administrative tools and standard protocols for lateral movement and data exfiltration, exploiting cross-tenant collaboration features in Microsoft's ecosystem.",
       "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/04/MS_Actional-Insights_Rapid-response.jpg",
       "importance": 8,
       "paywall": true
-    },
-    {
-      "title": "Vishing attacks on Okta identity systems on the rise",
-      "url": "https://slashdot.org/submission/17346522/vishing-attacks-on-okta-identity-systems-on-the-rise",
-      "source": "Slashdot.org",
-      "date": "2026-04-16",
-      "summary": "Vishing attacks targeting Okta identity systems are increasing, with attackers calling victims or IT help desks to socially engineer MFA resets or weakening. LevelBlue researchers detailed the attack methodology in an April 13 blog post, noting that once Okta is compromised through this technique, attackers gain broad access to connected systems.",
-      "image": null,
-      "importance": 8,
-      "paywall": false
     },
     {
       "title": "Vercel Employee's AI Tool Access Led to Data Breach",
       "url": "https://www.darkreading.com/application-security/vercel-employees-ai-tool-access-data-breach",
       "source": "Dark Reading",
       "date": "2026-04-20",
-      "summary": "A Vercel employee's access to an AI tool resulted in a data breach via stolen OAuth tokens. Security researchers highlight OAuth tokens as an emerging primary attack surface for lateral movement in enterprise environments.",
+      "summary": "A Vercel employee's access to an AI tool resulted in a data breach via stolen OAuth tokens. Security researchers highlight OAuth tokens as an emerging critical attack surface enabling lateral movement in enterprise environments.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt3396b116c4a5d80b/69e6744aa61d112dbb7caf20/allow_access_keyboard_alon_harel_alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -46,19 +36,59 @@
       "url": "https://www.darkreading.com/threat-intelligence/tycoon-2fa-hackers-device-code-phishing",
       "source": "Dark Reading",
       "date": "2026-04-17",
-      "summary": "Threat actors behind the Tycoon 2FA phishing kit have shifted tactics to adopt device code phishing, a method that bypasses MFA protections. The attack exploits legitimate OAuth device authorization flows to trick victims into granting account access without stealing passwords directly.",
+      "summary": "Threat actors behind the Tycoon 2FA phishing-as-a-service platform have shifted tactics to adopt device code phishing attacks. The technique exploits legitimate OAuth device authorization flows to bypass MFA, tricking victims into granting attackers access to their accounts without stealing credentials directly.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt70085bc1304b3cb3/69e2855c41f7f85ddb368bc3/QR_code-Harry_Wedzinga-Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Prove Identity Platform connects verification, authentication, and fraud prevention",
+      "url": "https://www.helpnetsecurity.com/2026/04/22/prove-identity-platform/",
+      "source": "Help Net Security",
+      "date": "2026-04-22",
+      "summary": "Prove has launched the Prove Identity Platform, an integrated solution combining identity verification, authentication, and fraud prevention into a continuous real-time process. The platform is designed to handle identity for users, businesses, and AI agents, addressing authorization challenges as agentic commerce grows through partnerships like OpenAI and Stripe's Agentic Commerce Protocol.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
       "importance": 7,
       "paywall": false
     }
   ],
   "news": [
     {
+      "title": "Ransomware, fraud, and lawsuits drive cyber insurance claims to new peaks",
+      "url": "https://www.helpnetsecurity.com/2026/04/23/cyber-insurance-claims-report/",
+      "source": "Help Net Security",
+      "date": "2026-04-23",
+      "summary": "At-Bay's 2026 InsurSec Report, covering over 100,000 policy years of claims data, found cyber insurance claim frequency rose 7% year-over-year with average severity reaching $221,000 and ransomware severity hitting $508,000. Remote access services were the entry point for 87% of ransomware claims in 2025, pointing to access control weaknesses as a primary attack vector.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2025/09/16113804/person-computer-red-1500.webp",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "Cyberattack on French government agency triggers phishing alert",
+      "url": "https://www.helpnetsecurity.com/2026/04/22/france-titres-online-portal-data-breach/",
+      "source": "Help Net Security",
+      "date": "2026-04-22",
+      "summary": "France Titres (ANTS), the French government agency managing official identity documents including national ID cards, passports, and driver's licenses, disclosed a data breach detected on April 15. The breach exposed user data from its online portal, which handles systems for official identity and registration documents under the French Ministry of the Interior.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/04/22163101/france-titres-1500.webp",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Toxic Combinations: When Cross-App Permissions Stack into Risk",
+      "url": "https://thehackernews.com/2026/04/toxic-combinations-when-cross-app.html",
+      "source": "The Hacker News",
+      "date": "2026-04-22",
+      "summary": "Researchers disclosed that Moltbook, a social network for AI agents, exposed 35,000 email addresses and 1.5 million agent API tokens across 770,000 active agents due to an open database. The breach also revealed plaintext third-party credentials, including OpenAI API keys, stored within private messages between agents.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeaSL6v6uahfzJpHJb0ATKZ7cbexnfYIayT74IyU1S-7f3T-4gfnWowlobm5RH4ZYrsIdeNq_OOHGxp2LbU-aELaO9RbYa15MfKN38-ZQPGhrgH0PYCsVIucG95SSw-WCzzo9eUhITn4A3txsa8H59XhTcAaOObC0r-Es_7i0RH8aDo_qhZ45MfaOTVF2t/s1600/reco.png",
+      "importance": 6,
+      "paywall": false
+    },
+    {
       "title": "No Exploit Needed: How Attackers Walk Through the Front Door via Identity-Based Attacks",
       "url": "https://thehackernews.com/2026/04/no-exploit-needed-how-attackers-walk.html",
       "source": "The Hacker News",
       "date": "2026-04-21",
-      "summary": "The article examines identity-based attacks as a primary breach vector, focusing on how attackers use stolen credentials rather than technical exploits to gain initial access. It covers credential stuffing and related techniques that bypass traditional security controls by abusing legitimate authentication mechanisms.",
+      "summary": "The article examines identity-based attacks as a primary breach vector, focusing on how attackers use stolen credentials rather than technical exploits to gain access. It covers credential stuffing and related techniques that bypass traditional security controls by authenticating through legitimate means.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEin_RithPNlLYdgxg906-M63Q0-Kv83Kl-WNjK8x5OjKiSgcDMaljvqb7XkLPoEeUDEMRdi4Cqh9DH-pv9QP1ViNjUi3q3qn5r_Lig04a3zO9TgkgiQqSLC50mE6q-6hr94bo4UnXnP5QksLGeAgSOemxUOZaXIw9Z2UHpZuinm7pqF9N0xtJNVovfojx0/s1600/door.jpg",
       "importance": 6,
       "paywall": false
@@ -68,7 +98,7 @@
       "url": "https://thehackernews.com/2026/04/cisa-adds-8-exploited-flaws-to-kev-sets.html",
       "source": "The Hacker News",
       "date": "2026-04-21",
-      "summary": "CISA added eight vulnerabilities to its Known Exploited Vulnerabilities catalog with federal remediation deadlines in April-May 2026. One of the listed flaws is CVE-2023-27351, an improper authentication vulnerability in PaperCut, which has partial relevance to IAM-adjacent authentication weaknesses.",
+      "summary": "CISA added eight vulnerabilities to its Known Exploited Vulnerabilities catalog, including CVE-2023-27351, an improper authentication flaw in PaperCut, along with Cisco Catalyst SD-WAN Manager flaws. Federal agencies face remediation deadlines in April-May 2026.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzjZ6Llk3l-F3OFNRpNKvTziH1GObU6niwTMke4hEeI5bVXCcILs3kb25Dehkk1VCBf8NzEEPMLxElgbqLzAq0I1GuFAsDojdbVw-R6CGW6-qMXPaeiKXzQqn9JUL-VoPCVMx8h7FrOXIovnLwLv7T-O2wLdc4kIDA0bftbBDp9kwoDmqq6iYYlaZF6Qaz/s1600/cisa-kev.jpg",
       "importance": 5,
       "paywall": false
@@ -78,18 +108,8 @@
       "url": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
       "source": "Krebs on Security",
       "date": "2026-04-21",
-      "summary": "Tyler Robert Buchanan, a 24-year-old British national and senior member of Scattered Spider, pleaded guilty to wire fraud conspiracy and aggravated identity theft. The charges relate to SMS phishing attacks in 2022 that compromised at least a dozen major technology companies and resulted in cryptocurrency theft from investors.",
+      "summary": "Tyler Robert Buchanan, a senior member of the cybercrime group Scattered Spider, pleaded guilty to wire fraud conspiracy and aggravated identity theft for his role in SMS phishing attacks in 2022. The attacks targeted at least a dozen major technology companies, with the group stealing tens of millions of dollars in cryptocurrency through credential theft campaigns.",
       "image": null,
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft: Teams increasingly abused in helpdesk impersonation attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-increasingly-abused-in-helpdesk-impersonation-attacks/",
-      "source": "Bleeping Computer",
-      "date": "2026-04-20",
-      "summary": "Microsoft has issued a warning about threat actors increasingly abusing Microsoft Teams through helpdesk impersonation attacks to gain access to enterprise networks. The attacks leverage legitimate tools for access and lateral movement, exploiting Teams' external collaboration features to bypass traditional security controls.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/02/17/Microsoft--Teams.jpg",
       "importance": 6,
       "paywall": false
     },
@@ -108,7 +128,7 @@
       "url": "https://www.microsoft.com/en-us/security/blog/2026/04/20/making-opportunistic-cyberattacks-harder-by-design/",
       "source": "Microsoft.com",
       "date": "2026-04-20",
-      "summary": "Microsoft published details on how it secures Dynamics 365 and Power Platform through credential removal, attack surface reduction, and platform engineering practices. The approach focuses on eliminating standing credentials and reducing opportunistic threat vectors as part of Microsoft's secure-by-design engineering methodology.",
+      "summary": "Microsoft published details on how it secures Dynamics 365 and Power Platform by removing credentials and reducing attack surfaces through platform engineering. The approach focuses on eliminating standing credentials and minimizing exposure to opportunistic threats as part of Microsoft's secure-by-design strategy.",
       "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/04/Ilya-Grebnov-feature-image.jpg",
       "importance": 6,
       "paywall": true
@@ -118,9 +138,9 @@
       "url": "https://aws.amazon.com/blogs/big-data/securely-connecting-on-premises-data-systems-to-amazon-redshift-with-iam-roles-anywhere/",
       "source": "Amazon.com",
       "date": "2026-04-20",
-      "summary": "AWS published a guide on using IAM Roles Anywhere to enable secure, private connections between on-premises data systems and Amazon Redshift. The solution eliminates the need for long-lived access keys or public internet exposure by leveraging certificate-based authentication to obtain temporary IAM credentials.",
+      "summary": "AWS published a guide on using IAM Roles Anywhere to establish secure, private connections between on-premises data systems and Amazon Redshift. The solution eliminates the need for long-lived access keys by leveraging certificate-based authentication to grant temporary AWS credentials to workloads running outside of AWS.",
       "image": "https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2026/04/15/bdb-5465-featured.png",
-      "importance": 5,
+      "importance": 6,
       "paywall": false
     },
     {
@@ -128,7 +148,7 @@
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-managed-microsoft-ad-2016-functional-level/",
       "source": "Amazon.com",
       "date": "2026-04-20",
-      "summary": "AWS has automatically upgraded all AWS Managed Microsoft AD directories to Windows functional level 2016. The update applies to both existing and new AWS Directory Service for Microsoft AD instances, bringing updated Active Directory functionality to the managed service.",
+      "summary": "AWS has upgraded all AWS Managed Microsoft AD directories to Windows functional level 2016, applied automatically to existing directories. This update to AWS Directory Service for Microsoft AD brings access to newer Active Directory features associated with the 2016 functional level.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -138,7 +158,7 @@
       "url": "https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html",
       "source": "The Hacker News",
       "date": "2026-04-18",
-      "summary": "A webinar is being promoted addressing the management of non-human identities (NHIs) such as service accounts, API tokens, and OAuth grants. The content focuses on unmanaged automated credentials, citing that compromised service accounts and forgotten API keys were responsible for 68% of cloud breaches in 2024.",
+      "summary": "A webinar is being promoted focused on managing non-human identities (NHIs) such as service accounts, API tokens, and OAuth grants. The content references a statistic that compromised service accounts and forgotten API keys were behind 68% of cloud breaches in 2024, framing NHI governance as a critical IAM challenge.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6vJpO9kksCQDpSksNkqDFNUCbXD70dMGYqI6P9S_XPMY5d8BR8PVdrsVQP1ZJO_-nzL6eQShM3Cap9heQ5kAglsPjfxwIcXPSsf_cfgUVnGQ2XzIWVOuo7JhxMjnHYDN6r9KlQ6LqZJisRZkjatnWChuzUkSlXRa1hFseUPq28PZ5gjGR7L2WzTFdZ3fM/s1600/ghost.jpg",
       "importance": 6,
       "paywall": false
@@ -148,7 +168,7 @@
       "url": "https://thehackernews.com/2026/04/three-microsoft-defender-zero-days.html",
       "source": "The Hacker News",
       "date": "2026-04-17",
-      "summary": "Three zero-day vulnerabilities in Microsoft Defender—codenamed BlueHammer, RedSun, and UnDefend—are being actively exploited by threat actors to gain elevated privileges on compromised systems. Huntress is warning that two of the three flaws remain unpatched, with the vulnerabilities disclosed by a researcher known as Chaotic Eclipse.",
+      "summary": "Threat actors are actively exploiting three zero-day vulnerabilities in Microsoft Defender, tracked as BlueHammer, RedSun, and UnDefend, to gain elevated privileges on compromised systems. Two of the three flaws remain unpatched, with Huntress issuing the warning about the ongoing exploitation activity.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ8x3Yg0CYomOu1IpHfhfmiqJtgaMSnnoE2tJR6RdXGIy1rLRTORge-ukCLYkEj6xzeGTvmuy-68qfU4me_nG7pvwZi21h7ycQFwY3OXCH1_p_g35BAYeaHdz3uRKJD2mQCjUIcxha2WzMePpup2VHarxZVxy3QNtaRAjET-2FK7GemiuvyI8MpNPFVyEQ/s1600/defender.jpg",
       "importance": 6,
       "paywall": false
@@ -158,7 +178,7 @@
       "url": "https://techcrunch.com/2026/04/17/sam-altmans-project-world-looks-to-scale-its-human-verification-empire-first-stop-tinder/",
       "source": "TechCrunch",
       "date": "2026-04-17",
-      "summary": "Sam Altman's World project is expanding its Orb-based biometric human verification system through new partnerships, with Tinder being among the first. The initiative focuses on anonymous identity verification to distinguish humans from AI, representing a significant development in decentralized identity and authentication technology.",
+      "summary": "Sam Altman's World project is expanding its Orb-based human verification technology through new partnerships, with Tinder announced as an early partner. The initiative focuses on anonymous biometric verification to distinguish humans from AI, representing a novel approach to identity verification at scale.",
       "image": "https://techcrunch.com/wp-content/uploads/2025/09/GettyImages-2224158119.jpg?resize=1200,837",
       "importance": 6,
       "paywall": false
@@ -168,7 +188,7 @@
       "url": "https://decrypt.co/364774/sam-altman-world-zoom-tinder-better-verify-humans-ai-age",
       "source": "Decrypt",
       "date": "2026-04-17",
-      "summary": "Sam Altman's World (formerly Worldcoin) is expanding its iris-scanning biometric identity verification technology through partnerships with Tinder for U.S. human verification and Zoom's Deep Face feature. The integrations use World's biometric proof-of-humanity system to distinguish real humans from AI in digital interactions.",
+      "summary": "Sam Altman's World (formerly Worldcoin) is expanding its iris-scanning human verification technology through new partnerships with Tinder for U.S. user verification and Zoom's Deep Face feature. The integrations use World's biometric identity platform to distinguish humans from AI in digital interactions.",
       "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-world-worldcoin-orb-gID_7.png",
       "importance": 6,
       "paywall": false
@@ -178,7 +198,7 @@
       "url": "https://www.coindesk.com/tech/2026/04/17/sam-altman-s-world-project-launches-major-upgrade-to-fight-deepfakes-and-bots",
       "source": "CoinDesk",
       "date": "2026-04-17",
-      "summary": "Sam Altman's World project has launched a major upgrade aimed at combating deepfakes and bots through its biometric identity verification system. The project uses iris-scanning orbs to establish proof of human identity, positioning it as a digital identity authentication solution.",
+      "summary": "Sam Altman's World project has launched a major upgrade aimed at combating deepfakes and bots. The project uses biometric iris-scanning orbs to verify human identity and distinguish real users from AI-generated identities or automated bots.",
       "image": "https://cdn.sanity.io/images/s3y3vcno/production/1c7ef9df931518fbb97d3616b561c5537192e844-1600x1067.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
       "importance": 4,
       "paywall": false
@@ -188,29 +208,9 @@
       "url": "https://cryptobriefing.com/world-upgrade-world-id-new-app-ai-agent-delegation/",
       "source": "Crypto Briefing",
       "date": "2026-04-17",
-      "summary": "Sam Altman's World project has released a major protocol upgrade and introduced a dedicated World ID app focused on digital identity verification. The update targets human authenticity verification in AI-driven environments, using biometric-based identity credentials to distinguish humans from AI online.",
+      "summary": "Sam Altman's World project has released a major protocol upgrade and introduced the World ID app, a digital identity verification system. The product is designed to verify human authenticity in AI-driven environments using biometric-based identity credentials.",
       "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/04/17114655/2479d861-75a4-462a-9cb5-3e1bf8802ea1-800x420.jpg",
       "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Data Center Logical Security Global Market Forecast, 2026-2032 - Opportunities Driven by Rapid Cloud Adoption, Complex Hybrid Architectures, and Increasing Regulatory Expectations",
-      "url": "https://www.globenewswire.com/news-release/2026/04/17/3276300/28124/en/Data-Center-Logical-Security-Global-Market-Forecast-2026-2032-Opportunities-Driven-by-Rapid-Cloud-Adoption-Complex-Hybrid-Architectures-and-Increasing-Regulatory-Expectations.html",
-      "source": "GlobeNewswire",
-      "date": "2026-04-17",
-      "summary": "A market forecast report covering the data center logical security market from 2026 to 2032 has been published, citing cloud adoption, hybrid architectures, and regulatory pressures as key drivers. The report includes identity and access management as one of several focus areas within the broader data center logical security market.",
-      "image": "https://ml.globenewswire.com/Resource/Download/9c5331bd-a484-475a-91b9-f0eca3a7e443",
-      "importance": 3,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft's April patch puts Windows domain controllers into reboot loops — third known issue from KB5082063 is affecting Windows Server 2016 through 2025",
-      "url": "https://www.tomshardware.com/software/windows/microsofts-april-patch-puts-windows-domain-controllers-into-reboot-loops",
-      "source": "Tom's Hardware UK",
-      "date": "2026-04-17",
-      "summary": "Microsoft's April patch KB5082063 is causing continuous reboot loops on Windows Server domain controllers running versions 2016 through 2025. This is the third known issue from the update and directly impacts enterprise Active Directory infrastructure, which is foundational to identity and access management operations.",
-      "image": "https://cdn.mos.cms.futurecdn.net/zpszyjwnJygENKdNTJiQ33-2000-80.jpg",
-      "importance": 7,
       "paywall": false
     },
     {
@@ -218,7 +218,7 @@
       "url": "https://www.darkreading.com/endpoint-security/two-factor-authentication-breaks-free-from-the-desktop",
       "source": "Dark Reading",
       "date": "2026-04-16",
-      "summary": "The article discusses extending two-factor authentication (2FA) beyond traditional desktop/IT environments to address physical world security threats. It focuses on how threat actors bypass security systems outside standard IT contexts and how 2FA can serve as an additional barrier in those scenarios.",
+      "summary": "The article discusses extending two-factor authentication (2FA) beyond traditional desktop/IT environments to address physical-world security scenarios. The piece focuses on how threat actors bypass security systems outside conventional IT contexts and proposes 2FA as an additional barrier.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltda93213c910e1221/69dfbf29f06161c424ab3b28/R5PNG0.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 4,
       "paywall": false
@@ -228,7 +228,7 @@
       "url": "https://www.darkreading.com/cloud-security/microsoft-salesforce-patch-ai-agent-data-leak-flaws",
       "source": "Dark Reading",
       "date": "2026-04-15",
-      "summary": "Microsoft and Salesforce patched prompt injection vulnerabilities in their respective AI agents, Copilot and Agentforce, that could have allowed external attackers to leak sensitive data. The flaws relate to AI agent security rather than core IAM functionality, though they touch on access control boundaries within AI-assisted enterprise tools.",
+      "summary": "Microsoft and Salesforce patched prompt injection vulnerabilities in their respective AI agent platforms, Copilot and Agentforce, that could have allowed external attackers to exfiltrate sensitive data. The flaws relate to AI agent security rather than core IAM functionality, though they touch on authorization boundaries within AI-assisted enterprise tools.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte7dc263e75be56e5/69de87e3a047c9fc38c21430/AI_magnifying_glass_Techa_Tungateja_Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 4,
       "paywall": false
@@ -238,7 +238,7 @@
       "url": "https://www.darkreading.com/vulnerabilities-threats/privilege-elevation-dominates-microsoft-patch-update",
       "source": "Dark Reading",
       "date": "2026-04-14",
-      "summary": "Microsoft released a major patch update addressing 165 vulnerabilities, with privilege elevation bugs accounting for more than half of the total. Two zero-day vulnerabilities were included among the elevation-of-privilege flaws patched in the update.",
+      "summary": "Microsoft released a massive patch update addressing 165 vulnerabilities, with privilege elevation bugs making up more than half of the total. Two zero-day vulnerabilities were included among the elevation-of-privilege flaws patched in the update.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt0c595c01e195b02e/69dea89ff56bbb6d65296357/patch_tomeqs_shutterstock.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -248,7 +248,7 @@
       "url": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
       "source": "Krebs on Security",
       "date": "2026-04-07",
-      "summary": "Russian military intelligence hackers are exploiting vulnerabilities in older routers to harvest Microsoft Office authentication tokens from over 18,000 networks. The campaign operates without deploying malware, instead silently siphoning authentication tokens to gain unauthorized access to systems.",
+      "summary": "Russian military intelligence hackers are exploiting vulnerabilities in older routers to mass-harvest Microsoft Office authentication tokens across more than 18,000 networks. The campaign operates without deploying malware, instead silently siphoning authentication tokens to gain unauthorized access to targeted systems.",
       "image": null,
       "importance": 8,
       "paywall": false
