@@ -1,12 +1,22 @@
 {
-  "updated": "April 27, 2026 at 06:10 UTC",
+  "updated": "April 28, 2026 at 06:14 UTC",
   "top_stories": [
+    {
+      "title": "Microsoft Entra Agent ID Flaw Enabled Tenant Takeover via Privilege Escalation",
+      "url": "https://hackread.com/microsoft-entra-agent-id-flaw-tenant-takeover/",
+      "source": "HackRead",
+      "date": "2026-04-26",
+      "summary": "A vulnerability in Microsoft Entra Agent ID allowed attackers to escalate privileges and take over tenants through Service Principal abuse. Microsoft has fully patched the flaw.",
+      "image": "https://hackread.com/wp-content/uploads/2026/04/microsoft-entra-agent-id-flaw-tenant-takeover.jpg",
+      "importance": 9,
+      "paywall": false
+    },
     {
       "title": "Microsoft to roll out Entra passkeys on Windows in late April",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-roll-out-entra-passkeys-on-windows-in-late-april/",
-      "source": "Bleeping Computer",
+      "source": "BleepingComputer",
       "date": "2026-04-24",
-      "summary": "Microsoft will begin rolling out passkey support for Microsoft Entra-protected resources on Windows devices starting late April. The feature enables phishing-resistant passwordless authentication for Entra-managed environments.",
+      "summary": "Microsoft will begin rolling out passkey support for Microsoft Entra-protected resources on Windows devices starting in late April. The feature enables phishing-resistant passwordless authentication for Entra-managed environments.",
       "image": "https://www.bleepstatic.com/content/hl-images/2026/03/12/Hacking_login.jpg",
       "importance": 8,
       "paywall": false
@@ -16,71 +26,9 @@
       "url": "https://www.techradar.com/pro/security/identity-is-the-new-battleground-why-your-it-helpdesk-is-suddenly-getting-a-lot-of-bizarre-calls",
       "source": "TechRadar",
       "date": "2026-04-23",
-      "summary": "Okta-targeted vishing attacks are exploiting IT helpdesk staff through impersonation and urgency tactics to bypass identity controls. These social engineering campaigns manipulate support personnel into granting access, enabling attackers to rapidly escalate privileges and trigger large-scale data breaches.",
+      "summary": "Okta-targeted vishing attacks are exploiting IT helpdesk staff through impersonation and urgency tactics to gain unauthorized access. These social engineering attacks manipulate support personnel into bypassing authentication controls, enabling attackers to escalate privileges and cause large-scale data breaches.",
       "image": "https://cdn.mos.cms.futurecdn.net/pHaURQZZne5GbLMKxidGTM-1920-80.jpg",
       "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Phishing and MFA exploitation: Targeting the keys to the kingdom",
-      "url": "https://blog.talosintelligence.com/phishing-and-mfa-exploitation-targeting-the-keys-to-the-kingdom/",
-      "source": "Talosintelligence.com",
-      "date": "2026-04-21",
-      "summary": "A 2025 security analysis identifies growing attacker focus on exploiting weaknesses in MFA workflows alongside phishing campaigns that leverage compromised but valid credentials from trusted accounts. The report highlights how both attack vectors specifically target authentication trust mechanisms rather than bypassing security controls entirely.",
-      "image": "https://storage.ghost.io/c/af/a0/afa04ee3-414f-4481-8d23-7e7c146f192e/content/images/size/w1200/2026/04/2025YiR-topic_phishing-identity.jpg",
-      "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "DORA and operational resilience: Credential management as a financial risk control",
-      "url": "https://www.bleepingcomputer.com/news/security/dora-and-operational-resilience-credential-management-as-a-financial-risk-control/",
-      "source": "Bleeping Computer",
-      "date": "2026-04-24",
-      "summary": "DORA's Article 9 establishes authentication and access control as legal obligations for EU financial entities. The article examines the specific credential management and access control requirements under the regulation and the consequences of non-compliance.",
-      "image": "https://www.bleepstatic.com/content/posts/2026/04/23/passwork-header.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Bitwarden CLI npm package compromised to steal developer credentials",
-      "url": "https://www.bleepingcomputer.com/news/security/bitwarden-cli-npm-package-compromised-to-steal-developer-credentials/",
-      "source": "Bleeping Computer",
-      "date": "2026-04-23",
-      "summary": "The Bitwarden CLI npm package was compromised by attackers who uploaded a malicious version to the npm registry containing a credential-stealing payload. The package targeted developer credentials and had the capability to spread to other projects through the npm dependency chain.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2023/03/08/Bitwarden_headpic.jpg",
-      "importance": 7,
-      "paywall": false
-    }
-  ],
-  "news": [
-    {
-      "title": "Users advised to drop passwords and make room for passkeys",
-      "url": "https://www.helpnetsecurity.com/2026/04/24/ncsc-passkey-adoption-cybersecurity/",
-      "source": "Help Net Security",
-      "date": "2026-04-24",
-      "summary": "The UK's National Cyber Security Centre (NCSC) is officially recommending that consumers replace passwords with passkeys, reversing decades of prior guidance. The agency stated it will no longer recommend passwords where passkeys are available, citing passwords' weaker resistance to modern cyber threats.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/25153052/passkeys-1500.webp",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Bridging the AI Agent Authority Gap: Continuous Observability as the Decision Engine",
-      "url": "https://thehackernews.com/2026/04/bridging-ai-agent-authority-gap.html",
-      "source": "The Hacker News",
-      "date": "2026-04-24",
-      "summary": "The article addresses the governance gap created by AI agents operating as delegated actors within enterprise security frameworks, focusing on how authority and access management apply to agentic AI systems. The piece covers concepts of delegation, provisioning, and continuous observability as mechanisms for governing AI agent permissions and actions.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZTTjYlof51AlGz6c8vyYmpqVPODX_zgUiWkJ-Mgq8a5d6pfOrUQqgu2A7H3dIcv7k4_AYSTxitHZiCxve_l8QG-zLLqgkLLdudvwjASI7p3CUtk6O0rntkr_mDPcUK66NPMoGEVWvS1mMKFzNKpRTAN2Wv9jLdLwcOlNAtlqfLCSCKpqHldT1e9AnnD0/s1600/or.gif",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "The New World ID: Proof of Human for the AI Era Scales Across the Digital Platforms People and Businesses Use Every Day",
-      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/the-new-world-id-proof-of-human-for-the-ai-era-scales-across-the-digital-platforms-people-and-businesses-use-every-day",
-      "source": "Financial Post",
-      "date": "2026-04-24",
-      "summary": "World announced the next generation of World ID, a proof-of-human protocol, with Okta among the partners bringing the technology to businesses, AI agents, and consumers. The integration with Okta and other major platforms positions World ID as an identity verification layer aimed at distinguishing humans from AI agents across digital services.",
-      "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/04/bw20260417530721_5849438cbfa_53927_7846206.jpeg",
-      "importance": 7,
       "paywall": false
     },
     {
@@ -88,9 +36,9 @@
       "url": "https://thehackernews.com/2026/04/unc6692-impersonates-it-helpdesk-via.html",
       "source": "The Hacker News",
       "date": "2026-04-23",
-      "summary": "A threat group called UNC6692 is using Microsoft Teams to impersonate IT help desk personnel and deploy the SNOW malware suite through social engineering. The attack vector relies on convincing victims to accept Teams chat invitations from fake IT support accounts, a technique increasingly relevant to IAM and identity verification practices.",
+      "summary": "A threat actor cluster called UNC6692 is using Microsoft Teams to impersonate IT help desk personnel and deploy the SNOW malware suite through social engineering. The attack relies on victims accepting Teams chat invitations from attacker-controlled accounts posing as internal IT support staff.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHoBLtF5qmS63UuZJdrs4DtwoJRc6V3OK_4vUjCp-mHUs99AlJkzxcQgZH-tD0dFneYJHfBEumdGw42jcqcYHYiqmNHBtHZVB7m83pxPakcbupcdcRmDzg2fedK4doHPUwOfGoqY2a44VUwgK1g8cyZSgpMmpzcbWuBrzxvdalA9bkt8_26WkdIfZy6qqa/s1600/helpdesk.jpg",
-      "importance": 6,
+      "importance": 7,
       "paywall": false
     },
     {
@@ -98,8 +46,40 @@
       "url": "https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html",
       "source": "The Hacker News",
       "date": "2026-04-23",
-      "summary": "The Bitwarden CLI package (@bitwarden/cli@2026.4.0) was compromised as part of an ongoing Checkmarx supply chain campaign, with malicious code injected into a file called 'bw1.js.' The compromise was discovered by JFrog and Socket, targeting the command-line interface of the widely used Bitwarden password manager.",
+      "summary": "The Bitwarden CLI package (@bitwarden/cli@2026.4.0) was compromised as part of an ongoing supply chain attack campaign discovered by JFrog and Socket. Malicious code was injected into a file called 'bw1.js' within the package, targeting users of the command-line interface for the Bitwarden password manager.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3GuK50sJwMRH4ad8bcUVRSBm1Wk0X5Gj1dSalza49wWxFY9g3_E32271zOeqx6vsqrWY2SWAVnnXTKiJZvKbhxynk018zLTIlZpBNhFA_QVi6kzn7vATBe419m222ZMUcTToaSn19L4DgElrI9luwUv2EJk0efy5TLDIqIUyGcOnTvVU2KKZw9AMsMipz/s1600/bitwarden.jpg",
+      "importance": 7,
+      "paywall": false
+    }
+  ],
+  "news": [
+    {
+      "title": "Bridging the AI Agent Authority Gap: Continuous Observability as the Decision Engine",
+      "url": "https://thehackernews.com/2026/04/bridging-ai-agent-authority-gap.html",
+      "source": "The Hacker News",
+      "date": "2026-04-24",
+      "summary": "The article addresses the governance and authorization challenges posed by AI agents in enterprise security, framing the core issue as one of delegated authority and identity management for non-human actors. It focuses on how AI agents receive, exercise, and should be governed under IAM principles such as continuous observability and authorization controls.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZTTjYlof51AlGz6c8vyYmpqVPODX_zgUiWkJ-Mgq8a5d6pfOrUQqgu2A7H3dIcv7k4_AYSTxitHZiCxve_l8QG-zLLqgkLLdudvwjASI7p3CUtk6O0rntkr_mDPcUK66NPMoGEVWvS1mMKFzNKpRTAN2Wv9jLdLwcOlNAtlqfLCSCKpqHldT1e9AnnD0/s1600/or.gif",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "DORA and operational resilience: Credential management as a financial risk control",
+      "url": "https://www.bleepingcomputer.com/news/security/dora-and-operational-resilience-credential-management-as-a-financial-risk-control/",
+      "source": "BleepingComputer",
+      "date": "2026-04-24",
+      "summary": "The article examines how DORA's Article 9 establishes authentication and access control as legal obligations for EU financial institutions. It covers what the regulation specifically requires around credential management and the consequences of non-compliance or control failures.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/04/23/passwork-header.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "The New World ID: Proof of Human for the AI Era Scales Across the Digital Platforms People and Businesses Use Every Day",
+      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/the-new-world-id-proof-of-human-for-the-ai-era-scales-across-the-digital-platforms-people-and-businesses-use-every-day",
+      "source": "Financial Post",
+      "date": "2026-04-24",
+      "summary": "World announced the next generation of World ID, a proof-of-human protocol, with Okta among the digital platform partners bringing the technology to businesses, AI agents, and consumers. The integration with Okta and other platforms positions World ID as an identity verification layer aimed at distinguishing humans from AI agents in authentication workflows.",
+      "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/04/bw20260417530721_5849438cbfa_53927_7846206.jpeg",
       "importance": 7,
       "paywall": false
     },
@@ -108,9 +88,9 @@
       "url": "https://thehackernews.com/2026/04/vercel-finds-more-compromised-accounts.html",
       "source": "The Hacker News",
       "date": "2026-04-23",
-      "summary": "Vercel disclosed that additional customer accounts were compromised in a breach involving unauthorized access to its internal systems, linked to a Context.ai security incident. The expanded investigation reviewed network requests and additional compromise indicators to identify the affected accounts.",
+      "summary": "Vercel identified additional compromised customer accounts stemming from a breach linked to Context.ai that enabled unauthorized access to its internal systems. The expanded investigation reviewed additional compromise indicators and analyzed requests to the Vercel network and environment to uncover the affected accounts.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzwM3USZlfhbZvEZWWJp8Qa4g-UzetuH1vkGUsyr3Ju00B8gC8z791k1Gv-WZ_pMB1VQtX1xLFj-ETJg33razqLHCpoOzMcbb65ucw8jruZ_ltVmaO4bky9WmoFSXfgquEn8HVbLx_I02h0BDOXPBn61_jdnRYKSleCpfUR8G4pkEpsn592IvR3D3qgt0X/s1600/vercel-breach.jpg",
-      "importance": 5,
+      "importance": 6,
       "paywall": false
     },
     {
@@ -118,8 +98,18 @@
       "url": "https://www.bleepingcomputer.com/news/security/regular-password-resets-arent-as-safe-as-you-think/",
       "source": "BleepingComputer",
       "date": "2026-04-23",
-      "summary": "Specops Software has published research showing that regular password resets can be exploited by attackers through helpdesk social engineering, enabling full account compromise. The analysis focuses on how reset procedures can bypass security controls when helpdesk staff are manipulated into processing fraudulent reset requests.",
+      "summary": "Specops Software has published research showing how regular password resets can be exploited by attackers through helpdesk social engineering to achieve full account compromise. The analysis details how seemingly legitimate reset requests can bypass security controls, challenging the assumption that frequent password resets improve security.",
       "image": "https://www.bleepstatic.com/content/posts/2026/04/17/regular-password-resets-arent-as-safe-as-you-think.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Toxic Combinations: When Cross-App Permissions Stack into Risk",
+      "url": "https://thehackernews.com/2026/04/toxic-combinations-when-cross-app.html",
+      "source": "The Hacker News",
+      "date": "2026-04-22",
+      "summary": "Researchers disclosed that Moltbook, a social network for AI agents, exposed 35,000 email addresses and 1.5 million agent API tokens across 770,000 active agents via an open database. The breach also revealed plaintext third-party credentials including OpenAI API keys within private messages, illustrating cross-application permission stacking risks in agentic AI environments.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeaSL6v6uahfzJpHJb0ATKZ7cbexnfYIayT74IyU1S-7f3T-4gfnWowlobm5RH4ZYrsIdeNq_OOHGxp2LbU-aELaO9RbYa15MfKN38-ZQPGhrgH0PYCsVIucG95SSw-WCzzo9eUhITn4A3txsa8H59XhTcAaOObC0r-Es_7i0RH8aDo_qhZ45MfaOTVF2t/s1600/reco.png",
       "importance": 6,
       "paywall": false
     },
@@ -128,9 +118,9 @@
       "url": "https://www.globenewswire.com/news-release/2026/04/22/3279128/28124/en/Consumer-Identity-and-Access-Management-Global-Market-Forecast-Report-2026-2036-Profiles-of-Okta-Auth0-Ping-Identity-ForgeRock-Microsoft-Salesforce-IBM-Amazon-Web-Services-Accentur.html",
       "source": "GlobeNewswire",
       "date": "2026-04-22",
-      "summary": "A new market forecast report projects the global Consumer Identity and Access Management (CIAM) market will grow from USD 12.6 billion in 2026 to USD 40.2 billion by 2036, representing a CAGR of 12.2%. The report covers key vendors including Okta, Auth0, Ping Identity, ForgeRock, Microsoft, Salesforce, IBM, AWS, and Accenture.",
+      "summary": "A new market forecast report projects the global Consumer Identity and Access Management (CIAM) market will grow from USD 12.6 billion in 2026 to USD 40.2 billion by 2036, representing a CAGR of 12.2%. The report profiles major CIAM vendors including Okta, Auth0, Ping Identity, ForgeRock, Microsoft, Salesforce, IBM, AWS, and Accenture.",
       "image": "https://ml.globenewswire.com/Resource/Download/908fb457-7f8e-4a08-9081-5565e3dfb3d7",
-      "importance": 5,
+      "importance": 6,
       "paywall": false
     },
     {
@@ -138,18 +128,8 @@
       "url": "https://www.globenewswire.com/news-release/2026/04/22/3279125/28124/en/Non-Human-Identity-Access-Management-Market-Global-Forecast-Report-2026-2036-Opportunities-in-Adoption-of-Zero-Trust-Architecture-Cloud-native-Applications-and-Regulatory-Complianc.html",
       "source": "GlobeNewswire",
       "date": "2026-04-22",
-      "summary": "A new market forecast report projects the global non-human identity (NHI) access management market will grow from USD 12.2 billion in 2026 to USD 38.8 billion by 2036, at a CAGR of 12.2%. The report covers market dynamics across regions and sectors, with growth drivers identified as zero trust architecture adoption, cloud-native applications, and regulatory compliance requirements.",
+      "summary": "A new market forecast report projects the global non-human identity (NHI) access management market will grow from $12.2 billion in 2026 to $38.8 billion by 2036, at a CAGR of 12.2%. The report covers market dynamics across regions and sectors, with growth drivers including zero trust architecture adoption, cloud-native applications, and regulatory compliance requirements.",
       "image": "https://ml.globenewswire.com/Resource/Download/908fb457-7f8e-4a08-9081-5565e3dfb3d7",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "No Exploit Needed: How Attackers Walk Through the Front Door via Identity-Based Attacks",
-      "url": "https://thehackernews.com/2026/04/no-exploit-needed-how-attackers-walk.html",
-      "source": "The Hacker News",
-      "date": "2026-04-21",
-      "summary": "The article examines identity-based attacks as a primary initial access vector, focusing on how attackers use stolen credentials rather than technical exploits to breach organizations. It covers credential stuffing and related techniques that bypass traditional security controls by abusing legitimate authentication pathways.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEin_RithPNlLYdgxg906-M63Q0-Kv83Kl-WNjK8x5OjKiSgcDMaljvqb7XkLPoEeUDEMRdi4Cqh9DH-pv9QP1ViNjUi3q3qn5r_Lig04a3zO9TgkgiQqSLC50mE6q-6hr94bo4UnXnP5QksLGeAgSOemxUOZaXIw9Z2UHpZuinm7pqF9N0xtJNVovfojx0/s1600/door.jpg",
       "importance": 6,
       "paywall": false
     },
@@ -158,9 +138,19 @@
       "url": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
       "source": "Krebs on Security",
       "date": "2026-04-21",
-      "summary": "Tyler Robert Buchanan, a senior member of Scattered Spider, pleaded guilty to wire fraud conspiracy and aggravated identity theft for his role in SMS phishing attacks in 2022. The attacks compromised at least a dozen major technology companies through credential phishing, enabling cryptocurrency theft from investors.",
+      "summary": "Tyler Robert Buchanan, a 24-year-old British national and senior member of Scattered Spider, pleaded guilty to wire fraud conspiracy and aggravated identity theft. His admitted crimes involved SMS phishing attacks in 2022 that compromised at least a dozen major technology companies and resulted in cryptocurrency theft from investors.",
       "image": null,
-      "importance": 6,
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Phishing and MFA exploitation: Targeting the keys to the kingdom",
+      "url": "https://blog.talosintelligence.com/phishing-and-mfa-exploitation-targeting-the-keys-to-the-kingdom/",
+      "source": "Talosintelligence.com",
+      "date": "2026-04-21",
+      "summary": "A 2025 threat report highlights increasing attacker focus on exploiting weaknesses in MFA workflows and using compromised credentials to conduct phishing from trusted accounts. The attacks specifically target authentication trust mechanisms, combining credential theft with MFA bypass techniques to undermine identity security controls.",
+      "image": "https://storage.ghost.io/c/af/a0/afa04ee3-414f-4481-8d23-7e7c146f192e/content/images/size/w1200/2026/04/2025YiR-topic_phishing-identity.jpg",
+      "importance": 8,
       "paywall": false
     },
     {
@@ -168,29 +158,9 @@
       "url": "https://www.darkreading.com/application-security/vercel-employees-ai-tool-access-data-breach",
       "source": "Dark Reading",
       "date": "2026-04-20",
-      "summary": "A Vercel employee's access to an AI tool led to a data breach via stolen OAuth tokens. Security researchers highlight OAuth tokens as an emerging primary attack surface for lateral movement in enterprise environments.",
+      "summary": "A Vercel employee's access to an AI tool led to a data breach involving stolen OAuth tokens. Security researchers are highlighting OAuth tokens as an emerging critical attack surface for lateral movement in enterprise environments.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt3396b116c4a5d80b/69e6744aa61d112dbb7caf20/allow_access_keyboard_alon_harel_alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Making opportunistic cyberattacks harder by design",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/20/making-opportunistic-cyberattacks-harder-by-design/",
-      "source": "Microsoft.com",
-      "date": "2026-04-20",
-      "summary": "Microsoft published details on how it secures Dynamics 365 and Power Platform by removing credentials and reducing attack surfaces through platform engineering. The approach focuses on eliminating standing credentials and minimizing exposure to opportunistic threats as part of Microsoft's secure-by-design initiative.",
-      "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/04/Ilya-Grebnov-feature-image.jpg",
-      "importance": 6,
-      "paywall": true
-    },
-    {
-      "title": "Securely connecting on-premises data systems to Amazon Redshift with IAM Roles Anywhere",
-      "url": "https://aws.amazon.com/blogs/big-data/securely-connecting-on-premises-data-systems-to-amazon-redshift-with-iam-roles-anywhere/",
-      "source": "Amazon.com",
-      "date": "2026-04-20",
-      "summary": "AWS published a guide explaining how to use IAM Roles Anywhere with Amazon Redshift to establish secure, private connections for on-premises data systems. The solution eliminates the need for long-lived access keys by leveraging certificate-based authentication to obtain temporary IAM credentials.",
-      "image": "https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2026/04/15/bdb-5465-featured.png",
-      "importance": 5,
       "paywall": false
     },
     {
@@ -198,19 +168,9 @@
       "url": "https://www.darkreading.com/threat-intelligence/tycoon-2fa-hackers-device-code-phishing",
       "source": "Dark Reading",
       "date": "2026-04-17",
-      "summary": "Threat actors behind the Tycoon 2FA phishing-as-a-service platform have shifted tactics to adopt device code phishing attacks. The technique exploits legitimate OAuth device authorization flows to trick victims into granting attackers access to their accounts, bypassing MFA protections.",
+      "summary": "Threat actors previously using the Tycoon 2FA phishing kit have shifted to device code phishing as an attack method. The technique exploits legitimate OAuth device authorization flows to bypass MFA and capture account access tokens without requiring victims to enter credentials on a fake page.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt70085bc1304b3cb3/69e2855c41f7f85ddb368bc3/QR_code-Harry_Wedzinga-Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Two-Factor Authentication Breaks Free From the Desktop",
-      "url": "https://www.darkreading.com/endpoint-security/two-factor-authentication-breaks-free-from-the-desktop",
-      "source": "Dark Reading",
-      "date": "2026-04-16",
-      "summary": "The article discusses extending two-factor authentication (2FA) beyond traditional desktop/IT environments to address physical security scenarios. It focuses on how threat actors bypass security systems outside conventional IT settings and how 2FA could provide an additional barrier in physical-world contexts.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltda93213c910e1221/69dfbf29f06161c424ab3b28/R5PNG0.jpg?width=1280&auto=webp&quality=80&disable=upscale",
-      "importance": 5,
       "paywall": false
     },
     {
@@ -218,7 +178,7 @@
       "url": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
       "source": "Krebs on Security",
       "date": "2026-04-07",
-      "summary": "Russian military intelligence hackers are exploiting vulnerabilities in older internet routers to harvest Microsoft Office authentication tokens from users across more than 18,000 networks. The campaign operates without deploying malware, relying solely on token theft to silently compromise user sessions.",
+      "summary": "Russian military intelligence-linked hackers are exploiting vulnerabilities in older routers to harvest Microsoft Office authentication tokens from over 18,000 networks. The campaign operates without deploying malware, instead silently siphoning authentication tokens to gain unauthorized access to targeted systems.",
       "image": null,
       "importance": 8,
       "paywall": false
