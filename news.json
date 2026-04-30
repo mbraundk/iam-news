@@ -1,13 +1,23 @@
 {
-  "updated": "April 29, 2026 at 06:09 UTC",
+  "updated": "April 30, 2026 at 06:13 UTC",
   "top_stories": [
     {
       "title": "Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover",
       "url": "https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html",
       "source": "The Hacker News",
       "date": "2026-04-28",
-      "summary": "Microsoft patched a flaw in the Microsoft Entra ID \"Agent ID Administrator\" role that could allow privilege escalation and service principal takeover attacks. Security firm Silverfort discovered that the privileged built-in role, designed to manage AI agent identity lifecycle operations, could be exploited for identity takeover.",
+      "summary": "Microsoft patched a flaw in the Microsoft Entra ID \"Agent ID Administrator\" role that allowed privilege escalation and service principal takeover attacks. Silverfort researchers discovered the vulnerability in the built-in role, which was introduced to manage AI agent identity lifecycle operations within Entra ID.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4YomH2AGnUSAePfyyvEMXCbULukirvclzEJ6gnsm30Y2PApuarWfCLpKrBng3qYhhINWPwn99rVtdqKcEtbnVR9jkXkpBY-vDByDzMmZgLPPPrqyodmgqBCfR3ojF1tbyaFHQxIdr8voZgDugagnBymAchRR99uUm_0btEdWYeir8B6njw6Q1lPTcugcB/s1600/azure.jpg",
+      "importance": 9,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft fixes Entra ID flaw enabling privilege escalation",
+      "url": "https://securityaffairs.com/191414/security/microsoft-fixes-entra-id-flaw-enabling-privilege-escalation.html",
+      "source": "Securityaffairs.com",
+      "date": "2026-04-28",
+      "summary": "Microsoft patched a privilege escalation vulnerability in Microsoft Entra ID where the Agent ID Administrator role could be exploited to enable account takeover of service accounts. The flaw allowed attackers with access to that role to escalate privileges beyond their intended permissions within the Entra ID identity platform.",
+      "image": "https://securityaffairs.com/wp-content/uploads/2020/04/Microsoft-autodesk.png",
       "importance": 9,
       "paywall": false
     },
@@ -16,19 +26,9 @@
       "url": "https://hackread.com/microsoft-entra-agent-id-flaw-tenant-takeover/",
       "source": "HackRead",
       "date": "2026-04-26",
-      "summary": "A security flaw in Microsoft Entra Agent ID allowed attackers to perform privilege escalation and tenant takeover through Service Principal abuse. Microsoft has fully patched the vulnerability.",
+      "summary": "A security flaw in Microsoft Entra Agent ID allowed attackers to escalate privileges and achieve full tenant takeover through Service Principal abuse. Microsoft has fully patched the vulnerability.",
       "image": "https://hackread.com/wp-content/uploads/2026/04/microsoft-entra-agent-id-flaw-tenant-takeover.jpg",
       "importance": 9,
-      "paywall": false
-    },
-    {
-      "title": "FIDO Alliance wants to keep AI agents from going rogue on online payments",
-      "url": "https://www.helpnetsecurity.com/2026/04/29/fido-alliance-ai-agents-authentication-payments-standards/",
-      "source": "Help Net Security",
-      "date": "2026-04-28",
-      "summary": "The FIDO Alliance has announced a set of initiatives to develop shared standards for AI agent authentication, instruction-following, and transaction execution. The effort addresses how trust and authentication should function when AI agents act on behalf of users in contexts such as online payments and logins.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/04/28155547/fido-alliance-1500.webp",
-      "importance": 8,
       "paywall": false
     },
     {
@@ -36,60 +36,60 @@
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-roll-out-entra-passkeys-on-windows-in-late-april/",
       "source": "BleepingComputer",
       "date": "2026-04-24",
-      "summary": "Microsoft is rolling out passkey support for phishing-resistant passwordless authentication to Microsoft Entra-protected resources from Windows devices starting late April. The update enables passwordless authentication for Entra-connected applications and services directly from Windows devices using passkeys.",
+      "summary": "Microsoft will begin rolling out passkey support for phishing-resistant passwordless authentication to Microsoft Entra-protected resources from Windows devices starting late April. The update enables passwordless authentication for Entra-managed environments directly from Windows devices.",
       "image": "https://www.bleepstatic.com/content/hl-images/2026/03/12/Hacking_login.jpg",
       "importance": 8,
       "paywall": false
     },
     {
-      "title": "'Identity is the new battleground': Why your IT helpdesk is suddenly getting a lot of bizarre calls",
-      "url": "https://www.techradar.com/pro/security/identity-is-the-new-battleground-why-your-it-helpdesk-is-suddenly-getting-a-lot-of-bizarre-calls",
-      "source": "TechRadar",
-      "date": "2026-04-23",
-      "summary": "Okta-related vishing attacks are targeting IT helpdesks through impersonation and social engineering tactics that manipulate support staff into granting unauthorized access. Attackers exploit urgency and human trust to bypass authentication controls, enabling rapid escalation into large-scale data breaches.",
-      "image": "https://cdn.mos.cms.futurecdn.net/pHaURQZZne5GbLMKxidGTM-1920-80.jpg",
-      "importance": 8,
+      "title": "Learning from the Vercel breach: Shadow AI & OAuth sprawl",
+      "url": "https://www.bleepingcomputer.com/news/security/learning-from-the-vercel-breach-shadow-ai-and-oauth-sprawl/",
+      "source": "Bleeping Computer",
+      "date": "2026-04-29",
+      "summary": "The Vercel breach demonstrated how a compromised third-party OAuth integration can provide attackers direct access to downstream customer environments. The incident highlights risks associated with OAuth sprawl and shadow AI integrations as attack vectors within identity and access management frameworks.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/04/28/push-hacker-header.jpg",
+      "importance": 7,
       "paywall": false
     }
   ],
   "news": [
     {
-      "title": "The Exchange Online security controls organizations keep getting wrong",
-      "url": "https://www.helpnetsecurity.com/2026/04/29/scott-schnoll-microsoft-exchange-online-security/",
-      "source": "Help Net Security",
-      "date": "2026-04-29",
-      "summary": "Microsoft MVP Scott Schnoll discusses common Exchange Online security misconfigurations, focusing on the Shared Responsibility Model and overlooked identity controls. The interview covers Conditional Access policies, Privileged Identity Management (PIM), legacy protocol risks like SMTP AUTH, and audit log blind spots relevant to identity and access management practitioners.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/04/28073934/scott_schnoll-2-microsoft.webp",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Identity discovery: The overlooked lever in strategic risk reduction",
-      "url": "https://www.helpnetsecurity.com/2026/04/29/delinea-identity-discovery-strategy/",
-      "source": "Help Net Security",
-      "date": "2026-04-29",
-      "summary": "Delinea published an article on identity discovery as a core component of strategic risk reduction for security programs. The piece focuses on how visibility into identities relates to PAM, zero trust, and overall identity program effectiveness.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/09/16094152/identity-person.webp",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft asks iPhone users to reauthenticate after Outlook outage",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-iphone-users-to-re-enter-credentials-after-outlook-outage/",
+      "title": "Official SAP npm packages compromised to steal credentials",
+      "url": "https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/",
       "source": "Bleeping Computer",
-      "date": "2026-04-28",
-      "summary": "Microsoft experienced a widespread Outlook.com outage and subsequently required iPhone users to reauthenticate their credentials to restore access via the default iOS Mail app. The issue affected Outlook and Hotmail accounts accessed through Apple's native Mail application following the service disruption.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2025/01/10/Outlook.jpg",
-      "importance": 4,
+      "date": "2026-04-29",
+      "summary": "Multiple official SAP npm packages were compromised in a supply-chain attack attributed to TeamPCP, targeting developers' systems. The attack was designed to steal credentials and authentication tokens from affected development environments.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2022/02/09/SAP.jpg",
+      "importance": 6,
       "paywall": false
     },
     {
-      "title": "Cequence Agent Personas bring granular control and governance to enterprise AI agents",
-      "url": "https://www.helpnetsecurity.com/2026/04/28/cequence-agent-personas/",
-      "source": "Help Net Security",
-      "date": "2026-04-28",
-      "summary": "Cequence Security has announced general availability of Agent Personas in its AI Gateway product, providing infrastructure-level control over AI agent actions down to individual tool calls. The feature addresses authorization gaps in AI agent deployments using the Model Context Protocol (MCP), where authentication alone does not constrain what authenticated agents are permitted to do.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
+      "title": "SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack",
+      "url": "https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html",
+      "source": "The Hacker News",
+      "date": "2026-04-29",
+      "summary": "A supply chain attack campaign dubbed \"mini Shai-Hulud\" has compromised SAP-related npm packages with credential-stealing malware. The attack was identified by multiple cybersecurity firms including Aikido Security, SafeDep, Socket, StepSecurity, and Wiz, targeting packages associated with SAP's JavaScript and cloud application ecosystem.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7ILiV-4oJHtNRt3-K52GIsgOaNUuN9owB5ky-Mk8FvRE3QmcqDg33oV3sCrzjgWEyIUfwTtn110bcMYVU3Lp61ArknIlPAcmMvbgJJ5-WheKYivyblon2tp79ux9pJmnYNv_ShhIAA5of3Wx7QzQRZs2mNuSQs6lLG23LKMVonvElcNMy6MXp6yVZO73F/s1600/sap-npm-hacks.jpg",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Webinar: How to Automate Exposure Validation to Match the Speed of AI Attacks",
+      "url": "https://thehackernews.com/2026/04/webinar-how-to-automate-exposure.html",
+      "source": "The Hacker News",
+      "date": "2026-04-29",
+      "summary": "A webinar is being promoted around the threat of AI-automated attacks targeting Active Directory and Domain Admin credentials. The session focuses on autonomous agents capable of mapping Active Directory and escalating privileges rapidly, framed around exposure validation workflows.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8vcicU2DANrmyA4GRttWV5sb4GPYdppuZax9v279s90O_uXz10MvgxpTyOR9s-tZoccR96ph-c7hZOwXORyLBYdWEsn3zCkrT_ivf6ZVApdMY6TL6jarUO4rNjR9nfc7XPTnmc6ttcKs_9aGOsOK4RoEnliEqVYrcOtL_d7Zys-51KZosLtWtlsOX4mo/s1600/thn.jpg",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Critical cPanel Authentication Vulnerability Identified — Update Your Server Immediately",
+      "url": "https://thehackernews.com/2026/04/critical-cpanel-authentication.html",
+      "source": "The Hacker News",
+      "date": "2026-04-29",
+      "summary": "cPanel has released security updates addressing a critical authentication vulnerability affecting all supported versions of cPanel and WebHost Manager (WHM). The flaw impacts multiple authentication paths and could allow attackers to gain unauthorized access to the control panel software.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQ54sVYryCG3V_ZjHJwzuKBteLhpf8FnX131rudu9bvgYGDupWYtJHLYxGPjVON072t-CWz4hyQmxQmwIW6ZZzTXsiJhcfRHPBj1ag1H0PeFGB4KkZIAsyhR0bT_DQqCj2uf_a5Yza7VbeBd3xRIvf4VUZ8UBRM2iEY10bk3me9zotLNcLExjSMaoY3y4l/s1600/cpanel.jpg",
       "importance": 6,
       "paywall": false
     },
@@ -98,9 +98,59 @@
       "url": "https://thehackernews.com/2026/04/why-secure-data-movement-is-zero-trust.html",
       "source": "The Hacker News",
       "date": "2026-04-28",
-      "summary": "A research report called \"Cyber360: Defending the Digital Battlespace,\" based on a survey of 500 security professionals, examines how secure data movement creates bottlenecks in Zero Trust program implementation. The article argues that connectivity assumptions undermine Zero Trust initiatives, though the focus appears to be on data movement rather than identity and access management specifically.",
+      "summary": "New research from an unnamed team surveyed 500 security professionals and identified secure data movement as a bottleneck in Zero Trust program implementation. The report, titled \"Cyber360: Defending the Digital Battlespace,\" argues that assumptions about connectivity undermine Zero Trust deployments.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrVD0Q_dTvO3tooHYWKp7i_lkLd6h30GSv_DDv4jIb_KZDY5heV39R01GFN6MWEq1JsilHFrd7EtDOBkmlkvXYAb7-w51A1SDN3AAiEAbuq7ZnNREakyHouZPVBMNhk_HnEOK8D7H5m51A2zcUvAvDjmPnrrzeZI_nQHFao1QbljV4ortyzuqbXsNR35c/s1600/everfox.jpg",
       "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "Access control with IAM Identity Center session tags",
+      "url": "https://aws.amazon.com/blogs/security/access-control-with-iam-identity-center-session-tags/",
+      "source": "Amazon.com",
+      "date": "2026-04-28",
+      "summary": "AWS IAM Identity Center supports session tags as a mechanism for implementing attribute-based access control (ABAC) across multi-account AWS environments. The feature enables organizations to manage workforce access centrally by passing user attributes as session tags to enforce fine-grained authorization policies at scale.",
+      "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/04/28/ImageSocial-AccessControl-1260x630.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Why AI agents are triggering a rethink of enterprise identity",
+      "url": "https://www.computerweekly.com/opinion/Why-AI-agents-are-triggering-a-rethink-of-enterprise-identity",
+      "source": "ComputerWeekly.com",
+      "date": "2026-04-28",
+      "summary": "Computer Weekly's Security Think Tank examines how agentic AI is impacting enterprise identity and access management. The article analyzes the specific security stack changes required as AI agents introduce new challenges for traditional IAM frameworks.",
+      "image": "https://www.computerweekly.com/visuals/ComputerWeekly/Hero Images/Security-Think-Tank-hero.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Silverfort acquires Fabrix Security to bring AI decision-making to runtime access control",
+      "url": "https://siliconangle.com/2026/04/28/silverfort-acquires-fabrix-security-bring-ai-decisioning-runtime-access-control/",
+      "source": "SiliconANGLE News",
+      "date": "2026-04-28",
+      "summary": "Silverfort has acquired Fabrix Security, an AI-native identity security startup founded in 2024, for an undisclosed sum. The acquisition is aimed at integrating AI-driven decision-making capabilities into runtime access control within Silverfort's unified identity security platform.",
+      "image": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/04/fabrixsecurity.png",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Simplifying AWS defense with Microsoft Sentinel UEBA",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/28/simplifying-aws-defense-microsoft-sentinel-ueba/",
+      "source": "Microsoft.com",
+      "date": "2026-04-28",
+      "summary": "Microsoft Sentinel's User and Entity Behavior Analytics (UEBA) capability is being applied to AWS CloudTrail log analysis to differentiate legitimate user activity from potential attacker behavior. The approach uses behavioral baselines derived from user, peer, and device patterns to generate binary signals that enrich raw cloud access logs for defenders.",
+      "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/02/MS_Actional-Insights_Detection-hunting.png",
+      "importance": 6,
+      "paywall": true
+    },
+    {
+      "title": "Five-minute interview: Zair Abbas, Okta",
+      "url": "https://www.computerweekly.com/microscope/feature/Five-minute-interview-Zair-Abbas-Okta",
+      "source": "ComputerWeekly.com",
+      "date": "2026-04-28",
+      "summary": "Okta's partner ecosystem lead for EMEA, Zair Abbas, participated in a brief personal interview format. The article is a short profile piece focused on personal insights rather than substantive IAM product or business news.",
+      "image": "https://www.computerweekly.com/visuals/ComputerWeekly/Hero Images/microphone-interview-podcast-BrianJackson-adobe.jpg",
+      "importance": 3,
       "paywall": false
     },
     {
@@ -108,7 +158,7 @@
       "url": "https://www.techtarget.com/searchsecurity/tip/Cybersecuritys-agentic-AI-identity-crisis-and-how-to-fix-it",
       "source": "Techtarget.com",
       "date": "2026-04-27",
-      "summary": "The article addresses security challenges posed by AI agents in enterprise environments, focusing on identity and access management for autonomous AI systems. The piece covers how agentic AI creates new identity security challenges related to authentication, authorization, and access control for non-human identities.",
+      "summary": "The article addresses security challenges posed by AI agents in enterprise environments, focusing on identity and access management for autonomous AI systems. The piece covers how agentic AI creates new requirements for authentication, authorization, and identity governance frameworks.",
       "image": "https://www.techtarget.com/visuals/LeMagIT/hero_article/Hero-Danger-by-InfiniteFlow-Adobe-10.jpg",
       "importance": 7,
       "paywall": false
@@ -118,7 +168,7 @@
       "url": "https://aws.amazon.com/blogs/security/can-i-do-that-with-policy-understanding-the-aws-service-authorization-reference/",
       "source": "Amazon.com",
       "date": "2026-04-27",
-      "summary": "AWS published educational content explaining the AWS Service Authorization Reference and what IAM policies can control within AWS environments. The article covers AWS Organizations service control policies and how to effectively build security controls using AWS IAM policy capabilities.",
+      "summary": "AWS published guidance explaining the capabilities and limitations of AWS IAM policies, covering service control policies (SCPs) and AWS Organizations. The article addresses how IAM policies interact with AWS services to help practitioners build effective authorization controls.",
       "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/04/20/Can-i-do-that-with-policy-1126x630.png",
       "importance": 6,
       "paywall": false
@@ -128,7 +178,7 @@
       "url": "https://www.computerweekly.com/opinion/Why-AI-is-forcing-a-reset-of-the-identity-stack",
       "source": "ComputerWeekly.com",
       "date": "2026-04-27",
-      "summary": "Computer Weekly's Security Think Tank examines how AI is driving changes in identity and access management, framing a shift from traditional identity management toward \"identity intelligence.\" The article is part of a series exploring the intersection of AI and IAM practices.",
+      "summary": "Computer Weekly's Security Think Tank examines how AI is driving changes in identity and access management practices. The piece focuses on the concept of shifting from traditional identity management toward AI-driven \"identity intelligence.\"",
       "image": "https://www.computerweekly.com/visuals/ComputerWeekly/Hero Images/Security-Think-Tank-hero.jpg",
       "importance": 6,
       "paywall": false
@@ -138,7 +188,7 @@
       "url": "https://thehackernews.com/2026/04/bridging-ai-agent-authority-gap.html",
       "source": "The Hacker News",
       "date": "2026-04-24",
-      "summary": "The article examines the \"AI agent authority gap\" in enterprise security, focusing on how AI agents operate as delegated actors rather than independent ones within IAM frameworks. The piece addresses governance challenges around AI agent authorization, continuous observability, and delegation models in enterprise environments.",
+      "summary": "The article examines the \"AI Agent Authority Gap\" in enterprise security, focusing on how AI agents operate as delegated actors requiring governance frameworks. The piece addresses authorization and delegation challenges posed by AI agents within identity and access management contexts.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZTTjYlof51AlGz6c8vyYmpqVPODX_zgUiWkJ-Mgq8a5d6pfOrUQqgu2A7H3dIcv7k4_AYSTxitHZiCxve_l8QG-zLLqgkLLdudvwjASI7p3CUtk6O0rntkr_mDPcUK66NPMoGEVWvS1mMKFzNKpRTAN2Wv9jLdLwcOlNAtlqfLCSCKpqHldT1e9AnnD0/s1600/or.gif",
       "importance": 6,
       "paywall": false
@@ -148,7 +198,7 @@
       "url": "https://www.bleepingcomputer.com/news/security/dora-and-operational-resilience-credential-management-as-a-financial-risk-control/",
       "source": "BleepingComputer",
       "date": "2026-04-24",
-      "summary": "The article examines how DORA's Article 9 establishes authentication and access control as legal obligations for EU financial institutions. It covers specific credential management requirements under the regulation and the consequences of control failures.",
+      "summary": "The article examines how DORA's Article 9 establishes authentication and access control as legal obligations for EU financial entities. It covers the regulation's specific requirements around credential management and the consequences of control failures in a financial services context.",
       "image": "https://www.bleepstatic.com/content/posts/2026/04/23/passwork-header.jpg",
       "importance": 7,
       "paywall": false
@@ -164,23 +214,13 @@
       "paywall": false
     },
     {
-      "title": "UNC6692 Impersonates IT Help Desk via Microsoft Teams to Deploy SNOW Malware",
-      "url": "https://thehackernews.com/2026/04/unc6692-impersonates-it-helpdesk-via.html",
-      "source": "The Hacker News",
+      "title": "'Identity is the new battleground': Why your IT helpdesk is suddenly getting a lot of bizarre calls",
+      "url": "https://www.techradar.com/pro/security/identity-is-the-new-battleground-why-your-it-helpdesk-is-suddenly-getting-a-lot-of-bizarre-calls",
+      "source": "TechRadar",
       "date": "2026-04-23",
-      "summary": "A threat actor tracked as UNC6692 is conducting social engineering attacks by impersonating IT help desk staff via Microsoft Teams to deploy custom malware called SNOW. The attack method relies on convincing victims to accept Teams chat invitations from fraudulent accounts, a technique relevant to IAM professionals managing identity verification and help desk authentication controls.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHoBLtF5qmS63UuZJdrs4DtwoJRc6V3OK_4vUjCp-mHUs99AlJkzxcQgZH-tD0dFneYJHfBEumdGw42jcqcYHYiqmNHBtHZVB7m83pxPakcbupcdcRmDzg2fedK4doHPUwOfGoqY2a44VUwgK1g8cyZSgpMmpzcbWuBrzxvdalA9bkt8_26WkdIfZy6qqa/s1600/helpdesk.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign",
-      "url": "https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html",
-      "source": "The Hacker News",
-      "date": "2026-04-23",
-      "summary": "The Bitwarden CLI package (@bitwarden/cli@2026.4.0) has been compromised as part of an ongoing supply chain attack discovered by JFrog and Socket. Malicious code was injected into a file called 'bw1.js' within the package, potentially affecting users of the command-line interface for the Bitwarden password manager.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3GuK50sJwMRH4ad8bcUVRSBm1Wk0X5Gj1dSalza49wWxFY9g3_E32271zOeqx6vsqrWY2SWAVnnXTKiJZvKbhxynk018zLTIlZpBNhFA_QVi6kzn7vATBe419m222ZMUcTToaSn19L4DgElrI9luwUv2EJk0efy5TLDIqIUyGcOnTvVU2KKZw9AMsMipz/s1600/bitwarden.jpg",
-      "importance": 7,
+      "summary": "Okta-targeted vishing attacks are exploiting IT helpdesks through social engineering, using impersonation and manufactured urgency to manipulate support staff. These attacks bypass technical controls by targeting human operators, enabling attackers to escalate privileges and trigger large-scale data breaches.",
+      "image": "https://cdn.mos.cms.futurecdn.net/pHaURQZZne5GbLMKxidGTM-1920-80.jpg",
+      "importance": 8,
       "paywall": false
     },
     {
@@ -188,28 +228,8 @@
       "url": "https://www.bleepingcomputer.com/news/security/regular-password-resets-arent-as-safe-as-you-think/",
       "source": "BleepingComputer",
       "date": "2026-04-23",
-      "summary": "Specops Software has published research showing how regular password resets create security vulnerabilities by enabling helpdesk social engineering attacks that can lead to full account compromise. The analysis highlights how attackers exploit the password reset process to bypass security controls, targeting a core authentication management workflow.",
+      "summary": "Specops Software has published research showing how regular password resets can be exploited by attackers through helpdesk social engineering to achieve full account compromise. The research highlights how reset workflows can bypass security controls when helpdesk staff are manipulated into processing fraudulent reset requests.",
       "image": "https://www.bleepstatic.com/content/posts/2026/04/17/regular-password-resets-arent-as-safe-as-you-think.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Consumer Identity and Access Management Global Market Forecast Report 2026-2036, Profiles of Okta, Auth0, Ping Identity, ForgeRock, Microsoft, Salesforce, IBM, Amazon Web Services, Accenture",
-      "url": "https://www.globenewswire.com/news-release/2026/04/22/3279128/28124/en/Consumer-Identity-and-Access-Management-Global-Market-Forecast-Report-2026-2036-Profiles-of-Okta-Auth0-Ping-Identity-ForgeRock-Microsoft-Salesforce-IBM-Amazon-Web-Services-Accentur.html",
-      "source": "GlobeNewswire",
-      "date": "2026-04-22",
-      "summary": "A market forecast report projects the global Consumer Identity and Access Management (CIAM) market will grow from USD 12.6 billion in 2026 to USD 40.2 billion by 2036, at a CAGR of 12.2%. The report covers key vendors including Okta, Auth0, Ping Identity, ForgeRock, Microsoft, Salesforce, IBM, AWS, and Accenture.",
-      "image": "https://ml.globenewswire.com/Resource/Download/908fb457-7f8e-4a08-9081-5565e3dfb3d7",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Non-Human Identity Access Management Market Global Forecast Report 2026-2036: Opportunities in Adoption of Zero Trust Architecture, Cloud-native Applications, and Regulatory Compliance Requirements",
-      "url": "https://www.globenewswire.com/news-release/2026/04/22/3279125/28124/en/Non-Human-Identity-Access-Management-Market-Global-Forecast-Report-2026-2036-Opportunities-in-Adoption-of-Zero-Trust-Architecture-Cloud-native-Applications-and-Regulatory-Complianc.html",
-      "source": "GlobeNewswire",
-      "date": "2026-04-22",
-      "summary": "A new market forecast report projects the global non-human identity (NHI) access management market will grow from USD 12.2 billion in 2026 to USD 38.8 billion by 2036, at a CAGR of 12.2%. The report covers market dynamics across regions and sectors, with growth drivers including zero trust architecture adoption, cloud-native applications, and regulatory compliance requirements.",
-      "image": "https://ml.globenewswire.com/Resource/Download/908fb457-7f8e-4a08-9081-5565e3dfb3d7",
       "importance": 6,
       "paywall": false
     },
@@ -218,29 +238,9 @@
       "url": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
       "source": "Krebs on Security",
       "date": "2026-04-21",
-      "summary": "Tyler Robert Buchanan, a 24-year-old British national and senior member of the cybercrime group Scattered Spider, pleaded guilty to wire fraud conspiracy and aggravated identity theft. Buchanan admitted to conducting SMS phishing attacks in 2022 that compromised at least a dozen major technology companies and resulted in the theft of tens of millions of dollars in cryptocurrency.",
+      "summary": "Tyler Robert Buchanan, a 24-year-old British national and senior member of the cybercrime group Scattered Spider, pleaded guilty to wire fraud conspiracy and aggravated identity theft. Buchanan admitted to conducting SMS phishing attacks in summer 2022 that compromised at least a dozen major technology companies and resulted in theft of tens of millions in cryptocurrency.",
       "image": null,
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Phishing and MFA exploitation: Targeting the keys to the kingdom",
-      "url": "https://blog.talosintelligence.com/phishing-and-mfa-exploitation-targeting-the-keys-to-the-kingdom/",
-      "source": "Talosintelligence.com",
-      "date": "2026-04-21",
-      "summary": "A 2025 threat analysis identifies increasing attacker focus on exploiting weaknesses in MFA workflows and using compromised credentials to conduct phishing from trusted accounts. The report centers on trust-based attack vectors that undermine authentication controls, including techniques that bypass or abuse MFA mechanisms.",
-      "image": "https://storage.ghost.io/c/af/a0/afa04ee3-414f-4481-8d23-7e7c146f192e/content/images/size/w1200/2026/04/2025YiR-topic_phishing-identity.jpg",
-      "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Vercel Employee's AI Tool Access Led to Data Breach",
-      "url": "https://www.darkreading.com/application-security/vercel-employees-ai-tool-access-data-breach",
-      "source": "Dark Reading",
-      "date": "2026-04-20",
-      "summary": "A Vercel employee's access to an AI tool resulted in a data breach involving stolen OAuth tokens. Researchers highlight OAuth tokens as an emerging primary attack surface and lateral movement vector in modern breaches.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt3396b116c4a5d80b/69e6744aa61d112dbb7caf20/allow_access_keyboard_alon_harel_alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
-      "importance": 7,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -248,7 +248,7 @@
       "url": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
       "source": "Krebs on Security",
       "date": "2026-04-07",
-      "summary": "Russian military intelligence hackers are exploiting vulnerabilities in older internet routers to harvest Microsoft Office authentication tokens across more than 18,000 networks. The campaign operates without deploying malware, instead silently siphoning authentication tokens to gain unauthorized access to Microsoft Office users' accounts.",
+      "summary": "Russian military intelligence-linked hackers exploited vulnerabilities in older routers to harvest Microsoft Office authentication tokens from over 18,000 networks. The campaign operated without deploying malware, instead silently siphoning authentication tokens to gain unauthorized access.",
       "image": null,
       "importance": 8,
       "paywall": false
