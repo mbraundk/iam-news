@@ -1,12 +1,12 @@
 {
-  "updated": "May 01, 2026 at 06:22 UTC",
+  "updated": "May 02, 2026 at 05:45 UTC",
   "top_stories": [
     {
       "title": "Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover",
       "url": "https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html",
       "source": "The Hacker News",
       "date": "2026-04-28",
-      "summary": "Microsoft patched a flaw in the Microsoft Entra ID \"Agent ID Administrator\" role that could enable privilege escalation and service principal takeover attacks. Silverfort researchers discovered that this built-in role, designed to manage AI agent identity lifecycle operations, could be exploited to gain unauthorized control over identities within Entra ID.",
+      "summary": "Microsoft patched a flaw in the Entra ID \"Agent ID Administrator\" role that could allow privilege escalation and service principal takeover attacks. Silverfort researchers discovered the vulnerability in the built-in role, which was introduced to manage AI agent identity lifecycle operations within Microsoft's agent identity platform.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4YomH2AGnUSAePfyyvEMXCbULukirvclzEJ6gnsm30Y2PApuarWfCLpKrBng3qYhhINWPwn99rVtdqKcEtbnVR9jkXkpBY-vDByDzMmZgLPPPrqyodmgqBCfR3ojF1tbyaFHQxIdr8voZgDugagnBymAchRR99uUm_0btEdWYeir8B6njw6Q1lPTcugcB/s1600/azure.jpg",
       "importance": 9,
       "paywall": false
@@ -16,29 +16,9 @@
       "url": "https://securityaffairs.com/191414/security/microsoft-fixes-entra-id-flaw-enabling-privilege-escalation.html",
       "source": "Securityaffairs.com",
       "date": "2026-04-28",
-      "summary": "Microsoft patched a privilege escalation vulnerability in Microsoft Entra ID where the Agent ID Administrator role could be abused to enable account takeover of service accounts. The flaw allowed attackers with that role to escalate privileges beyond their intended permissions within the Entra ID identity platform.",
+      "summary": "Microsoft patched a privilege escalation vulnerability in Microsoft Entra ID that allowed users with the Agent ID Administrator role to perform account takeover of service accounts. The flaw could be exploited to escalate privileges within the Entra ID identity platform.",
       "image": "https://securityaffairs.com/wp-content/uploads/2020/04/Microsoft-autodesk.png",
       "importance": 9,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft Entra Agent ID Flaw Enabled Tenant Takeover via Privilege Escalation",
-      "url": "https://hackread.com/microsoft-entra-agent-id-flaw-tenant-takeover/",
-      "source": "HackRead",
-      "date": "2026-04-26",
-      "summary": "A flaw in Microsoft Entra Agent ID allowed attackers to escalate privileges and take over entire tenants through Service Principal abuse. Microsoft has fully patched the vulnerability.",
-      "image": "https://hackread.com/wp-content/uploads/2026/04/microsoft-entra-agent-id-flaw-tenant-takeover.jpg",
-      "importance": 9,
-      "paywall": false
-    },
-    {
-      "title": "Learning from the Vercel breach: Shadow AI & OAuth sprawl",
-      "url": "https://www.bleepingcomputer.com/news/security/learning-from-the-vercel-breach-shadow-ai-and-oauth-sprawl/",
-      "source": "Bleeping Computer",
-      "date": "2026-04-29",
-      "summary": "A security analysis examines the Vercel breach, focusing on how a compromised third-party OAuth integration created a direct attack path into customer environments. The incident illustrates risks from OAuth sprawl and shadow AI integrations, where unauthorized or poorly governed OAuth app connections can lead to widespread downstream customer impact.",
-      "image": "https://www.bleepstatic.com/content/posts/2026/04/28/push-hacker-header.jpg",
-      "importance": 7,
       "paywall": false
     },
     {
@@ -46,8 +26,28 @@
       "url": "https://www.helpnetsecurity.com/2026/04/30/cpanel-zero-day-vulnerability-cve-2026-41940-exploited/",
       "source": "Help Net Security",
       "date": "2026-04-30",
-      "summary": "A critical authentication bypass vulnerability (CVE-2026-41940) in cPanel has been actively exploited in the wild since at least February 23, months before a patch was released. The flaw affects cPanel, a widely used web hosting control panel, and was analyzed by watchTowr security researchers.",
+      "summary": "A critical authentication bypass vulnerability (CVE-2026-41940) in cPanel has been actively exploited in the wild since at least February 23, months before a patch was released. The zero-day affects cPanel's web-based hosting control panel and allows attackers to bypass authentication controls.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/04/30141938/cpanel-1500-2.webp",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Cybercrime Groups Using Vishing and SSO Abuse in Rapid SaaS Extortion Attacks",
+      "url": "https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html",
+      "source": "The Hacker News",
+      "date": "2026-05-01",
+      "summary": "Two cybercrime groups, Cordial Spider and Snarky Spider, are conducting rapid SaaS extortion attacks that abuse SSO systems alongside vishing tactics to gain unauthorized access. The attacks operate almost entirely within SaaS environments while leaving minimal forensic traces, with threat actors leveraging SSO abuse as a primary intrusion vector.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4FSyjacFNJX32YMLQvN6jUeVwGJfoAHPLMIhtU6aNS6hrkIUokynaWWzqxOjr1JsP0lIooaL0ppYM-iQ_rEH2ruoqMw1UAb_bq4FNjI16P6P7CpTaYSkJtp-TpCFKOce9ODtmzskcTZnuWFLYyUdfA0UeHqmRVVNB1P6Mw28a5Yuc7T1kgEx4Pcyxbcsr/s1600/vishing.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Learning from the Vercel breach: Shadow AI & OAuth sprawl",
+      "url": "https://www.bleepingcomputer.com/news/security/learning-from-the-vercel-breach-shadow-ai-and-oauth-sprawl/",
+      "source": "BleepingComputer",
+      "date": "2026-04-29",
+      "summary": "The Vercel breach demonstrated how a compromised third-party OAuth integration can create widespread access risks across downstream customers. The incident highlights the risks of OAuth sprawl and shadow AI integrations as attack vectors in modern identity security.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/04/28/push-hacker-header.jpg",
       "importance": 7,
       "paywall": false
     }
@@ -58,19 +58,19 @@
       "url": "https://www.helpnetsecurity.com/2026/05/01/teleport-ceo-distributed-infrastructure-video/",
       "source": "Help Net Security",
       "date": "2026-05-01",
-      "summary": "Teleport CEO Ev Kontsevoy argues that distributed infrastructure across cloud, Kubernetes, databases, and servers requires a unified identity layer rather than additional tools layered on fragmented identity systems. He advocates for fewer credentials, fewer entry points, and a single identity plane providing unified visibility and control for security and engineering teams.",
+      "summary": "Teleport CEO Ev Kontsevoy argues that distributed infrastructure spanning cloud, Kubernetes, databases, and servers requires a unified identity layer rather than additional tools layered on fragmented identity systems. He advocates for fewer credentials, fewer entry points, and consolidated identity control for security and engineering teams.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/09/12150859/identity-face-1-1500.webp",
       "importance": 5,
       "paywall": false
     },
     {
-      "title": "Critical cPanel and WHM bug exploited as a zero-day, PoC now available",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-cpanel-and-whm-bug-exploited-as-a-zero-day-poc-now-available/",
-      "source": "Bleeping Computer",
-      "date": "2026-04-30",
-      "summary": "A critical authentication bypass vulnerability (CVE-2026-41940) in cPanel, WHM, and WP Squared is being actively exploited as a zero-day. The flaw allows attackers to bypass authentication controls, with exploitation attempts observed since late February and a proof-of-concept now publicly available.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/04/30/cPanel.jpg",
-      "importance": 6,
+      "title": "Poisoned Ruby Gems and Go Modules Exploit CI Pipelines for Credential Theft",
+      "url": "https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html",
+      "source": "The Hacker News",
+      "date": "2026-05-01",
+      "summary": "A software supply chain attack campaign attributed to the GitHub account \"BufferZoneCorp\" is using malicious Ruby gems and Go modules to steal credentials and tamper with CI/CD pipelines. The attack employs sleeper packages that later push payloads enabling credential theft, GitHub Actions manipulation, and SSH persistence.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNz4euGufhcyWdY8TkRfdXBUj2XXZlzQWEb1QyI7otpos158ctsC236sEm2NAZ20sUZv4AOqrGCSTbjGsOOkMwhQv53ZjyrVXf9SVUsMfhvhQ4LzGL87j44f0kMkXRzBAoWeHDz8hywx4gbW_trN1mFk-xCCZatTf0zNsude7k-3WE9kIY_pPgza53qsdc/s1600/buffer.jpg",
+      "importance": 4,
       "paywall": false
     },
     {
@@ -78,19 +78,29 @@
       "url": "https://www.helpnetsecurity.com/2026/04/30/copyfail-linux-lpe-vulnerability-cve-2026-31431/",
       "source": "Help Net Security",
       "date": "2026-04-30",
-      "summary": "Security researchers at Theori disclosed a high-severity local privilege escalation vulnerability (CVE-2026-31431) in the Linux kernel, present in virtually all major Linux distributions since 2017. A working proof-of-concept exploit is publicly available for the flaw, which stems from interactions between multiple kernel changes made over several years.",
+      "summary": "Security researchers at Theori disclosed a high-severity local privilege escalation vulnerability (CVE-2026-31431) in the Linux kernel, present in virtually all major Linux distributions since 2017. A working proof-of-concept exploit is publicly available for the flaw, which allows local attackers to escalate privileges on affected systems.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2025/09/08083118/linux-1500.webp",
       "importance": 6,
       "paywall": false
     },
     {
-      "title": "Official SAP npm packages compromised to steal credentials",
-      "url": "https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/",
-      "source": "Bleeping Computer",
-      "date": "2026-04-29",
-      "summary": "Multiple official SAP npm packages were compromised in a supply-chain attack attributed to TeamPCP, targeting developers' systems. The attack was designed to steal credentials and authentication tokens from affected systems.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2022/02/09/SAP.jpg",
+      "title": "Govern your bots carefully or chaos could ensue",
+      "url": "https://www.theregister.com/2026/04/30/good_ai_governance_is_good/",
+      "source": "Theregister.com",
+      "date": "2026-04-30",
+      "summary": "Gartner warns that AI agent sprawl poses significant governance risks as Global Fortune 500 enterprises are expected to run over 150,000 AI agents by 2028, up from fewer than 15 today. The article addresses the need for proper identity governance and access controls applied to non-human identities and autonomous AI agents.",
+      "image": "https://regmedia.co.uk/2026/04/30/shutterstock_2769448621.jpg",
       "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack",
+      "url": "https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html",
+      "source": "The Hacker News",
+      "date": "2026-04-29",
+      "summary": "Cybersecurity researchers from multiple firms uncovered a supply chain attack campaign called \"Mini Shai-Hulud\" targeting SAP-related npm packages with credential-stealing malware. The attack compromises npm packages to steal credentials, impacting organizations using SAP-associated JavaScript libraries.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7ILiV-4oJHtNRt3-K52GIsgOaNUuN9owB5ky-Mk8FvRE3QmcqDg33oV3sCrzjgWEyIUfwTtn110bcMYVU3Lp61ArknIlPAcmMvbgJJ5-WheKYivyblon2tp79ux9pJmnYNv_ShhIAA5of3Wx7QzQRZs2mNuSQs6lLG23LKMVonvElcNMy6MXp6yVZO73F/s1600/sap-npm-hacks.jpg",
+      "importance": 5,
       "paywall": false
     },
     {
@@ -98,7 +108,7 @@
       "url": "https://thehackernews.com/2026/04/webinar-how-to-automate-exposure.html",
       "source": "The Hacker News",
       "date": "2026-04-29",
-      "summary": "A webinar is being promoted around the threat of AI-automated attacks targeting Active Directory and Domain Admin credentials. The session focuses on autonomous agents capable of mapping Active Directory and escalating privileges within minutes, framed around exposure validation workflows.",
+      "summary": "A webinar is being promoted around the threat of AI-automated attacks targeting Active Directory and Domain Admin credentials. The content focuses on autonomous agents capable of mapping Active Directory and escalating privileges rapidly, framed around exposure validation defensive workflows.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8vcicU2DANrmyA4GRttWV5sb4GPYdppuZax9v279s90O_uXz10MvgxpTyOR9s-tZoccR96ph-c7hZOwXORyLBYdWEsn3zCkrT_ivf6ZVApdMY6TL6jarUO4rNjR9nfc7XPTnmc6ttcKs_9aGOsOK4RoEnliEqVYrcOtL_d7Zys-51KZosLtWtlsOX4mo/s1600/thn.jpg",
       "importance": 5,
       "paywall": false
@@ -108,7 +118,7 @@
       "url": "https://thehackernews.com/2026/04/critical-cpanel-authentication.html",
       "source": "The Hacker News",
       "date": "2026-04-29",
-      "summary": "cPanel has released security updates to address a critical authentication vulnerability affecting all currently supported versions of cPanel and WebHost Manager (WHM). The flaw impacts various authentication paths and could allow attackers to gain unauthorized access to the control panel software.",
+      "summary": "cPanel has released security updates to address a critical authentication vulnerability affecting all supported versions of cPanel and WebHost Manager (WHM). The flaw impacts various authentication paths and could allow attackers to gain unauthorized access to the control panel software.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQ54sVYryCG3V_ZjHJwzuKBteLhpf8FnX131rudu9bvgYGDupWYtJHLYxGPjVON072t-CWz4hyQmxQmwIW6ZZzTXsiJhcfRHPBj1ag1H0PeFGB4KkZIAsyhR0bT_DQqCj2uf_a5Yza7VbeBd3xRIvf4VUZ8UBRM2iEY10bk3me9zotLNcLExjSMaoY3y4l/s1600/cpanel.jpg",
       "importance": 6,
       "paywall": false
@@ -118,9 +128,9 @@
       "url": "https://aws.amazon.com/blogs/machine-learning/organizing-agents-memory-at-scale-namespace-design-patterns-in-agentcore-memory/",
       "source": "Amazon.com",
       "date": "2026-04-29",
-      "summary": "AWS published a technical post covering namespace design patterns for AgentCore Memory, including the use of IAM-based access control. The IAM component is one element of a broader agentic AI architecture discussion rather than a dedicated IAM topic.",
+      "summary": "AWS published a technical post on AgentCore Memory covering namespace design patterns, retrieval methods, and IAM-based access control implementation. The IAM component is a supporting feature within a broader AI agent memory architecture discussion, not the primary focus of the article.",
       "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/04/24/ML-20833-image-2-1260x393.png",
-      "importance": 4,
+      "importance": 3,
       "paywall": false
     },
     {
@@ -128,7 +138,7 @@
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-transfer-family-terraform-okta-microsoft-entra-id/",
       "source": "Amazon.com",
       "date": "2026-04-29",
-      "summary": "AWS has updated its Transfer Family Terraform module to include end-to-end deployment examples integrating Okta and Microsoft Entra ID as custom identity providers for authentication and access control. The update enables enterprises using these IdPs to authenticate and manage access to AWS Transfer Family endpoints using their existing identity infrastructure.",
+      "summary": "AWS Transfer Family's Terraform module has been updated to include end-to-end deployment examples integrating Okta and Microsoft Entra ID as custom identity providers for authentication and access control. The update enables enterprises using these IdPs to authenticate and control access to AWS Transfer Family endpoints using their existing identity infrastructure.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -138,9 +148,9 @@
       "url": "https://thehackernews.com/2026/04/why-secure-data-movement-is-zero-trust.html",
       "source": "The Hacker News",
       "date": "2026-04-28",
-      "summary": "A research report called \"Cyber360: Defending the Digital Battlespace,\" based on a survey of 500 security professionals, examines how secure data movement creates bottlenecks in Zero Trust program implementation. The article argues that connectivity assumptions undermine Zero Trust deployments, though the focus is primarily on data movement rather than core IAM controls.",
+      "summary": "New research from an unnamed team surveyed 500 security professionals to examine how secure data movement creates bottlenecks in Zero Trust program implementation. The report, titled \"Cyber360: Defending the Digital Battlespace,\" argues that assumptions about connectivity undermine Zero Trust deployments.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrVD0Q_dTvO3tooHYWKp7i_lkLd6h30GSv_DDv4jIb_KZDY5heV39R01GFN6MWEq1JsilHFrd7EtDOBkmlkvXYAb7-w51A1SDN3AAiEAbuq7ZnNREakyHouZPVBMNhk_HnEOK8D7H5m51A2zcUvAvDjmPnrrzeZI_nQHFao1QbljV4ortyzuqbXsNR35c/s1600/everfox.jpg",
-      "importance": 4,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -148,7 +158,7 @@
       "url": "https://aws.amazon.com/blogs/security/access-control-with-iam-identity-center-session-tags/",
       "source": "Amazon.com",
       "date": "2026-04-28",
-      "summary": "AWS published guidance on using IAM Identity Center session tags for access control across multi-account environments. The article covers how organizations can leverage session tags within IAM Identity Center to manage workforce access in a scalable and centralized manner.",
+      "summary": "AWS published guidance on using IAM Identity Center session tags for access control across multi-account environments. The article covers how session tags enable scalable, attribute-based access control (ABAC) for workforce identities managed through AWS IAM Identity Center.",
       "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/04/28/ImageSocial-AccessControl-1260x630.jpg",
       "importance": 7,
       "paywall": false
@@ -158,7 +168,7 @@
       "url": "https://www.computerweekly.com/opinion/Why-AI-agents-are-triggering-a-rethink-of-enterprise-identity",
       "source": "ComputerWeekly.com",
       "date": "2026-04-28",
-      "summary": "Computer Weekly's Security Think Tank examines how agentic AI is affecting enterprise identity and access management practices. The article focuses on the specific security stack impacts of AI agents, which require a rethink of traditional IAM approaches.",
+      "summary": "Computer Weekly's Security Think Tank examines how agentic AI is impacting enterprise identity and access management practices. The article focuses on the specific security stack implications of AI agents, which operate autonomously and require new approaches to identity, authentication, and authorization.",
       "image": "https://www.computerweekly.com/visuals/ComputerWeekly/Hero Images/Security-Think-Tank-hero.jpg",
       "importance": 7,
       "paywall": false
@@ -168,7 +178,7 @@
       "url": "https://siliconangle.com/2026/04/28/silverfort-acquires-fabrix-security-bring-ai-decisioning-runtime-access-control/",
       "source": "SiliconANGLE News",
       "date": "2026-04-28",
-      "summary": "Silverfort has acquired Fabrix Security, an AI-native identity security startup founded in 2024, for an undisclosed sum. The acquisition is aimed at integrating AI-driven decision-making capabilities into runtime access control within Silverfort's unified identity security platform.",
+      "summary": "Silverfort has acquired Fabrix Security, an AI-native identity security startup founded in 2024, for an undisclosed sum. The acquisition is aimed at integrating AI-driven decision-making into runtime access control within Silverfort's unified identity security platform.",
       "image": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/04/fabrixsecurity.png",
       "importance": 7,
       "paywall": false
@@ -178,7 +188,7 @@
       "url": "https://www.microsoft.com/en-us/security/blog/2026/04/28/simplifying-aws-defense-microsoft-sentinel-ueba/",
       "source": "Microsoft.com",
       "date": "2026-04-28",
-      "summary": "Microsoft Sentinel's User and Entity Behavior Analytics (UEBA) capability is being applied to AWS CloudTrail logs to help distinguish legitimate user activity from attacker behavior. The approach enriches raw log data with behavioral signals based on baseline patterns from users, peers, and devices to improve detection in cloud environments.",
+      "summary": "Microsoft Sentinel's User and Entity Behavior Analytics (UEBA) capability is being used to analyze AWS CloudTrail logs for anomalous identity-based activity. The solution enriches raw log data with behavioral signals derived from baseline user, peer, and device behavior patterns to distinguish legitimate from malicious access.",
       "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/02/MS_Actional-Insights_Detection-hunting.png",
       "importance": 6,
       "paywall": true
@@ -188,9 +198,9 @@
       "url": "https://www.computerweekly.com/microscope/feature/Five-minute-interview-Zair-Abbas-Okta",
       "source": "ComputerWeekly.com",
       "date": "2026-04-28",
-      "summary": "Okta's partner ecosystem lead for EMEA, Zair Abbas, participated in a brief personal interview format. The article is a short profile piece sharing personal insights from a channel executive rather than substantive IAM news.",
+      "summary": "Okta's partner ecosystem lead for EMEA, Zair Abbas, participated in a brief personal insights interview. The article is a short profile piece focused on personal background rather than substantive IAM product or business developments.",
       "image": "https://www.computerweekly.com/visuals/ComputerWeekly/Hero Images/microphone-interview-podcast-BrianJackson-adobe.jpg",
-      "importance": 3,
+      "importance": 2,
       "paywall": false
     },
     {
@@ -198,9 +208,9 @@
       "url": "https://www.techtarget.com/searchsecurity/tip/Cybersecuritys-agentic-AI-identity-crisis-and-how-to-fix-it",
       "source": "Techtarget.com",
       "date": "2026-04-27",
-      "summary": "The article addresses security challenges posed by autonomous AI agents in enterprise environments, focusing on identity and access management for non-human digital actors. The piece covers how agentic AI systems require new approaches to authentication, authorization, and access control frameworks.",
+      "summary": "The article addresses security challenges posed by AI agents in enterprise environments, focusing on identity and access management for autonomous AI systems. The piece covers how agentic AI creates new requirements for authentication, authorization, and access control frameworks.",
       "image": "https://www.techtarget.com/visuals/LeMagIT/hero_article/Hero-Danger-by-InfiniteFlow-Adobe-10.jpg",
-      "importance": 6,
+      "importance": 7,
       "paywall": false
     },
     {
@@ -208,7 +218,7 @@
       "url": "https://aws.amazon.com/blogs/security/can-i-do-that-with-policy-understanding-the-aws-service-authorization-reference/",
       "source": "Amazon.com",
       "date": "2026-04-27",
-      "summary": "AWS published guidance explaining the capabilities and limitations of AWS IAM policies, covering service control policies, permission boundaries, and resource-based policies. The article addresses how AWS Identity and Access Management policy types interact to help practitioners build effective security controls within AWS environments.",
+      "summary": "AWS published guidance on understanding the AWS Service Authorization Reference for IAM policy capabilities. The article covers what AWS IAM policies can control, including AWS Organizations service control policies and related policy mechanisms.",
       "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/04/20/Can-i-do-that-with-policy-1126x630.png",
       "importance": 6,
       "paywall": false
@@ -218,19 +228,9 @@
       "url": "https://www.computerweekly.com/opinion/Why-AI-is-forcing-a-reset-of-the-identity-stack",
       "source": "ComputerWeekly.com",
       "date": "2026-04-27",
-      "summary": "Computer Weekly's Security Think Tank examines how AI is driving changes to identity and access management approaches, framing a conceptual shift from identity management to identity intelligence. The article is part of a series exploring the intersection of AI and IAM.",
+      "summary": "Computer Weekly's Security Think Tank examines how AI is driving changes in identity and access management practices. The article focuses on the concept of \"identity intelligence\" as an evolution from traditional identity management approaches.",
       "image": "https://www.computerweekly.com/visuals/ComputerWeekly/Hero Images/Security-Think-Tank-hero.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft to roll out Entra passkeys on Windows in late April",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-roll-out-entra-passkeys-on-windows-in-late-april/",
-      "source": "BleepingComputer",
-      "date": "2026-04-24",
-      "summary": "Microsoft will begin rolling out passkey support for Microsoft Entra-protected resources on Windows devices starting late April. The feature enables phishing-resistant passwordless authentication for Entra-managed environments.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/03/12/Hacking_login.jpg",
-      "importance": 8,
+      "importance": 7,
       "paywall": false
     },
     {
@@ -238,7 +238,7 @@
       "url": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
       "source": "Krebs on Security",
       "date": "2026-04-21",
-      "summary": "Tyler Robert Buchanan, a 24-year-old British national and senior member of Scattered Spider, pleaded guilty to wire fraud conspiracy and aggravated identity theft. Buchanan admitted involvement in SMS phishing attacks in 2022 that compromised at least a dozen major technology companies and resulted in theft of tens of millions of dollars in cryptocurrency.",
+      "summary": "Tyler Robert Buchanan, a 24-year-old British national and senior member of Scattered Spider, pleaded guilty to wire fraud conspiracy and aggravated identity theft. He admitted to conducting SMS phishing attacks in summer 2022 that compromised at least a dozen major technology companies and resulted in theft of tens of millions in cryptocurrency.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -248,7 +248,7 @@
       "url": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
       "source": "Krebs on Security",
       "date": "2026-04-07",
-      "summary": "Russian military intelligence hackers exploited vulnerabilities in older routers to harvest Microsoft Office authentication tokens from over 18,000 networks. The campaign required no malware deployment, instead silently siphoning authentication tokens to gain unauthorized access to user accounts.",
+      "summary": "Russian military intelligence hackers are exploiting vulnerabilities in older internet routers to harvest Microsoft Office authentication tokens from users across more than 18,000 networks. The campaign operates without deploying malware, instead silently siphoning authentication tokens to gain unauthorized access to Microsoft Office accounts.",
       "image": null,
       "importance": 8,
       "paywall": false
