@@ -1,12 +1,12 @@
 {
-  "updated": "May 03, 2026 at 06:13 UTC",
+  "updated": "May 04, 2026 at 06:21 UTC",
   "top_stories": [
     {
       "title": "Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover",
       "url": "https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html",
       "source": "The Hacker News",
       "date": "2026-04-28",
-      "summary": "Microsoft patched a flaw in the Microsoft Entra ID \"Agent ID Administrator\" role that could enable privilege escalation and service principal takeover attacks. Security firm Silverfort discovered that the privileged built-in role, designed to manage AI agent identity lifecycle operations, could be exploited for identity takeover.",
+      "summary": "Microsoft patched a flaw in the Entra ID \"Agent ID Administrator\" role that could allow privilege escalation and service principal takeover attacks. Security firm Silverfort discovered the vulnerability, which stemmed from a privileged built-in role introduced to manage AI agent identity lifecycle operations.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4YomH2AGnUSAePfyyvEMXCbULukirvclzEJ6gnsm30Y2PApuarWfCLpKrBng3qYhhINWPwn99rVtdqKcEtbnVR9jkXkpBY-vDByDzMmZgLPPPrqyodmgqBCfR3ojF1tbyaFHQxIdr8voZgDugagnBymAchRR99uUm_0btEdWYeir8B6njw6Q1lPTcugcB/s1600/azure.jpg",
       "importance": 9,
       "paywall": false
@@ -16,18 +16,8 @@
       "url": "https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/",
       "source": "Bleeping Computer",
       "date": "2026-05-02",
-      "summary": "A new attack technique called ConsentFix v3 has been identified on hacker forums, targeting Azure environments through automated OAuth abuse. The attack builds on previous OAuth consent phishing methods by adding automation capabilities and increased scaling potential.",
+      "summary": "A new attack technique called ConsentFix v3 has emerged on hacker forums, targeting Azure environments through automated OAuth abuse. The attack builds on previous OAuth consent phishing methods by adding automation capabilities that increase its scaling potential.",
       "image": "https://www.bleepstatic.com/content/hl-images/2024/03/25/phishing.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "cPanel zero-day exploited for months before patch release (CVE-2026-41940)",
-      "url": "https://www.helpnetsecurity.com/2026/04/30/cpanel-zero-day-vulnerability-cve-2026-41940-exploited/",
-      "source": "Help Net Security",
-      "date": "2026-04-30",
-      "summary": "A critical authentication bypass vulnerability (CVE-2026-41940) in cPanel has been actively exploited in the wild since at least February 23, months before a patch was released. The zero-day affects cPanel, a widely-used web hosting control panel, and allows attackers to bypass authentication mechanisms.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/04/30141938/cpanel-1500-2.webp",
       "importance": 7,
       "paywall": false
     },
@@ -36,7 +26,7 @@
       "url": "https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html",
       "source": "The Hacker News",
       "date": "2026-05-01",
-      "summary": "Two cybercrime groups, Cordial Spider and Snarky Spider, are conducting rapid SaaS extortion attacks that abuse SSO and use vishing (voice phishing) to gain unauthorized access. The attacks operate almost entirely within SaaS environments, leveraging SSO abuse as a primary vector while leaving minimal forensic traces.",
+      "summary": "Two cybercrime groups, Cordial Spider and Snarky Spider, are conducting rapid SaaS extortion attacks using vishing and SSO abuse to gain unauthorized access with minimal forensic traces. The attacks exploit SSO infrastructure to move laterally within SaaS environments, enabling high-speed data theft and extortion.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4FSyjacFNJX32YMLQvN6jUeVwGJfoAHPLMIhtU6aNS6hrkIUokynaWWzqxOjr1JsP0lIooaL0ppYM-iQ_rEH2ruoqMw1UAb_bq4FNjI16P6P7CpTaYSkJtp-TpCFKOce9ODtmzskcTZnuWFLYyUdfA0UeHqmRVVNB1P6Mw28a5Yuc7T1kgEx4Pcyxbcsr/s1600/vishing.jpg",
       "importance": 7,
       "paywall": false
@@ -46,20 +36,30 @@
       "url": "https://www.bleepingcomputer.com/news/security/learning-from-the-vercel-breach-shadow-ai-and-oauth-sprawl/",
       "source": "BleepingComputer",
       "date": "2026-04-29",
-      "summary": "The Vercel breach demonstrated how a compromised third-party OAuth integration can create widespread access risks across downstream customers. The incident highlights the security risks of OAuth sprawl and shadow AI integrations, where a single compromised app can serve as an entry point into multiple environments.",
+      "summary": "A security analysis examines the Vercel breach as a case study in OAuth sprawl and shadow AI risks, where a compromised third-party OAuth integration led to widespread impact across downstream customers. The incident illustrates how a single unauthorized OAuth app can serve as an attack vector into connected environments.",
       "image": "https://www.bleepstatic.com/content/posts/2026/04/28/push-hacker-header.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Access control with IAM Identity Center session tags",
+      "url": "https://aws.amazon.com/blogs/security/access-control-with-iam-identity-center-session-tags/",
+      "source": "Amazon.com",
+      "date": "2026-04-28",
+      "summary": "AWS IAM Identity Center supports session tags as a mechanism for implementing attribute-based access control (ABAC) across multi-account AWS environments. The feature enables centralized workforce access management by passing user attributes as session tags to enforce fine-grained authorization policies at scale.",
+      "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/04/28/ImageSocial-AccessControl-1260x630.jpg",
       "importance": 7,
       "paywall": false
     }
   ],
   "news": [
     {
-      "title": "Identity is the control plane for distributed infrastructure",
-      "url": "https://www.helpnetsecurity.com/2026/05/01/teleport-ceo-distributed-infrastructure-video/",
+      "title": "ChatGPT advanced account security adds passkeys and hardware keys",
+      "url": "https://www.helpnetsecurity.com/2026/05/04/openai-chatgpt-advanced-account-security/",
       "source": "Help Net Security",
-      "date": "2026-05-01",
-      "summary": "Teleport CEO Ev Kontsevoy argues that distributed infrastructure across cloud, Kubernetes, databases, and servers requires a unified identity layer rather than layered tools on fragmented identity systems. He advocates for fewer credentials, fewer entry points, and a single identity control plane to provide security and engineering teams with unified visibility and control.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/09/12150859/identity-face-1-1500.webp",
+      "date": "2026-05-03",
+      "summary": "OpenAI has introduced Advanced Account Security for ChatGPT and Codex accounts, an opt-in feature that disables password-based login in favor of passkeys or physical hardware security keys. Enrolled accounts also lose email and SMS account recovery options, making authentication fully phishing-resistant.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/05/03102604/openai-lock-1500.webp",
       "importance": 6,
       "paywall": false
     },
@@ -68,9 +68,9 @@
       "url": "https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html",
       "source": "The Hacker News",
       "date": "2026-05-01",
-      "summary": "A software supply chain attack campaign dubbed BufferZoneCorp has been discovered using malicious Ruby gems and Go modules to steal credentials and tamper with GitHub Actions CI pipelines. The attack involves sleeper packages that deliver payloads enabling credential theft and SSH persistence.",
+      "summary": "A software supply chain attack campaign using malicious Ruby gems and Go modules has been attributed to the GitHub account \"BufferZoneCorp,\" with packages designed to steal credentials and tamper with CI pipelines. The attack leverages sleeper packages to enable credential theft, GitHub Actions manipulation, and SSH persistence.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNz4euGufhcyWdY8TkRfdXBUj2XXZlzQWEb1QyI7otpos158ctsC236sEm2NAZ20sUZv4AOqrGCSTbjGsOOkMwhQv53ZjyrVXf9SVUsMfhvhQ4LzGL87j44f0kMkXRzBAoWeHDz8hywx4gbW_trN1mFk-xCCZatTf0zNsude7k-3WE9kIY_pPgza53qsdc/s1600/buffer.jpg",
-      "importance": 5,
+      "importance": 4,
       "paywall": false
     },
     {
@@ -78,7 +78,7 @@
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/iam-roles-anywhere-vpc/",
       "source": "Amazon.com",
       "date": "2026-05-01",
-      "summary": "AWS IAM Roles Anywhere now supports VPC endpoint policies for the CreateSession API, allowing administrators to control access at the network level. This update enables organizations to configure allow or deny rules on the CreateSession API through VPC endpoint policies.",
+      "summary": "AWS IAM Roles Anywhere now supports VPC endpoint policies for the CreateSession API, allowing administrators to control access at the network level. This update enables organizations to configure allow or deny rules for CreateSession API calls through VPC endpoints, adding network-based access controls to workload identity management.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -88,19 +88,9 @@
       "url": "https://www.computerweekly.com/news/366642593/IAM-tools-help-Oracle-Red-Bull-Racing-keep-pace-with-strict-F1-regs",
       "source": "ComputerWeekly.com",
       "date": "2026-05-01",
-      "summary": "Oracle Red Bull Racing implemented 1Password's identity technology to improve efficiency in aerodynamics testing procedures while complying with strict F1 regulations. The deployment addressed access management needs within the racing team's technical operations.",
+      "summary": "Oracle Red Bull Racing implemented 1Password's identity technology to improve efficiency in aerodynamics testing procedures, particularly in meeting F1 regulations. The deployment focused on identity management workflows to streamline compliance with strict Formula 1 testing rules.",
       "image": "https://www.computerweekly.com/visuals/ComputerWeekly/HeroImages/Oracle-Red-Bull-Racing-car-hero.jpg",
       "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Nine-year-old Linux kernel flaw enables reliable local privilege escalation (CVE-2026-31431)",
-      "url": "https://www.helpnetsecurity.com/2026/04/30/copyfail-linux-lpe-vulnerability-cve-2026-31431/",
-      "source": "Help Net Security",
-      "date": "2026-04-30",
-      "summary": "Researchers at Theori disclosed a high-severity local privilege escalation vulnerability (CVE-2026-31431) in the Linux kernel, affecting virtually all major Linux distributions shipped since 2017. A working proof-of-concept exploit is publicly available, and the flaw enables reliable privilege escalation from local access, directly relevant to PAM and least-privilege access controls.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2025/09/08083118/linux-1500.webp",
-      "importance": 6,
       "paywall": false
     },
     {
@@ -108,19 +98,9 @@
       "url": "https://www.theregister.com/2026/04/30/good_ai_governance_is_good/",
       "source": "Theregister.com",
       "date": "2026-04-30",
-      "summary": "Gartner warns that Global Fortune 500 enterprises are expected to run more than 150,000 AI agents by 2028, up from fewer than 15 today. Without proper governance frameworks, the proliferation of AI agents poses identity and access management challenges related to non-human identities and authorization sprawl.",
+      "summary": "Gartner warns that AI agent sprawl poses significant governance risks, with Global Fortune 500 enterprises expected to run over 150,000 AI agents by 2028, up from fewer than 15 today. The article addresses the need for proper governance frameworks to manage non-human identities and autonomous agents, a growing concern within identity governance and IGA disciplines.",
       "image": "https://regmedia.co.uk/2026/04/30/shutterstock_2769448621.jpg",
       "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack",
-      "url": "https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html",
-      "source": "The Hacker News",
-      "date": "2026-04-29",
-      "summary": "A supply chain attack campaign dubbed \"Mini Shai-Hulud\" has compromised SAP-related npm packages with credential-stealing malware. The attack targets credentials through malicious npm packages associated with SAP, as reported by multiple security firms including Aikido Security, Onapsis, and Wiz.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7ILiV-4oJHtNRt3-K52GIsgOaNUuN9owB5ky-Mk8FvRE3QmcqDg33oV3sCrzjgWEyIUfwTtn110bcMYVU3Lp61ArknIlPAcmMvbgJJ5-WheKYivyblon2tp79ux9pJmnYNv_ShhIAA5of3Wx7QzQRZs2mNuSQs6lLG23LKMVonvElcNMy6MXp6yVZO73F/s1600/sap-npm-hacks.jpg",
-      "importance": 5,
       "paywall": false
     },
     {
@@ -128,9 +108,9 @@
       "url": "https://thehackernews.com/2026/04/webinar-how-to-automate-exposure.html",
       "source": "The Hacker News",
       "date": "2026-04-29",
-      "summary": "A webinar is being promoted around the threat of AI-automated attacks targeting Active Directory and Domain Admin credentials. The session focuses on autonomous agents capable of mapping Active Directory and escalating privileges rapidly, addressing defensive workflows for identity and access-related infrastructure.",
+      "summary": "A webinar is being promoted around the threat of AI-automated attacks targeting Active Directory and Domain Admin credentials. The session focuses on autonomous agents capable of mapping AD environments and escalating privileges rapidly, framed around exposure validation workflows.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8vcicU2DANrmyA4GRttWV5sb4GPYdppuZax9v279s90O_uXz10MvgxpTyOR9s-tZoccR96ph-c7hZOwXORyLBYdWEsn3zCkrT_ivf6ZVApdMY6TL6jarUO4rNjR9nfc7XPTnmc6ttcKs_9aGOsOK4RoEnliEqVYrcOtL_d7Zys-51KZosLtWtlsOX4mo/s1600/thn.jpg",
-      "importance": 6,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -138,7 +118,7 @@
       "url": "https://thehackernews.com/2026/04/critical-cpanel-authentication.html",
       "source": "The Hacker News",
       "date": "2026-04-29",
-      "summary": "cPanel has released security updates to fix a critical authentication vulnerability affecting all supported versions of cPanel and WebHost Manager (WHM). The flaw impacts multiple authentication paths and could allow attackers to gain unauthorized access to the control panel software.",
+      "summary": "cPanel has released security updates addressing a critical authentication vulnerability affecting all supported versions of cPanel and WebHost Manager (WHM). The flaw impacts various authentication paths and could allow attackers to gain unauthorized access to the control panel software.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQ54sVYryCG3V_ZjHJwzuKBteLhpf8FnX131rudu9bvgYGDupWYtJHLYxGPjVON072t-CWz4hyQmxQmwIW6ZZzTXsiJhcfRHPBj1ag1H0PeFGB4KkZIAsyhR0bT_DQqCj2uf_a5Yza7VbeBd3xRIvf4VUZ8UBRM2iEY10bk3me9zotLNcLExjSMaoY3y4l/s1600/cpanel.jpg",
       "importance": 6,
       "paywall": false
@@ -148,9 +128,9 @@
       "url": "https://aws.amazon.com/blogs/machine-learning/organizing-agents-memory-at-scale-namespace-design-patterns-in-agentcore-memory/",
       "source": "Amazon.com",
       "date": "2026-04-29",
-      "summary": "AWS published a technical post on AgentCore Memory covering namespace design patterns and IAM-based access control implementation. The IAM component is a supporting feature within a broader AI agent memory architecture discussion rather than a standalone IAM topic.",
+      "summary": "AWS published a technical post covering namespace design patterns for AgentCore Memory, including IAM-based access control implementation. The article addresses how to structure memory hierarchies and apply IAM policies within the AgentCore agent framework on AWS.",
       "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/04/24/ML-20833-image-2-1260x393.png",
-      "importance": 3,
+      "importance": 4,
       "paywall": false
     },
     {
@@ -158,7 +138,7 @@
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-transfer-family-terraform-okta-microsoft-entra-id/",
       "source": "Amazon.com",
       "date": "2026-04-29",
-      "summary": "AWS has updated its Transfer Family Terraform module to include end-to-end deployment examples integrating Okta and Microsoft Entra ID as custom identity providers. The update enables enterprises to use these IdPs for authentication and access control on AWS Transfer Family endpoints.",
+      "summary": "AWS has updated its Transfer Family Terraform module to include end-to-end deployment examples integrating Okta and Microsoft Entra ID as custom identity providers for authentication and access control. The update enables enterprises to use existing Okta or Microsoft Entra ID infrastructure to manage authentication for AWS Transfer Family endpoints.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -168,39 +148,9 @@
       "url": "https://thehackernews.com/2026/04/why-secure-data-movement-is-zero-trust.html",
       "source": "The Hacker News",
       "date": "2026-04-28",
-      "summary": "New research from a security team surveyed 500 security professionals and identified secure data movement as a significant bottleneck in Zero Trust program implementation. The article argues that connectivity assumptions undermine Zero Trust architectures, with findings published in the Cyber360: Defending the Digital Battlespace report.",
+      "summary": "A research report called \"Cyber360: Defending the Digital Battlespace,\" based on a survey of 500 security professionals, identifies secure data movement as a bottleneck in Zero Trust program implementation. The article argues that connectivity assumptions in Zero Trust architectures lead to program stalls.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrVD0Q_dTvO3tooHYWKp7i_lkLd6h30GSv_DDv4jIb_KZDY5heV39R01GFN6MWEq1JsilHFrd7EtDOBkmlkvXYAb7-w51A1SDN3AAiEAbuq7ZnNREakyHouZPVBMNhk_HnEOK8D7H5m51A2zcUvAvDjmPnrrzeZI_nQHFao1QbljV4ortyzuqbXsNR35c/s1600/everfox.jpg",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Access control with IAM Identity Center session tags",
-      "url": "https://aws.amazon.com/blogs/security/access-control-with-iam-identity-center-session-tags/",
-      "source": "Amazon.com",
-      "date": "2026-04-28",
-      "summary": "AWS IAM Identity Center session tags can be used to implement access control across multiple accounts in an organization's AWS environment. The article details how session tags enable centralized, scalable workforce access management within AWS IAM Identity Center.",
-      "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/04/28/ImageSocial-AccessControl-1260x630.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Why AI agents are triggering a rethink of enterprise identity",
-      "url": "https://www.computerweekly.com/opinion/Why-AI-agents-are-triggering-a-rethink-of-enterprise-identity",
-      "source": "ComputerWeekly.com",
-      "date": "2026-04-28",
-      "summary": "Computer Weekly's Security Think Tank examines how agentic AI is affecting enterprise identity and access management practices. The article focuses on the specific security stack impacts of AI agents operating autonomously within IAM frameworks.",
-      "image": "https://www.computerweekly.com/visuals/ComputerWeekly/Hero Images/Security-Think-Tank-hero.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Silverfort acquires Fabrix Security to bring AI decision-making to runtime access control",
-      "url": "https://siliconangle.com/2026/04/28/silverfort-acquires-fabrix-security-bring-ai-decisioning-runtime-access-control/",
-      "source": "SiliconANGLE News",
-      "date": "2026-04-28",
-      "summary": "Silverfort has acquired AI-native identity security company Fabrix Security for an undisclosed sum. Fabrix, founded in 2024, provides AI-driven capabilities that Silverfort aims to integrate into runtime access control decision-making within its unified identity security platform.",
-      "image": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/04/fabrixsecurity.png",
-      "importance": 7,
+      "importance": 4,
       "paywall": false
     },
     {
@@ -208,7 +158,7 @@
       "url": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
       "source": "Krebs on Security",
       "date": "2026-04-21",
-      "summary": "Tyler Robert Buchanan, a 24-year-old British national and senior member of Scattered Spider, pleaded guilty to wire fraud conspiracy and aggravated identity theft. Buchanan admitted involvement in SMS phishing attacks in summer 2022 that compromised at least a dozen major technology companies and resulted in theft of tens of millions of dollars in cryptocurrency.",
+      "summary": "Tyler Robert Buchanan, a 24-year-old British national and senior member of Scattered Spider, pleaded guilty to wire fraud conspiracy and aggravated identity theft. Buchanan admitted to conducting SMS phishing attacks in summer 2022 that breached at least a dozen major technology companies and resulted in the theft of tens of millions of dollars in cryptocurrency.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -218,7 +168,7 @@
       "url": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
       "source": "Krebs on Security",
       "date": "2026-04-07",
-      "summary": "Russian military intelligence hackers exploited vulnerabilities in older internet routers to harvest Microsoft Office authentication tokens from over 18,000 networks. The campaign extracted authentication tokens without deploying malware, enabling silent credential theft at scale.",
+      "summary": "Russian military intelligence hackers exploited vulnerabilities in older internet routers to harvest Microsoft Office authentication tokens from over 18,000 networks. The campaign operated without deploying malware, relying solely on stolen authentication tokens to gain unauthorized access.",
       "image": null,
       "importance": 8,
       "paywall": false
