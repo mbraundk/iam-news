@@ -1,23 +1,43 @@
 {
-  "updated": "May 05, 2026 at 05:51 UTC",
+  "updated": "May 06, 2026 at 06:13 UTC",
   "top_stories": [
+    {
+      "title": "The Back Door Attackers Know About — and Most Security Teams Still Haven’t Closed",
+      "url": "https://thehackernews.com/2026/05/the-back-door-attackers-know-about-and.html",
+      "source": "The Hacker News",
+      "date": "2026-05-05",
+      "summary": "The article examines persistent OAuth tokens created by third-party app integrations with Google and Microsoft as a security vulnerability largely overlooked by enterprise security teams. These tokens have no expiration dates, bypass MFA and perimeter controls, and can be exploited by attackers without requiring user credentials.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMhaEkMCxALglRWDFwTHVYgZ0KrRmAuzdwfh0zbL5Ml163rakQSv8yRVQ8yTQ4xIAtcwdqvGyVXeZXgXGNYKoyStckJv2xzjH3f1O7oICND5cWbnIBGYkSVJbpDRYHH9XqNfFQNk1qWIVwd43UuJv2vozhpndzCMS789h026IKgX1t7pgp01AtI6i9wKE/s1600/material.jpg",
+      "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "Securing the Agentic Workforce: Cisco Announces Intent to Acquire Astrix Security",
+      "url": "https://blogs.cisco.com/news/cisco-announces-intent-to-acquire-astrix-security",
+      "source": "Cisco.com",
+      "date": "2026-05-04",
+      "summary": "Cisco has announced its intent to acquire Astrix Security, a company specializing in securing non-human identities and AI agents. The acquisition is aimed at extending Zero Trust principles to agentic workforces, addressing the growing challenge of managing and securing machine identities and AI-driven entities in enterprise environments.",
+      "image": "https://blogs.cisco.com/gcs/ciscoblogs/1/2026/05/Atom_Blog_Cover.png",
+      "importance": 8,
+      "paywall": false
+    },
     {
       "title": "Exploit Cyber-Frenzy Threatens Millions via Critical cPanel Vulnerability",
       "url": "https://www.darkreading.com/threat-intelligence/exploit-cyber-frenzy-critical-cpanel-vulnerability",
       "source": "Dark Reading",
       "date": "2026-05-04",
-      "summary": "A critical authentication-bypass vulnerability in cPanel has been disclosed, with multiple proof-of-concept exploits rapidly emerging afterward. A researcher claims zero-day exploitation activity has been occurring for at least a month prior to public disclosure, putting millions of cPanel-managed systems at risk.",
+      "summary": "A critical authentication-bypass vulnerability in cPanel has been disclosed, with multiple proof-of-concept exploits rapidly emerging in the wild. A researcher claims zero-day exploitation activity has been occurring for at least a month prior to public disclosure, putting millions of cPanel-based systems at risk.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd788cf590f1679de/69f8f0d8468cc9ebbfe375b3/cpanel_IBPhotography_Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
     },
     {
-      "title": "ConsentFix v3 attacks target Azure with automated OAuth abuse",
-      "url": "https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/",
-      "source": "Bleeping Computer",
-      "date": "2026-05-02",
-      "summary": "A new attack technique called ConsentFix v3 has emerged on hacker forums, targeting Azure environments through automated OAuth abuse. The attack builds on previous ConsentFix methods by adding automation capabilities, increasing the potential scale of OAuth consent phishing attacks against Azure/Entra ID environments.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2024/03/25/phishing.jpg",
+      "title": "Microsoft Details Phishing Campaign Targeting 35,000 Users Across 26 Countries",
+      "url": "https://thehackernews.com/2026/05/microsoft-details-phishing-campaign.html",
+      "source": "The Hacker News",
+      "date": "2026-05-05",
+      "summary": "Microsoft disclosed a large-scale phishing campaign observed between April 14-16, 2026, that targeted over 35,000 users across 13,000 organizations in 26 countries. The attack used code of conduct-themed lures combined with legitimate email services to redirect users to attacker-controlled domains for authentication token theft.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAfU-GpnCdjg1P2f40nj2Y7eLLpsjWNa1TnSlNm3m9F7VkOryT5etD2BouMGxbfatdzukMzeCPXsDagasXWNbcwUPJNkDY-sBox3DkrA0bTYjAEOk4JV8OySSD1_Ni2DgEnoWih83X65e9K1foEaEUetNxoyXFJnGx4Np8VQWrZSnxo2UMmR0Y68L-qf0y/s1600/ms-hook.jpg",
       "importance": 7,
       "paywall": false
     },
@@ -26,41 +46,71 @@
       "url": "https://thehackernews.com/2026/05/progress-patches-critical-moveit.html",
       "source": "The Hacker News",
       "date": "2026-05-04",
-      "summary": "Progress Software has released security patches for MOVEit Automation addressing two vulnerabilities, including a critical authentication bypass flaw. The affected product is an enterprise managed file transfer solution, and the patch resolves a flaw that could allow attackers to circumvent authentication controls.",
+      "summary": "Progress Software has released security patches for MOVEit Automation addressing two vulnerabilities, including a critical authentication bypass flaw. MOVEit Automation is an enterprise managed file transfer solution, and the authentication bypass vulnerability represents a significant access control risk for organizations using the product.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTvgdRkcdOwctclhM5XBvKXGGFrqpNsd7pJsR6Qk9QfhVd52KaiNWtY6kbWYbxzweFJDx5-sXo5UmIGJZ2yKbiSqntFDcYS7aDV_hUlAuNtcFzIPf_MDdqWq9eeyzZwJXx9__K5ynAXHc-7kJ6i66ifjuGrFqfLdn4-yDTvmL1oSZ-kVX2V9eoTq-xdiKa/s1600/moveit.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Cybercrime Groups Using Vishing and SSO Abuse in Rapid SaaS Extortion Attacks",
-      "url": "https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html",
-      "source": "The Hacker News",
-      "date": "2026-05-01",
-      "summary": "Two cybercrime groups, Cordial Spider and Snarky Spider, are conducting rapid SaaS extortion attacks that abuse SSO and use vishing (voice phishing) to compromise identity systems. The attacks operate almost entirely within SaaS environments, leveraging SSO abuse as a primary attack vector to steal data while leaving minimal forensic traces.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4FSyjacFNJX32YMLQvN6jUeVwGJfoAHPLMIhtU6aNS6hrkIUokynaWWzqxOjr1JsP0lIooaL0ppYM-iQ_rEH2ruoqMw1UAb_bq4FNjI16P6P7CpTaYSkJtp-TpCFKOce9ODtmzskcTZnuWFLYyUdfA0UeHqmRVVNB1P6Mw28a5Yuc7T1kgEx4Pcyxbcsr/s1600/vishing.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Learning from the Vercel breach: Shadow AI & OAuth sprawl",
-      "url": "https://www.bleepingcomputer.com/news/security/learning-from-the-vercel-breach-shadow-ai-and-oauth-sprawl/",
-      "source": "BleepingComputer",
-      "date": "2026-04-29",
-      "summary": "The Vercel breach demonstrated how a compromised third-party OAuth integration can create a direct attack path into connected environments. The incident highlights risks associated with OAuth sprawl and shadow AI integrations, where unauthorized or poorly governed OAuth apps can lead to widespread impact across downstream customers.",
-      "image": "https://www.bleepstatic.com/content/posts/2026/04/28/push-hacker-header.jpg",
       "importance": 7,
       "paywall": false
     }
   ],
   "news": [
     {
-      "title": "Progress warns of critical MOVEit Automation auth bypass flaw",
-      "url": "https://www.bleepingcomputer.com/news/security/moveit-automation-customers-warned-to-patch-critical-auth-bypass-flaw/",
+      "title": "Microsoft Edge Stores Passwords in Process Memory, Posing Enterprise Risk",
+      "url": "https://www.darkreading.com/cyber-risk/microsoft-edge-passwords-enterprise-risk",
+      "source": "Dark Reading",
+      "date": "2026-05-05",
+      "summary": "A proof-of-concept exploit demonstrates that Microsoft Edge stores passwords in process memory, allowing extraction by someone with administrative privileges. The vulnerability poses credential theft risks in enterprise environments where browser-based password storage is used.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt0e4c889f98a082d1/69f9c4de2b93d911f8c512dd/Passwords-1800_designer491_Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "CloudZ malware abuses Microsoft Phone Link to steal SMS and OTPs",
+      "url": "https://www.bleepingcomputer.com/news/security/cloudz-malware-abuses-microsoft-phone-link-to-steal-sms-and-otps/",
       "source": "Bleeping Computer",
-      "date": "2026-05-04",
-      "summary": "Progress Software issued a warning about a critical authentication bypass vulnerability in MOVEit Automation, its enterprise managed file transfer application. The flaw allows attackers to bypass authentication controls, requiring immediate patching by affected customers.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2023/06/16/MOVEit.jpg",
+      "date": "2026-05-05",
+      "summary": "A new CloudZ RAT variant deploys a malicious plugin called Pheno that hijacks Microsoft Phone Link to steal SMS messages and one-time passwords from mobile devices. The attack targets OTPs, which are commonly used in MFA workflows, by exploiting the legitimate PC-to-phone mirroring application.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/02/13/Windows_headpic.jpg",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "AWS IAM now provides higher maximum quotas for roles, role trust policies, instance profiles, managed policies, and identity providers",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iam-increased-quotas/",
+      "source": "Amazon.com",
+      "date": "2026-05-05",
+      "summary": "AWS IAM has increased maximum quotas for six resources, including doubling customer managed policies per account from 5,000 to 10,000 and instance profiles per account from 5,000 to 10,000. Managed policies per role limits were also increased, along with other IAM resource quotas affecting roles, role trust policies, and identity providers.",
+      "image": null,
       "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Workload Identity Federation",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/workload-identity-federation",
+      "source": "Claude.com",
+      "date": "2026-05-04",
+      "summary": "Anthropic has introduced Workload Identity Federation (WIF) for the Claude API, allowing workloads to authenticate using short-lived identity tokens from existing identity providers instead of static API keys. The feature uses OpenID Connect (OIDC) tokens, eliminating the need for long-lived credentials in machine-to-machine authentication scenarios.",
+      "image": "https://platform.claude.com/docs/og?locale=en&path=build-with-claude/workload-identity-federation",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Breaking the code: Multi-stage ‘code of conduct’ phishing campaign leads to AiTM token compromise",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/05/04/breaking-the-code-multi-stage-code-of-conduct-phishing-campaign-leads-to-aitm-token-compromise/",
+      "source": "Microsoft.com",
+      "date": "2026-05-04",
+      "summary": "Microsoft Defender Research identified a large-scale phishing campaign using code of conduct-themed lures to conduct adversary-in-the-middle (AiTM) attacks that steal session tokens rather than just credentials. The multi-stage attack chain leverages legitimate email services to bypass email authentication and ultimately compromises authenticated session tokens, circumventing MFA protections.",
+      "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/05/featured-image-n-code-of-conduct.png",
+      "importance": 7,
+      "paywall": true
+    },
+    {
+      "title": "Cybercrime Groups Using Vishing and SSO Abuse in Rapid SaaS Extortion Attacks",
+      "url": "https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html",
+      "source": "The Hacker News",
+      "date": "2026-05-01",
+      "summary": "Two cybercrime groups, Cordial Spider and Snarky Spider, are conducting rapid SaaS extortion attacks that abuse SSO (Single Sign-On) systems alongside vishing (voice phishing) techniques. The attacks involve high-speed data theft while operating within SaaS environments and leaving minimal forensic traces, with researchers attributing specific tactics to each cluster.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4FSyjacFNJX32YMLQvN6jUeVwGJfoAHPLMIhtU6aNS6hrkIUokynaWWzqxOjr1JsP0lIooaL0ppYM-iQ_rEH2ruoqMw1UAb_bq4FNjI16P6P7CpTaYSkJtp-TpCFKOce9ODtmzskcTZnuWFLYyUdfA0UeHqmRVVNB1P6Mw28a5Yuc7T1kgEx4Pcyxbcsr/s1600/vishing.jpg",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -68,7 +118,7 @@
       "url": "https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html",
       "source": "The Hacker News",
       "date": "2026-05-01",
-      "summary": "A software supply chain attack campaign using malicious Ruby gems and Go modules has been attributed to the GitHub account \"BufferZoneCorp,\" targeting CI pipelines for credential theft and SSH persistence. The attack uses sleeper packages to deliver payloads that enable credential harvesting and GitHub Actions tampering.",
+      "summary": "A software supply chain attack campaign using malicious Ruby gems and Go modules has been attributed to the GitHub account \"BufferZoneCorp,\" targeting CI pipelines. The attack enables credential theft, GitHub Actions tampering, and SSH persistence through sleeper packages that later push malicious payloads.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNz4euGufhcyWdY8TkRfdXBUj2XXZlzQWEb1QyI7otpos158ctsC236sEm2NAZ20sUZv4AOqrGCSTbjGsOOkMwhQv53ZjyrVXf9SVUsMfhvhQ4LzGL87j44f0kMkXRzBAoWeHDz8hywx4gbW_trN1mFk-xCCZatTf0zNsude7k-3WE9kIY_pPgza53qsdc/s1600/buffer.jpg",
       "importance": 4,
       "paywall": false
@@ -78,7 +128,7 @@
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/iam-roles-anywhere-vpc/",
       "source": "Amazon.com",
       "date": "2026-05-01",
-      "summary": "AWS IAM Roles Anywhere now enforces VPC endpoint policies for the CreateSession API, allowing administrators to control access at the network level. This update enables organizations to configure VPC endpoint policies to explicitly allow or deny CreateSession API calls, adding a network-based access control layer to certificate-based IAM authentication.",
+      "summary": "AWS IAM Roles Anywhere now supports VPC endpoint policy enforcement for the CreateSession API. This update allows administrators to configure allow or deny rules on the CreateSession API through VPC endpoint policies, providing more granular network-level access control.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -88,7 +138,7 @@
       "url": "https://www.computerweekly.com/news/366642593/IAM-tools-help-Oracle-Red-Bull-Racing-keep-pace-with-strict-F1-regs",
       "source": "ComputerWeekly.com",
       "date": "2026-05-01",
-      "summary": "Oracle Red Bull Racing implemented 1Password's identity technology to improve efficiency in its aerodynamics testing procedures, which must comply with strict F1 regulations. The deployment focused on identity management to streamline access controls within the racing team's technical operations.",
+      "summary": "Oracle Red Bull Racing implemented 1Password's identity technology to improve efficiency in aerodynamics testing procedures that must comply with strict F1 regulations. The deployment addressed identity and access management needs within a highly regulated competitive environment.",
       "image": "https://www.computerweekly.com/visuals/ComputerWeekly/HeroImages/Oracle-Red-Bull-Racing-car-hero.jpg",
       "importance": 5,
       "paywall": false
@@ -98,38 +148,8 @@
       "url": "https://www.theregister.com/2026/04/30/good_ai_governance_is_good/",
       "source": "Theregister.com",
       "date": "2026-04-30",
-      "summary": "Gartner warns that the rapid growth of AI agents—projected to reach over 150,000 per Global Fortune 500 enterprise by 2028—requires proper governance to prevent security and operational chaos. The article focuses on identity and access governance challenges posed by non-human identities (AI agents/bots), a direct concern for IAM professionals managing machine identity sprawl.",
+      "summary": "Gartner projects that Global Fortune 500 enterprises will run more than 150,000 AI agents by 2028, up from fewer than 15 today, raising significant governance concerns. Without proper governance frameworks, the rapid proliferation of AI agents presents identity and access management challenges around authorization, accountability, and access control for non-human identities.",
       "image": "https://regmedia.co.uk/2026/04/30/shutterstock_2769448621.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Critical cPanel Authentication Vulnerability Identified — Update Your Server Immediately",
-      "url": "https://thehackernews.com/2026/04/critical-cpanel-authentication.html",
-      "source": "The Hacker News",
-      "date": "2026-04-29",
-      "summary": "cPanel has released security updates to fix a critical authentication vulnerability affecting all supported versions of cPanel and WebHost Manager (WHM). The flaw impacts multiple authentication paths and could allow attackers to gain unauthorized access to the control panel software.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQ54sVYryCG3V_ZjHJwzuKBteLhpf8FnX131rudu9bvgYGDupWYtJHLYxGPjVON072t-CWz4hyQmxQmwIW6ZZzTXsiJhcfRHPBj1ag1H0PeFGB4KkZIAsyhR0bT_DQqCj2uf_a5Yza7VbeBd3xRIvf4VUZ8UBRM2iEY10bk3me9zotLNcLExjSMaoY3y4l/s1600/cpanel.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Organizing Agents’ memory at scale: Namespace design patterns in AgentCore Memory",
-      "url": "https://aws.amazon.com/blogs/machine-learning/organizing-agents-memory-at-scale-namespace-design-patterns-in-agentcore-memory/",
-      "source": "Amazon.com",
-      "date": "2026-04-29",
-      "summary": "AWS published a technical post about designing namespace hierarchies and retrieval patterns for AgentCore Memory, an AI agent memory service. The post includes coverage of AWS IAM-based access control as one component of the implementation guidance.",
-      "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/04/24/ML-20833-image-2-1260x393.png",
-      "importance": 3,
-      "paywall": false
-    },
-    {
-      "title": "AWS Transfer Family Terraform module now supports Okta and Microsoft Entra ID integration examples",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-transfer-family-terraform-okta-microsoft-entra-id/",
-      "source": "Amazon.com",
-      "date": "2026-04-29",
-      "summary": "AWS has updated its Transfer Family Terraform module to include end-to-end deployment examples integrating Okta and Microsoft Entra ID as custom identity providers for authentication and access control. The update enables enterprises using these IdPs to configure AWS Transfer Family endpoints with their existing identity infrastructure.",
-      "image": null,
       "importance": 6,
       "paywall": false
     },
@@ -138,9 +158,9 @@
       "url": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
       "source": "Krebs on Security",
       "date": "2026-04-21",
-      "summary": "Tyler Robert Buchanan, a 24-year-old British national and senior member of the Scattered Spider cybercrime group, pleaded guilty to wire fraud conspiracy and aggravated identity theft. The group carried out SMS phishing attacks in 2022 that compromised at least a dozen major technology companies and stole tens of millions of dollars in cryptocurrency, with their attack methods notably including SIM swapping and social engineering to bypass MFA and authentication systems.",
+      "summary": "Tyler Robert Buchanan, a 24-year-old British national and senior member of cybercrime group Scattered Spider, pleaded guilty to wire fraud conspiracy and aggravated identity theft. Buchanan admitted to conducting SMS phishing attacks in summer 2022 that compromised at least a dozen major technology companies and resulted in theft of tens of millions in cryptocurrency.",
       "image": null,
-      "importance": 6,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -148,19 +168,9 @@
       "url": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
       "source": "Krebs on Security",
       "date": "2026-04-07",
-      "summary": "Russian military intelligence-linked hackers exploited vulnerabilities in older internet routers to harvest Microsoft Office authentication tokens from over 18,000 networks. The campaign operated without deploying malware, relying solely on token theft to gain unauthorized access to user accounts.",
+      "summary": "Russian military intelligence hackers exploited vulnerabilities in older internet routers to harvest Microsoft Office authentication tokens from over 18,000 networks. The campaign operated without deploying malware, relying solely on token theft to silently compromise authentication credentials at scale.",
       "image": null,
       "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "How AI Assistants are Moving the Security Goalposts",
-      "url": "https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/",
-      "source": "Krebs on Security",
-      "date": "2026-03-08",
-      "summary": "The article examines how AI agents with broad access to systems, files, and online services are creating new security challenges for organizations. The piece addresses how these autonomous tools blur boundaries around trusted access, insider threat, and authorization — concepts relevant to IAM but not the primary focus.",
-      "image": null,
-      "importance": 5,
       "paywall": false
     }
   ]
