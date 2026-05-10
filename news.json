@@ -1,12 +1,12 @@
 {
-  "updated": "May 09, 2026 at 05:56 UTC",
+  "updated": "May 10, 2026 at 06:19 UTC",
   "top_stories": [
     {
       "title": "The Back Door Attackers Know About — and Most Security Teams Still Haven’t Closed",
       "url": "https://thehackernews.com/2026/05/the-back-door-attackers-know-about-and.html",
       "source": "The Hacker News",
       "date": "2026-05-05",
-      "summary": "The article addresses a critical security gap where OAuth tokens granted to third-party apps connected to Google or Microsoft persist indefinitely without expiration or monitoring. These tokens bypass MFA and perimeter controls, creating an unmanaged attack surface that grows with every new AI tool or workflow automation employees authorize.",
+      "summary": "The article examines persistent OAuth tokens granted to third-party AI tools and productivity apps connected to Google and Microsoft as an undermonitored attack vector. These tokens have no expiration date, bypass MFA and perimeter controls, and are largely unmanaged in most organizations.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMhaEkMCxALglRWDFwTHVYgZ0KrRmAuzdwfh0zbL5Ml163rakQSv8yRVQ8yTQ4xIAtcwdqvGyVXeZXgXGNYKoyStckJv2xzjH3f1O7oICND5cWbnIBGYkSVJbpDRYHH9XqNfFQNk1qWIVwd43UuJv2vozhpndzCMS789h026IKgX1t7pgp01AtI6i9wKE/s1600/material.jpg",
       "importance": 8,
       "paywall": false
@@ -16,7 +16,7 @@
       "url": "https://www.prnewswire.com/news-releases/omada-launches-omada-identity-cloud-private-for-regulated-enterprises-and-government-organizations-302764387.html",
       "source": "PRNewswire",
       "date": "2026-05-06",
-      "summary": "Omada Identity has launched \"Omada Identity Cloud Private,\" a new deployment option that runs the full Omada Identity Cloud platform within the customer's own tenant. The offering is targeted at regulated enterprises and government organizations requiring strict data sovereignty and auditability boundaries.",
+      "summary": "Omada Identity has launched \"Omada Identity Cloud Private,\" a new deployment option that runs the full Omada Identity Cloud platform within the customer's own tenant. The offering is designed for regulated enterprises and government organizations requiring specific data sovereignty and auditability boundaries.",
       "image": "https://mma.prnewswire.com/media/1730116/Omada_Logo.jpg?p=facebook",
       "importance": 8,
       "paywall": false
@@ -26,7 +26,7 @@
       "url": "https://www.darkreading.com/cyberattacks-data-breaches/attacks-abuse-windows-phone-link-texts-bypass-2fa",
       "source": "Dark Reading",
       "date": "2026-05-06",
-      "summary": "Attackers are abusing Windows Phone Link to intercept SMS messages and bypass two-factor authentication using a remote access trojan called CloudZ RAT and a new plugin named Pheno. The attack hijacks the Windows-based bridge between PCs and smartphones, allowing threat actors to steal authentication codes in a hard-to-detect manner.",
+      "summary": "Attackers are deploying the CloudZ RAT and a new plugin called Pheno to abuse Windows Phone Link, enabling them to intercept SMS messages and bypass two-factor authentication. The attack exploits the Windows-based bridge between PCs and smartphones, making it difficult to detect while effectively circumventing SMS-based 2FA controls.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt1e09d5a76fa90123/69fb1b614f86c9e600c8fbcf/smartphone_warning_Mohd_Izzuan_Roslan_Alamy.png?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -36,7 +36,7 @@
       "url": "https://www.darkreading.com/threat-intelligence/exploit-cyber-frenzy-critical-cpanel-vulnerability",
       "source": "Dark Reading",
       "date": "2026-05-04",
-      "summary": "A critical authentication-bypass vulnerability in cPanel has been disclosed, with multiple proof-of-concept exploits rapidly appearing in the wild. A researcher claims zero-day exploitation activity has been ongoing for at least a month prior to disclosure, putting millions of cPanel-managed systems at risk.",
+      "summary": "A critical authentication-bypass vulnerability in cPanel has been disclosed, with multiple proof-of-concept exploits emerging shortly after. A researcher claims zero-day exploitation of the flaw has been active for at least a month, potentially affecting millions of systems.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd788cf590f1679de/69f8f0d8468cc9ebbfe375b3/cpanel_IBPhotography_Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -46,7 +46,7 @@
       "url": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day/",
       "source": "Bleeping Computer",
       "date": "2026-05-08",
-      "summary": "CISA has mandated U.S. federal agencies patch a high-severity zero-day vulnerability in Ivanti Endpoint Manager Mobile (EPMM) within four days. The flaw is actively being exploited in zero-day attacks, triggering the urgent directive under CISA's Known Exploited Vulnerabilities catalog.",
+      "summary": "CISA issued an emergency directive requiring U.S. federal agencies to patch a high-severity zero-day vulnerability in Ivanti Endpoint Manager Mobile (EPMM) within four days. The flaw is actively being exploited in the wild, triggering the accelerated remediation timeline under CISA's known exploited vulnerabilities catalog.",
       "image": "https://www.bleepstatic.com/content/hl-images/2026/03/10/Ivanti.jpg",
       "importance": 7,
       "paywall": false
@@ -58,7 +58,7 @@
       "url": "https://www.helpnetsecurity.com/2026/05/08/north-korean-it-workers-us-laptop-farm-operation-sentencing/",
       "source": "Help Net Security",
       "date": "2026-05-08",
-      "summary": "Two U.S. nationals were sentenced to 18 months in prison for operating \"laptop farms\" that helped North Korean IT workers fraudulently gain employment at nearly 70 American companies, generating over $1.2 million for Pyongyang. The cases highlight identity fraud and workforce authentication vulnerabilities, as the schemes relied on concealing the true identities of remote workers to bypass employer verification processes.",
+      "summary": "Two U.S. nationals were sentenced to 18 months in prison for running \"laptop farms\" that helped North Korean IT workers fraudulently gain employment at nearly 70 American companies, generating over $1.2 million for Pyongyang. The cases highlight identity fraud and insider threat risks, as the schemes involved falsifying identities to bypass employment verification and access controls at U.S. organizations.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -68,8 +68,18 @@
       "url": "https://thehackernews.com/2026/05/new-linux-pamdoora-backdoor-uses-pam.html",
       "source": "The Hacker News",
       "date": "2026-05-08",
-      "summary": "Researchers have disclosed a new Linux backdoor called PamDOORa, sold on a Russian cybercrime forum for $1,600, which abuses Pluggable Authentication Modules (PAM) to steal SSH credentials. The toolkit enables persistent SSH access via a hardcoded magic password and specific TCP port combination, representing a direct attack against Linux authentication infrastructure.",
+      "summary": "Cybersecurity researchers have disclosed a new Linux backdoor called PamDOORa that abuses Pluggable Authentication Modules (PAM) to steal SSH credentials and maintain persistent access. The malware is sold on a Russian cybercrime forum for $1,600 and uses a magic password and TCP port combination to enable covert, persistent SSH access on compromised systems.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixNgyNI9ObZi3Il87CVXhEWyWgcK-O1IKhQKRs7NPrNVqTMBZRw7AZpmbk5RdsPxNPmO9IyXaq6QzYBN691HBgfE8HpwnyJuE4-vaCAwHPpb6UfeSRcrMI-GRjcX53cELs31s7ps6YkGx5bAAB67w4m9GQ7ZVWjSdnaPOFczjHlsS3967ZvBh-4ZvTBWEJ/s1600/linux-pam.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "A new frontier: Identity stack evolves for agentic systems",
+      "url": "https://www.computerweekly.com/opinion/A-new-frontier-Identity-stack-evolves-for-agentic-systems",
+      "source": "ComputerWeekly.com",
+      "date": "2026-05-08",
+      "summary": "Computer Weekly's Security Think Tank examines how the identity stack is evolving to support agentic AI systems. The article explores the shift of identity infrastructure toward functioning as a real-time control plane to manage authentication and authorization for autonomous AI agents.",
+      "image": "https://www.computerweekly.com/visuals/ComputerWeekly/Hero Images/Security-Think-Tank-hero.jpg",
       "importance": 7,
       "paywall": false
     },
@@ -78,7 +88,7 @@
       "url": "https://thehackernews.com/2026/05/pcpjack-credential-stealer-exploits-5.html",
       "source": "The Hacker News",
       "date": "2026-05-07",
-      "summary": "Researchers have disclosed PCPJack, a credential theft framework that targets cloud infrastructure by harvesting credentials from cloud, container, developer, productivity, and financial services. The malware exploits five CVEs to spread worm-like across cloud systems and exfiltrates stolen credentials through attacker-controlled infrastructure.",
+      "summary": "Researchers disclosed PCPJack, a credential theft framework that exploits five CVEs to spread worm-like across cloud systems while harvesting credentials from cloud, container, developer, productivity, and financial services. The toolset exfiltrates stolen credentials through attacker-controlled infrastructure, targeting exposed cloud environments and displacing competing threat actor artifacts linked to TeamPCP.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2N74T5rZvfRcHqUhwtyI3hbxAAQnB-RQQqpiGSIJqdplaQaZcjvqLR80d3pIjwJyGtAO5V0Ji6_3w4V4Ww901x4aSGY_Id3lzqXNdGUMbprz80zXoKzHVoIBqyhVBU_LvIMyJHV5MHaMWvZuWgREFmqG4jOdBLpW4gBtgKCrnfRS4mIXemDQ9U_fRERQf/s1600/clouds.jpg",
       "importance": 6,
       "paywall": false
@@ -88,9 +98,9 @@
       "url": "https://www.microsoft.com/en-us/security/blog/2026/05/07/world-passkey-day-advancing-passwordless-authentication/",
       "source": "Microsoft.com",
       "date": "2026-05-07",
-      "summary": "Microsoft published a blog post for World Passkey Day highlighting its efforts to advance passkey adoption as a replacement for passwords. The post covers Microsoft's initiatives around passwordless authentication, phishing risk reduction, and simplified sign-in experiences.",
+      "summary": "Microsoft published a blog post for World Passkey Day highlighting its efforts to advance passkey adoption as a replacement for passwords. The post covers Microsoft's passwordless authentication initiatives, including reducing phishing risk and improving sign-in security through passkey technology.",
       "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/05/world-passkey-day-2026-1-1.jpg",
-      "importance": 7,
+      "importance": 6,
       "paywall": true
     },
     {
@@ -98,7 +108,7 @@
       "url": "https://www.techtarget.com/searchsecurity/tip/Leading-enterprise-password-managers-to-consider",
       "source": "Techtarget.com",
       "date": "2026-05-07",
-      "summary": "The article reviews five enterprise password managers, outlining key features and capabilities that administrators should look for. It covers available options in the market for organizations seeking enterprise-grade credential management solutions.",
+      "summary": "The article reviews five enterprise password managers, outlining features and capabilities admins should consider. It covers criteria for evaluating password management tools in an enterprise context.",
       "image": "https://www.techtarget.com/rms/onlineimages/keys_a280346470.jpg",
       "importance": 5,
       "paywall": false
@@ -108,7 +118,7 @@
       "url": "https://www.prnewswire.com/news-releases/semperis-names-john-podboy-chief-information-security-officer-302765041.html",
       "source": "PRNewswire",
       "date": "2026-05-07",
-      "summary": "Semperis has appointed John Podboy as its Chief Information Security Officer. Podboy will focus on risk, resilience, compliance, and agentic AI-driven cyber defense for the identity-driven cyber resilience company.",
+      "summary": "Semperis has appointed John Podboy as its Chief Information Security Officer. Podboy will focus on risk, resilience, compliance, and agentic AI-driven cyber defense at the identity-focused cybersecurity company.",
       "image": "https://mmx.prnewswire.com/media/MS1122565/Semperis-Logo-Logo_Logo.jpg?id=OA2632794&p=facebook",
       "importance": 4,
       "paywall": false
@@ -118,7 +128,7 @@
       "url": "https://thehackernews.com/2026/05/your-ai-agents-are-already-inside.html",
       "source": "The Hacker News",
       "date": "2026-05-06",
-      "summary": "Gartner has published its inaugural Market Guide for Guardian Agents, confirming that enterprise AI agent adoption is outpacing governance and policy controls. The report addresses the identity security challenge of governing AI agents operating inside enterprise perimeters, a growing concern for IAM professionals managing non-human identities and access controls.",
+      "summary": "Gartner has released its inaugural Market Guide for Guardian Agents, confirming that enterprise AI agent adoption is outpacing governance and policy controls. The report addresses the identity security challenge of governing AI agents that operate inside enterprise perimeters with access to systems and data.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb87wroQ6p8nQAYNIPc9sSFlIxMecj9qcrm9KPOaAt0-DTof7kW6e6FCc1dmoBFrtyFcZQOhyphenhyphenupMl7E3GAv-6C-5OM3U3NkEo7fKnYw-SWnwzI-yDfsY4J5kM8jgqfIqoSxHp4GJpdjK9kosjlzftCwYxSsva4jnhPHH92FT5rppUXnxCnINf05kPSzb5G/s1600/Orchid.gif",
       "importance": 7,
       "paywall": false
@@ -128,7 +138,7 @@
       "url": "https://thehackernews.com/2026/05/windows-phone-link-exploited-by-cloudz.html",
       "source": "The Hacker News",
       "date": "2026-05-06",
-      "summary": "Researchers have disclosed details of an attack using CloudZ RAT and a previously undocumented plugin called Pheno to steal credentials and one-time passwords (OTPs). The attack exploited Windows Phone Link to facilitate credential theft, directly targeting authentication factors including OTPs.",
+      "summary": "Cybersecurity researchers have detailed an attack using the CloudZ RAT and a previously undocumented plugin called Pheno to steal credentials and one-time passwords (OTPs). The attack exploited Windows Phone Link to facilitate credential theft, targeting authentication factors including OTPs.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGxYFVfOUbXRWanB_1qyRHBYCgWirEtqd3EO06BrIjnLqrTEOoTnXclKQsujA4YCVfI8Q5IWuriVAlckls65vvV2Am5PCEB1s_HHoFxpA779oT1qbnNB0Q8dqLU3GGbwINtDDmp8Ge3bdxQJWab3toekaGDgi1FFJ73uNysl8wEnXfgk6W88b1qSJcu2gX/s1600/link-to-windows.jpg",
       "importance": 5,
       "paywall": false
@@ -138,7 +148,7 @@
       "url": "https://aws.amazon.com/blogs/aws/the-aws-mcp-server-is-now-generally-available/",
       "source": "Amazon.com",
       "date": "2026-05-06",
-      "summary": "AWS has announced the general availability of the AWS MCP Server, a managed remote Model Context Protocol (MCP) server designed to give AI agents and coding assistants authenticated access to AWS services. The server provides secure, authenticated connectivity as part of AWS's Agent Toolkit offering.",
+      "summary": "AWS has announced the general availability of the AWS MCP Server, a managed remote Model Context Protocol (MCP) server designed to give AI agents and coding assistants secure, authenticated access to AWS services. The server is part of AWS's Agent Toolkit and provides authentication and access control mechanisms for AI agent interactions with AWS infrastructure.",
       "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/05/05/agent-toolkit-4.jpg",
       "importance": 6,
       "paywall": false
@@ -148,7 +158,7 @@
       "url": "https://www.prnewswire.com/news-releases/keeper-security-research-reveals-89-of-it-leaders-struggle-to-manage-growing-identity-footprint-amid-ai-expansion-302763606.html",
       "source": "PRNewswire",
       "date": "2026-05-06",
-      "summary": "Keeper Security released a global study of 3,200 cybersecurity decision-makers finding that 89% of IT leaders struggle to manage growing identity footprints amid AI expansion. The research reports that 96% of respondents say disconnected identity tools are creating exploitable security gaps, with AI adoption identified as a key driver of identity sprawl.",
+      "summary": "Keeper Security released a global study of 3,200 cybersecurity decision-makers finding that 89% of IT leaders struggle to manage growing identity footprints amid AI expansion. The research found 96% of respondents report that disconnected identity tools are creating exploitable security gaps, with AI adoption accelerating identity sprawl.",
       "image": "https://mma.prnewswire.com/media/1813826/Keeper_Security_LogoV2.jpg?p=facebook",
       "importance": 7,
       "paywall": false
@@ -158,29 +168,9 @@
       "url": "https://www.darkreading.com/cyber-risk/microsoft-edge-passwords-enterprise-risk",
       "source": "Dark Reading",
       "date": "2026-05-05",
-      "summary": "A proof-of-concept exploit demonstrates that Microsoft Edge stores passwords in process memory, allowing an attacker with administrative privileges to extract stored credentials. The vulnerability highlights risks for enterprise environments where credential theft could enable lateral movement or further attacks.",
+      "summary": "A proof-of-concept exploit demonstrates that Microsoft Edge stores passwords in process memory, allowing an attacker with admin privileges to extract stored credentials. The vulnerability poses an enterprise risk by enabling credential theft that could be leveraged for further malicious activity.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt0e4c889f98a082d1/69f9c4de2b93d911f8c512dd/Passwords-1800_designer491_Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft Details Phishing Campaign Targeting 35,000 Users Across 26 Countries",
-      "url": "https://thehackernews.com/2026/05/microsoft-details-phishing-campaign.html",
-      "source": "The Hacker News",
-      "date": "2026-05-05",
-      "summary": "Microsoft disclosed details of a large-scale credential theft campaign observed between April 14-16, 2026, that targeted over 35,000 users across more than 13,000 organizations in 26 countries. The multi-stage attack used code of conduct-themed lures and legitimate email services to redirect users to attacker-controlled domains and steal authentication tokens.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAfU-GpnCdjg1P2f40nj2Y7eLLpsjWNa1TnSlNm3m9F7VkOryT5etD2BouMGxbfatdzukMzeCPXsDagasXWNbcwUPJNkDY-sBox3DkrA0bTYjAEOk4JV8OySSD1_Ni2DgEnoWih83X65e9K1foEaEUetNxoyXFJnGx4Np8VQWrZSnxo2UMmR0Y68L-qf0y/s1600/ms-hook.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Modernize your workflows: Amazon WorkSpaces now gives AI agents their own desktop (preview)",
-      "url": "https://aws.amazon.com/blogs/aws/modernize-your-workflows-amazon-workspaces-now-gives-ai-agents-their-own-desktop-preview/",
-      "source": "Amazon.com",
-      "date": "2026-05-05",
-      "summary": "Amazon WorkSpaces has launched a preview feature allowing AI agents to operate legacy desktop applications using IAM authentication, MCP support, and computer vision. The feature uses IAM authentication as part of its security framework to enable AI agents to access desktop environments without requiring API integration or application modernization.",
-      "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/05/04/Image-5-News-Blog-Image-1.jpg",
-      "importance": 4,
       "paywall": false
     },
     {
@@ -188,7 +178,7 @@
       "url": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
       "source": "Krebs on Security",
       "date": "2026-04-21",
-      "summary": "Tyler Robert Buchanan, a 24-year-old British national and senior member of Scattered Spider, pleaded guilty to wire fraud conspiracy and aggravated identity theft. The group executed SMS phishing attacks in 2022 that compromised at least a dozen major technology companies and stole tens of millions in cryptocurrency.",
+      "summary": "Tyler Robert Buchanan, a 24-year-old British national and senior member of Scattered Spider, pleaded guilty to wire fraud conspiracy and aggravated identity theft. Buchanan admitted to conducting SMS phishing attacks in 2022 that compromised at least a dozen major technology companies and enabled the theft of tens of millions in cryptocurrency.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -198,7 +188,7 @@
       "url": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
       "source": "Krebs on Security",
       "date": "2026-04-07",
-      "summary": "Russian military intelligence hackers are exploiting vulnerabilities in older routers to harvest Microsoft Office authentication tokens from over 18,000 networks. The campaign operates without deploying malware, instead silently siphoning authentication tokens to gain unauthorized access to user accounts.",
+      "summary": "Russian military intelligence-linked hackers exploited vulnerabilities in older internet routers to harvest Microsoft Office authentication tokens across more than 18,000 networks. The campaign operated without deploying malware, relying instead on router flaws to silently siphon authentication credentials at scale.",
       "image": null,
       "importance": 8,
       "paywall": false
