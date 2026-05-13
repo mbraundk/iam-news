@@ -1,66 +1,44 @@
 {
-  "updated": "May 12, 2026 at 06:21 UTC",
+  "updated": "May 13, 2026 at 06:33 UTC",
   "top_stories": [
+    {
+      "title": "Identity security firm SailPoint discloses GitHub repository breach",
+      "url": "https://securityaffairs.com/191997/data-breach/identity-security-firm-sailpoint-discloses-github-repository-breach.html",
+      "source": "Securityaffairs.com",
+      "date": "2026-05-11",
+      "summary": "SailPoint disclosed a breach of its GitHub repository on April 20, stating the incident has been contained. The company reported that no customer data was affected by the breach.",
+      "image": "https://securityaffairs.com/wp-content/uploads/2026/05/image-30.png",
+      "importance": 9,
+      "paywall": false
+    },
     {
       "title": "Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation",
       "url": "https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html",
       "source": "The Hacker News",
       "date": "2026-05-11",
-      "summary": "Google disclosed a threat actor used an AI-developed zero-day exploit to bypass two-factor authentication (2FA), marking the first known instance of AI being used in the wild for malicious vulnerability discovery and exploit generation. The attack was attributed to cybercrime threat actors and represents a novel escalation in threats targeting authentication mechanisms.",
+      "summary": "Google disclosed that a threat actor used an AI-developed zero-day exploit to bypass two-factor authentication (2FA), marking the first known instance of AI being used in the wild for malicious vulnerability discovery and exploit generation. The attack was attributed to cybercrime threat actors and represents a novel threat vector directly targeting multi-factor authentication mechanisms.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgF329-zAoI4gwIW3h3gRYiDJjcRSyWPM4DLHFQwNNGfLTVaROqIfQZ0QB1FwWGmvMGuyNAF9Q6QBYcwLsqMsCka5Lqu82CzUbrBULnUDQwtY_4z6KiOEKSETes6as77XfUCaJVBUOCovZz8jajp6vBp9AAjHiS7BEviANEH0FxmzZwdrTapD3R-gPQWKJ1/s1600/ai-hacker.jpg",
       "importance": 8,
       "paywall": false
     },
     {
-      "title": "Omada Launches Omada Identity Cloud Private for Regulated Enterprises and Government Organizations",
-      "url": "https://www.prnewswire.com/news-releases/omada-launches-omada-identity-cloud-private-for-regulated-enterprises-and-government-organizations-302764387.html",
-      "source": "PRNewswire",
-      "date": "2026-05-06",
-      "summary": "Omada Identity has launched \"Omada Identity Cloud Private,\" a new deployment option that runs the full Omada Identity Cloud platform within the customer's own tenant. The offering is aimed at regulated enterprises and government organizations that require strict data boundary controls and auditability.",
-      "image": "https://mma.prnewswire.com/media/1730116/Omada_Logo.jpg?p=facebook",
-      "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Attacks Abuse Windows Phone Link to Steal Texts &amp; Bypass 2FA",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/attacks-abuse-windows-phone-link-texts-bypass-2fa",
-      "source": "Dark Reading",
-      "date": "2026-05-06",
-      "summary": "Attackers are abusing Windows Phone Link using the CloudZ RAT and a new plugin called Pheno to intercept SMS messages on connected smartphones. The attack enables bypassing of SMS-based two-factor authentication by hijacking the Windows-based bridge between PCs and Android devices.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt1e09d5a76fa90123/69fb1b614f86c9e600c8fbcf/smartphone_warning_Mohd_Izzuan_Roslan_Alamy.png?width=1280&auto=webp&quality=80&disable=upscale",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Why Changing Passwords Doesn’t End an Active Directory Breach",
-      "url": "https://www.bleepingcomputer.com/news/security/why-changing-passwords-doesnt-end-an-active-directory-breach/",
+      "title": "Fortinet warns of critical RCE flaws in FortiSandbox and FortiAuthenticator",
+      "url": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-rce-flaws-in-fortisandbox-and-fortiauthenticator/",
       "source": "Bleeping Computer",
-      "date": "2026-05-11",
-      "summary": "Specops Software has published an explanation of why password resets are insufficient to fully remediate Active Directory breaches. The piece details how cached credentials and Kerberos tickets can allow attackers to maintain authenticated access even after passwords have been changed.",
-      "image": "https://www.bleepstatic.com/content/posts/2026/05/04/why-changing-passwords-doesnt-end-an-active-directory-breach.png",
+      "date": "2026-05-12",
+      "summary": "Fortinet released security patches addressing two critical vulnerabilities in FortiSandbox and FortiAuthenticator that could allow attackers to execute arbitrary commands or code. FortiAuthenticator is Fortinet's authentication and identity management product, making this directly relevant to IAM security.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2025/12/29/Fortinet.jpg",
       "importance": 7,
       "paywall": false
     },
     {
-      "title": "Google researchers uncover criminal zero-day exploit likely built with AI",
-      "url": "https://www.helpnetsecurity.com/2026/05/11/google-ai-vulnerability-exploitation/",
+      "title": "The hidden risk of non-human identities in AI adoption",
+      "url": "https://www.helpnetsecurity.com/2026/05/13/hidden-risk-non-human-identities-ai-adoption/",
       "source": "Help Net Security",
-      "date": "2026-05-11",
-      "summary": "Google's Threat Intelligence Group identified a zero-day exploit, likely developed with AI assistance by a criminal group, that targeted a web-based system administration tool. The exploit enabled attackers to bypass two-factor authentication using valid credentials by exploiting a semantic logic error where a hardcoded trust assumption contradicted the application's authentication enforcement.",
-      "image": null,
+      "date": "2026-05-13",
+      "summary": "The article examines security risks associated with non-human identities (NHIs) in the context of AI adoption, focusing on how AI agents and service accounts are often granted persistent, broadly privileged access without proper governance controls. Key concerns include the lack of audit trails, undefined ownership, and absence of regular access reviews for NHIs including AI agents, API keys, and traditional service accounts.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/05/11132505/delinea_ai_identities.webp",
       "importance": 7,
-      "paywall": false
-    }
-  ],
-  "news": [
-    {
-      "title": "Hackers Trick DigiCert Into Issuing Certificates Used to Sign Malware",
-      "url": "https://hackread.com/hackers-digicert-issue-certificates-sign-malware/",
-      "source": "HackRead",
-      "date": "2026-05-10",
-      "summary": "DigiCert revoked 60 code signing certificates after hackers tricked the certificate authority into issuing them via a malicious support chat attachment. The compromised certificates were used to sign Zhong Stealer malware, requiring DigiCert to revoke the fraudulently obtained signing credentials.",
-      "image": "https://hackread.com/wp-content/uploads/2026/05/hackers-digicert-issue-certificates-sign-malware.png",
-      "importance": 6,
       "paywall": false
     },
     {
@@ -68,9 +46,91 @@
       "url": "https://thehackernews.com/2026/05/new-linux-pamdoora-backdoor-uses-pam.html",
       "source": "The Hacker News",
       "date": "2026-05-08",
-      "summary": "Cybersecurity researchers have disclosed a new Linux backdoor called PamDOORa that abuses Pluggable Authentication Modules (PAM) to steal SSH credentials and maintain persistent access. The malware, sold for $1,600 on a Russian cybercrime forum, uses a magic password and specific TCP port combination to bypass normal authentication controls.",
+      "summary": "Researchers have disclosed a new Linux backdoor called PamDOORa, sold on a Russian cybercrime forum for $1,600, that abuses Pluggable Authentication Modules (PAM) to steal SSH credentials. The toolkit enables persistent SSH access via a hardcoded magic password and specific TCP port combination, functioning as a post-exploitation tool targeting Linux authentication infrastructure.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixNgyNI9ObZi3Il87CVXhEWyWgcK-O1IKhQKRs7NPrNVqTMBZRw7AZpmbk5RdsPxNPmO9IyXaq6QzYBN691HBgfE8HpwnyJuE4-vaCAwHPpb6UfeSRcrMI-GRjcX53cELs31s7ps6YkGx5bAAB67w4m9GQ7ZVWjSdnaPOFczjHlsS3967ZvBh-4ZvTBWEJ/s1600/linux-pam.jpg",
       "importance": 7,
+      "paywall": false
+    }
+  ],
+  "news": [
+    {
+      "title": "Worm Redux: Fresh Mini Shai-Hulud Infections Bite Supply Chain",
+      "url": "https://www.darkreading.com/application-security/worm-redux-fresh-mini-shai-hulud-infections-bite-supply-chain",
+      "source": "Dark Reading",
+      "date": "2026-05-12",
+      "summary": "Hundreds of npm packages in the TanStack open source ecosystem have been infected by a self-propagating, credential-stealing worm attributed to TeamPCP. The worm spreads through supply chain compromise and steals credentials from affected systems.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt98af205e9fd3397b/6a030d8e8affd2e99d18dd19/sandworms_FlixPix_Alamy.png?width=1280&auto=webp&quality=80&disable=upscale",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Stealthy hackers exploit cPanel flaw in active backdoor campaign (CVE-2026-41940)",
+      "url": "https://www.helpnetsecurity.com/2026/05/12/cpanel-vulnerability-exploited-backdoor-cve-2026-41940/",
+      "source": "Help Net Security",
+      "date": "2026-05-12",
+      "summary": "Security researchers at XLab have identified an active attack campaign exploiting CVE-2026-41940, a vulnerability in cPanel & WHM that allows attackers to log in without a username or password, granting full administrator control. The flaw effectively bypasses all authentication on affected cPanel servers, compromising hosted websites, configurations, and databases.",
+      "image": null,
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "How to use streamlined permissions for Amazon S3 Tables and Iceberg materialized views",
+      "url": "https://aws.amazon.com/blogs/big-data/how-to-use-streamlined-permissions-for-amazon-s3-tables-and-iceberg-materialized-views/",
+      "source": "Amazon.com",
+      "date": "2026-05-11",
+      "summary": "AWS published a guide on configuring access controls for Amazon S3 Tables and Iceberg materialized views using IAM-based authorization in the AWS Glue Data Catalog. The article focuses primarily on analytics infrastructure setup, with IAM used as a supporting mechanism for permissions management rather than as the central subject.",
+      "image": "https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2026/05/11/bdb-5890.png",
+      "importance": 3,
+      "paywall": false
+    },
+    {
+      "title": "VU#937808: Casdoor contains Arbitrary File Write vulnerability",
+      "url": "https://kb.cert.org/vuls/id/937808",
+      "source": "Cert.org",
+      "date": "2026-05-11",
+      "summary": "Casdoor, an open-source identity and access management platform, contains an arbitrary file write vulnerability (VU#937808) in its Local File System storage provider. An authenticated user with file upload permissions can escape the intended upload directory due to insufficient sanitization of user-supplied paths.",
+      "image": null,
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Attackers targeting storage infrastructure for remote work",
+      "url": "https://www.techtarget.com/searchstorage/tip/Attackers-targeting-storage-infrastructure-for-remote-work",
+      "source": "Techtarget.com",
+      "date": "2026-05-11",
+      "summary": "Threat actors are increasingly targeting storage infrastructure by exploiting identity gaps, cloud misconfigurations, and zero trust weaknesses to cripple backups and deploy ransomware. The article frames remote work environments and storage systems as attack surfaces enabled by identity and zero trust deficiencies.",
+      "image": "https://www.techtarget.com/rms/onlineimages/security_a226543052.jpg",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "SEON Appoints Sagnik Nandy, CTO of Docusign, to Board of Directors",
+      "url": "https://www.globenewswire.com/news-release/2026/05/11/3291803/0/en/SEON-Appoints-Sagnik-Nandy-CTO-of-Docusign-to-Board-of-Directors.html",
+      "source": "GlobeNewswire",
+      "date": "2026-05-11",
+      "summary": "SEON, a fraud prevention company, has appointed Sagnik Nandy to its board of directors. Nandy previously served as CTO of Docusign and held engineering leadership roles at Google and Okta.",
+      "image": "https://ml.globenewswire.com/Resource/Download/8fd4ac28-222b-467c-9be5-e2d4b3fb2974",
+      "importance": 3,
+      "paywall": false
+    },
+    {
+      "title": "Europe wants out from under US tech – but first it has to find the exits",
+      "url": "https://www.theregister.com/public-sector/2026/05/11/europe-wants-out-from-under-us-tech-but-first-it-has-to-find-the-exits/5234898",
+      "source": "Theregister.com",
+      "date": "2026-05-11",
+      "summary": "A report has mapped European dependencies on US technology, identifying weaknesses in cloud infrastructure, identity systems, and public sector procurement. The analysis highlights identity as one of the areas where European institutions face significant reliance on US-based vendors.",
+      "image": "https://image.theregister.com/5237381.jpg?imageId=5237381&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "Hackers Trick DigiCert Into Issuing Certificates Used to Sign Malware",
+      "url": "https://hackread.com/hackers-digicert-issue-certificates-sign-malware/",
+      "source": "HackRead",
+      "date": "2026-05-10",
+      "summary": "DigiCert revoked 60 code signing certificates after hackers tricked the company's support chat into issuing certificates that were used to sign Zhong Stealer malware. The attack involved a malicious attachment submitted through DigiCert's support chat portal, resulting in fraudulently obtained certificates being used to sign malware.",
+      "image": "https://hackread.com/wp-content/uploads/2026/05/hackers-digicert-issue-certificates-sign-malware.png",
+      "importance": 6,
       "paywall": false
     },
     {
@@ -78,7 +138,7 @@
       "url": "https://www.computerweekly.com/opinion/A-new-frontier-Identity-stack-evolves-for-agentic-systems",
       "source": "ComputerWeekly.com",
       "date": "2026-05-08",
-      "summary": "Computer Weekly's Security Think Tank examines how the identity stack is evolving to support agentic AI systems. The article explores the shift of identity infrastructure toward functioning as a real-time control plane for autonomous AI agents.",
+      "summary": "Computer Weekly's Security Think Tank examines how the identity stack is evolving to support agentic AI systems. The article focuses on identity becoming a real-time control plane as AI agents require new approaches to authentication and authorization.",
       "image": "https://www.computerweekly.com/visuals/ComputerWeekly/Hero Images/Security-Think-Tank-hero.jpg",
       "importance": 7,
       "paywall": false
@@ -88,7 +148,7 @@
       "url": "https://thehackernews.com/2026/05/pcpjack-credential-stealer-exploits-5.html",
       "source": "The Hacker News",
       "date": "2026-05-07",
-      "summary": "Researchers have disclosed PCPJack, a credential theft framework that targets exposed cloud infrastructure by exploiting five CVEs to spread worm-like across systems. The toolset harvests credentials from cloud, container, developer, productivity, and financial services, then exfiltrates the stolen data through attacker-controlled infrastructure.",
+      "summary": "Cybersecurity researchers have disclosed PCPJack, a credential theft framework that targets cloud infrastructure by exploiting five CVEs to spread worm-like across systems. The toolset harvests credentials from cloud, container, developer, productivity, and financial services before exfiltrating data through attacker-controlled infrastructure.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2N74T5rZvfRcHqUhwtyI3hbxAAQnB-RQQqpiGSIJqdplaQaZcjvqLR80d3pIjwJyGtAO5V0Ji6_3w4V4Ww901x4aSGY_Id3lzqXNdGUMbprz80zXoKzHVoIBqyhVBU_LvIMyJHV5MHaMWvZuWgREFmqG4jOdBLpW4gBtgKCrnfRS4mIXemDQ9U_fRERQf/s1600/clouds.jpg",
       "importance": 6,
       "paywall": false
@@ -98,9 +158,9 @@
       "url": "https://www.microsoft.com/en-us/security/blog/2026/05/07/world-passkey-day-advancing-passwordless-authentication/",
       "source": "Microsoft.com",
       "date": "2026-05-07",
-      "summary": "Microsoft published a blog post on World Passkey Day highlighting its efforts to advance passkey adoption as a replacement for passwords. The post covers Microsoft's push toward passwordless authentication, with a focus on reducing phishing risk and improving sign-in security.",
+      "summary": "Microsoft published a blog post for World Passkey Day highlighting its efforts to advance passkey adoption as a passwordless authentication method. The post covers Microsoft's initiatives to replace passwords, reduce phishing risk, and improve sign-in security through passkey technology.",
       "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/05/world-passkey-day-2026-1-1.jpg",
-      "importance": 6,
+      "importance": 7,
       "paywall": true
     },
     {
@@ -118,39 +178,19 @@
       "url": "https://www.prnewswire.com/news-releases/semperis-names-john-podboy-chief-information-security-officer-302765041.html",
       "source": "PRNewswire",
       "date": "2026-05-07",
-      "summary": "Semperis has appointed John Podboy as its new Chief Information Security Officer. Podboy will focus on risk, resilience, compliance, and agentic AI-driven cyber defense for the identity-driven cyber resilience company.",
+      "summary": "Semperis has appointed John Podboy as its new Chief Information Security Officer. Podboy will focus on risk, resilience, compliance, and agentic AI-driven cyber defense at the identity-focused cybersecurity company.",
       "image": "https://mmx.prnewswire.com/media/MS1122565/Semperis-Logo-Logo_Logo.jpg?id=OA2632794&p=facebook",
       "importance": 4,
       "paywall": false
     },
     {
-      "title": "Your AI Agents Are Already Inside the Perimeter. Do You Know What They're Doing?",
-      "url": "https://thehackernews.com/2026/05/your-ai-agents-are-already-inside.html",
-      "source": "The Hacker News",
+      "title": "Attacks Abuse Windows Phone Link to Steal Texts &amp; Bypass 2FA",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/attacks-abuse-windows-phone-link-texts-bypass-2fa",
+      "source": "Dark Reading",
       "date": "2026-05-06",
-      "summary": "Gartner has published its inaugural Market Guide for Guardian Agents, highlighting that enterprise AI agent adoption is outpacing governance and policy controls. The report addresses the identity security challenge of governing AI agents that operate inside enterprise perimeters with access to systems and data.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb87wroQ6p8nQAYNIPc9sSFlIxMecj9qcrm9KPOaAt0-DTof7kW6e6FCc1dmoBFrtyFcZQOhyphenhyphenupMl7E3GAv-6C-5OM3U3NkEo7fKnYw-SWnwzI-yDfsY4J5kM8jgqfIqoSxHp4GJpdjK9kosjlzftCwYxSsva4jnhPHH92FT5rppUXnxCnINf05kPSzb5G/s1600/Orchid.gif",
+      "summary": "Attackers are abusing Windows Phone Link using CloudZ RAT and a new plugin called Pheno to hijack the PC-smartphone bridge and intercept SMS messages. The attack enables bypassing of SMS-based two-factor authentication by stealing text messages routed through the Windows Phone Link application.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt1e09d5a76fa90123/69fb1b614f86c9e600c8fbcf/smartphone_warning_Mohd_Izzuan_Roslan_Alamy.png?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Windows Phone Link Exploited by CloudZ RAT to Steal Credentials and OTPs",
-      "url": "https://thehackernews.com/2026/05/windows-phone-link-exploited-by-cloudz.html",
-      "source": "The Hacker News",
-      "date": "2026-05-06",
-      "summary": "Cybersecurity researchers have disclosed details of an attack using the CloudZ RAT and a previously undocumented plugin called Pheno that exploits Windows Phone Link to steal credentials and one-time passwords (OTPs). The malware is specifically designed to intercept OTPs, directly targeting multi-factor authentication mechanisms used to protect account access.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGxYFVfOUbXRWanB_1qyRHBYCgWirEtqd3EO06BrIjnLqrTEOoTnXclKQsujA4YCVfI8Q5IWuriVAlckls65vvV2Am5PCEB1s_HHoFxpA779oT1qbnNB0Q8dqLU3GGbwINtDDmp8Ge3bdxQJWab3toekaGDgi1FFJ73uNysl8wEnXfgk6W88b1qSJcu2gX/s1600/link-to-windows.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "The AWS MCP Server is now generally available",
-      "url": "https://aws.amazon.com/blogs/aws/the-aws-mcp-server-is-now-generally-available/",
-      "source": "Amazon.com",
-      "date": "2026-05-06",
-      "summary": "AWS has announced the general availability of the AWS MCP Server, a managed remote Model Context Protocol (MCP) server designed to give AI agents and coding assistants authenticated access to AWS services. The server is part of AWS's Agent Toolkit and provides secure, authenticated connectivity between AI tools and AWS service APIs.",
-      "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/05/05/agent-toolkit-4.jpg",
-      "importance": 5,
       "paywall": false
     },
     {
@@ -158,7 +198,7 @@
       "url": "https://www.darkreading.com/cyber-risk/microsoft-edge-passwords-enterprise-risk",
       "source": "Dark Reading",
       "date": "2026-05-05",
-      "summary": "A proof-of-concept exploit demonstrates that Microsoft Edge stores passwords in process memory, allowing an attacker with admin privileges to extract stored credentials. The vulnerability poses an enterprise risk by enabling credential theft that could facilitate further unauthorized access.",
+      "summary": "A proof-of-concept exploit demonstrates that Microsoft Edge stores passwords in process memory, allowing an attacker with administrative privileges to extract stored credentials. The vulnerability raises concerns for enterprise environments where credential theft could enable lateral movement or privilege escalation.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt0e4c889f98a082d1/69f9c4de2b93d911f8c512dd/Passwords-1800_designer491_Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 5,
       "paywall": false
@@ -168,7 +208,7 @@
       "url": "https://www.darkreading.com/threat-intelligence/exploit-cyber-frenzy-critical-cpanel-vulnerability",
       "source": "Dark Reading",
       "date": "2026-05-04",
-      "summary": "A critical authentication-bypass vulnerability in cPanel has been disclosed, with multiple proof-of-concept exploits rapidly emerging afterward. One researcher reports zero-day exploitation activity has been occurring for at least a month prior to public disclosure, putting millions of cPanel-managed systems at risk.",
+      "summary": "A critical authentication-bypass vulnerability in cPanel has been disclosed, with multiple proof-of-concept exploits emerging shortly after. A researcher claims zero-day exploitation activity has been occurring for at least a month prior to disclosure, putting millions of cPanel-managed systems at risk.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd788cf590f1679de/69f8f0d8468cc9ebbfe375b3/cpanel_IBPhotography_Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -178,7 +218,7 @@
       "url": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
       "source": "Krebs on Security",
       "date": "2026-04-21",
-      "summary": "Tyler Robert Buchanan, a senior member of the cybercrime group Scattered Spider, pleaded guilty to wire fraud conspiracy and aggravated identity theft for his role in SMS phishing attacks in summer 2022. The attacks compromised at least a dozen major technology companies and resulted in the theft of tens of millions of dollars in cryptocurrency through credential theft and social engineering techniques.",
+      "summary": "Tyler Robert Buchanan, a senior member of the cybercrime group Scattered Spider, pleaded guilty to wire fraud conspiracy and aggravated identity theft for his role in phishing attacks against major technology companies in 2022. The attacks involved SMS phishing campaigns that compromised at least a dozen companies and resulted in the theft of tens of millions of dollars in cryptocurrency.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -188,7 +228,7 @@
       "url": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
       "source": "Krebs on Security",
       "date": "2026-04-07",
-      "summary": "Russian military intelligence hackers are exploiting vulnerabilities in older routers to harvest Microsoft Office authentication tokens from users across more than 18,000 networks. The campaign operates without deploying malware, relying instead on router-level interception to silently steal authentication credentials at scale.",
+      "summary": "Russian military intelligence-linked hackers exploited vulnerabilities in older routers to harvest Microsoft Office authentication tokens from over 18,000 networks. The campaign operated without deploying malware, relying solely on token theft to gain unauthorized access to user accounts.",
       "image": null,
       "importance": 8,
       "paywall": false
