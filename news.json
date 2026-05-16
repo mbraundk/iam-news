@@ -1,23 +1,23 @@
 {
-  "updated": "May 15, 2026 at 06:41 UTC",
+  "updated": "May 16, 2026 at 06:07 UTC",
   "top_stories": [
     {
       "title": "Idira launches as Palo Alto Networks extends CyberArk tech to machine and agentic identities",
       "url": "https://siliconangle.com/2026/05/12/idira-launches-palo-alto-networks-extends-cyberark-tech-machine-agentic-identities/",
       "source": "SiliconANGLE News",
       "date": "2026-05-12",
-      "summary": "Palo Alto Networks launched Idira, a new identity security platform that manages human, machine, and AI agent identities under a single PAM framework. The platform incorporates CyberArk technology to extend privileged access management capabilities to machine and agentic identities.",
+      "summary": "Palo Alto Networks launched Idira, a new identity security platform designed to manage human, machine, and AI agent identities under a single PAM framework. The platform incorporates CyberArk technology to extend privileged access management capabilities to machine and agentic identities.",
       "image": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/02/paloaltonetworks.jpg",
       "importance": 9,
       "paywall": false
     },
     {
-      "title": "Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation",
-      "url": "https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html",
-      "source": "The Hacker News",
-      "date": "2026-05-11",
-      "summary": "Google disclosed that an unknown threat actor used a zero-day exploit likely developed with AI to bypass two-factor authentication (2FA), marking the first known instance of AI being used in the wild for malicious vulnerability discovery and exploit generation. The exploit was attributed to cybercrime threat actors and represents a novel attack vector directly targeting 2FA mechanisms used widely in identity and access management.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgF329-zAoI4gwIW3h3gRYiDJjcRSyWPM4DLHFQwNNGfLTVaROqIfQZ0QB1FwWGmvMGuyNAF9Q6QBYcwLsqMsCka5Lqu82CzUbrBULnUDQwtY_4z6KiOEKSETes6as77XfUCaJVBUOCovZz8jajp6vBp9AAjHiS7BEviANEH0FxmzZwdrTapD3R-gPQWKJ1/s1600/ai-hacker.jpg",
+      "title": "Okta extends AI agent security to Amazon Bedrock, opens platform to rival identity providers",
+      "url": "https://siliconangle.com/2026/05/14/okta-extends-ai-agent-security-amazon-bedrock-opens-platform-rival-identity-providers/",
+      "source": "SiliconANGLE News",
+      "date": "2026-05-14",
+      "summary": "Okta expanded its Okta for AI Agents platform to support any agent ecosystem, enterprise resource, and identity provider, including a new integration with Amazon Bedrock. The platform extension notably opens support to rival identity providers, broadening Okta's AI agent security coverage beyond its own identity ecosystem.",
+      "image": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/03/oktaai.png",
       "importance": 8,
       "paywall": false
     },
@@ -26,9 +26,19 @@
       "url": "https://businessnewsthisweek.com/business/palo-alto-networks-introduces-idira-the-next-generation-identity-security-platform-built-for-the-ai-enterprise/",
       "source": "Businessnewsthisweek.com",
       "date": "2026-05-13",
-      "summary": "Palo Alto Networks has introduced Idira, a next-generation identity security platform designed for AI-driven enterprises. The platform appears to target identity security challenges specific to AI environments, representing a new entrant in the IAM/identity security market from a major cybersecurity vendor.",
+      "summary": "Palo Alto Networks has introduced Idira, a next-generation identity security platform designed for AI-driven enterprise environments. The platform represents Palo Alto Networks' entry into the identity security market, targeting identity and access management challenges specific to AI enterprise deployments.",
       "image": "https://businessnewsthisweek.com/wp-content/uploads/2025/06/businessnewsthisweek-logo-1.png",
       "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "Identity breaches are on the rise, and are only getting worse - so how can your business stay safe?",
+      "url": "https://www.techradar.com/pro/security/identity-breaches-are-on-the-rise-and-are-only-getting-worse-so-how-can-your-business-stay-safe",
+      "source": "TechRadar",
+      "date": "2026-05-14",
+      "summary": "CyberArk has issued a warning about the growing threat of identity breaches, highlighting AI agents' access to sensitive files as an emerging risk. The company is advocating for a unified, automated identity security approach to address the increasing frequency and severity of identity-related incidents.",
+      "image": "https://cdn.mos.cms.futurecdn.net/kNeMomaQgHecAX4SDwmqCX-2560-80.jpg",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -40,26 +50,16 @@
       "image": "https://mmx.prnewswire.com/media/MS1122565/Semperis-Logo-Logo_Logo.jpg?id=OA2637813&p=facebook",
       "importance": 7,
       "paywall": false
-    },
-    {
-      "title": "Keeper Security Delivers Structured Governance for Humans and AI Agents with New PAM Approval Workflows in KeeperPAM",
-      "url": "https://www.prnewswire.com/news-releases/keeper-security-delivers-structured-governance-for-humans-and-ai-agents-with-new-pam-approval-workflows-in-keeperpam-302770468.html",
-      "source": "PRNewswire",
-      "date": "2026-05-13",
-      "summary": "Keeper Security has launched new PAM Approval Workflows within its KeeperPAM platform, introducing structured governance and approval-based controls for privileged access. The new Keeper Workflow capability is designed to provide administrators with oversight of privileged access for both human users and AI agents across their organizations.",
-      "image": "https://mma.prnewswire.com/media/1813826/Keeper_Security_LogoV2.jpg?p=facebook",
-      "importance": 7,
-      "paywall": false
     }
   ],
   "news": [
     {
-      "title": "Zombie linkages are keeping expired domains trusted for years",
-      "url": "https://www.helpnetsecurity.com/2026/05/15/expired-domains-security-risks-research/",
-      "source": "Help Net Security",
+      "title": "Inside the REMUS Infostealer: Session Theft, MaaS, and Rapid Evolution",
+      "url": "https://www.bleepingcomputer.com/news/security/inside-the-remus-infostealer-session-theft-maas-and-rapid-evolution/",
+      "source": "Bleeping Computer",
       "date": "2026-05-15",
-      "summary": "Researchers from USC and the University of Twente identified \"zombie linkages\" in Web PKI, Maven Central, and Ethereum Name Service, where trust records persist after domain ownership changes. Expired domains that are re-registered by new owners can inherit trust relationships originally established by previous owners, creating security vulnerabilities in certificate-based authentication systems.",
-      "image": null,
+      "summary": "The REMUS infostealer malware targets browser sessions and authentication tokens as a Malware-as-a-Service (MaaS) offering, bypassing traditional password-based authentication controls. Flare's analysis details how REMUS has evolved to focus on session theft at scale, directly undermining cookie/token-based authentication and SSO session security.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/05/infostealer-header.jpg",
       "importance": 6,
       "paywall": false
     },
@@ -74,32 +74,42 @@
       "paywall": false
     },
     {
-      "title": "HYCU  aiR detects insider risk and AI activity from backups",
-      "url": "https://www.helpnetsecurity.com/2026/05/14/hycu-air/",
-      "source": "Help Net Security",
-      "date": "2026-05-14",
-      "summary": "HYCU announced HYCU aiR (AI Resilience), an AI-native solution that analyzes backup data across multiple applications to detect insider risk, sensitive data exposure, identity drift, and AI agent activity. The solution treats backups as timestamped records of organizational activity, enabling security and compliance teams to query and run agents against that historical data.",
-      "image": null,
-      "importance": 4,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft turns Copilot Studio into an AI agent control center",
-      "url": "https://www.helpnetsecurity.com/2026/05/14/copilot-studio-security-governance-updates/",
-      "source": "Help Net Security",
-      "date": "2026-05-14",
-      "summary": "Microsoft released April 2026 updates to Copilot Studio that add security and governance features for AI agents, including visibility into agent security posture and authentication gaps. The update also introduces a generally available Analytics Viewer role that controls access to analytics insights within the platform.",
-      "image": null,
-      "importance": 6,
-      "paywall": false
-    },
-    {
       "title": "Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access",
       "url": "https://thehackernews.com/2026/05/cisco-catalyst-sd-wan-controller-auth.html",
       "source": "The Hacker News",
       "date": "2026-05-14",
-      "summary": "Cisco has released patches for a maximum-severity authentication bypass vulnerability (CVE-2026-20182, CVSS 10.0) in Catalyst SD-WAN Controller and SD-WAN Manager that is being actively exploited. The flaw affects the peering authentication mechanism, allowing attackers to gain administrative access without valid credentials.",
+      "summary": "Cisco has released patches for a maximum-severity authentication bypass vulnerability (CVE-2026-20182, CVSS 10.0) in Cisco Catalyst SD-WAN Controller and SD-WAN Manager that has been actively exploited in limited attacks. The flaw affects peering authentication mechanisms, allowing attackers to gain administrative access to affected systems.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9rok1ToP_K0gWug0GnICltZkvx6bMRyhHfTJG1AcSfrGpM_fOVc61O3Fpyen_IW-wpb4s6Hl3qZcU5nEs77SMWSpKNDR4rrlY2syVVSNEBrpHx8RkWmYaN9MZORNICc8LNhuNjXqqhxmy7JN-y389oyQnAAFoBMJC1NoQSQFaOZ2MnrpKQRfv_eYXIoWI/s1600/cisco-exploit.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Regional routing for AWS access portals: Implementing custom vanity domains for IAM Identity Center",
+      "url": "https://aws.amazon.com/blogs/security/regional-routing-for-aws-access-portals-implementing-custom-vanity-domains-for-iam-identity-center/",
+      "source": "Amazon.com",
+      "date": "2026-05-14",
+      "summary": "AWS has launched multi-Region replication for IAM Identity Center, enabling customers to implement regional routing with custom vanity domains for their access portals. The feature allows workforce users to access a single portal for AWS accounts and applications with improved regional redundancy and custom domain support.",
+      "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/05/13/AdobeStock_1376596821-1260x630.jpeg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Interview: AI optimism and upskilling for a shifting job market",
+      "url": "https://www.computerweekly.com/news/366643006/Interview-AI-optimism-and-upskilling-for-a-shifting-job-market",
+      "source": "ComputerWeekly.com",
+      "date": "2026-05-14",
+      "summary": "Okta's chief marketing officer Shannon Duffy shared views on AI's potential as a productivity tool and job market equalizer. The interview focuses on workforce upskilling and AI optimism rather than IAM products, services, or security topics.",
+      "image": "https://www.computerweekly.com/visuals/ComputerWeekly/HeroImages/AI-robot-man-job-interview-stokkete-adobe.jpg",
+      "importance": 2,
+      "paywall": false
+    },
+    {
+      "title": "Most Organizations Now Use AI Agents for Sensitive Security Tasks",
+      "url": "https://www.infosecurity-magazine.com/news/most-organizations-ai-agents/",
+      "source": "Infosecurity Magazine",
+      "date": "2026-05-14",
+      "summary": "A Semperis study found that most organizations are now deploying AI agents for sensitive security tasks, with 74% believing AI will increase attacks on identity infrastructure. The research highlights growing concern among IAM and security professionals about AI-driven threats targeting identity systems.",
+      "image": "https://assets.infosecurity-magazine.com/webpage/og/7b8fc00e-ee27-4e02-a962-85cca579f5f2.jpg",
       "importance": 6,
       "paywall": false
     },
@@ -108,9 +118,19 @@
       "url": "https://thehackernews.com/2026/05/microsoft-patches-138-vulnerabilities.html",
       "source": "The Hacker News",
       "date": "2026-05-13",
-      "summary": "Microsoft released patches for 138 security vulnerabilities, including 30 rated Critical, covering flaws in DNS and Netlogon among other products. 61 of the vulnerabilities are privilege escalation bugs, which are directly relevant to access control and identity security.",
+      "summary": "Microsoft released patches for 138 security vulnerabilities across its product portfolio, with 30 rated Critical and 104 rated Important. Among the 138 flaws, 61 are privilege escalation vulnerabilities, and the patch set includes critical RCE flaws in DNS and Netlogon, which are relevant to identity infrastructure.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk3m3CoTiKH2QVXSFAOVKKnTl-Ybt1FDE4M7BGK_ujskSYNQ8pOlcvZfyNv8CW2EJIVdMQaORcCE0H-_ufTvD6hR-LOOZ64GZPS_9bH7YrE4i0r4LrGCn7vXmG0GjpFk8aNlRR_4_GjrM-jhXBS1NzIbYiRydcmiNSXIV2eUczvgjGmp34_gNz3M5kt-Jf/s1600/windows-patch-update.jpg",
       "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Keeper Security Delivers Structured Governance for Humans and AI Agents with New PAM Approval Workflows in KeeperPAM",
+      "url": "https://www.prnewswire.com/news-releases/keeper-security-delivers-structured-governance-for-humans-and-ai-agents-with-new-pam-approval-workflows-in-keeperpam-302770468.html",
+      "source": "PRNewswire",
+      "date": "2026-05-13",
+      "summary": "Keeper Security has launched new PAM Approval Workflows within its KeeperPAM platform, introducing structured governance and approval-based controls for privileged access. The new Keeper Workflow capability is designed to provide administrators with oversight for both human users and AI agents accessing privileged resources.",
+      "image": "https://mma.prnewswire.com/media/1813826/Keeper_Security_LogoV2.jpg?p=facebook",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -118,9 +138,9 @@
       "url": "https://www.computerweekly.com/news/366642842/AI-threats-push-Middle-East-CISOs-towards-identity-first-security",
       "source": "ComputerWeekly.com",
       "date": "2026-05-13",
-      "summary": "Middle East CISOs are shifting toward identity-first security strategies in response to AI-driven threats such as deepfakes and shadow AI. The move reflects a broader trend of prioritizing identity as the central security control as traditional perimeter-based defenses become less effective.",
+      "summary": "Middle East CISOs are shifting toward identity-first security strategies in response to AI-driven threats such as deepfakes and shadow AI. The article covers a regional trend among security leaders moving away from traditional perimeter-based defenses toward identity-centric resilience approaches.",
       "image": "https://www.computerweekly.com/visuals/LeMagIT/hero_article/Cybersecurity_search_AdobeStock_1884692525-hero.jpg",
-      "importance": 6,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -128,69 +148,19 @@
       "url": "https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html",
       "source": "Trendmicro.com",
       "date": "2026-05-13",
-      "summary": "Researchers analyzed two supply chain attacks (April 22 and April 24) attributed to a threat actor called TeamPCP, targeting Checkmarx KICS and elementary-data. The campaign abused CI/CD and release workflows to steal credentials at scale across both incidents.",
+      "summary": "Researchers analyzed two supply chain attacks by threat actor TeamPCP targeting Checkmarx KICS and elementary-data in April, conducted roughly two days apart. Both incidents involved abuse of CI/CD and release workflows to steal credentials at scale.",
       "image": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/thumbnails/26/thumbnail_976x533.png",
       "importance": 4,
       "paywall": false
     },
     {
-      "title": "Fortinet warns of critical RCE flaws in FortiSandbox and FortiAuthenticator",
-      "url": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-rce-flaws-in-fortisandbox-and-fortiauthenticator/",
-      "source": "BleepingComputer",
-      "date": "2026-05-12",
-      "summary": "Fortinet has released security patches for two critical vulnerabilities affecting FortiSandbox and FortiAuthenticator that could allow attackers to execute commands or arbitrary code. FortiAuthenticator is Fortinet's authentication and identity management product, making these flaws directly relevant to IAM infrastructure security.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2025/12/29/Fortinet.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Two-Thirds of Enterprises Suspect AI Agents Have Already Accessed Unauthorized Data, Akeyless Finds",
-      "url": "https://www.prnewswire.com/news-releases/two-thirds-of-enterprises-suspect-ai-agents-have-already-accessed-unauthorized-data-akeyless-finds-302769768.html",
-      "source": "PRNewswire",
-      "date": "2026-05-12",
-      "summary": "A global study by Akeyless found that two-thirds of enterprises suspect AI agents have already accessed unauthorized data, with most organizations unable to detect compromised AI agents for hours. The majority of respondents reported spending over $1 million managing the fallout from AI agent security incidents, highlighting gaps in authorization and access controls for non-human identities.",
-      "image": null,
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Saviynt Strengthens Executive Team to Accelerate AI Identity Security Leadership",
-      "url": "https://www.globenewswire.com/news-release/2026/05/12/3293026/0/en/Saviynt-Strengthens-Executive-Team-to-Accelerate-AI-Identity-Security-Leadership.html",
-      "source": "GlobeNewswire",
-      "date": "2026-05-12",
-      "summary": "Saviynt has appointed Pete Angstadt as its first Chief Commercial Officer and Brad Myers as Chief Customer Officer. Both are described as industry veterans joining the IAM/IGA vendor's executive team.",
-      "image": "https://ml.globenewswire.com/Resource/Download/9f309c4d-c274-4679-860b-5457e75831b2",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Are You Using the Right Security Controls for Agent 365?",
-      "url": "https://www.geeky-gadgets.com/mitigate-ai-risk-agent-365/",
-      "source": "Geeky Gadgets",
-      "date": "2026-05-12",
-      "summary": "Microsoft's Agent 365 platform integrates with Microsoft Entra as part of its security and compliance framework for managing AI agents. The platform combines identity and access controls through Microsoft Entra alongside Microsoft Purview and Microsoft Defender to enforce security standards for AI agent management.",
-      "image": "https://www.geeky-gadgets.com/wp-content/uploads/2026/05/agent-365-dashboard.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Descope Named to Rising in Cyber 2026 List of Top Cybersecurity Startups",
-      "url": "https://www.globenewswire.com/news-release/2026/05/12/3292601/0/en/Descope-Named-to-Rising-in-Cyber-2026-List-of-Top-Cybersecurity-Startups.html",
-      "source": "GlobeNewswire",
-      "date": "2026-05-12",
-      "summary": "Descope, a customer identity and authentication platform, has been named to the Rising in Cyber 2026 list of top cybersecurity startups, as voted by CISOs. The list recognizes 30 private cybersecurity companies, with Descope included for its work in identity and authentication.",
-      "image": "https://ml.globenewswire.com/Resource/Download/b78cbf52-177e-4466-9d9d-d49c70c1841a",
-      "importance": 4,
-      "paywall": false
-    },
-    {
-      "title": "Attacks Abuse Windows Phone Link to Steal Texts &amp; Bypass 2FA",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/attacks-abuse-windows-phone-link-texts-bypass-2fa",
+      "title": "Worm Redux: Fresh Mini Shai-Hulud Infections Bite Supply Chain",
+      "url": "https://www.darkreading.com/application-security/worm-redux-fresh-mini-shai-hulud-infections-bite-supply-chain",
       "source": "Dark Reading",
-      "date": "2026-05-06",
-      "summary": "Attackers are abusing Windows Phone Link functionality to steal SMS messages and bypass two-factor authentication using a remote access trojan called CloudZ and a new plugin named Pheno. The attack hijacks the Windows-based bridge between PCs and smartphones to intercept SMS-based 2FA codes, effectively undermining a common authentication control.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt1e09d5a76fa90123/69fb1b614f86c9e600c8fbcf/smartphone_warning_Mohd_Izzuan_Roslan_Alamy.png?width=1280&auto=webp&quality=80&disable=upscale",
-      "importance": 7,
+      "date": "2026-05-12",
+      "summary": "Hundreds of npm packages in the TanStack open source ecosystem have been infected by a self-propagating, credential-stealing worm attributed to TeamPCP. The worm spreads through the software supply chain and is designed to steal credentials from affected systems.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt98af205e9fd3397b/6a030d8e8affd2e99d18dd19/sandworms_FlixPix_Alamy.png?width=1280&auto=webp&quality=80&disable=upscale",
+      "importance": 6,
       "paywall": false
     },
     {
@@ -198,7 +168,7 @@
       "url": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
       "source": "Krebs on Security",
       "date": "2026-04-21",
-      "summary": "Tyler Robert Buchanan, a senior member of the cybercrime group Scattered Spider, pleaded guilty to wire fraud conspiracy and aggravated identity theft for his role in SMS phishing attacks in 2022. The attacks targeted at least a dozen major technology companies and resulted in the theft of tens of millions of dollars in cryptocurrency through credential theft and social engineering techniques.",
+      "summary": "Tyler Robert Buchanan, a 24-year-old British national and senior member of Scattered Spider, pleaded guilty to wire fraud conspiracy and aggravated identity theft. The charges relate to SMS phishing attacks in 2022 that enabled the group to compromise at least a dozen major technology companies and steal tens of millions in cryptocurrency.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -208,7 +178,7 @@
       "url": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
       "source": "Krebs on Security",
       "date": "2026-04-07",
-      "summary": "Russian military intelligence-linked hackers exploited vulnerabilities in older routers to harvest Microsoft Office authentication tokens from over 18,000 networks. The campaign operated without deploying malware, relying solely on token theft to silently compromise user access.",
+      "summary": "Russian military intelligence-linked hackers exploited vulnerabilities in older routers to harvest Microsoft Office authentication tokens from over 18,000 networks. The campaign operated without deploying malware, relying solely on stolen authentication tokens to gain unauthorized access.",
       "image": null,
       "importance": 8,
       "paywall": false
