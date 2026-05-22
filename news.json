@@ -1,33 +1,23 @@
 {
-  "updated": "May 21, 2026 at 07:01 UTC",
+  "updated": "May 22, 2026 at 06:58 UTC",
   "top_stories": [
-    {
-      "title": "Palo Alto Networks integrates CyberArk, Koi and Portkey and launches Idira to bolster AI and identity security",
-      "url": "https://www.digitimes.com/news/a20260518PD205/palo-alto-networks-security-acquisition-2026-cybersecurity.html",
-      "source": "Digitimes",
-      "date": "2026-05-18",
-      "summary": "Palo Alto Networks completed the acquisition of CyberArk in February 2026 and began integrating CyberArk's privileged access management capabilities into its Cortex and Strata platforms. The company also launched a new product called Idira alongside integrations with Koi and Portkey to bolster AI and identity security.",
-      "image": "https://img.digitimes.com/newsshow/20260518pd205_files/2_b.jpg",
-      "importance": 9,
-      "paywall": false
-    },
     {
       "title": "Hackers bypass SonicWall VPN MFA due to incomplete patching",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-bypass-sonicwall-vpn-mfa-due-to-incomplete-patching/",
       "source": "Bleeping Computer",
       "date": "2026-05-20",
-      "summary": "Threat actors bypassed MFA on SonicWall Gen6 SSL-VPN appliances by brute-forcing VPN credentials, exploiting incomplete patching to gain unauthorized access. The attackers used this access to deploy ransomware-related tools, highlighting a failure in MFA enforcement on unfully-patched SonicWall devices.",
+      "summary": "Threat actors bypassed multi-factor authentication on SonicWall Gen6 SSL-VPN appliances by brute-forcing VPN credentials, enabling ransomware deployment. The MFA bypass was possible due to incomplete patching on the affected SonicWall devices.",
       "image": "https://www.bleepstatic.com/content/hl-images/2026/05/20/SonicWall.jpg",
       "importance": 8,
       "paywall": false
     },
     {
-      "title": "Microsoft Self-Service Password Reset abused in Azure data theft attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-self-service-password-reset-abused-in-azure-data-theft-attacks/",
-      "source": "Bleeping Computer",
-      "date": "2026-05-19",
-      "summary": "A threat actor is abusing Microsoft Self-Service Password Reset (SSPR) and other legitimate Azure administration features to steal data from Microsoft 365 and Azure production environments. The attacks leverage built-in identity and access management functionality rather than exploiting software vulnerabilities, targeting enterprise cloud environments.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/05/19/Microsoft365.jpg",
+      "title": "GitHub, Grafana Labs breaches traced back to TanStack supply chain compromise",
+      "url": "https://www.helpnetsecurity.com/2026/05/21/github-grafana-breach-root-cause-nx-console/",
+      "source": "Help Net Security",
+      "date": "2026-05-21",
+      "summary": "A malicious version of the Nx Console VS Code extension, part of a TanStack supply chain compromise by threat group TeamPCP, was used to steal developer credentials and secrets from GitHub and Grafana Labs. The stolen credentials enabled attackers to move through CI/CD pipelines and exfiltrate approximately 3,800 of GitHub's private code repositories.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2025/11/06180224/digital-supply-chain-1500.webp",
       "importance": 8,
       "paywall": false
     },
@@ -36,8 +26,18 @@
       "url": "https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html",
       "source": "The Hacker News",
       "date": "2026-05-19",
-      "summary": "A phishing-as-a-service platform called EvilTokens launched in February 2026 and compromised over 340 Microsoft 365 organizations across five countries within five weeks. The attack method uses OAuth consent flows and device code phishing to bypass MFA, tricking users into authenticating at a legitimate Microsoft URL while handing over OAuth tokens to attackers.",
+      "summary": "A phishing-as-a-service platform called EvilTokens compromised over 340 Microsoft 365 organizations across five countries within five weeks of launching in February 2026. The attack exploits OAuth device code flow, tricking users into completing legitimate MFA challenges while unknowingly granting attackers persistent OAuth tokens, effectively bypassing MFA protections.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLnnvBvl0Gs5pfpUcrlJ_Ni62CyGs5UpoGCmpUAjReyBpExj5FzhuxSwuUcfQiyxDqeeoy6jSAHq4tA2KUnO5CRfbpfd_jN1ndeXgC0MiG0TrAfAyW67eybZeHMY-t6_kICQdPPKqK-1n9Ngkrj7UJrZZa1KQWqN9WjaTaDuHA_t6RW9Stul6tb82OS_4/s1600/reco1.jpg",
+      "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft Self-Service Password Reset abused in Azure data theft attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-self-service-password-reset-abused-in-azure-data-theft-attacks/",
+      "source": "BleepingComputer",
+      "date": "2026-05-19",
+      "summary": "A threat actor is actively abusing Microsoft Self-Service Password Reset (SSPR) and other legitimate Azure administration features to steal data from Microsoft 365 and Azure production environments. The attacks leverage trusted applications and built-in identity management functions to carry out data exfiltration, implicating core IAM features in the attack chain.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/05/19/Microsoft365.jpg",
       "importance": 8,
       "paywall": false
     },
@@ -46,7 +46,7 @@
       "url": "https://www.microsoft.com/en-us/security/blog/2026/05/18/storm-2949-turned-compromised-identity-into-cloud-wide-breach/",
       "source": "Microsoft.com",
       "date": "2026-05-18",
-      "summary": "A threat actor tracked as Storm-2949 conducted a cloud-wide breach by leveraging compromised credentials and moving laterally through cloud systems without deploying malware. The attack demonstrates how identity compromise alone can enable large-scale data theft by exploiting trusted authentication and access pathways.",
+      "summary": "A threat actor tracked as Storm-2949 executed a cloud-wide breach by leveraging compromised credentials and moving laterally through cloud systems without deploying malware. The attack demonstrates how identity compromise alone can enable large-scale data theft by exploiting trusted systems and identities.",
       "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/05/MS_Actional-Insights_Storm.jpg",
       "importance": 8,
       "paywall": true
@@ -54,22 +54,52 @@
   ],
   "news": [
     {
-      "title": "Identity Alone Isn't Enough: Why Device Security Has to Share the Load",
-      "url": "https://www.bleepingcomputer.com/news/security/identity-alone-isnt-enough-why-device-security-has-to-share-the-load/",
-      "source": "Bleeping Computer",
-      "date": "2026-05-20",
-      "summary": "Specops Software published an article arguing that identity verification alone is insufficient for Zero Trust security, particularly against stolen session tokens and compromised devices. The piece advocates for continuous device verification as a necessary complement to identity checks in Zero Trust strategies.",
-      "image": "https://www.bleepstatic.com/content/posts/2026/05/18/identity-alone-isnt-enough-why-device-security-has-to-share-the-load.png",
+      "title": "AI Agents Are Shifting Identity Security Budget Dynamics",
+      "url": "https://www.darkreading.com/identity-access-management-security/shifting-budget-dynamics-identity-security-ai-agents",
+      "source": "Dark Reading",
+      "date": "2026-05-21",
+      "summary": "New Omdia research examines how AI agent identity management is creating distinct budget dynamics compared to traditional IAM projects. The research highlights the growing need to manage, secure, and govern AI agent identities as these projects proliferate across enterprises.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd00712c4fd23579b/6a0e0281107a585c56c6d09e/AI_ID_card_Edgars_Sermulis_Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft Defender vulnerabilities exploited in the wild (CVE-2026-41091, CVE-2026-45498)",
+      "url": "https://www.helpnetsecurity.com/2026/05/21/microsoft-defender-vulnerabilities-cve-2026-41091-cve-2026-45498/",
+      "source": "Help Net Security",
+      "date": "2026-05-21",
+      "summary": "Two Microsoft Defender vulnerabilities (CVE-2026-41091 and CVE-2026-45498) are being actively exploited in the wild, with CISA adding them to its Known Exploited Vulnerabilities catalog. CVE-2026-41091 enables local privilege elevation to SYSTEM level via improper link resolution in the Microsoft Malware Protection Engine, while CVE-2026-45498 can trigger a denial-of-service condition.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/05/19154102/microsoft2.webp",
       "importance": 6,
       "paywall": false
     },
     {
-      "title": "Verizon DBIR: Vulnerability exploitation is the dominant initial access vector",
-      "url": "https://www.helpnetsecurity.com/2026/05/20/verizon-2026-dbir-findings/",
-      "source": "Help Net Security",
+      "title": "Microsoft Warns of Two Actively Exploited Defender Vulnerabilities",
+      "url": "https://thehackernews.com/2026/05/microsoft-warns-of-two-actively.html",
+      "source": "The Hacker News",
+      "date": "2026-05-21",
+      "summary": "Microsoft has disclosed two actively exploited vulnerabilities in Microsoft Defender, including a privilege escalation flaw (CVE-2026-41091, CVSS 7.8) that could allow attackers to gain SYSTEM privileges. The vulnerabilities involve improper link resolution before file access and a denial-of-service flaw, both confirmed as exploited in the wild.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNxp-fCwFOYcXoyRTmhjpwfvFCjfE36YoU8z-7es2XrOajnfSfpttiB9KMfwqCNbwzHQ85kILhlUwo4DeQFWXFq29J8p_oVAIe-gKCCegmTid4YW_22sK6CQO_TwELXa7Z-RZmvDvHx7N3Vg7y-xm78iSGjzCg2AU3FnHo1Hp7v80JJkBruCc05JVvVwnx/s1600/windows-defender.jpg",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "When Identity is the Attack Path",
+      "url": "https://thehackernews.com/2026/05/when-identity-is-attack-path.html",
+      "source": "The Hacker News",
+      "date": "2026-05-21",
+      "summary": "An analysis examines how a cached AWS access key on a single Windows machine created an attack path to approximately 98% of entities in a company's cloud environment. The scenario illustrates how standard credential caching behavior, rather than misconfiguration, can create critical identity-based lateral movement risks in cloud infrastructure.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgv9W2lSuCdHjvqeLUN5WtqUOgCwe2FAyP1Y_z4oUr1LgM1MdOE5A83gkzSOfGjIosfdlfB4SuLbeVbydeuParENW4MH2aWYuWqnB-DeOd7gC3RJnp7wFucmuinh9kiMBI99337kQYcBrlIX-WH3u204eu7FTy5b_gpkXC6ZHupWD3P60yFk4-2DUrTuuc/s1600/xmxm.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Identity Alone Isn't Enough: Why Device Security Has to Share the Load",
+      "url": "https://www.bleepingcomputer.com/news/security/identity-alone-isnt-enough-why-device-security-has-to-share-the-load/",
+      "source": "Bleeping Computer",
       "date": "2026-05-20",
-      "summary": "The 2025 Verizon Data Breach Investigations Report found that vulnerability exploitation has surpassed stolen credentials as the most common initial access vector for the first time in the report's 19-year history. This marks a significant shift from credential-based attacks, which have historically dominated as the primary method attackers use to gain entry into target networks.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/05/19182742/verizon-dbir-2026.webp",
+      "summary": "Specops Software published a piece arguing that identity verification alone is insufficient for Zero Trust security due to threats like stolen session tokens and compromised devices. The article advocates for continuous device verification as a necessary complement to identity checks in Zero Trust strategies.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/05/18/identity-alone-isnt-enough-why-device-security-has-to-share-the-load.png",
       "importance": 6,
       "paywall": false
     },
@@ -78,19 +108,49 @@
       "url": "https://thehackernews.com/2026/05/agent-ai-is-coming-are-you-ready.html",
       "source": "The Hacker News",
       "date": "2026-05-20",
-      "summary": "Orchid Security released its \"Identity Gap: Snapshot 2026\" report on May 19, 2026, examining unmanaged identity elements in enterprise environments. The report finds that \"identity dark matter\" — unseen and unmanaged identity components — now accounts for 57% of enterprise identity landscape, outweighing visible/managed elements, with Agent AI adoption cited as a compounding factor.",
+      "summary": "Orchid Security released its \"Identity Gap: Snapshot 2026\" report on May 19th, 2026, examining unmanaged identity elements in enterprise environments. The report found that \"identity dark matter\" — unseen and unmanaged identity components — now accounts for 57% of enterprise identity surface area, outpacing visible managed identities at 43%, with the trend coinciding with growing enterprise adoption of Agent AI.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjYQaF0euKIc86WLed9RLojSVHUNrnpx7_OeZHvmaPtnFPmL3WrhC-DU-7asOtrYx8fBGP-UCdxI1QljVgaT_wYA6uIye4yHpzpk-uSQb934K7NDSPn-jFJR63cEeUZ8SsDevlcvX-O62_-C8HZeVreeg2aB5stt6z9kluLUvIUgXAGVpAMccDc19lrsmK/s1600/agentai.gif",
       "importance": 6,
       "paywall": false
     },
     {
-      "title": "GitHub Breached — Employee Device Hack Led to Exfiltration of 3,800+ Internal Repos",
-      "url": "https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html",
-      "source": "The Hacker News",
+      "title": "Security Hub Extended expands to 21 curated partner solutions across 9 categories",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-security-hub-extended/",
+      "source": "Amazon.com",
       "date": "2026-05-20",
-      "summary": "GitHub is investigating unauthorized access to its internal repositories after threat actor TeamPCP listed GitHub source code and internal organization data for sale on a cybercrime forum, with over 3,800 internal repos reportedly exfiltrated via a compromised employee device. GitHub states there is currently no evidence of impact to customer data stored outside its internal repositories.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoDiyeJZY33dxAsa8qElLYXNILLDT4NhloINZiuzcx3La2JvDK_d54kM8qsx_obt8vQ3FpTJr2ZVoMYiEcqHN0sbt-1A_MHlS7mSavlbDiEDg42HN1d4wCffs7ytuZhDvmMjuej5oljVIqIuRezyZCLmafRclN3wNBKcboV-19F0VMMBkVsQZckV5UaiiH/s1600/github.jpg",
+      "summary": "AWS expanded its Security Hub Extended plan to include 21 curated partner solutions across 9 security categories. CyberArk is listed as one of the included partners under the identity category.",
+      "image": null,
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Provision IAM Announces Strategic Investments from Georgia's Own and InTouch Credit Unions",
+      "url": "https://www.prnewswire.com/news-releases/provision-iam-announces-strategic-investments-from-georgias-own-and-intouch-credit-unions-302778028.html",
+      "source": "PRNewswire",
+      "date": "2026-05-20",
+      "summary": "Provision IAM announced strategic investments from Georgia's Own Credit Union and InTouch Credit Union, expanding its Customer Advisory Board. The partnerships align Provision IAM with the credit union sector as part of its broader industry growth strategy.",
+      "image": "https://mma.prnewswire.com/media/1852482/Provision_IAM_Logo_1.jpg?p=facebook",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Okta (OKTA) Could Raise Its Fiscal 2027 Guidance Amid Improved Demand And Execution, Says Barclays",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/okta-okta-could-raise-fiscal-170750410.html",
+      "source": "Yahoo Entertainment",
+      "date": "2026-05-20",
+      "summary": "Barclays analysts suggested Okta could raise its fiscal 2027 guidance based on improved demand and execution. The commentary positions Okta as a top cloud stock pick with a noted short float of 5.03% and 21.50% upside potential.",
+      "image": "https://s.yimg.com/ny/api/res/1.2/JZzbZk7tbNKhmTpJfkj7WA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzM-/https://media.zenfs.com/en/insidermonkey.com/ba64b0f66fdc19189f7d470f70d852f4",
       "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "Keeper Security Launches ServiceNow Workflow Integration for Governed, Self-Service Vault Management",
+      "url": "https://www.prnewswire.com/news-releases/keeper-security-launches-servicenow-workflow-integration-for-governed-self-service-vault-management-302777364.html",
+      "source": "PRNewswire",
+      "date": "2026-05-20",
+      "summary": "Keeper Security has launched a new integration with ServiceNow that brings Keeper Vault operations directly into ServiceNow's Service Catalog and Flow Designer. The integration covers access requests, record storage, and endpoint privilege management approvals within ServiceNow workflows.",
+      "image": "https://mma.prnewswire.com/media/1813826/Keeper_Security_LogoV2.jpg?p=facebook",
+      "importance": 6,
       "paywall": false
     },
     {
@@ -98,7 +158,7 @@
       "url": "https://www.darkreading.com/cybersecurity-operations/cisa-exposes-secrets-credentials-private-repo",
       "source": "Dark Reading",
       "date": "2026-05-19",
-      "summary": "CISA inadvertently exposed secrets and credentials in a GitHub repository that was publicly accessible since November 2025. The repository, ironically named \"Private-CISA,\" contained sensitive credentials that should not have been publicly available.",
+      "summary": "CISA inadvertently exposed secrets and credentials in a GitHub repository that was publicly accessible since November 2025. The repository, ironically named \"Private-CISA,\" contained sensitive information that should have been kept confidential.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt188d6215ae555513/6a0cb49ac7403d88c6336bf7/github_PJ_McDonnell_Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 6,
       "paywall": false
@@ -108,7 +168,7 @@
       "url": "https://thehackernews.com/2026/05/compromised-nx-console-18950-targeted.html",
       "source": "The Hacker News",
       "date": "2026-05-19",
-      "summary": "A compromised version of the Nx Console extension (version 18.95.0) was published to the VS Code Marketplace, targeting developers with a credential stealer. The malicious extension, which has over 2.2 million installations, was designed to steal credentials from developers using VS Code, Cursor, and JetBrains editors.",
+      "summary": "A compromised version of the Nx Console VS Code extension (version 18.95.0) was published to the Microsoft Visual Studio Code Marketplace, targeting developers with a credential stealer. The malicious extension, with over 2.2 million installations, was designed to steal credentials from users of VS Code, Cursor, and JetBrains editors.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi61imbY3-QbM_mT_6WAxBXaFeZ3eXwprN147ox_bMvVqh9NrS69IwqwwL4qu2z1eRA8NfrWwyJi9bIDuREGEVZ-LdBMCGTSxdul92ZApPGrzwqOcr3b6YBKC19N97sk75izvamQxOqBzokKhF-__uaEuw74ZbKQLxKxMQWgRXSCR3FE6ULeHGxbiIhuEso/s1600/nconsole.jpg",
       "importance": 5,
       "paywall": false
@@ -118,9 +178,9 @@
       "url": "https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html",
       "source": "The Hacker News",
       "date": "2026-05-19",
-      "summary": "Threat actors compromised the GitHub Actions workflow \"actions-cool/issues-helper\" by redirecting all existing repository tags to a malicious imposter commit. The attack targets CI/CD pipeline credentials, harvesting and exfiltrating sensitive credentials to an attacker-controlled server.",
+      "summary": "Threat actors compromised the GitHub Actions workflow \"actions-cool/issues-helper\" by redirecting all existing repository tags to a malicious imposter commit. The attack is designed to harvest and exfiltrate sensitive CI/CD credentials, including secrets and tokens used in automated pipeline environments.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc7jpVO6HhBuEBTjkwmNjYhKlFmhhmytOqNZHYuGP-dNWrf3AoyE68yoKj77elddOX4Ps2x9jSuwhi5sE-QjK_oEjLXgQW9e6EHx6W0G7qTqYTM3fZh1AQTyrgm2o-PFBeD9ryHnC6fDmK5MYKUzBjU_pJibTilnm1d99WSQkJux6PXXRydkYW5d15Ada-/s1600/step.jpg",
-      "importance": 5,
+      "importance": 6,
       "paywall": false
     },
     {
@@ -128,7 +188,7 @@
       "url": "https://aws.amazon.com/blogs/security/cirt-insights-how-to-help-prevent-unauthorized-account-removals-from-aws-organizations/",
       "source": "Amazon.com",
       "date": "2026-05-19",
-      "summary": "The AWS Customer Incident Response Team published insights on preventing unauthorized account removals from AWS Organizations, based on patterns observed during active security incident responses. The guidance addresses threat actor tactics that exploit specific AWS configuration weaknesses related to organizational account management and access controls.",
+      "summary": "The AWS Customer Incident Response Team published insights on preventing unauthorized account removals from AWS Organizations, based on patterns observed during active security incident responses. The guidance addresses threat actor tactics that exploit specific customer configurations to remove accounts from AWS Organizations, which has direct implications for cloud access governance and privilege management.",
       "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/05/19/locks3-pixabay-1260x630.jpg",
       "importance": 7,
       "paywall": false
@@ -148,7 +208,7 @@
       "url": "https://www.prnewswire.com/news-releases/ema-research-finds-legacy-iam-systems-are-slowing-ai-adoption-in-financial-sector-302775020.html",
       "source": "PRNewswire",
       "date": "2026-05-19",
-      "summary": "EMA Research, commissioned by Ory Corp., surveyed 271 IT and security professionals and found that legacy IAM systems are hindering AI adoption in the financial and insurance sectors. Full-scale AI production deployment in financial institutions trails the broader market at 29.7% versus 40.6%, with IAM infrastructure identified as a key bottleneck.",
+      "summary": "EMA Research, commissioned by Ory Corp., surveyed 271 IT and security professionals and found that legacy IAM systems are impeding AI adoption in the financial and insurance sectors. Financial institutions show significantly lower full-scale AI production deployment rates (29.7%) compared to the broader market (40.6%), with IAM infrastructure identified as a key bottleneck.",
       "image": "https://mma.prnewswire.com/media/2664263/enterprise_management_associates_202504_Logo.jpg?p=facebook",
       "importance": 7,
       "paywall": false
@@ -158,7 +218,7 @@
       "url": "https://www.prnewswire.com/news-releases/automation-anywhere-collaborates-with-cisco-nvidia-okta-and-openai-launching-enterpriseclaw-to-run-next-generation-ai-agents-inside-enterprise-systems-302775670.html",
       "source": "PRNewswire",
       "date": "2026-05-19",
-      "summary": "Automation Anywhere announced a collaboration with Cisco, NVIDIA, Okta, and OpenAI to launch EnterpriseClaw, a platform for running AI agents across cloud, desktop, and on-premises enterprise systems. Okta is listed as one of several partners in the initiative, with the platform focusing on AI agent orchestration and governance rather than identity management specifically.",
+      "summary": "Automation Anywhere announced a collaboration with Cisco, NVIDIA, Okta, and OpenAI to launch EnterpriseClaw, a platform for running AI agents across enterprise environments. Okta is listed as one of several partners, but the announcement is primarily focused on AI agent automation rather than identity or access management capabilities.",
       "image": "https://mma.prnewswire.com/media/541440/automation_anywhere_v1_logo.jpg?p=facebook",
       "importance": 3,
       "paywall": false
@@ -168,7 +228,7 @@
       "url": "https://www.bleepingcomputer.com/news/security/critical-microsoft-vulnerabilities-doubled-from-exposure-to-escalation/",
       "source": "BleepingComputer",
       "date": "2026-05-19",
-      "summary": "Microsoft critical vulnerabilities doubled year-over-year in 2025 despite a steady total vulnerability count, according to BeyondTrust analysis. The report focuses on attackers' increasing use of privilege escalation and identity abuse as primary attack vectors.",
+      "summary": "BeyondTrust's analysis reveals that critical Microsoft vulnerabilities doubled in 2025 compared to the prior year, while the overall vulnerability count remained steady. The report highlights a shift in attacker focus toward privilege escalation and identity abuse as primary exploitation vectors.",
       "image": "https://www.bleepstatic.com/content/posts/2026/05/15/beyondtrust-microsoft-vulnerabilities-report.jpg",
       "importance": 7,
       "paywall": false
@@ -178,7 +238,7 @@
       "url": "https://www.prnewswire.com/news-releases/majorkey-technologies-selected-to-deliver-ddil-identity-capabilities-at-the-tactical-edge-302773352.html",
       "source": "PRNewswire",
       "date": "2026-05-19",
-      "summary": "MajorKey Technologies has been selected by a U.S. Department of Defense agency to deliver its NomadID solution for identity capabilities in disconnected, denied, intermittent, and limited (DDIL) environments. NomadID is designed to provide continuous, secure access management at the tactical edge where traditional network connectivity is unavailable or contested.",
+      "summary": "MajorKey Technologies has been selected by a U.S. Department of Defense agency to deliver its NomadID solution for identity capabilities in disconnected, denied, intermittent, and limited (DDIL) environments. NomadID is designed to provide continuous, secure access management at the tactical edge where traditional connectivity-dependent identity systems cannot function.",
       "image": "https://mma.prnewswire.com/media/2980748/MajorKey_Technologies_OCG_Color_Logos.jpg?p=facebook",
       "importance": 6,
       "paywall": false
@@ -188,7 +248,7 @@
       "url": "https://www.globenewswire.com/news-release/2026/05/19/3297630/0/en/Two-Thirds-of-Nonhuman-Accounts-Are-Unseen-and-Unmanaged-According-to-Orchid-Security-s-Identity-Gap-Report.html",
       "source": "GlobeNewswire",
       "date": "2026-05-19",
-      "summary": "Orchid Security released its Identity Gap Report finding that two-thirds of nonhuman accounts in enterprises are unseen and unmanaged. The report highlights \"identity dark matter\" as a growing risk, with implications for enterprise identity posture and AI agent readiness.",
+      "summary": "Orchid Security released its Identity Gap Report finding that two-thirds of nonhuman accounts in enterprises are unseen and unmanaged. The research highlights what the company calls \"identity dark matter,\" linking unmanaged nonhuman identities to weaknesses in enterprise identity posture and AI agent readiness.",
       "image": "https://ml.globenewswire.com/Resource/Download/72c3bce1-a82d-465f-9f2e-1648f618f497",
       "importance": 7,
       "paywall": false
@@ -198,9 +258,9 @@
       "url": "https://www.darkreading.com/application-security/claw-chain-vulnerabilities-threaten-openclaw",
       "source": "Dark Reading",
       "date": "2026-05-18",
-      "summary": "Patched vulnerabilities dubbed \"Claw Chain\" in the OpenClaw AI agent framework allowed attackers to steal credentials, escalate privileges, and maintain persistence. The flaws affect deployments of the rapidly growing AI agent framework, touching on core IAM concerns including credential theft and privilege escalation.",
+      "summary": "A set of vulnerabilities dubbed \"Claw Chain\" were discovered in the OpenClaw AI agent framework, now patched, that allowed attackers to steal credentials, escalate privileges, and maintain persistence. The flaws affected deployments of the rapidly growing framework, exposing credential theft and privilege escalation risks.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf136884c4aa5baab/6a0b76008388efee0d946879/openclaw_jackpress_shutterstock.jpg?width=1280&auto=webp&quality=80&disable=upscale",
-      "importance": 6,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -208,9 +268,9 @@
       "url": "https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html",
       "source": "The Hacker News",
       "date": "2026-05-18",
-      "summary": "Three coordinated supply chain attack campaigns targeting npm, PyPI, and Docker Hub were discovered within a 48-hour window, all focused on stealing credentials and access tokens from developer environments and CI/CD pipelines. The attacks targeted API keys, cloud credentials, SSH keys, and tokens, positioning developer workstations as a vector for compromising trusted software access.",
+      "summary": "Three separate supply chain attacks targeting npm, PyPI, and Docker Hub occurred within a 48-hour window, all focused on stealing secrets from developer environments and CI/CD pipelines. The stolen credentials included API keys, cloud credentials, SSH keys, and authentication tokens from developer workstations.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjylLL25uQ3uU6RshKkTv9isR22Y_6_b4uJJ4koE1MqtmGs4IWdz88_aH8up_7WDxghA7-GeMbm6gpoKUXRw99Cm1ljO03H8bdcv91vvO_ch313e_JAwtYH-CewZJF2WkNrYWtcp-acMiPTvSs5aan7v2DLpEjVSBuEarfJ-eCLEHCL2WK9zjxOho_gj3k/s1600/git.gif",
-      "importance": 6,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -218,7 +278,7 @@
       "url": "https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html",
       "source": "The Hacker News",
       "date": "2026-05-18",
-      "summary": "Ivanti, Fortinet, SAP, VMware, and n8n have released security patches addressing vulnerabilities including authentication bypass and privilege escalation flaws. The most critical issue is CVE-2026-8043 (CVSS 9.6) affecting Ivanti Xtraction, which could enable information disclosure or client-side attacks.",
+      "summary": "Ivanti, Fortinet, SAP, VMware, and n8n released security patches addressing vulnerabilities including authentication bypass and privilege escalation flaws. The most critical issue is CVE-2026-8043 (CVSS 9.6) affecting Ivanti Xtraction, which could enable information disclosure or client-side attacks.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2iqd3uRuOdLaM83LyZC9GOeOLeP9BnBVQQQzF7LZUeBTXfGo6e6b9c7PSC0Tkt_vhN_FUFUiDwnLXXNmzpIubE5bI0rA7dRaDhuiV35uiNTcMab7o8E_1ehn3CzUUsfno-6fYECbYzGNS1dyNof1ihn-hf4QYjLn7ZD53y_byQigukme9w-LAeBKDWXAg/s1600/patches.jpg",
       "importance": 5,
       "paywall": false
@@ -228,39 +288,9 @@
       "url": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
       "source": "Krebs on Security",
       "date": "2026-05-18",
-      "summary": "A CISA contractor exposed highly privileged AWS GovCloud account credentials and internal system access details in a public GitHub repository until this past weekend. The leaked files reportedly detailed CISA's internal software build, test, and deployment processes, representing a significant credential and access management failure.",
-      "image": null,
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "BeyondTrust Named an Overall Leader in 2026 KuppingerCole Analysts Leadership Compass for Privileged Access Management for Sixth Consecutive Year",
-      "url": "https://financialpost.com/globe-newswire/beyondtrust-named-an-overall-leader-in-2026-kuppingercole-analysts-leadership-compass-for-privileged-access-management-for-sixth-consecutive-year",
-      "source": "Financial Post",
-      "date": "2026-05-18",
-      "summary": "BeyondTrust has been named an Overall Leader in the 2026 KuppingerCole Leadership Compass for Privileged Access Management for the sixth consecutive year. The recognition spans Product, Innovation, and Market Leadership categories, with highlights including just-in-time and ephemeral access capabilities, AI agent governance, cross-domain privilege graph, and identity and DevOps integrations.",
+      "summary": "A CISA contractor publicly exposed highly privileged AWS GovCloud account credentials and internal system access details in a public GitHub repository until this past weekend. The leaked repository contained files describing CISA's internal software build, test, and deployment processes alongside the sensitive credentials.",
       "image": null,
       "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "WinMagic Responds to New CISA OT Guidance With Transport-Layer Identity Architecture",
-      "url": "https://www.prnewswire.com/news-releases/winmagic-responds-to-new-cisa-ot-guidance-with-transport-layer-identity-architecture-302774649.html",
-      "source": "PRNewswire",
-      "date": "2026-05-18",
-      "summary": "WinMagic has introduced a transport-layer identity architecture in response to new CISA guidance on operational technology (OT) environments. The solution features an endpoint-driven approach using Live Key and Live Identity technologies, addressing what the company says are gaps in current Zero Trust models for critical infrastructure where uptime and continuous trust are required.",
-      "image": "https://mmx.prnewswire.com/media/MS1844333/WInMagic-Image.jpg?id=OA2638298&p=facebook",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "GetReal Security Launches First Trust and Authenticity Platform That Combines Real-Time Continuous Identity Verification and Deepfake Detection",
-      "url": "https://www.prnewswire.com/news-releases/getreal-security-launches-first-trust-and-authenticity-platform-that-combines-real-time-continuous-identity-verification-and-deepfake-detection-302773987.html",
-      "source": "PRNewswire",
-      "date": "2026-05-18",
-      "summary": "GetReal Security has launched a platform called GetReal Protect that combines real-time continuous identity verification with deepfake detection across voice and video communications. The solution targets AI-generated fraud by authenticating and continuously verifying identity during live communications, addressing over $1.6 billion in reported deepfake-related financial losses in 2025.",
-      "image": "https://mma.prnewswire.com/media/2769453/Get_Real_Logo.jpg?p=facebook",
-      "importance": 6,
       "paywall": false
     },
     {
@@ -268,7 +298,7 @@
       "url": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
       "source": "Krebs on Security",
       "date": "2026-04-21",
-      "summary": "Tyler Robert Buchanan, a senior member of the cybercrime group Scattered Spider, pleaded guilty to wire fraud conspiracy and aggravated identity theft for his role in SMS phishing attacks against major technology companies in 2022. The attacks targeted authentication credentials through text-message phishing, enabling the group to compromise at least a dozen companies and steal tens of millions in cryptocurrency.",
+      "summary": "Tyler Robert Buchanan, a 24-year-old British national and senior member of Scattered Spider, pleaded guilty to wire fraud conspiracy and aggravated identity theft. Buchanan admitted to conducting SMS phishing attacks in 2022 that enabled the group to compromise at least a dozen major technology companies and steal tens of millions of dollars in cryptocurrency.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -278,7 +308,7 @@
       "url": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
       "source": "Krebs on Security",
       "date": "2026-04-07",
-      "summary": "Russian military intelligence hackers are exploiting vulnerabilities in older internet routers to harvest Microsoft Office authentication tokens from users across more than 18,000 networks. The campaign operates without deploying malware, relying instead on router flaws to silently siphon authentication tokens at scale.",
+      "summary": "Russian military intelligence-linked hackers exploited vulnerabilities in older internet routers to harvest Microsoft Office authentication tokens from over 18,000 networks. The campaign operated without deploying malware, relying solely on token theft to silently compromise user access.",
       "image": null,
       "importance": 8,
       "paywall": false
