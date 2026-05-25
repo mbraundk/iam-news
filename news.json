@@ -1,22 +1,12 @@
 {
-  "updated": "May 24, 2026 at 06:45 UTC",
+  "updated": "May 25, 2026 at 07:24 UTC",
   "top_stories": [
-    {
-      "title": "Microsoft 365 users targeted by new phishing threat that bypasses MFA",
-      "url": "https://www.helpnetsecurity.com/2026/05/22/kali365-microsoft-365-phishing-fbi-warning/",
-      "source": "Help Net Security",
-      "date": "2026-05-22",
-      "summary": "The FBI has issued a warning about Kali365, a Phishing-as-a-Service platform first observed in April 2026 that captures Microsoft 365 OAuth access tokens to bypass MFA without stealing credentials. The platform is distributed via Telegram and provides attackers with AI-generated phishing lures, automated campaign templates, real-time tracking dashboards, and OAuth token capture capabilities.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/08/08143621/microsoft-365-phishing.webp",
-      "importance": 8,
-      "paywall": false
-    },
     {
       "title": "Announcing The Forrester Wave™: Workforce Identity Platforms, Q2 2026",
       "url": "https://www.forrester.com/blogs/announcing-the-forrester-wave-workforce-identity-platforms-q2-2026/",
       "source": "Forrester.com",
       "date": "2026-05-21",
-      "summary": "Forrester has released its Q2 2026 Wave evaluation of Workforce Identity Security Platforms, assessing and ranking major providers in the workforce identity security market. The report reflects the growing strategic importance of workforce identity security in modern cybersecurity environments.",
+      "summary": "Forrester has released its Q2 2026 Wave evaluation covering workforce identity security platforms. The report assesses and ranks major IAM vendors competing in the workforce identity space, serving as a key reference for enterprise purchasing decisions.",
       "image": "https://go.forrester.com/wp-content/uploads/2026/05/Announcing-The-Forrester-Wave™-Workforce-Identity-Platforms-Q2-2026.jpg",
       "importance": 8,
       "paywall": false
@@ -26,7 +16,7 @@
       "url": "https://www.darkreading.com/identity-access-management-security/shifting-budget-dynamics-identity-security-ai-agents",
       "source": "Dark Reading",
       "date": "2026-05-21",
-      "summary": "New Omdia research examines how AI agent identity management is creating distinct budget dynamics compared to traditional IAM projects. The proliferation of AI agent identities in enterprises is driving new requirements for identity management, security, and governance.",
+      "summary": "New Omdia research examines how AI agent identity management is creating distinct budget dynamics compared to traditional IAM projects. The research focuses on how enterprises must manage, secure, and govern the proliferating identities of AI agents across the organization.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd00712c4fd23579b/6a0e0281107a585c56c6d09e/AI_ID_card_Edgars_Sermulis_Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -36,7 +26,7 @@
       "url": "https://www.helpnetsecurity.com/2026/05/22/deleted-google-api-keys-risk/",
       "source": "Help Net Security",
       "date": "2026-05-22",
-      "summary": "Aikido Security researchers found that deleted Google API keys remain valid and continue authenticating for up to 23 minutes after deletion. This affects credential revocation practices, as attackers who obtain a leaked key can still use it to make API calls, access Gemini AI files, and view cached conversations during the post-deletion window.",
+      "summary": "Aikido Security researchers discovered that deleted Google API keys remain functional for up to 23 minutes after deletion due to caching delays in Google's authentication infrastructure. This affects credential revocation reliability, meaning leaked API keys that are deleted may still be exploited within that window to authenticate, make API calls, and potentially access Gemini AI files and cached conversations.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2025/02/09085513/keys2-1500.webp",
       "importance": 7,
       "paywall": false
@@ -46,31 +36,71 @@
       "url": "https://www.helpnetsecurity.com/2026/05/22/versa-extends-zero-trust-principles-to-ai-agents-and-mcp-workflows/",
       "source": "Help Net Security",
       "date": "2026-05-22",
-      "summary": "Versa has introduced a patent-pending zero trust architecture for the Model Context Protocol (MCP), applying identity-based validation to AI agent actions before execution. The system validates every AI-generated action against user identity, role-based access controls, and system policies, with optional human approval gates configured by administrators.",
+      "summary": "Versa has introduced a patent-pending zero trust architecture for the Model Context Protocol (MCP), applying identity-based validation to AI agent actions in enterprise environments. Every AI-generated action is checked against user identity, role-based access controls, and system policies before execution, with optional human approval gates configurable by administrators.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "When Identity is the Attack Path",
+      "url": "https://thehackernews.com/2026/05/when-identity-is-attack-path.html",
+      "source": "The Hacker News",
+      "date": "2026-05-21",
+      "summary": "An analysis examines how a single cached AWS access key on a Windows machine can expose up to 98% of a company's cloud entities to attackers. The piece illustrates how standard credential caching behavior, rather than misconfiguration, creates critical identity-based attack paths in cloud environments.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgv9W2lSuCdHjvqeLUN5WtqUOgCwe2FAyP1Y_z4oUr1LgM1MdOE5A83gkzSOfGjIosfdlfB4SuLbeVbydeuParENW4MH2aWYuWqnB-DeOd7gC3RJnp7wFucmuinh9kiMBI99337kQYcBrlIX-WH3u204eu7FTy5b_gpkXC6ZHupWD3P60yFk4-2DUrTuuc/s1600/xmxm.jpg",
       "importance": 7,
       "paywall": false
     }
   ],
   "news": [
     {
+      "title": "Lessons for organizations from the Verizon 2026 Data Breach Investigations Report",
+      "url": "https://www.helpnetsecurity.com/2026/05/25/lessons-from-verizon-dbir-2026-findings/",
+      "source": "Help Net Security",
+      "date": "2026-05-25",
+      "summary": "<p>This is my favourite time of the year, not just because spring is here and the promise of summer is on the way. But also, because one of my must reads each year gets published. There are a few must read reports that I have on my reading list for each year and the Verizon Data Breach Investigations Report is on top of that list. The latest Verizon 2026 Data Breach Investigations Report (DBIR) once &#8230; <a href=\"https://www.helpnetsecurity.com/2026/05/25/lessons-from-verizon-dbir-2026-findings/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/05/25/lessons-from-verizon-dbir-2026-findings/\">Lessons for organizations from the Verizon 2026 Data Breach Investigations Report</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/03/29222743/world-map-1500.webp",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "TrapDoor Supply Chain Attack Spreads Credential-Stealing Malware via npm, PyPI, and CratesIO",
+      "url": "https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html",
+      "source": "The Hacker News",
+      "date": "2026-05-25",
+      "summary": "A coordinated supply chain attack campaign called TrapDoor has distributed credential-stealing malware across npm, PyPI, and Crates.io via over 34 malicious packages spanning 384 versions. The campaign began on May 22, 2026, with packages published in waves targeting developers across multiple package ecosystems.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOb58wXNPgRDazHcSLTObawPnMVsCDUEAoFclGVn3CC8qe6Pr_0-Gce-SxCO7FJ5HzU23WE_soU5iTc0zvLL0zzbXPcO8MqVgHIIAKXJo4ExcujDPV9yiIdN1X1jV63ACBN66_ktTeQ0FVmYsCTJC3tpyxpUBrvxLh_xqF-mKOZy8uaqz3QKyf6XpJHC4z/s1600/npm-python-rust.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
       "title": "npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks",
       "url": "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html",
       "source": "The Hacker News",
       "date": "2026-05-23",
-      "summary": "GitHub has introduced staged publishing to npm, requiring maintainers to complete a 2FA challenge before packages become publicly available for installation. The feature is now generally available and adds human-gated approval controls to the npm publishing workflow as a supply chain security measure.",
+      "summary": "GitHub has introduced staged publishing for npm, requiring maintainers to complete a 2FA challenge before packages become publicly available. The feature adds human-gated approval controls to npm publishing workflows as a supply chain security measure.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4rnMZgOYbsYr65UN9AZ3oFzcAwqXSYqgRfjUGpeaQeyP-0OAaqJ9aceXPAiujRKwyGQMa_4ShcSvtOWPb9T3qpqF2LATAw2U4iA7IkU9ok0alDbzN_WYJeaZ1SrF0-vyRrEHGedMEcCeP2otYYqplHmqEBda1R_MePbWgEpt-b-GB_RhxJLDC1pJFV0S0/s1600/npm-security.png",
       "importance": 5,
       "paywall": false
     },
     {
-      "title": "Proton Pass adds monitored credential sharing for AI agents",
-      "url": "https://www.helpnetsecurity.com/2026/05/22/proton-pass-adds-monitored-credential-sharing-for-ai-agents/",
-      "source": "Help Net Security",
+      "title": "Working with Claims Mapping Policies in Microsoft Entra ID",
+      "url": "https://www.c-sharpcorner.com/article/working-with-claims-mapping-policies-in-microsoft-entra-id/",
+      "source": "C-sharpcorner.com",
+      "date": "2026-05-23",
+      "summary": "The article covers how to use Claims Mapping Policies in Microsoft Entra ID to customize tokens for OAuth, OpenID Connect, and SAML applications. It explains how to add user attributes such as first and last name to tokens and assign these policies to Service Principals.",
+      "image": "https://www.c-sharpcorner.com/images/csharp-corner-new.png",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
+      "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
+      "source": "Krebs on Security",
       "date": "2026-05-22",
-      "summary": "Proton Pass has added AI access tokens that enable monitored credential sharing with AI agents, requiring agents to provide a reason for access requests. The feature is available across paid Proton Pass tiers and allows users to grant AI agents access to selected password vault items while monitoring their activity.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/05/22122131/proton-pass-1500.webp",
-      "importance": 7,
+      "summary": "A CISA contractor intentionally published AWS GovCloud keys and other agency secrets to a public GitHub account, resulting in a significant credential leak. Lawmakers from both chambers of Congress are demanding answers while CISA works to contain the breach and invalidate the exposed credentials.",
+      "image": null,
+      "importance": 6,
       "paywall": false
     },
     {
@@ -78,7 +108,7 @@
       "url": "https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/security-updates-pks",
       "source": "Microsoft.com",
       "date": "2026-05-22",
-      "summary": "Microsoft is implementing security hardening changes to the autoupgrade process for Microsoft Entra Connect and Microsoft Entra Connect Health. These updates affect the automated update mechanisms for the hybrid identity synchronization tools that connect on-premises Active Directory environments to Microsoft Entra ID.",
+      "summary": "Microsoft has implemented security hardening changes to the autoupgrade process for Microsoft Entra Connect and Microsoft Entra Connect Health. The update affects how these identity synchronization and monitoring tools automatically update themselves, requiring IAM administrators to review and potentially adjust their deployment configurations.",
       "image": "https://learn.microsoft.com/en-us/media/open-graph-image.png",
       "importance": 6,
       "paywall": true
@@ -88,7 +118,7 @@
       "url": "https://www.microsoft.com/en-us/security/blog/2026/05/22/microsoft-recognized-as-a-leader-in-the-forrester-wave-for-workforce-identity-security-platforms/",
       "source": "Microsoft.com",
       "date": "2026-05-22",
-      "summary": "Microsoft has been recognized as a Leader in The Forrester Wave™ for Workforce Identity Security Platforms, Q2 2026. The company received the highest scores in both the current offering and strategy categories in the analyst evaluation.",
+      "summary": "Microsoft has been recognized as a Leader in The Forrester Wave™ for Workforce Identity Security Platforms, Q2 2026. The company received the highest scores in both the current offering and strategy categories in this analyst evaluation of identity security platforms.",
       "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/05/Forrester-Wave-Workforce-Identity-scaled.jpg",
       "importance": 7,
       "paywall": true
@@ -98,7 +128,7 @@
       "url": "https://www.techtarget.com/searchsecurity/opinion/Identity-security-for-AI-agents-The-proliferation-challenge",
       "source": "Techtarget.com",
       "date": "2026-05-22",
-      "summary": "The article addresses the challenge of securing AI agent identities, distinguishing them from human identities and traditional non-human identities (NHIs). It focuses on how identity teams must adapt security foundations to manage the nondeterministic behavior of AI agents as part of broader AI adoption.",
+      "summary": "The article addresses the security challenges identity teams face when managing AI agents, which differ fundamentally from human identities and traditional non-human identities (NHIs). The piece focuses on how nondeterministic AI agent behavior creates new requirements for identity governance and access management frameworks.",
       "image": "https://www.techtarget.com/ITKE/images/logos/TTlogo-379x201.png",
       "importance": 7,
       "paywall": false
@@ -108,9 +138,9 @@
       "url": "https://thenextweb.com/news/most-data-breaches-start-with-a-stolen-password/",
       "source": "The Next Web",
       "date": "2026-05-22",
-      "summary": "The article addresses the widespread problem of poor password hygiene in organizations, including credential reuse, sharing, and insecure storage. It focuses on authentication vulnerabilities and how to remediate them, which is directly relevant to IAM professionals managing identity and access controls.",
+      "summary": "The article addresses the widespread problem of poor password hygiene in organizations, including credential reuse, sharing, and insecure storage practices. It appears to be a general advisory or opinion piece on password security practices rather than reporting on a specific event, product, or policy change.",
       "image": "https://media.thenextweb.com/2026/05/most-data-breaches-start-with-a-stolen-password.avif",
-      "importance": 6,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -118,7 +148,7 @@
       "url": "https://www.computerweekly.com/feature/GCC-firms-rethink-cyber-defences-as-AI-phishing-surges",
       "source": "ComputerWeekly.com",
       "date": "2026-05-22",
-      "summary": "Security leaders across Gulf Cooperation Council (GCC) firms are accelerating investments in identity security and rethinking trust models in response to AI-powered phishing campaigns expanding beyond email into collaboration tools like Teams, calendars, and AI platforms. The shift reflects growing adoption of zero trust frameworks as attack surfaces broaden across enterprise identity and communication channels.",
+      "summary": "Security leaders in Gulf Cooperation Council (GCC) firms are accelerating investments in identity security and rethinking trust models in response to AI-powered phishing campaigns expanding across platforms including Teams, calendars, and AI tools. The shift reflects growing adoption of zero trust frameworks as attack vectors move beyond traditional email-based phishing.",
       "image": "https://www.computerweekly.com/visuals/ComputerWeekly/Hero Images/security-phishing-cyber-attack-adobe.jpeg",
       "importance": 6,
       "paywall": false
@@ -128,7 +158,7 @@
       "url": "https://prtimes.jp/main/html/rd/p/000000180.000063011.html",
       "source": "Prtimes.jp",
       "date": "2026-05-22",
-      "summary": "Okta has announced integration with Claude's Compliance API to strengthen identity protection within Claude environments. The integration involves Okta's Identity Security Posture Management (ISPM) product working within Anthropic's Claude platform.",
+      "summary": "Okta has integrated its Identity Security Posture Management (ISPM) with Anthropic's Claude Compliance API to strengthen identity protection within Claude environments. The integration extends Okta's ISPM capabilities to monitor and manage identity security posture specifically for Claude AI deployments.",
       "image": "https://prcdn.freetls.fastly.net/release_image/63011/180/63011-180-24c617a8b79e07356bcc8bedb58fded4-1200x675.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
       "importance": 7,
       "paywall": false
@@ -138,19 +168,9 @@
       "url": "https://thehackernews.com/2026/05/microsoft-warns-of-two-actively.html",
       "source": "The Hacker News",
       "date": "2026-05-21",
-      "summary": "Microsoft has disclosed two actively exploited vulnerabilities in Microsoft Defender, including a privilege escalation flaw (CVE-2026-41091, CVSS 7.8) that can grant attackers SYSTEM privileges. The flaw involves improper link resolution before file access, alongside a separate denial-of-service vulnerability.",
+      "summary": "Microsoft has disclosed two actively exploited vulnerabilities in Microsoft Defender, including a privilege escalation flaw (CVE-2026-41091, CVSS 7.8) that allows attackers to gain SYSTEM privileges via improper link resolution. A denial-of-service flaw in Defender is also under active exploitation in the wild.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNxp-fCwFOYcXoyRTmhjpwfvFCjfE36YoU8z-7es2XrOajnfSfpttiB9KMfwqCNbwzHQ85kILhlUwo4DeQFWXFq29J8p_oVAIe-gKCCegmTid4YW_22sK6CQO_TwELXa7Z-RZmvDvHx7N3Vg7y-xm78iSGjzCg2AU3FnHo1Hp7v80JJkBruCc05JVvVwnx/s1600/windows-defender.jpg",
       "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "When Identity is the Attack Path",
-      "url": "https://thehackernews.com/2026/05/when-identity-is-attack-path.html",
-      "source": "The Hacker News",
-      "date": "2026-05-21",
-      "summary": "An analysis examines how a single cached AWS access key on a Windows machine can expose up to 98% of a company's cloud entities, representing a critical identity-based attack path. The scenario illustrates how standard credential caching behavior—not misconfiguration—creates lateral movement opportunities that attackers can exploit to traverse cloud environments.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgv9W2lSuCdHjvqeLUN5WtqUOgCwe2FAyP1Y_z4oUr1LgM1MdOE5A83gkzSOfGjIosfdlfB4SuLbeVbydeuParENW4MH2aWYuWqnB-DeOd7gC3RJnp7wFucmuinh9kiMBI99337kQYcBrlIX-WH3u204eu7FTy5b_gpkXC6ZHupWD3P60yFk4-2DUrTuuc/s1600/xmxm.jpg",
-      "importance": 7,
       "paywall": false
     },
     {
@@ -158,7 +178,7 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/why-okta-okta-sees-ai-210853186.html",
       "source": "Yahoo Entertainment",
       "date": "2026-05-21",
-      "summary": "Okta is positioning AI agents as an opportunity within its identity security business. The article frames this in the context of the stock's recent underperformance and potential turnaround investment thesis.",
+      "summary": "Okta is positioning AI agents as an identity security opportunity, according to analysis framing the company as a turnaround investment. The article discusses Okta's stock performance and strategic direction around AI agent identity management.",
       "image": "https://s.yimg.com/os/en/insidermonkey.com/d25ee3a1967b0b8a47186e4151f23199",
       "importance": 5,
       "paywall": false
@@ -168,7 +188,7 @@
       "url": "https://www.globenewswire.com/news-release/2026/05/21/3299496/0/en/WSO2-Accelerates-Agentic-Enterprise-Adoption-with-New-Agent-Identity-Forward-Deployed-Engineers-and-Expanded-Delivery-Partner-Ecosystem.html",
       "source": "GlobeNewswire",
       "date": "2026-05-21",
-      "summary": "WSO2 has expanded its Agent Fabric platform with new agent identity capabilities designed for AI-native enterprise environments. The update includes AI agent identity management features alongside forward deployed engineering services and an expanded delivery partner ecosystem.",
+      "summary": "WSO2 has expanded its Agent Fabric platform with new agent identity capabilities designed for AI-native enterprise environments. The update includes forward deployed engineering services and an expanded delivery partner ecosystem to support secure AI agent identity management across cloud systems.",
       "image": "https://ml.globenewswire.com/Resource/Download/b596dcc5-f17e-482b-b87d-e4bf0a23a665",
       "importance": 7,
       "paywall": false
@@ -178,7 +198,7 @@
       "url": "https://www.prnewswire.com/news-releases/semperis-takes-center-stage-at-infosec-europe-2026-302778488.html",
       "source": "PRNewswire",
       "date": "2026-05-21",
-      "summary": "Semperis, an identity-driven cyber resilience vendor, will take center stage at Infosec Europe 2026. The event will feature a panel with Simon Hodgkinson, Grace Cassy, Sarah Armstrong-Smith, and Jesse McGraw discussing \"Midnight in the War Room.\"",
+      "summary": "Semperis, an identity-driven cyber resilience vendor, announced its participation at Infosec Europe 2026. The highlight of their presence is a panel discussion featuring several cybersecurity professionals on the topic of \"Midnight in the War Room.\"",
       "image": "https://mmx.prnewswire.com/media/MS1122565/Semperis-Logo-Logo_Logo.jpg?id=OA2638963&p=facebook",
       "importance": 4,
       "paywall": false
@@ -188,9 +208,9 @@
       "url": "https://www.techtarget.com/searchunifiedcommunications/tip/Protecting-collaboration-with-behavior-based-access-controls",
       "source": "Techtarget.com",
       "date": "2026-05-21",
-      "summary": "The article discusses behavior-based access controls as a security approach for protecting modern collaboration sessions. It positions this method as a potential improvement over traditional security tools for securing collaborative environments.",
+      "summary": "The article discusses behavior-based access controls as a security approach for protecting modern collaboration sessions. It argues that traditional security tools are insufficient and positions behavior-based access controls as an alternative or complement to conventional access management methods.",
       "image": "https://www.techtarget.com/rms/onlineimages/security_a303570139.jpg",
-      "importance": 5,
+      "importance": 6,
       "paywall": false
     },
     {
@@ -198,7 +218,7 @@
       "url": "https://filamentmastery.com/articles/implement-saml-sso-authentication-in-laravel-filament-with-socialite/",
       "source": "Filamentmastery.com",
       "date": "2026-05-21",
-      "summary": "This article provides a technical tutorial on implementing SAML SSO authentication in Laravel Filament using the Socialite library and SAML2 provider. The guide covers authentication flow components including metadata endpoints, redirects, and callbacks for enterprise applications.",
+      "summary": "This article provides a technical tutorial on implementing SAML SSO authentication in Laravel Filament using the Socialite library and SAML2 provider. The guide covers authentication flow components including metadata endpoints, redirects, and callbacks for enterprise application development.",
       "image": "https://filamentmastery.com/content/images/2026/05/implement-saml-sso-authentication-in-laravel-filament-with-socialite.webp",
       "importance": 4,
       "paywall": false
@@ -208,39 +228,9 @@
       "url": "https://thehackernews.com/2026/05/agent-ai-is-coming-are-you-ready.html",
       "source": "The Hacker News",
       "date": "2026-05-20",
-      "summary": "Orchid Security released its \"Identity Gap: Snapshot 2026\" report on May 19, 2026, examining unmanaged identity elements in enterprise environments. The report found that \"identity dark matter\" — unseen and unmanaged identity components — now accounts for 57% of enterprise identity compared to 43% for visible, managed identity, coinciding with increased enterprise adoption of Agent AI.",
+      "summary": "Orchid Security released its \"Identity Gap: Snapshot 2026\" report on May 19th, 2026, examining unmanaged identity risks in enterprise environments. The report found that \"identity dark matter\" — unseen and unmanaged identity elements — now accounts for 57% of enterprise identity landscape, with the trend coinciding with increased enterprise adoption of Agent AI.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjYQaF0euKIc86WLed9RLojSVHUNrnpx7_OeZHvmaPtnFPmL3WrhC-DU-7asOtrYx8fBGP-UCdxI1QljVgaT_wYA6uIye4yHpzpk-uSQb934K7NDSPn-jFJR63cEeUZ8SsDevlcvX-O62_-C8HZeVreeg2aB5stt6z9kluLUvIUgXAGVpAMccDc19lrsmK/s1600/agentai.gif",
       "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Security Hub Extended expands to 21 curated partner solutions across 9 categories",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-security-hub-extended/",
-      "source": "Amazon.com",
-      "date": "2026-05-20",
-      "summary": "AWS expanded its Security Hub Extended plan to include 21 curated partner solutions across 9 security categories. CyberArk is listed as one of the included partners in the identity category alongside other vendors covering endpoint, email, data security, and other domains.",
-      "image": null,
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Provision IAM Announces Strategic Investments from Georgia's Own and InTouch Credit Unions",
-      "url": "https://www.prnewswire.com/news-releases/provision-iam-announces-strategic-investments-from-georgias-own-and-intouch-credit-unions-302778028.html",
-      "source": "PRNewswire",
-      "date": "2026-05-20",
-      "summary": "Provision IAM announced strategic investments from Georgia's Own Credit Union and InTouch Credit Union, expanding its Customer Advisory Board. The investments represent credit union partnerships aimed at aligning the IAM vendor's product direction with financial sector needs.",
-      "image": "https://mma.prnewswire.com/media/1852482/Provision_IAM_Logo_1.jpg?p=facebook",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Okta (OKTA) Could Raise Its Fiscal 2027 Guidance Amid Improved Demand And Execution, Says Barclays",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/okta-okta-could-raise-fiscal-170750410.html",
-      "source": "Yahoo Entertainment",
-      "date": "2026-05-20",
-      "summary": "Barclays analyst commentary suggests Okta could raise its fiscal 2027 guidance based on improved demand and execution. The note highlights Okta's position among recommended cloud stocks with a cited upside potential of 21.50% and a short float of 5.03%.",
-      "image": "https://s.yimg.com/ny/api/res/1.2/JZzbZk7tbNKhmTpJfkj7WA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzM-/https://media.zenfs.com/en/insidermonkey.com/ba64b0f66fdc19189f7d470f70d852f4",
-      "importance": 4,
       "paywall": false
     },
     {
@@ -248,7 +238,7 @@
       "url": "https://www.darkreading.com/cybersecurity-operations/cisa-exposes-secrets-credentials-private-repo",
       "source": "Dark Reading",
       "date": "2026-05-19",
-      "summary": "CISA accidentally exposed secrets and credentials in a GitHub repository named \"Private-CISA\" that was publicly accessible since November 2025. The leaked repository contained sensitive credentials, raising concerns about credential management practices at a federal cybersecurity agency.",
+      "summary": "CISA inadvertently exposed secrets and credentials in a GitHub repository that was publicly accessible since November 2025. The repository, ironically named \"Private-CISA,\" contained sensitive credentials that were visible to anyone accessing the public repo.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt188d6215ae555513/6a0cb49ac7403d88c6336bf7/github_PJ_McDonnell_Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 6,
       "paywall": false
@@ -258,9 +248,39 @@
       "url": "https://www.darkreading.com/application-security/claw-chain-vulnerabilities-threaten-openclaw",
       "source": "Dark Reading",
       "date": "2026-05-18",
-      "summary": "A set of vulnerabilities dubbed \"Claw Chain\" were discovered and patched in the OpenClaw AI agent framework, enabling attackers to steal credentials, escalate privileges, and maintain persistence. The flaws affect deployments of the rapidly growing AI agent framework, with the specific attack vectors involving credential theft and privilege escalation.",
+      "summary": "Vulnerabilities dubbed \"Claw Chain\" were discovered in the OpenClaw AI agent framework, allowing attackers to steal credentials, escalate privileges, and maintain persistence. The flaws have since been patched in what is described as a rapidly growing AI agent deployment environment.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf136884c4aa5baab/6a0b76008388efee0d946879/openclaw_jackpress_shutterstock.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
+      "url": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
+      "source": "Krebs on Security",
+      "date": "2026-05-18",
+      "summary": "A CISA contractor exposed credentials to highly privileged AWS GovCloud accounts and numerous internal CISA systems via a public GitHub repository. The leaked files included details on how CISA builds, tests, and deploys software internally, constituting a significant privileged credential exposure incident.",
+      "image": null,
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
+      "url": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
+      "source": "Krebs on Security",
+      "date": "2026-04-21",
+      "summary": "Tyler Robert Buchanan, a 24-year-old British national and senior member of Scattered Spider, pleaded guilty to wire fraud conspiracy and aggravated identity theft. The charges stem from SMS phishing attacks in summer 2022 that compromised at least a dozen major technology companies and resulted in the theft of tens of millions of dollars in cryptocurrency.",
+      "image": null,
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
+      "url": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
+      "source": "Krebs on Security",
+      "date": "2026-04-07",
+      "summary": "Russian military intelligence hackers exploited vulnerabilities in older internet routers to harvest Microsoft Office authentication tokens from over 18,000 networks. The campaign operated without deploying malware, relying solely on token theft to silently compromise user authentication credentials at scale.",
+      "image": null,
+      "importance": 8,
       "paywall": false
     }
   ]
