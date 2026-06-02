@@ -1,12 +1,32 @@
 {
-  "updated": "June 01, 2026 at 08:44 UTC",
+  "updated": "June 02, 2026 at 08:05 UTC",
   "top_stories": [
+    {
+      "title": "Windows Netlogon RCE exploited, domain controllers at risk (CVE-2026-41089)",
+      "url": "https://www.helpnetsecurity.com/2026/06/01/windows-netlogon-rce-exploited-cve-2026-41089/",
+      "source": "Help Net Security",
+      "date": "2026-06-01",
+      "summary": "A critical remote code execution vulnerability (CVE-2026-41089) in Windows Netlogon is being actively exploited in the wild, according to the Centre for Cybersecurity Belgium. The flaw is a stack-based buffer overflow in the Netlogon service, which handles authentication and security within Windows domain environments, putting domain controllers at risk.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2025/10/24123541/windows_server-1500.webp",
+      "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft mandates registered authentication for Entra ID password resets",
+      "url": "https://4sysops.com/archives/microsoft-mandates-registered-authentication-for-entra-id-password-resets/",
+      "source": "4sysops.com",
+      "date": "2026-05-31",
+      "summary": "Microsoft is implementing stricter security requirements for its Entra ID Self-Service Password Reset (SSPR) portal, requiring users to have registered authentication methods rather than using unregistered contact details. The change affects how users verify their identity during password resets in Microsoft Entra ID, the identity management platform formerly known as Azure Active Directory.",
+      "image": "https://4sysops.com/wp-content/uploads/2026/05/microsoft-mandates-registered-authentication-for-entra-id-password-resets.jpg",
+      "importance": 8,
+      "paywall": false
+    },
     {
       "title": "VU#780781: Casdoor contains multiple authentication bypass and access management vulnerabilities",
       "url": "https://kb.cert.org/vuls/id/780781",
       "source": "Cert.org",
       "date": "2026-05-28",
-      "summary": "Casdoor versions 2.362.0 and earlier contain multiple vulnerabilities enabling authentication bypass and privilege escalation in the open-source IAM platform. The flaws are specifically related to SAML processing, affecting core identity and access management functionality.",
+      "summary": "Casdoor versions 2.362.0 and earlier contain multiple vulnerabilities enabling authentication bypass and privilege escalation, tracked under VU#780781. The flaws are specifically related to SAML processing within the open-source identity and access management platform.",
       "image": null,
       "importance": 8,
       "paywall": false
@@ -16,8 +36,120 @@
       "url": "https://www.darkreading.com/vulnerabilities-threats/complex-cloud-integrations-small-errors-compromises",
       "source": "Dark Reading",
       "date": "2026-05-29",
-      "summary": "Researchers discovered an exploit chain in a popular automation service that combines over-permissioned roles, secrets discovery, and non-human identities to achieve major compromise. The attack vector highlights risks associated with excessive permissions and non-human identity (NHI) management in complex cloud integrations.",
+      "summary": "Researchers discovered an exploit chain in a popular automation service that combined over-permissioned roles, secrets discovery, and non-human identities to achieve potential full compromise. The attack vector highlights risks associated with excessive permissions and non-human identity (NHI) management in complex cloud integrations.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt33ea1925a9f97ba7/6a18a8b047696a7d03d6ca07/rube-goldberg-machine-complexity-T_N_Sursock-shutterstock.jpg?width=1280&auto=webp&quality=80&disable=upscale",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft fixes outage affecting MFA setup, MySignIn service",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outage-affecting-mfa-setup-mysignin-service/",
+      "source": "Bleeping Computer",
+      "date": "2026-06-01",
+      "summary": "Microsoft experienced an outage affecting its MFA setup process and MySign-Ins platform, preventing customers from configuring multi-factor authentication. The incident impacts Microsoft's identity and authentication services used by organizations for managing user sign-in security.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2021/09/15/Microsoft_passwordless.jpg",
+      "importance": 7,
+      "paywall": false
+    }
+  ],
+  "news": [
+    {
+      "title": "RSA extends passwordless authentication to Linux environments",
+      "url": "https://www.helpnetsecurity.com/2026/06/02/rsa-linux-passwordless-authentication-support/",
+      "source": "Help Net Security",
+      "date": "2026-06-02",
+      "summary": "RSA has expanded its passwordless authentication capabilities to support Linux environments, addressing a gap where Linux users were previously limited to legacy credential-based access. The expansion targets enterprise infrastructure including servers, developer workstations, and critical operational environments across financial services and government sectors.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Zero trust physical security needs trust decisions at the edge",
+      "url": "https://www.helpnetsecurity.com/2026/06/02/chuck-davis-hikvision-zero-trust-physical-security/",
+      "source": "Help Net Security",
+      "date": "2026-06-02",
+      "summary": "Hikvision's VP of Global Information Security discusses applying zero trust principles to physical security devices such as cameras and door controllers. The interview covers edge-based trust decisions, treating physical devices as IT assets, posture assessment for agentless devices, and lessons from the Mirai botnet.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/06/30071951/chuck_davis-2-hikvision.webp",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded",
+      "url": "https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html",
+      "source": "The Hacker News",
+      "date": "2026-06-02",
+      "summary": "Dashlane disclosed that an external threat actor conducted a brute-force attack against user accounts on May 31, 2026, resulting in the download of encrypted vaults belonging to fewer than 20 personal subscription users. The attack specifically targeted two-factor authentication (2FA) mechanisms, raising concerns about the resilience of 2FA implementations in password management solutions.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMY3oQNaqfV2_sMYMZJ_EbUA90VD_t0w342aOV-tTDXEui63NgSB0SPYPhGVW9e5i8ZcEk7P5uudw6PJOi5od9rdsq9GzG0npc8FiqXuQ33r-zg81AMHW53prz_ovs2YbKrjaNfOOAp1tpmjhE3ADsjVymKPDGf4TyikPb1z18MOWk2YH-BteUQ6EUqYFI/s1600/dashlane.png",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft's Zero-Day Legal Threats Spark Backlash",
+      "url": "https://www.darkreading.com/application-security/microsoft-zero-day-legal-threats-backlash",
+      "source": "Dark Reading",
+      "date": "2026-06-01",
+      "summary": "A security researcher published multiple zero-day exploits, prompting Microsoft to signal potential criminal charges. The dispute centers on vulnerability disclosure practices and Microsoft's legal response to unsanctioned public exploit releases.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt110b7f1326599f0b/6a1dd3554d48bfcf20ade268/RMmicrosoft-DrewAngerer-Getty-675949746.jpg?width=1280&auto=webp&quality=80&disable=upscale",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "Red Hat npm packages compromised to steal developer credentials",
+      "url": "https://www.bleepingcomputer.com/news/security/red-hat-npm-packages-compromised-to-steal-developer-credentials/",
+      "source": "Bleeping Computer",
+      "date": "2026-06-01",
+      "summary": "Over 30 npm packages under Red Hat's '@redhat-cloud-services' namespace were compromised in a supply-chain attack targeting developer credentials. The attack distributed a new variant of credential-stealing malware called \"Miasma,\" a derivative of the Shai-Hulud malware family.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2025/10/02/redhat-header-vign.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Dashlane password manager users locked out by brute force attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/dashlane-password-manager-users-locked-out-by-brute-force-attacks/",
+      "source": "Bleeping Computer",
+      "date": "2026-06-01",
+      "summary": "Dashlane password manager users were locked out of their accounts following brute-force attacks that attempted logins from distant geographic locations and unknown devices. The incidents highlight authentication security concerns around password manager platforms and account lockout mechanisms.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/06/01/Dashlane.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "OpenAI requires stronger authentication for users of its most powerful AI models",
+      "url": "https://www.helpnetsecurity.com/2026/06/01/yubico-openai-passkeys-requirements/",
+      "source": "Help Net Security",
+      "date": "2026-06-01",
+      "summary": "OpenAI is mandating passkey-based authentication for members of its Trusted Access for Cyber (TAC) program starting June 1, 2026, with Yubico playing a significant role in securing this requirement. TAC members with access to OpenAI's most powerful AI models are required to use hardware security keys or passkeys as part of the new authentication policy.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm",
+      "url": "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
+      "source": "The Hacker News",
+      "date": "2026-06-01",
+      "summary": "A supply chain attack campaign called Miasma has compromised Red Hat npm packages (@redhat-cloud-services) to steal credentials and secrets from developer machines. The attack uses install-time execution, credential harvesting, CI/CD environment targeting, encrypted exfiltration, and deploys a self-propagating worm.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOyc2NTiIl0XKOTZBsFh1bTPqNpVXfDhASWkCsYz17d-nbiWVKlxCzoq3WthMD8kMomrRPPOYLM-XRmSdtXNKAxtk1QLtmZH47y2RExMGohBaBDPkpFp2PteUgaA16VcCs7tK-ImqCiLnpqyLg8Pwp6cWE5d9QT2_v0-QBduT7ovYrs7WSZ9t1MnQJ4EuO/s1600/redhat.png",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack",
+      "url": "https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html",
+      "source": "The Hacker News",
+      "date": "2026-06-01",
+      "summary": "A malicious npm package named \"codexui-android\" has been discovered stealing OpenAI Codex authentication tokens through a supply chain attack, with over 29,000 weekly downloads recorded. The package was advertised as a legitimate remote web UI for OpenAI Codex on GitHub and npm while covertly exfiltrating authentication credentials.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4veBAmEJHF2nXN_nIgXeWxVSxlTDBc6uWiLwVCYNUqGMF9ZtPre3zF_CXmGnAxX2rbqfwgm_Au0tXvYwv1oTGim1STiGCeVOyMXglUTd-3LeJEN3q718Fdlck9mbQ6aUUYP0NM9S7bakZ4_XF5HHYH-cz2QmKBlge6xNMxbbEjDjZQ4wd1maPKnjgKrsu/s1600/codex.png",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
+      "url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
+      "source": "Krebs on Security",
+      "date": "2026-06-01",
+      "summary": "Hackers exploited Meta's AI support assistant bot to reset Instagram account passwords, successfully defacing high-profile accounts including the Obama White House and a U.S. Space Force official's account with pro-Iranian content. The attack method involved instructions circulated on Telegram showing how to manipulate the AI chatbot into performing unauthorized account password resets, bypassing normal authentication controls.",
+      "image": null,
       "importance": 7,
       "paywall": false
     },
@@ -26,51 +158,9 @@
       "url": "https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/",
       "source": "Bleeping Computer",
       "date": "2026-05-30",
-      "summary": "Palo Alto Networks has confirmed that a PAN-OS GlobalProtect authentication bypass vulnerability (CVE-2026-0257) is being actively exploited in attacks targeting corporate networks. The flaw allows attackers to bypass VPN authentication controls, directly impacting access management and network security perimeter integrity.",
+      "summary": "Palo Alto Networks has confirmed that threat actors are actively exploiting CVE-2026-0257, an authentication bypass vulnerability in PAN-OS GlobalProtect VPN. The flaw allows attackers to bypass authentication controls to breach corporate networks.",
       "image": "https://www.bleepstatic.com/content/hl-images/2024/10/09/Palo-Alto-Networks.jpg",
       "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Google Chrome adds session cookie theft protection for all users",
-      "url": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/",
-      "source": "Bleeping Computer",
-      "date": "2026-05-29",
-      "summary": "Google has made Device Bound Session Credentials (DBSC) generally available in Chrome, rolling it out to all users. DBSC binds session cookies to a specific device to prevent cookie theft and account takeover attacks, a technique commonly exploited to bypass authentication controls.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/05/29/Google-Chrome.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer",
-      "url": "https://thehackernews.com/2026/05/threat-actors-exploit-critical.html",
-      "source": "The Hacker News",
-      "date": "2026-05-28",
-      "summary": "Threat actors are actively exploiting a critical vulnerability in Fortinet's FortiClient Endpoint Management Server (EMS) to deploy a credential-stealing malware called EKZ Infostealer. The campaign abuses trusted endpoint management infrastructure to distribute the malware across managed endpoints, targeting credentials stored on affected systems.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLo8Mb8UwcN2lkMlnUi-l3a8DXNNL2_dW0VcATt8d34xxXX-kQN8HMolrIuw8ty0WZmpURI7hyphenhyphenDrvCAiKAarvJU1__tzxaKMxX3U4ZJbuwydE2zGoyFmutxDtid410NLBq_wi7fv_QFMdmkHGqRPwVcLY8xfeJ1PSb46o0RpCA4ubLLl8_LlLg-Id7ceU8/s1600/fort.jpg",
-      "importance": 7,
-      "paywall": false
-    }
-  ],
-  "news": [
-    {
-      "title": "DNS-AID lets AI agents find and verify each other through DNS",
-      "url": "https://www.helpnetsecurity.com/2026/06/01/dns-aid-ai-agent-discovery-dns/",
-      "source": "Help Net Security",
-      "date": "2026-06-01",
-      "summary": "The Linux Foundation's DNS-AID project enables AI agents and Model Context Protocol (MCP) servers to discover and verify each other's identities using DNS as a vendor-neutral directory. The system provides AI agents running across multiple platforms with a standardized mechanism for publishing, locating, and authenticating one another.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2025/09/12093307/brain-ai-intelligence-1500.webp",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation",
-      "url": "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
-      "source": "The Hacker News",
-      "date": "2026-05-30",
-      "summary": "Palo Alto Networks has disclosed an actively exploited authentication bypass vulnerability (CVE-2026-0257, CVSS 7.8) affecting PAN-OS and Prisma Access. The flaw allows attackers to bypass authentication and establish unauthorized VPN connections via GlobalProtect.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkaW0i4ALAlpWQ_cOjfhoqUlNgMlZysJA6ay0qPViGI_KxEEG-Hh0KdtWLqBXDH42ZBGSONs0ZJuzOqdRF7vbx6Xa9J8HlP60lY45JHy0ivdRQs0exe4wZT2lI3TW4oDO-XXPVz2pek2M3izLqT3ONwq2iuHPN31ZZvK3jl0zIDq_h5XF1CTRk7fUPzjEQ/s1600/panos.jpg",
-      "importance": 6,
       "paywall": false
     },
     {
@@ -78,7 +168,7 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/okta-okta-hits-4-high-062312694.html",
       "source": "Yahoo Entertainment",
       "date": "2026-05-30",
-      "summary": "Okta's stock price reached a four-year high following strong earnings results. The price increase reflects investor reaction to the company's financial performance.",
+      "summary": "Okta's stock price reached a four-year high following strong earnings results. The price increase was driven by investor reaction to the company's financial performance.",
       "image": "https://s.yimg.com/os/en/insidermonkey.com/a8d8570b8b6ad4bd328b09f3b7da4e38",
       "importance": 4,
       "paywall": false
@@ -88,18 +178,8 @@
       "url": "https://www.c-sharpcorner.com/article/adding-optional-claims-using-token-configuration-in-microsoft-entra-id/",
       "source": "C-sharpcorner.com",
       "date": "2026-05-30",
-      "summary": "The article explains how to use Optional Claims via Token Configuration in Microsoft Entra ID to add user attributes such as first and last name to tokens. This feature allows developers to customize token contents without requiring complex policy configurations in Azure AD.",
+      "summary": "The article explains how to use Optional Claims via Token Configuration in Microsoft Entra ID to add user attributes such as first and last name to tokens. This feature allows developers to customize token content without requiring complex claim mapping policies.",
       "image": "https://www.c-sharpcorner.com/images/csharp-corner-new.png",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "New infostealer reaches enterprise devices through FortiClient EMS vulnerability",
-      "url": "https://www.helpnetsecurity.com/2026/05/29/forticlient-ems-vulnerability-infostealer/",
-      "source": "Help Net Security",
-      "date": "2026-05-29",
-      "summary": "Attackers are exploiting CVE-2026-35616, an improper access control vulnerability in Fortinet's FortiClient Enterprise Management Server (EMS), to deliver an infostealer malware to enterprise endpoints. The malicious payload was disguised as a Fortinet endpoint update and executed through FortiClient-managed VPN scripting workflows, according to Arctic Wolf researchers.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/01/21163939/fortinet-computer-1500.webp",
       "importance": 6,
       "paywall": false
     },
@@ -108,7 +188,7 @@
       "url": "https://slashdot.org/firehose.pl?op=view&amp;id=183449786",
       "source": "Slashdot.org",
       "date": "2026-05-29",
-      "summary": "Okta is developing a licensing mechanism that allows customers to disable or revoke access for rogue AI agents. CEO Todd McKinnon stated that enterprise customers including ServiceNow are requesting the ability to \"kill switch\" AI agents operating within their environments.",
+      "summary": "Okta is developing a proprietary licensing framework designed to allow customers to shut down rogue or unauthorized AI agents. CEO Todd McKinnon indicated that enterprise customers such as ServiceNow are requesting the ability to revoke or disable AI agent access as a control mechanism.",
       "image": null,
       "importance": 7,
       "paywall": false
@@ -118,7 +198,7 @@
       "url": "https://www.cnbc.com/2026/05/29/software-stocks-wrap-best-month-since-2001-as-talk-of-saaspocalypse-.html",
       "source": "CNBC",
       "date": "2026-05-29",
-      "summary": "Software stocks, including Okta, experienced their best monthly performance since 2001, with Okta seeing a record stock price increase. The gains were driven by investor confidence in AI software strategies rather than any specific IAM product or security development.",
+      "summary": "Software stocks, including Okta, recorded their best monthly performance since 2001, with Okta seeing a record stock price increase. The gains were driven by investor confidence in AI software strategies rather than any specific IAM product or security development.",
       "image": "https://image.cnbcfm.com/api/v1/image/108206044-1759265547154-Snowflake-CB-Photo-20250930-KK-PRESS-021.jpg?v=1759265883&w=1920&h=1080",
       "importance": 2,
       "paywall": false
@@ -128,7 +208,7 @@
       "url": "https://www.ibtimes.com.au/okta-shares-surge-q1-results-ai-security-demand-1869708",
       "source": "Ibtimes.com.au",
       "date": "2026-05-29",
-      "summary": "Okta's stock rose 18% following a strong Q1 earnings beat, driven by demand for AI-powered identity security solutions. The results signal continued revenue growth for the IAM vendor and reinforce its market position in identity security.",
+      "summary": "Okta's stock surged 18% following a strong Q1 earnings beat, driven by increased demand for AI-powered identity security solutions. The results signal continued revenue growth for the IAM vendor and reinforce its market position in identity security.",
       "image": "https://d.ibtimes.com.au/en/full/1892086/okta.jpg",
       "importance": 7,
       "paywall": false
@@ -138,7 +218,7 @@
       "url": "https://prtimes.jp/main/html/rd/p/000000039.000096451.html",
       "source": "Prtimes.jp",
       "date": "2026-05-29",
-      "summary": "SailPoint announced an integration with Claude's Compliance API to provide enterprise-grade identity security for AI platforms. The integration connects SailPoint's identity governance capabilities with Anthropic's Claude AI compliance framework.",
+      "summary": "SailPoint announced an integration with Anthropic's Claude Compliance API to deliver enterprise-grade identity security for AI platforms. This press release is a Japanese-language translation of the original announcement made on May 21, 2026, in the United States.",
       "image": "https://prtimes.jp/common/pc_v4/og.png",
       "importance": 7,
       "paywall": false
@@ -148,8 +228,18 @@
       "url": "https://alltoc.com/tech/what-did-okta-report-about-agentic-ai-demand",
       "source": "Alltoc.com",
       "date": "2026-05-29",
-      "summary": "Okta reported Q1 revenue of $765M, up 11% year over year, beating analyst expectations of $752M. The company attributed part of the demand growth for its identity tools to the rise of agentic AI.",
+      "summary": "Okta reported Q1 revenue of $765M, up 11% year over year, beating analyst expectations of $752M. The company cited agentic AI as a driver of increased demand for identity tools.",
       "image": "https://alltoc.com/cdn/1048/og.png",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer",
+      "url": "https://thehackernews.com/2026/05/threat-actors-exploit-critical.html",
+      "source": "The Hacker News",
+      "date": "2026-05-28",
+      "summary": "Threat actors are actively exploiting a critical vulnerability in Fortinet's FortiClient Endpoint Management Server (EMS) to deploy a credential-stealing malware called EKZ Infostealer. The campaign abuses trusted endpoint management infrastructure to distribute the malware across managed endpoints, with Arctic Wolf reporting on the details of the attack chain.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLo8Mb8UwcN2lkMlnUi-l3a8DXNNL2_dW0VcATt8d34xxXX-kQN8HMolrIuw8ty0WZmpURI7hyphenhyphenDrvCAiKAarvJU1__tzxaKMxX3U4ZJbuwydE2zGoyFmutxDtid410NLBq_wi7fv_QFMdmkHGqRPwVcLY8xfeJ1PSb46o0RpCA4ubLLl8_LlLg-Id7ceU8/s1600/fort.jpg",
       "importance": 7,
       "paywall": false
     },
@@ -158,7 +248,7 @@
       "url": "https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html",
       "source": "The Hacker News",
       "date": "2026-05-28",
-      "summary": "Microsoft publicly defended Coordinated Vulnerability Disclosure (CVD) after removing a GitHub researcher account belonging to Chaotic Eclipse, who had disclosed multiple zero-days without prior vendor notification. The incident centers on Microsoft's stance against public zero-day disclosures before vendors have the opportunity to assess and patch vulnerabilities.",
+      "summary": "Microsoft publicly advocated for Coordinated Vulnerability Disclosure (CVD) after removing the GitHub account of a researcher known as Chaotic Eclipse who disclosed multiple zero-days publicly without prior vendor notification. The incident touches on zero-trust and vulnerability management practices relevant to IAM professionals, though the core dispute is about disclosure policy rather than IAM-specific vulnerabilities.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIMDR_KVt17sFMXeEhMvDYHLwBX_Aix1bz3y0izMs7PsVIuGSQhOLX_khN3Ckl_eRm9OEMAlVmBxPHhQvCGDJB5wXJ2rtOT8uQAiWCWCZwc7dvOfbWyuZ0BpNFAKohIpLUq9KR76XvZ3eT0TpltWDHUWQY-nUJzJflA1y5l7q_UXsjVtAMPhwVAULZZScp/s1600/github-ms.png",
       "importance": 5,
       "paywall": false
@@ -168,7 +258,7 @@
       "url": "https://thehackernews.com/2026/05/threatsday-bulletin-claude-security.html",
       "source": "The Hacker News",
       "date": "2026-05-28",
-      "summary": "A threat intelligence bulletin covers multiple security topics including an MFA bypass technique (Kali365), Azure privilege escalation, and a Claude security plugin. The bulletin also references account takeover techniques and exposed infrastructure issues relevant to IAM practitioners.",
+      "summary": "A threat intelligence bulletin covers multiple security topics including an Azure privilege escalation vulnerability, an MFA bypass technique called Kali365, and a Claude security plugin. The roundup also references various other threats including social engineering campaigns and exposed infrastructure issues.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBnLTRREuP8t8AoMRlakMDVRNoOYCA18IuBTWxA_nms12GdQaSfaU1kgpLSrgUvFFH1goJ_-NOIerDAnZxlD86Oafg_b6QdecLrT4UJdb3_qfmgtxdjrhF8GioeuEZbyZBTVL4cXUcpWqZujpLoI4zBm9y7XvFUjYR5cjF0GmmU_TXlmX0W7zsxlcvV9mW/s1600/tbb.jpg",
       "importance": 5,
       "paywall": false
@@ -178,9 +268,9 @@
       "url": "https://siliconangle.com/2026/05/28/okta-tops-estimates-raises-outlook-sentinelone-slides-weak-guidance/",
       "source": "SiliconANGLE News",
       "date": "2026-05-28",
-      "summary": "Okta reported quarterly earnings that beat analyst estimates, causing shares to rise more than 6% in after-hours trading. The company also raised its financial outlook, reflecting positive business momentum for the IAM vendor.",
+      "summary": "Okta reported quarterly earnings that beat analyst estimates, sending shares up more than 6% in after-hours trading. The company also raised its forward outlook alongside the earnings report.",
       "image": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2019/10/okta.png",
-      "importance": 7,
+      "importance": 6,
       "paywall": false
     },
     {
@@ -188,7 +278,7 @@
       "url": "https://www.microsoft.com/insidetrack/blog/transforming-our-approach-to-sensitivity-labels-at-microsoft-with-microsoft-entra/",
       "source": "Microsoft.com",
       "date": "2026-05-28",
-      "summary": "Microsoft has extended sensitivity labels to Microsoft Entra security groups using labels policy to prevent oversharing and enable secure self-service. The implementation demonstrates how sensitivity label policies can be applied within Entra to control group-based access and reduce data exposure risks.",
+      "summary": "Microsoft describes how it extended sensitivity labels to Microsoft Entra security groups using labels policy to control data sharing. The implementation focuses on preventing oversharing while enabling secure self-service access management within its own internal environment.",
       "image": "https://www.microsoft.com/insidetrack/blog/uploads/prod/2026/03/10822-Hero_image.jpg",
       "importance": 6,
       "paywall": true
@@ -198,7 +288,7 @@
       "url": "https://www.cnbc.com/2026/05/28/okta-okta-earnings-q1-2027.html",
       "source": "CNBC",
       "date": "2026-05-28",
-      "summary": "Okta reported first-quarter results that exceeded expectations, driven by demand for agentic AI capabilities. CEO Todd McKinnon indicated the company is increasing resource allocation toward agentic AI tools as part of its long-term strategy.",
+      "summary": "Okta reported first-quarter financial results that exceeded expectations, driven by demand for agentic AI capabilities. CEO Todd McKinnon indicated the company is increasing resource allocation toward agentic AI tools as part of its long-term strategy.",
       "image": "https://image.cnbcfm.com/api/v1/image/108312876-1779920100508-gettyimages-2209028740-UK_MCKINNON.jpeg?v=1779920155&w=1920&h=1080",
       "importance": 7,
       "paywall": false
@@ -208,7 +298,7 @@
       "url": "https://siliconangle.com/2026/05/28/orchid-security-targets-ai-agent-sprawl-new-identity-governance-tools/",
       "source": "SiliconANGLE News",
       "date": "2026-05-28",
-      "summary": "Orchid Security has extended its Identity Control Plane platform with new tools designed to govern AI agents, addressing gaps in existing IAM models. The company argues that current identity and access management frameworks are inadequate for AI agents that inherit authority from both human and machine identities.",
+      "summary": "Orchid Security has extended its Identity Control Plane platform with new tools specifically designed to govern AI agents, addressing gaps in existing IAM models. The company argues that current IAM frameworks cannot adequately handle AI agents that inherit authority from both human users and machine identities.",
       "image": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/05/orchidsecaiagents.png",
       "importance": 7,
       "paywall": false
@@ -218,7 +308,7 @@
       "url": "https://www.prnewswire.com/news-releases/gartner-names-keeper-security-the-second-fastest-growing-company-in-the-market-share-analysis-security-software-worldwide-2025-302784183.html",
       "source": "PRNewswire",
       "date": "2026-05-28",
-      "summary": "Gartner has named Keeper Security the second fastest-growing company in its Market Share Analysis: Security Software, Worldwide, 2025 report. The recognition highlights Keeper's PAM platform, KeeperPAM, along with KeeperAI and Keeper Forcefield products.",
+      "summary": "Gartner named Keeper Security the second fastest-growing company in its Market Share Analysis: Security Software, Worldwide, 2025 report. The recognition highlights Keeper's PAM platform, KeeperPAM, along with KeeperAI and Keeper Forcefield products.",
       "image": "https://mma.prnewswire.com/media/1813826/Keeper_Security_LogoV2.jpg?p=facebook",
       "importance": 7,
       "paywall": false
@@ -228,29 +318,9 @@
       "url": "https://www.helpnetsecurity.com/2026/05/28/microsoft-windows-365-for-agents-ai-automation/",
       "source": "Help Net Security",
       "date": "2026-05-28",
-      "summary": "Microsoft has launched Windows 365 for Agents, a cloud PC platform designed to run AI agents in secure, enterprise-controlled environments. The platform allows organizations to manage AI agents interacting with applications, browsers, files, and enterprise systems, placing agentic workloads under enterprise access controls.",
+      "summary": "Microsoft announced Windows 365 for Agents, a cloud PC platform designed to run AI agents within enterprise-controlled secure environments. The platform allows organizations to manage agentic workloads with enterprise controls, including governance over how agents interact with applications, browsers, files, and enterprise systems.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/02/11132343/windows-1500-1.webp",
       "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Gartner(R)、Keeper Securityを全世界セキュリティソフトウェア市場の急成長企業第2位にランクイン",
-      "url": "https://prtimes.jp/main/html/rd/p/000000120.000113863.html",
-      "source": "Prtimes.jp",
-      "date": "2026-05-28",
-      "summary": "Gartner has ranked Keeper Security as the second fastest-growing company in the global security software market. Keeper Security is a password management and privileged access management (PAM) vendor, and this ranking reflects its growth within the cybersecurity sector.",
-      "image": "https://prcdn.freetls.fastly.net/release_image/113863/120/113863-120-150abaa9277cb689fb8dec5a08504f58-360x360.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "MFA Prompt Bombing: Why Your Second Factor Isn't Saving You",
-      "url": "https://thehackernews.com/2026/05/mfa-prompt-bombing-why-your-second.html",
-      "source": "The Hacker News",
-      "date": "2026-05-26",
-      "summary": "The article examines MFA prompt bombing attacks, where attackers bypass multi-factor authentication by repeatedly sending approval requests until users accidentally or frustratedly accept them. The piece explains why traditional push-notification MFA is vulnerable and addresses mitigations relevant to enterprise identity security professionals.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtums9LZoPXx5AzbNIYmdrNPI6vAAWAnYGfW6NzZ4DkICva0wX2GjMPvmYoq4EVuhvWUc6FyLrgJJ0Hvh8w0TBJ4MLkQplbffUwg89oiQxoJhV-93mboD0D2rdkrrhsblZ2tLJv-auc2GBNjIMsg8wGUCYOkZHNDHaQoqhDbLXrFC3-rD3cz0pI12U7rR2/s1600/prompt-1.jpg",
-      "importance": 7,
       "paywall": false
     },
     {
@@ -258,7 +328,7 @@
       "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
       "source": "Krebs on Security",
       "date": "2026-05-22",
-      "summary": "A CISA contractor intentionally published AWS GovCloud keys and other agency secrets to a public GitHub account, resulting in a data breach that CISA is still working to contain. Lawmakers from both chambers of Congress are demanding answers while CISA works to invalidate the leaked credentials.",
+      "summary": "A CISA contractor intentionally published AWS GovCloud keys and other agency secrets to a public GitHub account, resulting in a significant credential leak. Lawmakers from both chambers of Congress are demanding answers from CISA, which is still working to contain the breach and invalidate the exposed credentials.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -268,7 +338,7 @@
       "url": "https://www.darkreading.com/identity-access-management-security/shifting-budget-dynamics-identity-security-ai-agents",
       "source": "Dark Reading",
       "date": "2026-05-21",
-      "summary": "New Omdia research examines how AI agent identities in enterprise environments require dedicated management, security, and governance. The research finds that budget dynamics for AI agent identity projects differ significantly from traditional IAM initiatives.",
+      "summary": "New Omdia research examines how AI agent identities are creating distinct budget dynamics compared to traditional IAM projects. The research highlights that enterprises must manage, secure, and govern the growing number of AI agent identities proliferating across organizations.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd00712c4fd23579b/6a0e0281107a585c56c6d09e/AI_ID_card_Edgars_Sermulis_Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -278,29 +348,9 @@
       "url": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
       "source": "Krebs on Security",
       "date": "2026-05-18",
-      "summary": "A CISA contractor exposed credentials to highly privileged AWS GovCloud accounts and numerous internal CISA systems via a public GitHub repository. The leaked files included details on how CISA builds, tests, and deploys software internally, representing a significant credential and secrets management failure.",
+      "summary": "A CISA contractor exposed highly privileged AWS GovCloud account credentials and internal system access details in a public GitHub repository until this past weekend. The leaked repository contained files describing CISA's internal software build, test, and deployment processes alongside the privileged access credentials.",
       "image": null,
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
-      "url": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
-      "source": "Krebs on Security",
-      "date": "2026-04-21",
-      "summary": "Tyler Robert Buchanan, a 24-year-old British national and senior member of Scattered Spider, pleaded guilty to wire fraud conspiracy and aggravated identity theft. The charges relate to SMS phishing attacks in summer 2022 that compromised at least a dozen major technology companies and resulted in cryptocurrency theft from investors.",
-      "image": null,
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
-      "url": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
-      "source": "Krebs on Security",
-      "date": "2026-04-07",
-      "summary": "Russian military intelligence-linked hackers are exploiting vulnerabilities in older internet routers to harvest Microsoft Office authentication tokens at scale. The campaign compromised authentication tokens across more than 18,000 networks without deploying malware, relying solely on router-level interception.",
-      "image": null,
-      "importance": 8,
+      "importance": 7,
       "paywall": false
     }
   ]
