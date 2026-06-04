@@ -1,66 +1,126 @@
 {
-  "updated": "June 03, 2026 at 08:28 UTC",
+  "updated": "June 04, 2026 at 08:01 UTC",
   "top_stories": [
+    {
+      "title": "Microsoft 365 Android Apps Let Any App Steal Account Tokens via Leftover Debug Flag",
+      "url": "https://thehackernews.com/2026/06/microsoft-365-android-apps-let-any-app.html",
+      "source": "The Hacker News",
+      "date": "2026-06-03",
+      "summary": "A debug flag left enabled in production builds of multiple Microsoft 365 Android apps disabled token-sharing restrictions, allowing any app on the same device to silently obtain the signed-in user's account token. The vulnerability enabled unauthorized access to email, files, calendar, and messaging without requiring credentials, a login prompt, or permission requests.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_pEYWDRVadGL0WYM3iSY6jqFgBez8snXgoyeyAzcXNmxiytv-FgiKoBJX3aPivuYhSJjXp4o_zO1dQSIPUfduaAlB-rvSti7pFhdDZSrAa-ennBdfdVpe1Xo0dMxKATB8te61pyJAf60x5CP6OJzjzmtpFIg_qHQqA7VP-rUnEpaT37Z0qBOmbZ52BfM/s1600/ms-android.jpg",
+      "importance": 9,
+      "paywall": false
+    },
+    {
+      "title": "Coding Gaffe Exposes Microsoft 365 Accounts to Widespread Takeover",
+      "url": "https://www.darkreading.com/application-security/coding-gaffe-exposes-microsoft-365-accounts-takeover",
+      "source": "Dark Reading",
+      "date": "2026-06-03",
+      "summary": "A coding error in Microsoft 365 Android apps disabled a security setting designed to protect authentication, leaving accounts vulnerable to widespread takeover. The flaw affected apps including Word, PowerPoint, and Excel, enabling attackers to steal login credentials and data.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blta6d9216f2cd41b4b/6a2015f94a4fc7d0bb15144e/Authentication_Zoonar_GmbH_Alamy.png?width=1280&auto=webp&quality=80&disable=upscale",
+      "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft Entra pushes passkeys, tightens identity security",
+      "url": "https://www.helpnetsecurity.com/2026/06/02/microsoft-entra-latest-security-updates/",
+      "source": "Help Net Security",
+      "date": "2026-06-02",
+      "summary": "Microsoft has released multiple new identity and network access capabilities for its Entra product family over the past 30 days, with several features reaching general availability. The updates include passkey support and tightened identity security controls aimed at helping organizations implement zero trust security strategies.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/01/26083820/microsoft-entra_id-1500.webp",
+      "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "Hardening Microsoft 365 Against Token Theft",
+      "url": "https://www.c-sharpcorner.com/article/hardening-microsoft-365-against-token-theft/",
+      "source": "C-sharpcorner.com",
+      "date": "2026-06-02",
+      "summary": "The article addresses hardening Microsoft 365 environments against token theft attacks, a critical authentication security concern. Token theft allows attackers to bypass MFA by stealing session tokens, making it a significant threat to identity and access management in M365 deployments.",
+      "image": "https://www.c-sharpcorner.com/images/csharp-corner-new.png",
+      "importance": 8,
+      "paywall": false
+    },
     {
       "title": "Microsoft Entra ID to enforce registered authentication methods for password resets",
       "url": "https://4sysops.com/archives/microsoft-entra-id-to-enforce-registered-authentication-methods-for-password-resets/",
       "source": "4sysops.com",
       "date": "2026-06-01",
-      "summary": "Microsoft is updating the Self-Service Password Reset (SSPR) process in Entra ID to require explicitly registered authentication methods rather than allowing unregistered directory contact attributes. Phone numbers or alternative email addresses stored in directory attributes will no longer be usable for password resets unless they are explicitly registered as authentication methods.",
+      "summary": "Microsoft is updating the Self-Service Password Reset (SSPR) process in Entra ID to require explicitly registered authentication methods rather than allowing directory-stored contact attributes. This change means phone numbers or alternative email addresses stored in directory fields will no longer be usable for password resets unless they are also explicitly registered as authentication methods.",
       "image": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-entra-id-to-enforce-registered-authentication-methods-for-password-resets.jpg",
       "importance": 8,
       "paywall": false
+    }
+  ],
+  "news": [
+    {
+      "title": "Attackers already know the secrets are on your developers’ machines. Do you?",
+      "url": "https://www.helpnetsecurity.com/2026/06/04/attackers-secrets-developers-machines/",
+      "source": "Help Net Security",
+      "date": "2026-06-04",
+      "summary": "A GitGuardian analysis found an average of 150 secrets on a sample of developer endpoints, with private keys comprising 38% and cloud/identity provider/secret management credentials (including AWS IAM and HashiCorp Vault) making up 22% of unique secrets. The findings highlight credential sprawl on developer machines outside traditional security team visibility.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/06/03184906/gitguardian-secrets.webp",
+      "importance": 6,
+      "paywall": false
     },
     {
-      "title": "Microsoft mandates registered authentication for Entra ID password resets",
-      "url": "https://4sysops.com/archives/microsoft-mandates-registered-authentication-for-entra-id-password-resets/",
-      "source": "4sysops.com",
-      "date": "2026-05-31",
-      "summary": "Microsoft is implementing stricter security requirements for its Entra ID Self-Service Password Reset (SSPR) portal, mandating that users have registered authentication methods before performing password resets. Previously, users could reset passwords using unregistered contact details such as phone numbers, but the new policy requires pre-registered authentication information tied to their account.",
-      "image": "https://4sysops.com/wp-content/uploads/2026/05/microsoft-mandates-registered-authentication-for-entra-id-password-resets.jpg",
-      "importance": 8,
+      "title": "One-Click GitHub Dev Attack Lets Attackers Steal Full GitHub OAuth Tokens",
+      "url": "https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html",
+      "source": "The Hacker News",
+      "date": "2026-06-03",
+      "summary": "Researchers disclosed a one-click attack via Microsoft VS Code that exploits GitHub.dev to steal GitHub OAuth tokens with read/write repository access. The attack requires only a single link click to exfiltrate the OAuth token, affecting both public and private repositories.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeHvqmNHvAhdxgoBLbfFWsFBMdvH5SbJovunxx8AYHRkq7HOQ2l6I_ZaJGi_PF5WHKOlHEQHK4HyPBhmzOpYNhPS4HJSna2uLVlEwUV9i2j5YuRqGOLUqgKIrhx2ndFm1OSME7usiLk_ohtIBYyR5Xpq5Pzc2eHAjCK0OA_89JwPNxVrrBVDbTDRVbRG6e/s1600/github.jpg",
+      "importance": 6,
       "paywall": false
+    },
+    {
+      "title": "Shrinking the IAM Attack Surface through Identity Visibility and Intelligence Platforms (IVIP)",
+      "url": "https://thehackernews.com/2026/06/shrinking-iam-attack-surface-through.html",
+      "source": "The Hacker News",
+      "date": "2026-06-03",
+      "summary": "The article discusses the concept of \"Identity Dark Matter\" in enterprise IAM environments, where identity activity occurs outside centralized visibility and control. It introduces Identity Visibility and Intelligence Platforms (IVIP) as an approach to shrinking the IAM attack surface across fragmented identity ecosystems including machine identities and decentralized applications.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuT21gubKVL2cAsQrEiju_yAE3Pxe1IPxsl9RlGfhMEeis2IuQglnZjwTme6xM1_IJNymXFY1kZsouMGecR2lQnzvMDXyjnY1Y7CT1Dz_xf0pRVkwJEJG9o1EfOlPMfgfZ0MO6eyKGKJDwRHrEsw2-Cai9QO3pfrryeSENy5kH4C_pdjDgsXVOO80TPy8/s1600/orchid.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes",
+      "url": "https://thehackernews.com/2026/06/unpatched-windows-search-uri.html",
+      "source": "The Hacker News",
+      "date": "2026-06-03",
+      "summary": "Researchers at Huntress disclosed an unpatched Windows Search URI handler vulnerability that can expose NTLMv2 hashes to attackers. The flaw is similar to CVE-2026-33829, a spoofing vulnerability affecting the Windows Snipping Tool's ms-screensketch URI handler.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9Y4FY1kH_mrU4oH2X7TPrnmPdf9Ib4UZ4Xgud4Qgjie69on9qP9D1OU8i3ol3THTISUTy8OBJzPXzbUTyHwx1xF8cWuYvb9r-_7r_g-gFXyW62phdyaEAd41PI5cfduXxd084XQdwhxQ40Ti5n7SvkhIbZRktqP8G9bhufjlrxzxHYWpFTAXAfSSWstwc/s1600/NTLM.jpg",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Azure Managed Identity Explained with Real-World Examples",
+      "url": "https://www.c-sharpcorner.com/article/azure-managed-identity-explained-with-real-world-examples/",
+      "source": "C-sharpcorner.com",
+      "date": "2026-06-03",
+      "summary": "This article explains Azure Managed Identity, a feature that enables Azure resources to authenticate to other Azure services without storing credentials such as passwords, secrets, or connection strings. The content covers practical implementation examples of both system-assigned and user-assigned managed identities for secure resource access.",
+      "image": "https://www.c-sharpcorner.com/images/csharp-corner-new.png",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Preinstall to persistence: Inside the Red Hat npm Miasma credential-stealing campaign",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/06/02/preinstall-persistence-inside-red-hat-npm-miasma-credential-stealing-campaign/",
+      "source": "Microsoft.com",
+      "date": "2026-06-03",
+      "summary": "A supply chain attack compromised over 90 versions of @redhat-cloud-services npm packages, embedding malicious code in CI/CD environments and developer systems. The malicious code targets credential theft from GitHub, cloud platforms, and local machines, directly impacting identity and access security for affected development pipelines.",
+      "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/04/MS_Actional-Insights_Access.png",
+      "importance": 6,
+      "paywall": true
     },
     {
       "title": "FBI-Flagged Phishing Kit Kali365 Expands Its Reach",
       "url": "https://www.darkreading.com/cyber-risk/fbi-flagged-phishing-kit-kali365-expands-its-reach",
       "source": "Dark Reading",
       "date": "2026-06-02",
-      "summary": "The phishing-as-a-service platform Kali365, previously flagged by the FBI for targeting Microsoft 365, has expanded its attack scope to include AWS, Okta, and Russian platforms. The platform employs device code phishing techniques to compromise identity and access credentials.",
+      "summary": "The phishing-as-a-service platform Kali365, previously flagged by the FBI for targeting Microsoft 365, has expanded its targeting to include AWS, Okta, and Russian platforms. The platform employs device code phishing techniques to compromise identity and access credentials.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blta4f731d1ead13c9d/6a1f3ff44bb1191264ce8b45/phishing_babar_ali_1233_shutterstock.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "With Complex Cloud Integrations, Small Errors Lead to Major Compromises",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/complex-cloud-integrations-small-errors-compromises",
-      "source": "Dark Reading",
-      "date": "2026-05-29",
-      "summary": "Security researchers discovered an exploit chain targeting a popular automation service that combined over-permissioned roles, secrets discovery, and non-human identities. The attack vector highlights risks associated with excessive privilege assignment and unmanaged non-human identities in complex cloud environments.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt33ea1925a9f97ba7/6a18a8b047696a7d03d6ca07/rube-goldberg-machine-complexity-T_N_Sursock-shutterstock.jpg?width=1280&auto=webp&quality=80&disable=upscale",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Noma brings visibility and access governance to AI agents and MCP servers",
-      "url": "https://www.helpnetsecurity.com/2026/06/02/noma-brings-visibility-and-access-governance-to-ai-agents-and-mcp-servers/",
-      "source": "Help Net Security",
-      "date": "2026-06-02",
-      "summary": "Noma has launched Noma Agent Access Control, a product designed to help security teams discover, govern, and enforce access policies for AI agents and Model Context Protocol (MCP) servers across enterprise environments. The solution addresses the rapid proliferation of AI agents in developer environments that has outpaced existing governance frameworks.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
-      "importance": 7,
-      "paywall": false
-    }
-  ],
-  "news": [
-    {
-      "title": "Instagram users locked out after Meta AI abused to steal accounts",
-      "url": "https://www.bleepingcomputer.com/news/security/instagram-users-locked-out-after-meta-ai-abused-to-steal-accounts/",
-      "source": "Bleeping Computer",
-      "date": "2026-06-02",
-      "summary": "Attackers used Meta's AI-powered support tools to impersonate legitimate Instagram account owners and take over their accounts. The incidents highlight vulnerabilities in AI-assisted identity verification and account recovery processes.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2023/12/20/instagram.jpg",
-      "importance": 6,
       "paywall": false
     },
     {
@@ -68,9 +128,39 @@
       "url": "https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html",
       "source": "The Hacker News",
       "date": "2026-06-02",
-      "summary": "Dashlane disclosed that an external threat actor conducted a brute-force attack against user accounts on May 31, 2026, successfully bypassing two-factor authentication and downloading encrypted vaults belonging to fewer than 20 personal subscription users. The incident highlights vulnerabilities in 2FA implementation within password management infrastructure.",
+      "summary": "Dashlane disclosed a brute-force attack in which an external threat actor targeted user accounts to bypass two-factor authentication, resulting in encrypted vaults being downloaded for fewer than 20 personal subscription users. The incident occurred on May 31, 2026, and involved attempts to break 2FA protections on affected accounts.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMY3oQNaqfV2_sMYMZJ_EbUA90VD_t0w342aOV-tTDXEui63NgSB0SPYPhGVW9e5i8ZcEk7P5uudw6PJOi5od9rdsq9GzG0npc8FiqXuQ33r-zg81AMHW53prz_ovs2YbKrjaNfOOAp1tpmjhE3ADsjVymKPDGf4TyikPb1z18MOWk2YH-BteUQ6EUqYFI/s1600/dashlane.png",
       "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "UPDATE: BIO-key Delivers Phishing-Resistant Biometric Security to Alabama’s AOD Federal Credit Union",
+      "url": "https://www.globenewswire.com/news-release/2026/06/02/3305501/0/en/UPDATE-BIO-key-Delivers-Phishing-Resistant-Biometric-Security-to-Alabama-s-AOD-Federal-Credit-Union.html",
+      "source": "GlobeNewswire",
+      "date": "2026-06-02",
+      "summary": "BIO-key has deployed phishing-resistant biometric authentication at Alabama's AOD Federal Credit Union through a partnership with IT solutions provider BlueAlly. The implementation delivers biometric security aimed at replacing traditional authentication methods vulnerable to phishing attacks.",
+      "image": "https://ml.globenewswire.com/Resource/Download/4bca27c0-f7ad-4c90-9fab-226813a884b3",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Yubico YubiKey 5C NFC",
+      "url": "https://uk.pcmag.com/security/134490/yubico-yubikey-5c-nfc",
+      "source": "PCMag.com",
+      "date": "2026-06-02",
+      "summary": "Yubico's YubiKey 5C NFC is reviewed as a hardware security key priced at $58 that supports multi-factor authentication. The device uses NFC and USB-C connectivity to serve as a second authentication factor for online accounts.",
+      "image": "https://sm.pcmag.com/t/pcmag_uk/review/y/yubico-yub/yubico-yubikey-5c-nfc_1jpz.1200.jpg",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Identity Elevated: A New Unified Identity Experience in Cisco Cloud Control",
+      "url": "https://blogs.cisco.com/?p=492271",
+      "source": "Cisco.com",
+      "date": "2026-06-02",
+      "summary": "Cisco has launched a unified identity experience called \"Identity in Cloud Control\" within its Cisco Cloud Control platform. The solution provides visibility and management capabilities across human, non-human, and AI agent identities, and includes identity-driven agentic operations via an AI Canvas feature.",
+      "image": "https://blogs.cisco.com/gcs/ciscoblogs/1/2026/05/FY26_Q4_a-new-unified-identity-experience-in-cisco-cloud-control-16.jpeg",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -78,9 +168,9 @@
       "url": "https://www.helpnetsecurity.com/2026/06/02/chuck-davis-hikvision-zero-trust-physical-security/",
       "source": "Help Net Security",
       "date": "2026-06-02",
-      "summary": "Hikvision's VP of Global Information Security discusses the application of zero trust principles to physical security systems including cameras and door controllers. The interview covers how trust decisions can be made at the edge of physical security networks, extending zero trust concepts beyond traditional IT environments.",
+      "summary": "Hikvision's VP of Global Information Security discusses the application of zero trust principles to physical security systems such as cameras and door controllers. The interview covers how trust decisions can be made at the edge of physical security infrastructure.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/06/30071951/chuck_davis-2-hikvision.webp",
-      "importance": 6,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -88,7 +178,7 @@
       "url": "https://aws.amazon.com/blogs/machine-learning/building-a-secure-auth-code-flow-setup-using-agentcore-gateway-with-mcp-clients/",
       "source": "Amazon.com",
       "date": "2026-06-02",
-      "summary": "The article demonstrates how to implement OAuth Authorization Code flow as an inbound authorization mechanism for MCP servers hosted on Amazon Bedrock AgentCore Gateway. The guide covers configuring OAuth-based access control for AI agent communication using Amazon's AgentCore Gateway infrastructure.",
+      "summary": "The article demonstrates how to implement OAuth authorization code flow for MCP servers hosted on Amazon Bedrock AgentCore Gateway. The guide covers configuring inbound authorization mechanisms for AI assistant access control using standard OAuth protocols.",
       "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/26/ML-20412-1.jpg",
       "importance": 6,
       "paywall": false
@@ -98,39 +188,9 @@
       "url": "https://www.darkreading.com/application-security/microsoft-zero-day-legal-threats-backlash",
       "source": "Dark Reading",
       "date": "2026-06-01",
-      "summary": "A security researcher published multiple zero-day exploits, prompting Microsoft to signal potential criminal charges against them. The dispute has sparked backlash from the security research community over how Microsoft handles vulnerability disclosure.",
+      "summary": "A security researcher published multiple zero-day exploits, prompting Microsoft to reportedly threaten criminal charges. The incident centers on Microsoft's legal response to unsanctioned vulnerability disclosure rather than a coordinated patch or CVE release.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt110b7f1326599f0b/6a1dd3554d48bfcf20ade268/RMmicrosoft-DrewAngerer-Getty-675949746.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 4,
-      "paywall": false
-    },
-    {
-      "title": "Patch Now: Another Palo Alto Auth Bypass Bug Under Active Exploit",
-      "url": "https://www.darkreading.com/threat-intelligence/patch-palo-alto-auth-bypass-bug-exploit",
-      "source": "Dark Reading",
-      "date": "2026-06-01",
-      "summary": "A Palo Alto Networks PAN-OS GlobalProtect VPN authentication bypass vulnerability is being actively exploited in two attack waves beginning mid-May. The flaw requires specific conditions to exploit but has drawn enough adversary activity to warrant an urgent patching advisory.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt225868f85dab8e5a/6a1d6cdb688dd44956baf7b6/Vulnerability_(1800)_Sergey_Tarasov_Alamy.png?width=1280&auto=webp&quality=80&disable=upscale",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Red Hat npm packages compromised to steal developer credentials",
-      "url": "https://www.bleepingcomputer.com/news/security/red-hat-npm-packages-compromised-to-steal-developer-credentials/",
-      "source": "Bleeping Computer",
-      "date": "2026-06-01",
-      "summary": "Over 30 npm packages under Red Hat's '@redhat-cloud-services' namespace were compromised in a supply-chain attack targeting developer credentials. The attack distributed a new malware variant called \"Miasma,\" derived from the Shai-Hulud credential-stealing malware family.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2025/10/02/redhat-header-vign.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Dashlane password manager users locked out by brute force attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/dashlane-password-manager-users-locked-out-by-brute-force-attacks/",
-      "source": "Bleeping Computer",
-      "date": "2026-06-01",
-      "summary": "Dashlane password manager users were locked out of their accounts following brute-force attacks attempting logins from distant locations and unknown devices. The incidents highlight authentication security concerns around password manager platforms and account lockout mechanisms.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/06/01/Dashlane.jpg",
-      "importance": 6,
       "paywall": false
     },
     {
@@ -138,7 +198,7 @@
       "url": "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
       "source": "The Hacker News",
       "date": "2026-06-01",
-      "summary": "A supply chain attack campaign called Miasma has compromised Red Hat npm packages under @redhat-cloud-services to harvest credentials and secrets from developer machines. The attack uses install-time execution, credential harvesting, CI/CD environment targeting, encrypted exfiltration, and deploys a self-propagating worm.",
+      "summary": "A supply chain attack campaign called Miasma has compromised Red Hat npm packages (@redhat-cloud-services) to steal credentials and secrets from developer machines. The attack employs install-time execution, credential harvesting, CI/CD targeting, encrypted exfiltration, and delivers a self-propagating worm.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOyc2NTiIl0XKOTZBsFh1bTPqNpVXfDhASWkCsYz17d-nbiWVKlxCzoq3WthMD8kMomrRPPOYLM-XRmSdtXNKAxtk1QLtmZH47y2RExMGohBaBDPkpFp2PteUgaA16VcCs7tK-ImqCiLnpqyLg8Pwp6cWE5d9QT2_v0-QBduT7ovYrs7WSZ9t1MnQJ4EuO/s1600/redhat.png",
       "importance": 7,
       "paywall": false
@@ -148,9 +208,9 @@
       "url": "https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html",
       "source": "The Hacker News",
       "date": "2026-06-01",
-      "summary": "A malicious npm package named \"codexui-android\" has been discovered stealing OpenAI Codex authentication tokens through a supply chain attack, with the package accumulating over 29,000 weekly downloads. The attack targets developers by disguising itself as a legitimate remote web UI tool for OpenAI Codex on GitHub and npm.",
+      "summary": "A malicious npm package named \"codexui-android\" was discovered stealing OpenAI Codex authentication tokens as part of a supply chain attack, attracting over 29,000 weekly downloads before disclosure. The attack targets developers by masquerading as a legitimate remote web UI tool, harvesting authentication credentials from victims.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4veBAmEJHF2nXN_nIgXeWxVSxlTDBc6uWiLwVCYNUqGMF9ZtPre3zF_CXmGnAxX2rbqfwgm_Au0tXvYwv1oTGim1STiGCeVOyMXglUTd-3LeJEN3q718Fdlck9mbQ6aUUYP0NM9S7bakZ4_XF5HHYH-cz2QmKBlge6xNMxbbEjDjZQ4wd1maPKnjgKrsu/s1600/codex.png",
-      "importance": 6,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -158,9 +218,29 @@
       "url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
       "source": "Krebs on Security",
       "date": "2026-06-01",
-      "summary": "Hackers exploited Meta's AI support assistant chatbot to reset account passwords and seize Instagram accounts, including high-profile accounts belonging to the Obama White House and a U.S. Space Force official. Instructions for manipulating the AI bot to bypass normal authentication controls circulated on Telegram, enabling the account takeovers.",
+      "summary": "Hackers exploited Meta's AI support assistant chatbot to bypass Instagram account security and reset passwords, successfully compromising high-profile accounts including the Obama White House and U.S. Space Force Chief Master Sergeant's profiles. The attack method was distributed via Telegram, instructing users how to manipulate the AI bot into performing unauthorized password resets, representing a social engineering vulnerability in AI-assisted authentication workflows.",
       "image": null,
-      "importance": 6,
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Reference your own AWS Secrets Manager secrets in Amazon Bedrock AgentCore Identity",
+      "url": "https://aws.amazon.com/blogs/machine-learning/reference-your-own-aws-secrets-manager-secrets-in-amazon-bedrock-agentcore-identity/",
+      "source": "Amazon.com",
+      "date": "2026-06-01",
+      "summary": "AWS announced that Amazon Bedrock AgentCore Identity now supports referencing secrets stored in AWS Secrets Manager, allowing users to use preconfigured secrets while retaining control over their management. This update pertains to credential and secrets management within AWS's AI agent identity service.",
+      "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/01/21022.png",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "Extending MCP support for Amazon Bedrock AgentCore Gateway",
+      "url": "https://aws.amazon.com/blogs/machine-learning/extending-mcp-support-for-amazon-bedrock-agentcore-gateway-2/",
+      "source": "Amazon.com",
+      "date": "2026-06-01",
+      "summary": "Amazon Web Services has extended Model Context Protocol (MCP) support for Amazon Bedrock AgentCore Gateway, incorporating access control and credential management features for AI agent deployments. The solution addresses enterprise requirements including fine-grained access control across MCP servers, observability into tool usage, and centralized credential management.",
+      "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/01/20987.png",
+      "importance": 4,
       "paywall": false
     },
     {
@@ -168,9 +248,9 @@
       "url": "https://www.prnewswire.com/news-releases/pathlock-reinforces-its-leadership-in-erp-security-and-controls-for-the-ai-era-302786498.html",
       "source": "PRNewswire",
       "date": "2026-06-01",
-      "summary": "Pathlock has issued a statement reinforcing its position in ERP security and controls as AI agents and automated processes reshape enterprise risk. The company promotes a continuous, transaction-first approach that connects identity, governance, and assurance for ERP environments.",
+      "summary": "Pathlock has issued a press release positioning itself as a leader in ERP security and controls for the AI era. The announcement connects identity, governance, and assurance in the context of AI agents and automated processes affecting enterprise risk.",
       "image": "https://mma.prnewswire.com/media/1453138/Pathlock_Logo.jpg?p=facebook",
-      "importance": 6,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -178,109 +258,19 @@
       "url": "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
       "source": "The Hacker News",
       "date": "2026-05-30",
-      "summary": "Palo Alto Networks disclosed an actively exploited authentication bypass vulnerability (CVE-2026-0257, CVSS 7.8) affecting PAN-OS and Prisma Access. The flaw allows attackers to bypass authentication to establish unauthorized VPN connections via GlobalProtect.",
+      "summary": "Palo Alto Networks has disclosed an actively exploited authentication bypass vulnerability (CVE-2026-0257, CVSS 7.8) affecting PAN-OS GlobalProtect and Prisma Access. The flaw allows threat actors to bypass authentication and establish unauthorized VPN connections.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkaW0i4ALAlpWQ_cOjfhoqUlNgMlZysJA6ay0qPViGI_KxEEG-Hh0KdtWLqBXDH42ZBGSONs0ZJuzOqdRF7vbx6Xa9J8HlP60lY45JHy0ivdRQs0exe4wZT2lI3TW4oDO-XXPVz2pek2M3izLqT3ONwq2iuHPN31ZZvK3jl0zIDq_h5XF1CTRk7fUPzjEQ/s1600/panos.jpg",
       "importance": 6,
       "paywall": false
     },
     {
-      "title": "Okta (OKTA) Hits 4-Year High as Earnings Soar",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/okta-okta-hits-4-high-062312694.html",
-      "source": "Yahoo Entertainment",
-      "date": "2026-05-30",
-      "summary": "Okta's stock price reached a four-year high following strong earnings results. The article covers the company's financial market performance as an investment topic.",
-      "image": "https://s.yimg.com/os/en/insidermonkey.com/a8d8570b8b6ad4bd328b09f3b7da4e38",
-      "importance": 4,
-      "paywall": false
-    },
-    {
-      "title": "Adding Optional Claims Using Token Configuration in Microsoft Entra ID",
-      "url": "https://www.c-sharpcorner.com/article/adding-optional-claims-using-token-configuration-in-microsoft-entra-id/",
-      "source": "C-sharpcorner.com",
-      "date": "2026-05-30",
-      "summary": "The article covers how to configure Optional Claims in Microsoft Entra ID (formerly Azure AD) to add user attributes such as first and last name to tokens. This token customization feature is relevant to developers and IAM professionals managing application integrations and identity token configurations within the Microsoft Entra platform.",
-      "image": "https://www.c-sharpcorner.com/images/csharp-corner-new.png",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Okta writes its own license to kill rogue AI agents",
-      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=183449786",
-      "source": "Slashdot.org",
+      "title": "With Complex Cloud Integrations, Small Errors Lead to Major Compromises",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/complex-cloud-integrations-small-errors-compromises",
+      "source": "Dark Reading",
       "date": "2026-05-29",
-      "summary": "Okta is developing a licensing framework to allow customers to shut down rogue AI agents, with CEO Todd McKinnon citing demand from enterprise customers including ServiceNow. The initiative addresses identity and access control challenges posed by autonomous AI agents operating within enterprise environments.",
-      "image": null,
+      "summary": "Researchers discovered an exploit chain in a popular automation service that combined over-permissioned roles, secrets discovery, and non-human identities to enable potential compromise. The attack chain highlights risks associated with excessive IAM permissions and non-human identity (NHI) management in complex cloud environments.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt33ea1925a9f97ba7/6a18a8b047696a7d03d6ca07/rube-goldberg-machine-complexity-T_N_Sursock-shutterstock.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Software stocks wrap up best month since 2001 as talk of 'SaaSpocalypse' subsides",
-      "url": "https://www.cnbc.com/2026/05/29/software-stocks-wrap-best-month-since-2001-as-talk-of-saaspocalypse-.html",
-      "source": "CNBC",
-      "date": "2026-05-29",
-      "summary": "Software stocks, including Okta, posted their best monthly performance since 2001, with Okta seeing a record stock price increase. The gains were driven by investor confidence in AI software strategies rather than any specific IAM product or policy development.",
-      "image": "https://image.cnbcfm.com/api/v1/image/108206044-1759265547154-Snowflake-CB-Photo-20250930-KK-PRESS-021.jpg?v=1759265883&w=1920&h=1080",
-      "importance": 2,
-      "paywall": false
-    },
-    {
-      "title": "Okta Stock Soars 18% on Strong Q1 Earnings Beat and AI Identity Security Momentum",
-      "url": "https://www.ibtimes.com.au/okta-shares-surge-q1-results-ai-security-demand-1869708",
-      "source": "Ibtimes.com.au",
-      "date": "2026-05-29",
-      "summary": "Okta shares rose 18% following a strong Q1 earnings beat driven by AI identity security demand and revenue growth. The results reinforce Okta's position as a leading identity security vendor amid growing enterprise interest in AI-driven IAM capabilities.",
-      "image": "https://d.ibtimes.com.au/en/full/1892086/okta.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "SailPoint、Claude Compliance APIとの統合を発表、AIプラットフォーム向けにエンタープライズ グレードのアイデンティティ セキュリティを提供",
-      "url": "https://prtimes.jp/main/html/rd/p/000000039.000096451.html",
-      "source": "Prtimes.jp",
-      "date": "2026-05-29",
-      "summary": "SailPoint announced an integration with Claude's Compliance API to provide enterprise-grade identity security for AI platforms. The integration connects SailPoint's identity governance capabilities with Anthropic's Claude AI compliance framework.",
-      "image": "https://prtimes.jp/common/pc_v4/og.png",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "What did Okta report about agentic AI demand? #tech",
-      "url": "https://alltoc.com/tech/what-did-okta-report-about-agentic-ai-demand",
-      "source": "Alltoc.com",
-      "date": "2026-05-29",
-      "summary": "Okta reported Q1 revenue of $765M, up 11% year over year, beating analyst expectations of $752M. The company cited agentic AI as a driver of increased demand for identity tools.",
-      "image": "https://alltoc.com/cdn/1048/og.png",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer",
-      "url": "https://thehackernews.com/2026/05/threat-actors-exploit-critical.html",
-      "source": "The Hacker News",
-      "date": "2026-05-28",
-      "summary": "Threat actors are actively exploiting a critical vulnerability in Fortinet's FortiClient Endpoint Management Server (EMS) to deploy credential-stealing malware called EKZ Infostealer. The campaign abuses trusted endpoint management infrastructure to distribute the malware across managed endpoints, as reported by Arctic Wolf.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLo8Mb8UwcN2lkMlnUi-l3a8DXNNL2_dW0VcATt8d34xxXX-kQN8HMolrIuw8ty0WZmpURI7hyphenhyphenDrvCAiKAarvJU1__tzxaKMxX3U4ZJbuwydE2zGoyFmutxDtid410NLBq_wi7fv_QFMdmkHGqRPwVcLY8xfeJ1PSb46o0RpCA4ubLLl8_LlLg-Id7ceU8/s1600/fort.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal",
-      "url": "https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html",
-      "source": "The Hacker News",
-      "date": "2026-05-28",
-      "summary": "Microsoft publicly defended Coordinated Vulnerability Disclosure (CVD) after removing a GitHub researcher account belonging to Chaotic Eclipse, who had disclosed multiple zero-day vulnerabilities publicly. The dispute centers on Microsoft's stance that researchers should give vendors time to address vulnerabilities before public disclosure.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIMDR_KVt17sFMXeEhMvDYHLwBX_Aix1bz3y0izMs7PsVIuGSQhOLX_khN3Ckl_eRm9OEMAlVmBxPHhQvCGDJB5wXJ2rtOT8uQAiWCWCZwc7dvOfbWyuZ0BpNFAKohIpLUq9KR76XvZ3eT0TpltWDHUWQY-nUJzJflA1y5l7q_UXsjVtAMPhwVAULZZScp/s1600/github-ms.png",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More",
-      "url": "https://thehackernews.com/2026/05/threatsday-bulletin-claude-security.html",
-      "source": "The Hacker News",
-      "date": "2026-05-28",
-      "summary": "A security bulletin covers multiple threats including an Azure privilege escalation vulnerability and an MFA bypass technique called Kali365. The bulletin aggregates over 15 security items, including authentication-related threats alongside unrelated topics like FIFA scams and malware loaders.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBnLTRREuP8t8AoMRlakMDVRNoOYCA18IuBTWxA_nms12GdQaSfaU1kgpLSrgUvFFH1goJ_-NOIerDAnZxlD86Oafg_b6QdecLrT4UJdb3_qfmgtxdjrhF8GioeuEZbyZBTVL4cXUcpWqZujpLoI4zBm9y7XvFUjYR5cjF0GmmU_TXlmX0W7zsxlcvV9mW/s1600/tbb.jpg",
-      "importance": 5,
       "paywall": false
     },
     {
@@ -288,7 +278,7 @@
       "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
       "source": "Krebs on Security",
       "date": "2026-05-22",
-      "summary": "A CISA contractor intentionally published AWS GovCloud keys and other agency secrets to a public GitHub account, resulting in a significant credential leak. Lawmakers from both congressional chambers are demanding answers while CISA works to contain the breach and invalidate the exposed credentials.",
+      "summary": "A CISA contractor intentionally published AWS GovCloud keys and other agency secrets to a public GitHub account, resulting in a significant credential leak. Lawmakers from both chambers of Congress are demanding answers while CISA works to contain the breach and invalidate the exposed credentials.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -298,9 +288,9 @@
       "url": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
       "source": "Krebs on Security",
       "date": "2026-05-18",
-      "summary": "A CISA contractor publicly exposed credentials for highly privileged AWS GovCloud accounts and numerous internal CISA systems via a public GitHub repository. The leaked files contained details on CISA's internal software build, test, and deployment processes, representing a significant privileged credential exposure incident.",
+      "summary": "A CISA contractor exposed credentials to multiple highly privileged AWS GovCloud accounts and numerous internal CISA systems via a public GitHub repository. The leaked files included details on how CISA builds, tests, and deploys software internally, representing a significant privileged credential exposure incident.",
       "image": null,
-      "importance": 6,
+      "importance": 7,
       "paywall": false
     },
     {
@@ -308,7 +298,7 @@
       "url": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
       "source": "Krebs on Security",
       "date": "2026-04-21",
-      "summary": "Tyler Robert Buchanan, a 24-year-old British national and senior member of Scattered Spider, pleaded guilty to wire fraud conspiracy and aggravated identity theft. Buchanan admitted to conducting SMS phishing attacks in summer 2022 that compromised at least a dozen major technology companies and resulted in theft of tens of millions of dollars in cryptocurrency.",
+      "summary": "Tyler Robert Buchanan, a 24-year-old British national and senior member of Scattered Spider, pleaded guilty to wire fraud conspiracy and aggravated identity theft. Buchanan admitted to conducting SMS phishing attacks in 2022 that compromised at least a dozen major technology companies and enabled cryptocurrency theft from investors.",
       "image": null,
       "importance": 6,
       "paywall": false
