@@ -1,5 +1,5 @@
 {
-  "updated": "June 07, 2026 at 07:14 UTC",
+  "updated": "June 08, 2026 at 08:21 UTC",
   "top_stories": [
     {
       "title": "Attackers obtained encrypted password vaults from some Dashlane user accounts",
@@ -16,7 +16,7 @@
       "url": "https://thehackernews.com/2026/06/microsoft-365-android-apps-let-any-app.html",
       "source": "The Hacker News",
       "date": "2026-06-03",
-      "summary": "A leftover debug flag in production builds of multiple Microsoft 365 Android apps disabled token-sharing restrictions, allowing any app on the same device to silently steal account tokens without authentication. The flaw permitted unauthorized access to email, files, calendar, and messaging as the authenticated user, bypassing all login and permission prompts.",
+      "summary": "A debug flag left enabled in production builds of multiple Microsoft 365 Android apps disabled token-sharing restrictions, allowing any app on the same device to request and receive the signed-in user's account token without authentication. The vulnerability enabled full account access including email, files, calendar, and messaging without requiring a password or permission prompt.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_pEYWDRVadGL0WYM3iSY6jqFgBez8snXgoyeyAzcXNmxiytv-FgiKoBJX3aPivuYhSJjXp4o_zO1dQSIPUfduaAlB-rvSti7pFhdDZSrAa-ennBdfdVpe1Xo0dMxKATB8te61pyJAf60x5CP6OJzjzmtpFIg_qHQqA7VP-rUnEpaT37Z0qBOmbZ52BfM/s1600/ms-android.jpg",
       "importance": 9,
       "paywall": false
@@ -26,7 +26,7 @@
       "url": "https://www.darkreading.com/application-security/coding-gaffe-exposes-microsoft-365-accounts-takeover",
       "source": "Dark Reading",
       "date": "2026-06-03",
-      "summary": "A coding error in Microsoft 365 Android apps disabled a security setting designed to protect authentication, exposing accounts to potential takeover. The vulnerability affected key applications including Word, PowerPoint, and Excel, allowing attackers to steal login credentials and data.",
+      "summary": "A coding error in Microsoft 365 Android apps (Word, PowerPoint, Excel) left a security setting disabled, exposing authentication mechanisms to account takeover attacks. The flaw allowed attackers to steal login credentials and data by bypassing intended authentication protections across the affected applications.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blta6d9216f2cd41b4b/6a2015f94a4fc7d0bb15144e/Authentication_Zoonar_GmbH_Alamy.png?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 8,
       "paywall": false
@@ -36,18 +36,18 @@
       "url": "https://www.darkreading.com/cyber-risk/fbi-flagged-phishing-kit-kali365-expands-its-reach",
       "source": "Dark Reading",
       "date": "2026-06-02",
-      "summary": "The phishing-as-a-service platform Kali365, previously flagged by the FBI for targeting Microsoft 365, has expanded its attack scope to include AWS, Okta, and Russian platforms. The platform employs device code phishing techniques to compromise identity and access credentials across these services.",
+      "summary": "The phishing-as-a-service platform Kali365, previously flagged by the FBI for targeting Microsoft 365, has expanded its attack targets to include AWS, Okta, and Russian platforms. The platform uses device code phishing techniques to compromise authentication flows across these identity and cloud services.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blta4f731d1ead13c9d/6a1f3ff44bb1191264ce8b45/phishing_babar_ali_1233_shutterstock.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
     },
     {
-      "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
-      "url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
-      "source": "Krebs on Security",
-      "date": "2026-06-01",
-      "summary": "Hackers exploited Meta's AI support assistant bot to reset Instagram account passwords and seize accounts, including those of the Obama White House and a U.S. Space Force official. Instructions for manipulating the AI chatbot into bypassing normal authentication and account recovery controls circulated on Telegram prior to the attacks.",
-      "image": null,
+      "title": "Building secure B2C applications with fine-grained access control using Amazon Cognito and Amazon Verified Permissions",
+      "url": "https://aws.amazon.com/blogs/security/building-secure-b2c-applications-with-fine-grained-access-control-using-amazon-cognito-and-amazon-verified-permissions/",
+      "source": "Amazon.com",
+      "date": "2026-06-05",
+      "summary": "Amazon Web Services published guidance on building secure B2C applications using Amazon Cognito for authentication and Amazon Verified Permissions for fine-grained authorization. The article covers implementing authentication and authorization controls together as core security pillars for modern web applications.",
+      "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/06/04/Shield2-for-social.jpg",
       "importance": 7,
       "paywall": false
     }
@@ -58,19 +58,9 @@
       "url": "https://www.helpnetsecurity.com/2026/06/05/lets-encrypt-mcts-web-post-quantum-authentication/",
       "source": "Help Net Security",
       "date": "2026-06-05",
-      "summary": "Let's Encrypt is developing post-quantum-safe Web PKI using Merkle Tree Certificates (MTCs), targeting a staging environment in late 2026 and production readiness in 2027. The initiative focuses on adding post-quantum authentication to TLS without degrading the speed and reliability of certificate issuance at web scale.",
+      "summary": "Let's Encrypt is developing post-quantum-safe Web PKI using Merkle Tree Certificates (MTCs), targeting a staging environment in late 2026 and production readiness in 2027. The initiative focuses on adding post-quantum authentication to TLS certificate infrastructure without degrading performance or reliability.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/06/05092510/letsencrypt-1500.webp",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Building secure B2C applications with fine-grained access control using Amazon Cognito and Amazon Verified Permissions",
-      "url": "https://aws.amazon.com/blogs/security/building-secure-b2c-applications-with-fine-grained-access-control-using-amazon-cognito-and-amazon-verified-permissions/",
-      "source": "Amazon.com",
-      "date": "2026-06-05",
-      "summary": "Amazon has published guidance on building secure B2C applications using Amazon Cognito for authentication combined with Amazon Verified Permissions for fine-grained access control. The article covers implementing authentication and authorization controls together, addressing both identity verification and resource access management in modern web applications.",
-      "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/06/04/Shield2-for-social.jpg",
-      "importance": 7,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -78,7 +68,7 @@
       "url": "https://cryptobriefing.com/willow-raises-7m-secure-ai-agents/",
       "source": "Crypto Briefing",
       "date": "2026-06-05",
-      "summary": "Willow has raised $7M to develop an identity layer specifically designed for autonomous AI agents. The funding targets a specialized identity management solution for agentic AI systems operating within enterprise environments.",
+      "summary": "Willow has raised $7M to develop an identity layer specifically designed for autonomous AI agents. The funding targets a emerging gap in identity management infrastructure as enterprises increasingly deploy agentic AI systems that require their own authentication and authorization frameworks.",
       "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/06/05052125/willow-raises-7m-seed-for-ai-agent-governance-wix-stock-news-1-800x420.jpeg",
       "importance": 6,
       "paywall": false
@@ -88,7 +78,7 @@
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-mcp-server/",
       "source": "Amazon.com",
       "date": "2026-06-05",
-      "summary": "AWS has added cross-account and cross-role access support to the AWS Model Context Protocol (MCP) Server within its Agent Toolkit. The feature enables developers using AI coding agents to operate across multiple AWS accounts and roles without manually switching credentials.",
+      "summary": "AWS has added cross-account and cross-role access capabilities to its Model Context Protocol (MCP) Server within the Agent Toolkit for AWS. The feature enables developers using AI coding agents to work across multiple AWS accounts and roles without manually switching credentials.",
       "image": null,
       "importance": 4,
       "paywall": false
@@ -98,9 +88,19 @@
       "url": "https://www.c-sharpcorner.com/article/implementing-oauth-2-0-and-openid-connect-in-asp-net-core/",
       "source": "C-sharpcorner.com",
       "date": "2026-06-05",
-      "summary": "An article provides guidance on implementing OAuth 2.0 and OpenID Connect protocols within ASP.NET Core applications. The content covers authentication, authorization, token management, and Single Sign-On configuration for developers building secure applications.",
+      "summary": "An article explains how to implement OAuth 2.0 and OpenID Connect protocols in ASP.NET Core applications. The content covers authentication, authorization, token management, and Single Sign-On configuration for developers building identity-secured applications.",
       "image": "https://www.c-sharpcorner.com/images/csharp-corner-new.png",
       "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Pink is the latest goon squad to use fake helpdesk calls to steal creds",
+      "url": "https://www.theregister.com/cyber-crime/2026/06/04/pink-is-the-latest-goon-squad-to-use-fake-helpdesk-calls-to-steal-creds/5251434",
+      "source": "Theregister.com",
+      "date": "2026-06-04",
+      "summary": "A cybercriminal group called \"Pink\" is using fake IT helpdesk calls to steal credentials, a social engineering tactic previously associated with the Lapsus$ group. The attacks involve impersonating helpdesk staff to manipulate targets into revealing authentication credentials.",
+      "image": "https://image.theregister.com/5251457.jpg?imageId=5251457&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+      "importance": 5,
       "paywall": false
     },
     {
@@ -108,7 +108,7 @@
       "url": "https://aws.amazon.com/blogs/security/customize-federated-sign-in-with-new-amazon-cognito-lambda-trigger/",
       "source": "Amazon.com",
       "date": "2026-06-04",
-      "summary": "Amazon Cognito has introduced a new Lambda trigger that allows developers to customize federated sign-in flows in user pools. The feature enables customization of authentication behavior for users signing in via external identity providers within Cognito's managed identity service.",
+      "summary": "Amazon Cognito has introduced a new Lambda trigger that allows developers to customize federated sign-in flows in user pools. The update enables customization of authentication behavior for federated identity providers within Cognito's managed sign-up and sign-in functionality for web and mobile applications.",
       "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/06/01/cognito_blog_image.jpeg",
       "importance": 6,
       "paywall": false
@@ -118,7 +118,7 @@
       "url": "https://healthsystemcio.com/2026/06/04/machine-identity-security-gartner/",
       "source": "Healthsystemcio.com",
       "date": "2026-06-04",
-      "summary": "Gartner has issued guidance stating that cyber leaders must treat identity as core infrastructure in response to expanding AI-driven attack surfaces. The advisory emphasizes modernizing identity systems and measuring resilience as key strategic priorities for security leaders.",
+      "summary": "Gartner has issued guidance stating that cyber leaders must treat identity as infrastructure in response to expanding AI-driven attack surfaces. The advisory emphasizes modernizing identity systems and measuring resilience as core strategies against four identified threat vectors where attackers currently have an advantage.",
       "image": "https://healthsystemcio.com/wp-content/uploads/2026/05/news-200.png",
       "importance": 7,
       "paywall": false
@@ -128,18 +128,8 @@
       "url": "https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html",
       "source": "The Hacker News",
       "date": "2026-06-03",
-      "summary": "A security researcher disclosed a one-click attack in Microsoft Visual Studio Code that could steal GitHub OAuth tokens, allowing attackers to read and write to private repositories. The vulnerability involved the GitHub.dev feature and has since been patched by Microsoft.",
+      "summary": "Microsoft patched a one-click attack vulnerability in Visual Studio Code that allowed attackers to steal GitHub OAuth tokens. The flaw involved the GitHub.dev feature and could enable unauthorized read/write access to both public and private repositories.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeHvqmNHvAhdxgoBLbfFWsFBMdvH5SbJovunxx8AYHRkq7HOQ2l6I_ZaJGi_PF5WHKOlHEQHK4HyPBhmzOpYNhPS4HJSna2uLVlEwUV9i2j5YuRqGOLUqgKIrhx2ndFm1OSME7usiLk_ohtIBYyR5Xpq5Pzc2eHAjCK0OA_89JwPNxVrrBVDbTDRVbRG6e/s1600/github.jpg",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Shrinking the IAM Attack Surface through Identity Visibility and Intelligence Platforms (IVIP)",
-      "url": "https://thehackernews.com/2026/06/shrinking-iam-attack-surface-through.html",
-      "source": "The Hacker News",
-      "date": "2026-06-03",
-      "summary": "The article addresses the concept of \"Identity Dark Matter\" in enterprise IAM environments, where identity activity occurs outside centralized visibility and control. It focuses on Identity Visibility and Intelligence Platforms (IVIP) as a solution to fragmented identity sprawl across applications, machine identities, and decentralized systems.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuT21gubKVL2cAsQrEiju_yAE3Pxe1IPxsl9RlGfhMEeis2IuQglnZjwTme6xM1_IJNymXFY1kZsouMGecR2lQnzvMDXyjnY1Y7CT1Dz_xf0pRVkwJEJG9o1EfOlPMfgfZ0MO6eyKGKJDwRHrEsw2-Cai9QO3pfrryeSENy5kH4C_pdjDgsXVOO80TPy8/s1600/orchid.jpg",
       "importance": 6,
       "paywall": false
     },
@@ -148,19 +138,9 @@
       "url": "https://www.c-sharpcorner.com/article/understanding-microsoft-entra-id-tenant-object-quota/",
       "source": "C-sharpcorner.com",
       "date": "2026-06-03",
-      "summary": "This article explains Microsoft Entra ID's tenant object quota system, covering what it is and how to manage it. The content addresses capacity limits within Microsoft's identity platform for managing directory objects.",
+      "summary": "The article explains Microsoft Entra ID's tenant object quota system, covering what it is and how to manage it. It focuses on the limits placed on objects within an Entra ID tenant and guidance for administrators on managing those constraints.",
       "image": "https://www.c-sharpcorner.com/images/csharp-corner-new.png",
       "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Amazon OpenSearch Service: Mechanisms to secure your domain",
-      "url": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-mechanisms-to-secure-your-domain/",
-      "source": "Amazon.com",
-      "date": "2026-06-03",
-      "summary": "Amazon published an overview of security mechanisms available for Amazon OpenSearch Service, covering authentication, authorization, encryption, and network access controls. The post details fine-grained access control implementation and AWS Identity and Access Management (IAM) integration for OpenSearch domain management.",
-      "image": "https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2026/05/28/BDB5059.png",
-      "importance": 4,
       "paywall": false
     },
     {
@@ -168,9 +148,29 @@
       "url": "https://www.darkreading.com/application-security/microsoft-zero-day-legal-threats-backlash",
       "source": "Dark Reading",
       "date": "2026-06-01",
-      "summary": "A security researcher published multiple zero-day exploits, prompting Microsoft to suggest potential criminal charges. The dispute centers on Microsoft's response to unsolicited vulnerability disclosures and has drawn backlash from the security research community.",
+      "summary": "A security researcher published multiple zero-day exploits, prompting Microsoft to signal potential criminal charges. The situation has generated backlash within the security research community over Microsoft's legal threat response.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt110b7f1326599f0b/6a1dd3554d48bfcf20ade268/RMmicrosoft-DrewAngerer-Getty-675949746.jpg?width=1280&auto=webp&quality=80&disable=upscale",
-      "importance": 5,
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "Patch Now: Another Palo Alto Auth Bypass Bug Under Active Exploit",
+      "url": "https://www.darkreading.com/threat-intelligence/patch-palo-alto-auth-bypass-bug-exploit",
+      "source": "Dark Reading",
+      "date": "2026-06-01",
+      "summary": "A Palo Alto Networks PAN-OS GlobalProtect VPN vulnerability involving an authentication bypass is under active exploitation in two attack waves beginning mid-May. The flaw requires specific conditions to exploit but has been confirmed as actively targeted by adversaries.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt225868f85dab8e5a/6a1d6cdb688dd44956baf7b6/Vulnerability_(1800)_Sergey_Tarasov_Alamy.png?width=1280&auto=webp&quality=80&disable=upscale",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
+      "url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
+      "source": "Krebs on Security",
+      "date": "2026-06-01",
+      "summary": "Hackers exploited Meta's AI support assistant chatbot to bypass account security and reset Instagram passwords, briefly seizing high-profile accounts including the Obama White House and U.S. Space Force accounts. Instructions for the attack circulated on Telegram, demonstrating a social engineering vector that undermines authentication controls through AI-assisted support systems.",
+      "image": null,
+      "importance": 7,
       "paywall": false
     },
     {
@@ -178,7 +178,7 @@
       "url": "https://www.darkreading.com/vulnerabilities-threats/complex-cloud-integrations-small-errors-compromises",
       "source": "Dark Reading",
       "date": "2026-05-29",
-      "summary": "Security researchers discovered an exploit chain in a popular automation service that combined over-permissioned roles, secrets discovery, and non-human identities to enable potential full compromise. The attack vector highlights risks associated with excessive IAM permissions and non-human identity (NHI) management in complex cloud integrations.",
+      "summary": "Researchers discovered an exploit chain in a popular automation service that combined over-permissioned roles, secrets discovery, and non-human identities to achieve a major compromise. The attack chain highlights risks associated with excessive IAM permissions and non-human identity (NHI) management in complex cloud integrations.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt33ea1925a9f97ba7/6a18a8b047696a7d03d6ca07/rube-goldberg-machine-complexity-T_N_Sursock-shutterstock.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -188,7 +188,7 @@
       "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
       "source": "Krebs on Security",
       "date": "2026-05-22",
-      "summary": "A CISA contractor intentionally published AWS GovCloud keys and other agency secrets to a public GitHub account, resulting in a significant credential leak. Lawmakers from both congressional chambers are demanding answers while CISA works to contain the breach and invalidate the exposed credentials.",
+      "summary": "A CISA contractor intentionally published AWS GovCloud keys and other agency secrets to a public GitHub account, resulting in a data breach now under investigation by Congressional lawmakers. CISA is actively working to contain the breach and invalidate the leaked credentials while facing inquiries from both houses of Congress.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -198,9 +198,9 @@
       "url": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
       "source": "Krebs on Security",
       "date": "2026-05-18",
-      "summary": "A CISA contractor exposed highly privileged AWS GovCloud account credentials and internal system access details in a public GitHub repository until this past weekend. The leaked files included details on how CISA builds, tests, and deploys software internally, representing a significant privileged credential exposure incident.",
+      "summary": "A CISA contractor exposed highly privileged AWS GovCloud account credentials and internal system access details in a public GitHub repository until this past weekend. The leaked repository contained files describing CISA's internal software build, test, and deployment processes, representing a significant credential and secrets management failure.",
       "image": null,
-      "importance": 7,
+      "importance": 6,
       "paywall": false
     },
     {
@@ -208,7 +208,7 @@
       "url": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
       "source": "Krebs on Security",
       "date": "2026-04-21",
-      "summary": "Tyler Robert Buchanan, a 24-year-old British national and senior member of Scattered Spider, pleaded guilty to wire fraud conspiracy and aggravated identity theft. Buchanan admitted involvement in SMS phishing attacks in summer 2022 that compromised at least a dozen major technology companies and resulted in cryptocurrency theft from investors.",
+      "summary": "Tyler Robert Buchanan, a 24-year-old British national and senior member of Scattered Spider, pleaded guilty to wire fraud conspiracy and aggravated identity theft. The charges relate to SMS phishing attacks in summer 2022 that compromised at least a dozen major technology companies and resulted in theft of tens of millions in cryptocurrency.",
       "image": null,
       "importance": 6,
       "paywall": false
