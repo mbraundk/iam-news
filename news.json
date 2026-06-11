@@ -1,23 +1,43 @@
 {
-  "updated": "June 10, 2026 at 07:18 UTC",
+  "updated": "June 11, 2026 at 08:14 UTC",
   "top_stories": [
     {
       "title": "ServiceNow discloses security incident exposing customer data",
       "url": "https://www.bleepingcomputer.com/news/security/servicenow-discloses-security-incident-exposing-customer-data/",
       "source": "Bleeping Computer",
       "date": "2026-06-09",
-      "summary": "ServiceNow disclosed a security incident in which attackers exploited an unauthenticated access vulnerability through an API endpoint to query data from customer instances. The breach involved an access control flaw that allowed unauthorized parties to retrieve customer data without authentication.",
+      "summary": "ServiceNow disclosed a security incident in which attackers exploited an unauthenticated access vulnerability through an API endpoint to query data from customer instances. The breach involved unauthorized access to customer data, raising concerns for organizations using ServiceNow for identity governance and IT service management workflows.",
       "image": "https://www.bleepstatic.com/content/hl-images/2026/06/09/servicenow.jpg",
       "importance": 7,
       "paywall": false
     },
     {
-      "title": "Critical Check Point VPN Flaw Exploited to Bypass Passwords in IKEv1 Setups",
-      "url": "https://thehackernews.com/2026/06/critical-check-point-vpn-flaw-exploited.html",
+      "title": "Threat actors are recruiting the people who hold cloud logins",
+      "url": "https://www.helpnetsecurity.com/2026/06/11/report-cloud-insider-threats/",
+      "source": "Help Net Security",
+      "date": "2026-06-11",
+      "summary": "Intel 471 published research tracking cybercriminal recruitment of cloud credential holders as insider threats through 2026, categorizing insider risk into three types: negligent, manipulated, and malicious. The report focuses on how threat actors target employees with cloud platform logins, directly implicating credential and access management practices in cloud-reliant organizations.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/06/09174915/insider-threat.webp",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "ServiceNow Flaw Exploited to Gain Unauthorized Access to Customer Instances",
+      "url": "https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html",
       "source": "The Hacker News",
-      "date": "2026-06-08",
-      "summary": "Check Point disclosed active exploitation of CVE-2026-50751, a critical (CVSS 9.3) authentication bypass vulnerability in its Remote Access VPN and Mobile Access products using the deprecated IKEv1 protocol. The flaw is a logic weakness in certificate validation that allows unauthenticated remote attackers to bypass password authentication.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYhQjzMpxYhylqWwtRqt0p7upc-fSMohRLJs5lRSXUg51_lrzt63JYz0K9zo2V7Rl9yCOMpQk6YFBfTdE1CuSuFYGA3odGeHu3mIV-LY_JHWyIx7g32NPOx1tuSZ-ZIMasTT5S-43DoYHEpCTykl4E4TfyXw89HksiOppUEMp5ganCT27SF0xu7noBUQ5i/s1600/checkpoint.jpg",
+      "date": "2026-06-10",
+      "summary": "ServiceNow applied an emergency security update on June 5, 2026, after threat actors exploited a flaw to gain unauthorized access to hosted customer instances. The vulnerability allowed unauthenticated users to obtain deeper access to susceptible instances, with the company issuing an advisory to affected customers.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdoQ33nXrsmYyHLAdeWHw4nf5zrUhZhVi755NnYVGzkyNPbpR60m4Rt6w8JiKdPuXgn1Md6_nu253LeMjXG7VyEZcBWMaE-ST8lN8P8QqtACeftxFrV3nyIoF8TEHzX6m2sqjiv6KFz4_4eZoddHKWQYVSQgagI4oW_NcdjcnYrWyNPBbq05O7hdE8zZoj/s1600/servicenow.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Linx Security Launches Agentic Access Control to Deliver Real-Time Governance Over AI Agents",
+      "url": "https://www.prnewswire.com/news-releases/linx-security-launches-agentic-access-control-to-deliver-real-time-governance-over-ai-agents-302795366.html",
+      "source": "PRNewswire",
+      "date": "2026-06-09",
+      "summary": "Linx Security has announced the general availability of Linx Agentic Access Control, a real-time enforcement layer for governing AI agent identities within enterprise environments. The product targets security and identity teams seeking governance controls over non-human/AI agent access, positioning within the emerging agentic identity management space.",
+      "image": "https://mmx.prnewswire.com/media/MS1860358/Logo.jpg?id=OA2693471&p=facebook",
       "importance": 7,
       "paywall": false
     },
@@ -26,41 +46,111 @@
       "url": "https://www.prnewswire.com/news-releases/silverfort-integrates-ai-agent-identity-control-for-microsoft-copilot-studio-302794059.html",
       "source": "PRNewswire",
       "date": "2026-06-08",
-      "summary": "Silverfort announced an integration with Microsoft Copilot Studio that applies runtime identity and access controls to AI agents. The integration aims to extend Silverfort's identity security capabilities to agentic AI workloads, addressing the emerging challenge of non-human identity governance.",
+      "summary": "Silverfort announced an integration with Microsoft Copilot Studio to provide runtime identity and access controls for AI agents. The integration aims to secure agentic AI workloads by applying identity governance and access management controls to AI agents operating within Copilot Studio environments.",
       "image": "https://mma.prnewswire.com/media/2995681/Copilot_launch_video.mp4?p=medium",
       "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Silverfort brings runtime identity controls to Microsoft Copilot Studio agents",
-      "url": "https://siliconangle.com/2026/06/08/silverfort-brings-runtime-identity-controls-microsoft-copilot-studio-agents/",
-      "source": "SiliconANGLE News",
-      "date": "2026-06-08",
-      "summary": "Silverfort has launched an integration that applies its identity and access controls to AI agents built in Microsoft Copilot Studio, enforcing policy at runtime when an agent attempts to take action. The integration extends Silverfort's identity security controls to non-human identities in the form of AI agents, addressing access governance for automated AI workflows.",
-      "image": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/06/silverfortiamagents.png",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "French government messaging platform breached through account hijacking",
-      "url": "https://www.helpnetsecurity.com/2026/06/09/tchap-french-government-secure-messaging-platform-breach/",
-      "source": "Help Net Security",
-      "date": "2026-06-09",
-      "summary": "The French government's secure messaging platform Tchap was breached after hackers hijacked a user account to gain access to public chat rooms. The platform, built on the open-source Matrix protocol and used by civil servants and public agencies, is under investigation by the Interministerial Directorate for Digital Affairs (DINUM).",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/02/19151719/flag-france-1500.webp",
-      "importance": 6,
       "paywall": false
     }
   ],
   "news": [
     {
+      "title": "Oracle PeopleSoft servers hacked in ShinyHunters data theft attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/oracle-peoplesoft-servers-hacked-in-shinyhunters-data-theft-attacks/",
+      "source": "Bleeping Computer",
+      "date": "2026-06-10",
+      "summary": "The ShinyHunters extortion gang is actively targeting Oracle PeopleSoft servers in data theft attacks, claiming to have stolen data from over 100 organizations. PeopleSoft is an enterprise platform commonly used for HR and identity-related data, making it relevant to access management and identity governance environments.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2025/03/21/Oracle.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "The 5 Best Practices for Secure Identity Verification",
+      "url": "https://www.bleepingcomputer.com/news/security/the-5-best-practices-for-secure-identity-verification/",
+      "source": "Bleeping Computer",
+      "date": "2026-06-10",
+      "summary": "Specops Software has published guidance outlining five best practices for secure identity verification. The piece addresses attack vectors including phishing, MFA fatigue, and service desk social engineering as threats to authentication systems.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/06/04/mfa-header.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Identity theft is turning into a chain reaction for victims",
+      "url": "https://www.helpnetsecurity.com/2026/06/10/identity-theft-incidents-itrc-report/",
+      "source": "Help Net Security",
+      "date": "2026-06-10",
+      "summary": "The Identity Theft Resource Center's 2026 Trends in Identity Report found that more than one in four of the 6,188 individuals who sought help between April 2025 and March 2026 experienced multiple identity-related incidents. The report highlights a pattern of compounding identity crimes affecting victims over time.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/05/14074130/identity-face-2-1500.webp",
+      "importance": 4,
+      "paywall": false
+    },
+    {
       "title": "Hades PyPI Attack: 19 Packages Poisoned to Auto-Run Bun Credential Stealer",
       "url": "https://thehackernews.com/2026/06/hades-pypi-attack-19-packages-poisoned.html",
       "source": "The Hacker News",
       "date": "2026-06-09",
-      "summary": "A supply chain attack called Hades has been discovered on PyPI, involving 37 malicious wheel artifacts across 19 packages designed to automatically execute a Bun-based credential stealer. The attack is part of the broader Miasma campaign and targets credential theft through poisoned Python packages.",
+      "summary": "A supply chain attack called Hades has deployed 37 malicious wheel artifacts across 19 PyPI packages designed to steal credentials. The attack uses auto-executing .pth files to run a Bun-based credential stealer, representing an evolution of the earlier Miasma supply chain campaign.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimsh1r7uS0J7o39IjoPTuHOzh-EiqtvAat_29YiejSgsn0oTvwmlklYrtu0VqUU05z-THGSE__CFshF8lpSdkRbx-b7Ez0uvlBnWcNQntBPcjv08iKy_hqq5W6NrLSUFek3FfLN5Z6ookVi6zqFE_uQhF56Nu_uyorkUuHOlYxm-cpfFsDwMUhWNRB9Mxi/s1600/python-worm.png",
       "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "SailPoint shares fall despite earnings beat and raised guidance",
+      "url": "https://siliconangle.com/2026/06/09/sailpoint-shares-fall-despite-earnings-beat-raised-guidance/",
+      "source": "SiliconANGLE News",
+      "date": "2026-06-09",
+      "summary": "SailPoint shares dropped more than 11% despite the identity security company beating analyst expectations on revenue and adjusted earnings while also raising its outlook. The selloff suggests investor expectations were set higher than the reported results.",
+      "image": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/06/sailpoint.png",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Amazon S3 Access Grants are now available in the AWS European Sovereign Cloud (Germany) Region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-s3-access-grants-european-sovereign-cloud-germany-region",
+      "source": "Amazon.com",
+      "date": "2026-06-09",
+      "summary": "Amazon S3 Access Grants, which map identities from directories like Microsoft Entra ID and AWS IAM to S3 datasets, are now available in the AWS European Sovereign Cloud (Germany) Region. The feature enables organizations to manage access to S3 data using existing identity providers and IAM principals within the sovereign cloud environment.",
+      "image": null,
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "What zero-trust data protection means for business",
+      "url": "https://www.techtarget.com/searchdatabackup/tip/What-zero-trust-data-protection-means-for-business",
+      "source": "Techtarget.com",
+      "date": "2026-06-09",
+      "summary": "The article addresses the limitations of network-level zero trust implementation, arguing that data protection must extend across platforms, applications, and devices. It focuses on applying zero trust principles beyond the network perimeter to where business data actually resides.",
+      "image": "https://www.techtarget.com/rms/onlineimages/security_a244600171.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Nimbus-T® Global and Carahsoft Partner to Deliver Identity-First Zero Trust Security to Government Agencies",
+      "url": "https://www.globenewswire.com/news-release/2026/06/09/3309132/0/en/Nimbus-T-Global-and-Carahsoft-Partner-to-Deliver-Identity-First-Zero-Trust-Security-to-Government-Agencies.html",
+      "source": "GlobeNewswire",
+      "date": "2026-06-09",
+      "summary": "Nimbus-T Global and Carahsoft have entered a partnership to deliver Nimbus-T's identity security platform to U.S. government agencies. The deal positions Carahsoft as a distributor for the Nimbus-Key ID platform, targeting federal zero trust and identity security requirements.",
+      "image": "https://ml.globenewswire.com/Resource/Download/ee2f2b02-4089-4a15-93fa-0956daf4ad82",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "RevBits and Stony Brook University’s Ethos Lab Establish a Collaborative Partnership to Further the Field of Cyber Security Education and Application",
+      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/revbits-and-stony-brook-universitys-ethos-lab-establish-a-collaborative-partnership-to-further-the-field-of-cyber-security-education-and-application",
+      "source": "Financial Post",
+      "date": "2026-06-09",
+      "summary": "RevBits has established a partnership with Stony Brook University's Ethos Lab to provide its cybersecurity solutions for student education. The arrangement gives the lab access to RevBits' full suite of cybersecurity tools to support hands-on training in cyber threat response.",
+      "image": null,
+      "importance": 3,
+      "paywall": false
+    },
+    {
+      "title": "Infosecurity Europe: Why JLR’s CISO Enforced In-Person Password Resets Following Cyber-Attack",
+      "url": "https://www.infosecurity-magazine.com/news/jlr-cyberattack-ciso-inperson/",
+      "source": "Infosecurity Magazine",
+      "date": "2026-06-09",
+      "summary": "Former JLR CISO Ashish Shrestha spoke at Infosecurity Europe about his decision to require over 30,000 employees to reset passwords in person following a cyber-attack. The talk covered the rationale behind enforcing in-person password resets as part of the incident response process.",
+      "image": "https://assets.infosecurity-magazine.com/webpage/og/e57f2a2a-56f8-48f0-9502-9f52d015882c.jpg",
+      "importance": 5,
       "paywall": false
     },
     {
@@ -68,7 +158,7 @@
       "url": "https://prtimes.jp/main/html/rd/p/000000080.000012489.html",
       "source": "Prtimes.jp",
       "date": "2026-06-09",
-      "summary": "SoftCreate published a case study about supporting S-FIT Co., Ltd. in consolidating their authentication infrastructure and strengthening security. The article appears to detail an IAM/authentication integration project, though specific technical details are limited in the provided description.",
+      "summary": "SoftCreate published a case study about supporting S-FIT Co., Ltd. with authentication infrastructure integration and security enhancement. The article appears to describe an IAM/authentication consolidation project, though specific technical details are limited in the description.",
       "image": "https://prcdn.freetls.fastly.net/release_image/12489/80/12489-80-a7e4766a8e71e4ea43236eff7fa72481-3900x907.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
       "importance": 4,
       "paywall": false
@@ -78,9 +168,9 @@
       "url": "https://www.techtarget.com/searchsecurity/answer/What-are-some-of-the-top-identity-and-access-management-risks",
       "source": "Techtarget.com",
       "date": "2026-06-09",
-      "summary": "The article addresses the evolving landscape of identity and access management risks, covering SaaS applications, AI agents, and machine-to-machine interactions in distributed environments. It focuses on the expanded scope of modern IAM challenges beyond traditional user authentication.",
+      "summary": "The article addresses modern IAM risks spanning SaaS applications, AI agents, and machine-to-machine interactions in distributed environments. It covers the expanded scope of identity management beyond traditional system login scenarios.",
       "image": "https://www.techtarget.com/visuals/searchSOA/testing_governance_management/soa_article_020.jpg",
-      "importance": 6,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -88,59 +178,19 @@
       "url": "https://thehackernews.com/2026/06/unc3753-used-vishing-and-physical.html",
       "source": "The Hacker News",
       "date": "2026-06-08",
-      "summary": "Google Mandiant and Google Threat Intelligence Group have attributed a data theft extortion campaign targeting U.S. organizations in professional, legal, and financial services to threat actor UNC3753, active between January and May 2026. The campaign employed vishing (voice phishing) and physical intrusions as attack vectors to compromise organizations and steal data.",
+      "summary": "Google Mandiant and Google Threat Intelligence Group have attributed a financially motivated data theft extortion campaign targeting U.S. organizations in professional, legal, and financial sectors to threat actor UNC3753, active between January and May 2026. The campaign employed vishing (voice phishing) and physical intrusions as attack vectors against dozens of organizations.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoUzV1qMNLxMhQ6z22gKy4A5VPPrLn4b1nlfLaMyR6dBM6ostnGD8O3jiaPdM_diQNx24uX-TbI6iiX0Yw4m7msT6_3_UFz_g-g1fQGh3J55fzWzRyKTel4uIp05eBMvxwaQWvNv-VM0_p9jkclDuIyq0Ztu8r4gHIKN1xNSoGYV8Lj31kb_mCcZcBeXrB/s1600/vishing.jpg",
-      "importance": 5,
+      "importance": 6,
       "paywall": false
     },
     {
-      "title": "AI Agent Governance: Managing Permissions, Auditing, and Compliance",
-      "url": "https://www.c-sharpcorner.com/article/ai-agent-governance-managing-permissions-auditing-and-compliance/",
-      "source": "C-sharpcorner.com",
+      "title": "Silverfort brings runtime identity controls to Microsoft Copilot Studio agents",
+      "url": "https://siliconangle.com/2026/06/08/silverfort-brings-runtime-identity-controls-microsoft-copilot-studio-agents/",
+      "source": "SiliconANGLE News",
       "date": "2026-06-08",
-      "summary": "The article covers AI agent governance in enterprise .NET applications, focusing on permissions, role-based access management, auditing, and compliance controls. The content addresses how organizations can manage authorization and access oversight for AI agents, which falls within identity governance and access management principles.",
-      "image": "https://www.c-sharpcorner.com/images/csharp-corner-new.png",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "SingleID、Microsoft Entra IDとのSCIM連携を提供開始",
-      "url": "https://prtimes.jp/main/html/rd/p/000000012.000091825.html",
-      "source": "Prtimes.jp",
-      "date": "2026-06-08",
-      "summary": "SingleID has launched SCIM integration support with Microsoft Entra ID. This integration enables automated user provisioning and synchronization between SingleID and Microsoft Entra ID.",
-      "image": "https://prcdn.freetls.fastly.net/release_image/91825/12/91825-12-c3a462f7adb880435e63d2bcf54f72f0-1299x650.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Building secure B2C applications with fine-grained access control using Amazon Cognito and Amazon Verified Permissions",
-      "url": "https://aws.amazon.com/blogs/security/building-secure-b2c-applications-with-fine-grained-access-control-using-amazon-cognito-and-amazon-verified-permissions/",
-      "source": "Amazon.com",
-      "date": "2026-06-05",
-      "summary": "Amazon has published guidance on building secure B2C applications using Amazon Cognito for authentication and Amazon Verified Permissions for fine-grained access control. The article covers implementing authentication and authorization controls together as core security pillars for modern web applications.",
-      "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/06/04/Shield2-for-social.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Willow raises $7M to build the identity layer for autonomous AI agents",
-      "url": "https://cryptobriefing.com/willow-raises-7m-secure-ai-agents/",
-      "source": "Crypto Briefing",
-      "date": "2026-06-05",
-      "summary": "Willow has raised $7M to develop an identity layer specifically designed for autonomous AI agents. The funding targets a emerging gap in identity management infrastructure as enterprises increasingly deploy agentic AI systems that require their own authentication and authorization frameworks.",
-      "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/06/05052125/willow-raises-7m-seed-for-ai-agent-governance-wix-stock-news-1-800x420.jpeg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "The AWS MCP Server now supports cross-account and cross-role access",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-mcp-server/",
-      "source": "Amazon.com",
-      "date": "2026-06-05",
-      "summary": "AWS has added cross-account and cross-role access capabilities to the AWS Model Context Protocol (MCP) Server within its Agent Toolkit. The feature enables developers using AI coding agents to operate across multiple AWS accounts and IAM roles without manually reconfiguring credentials.",
-      "image": null,
-      "importance": 4,
+      "summary": "Silverfort launched an integration that applies identity and access controls to AI agents built in Microsoft Copilot Studio, enforcing policy at runtime when an agent attempts to take an action. The integration extends Silverfort's identity security controls to non-human identities in agentic AI workflows, addressing access governance for automated AI actors.",
+      "image": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/06/silverfortiamagents.png",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -148,29 +198,9 @@
       "url": "https://www.darkreading.com/application-security/coding-gaffe-exposes-microsoft-365-accounts-takeover",
       "source": "Dark Reading",
       "date": "2026-06-03",
-      "summary": "A coding error in Microsoft 365 Android apps left a security setting for authentication protection disabled, exposing accounts to potential takeover. The vulnerability affected key apps including Word, PowerPoint, and Excel, allowing attackers to steal login credentials and data.",
+      "summary": "A coding error in Microsoft 365 Android apps disabled a security setting designed to protect authentication, exposing accounts to potential takeover. The flaw affected key applications including Word, PowerPoint, and Excel, allowing attackers to steal login credentials and data.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blta6d9216f2cd41b4b/6a2015f94a4fc7d0bb15144e/Authentication_Zoonar_GmbH_Alamy.png?width=1280&auto=webp&quality=80&disable=upscale",
       "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "FBI-Flagged Phishing Kit Kali365 Expands Its Reach",
-      "url": "https://www.darkreading.com/cyber-risk/fbi-flagged-phishing-kit-kali365-expands-its-reach",
-      "source": "Dark Reading",
-      "date": "2026-06-02",
-      "summary": "A phishing-as-a-service platform called Kali365, previously flagged by the FBI, has expanded its targeting beyond Microsoft 365 to include AWS, Okta, and Russian platforms. The platform relies on device code phishing techniques to compromise identity provider credentials and cloud service accounts.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blta4f731d1ead13c9d/6a1f3ff44bb1191264ce8b45/phishing_babar_ali_1233_shutterstock.jpg?width=1280&auto=webp&quality=80&disable=upscale",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft's Zero-Day Legal Threats Spark Backlash",
-      "url": "https://www.darkreading.com/application-security/microsoft-zero-day-legal-threats-backlash",
-      "source": "Dark Reading",
-      "date": "2026-06-01",
-      "summary": "A security researcher published multiple zero-day exploits, prompting Microsoft to suggest potential criminal charges against the individual. The situation has generated backlash within the security research community regarding Microsoft's legal response to vulnerability disclosure.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt110b7f1326599f0b/6a1dd3554d48bfcf20ade268/RMmicrosoft-DrewAngerer-Getty-675949746.jpg?width=1280&auto=webp&quality=80&disable=upscale",
-      "importance": 4,
       "paywall": false
     },
     {
@@ -178,9 +208,9 @@
       "url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
       "source": "Krebs on Security",
       "date": "2026-06-01",
-      "summary": "Hackers exploited Meta's AI support assistant chatbot to bypass account security and reset Instagram passwords, enabling account takeovers. The attack affected high-profile accounts including the Obama White House and a U.S. Space Force official, with attack instructions distributed via Telegram.",
+      "summary": "Hackers exploited Meta's AI support assistant chatbot to bypass account security and reset passwords, temporarily seizing high-profile Instagram accounts including the Obama White House and a U.S. Space Force official. Instructions for the attack were circulated on Telegram, demonstrating a social engineering vulnerability in AI-driven account recovery and authentication processes.",
       "image": null,
-      "importance": 6,
+      "importance": 7,
       "paywall": false
     },
     {
@@ -188,7 +218,7 @@
       "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
       "source": "Krebs on Security",
       "date": "2026-05-22",
-      "summary": "A CISA contractor intentionally published AWS GovCloud keys and other agency secrets to a public GitHub account, resulting in a significant credential leak. Lawmakers from both congressional chambers are demanding answers while CISA works to contain the breach and invalidate the exposed credentials.",
+      "summary": "A CISA contractor intentionally published AWS GovCloud keys and other agency secrets to a public GitHub account, resulting in a data breach that CISA is still working to contain. Lawmakers from both chambers of Congress are demanding answers from CISA as the agency works to invalidate the leaked credentials.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -198,17 +228,7 @@
       "url": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
       "source": "Krebs on Security",
       "date": "2026-05-18",
-      "summary": "A CISA contractor exposed highly privileged AWS GovCloud account credentials and internal system access details in a public GitHub repository until this past weekend. The leaked files reportedly included details on how CISA builds, tests, and deploys software internally, exposing multiple privileged accounts and internal systems.",
-      "image": null,
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
-      "url": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
-      "source": "Krebs on Security",
-      "date": "2026-04-21",
-      "summary": "Tyler Robert Buchanan, a 24-year-old British national and senior member of the cybercrime group Scattered Spider, pleaded guilty to wire fraud conspiracy and aggravated identity theft. His conviction relates to SMS phishing attacks in summer 2022 that compromised at least a dozen major technology companies and resulted in theft of tens of millions in cryptocurrency.",
+      "summary": "A CISA contractor publicly exposed credentials for multiple highly privileged AWS GovCloud accounts and numerous internal CISA systems via a public GitHub repository. The leaked repository also contained details about CISA's internal software build, test, and deployment processes.",
       "image": null,
       "importance": 6,
       "paywall": false
