@@ -1,13 +1,23 @@
 {
-  "updated": "June 15, 2026 at 09:33 UTC",
+  "updated": "June 16, 2026 at 08:54 UTC",
   "top_stories": [
     {
       "title": "Chinese hackers hijack auth flow, spy on isolated network for a decade",
       "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-hijack-auth-flow-spy-on-isolated-network-for-a-decade/",
       "source": "Bleeping Computer",
       "date": "2026-06-13",
-      "summary": "Chinese hackers compromised a target organization's authentication infrastructure and maintained persistent access for approximately 10 years. The attackers hijacked the authentication flow to gain full visibility into administrative activity on an isolated network.",
+      "summary": "Chinese threat actors compromised an organization's authentication infrastructure and maintained persistent access for approximately 10 years. The attackers hijacked the authentication flow to gain full visibility into administrative activity on what was believed to be an isolated network.",
       "image": "https://www.bleepstatic.com/content/hl-images/2026/04/23/China.jpg",
+      "importance": 9,
+      "paywall": false
+    },
+    {
+      "title": "China-linked spies backdoored authentication stack to stay hidden for years",
+      "url": "https://www.helpnetsecurity.com/2026/06/15/velvet-ant-backdoored-authentication-persistence/",
+      "source": "Help Net Security",
+      "date": "2026-06-15",
+      "summary": "A China-linked espionage group called Velvet Ant maintained undetected access inside an unnamed organization's network for nearly a decade by compromising the full authentication stack, according to a Sygnia forensic investigation. The group's control over the authentication infrastructure made detection and remediation exceptionally difficult, highlighting critical risks in authentication system security.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/07/09132937/china.webp",
       "importance": 9,
       "paywall": false
     },
@@ -16,19 +26,101 @@
       "url": "https://4sysops.com/archives/securing-ai-agents-in-microsoft-entra-with-conditional-access/",
       "source": "4sysops.com",
       "date": "2026-06-13",
-      "summary": "Microsoft is updating its Microsoft Entra identity security framework to address risks posed by autonomous AI agents. The update involves applying Conditional Access policies to AI agents, as traditional MFA is insufficient for non-human entities operating at machine speed and scale.",
+      "summary": "Microsoft is updating its Microsoft Entra identity security framework to address authentication and access control challenges posed by autonomous AI agents. The update involves applying Conditional Access policies to AI agents, as traditional MFA methods designed for human users are insufficient for entities operating at machine speed and scale.",
       "image": "https://4sysops.com/wp-content/uploads/2026/06/securing-ai-agents-in-microsoft-entra-with-conditional-access.jpg",
       "importance": 8,
       "paywall": false
     },
     {
-      "title": "CISA orders feds to patch actively exploited Ivanti flaw by Sunday",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-3-days-to-patch-ivanti-flaw-exploited-in-attacks/",
+      "title": "New attack turned Microsoft 365 Copilot into 1-click data theft tool",
+      "url": "https://www.bleepingcomputer.com/news/security/new-attack-turned-microsoft-365-copilot-into-1-click-data-theft-tool/",
       "source": "Bleeping Computer",
-      "date": "2026-06-12",
-      "summary": "CISA issued Binding Operational Directive (BOD) 26-04 ordering federal agencies to patch an actively exploited Ivanti Sentry vulnerability within three days. Ivanti Sentry is an access management gateway product used to secure mobile device access to enterprise systems, making this directly relevant to IAM infrastructure security.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2025/01/13/CISA--headpic.jpg",
+      "date": "2026-06-15",
+      "summary": "A vulnerability chain called SearchLeak in Microsoft 365 Copilot Enterprise could allow attackers to steal sensitive data from a target's mailbox, OneDrive, or SharePoint account via a specially crafted URL. The attack requires no user interaction beyond clicking a link, enabling unauthorized data exfiltration across Microsoft 365 services.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/06/15/Copilot.jpg",
       "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "The rise of machine identities and agentic AI: Securing trust in the next era of digital autonomy",
+      "url": "https://www.helpnetsecurity.com/2026/06/16/delinea-securing-machine-identities-and-agentic-ai/",
+      "source": "Help Net Security",
+      "date": "2026-06-16",
+      "summary": "A Help Net Security article covers a discussion with cybersecurity expert Chris Hughes on securing machine identities and agentic AI, featuring Delinea's involvement in OWASP's work on non-human identity security. The piece addresses how agentic AI is expanding machine identity challenges within enterprise environments.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/06/15105628/delinea_securing-machine_identtites.webp",
+      "importance": 7,
+      "paywall": false
+    }
+  ],
+  "news": [
+    {
+      "title": "Chinese Hackers Abused Google Workspace Rules to Steal Research and Defense Emails",
+      "url": "https://thehackernews.com/2026/06/chinese-hackers-abused-google-workspace.html",
+      "source": "The Hacker News",
+      "date": "2026-06-16",
+      "summary": "A China-linked espionage group compromised North American medical, academic, and military research networks by installing backdoors on REDCap servers to steal login credentials. The attackers then manipulated Google Workspace email forwarding rules to silently exfiltrate sensitive communications over an extended period.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjE7EMoBrh5-6_V336v7LMFfChDVp-Sux8RX-UY5zhONtACR6kiz2w_VQ9o7e8nuqaWCqbxrvzPgSrruvEXN0jw_zKnaeVl73yDnfqbVqTPDnjHDPJPuBLd9vhGCJIl1BuqSblleOG9zG9YgbriqE7oiCuTEBQRDadsFOgQdN9PjdOglDeI_y2ZV5-Ehbo/s1600/google-china.jpg",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "SimpleHelp bug lets hackers create rogue remote support accounts",
+      "url": "https://www.bleepingcomputer.com/news/security/simplehelp-bug-lets-hackers-create-rogue-remote-support-accounts/",
+      "source": "Bleeping Computer",
+      "date": "2026-06-15",
+      "summary": "A vulnerability in SimpleHelp remote management software allows unauthenticated attackers to create privileged technician accounts on servers using the OpenID Connect (OIDC) authentication protocol. The flaw bypasses authentication controls, enabling unauthorized account creation with elevated privileges on affected SimpleHelp servers.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/06/15/simplehelp.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Delinea and Cyera integrate for data-aware identity security",
+      "url": "https://www.helpnetsecurity.com/2026/06/15/delinea-cyera-product-integration/",
+      "source": "Help Net Security",
+      "date": "2026-06-15",
+      "summary": "Delinea and Cyera announced a product integration connecting privileged access management with data security posture management. The integration automatically correlates identities—including human, machine, and AI agents—with the sensitive data they can access, enabling security teams to identify and remediate high-risk access paths.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "One-Click Microsoft 365 Copilot Flaw Could Have Let Attackers Steal Emails, Files, and MFA Codes",
+      "url": "https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html",
+      "source": "The Hacker News",
+      "date": "2026-06-15",
+      "summary": "Varonis Threat Labs discovered a chained vulnerability called \"SearchLeak\" in Microsoft 365 Copilot that allowed one-click exfiltration of emails, calendar data, files, and MFA codes via a legitimate microsoft.com domain link. The attack combined three bugs to bypass traditional anti-phishing and URL filtering tools by leveraging trusted Microsoft infrastructure.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH3B8zgsVZmHEyLi8McE-eOrGvwf6Uh3zyqWrttvaEddXJCot7sybI1o-Ly5Q1TtuEJx9BzXol3oaXSFdzFif_5fg0TE3bFA7cuuNewVB2QiZC9HuWNsVDLZlpANK_qnbk_DfBgO1fRgpUbYbc_dL60zHQFxxFN4DgYDVI-D1LsA-8dkcVKpNjAStg9b4/s1600/ms365.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "The Onboarding Password Mistake That Creates Unnecessary Risk",
+      "url": "https://thehackernews.com/2026/06/the-onboarding-password-mistake-that.html",
+      "source": "The Hacker News",
+      "date": "2026-06-15",
+      "summary": "The article addresses security risks associated with temporary onboarding passwords, specifically how first-day credentials shared via email or SMS can persist and be reused across accounts. The piece targets IT teams managing new employee account provisioning and access setup processes.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDj2pDJr4F9HBYmRTjOtetTz0h0vViw1lMZp6N0YAS5bGKv8ELJ1hjEcSffQg4xCTqhpIEkLchZxDXn-JNCQdUELSWNW5FcfHceLFvjAvVFXNJq5tClyqJ4onrgYp4lX3axgc2u0QU_k9MQoyjLfZt1RV3ZPapqVaZXrJy6H2wn4dw1dYWS1S4iou-dDI/s1600/outpost24.jpg",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "AI agents are reshaping identity governance, and attackers are already exploiting the gap",
+      "url": "https://www.itnews.com.au/video/ai-agents-are-reshaping-identity-governance-and-attackers-are-already-exploiting-the-gap-626591",
+      "source": "iTnews",
+      "date": "2026-06-14",
+      "summary": "AI agents are creating new challenges for identity governance as autonomous systems require access credentials and permissions that traditional IAM frameworks were not designed to manage. Attackers are actively exploiting gaps between existing identity governance controls and the access requirements of AI agents in enterprise environments.",
+      "image": "https://i.nextmedia.com.au/Videos/thumb_-_2026-06-12T161704.735.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Ex-school district employee jailed for hacks on former employer",
+      "url": "https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/",
+      "source": "Bleeping Computer",
+      "date": "2026-06-13",
+      "summary": "A former IT employee at an Iowa school district was sentenced to 21 months in prison for conducting cyberattacks against his former employer. The attacks involved deleting accounts and disrupting systems, causing tens of thousands of dollars in damages.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2021/05/01/hacking.jpg",
+      "importance": 4,
       "paywall": false
     },
     {
@@ -36,41 +128,9 @@
       "url": "https://thehackernews.com/2026/06/china-linked-hackers-backdoored-linux.html",
       "source": "The Hacker News",
       "date": "2026-06-12",
-      "summary": "A China-linked threat group tracked as Velvet Ant backdoored Linux PAM (Pluggable Authentication Modules) and OpenSSH components to maintain persistent covert access for nearly a decade. The attack targeted the authentication layer itself, meaning standard incident response cleanup efforts would fail to detect or remove the implanted access.",
+      "summary": "A China-linked threat group tracked as Velvet Ant backdoored Linux PAM (Pluggable Authentication Modules) and OpenSSH components to maintain persistent covert access for nearly a decade. The compromise targeted the authentication layer itself, allowing the attackers to control who could sign in and survive standard remediation efforts.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxJqmKAQv_I_7JkmQwoIVSx2BkRPUEb9TTNOd2RkNqTg3tcLyZszN8KiXfUUeIBSPSoxjzMAn2inE6TL791l5B_CbQaHqG708c2tgN-kSUmz_fTuewdcrWHS8u-xdWKIr6fEhx2W7_JDszsJ1oXO9v47JxU81490QKz0ZRL2OOFoljevoD8f6OMozfMZU/s1600/linux-backdoor.jpg",
       "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "ServiceNow Flaw Exploited to Gain Unauthorized Access to Customer Instances",
-      "url": "https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html",
-      "source": "The Hacker News",
-      "date": "2026-06-10",
-      "summary": "ServiceNow disclosed a security incident in which threat actors exploited a vulnerability to gain unauthorized access to customer instances, with a patch applied on June 5, 2026. The flaw allowed unauthenticated users to obtain deeper access to susceptible hosted instances, raising concerns for organizations using ServiceNow for identity workflows and access management.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdoQ33nXrsmYyHLAdeWHw4nf5zrUhZhVi755NnYVGzkyNPbpR60m4Rt6w8JiKdPuXgn1Md6_nu253LeMjXG7VyEZcBWMaE-ST8lN8P8QqtACeftxFrV3nyIoF8TEHzX6m2sqjiv6KFz4_4eZoddHKWQYVSQgagI4oW_NcdjcnYrWyNPBbq05O7hdE8zZoj/s1600/servicenow.jpg",
-      "importance": 7,
-      "paywall": false
-    }
-  ],
-  "news": [
-    {
-      "title": "Ex-school district employee jailed for hacks on former employer",
-      "url": "https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/",
-      "source": "Bleeping Computer",
-      "date": "2026-06-13",
-      "summary": "A former IT employee at an Iowa school district was sentenced to 21 months in prison for conducting cyberattacks against his former employer. The attacks involved deleting accounts and disrupting operations, causing tens of thousands of dollars in damages.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2021/05/01/hacking.jpg",
-      "importance": 4,
-      "paywall": false
-    },
-    {
-      "title": "phpBB forum fixes auth bypass bug lurking for a decade",
-      "url": "https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/",
-      "source": "Bleeping Computer",
-      "date": "2026-06-12",
-      "summary": "phpBB forum software has patched a 10-year-old authentication bypass vulnerability that allowed attackers to log in as any user, including administrators. The flaw represents a complete authentication control failure, enabling full account takeover without valid credentials.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/06/12/phpBB.jpg",
-      "importance": 6,
       "paywall": false
     },
     {
@@ -78,9 +138,9 @@
       "url": "https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html",
       "source": "The Hacker News",
       "date": "2026-06-12",
-      "summary": "The ShinyHunters threat group exploited a zero-day vulnerability in Oracle PeopleSoft (CVE-2026-35273) to breach enterprise systems, primarily targeting universities, between May 27 and June 9. Oracle did not publish its advisory until June 10, meaning the exploitation occurred before a patch was available, with Mandiant attributing the activity to the group it tracks as UNC6240.",
+      "summary": "ShinyHunters (tracked as UNC6240 by Mandiant) exploited a zero-day vulnerability in Oracle PeopleSoft (CVE-2026-35273) to breach enterprise systems and steal data between May 27 and June 9, before Oracle published its advisory on June 10. The campaign primarily targeted universities, with attackers demanding payment to keep stolen data private.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBpNcbfulhruio1VSh8OPKOjdx3gvP-Chg8OjSm7LZeVK2GaVR-osKeoQjO9e1_56Dtedmlisu76lYc70Wv5I1efqJcs2uh1RnbKJOITEcqcJoN-8PhNfmzAeLkDrST8Kg3qTbqE8wUrOd4jxE-gMi-vKN1B8W2zgY0ymFTtip79RVltY9J3QmXrAOJa4H/s1600/shinyHunters-universities.jpg",
-      "importance": 5,
+      "importance": 7,
       "paywall": false
     },
     {
@@ -88,7 +148,7 @@
       "url": "https://apnews.com/press-release/pr-newswire/press-release-45889f6d6b81dd96b893248ce91a0dac",
       "source": "Associated Press",
       "date": "2026-06-12",
-      "summary": "Linx Security announced an integration with Claude Compliance API to extend identity governance capabilities to enterprise AI environments. The integration targets hybrid workforce identity management, covering human, AI agent, and non-human identities.",
+      "summary": "Linx Security announced an integration with Claude Compliance API to extend identity governance capabilities to enterprise AI environments. The integration targets hybrid workforce identity management covering human users, AI agents, and non-human identities.",
       "image": "https://dims.apnews.com/dims4/default/3599f58/2147483647/strip/true/crop/1136x757+144+0/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F7f%2F3e%2F037c17228cdb2b7094b2a64e7af6%2Fbe62f3c142292c08c394aaa5f1248a5f",
       "importance": 6,
       "paywall": false
@@ -98,7 +158,7 @@
       "url": "https://4sysops.com/archives/microsoft-entra-adds-device-soft-delete-and-cloud-native-sync-migration/",
       "source": "4sysops.com",
       "date": "2026-06-12",
-      "summary": "Microsoft Entra has introduced a soft-delete feature for device objects in public preview, enabling administrators to recover accidentally deleted Entra joined or registered devices within a defined retention period. The update also includes cloud-native sync migration capabilities, preserving critical identity and device state data during recovery operations.",
+      "summary": "Microsoft Entra has introduced a soft-delete feature for device objects in public preview, enabling administrators to recover accidentally deleted Entra joined or registered devices within a retention period. The update also includes cloud-native sync migration capabilities, with the soft-delete mechanism preserving critical identity and device registration data.",
       "image": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-entra-adds-device-soft-delete-and-cloud-native-sync-migration.png",
       "importance": 7,
       "paywall": false
@@ -108,9 +168,9 @@
       "url": "https://www.globenewswire.com/news-release/2026/06/12/3311094/3080/en/Levi-Korsinsky-Announces-Investigation-of-Securities-Claims-Against-SailPoint-Inc-SAIL.html",
       "source": "GlobeNewswire",
       "date": "2026-06-12",
-      "summary": "Law firm Levi & Korsinsky has announced a securities fraud investigation into SailPoint, Inc. (SAIL) following a significant stock drop of approximately 12% in a single session after a disappointing forward outlook disclosed on June 9, 2026. The investigation centers on whether SailPoint misled investors about its growth trajectory prior to the revised disclosure.",
+      "summary": "Law firm Levi & Korsinsky has announced a securities fraud investigation into SailPoint, Inc. following a stock drop of approximately 12% after the company disclosed a weaker-than-expected forward outlook on June 9, 2026. The investigation centers on whether SailPoint misled investors about its growth trajectory prior to the disclosure.",
       "image": "https://ml.globenewswire.com/Resource/Download/d91bd4e6-7d18-43f7-a479-4f992242a82a",
-      "importance": 4,
+      "importance": 3,
       "paywall": false
     },
     {
@@ -118,7 +178,7 @@
       "url": "https://www.globenewswire.com/news-release/2026/06/12/3311057/0/en/Teleport-Named-Most-Innovative-Identity-and-Access-Management-Platform-in-2026-Cybersecurity-Stars-Awards.html",
       "source": "GlobeNewswire",
       "date": "2026-06-12",
-      "summary": "Teleport has been named the most innovative Identity and Access Management Platform in The Hacker News' 2026 Cybersecurity Stars Awards. The recognition is specifically tied to Teleport's infrastructure identity architecture, which focuses on resiliency, scalability, and agility for modern computing environments.",
+      "summary": "Teleport has been named the Most Innovative Identity and Access Management Platform in The Hacker News 2026 Cybersecurity Stars Awards. The recognition is specifically for Teleport's infrastructure identity architecture, which focuses on resiliency, scalability, and agility for modern computing environments.",
       "image": "https://ml.globenewswire.com/Resource/Download/67d89922-be62-4d0c-9bde-f3e82a817328",
       "importance": 6,
       "paywall": false
@@ -128,7 +188,7 @@
       "url": "https://www.prnewswire.com/news-releases/idmexpress-announces-24O7-managed-services-for-leading-iampam-solutions-with-innovative-unified-pricing-model-302798643.html",
       "source": "PRNewswire",
       "date": "2026-06-11",
-      "summary": "IDMExpress announced a 24×7 Managed Identity Security Operations service covering IAM, PAM, and PKI platforms with a unified pricing model. The service offers a single bucket of hours usable across any supported platform with no vendor lock-in, available starting June 11, 2026.",
+      "summary": "IDMExpress launched a 24×7 Managed Identity Security Operations service covering IAM, PAM, and PKI platforms with a unified pricing model. The service offers a single pool of hours usable across any supported platform with no long-term lock-in contracts.",
       "image": "https://mmx.prnewswire.com/media/MS1862803/IDMEXPRESS_Press_release_image_-4.jpg?id=OA2699270&p=facebook",
       "importance": 4,
       "paywall": false
@@ -138,7 +198,7 @@
       "url": "https://www.prnewswire.com/news-releases/enterprise-identities-are-under-siege-josys-is-changing-how-organizations-fight-back-302798181.html",
       "source": "PRNewswire",
       "date": "2026-06-11",
-      "summary": "Josys announced new AI-native platform capabilities aimed at addressing enterprise identity security challenges including credential theft, AI agent governance, and SaaS access management. The announcement targets issues around identity governance and access policies in SaaS-first environments.",
+      "summary": "Josys announced new AI-native platform capabilities aimed at addressing enterprise identity challenges including credential theft, AI agent governance, and SaaS access management. The release targets identity crisis vectors described as credential theft at record scale, ungoverned AI agents, and legacy access policies inadequate for SaaS environments.",
       "image": "https://mmx.prnewswire.com/media/MS1555380/JOSYS_Logo_v2.jpg?id=OA2698253&p=facebook",
       "importance": 5,
       "paywall": false
@@ -148,7 +208,7 @@
       "url": "https://www.techradar.com/pro/not-all-ais-are-equal-so-cios-need-to-prioritize-actions-when-assessing-risks",
       "source": "TechRadar",
       "date": "2026-06-11",
-      "summary": "The article addresses how CIOs should approach identity governance and risk-based security controls as AI agents proliferate. The piece focuses on prioritizing actions when assessing risks across different AI systems in enterprise environments.",
+      "summary": "The article discusses how CIOs should approach risk assessment as AI agents proliferate across enterprises. The piece calls for smarter identity governance and risk-based security controls to manage the varying risk profiles of different AI systems.",
       "image": "https://cdn.mos.cms.futurecdn.net/h8ZQHernNUVpnGYX7QnxVM-2560-80.jpg",
       "importance": 5,
       "paywall": false
@@ -158,7 +218,7 @@
       "url": "https://www.helpnetsecurity.com/2026/06/11/report-cloud-insider-threats/",
       "source": "Help Net Security",
       "date": "2026-06-11",
-      "summary": "Threat actors are actively recruiting insiders who hold cloud platform credentials, targeting employees with access to organizational cloud logins. The cybercrime underground has developed systematic methods to exploit human access points rather than technical vulnerabilities, making credential-holding employees a primary attack vector.",
+      "summary": "Threat actors are actively recruiting insiders who hold cloud platform credentials, turning employees with legitimate access into security risks. The attack vector exploits the credential-based access model of cloud platforms, directly targeting identity and access management controls.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/06/09174915/insider-threat.webp",
       "importance": 7,
       "paywall": false
@@ -168,7 +228,7 @@
       "url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
       "source": "Krebs on Security",
       "date": "2026-06-01",
-      "summary": "Hackers exploited Meta's AI support assistant bot to reset Instagram account passwords and seize accounts, including those of the Obama White House and a U.S. Space Force official. Instructions circulating on Telegram demonstrated how to social-engineer the AI bot into performing unauthorized password resets, bypassing normal account recovery authentication controls.",
+      "summary": "Hackers exploited Meta's AI support assistant bot to reset Instagram account passwords and seize high-profile accounts, including those of the Obama White House and a U.S. Space Force official. Instructions for the attack circulated on Telegram, demonstrating a social engineering technique that bypasses traditional account authentication controls via AI-powered support tooling.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -178,7 +238,7 @@
       "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
       "source": "Krebs on Security",
       "date": "2026-05-22",
-      "summary": "A CISA contractor intentionally published AWS GovCloud keys and other agency secrets to a public GitHub account, resulting in a data breach that CISA is still working to contain. Lawmakers from both chambers of Congress are demanding answers from CISA while the agency works to invalidate the leaked credentials.",
+      "summary": "A CISA contractor intentionally published AWS GovCloud keys and other agency secrets to a public GitHub account, causing a credential leak that CISA is still working to contain. Congressional lawmakers from both chambers are demanding answers as the agency works to invalidate the exposed credentials.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -188,9 +248,9 @@
       "url": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
       "source": "Krebs on Security",
       "date": "2026-05-18",
-      "summary": "A CISA contractor publicly exposed highly privileged AWS GovCloud credentials and internal system details in a public GitHub repository until this past weekend. The leaked repository contained files detailing CISA's internal software build, test, and deployment processes, representing a significant privileged credential exposure incident.",
+      "summary": "A CISA contractor exposed credentials to highly privileged AWS GovCloud accounts and numerous internal CISA systems via a public GitHub repository. The leaked files included details on how CISA builds, tests, and deploys software internally, representing a significant credential and secrets management failure.",
       "image": null,
-      "importance": 7,
+      "importance": 6,
       "paywall": false
     }
   ]
