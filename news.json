@@ -1,24 +1,216 @@
 {
-  "updated": "June 24, 2026 at 06:57 UTC",
+  "updated": "June 25, 2026 at 06:56 UTC",
   "top_stories": [
-    {
-      "title": "LastPass confirms data breach in Klue supply chain attack",
-      "url": "https://www.bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack/",
-      "source": "Bleeping Computer",
-      "date": "2026-06-23",
-      "summary": "LastPass confirmed a data breach in which hackers accessed customer data from its Salesforce environment by stealing the company's OAuth tokens via the Klue supply chain attack. The breach highlights supply chain vulnerabilities affecting OAuth token security at a major password management and identity vendor.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/06/23/lastpass.jpg",
-      "importance": 8,
-      "paywall": false
-    },
     {
       "title": "Omada Introduces Omada Identity Sovereign, Bringing Digital Sovereignty for Regulated Organizations",
       "url": "https://www.prnewswire.com/news-releases/omada-introduces-omada-identity-sovereign-bringing-digital-sovereignty-for-regulated-organizations-302805626.html",
       "source": "PRNewswire",
       "date": "2026-06-23",
-      "summary": "Omada Identity has launched Omada Identity Sovereign, a new solution designed for regulated European organizations that allows them to deploy and operate identity governance on infrastructure of their own choosing. The product is specifically engineered to ensure no non-European entity is involved in the chain, addressing digital sovereignty requirements for regulated industries in Europe.",
+      "summary": "Omada has launched Omada Identity Sovereign, a new identity governance solution designed for regulated European organizations that allows deployment on infrastructure of their choosing with no non-European entities in the chain. The product addresses digital sovereignty requirements for regulated industries by enabling fully European-controlled IGA operations.",
       "image": "https://mma.prnewswire.com/media/1730116/Omada_Logo.jpg?p=facebook",
+      "importance": 9,
+      "paywall": false
+    },
+    {
+      "title": "Okta expands Cross App Access ecosystem to secure AI agent connections",
+      "url": "https://siliconangle.com/2026/06/23/okta-expands-cross-app-access-ecosystem-secure-ai-agent-connections/",
+      "source": "SiliconANGLE News",
+      "date": "2026-06-23",
+      "summary": "Okta announced that more than 25 software vendors have joined its Cross App Access framework for securing AI agent connections to enterprise applications. The framework routes AI agent connections through a company's identity infrastructure to enforce access controls.",
+      "image": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/03/oktaai.png",
       "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "Omada Identity Sovereign targets Europe’s growing digital sovereignty demands",
+      "url": "https://www.helpnetsecurity.com/2026/06/23/omada-identity-sovereign-targets-europes-growing-digital-sovereignty-demands/",
+      "source": "Help Net Security",
+      "date": "2026-06-23",
+      "summary": "Omada Identity has launched Omada Identity Sovereign, a new solution designed to give organizations direct control over the deployment location and management of their identity governance infrastructure. The product targets European digital sovereignty requirements, addressing data residency, operational control, and related compliance demands.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
+      "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "Securing the service desk: Why social engineering attacks keep succeeding",
+      "url": "https://www.bleepingcomputer.com/news/security/securing-the-service-desk-why-social-engineering-attacks-keep-succeeding/",
+      "source": "Bleeping Computer",
+      "date": "2026-06-24",
+      "summary": "Service desks are being targeted by social engineering attacks aimed at obtaining password resets, MFA changes, and corporate account access. Specops Software provides an analysis of how these attacks operate and outlines defensive measures organizations can implement.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/06/16/specops-help-desk-header.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Anthropic’s Claude Tag gives AI agents independent identities",
+      "url": "https://www.helpnetsecurity.com/2026/06/24/anthropic-claude-tag-agent-identity-model/",
+      "source": "Help Net Security",
+      "date": "2026-06-24",
+      "summary": "Anthropic introduced an agent identity model for Claude Tag, giving the AI assistant its own independent identity, permissions, and tool access configured by administrators within shared workspaces. The model separates Claude's access from individual user credentials, meaning the AI operates under its own identity rather than inheriting or relying on employees' personal accounts.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/05/27125837/claude-city.webp",
+      "importance": 7,
+      "paywall": false
+    }
+  ],
+  "news": [
+    {
+      "title": "What your next cyber insurance renewal will demand",
+      "url": "https://www.helpnetsecurity.com/2026/06/25/cyber-insurance-controls-video/",
+      "source": "Help Net Security",
+      "date": "2026-06-25",
+      "summary": "A Help Net Security video features Tide Foundation co-founder Michael Loewy discussing how cyber insurers are shifting from self-attestation to verified evidence of security controls at renewal. Loewy specifically calls out MFA as an example where proof of implementation beats paperwork declarations.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/06/24082648/search-find-inspect-1500.webp",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "Amadey and StealC Malware Network Disrupted, 27M Stolen Credentials Recovered",
+      "url": "https://thehackernews.com/2026/06/amadey-and-stealc-malware-network.html",
+      "source": "The Hacker News",
+      "date": "2026-06-24",
+      "summary": "A coordinated law enforcement operation involving Europol and private sector partners including Microsoft disrupted the Amadey and StealC malware infrastructure. The operation recovered 27 million stolen credentials, targeting criminal networks used to facilitate ransomware, financial fraud, and attacks on critical infrastructure.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBVSibdiZdJ1tNYJFrsHtZ8Vr1EG28rqKLY4E7HvAtuax2i3vgpcaMZjEAcGDRxUVu5aa_BHzCAahpw5l2RP2HNw9t7PF6zknNICdw0iuW5jozt5fzqsSfb3Lw55MIvStq2vh5W0139JychUhhJHvchyphenhyphenm7tT2oTS555CkVZrBYSkhmlMKWaXMLtO4OcSp6/s1600/cybercrime-ms.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Scope of Salesforce Attacks Expands as Icarus Leaks Data",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/scope-salesforce-attacks-expands-icarus-leaks-data",
+      "source": "Dark Reading",
+      "date": "2026-06-23",
+      "summary": "Attackers breached application vendor Klue and used stolen OAuth tokens to access and exfiltrate Salesforce customer data, with the scope of victims expanding. The attack vector involves compromised OAuth tokens, highlighting risks in federated authorization and third-party application access chains.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltbcd2c419f66a3c63/6a3ae54669022cd7ac4f9ae3/datatheft-mikkelwilliam-Getty-2152310845.jpg?width=720&quality=80&disable=upscale",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "FortiBleed Attackers Turn Firewalls Into Credential Stealers as Heists Persist",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/fortibleed-attackers-firewalls-credentials-stealers",
+      "source": "Dark Reading",
+      "date": "2026-06-23",
+      "summary": "Threat actors exploited FortiGate firewalls using a Golang-based credential sniffer in an ongoing global campaign. The attack targeted approximately 430,000 FortiGate devices and resulted in the identification of 110 million credentials.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd01406474eab6933/6a3a80e658a7dfc97c4b2d8e/fortinet-JHVEPhoto-Getty-1670649574.jpg?width=720&quality=80&disable=upscale",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "FortiBleed Targeted FortiGate Firewalls in 110 Million-Credential Harvesting Operation",
+      "url": "https://thehackernews.com/2026/06/fortibleed-targeted-fortigate-firewalls.html",
+      "source": "The Hacker News",
+      "date": "2026-06-23",
+      "summary": "A Russian-speaking initial access broker conducted a credential-harvesting operation called FortiBleed targeting over 430,000 FortiGate firewalls globally, resulting in 110 million compromised credentials. The campaign, active since February 2026, involved credential list collection, exposed service enumeration, brute-forcing, and custom tooling deployment against Fortinet infrastructure.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJkhDD5qINhfAhBFXG2C13raQF6T6zAOmnHlArhnLUP5z0ifBzpyq6M_4n11cgynQfZW0mxJWnYU-TDYSpKQHYFHvXsZHCB7uoMFg0w02yZILY-JLMm2-uqm-CA_wIqZHhzl25FfO_lMd7dYm6VfprDP83bz_SoB3MWLEc059E4YCa554bba-qWHW5udHv/s1600/fortigate.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Trump Order Sets 2030 Deadline for Federal Post-Quantum Crypto Migration",
+      "url": "https://thehackernews.com/2026/06/trump-order-sets-2030-deadline-for.html",
+      "source": "The Hacker News",
+      "date": "2026-06-23",
+      "summary": "President Trump signed Executive Order 14409 on June 22, requiring federal agencies to migrate high-value assets and high-impact systems to post-quantum cryptography by December 31, 2030, with digital signatures following by December 31, 2031. National security systems are placed on a separate migration track under the order.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoC7KFWoDGkSi-UzAyKNUkw-Ogs4oy2tCOAYXiYAAkqEUC1WMotLAE1GUwoWApfXK3prWVctTP05aLGjru0hDBfJkZ1NzPiFeI1VObgSNCx4egTrYhKIUt4m1S14eQ6_GpdffFBL4Ak3Mgjw7UiiBethv1lmyd_OaPIfhk_b-zuMjxCHLZtih8Tk6MtRg/s1600/unitedstates.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
+      "url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
+      "source": "Krebs on Security",
+      "date": "2026-06-23",
+      "summary": "Two members of the Scattered Spider cybercrime group pleaded guilty in the UK to charges related to an August 2024 cyberattack on Transport for London. Scattered Spider is known for social engineering and identity-based attacks, including SIM swapping and phishing to bypass MFA and gain unauthorized access to corporate systems.",
+      "image": null,
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of SailPoint, Inc. - SAIL",
+      "url": "https://www.globenewswire.com/news-release/2026/06/23/3316511/1087/en/INVESTOR-ALERT-Pomerantz-Law-Firm-Investigates-Claims-On-Behalf-of-Investors-of-SailPoint-Inc-SAIL.html",
+      "source": "GlobeNewswire",
+      "date": "2026-06-23",
+      "summary": "Pomerantz Law Firm has announced an investigation into claims on behalf of SailPoint investors trading under the NASDAQ ticker SAIL. The notice advises investors to contact the firm but does not detail the specific nature of the claims being investigated.",
+      "image": null,
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft Entra ID single sign-on for the Denodo connector in Power BI (Preview)",
+      "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-Entra-ID-single-sign-on-for-the-Denodo-connector-in/ba-p/5193376",
+      "source": "Microsoft.com",
+      "date": "2026-06-23",
+      "summary": "Microsoft has released a preview feature enabling Microsoft Entra ID single sign-on for the Denodo connector in Power BI. When configured, users querying semantic models in DirectQuery mode are authenticated to Denodo using their own Microsoft Entra ID identity, removing on-premises dependencies.",
+      "image": "https://community.fabric.microsoft.com/t5/image/serverpage/image-id/1351480i2FC177D833383D72?v=v2",
+      "importance": 6,
+      "paywall": true
+    },
+    {
+      "title": "Mastering Microsoft Entra ID",
+      "url": "https://www.wowebook.org/mastering-microsoft-entra-id/",
+      "source": "Wowebook.org",
+      "date": "2026-06-23",
+      "summary": "A book titled \"Mastering Microsoft Entra ID\" is being published on June 26, 2026, covering design, implementation, security, and governance of identity solutions in hybrid enterprise environments. The 678-page paperback is published by Packt and focuses on Microsoft Entra ID as an IAM platform.",
+      "image": "https://www.wowebook.org/wp-content/uploads/2026/06/Mastering-Microsoft-Entra-ID.webp",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "The cybersecurity industry built a $200B business selling you problems. Nobody got paid to fix them.",
+      "url": "https://thenextweb.com/news/cybersecurity-200b-selling-problems-remediation-gap/",
+      "source": "The Next Web",
+      "date": "2026-06-23",
+      "summary": "An opinion piece argues that the cybersecurity industry has prioritized risk detection over remediation, creating a $200B market built around identifying problems like dormant user accounts and excessive privileges rather than fixing them. The article touches on IAM-relevant issues such as privilege management and dormant accounts but frames them within a broader industry critique.",
+      "image": "https://media.thenextweb.com/2026/06/cybersecurity-200b-selling-problems-remediation-gap.avif",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "He Thought He Was Secure; His Phone Number Was Stolen Anyway",
+      "url": "https://www.darkreading.com/cyber-risk/how-a-sim-swap-attack-led-to-a-near-account-takeover",
+      "source": "Dark Reading",
+      "date": "2026-06-22",
+      "summary": "The article covers SIM swap attacks as a method for bypassing SMS-based one-time password authentication, leading to account takeovers. The attack vector highlights weaknesses in SMS-based MFA, where threat actors port a victim's phone number to a device they control to intercept OTP codes.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt6dddf9d981db26e1/68ee58f2ca973956d757c9a3/sim-swapping-attacks_.png?width=720&quality=80&disable=upscale",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
+      "url": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
+      "source": "The Hacker News",
+      "date": "2026-06-22",
+      "summary": "A 29-year-old heap over-read vulnerability in the Squid web proxy, dubbed \"Squidbleed,\" can expose cleartext HTTP requests including credentials and session tokens to other users sharing the same proxy. The flaw originates from a 1997 FTP-parsing change and remains present in Squid's default configuration, with disclosure by Calif.io researchers in June.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA4IfKMjQxVhpOYdrcCC4ty0vlGBDg_qCZuuvSTvyVWXYPXQlli7qyCZkPdHHuGJp-HVH1s-HGmf_Zqn97o2Qz5JOHaZ-Mk1mecm4W4yUBiCaejJL5guczISx2Q8ZH7RvS_4fXiNdHemr1aWKwz0CcyBJI_4_jFjQhY5JedBz_-pSiSQ1eQCF_BPYEbRs/s1600/sq.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft to retire Azure DevOps issuer for workload identity federation",
+      "url": "https://4sysops.com/archives/microsoft-to-retire-azure-devops-issuer-for-workload-identity-federation/",
+      "source": "4sysops.com",
+      "date": "2026-06-22",
+      "summary": "Microsoft has announced the deprecation of the Azure DevOps issuer for workload identity federation service connections, with a retirement date of July 1, 2027. The change is part of a broader initiative to standardize on Microsoft Entra as the issuer for workload identity federation.",
+      "image": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-to-retire-azure-devops-issuer-for-workload-identity-federation.webp",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Navigating the AI access control minefield",
+      "url": "https://www.computerweekly.com/feature/Navigating-the-AI-access-control-minefield",
+      "source": "ComputerWeekly.com",
+      "date": "2026-06-22",
+      "summary": "The article addresses the challenge of managing AI systems' access to enterprise data, framing it as an emerging access control problem for IT leaders. The discussion centers on applying secure access principles to AI deployments, intersecting with authorization and access management disciplines.",
+      "image": "https://www.computerweekly.com/visuals/ComputerWeekly/Hero Images/technology-digital-ai-binary-adobe.jpeg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "生成AI型AI-OCR「GenOCR」、SAML 認証および Microsoft Entra ID による SSO に対応 ― ユーザーのセキュリティ強化と利便性向上へ",
+      "url": "https://prtimes.jp/main/html/rd/p/000000125.000143568.html",
+      "source": "Prtimes.jp",
+      "date": "2026-06-22",
+      "summary": "GenOCR, a generative AI-based OCR product by Jinbei, has added support for SAML authentication and SSO via Microsoft Entra ID. The update is aimed at improving security and convenience for users of the OCR platform.",
+      "image": "https://prcdn.freetls.fastly.net/release_image/143568/125/143568-125-aab6fc8b44b2571a424288793a0a1cc4-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "importance": 5,
       "paywall": false
     },
     {
@@ -32,185 +224,13 @@
       "paywall": false
     },
     {
-      "title": "What the Fortibleed campaign means for organizations running FortiGate firewalls",
-      "url": "https://www.helpnetsecurity.com/2026/06/23/fortibleed-investigation-remediation/",
-      "source": "Help Net Security",
-      "date": "2026-06-23",
-      "summary": "A large-scale credential-harvesting campaign called \"FortiBleed\" targeted FortiGate firewalls, exposing thousands of organizations to network compromise including full domain-level control in some cases. Researchers from ZenoX and CloudSEK analyzed attacker tools, scripts, and credentials inadvertently left exposed on a server, revealing a highly automated attack pipeline.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/06/23164542/fortibleed.webp",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "FortiBleed Targeted FortiGate Firewalls in 110 Million-Credential Harvesting Operation",
-      "url": "https://thehackernews.com/2026/06/fortibleed-targeted-fortigate-firewalls.html",
-      "source": "The Hacker News",
-      "date": "2026-06-23",
-      "summary": "A Russian-speaking initial access broker conducted a large-scale credential-harvesting operation called FortiBleed, targeting over 430,000 FortiGate firewalls globally and collecting 110 million credentials. The campaign, active since February 2026, involves credential list collection, exposed service scanning, brute-forcing, and custom tool deployment against FortiGate infrastructure.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJkhDD5qINhfAhBFXG2C13raQF6T6zAOmnHlArhnLUP5z0ifBzpyq6M_4n11cgynQfZW0mxJWnYU-TDYSpKQHYFHvXsZHCB7uoMFg0w02yZILY-JLMm2-uqm-CA_wIqZHhzl25FfO_lMd7dYm6VfprDP83bz_SoB3MWLEc059E4YCa554bba-qWHW5udHv/s1600/fortigate.jpg",
-      "importance": 7,
-      "paywall": false
-    }
-  ],
-  "news": [
-    {
-      "title": "Scope of Salesforce Attacks Expands as Icarus Leaks Data",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/scope-salesforce-attacks-expands-icarus-leaks-data",
-      "source": "Dark Reading",
-      "date": "2026-06-23",
-      "summary": "Attackers breached application vendor Klue and used stolen OAuth tokens to access and exfiltrate customer Salesforce data, with the scope of victims expanding. The attack vector involves OAuth token abuse, a key authentication and authorization mechanism used to delegate access between applications.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltbcd2c419f66a3c63/6a3ae54669022cd7ac4f9ae3/datatheft-mikkelwilliam-Getty-2152310845.jpg?width=720&quality=80&disable=upscale",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "FortiBleed Attackers Turn Firewalls Into Credential Stealers as Heists Persist",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/fortibleed-attackers-firewalls-credentials-stealers",
-      "source": "Dark Reading",
-      "date": "2026-06-23",
-      "summary": "Threat actors exploited FortiGate firewalls using a Golang-based credential-stealing sniffer in an ongoing global campaign. The attack targeted 430,000 FortiGate devices and resulted in the identification of 110 million credentials.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd01406474eab6933/6a3a80e658a7dfc97c4b2d8e/fortinet-JHVEPhoto-Getty-1670649574.jpg?width=720&quality=80&disable=upscale",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Trump Order Sets 2030 Deadline for Federal Post-Quantum Crypto Migration",
-      "url": "https://thehackernews.com/2026/06/trump-order-sets-2030-deadline-for.html",
-      "source": "The Hacker News",
-      "date": "2026-06-23",
-      "summary": "President Trump signed Executive Order 14409 on June 22, requiring federal agencies to migrate high-value assets and high-impact systems to post-quantum cryptography by December 31, 2030, with digital signatures deadline set for December 31, 2031. National security systems are handled on a separate track under the order.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoC7KFWoDGkSi-UzAyKNUkw-Ogs4oy2tCOAYXiYAAkqEUC1WMotLAE1GUwoWApfXK3prWVctTP05aLGjru0hDBfJkZ1NzPiFeI1VObgSNCx4egTrYhKIUt4m1S14eQ6_GpdffFBL4Ak3Mgjw7UiiBethv1lmyd_OaPIfhk_b-zuMjxCHLZtih8Tk6MtRg/s1600/unitedstates.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
-      "url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
-      "source": "Krebs on Security",
-      "date": "2026-06-23",
-      "summary": "Two members of the Scattered Spider cybercrime group pleaded guilty in the UK to charges related to an August 2024 cyberattack on Transport for London. Scattered Spider is known for sophisticated social engineering and identity-based attacks, including SIM swapping and MFA bypass techniques used to compromise major organizations.",
-      "image": null,
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "He Thought He Was Secure; His Phone Number Got Stolen Anyway",
-      "url": "https://www.darkreading.com/cyber-risk/how-a-sim-swap-attack-led-to-a-near-account-takeover",
-      "source": "Dark Reading",
-      "date": "2026-06-22",
-      "summary": "The article covers SIM swap attacks as a method for stealing one-time passwords (OTPs) delivered via SMS, leading to account takeovers. The piece highlights the vulnerability of SMS-based MFA and the need for stronger authentication methods.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt6dddf9d981db26e1/68ee58f2ca973956d757c9a3/sim-swapping-attacks_.png?width=720&quality=80&disable=upscale",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "FortiBleed campaign used custom FortiGate sniffer to steal credentials",
-      "url": "https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/",
-      "source": "Bleeping Computer",
-      "date": "2026-06-22",
-      "summary": "A large-scale campaign dubbed \"FortiBleed\" targeted Fortinet FortiGate devices using custom sniffers to harvest authentication credentials from compromised firewalls. SOCRadar reported the attack involved stealing authentication secrets from the network security devices.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2025/12/19/Fortinet.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
-      "url": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
-      "source": "The Hacker News",
-      "date": "2026-06-22",
-      "summary": "A 29-year-old heap over-read vulnerability dubbed \"Squidbleed\" in the Squid web proxy can leak cleartext HTTP requests, including credentials and session tokens, to other users sharing the same proxy. The flaw originates from a 1997 FTP-parsing change and remains present in Squid's default configuration, disclosed by Calif.io researchers in June.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA4IfKMjQxVhpOYdrcCC4ty0vlGBDg_qCZuuvSTvyVWXYPXQlli7qyCZkPdHHuGJp-HVH1s-HGmf_Zqn97o2Qz5JOHaZ-Mk1mecm4W4yUBiCaejJL5guczISx2Q8ZH7RvS_4fXiNdHemr1aWKwz0CcyBJI_4_jFjQhY5JedBz_-pSiSQ1eQCF_BPYEbRs/s1600/sq.jpg",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft to retire Azure DevOps issuer for workload identity federation",
-      "url": "https://4sysops.com/archives/microsoft-to-retire-azure-devops-issuer-for-workload-identity-federation/",
-      "source": "4sysops.com",
-      "date": "2026-06-22",
-      "summary": "Microsoft has announced the deprecation of the Azure DevOps issuer for workload identity federation service connections, with retirement set for July 1, 2027. The change is part of an initiative to standardize on the Microsoft Entra issuer for workload identity federation.",
-      "image": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-to-retire-azure-devops-issuer-for-workload-identity-federation.webp",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Navigating the AI access control minefield",
-      "url": "https://www.computerweekly.com/feature/Navigating-the-AI-access-control-minefield",
-      "source": "ComputerWeekly.com",
-      "date": "2026-06-22",
-      "summary": "The article addresses the challenge of implementing access control for AI systems that require access to enterprise data. It frames AI access management as an emerging concern for IT leaders, drawing parallels to early e-commerce security challenges.",
-      "image": "https://www.computerweekly.com/visuals/ComputerWeekly/Hero Images/technology-digital-ai-binary-adobe.jpeg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "生成AI型AI-OCR「GenOCR」、SAML 認証および Microsoft Entra ID による SSO に対応 ― ユーザーのセキュリティ強化と利便性向上へ",
-      "url": "https://prtimes.jp/main/html/rd/p/000000125.000143568.html",
-      "source": "Prtimes.jp",
-      "date": "2026-06-22",
-      "summary": "GenOCR, a generative AI-based OCR product by Jinbei, has added support for SAML authentication and SSO via Microsoft Entra ID. The update is aimed at improving security and user convenience for enterprise customers.",
-      "image": "https://prcdn.freetls.fastly.net/release_image/143568/125/143568-125-aab6fc8b44b2571a424288793a0a1cc4-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Show HN: Lelu – authorization engine that catches manipulated AI agents",
-      "url": "https://github.com/lelu-auth/lelu",
-      "source": "Github.com",
-      "date": "2026-06-20",
-      "summary": "An open-source authorization engine called Lelu has been released on GitHub, targeting AI agent access control. The project includes features such as confidence-aware gating, human-in-the-loop review, policy-as-code, and audit trail capabilities for controlling manipulated AI agents.",
-      "image": "https://opengraph.githubassets.com/0c1d5898dedea39e31c24d6cc82b1e48b4f651b88dcbc8c7a045f962db8bc44b/lelu-auth/lelu",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Forget Data Leakage: Shadow AI's Real Threat Is Access Control",
-      "url": "https://thehackernews.com/2026/06/forget-data-leakage-shadow-ais-real.html",
-      "source": "The Hacker News",
-      "date": "2026-06-19",
-      "summary": "This article argues that shadow AI has evolved from a data leakage problem into an access control problem, shifting the focus toward IAM concerns. The piece addresses how unsanctioned AI tools interacting with enterprise systems create authorization and identity management risks.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6R48ZeaNtIzMVc6atNjuxbNYFUfiFCJ_cE1qE_85yGOOavsX0ijvQGdv9QZ2-4Lky8mTOPhrNIydUvLS2DtGkkFXYJFRTT99Vbb03s3Rtk9pTariHdQ2on2RGxiAsMQnySj7AJfxUtBxO1aJTupjkQvDvt5jp1klznY9_WHckqm64F-BbCtCR2UoJ968/s1600/tines-main.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Salesforce Disables Klue App Integration After OAuth Token Abuse Exposes Customer Data",
-      "url": "https://thehackernews.com/2026/06/salesforce-disables-klue-app.html",
-      "source": "The Hacker News",
-      "date": "2026-06-19",
-      "summary": "Salesforce disabled the Klue Battlecards app integration after a security incident involving OAuth token abuse exposed customer data on June 11, 2026. The incident resulted in organizations being unable to connect to Salesforce via the Klue app until further notice, highlighting risks associated with OAuth-based third-party integrations.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgI7q_DYP5ExkNSDd8Y10rOfYtTIs6sNXxdE6X55nsvKVllZZ14U9mqUY23nzGGPhXx515NVPMI5Btp4MM5qUx0V1lKDvURtKBICbblPPYuN1VSCN12-J0RmpBKCSM0veZc_9hNt1TnD9PdkNTQi8x337E9cPmLn7uyHOPw0_HshcbxKqVnmgOAjJHOOw6g/s1600/salesforce.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
       "title": "FIFA Bug Exposes World Cup Streams to Remote Takeover",
       "url": "https://www.darkreading.com/application-security/fifa-bug-world-cup-streams-remote-takeover",
       "source": "Dark Reading",
       "date": "2026-06-18",
-      "summary": "A security vulnerability in FIFA's systems allowed potential remote takeover of World Cup streams due to unenforced Microsoft Entra access controls. The bug exposed how misconfigured identity and access management policies could have enabled unauthorized control over live broadcast infrastructure.",
+      "summary": "A security vulnerability in FIFA's systems exposed World Cup streaming infrastructure to potential remote takeover due to unenforced Microsoft Entra access controls. The flaw allowed unauthorized access that could have enabled a malicious actor to hijack live broadcasts, highlighting misconfiguration risks in Entra deployments.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt3e6c93c7d4c13e54/6a340108ef4a07d48bb3a950/Belgian_fans_soccer-Jasper_Juinen_Stringer-Getty.jpg?width=720&quality=80&disable=upscale",
       "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Orphaned AI Agents: How to Find Hidden Access Risks Inside Your Network",
-      "url": "https://thehackernews.com/2026/06/orphaned-ai-agents-how-to-find-hidden.html",
-      "source": "The Hacker News",
-      "date": "2026-06-18",
-      "summary": "The article addresses the identity governance challenge of orphaned AI agents that retain standing privileges after their creators leave an organization. It focuses on the lack of accountability and authorization tracking for autonomous AI agents accessing enterprise systems, framing it as an access management and identity governance problem.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_nqjviAfaPP-eOuhtQKNwdvOGLaN-rOmxVnoQPMOruaJvDcw5rsCi-kIKxAhOpxjCggRXt7bfwyRAKMzVKdwIPlRAJpXLl4OReBnbVtOSZYGS4Bsf9EvU71bMIkWdpDwjydNWe22WCdjgqX6b_TrPtXptekJc3N8BH5m56-wauHl5KX0DePQmv2gIoNks/s1600/webinar.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Zero-Touch OAuth for MCP",
-      "url": "https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/",
-      "source": "Modelcontextprotocol.io",
-      "date": "2026-06-18",
-      "summary": "The Model Context Protocol (MCP) has released a stable Enterprise-Managed Authorization extension that enables centralized provisioning of MCP server access through an organization's identity provider. The extension eliminates per-app OAuth flows by allowing users to receive pre-connected servers automatically upon first login, integrating AI tool access into existing IAM infrastructure.",
-      "image": "https://blog.modelcontextprotocol.io/og-image.png",
-      "importance": 7,
       "paywall": false
     },
     {
@@ -218,7 +238,7 @@
       "url": "https://www.darkreading.com/cyberattacks-data-breaches/sweeping-credential-harvesting-heist-compromises-30k-fortinet-devices",
       "source": "Dark Reading",
       "date": "2026-06-17",
-      "summary": "A credential-harvesting campaign has compromised over 30,000 Fortinet devices, collecting working credentials across nearly 200 countries. The attack targets multiple sectors and has resulted in a large compiled database of valid credentials from the affected devices.",
+      "summary": "A large-scale credential-harvesting attack has compromised over 30,000 Fortinet devices across nearly 200 countries. Attackers have compiled a list of working credentials from the compromised devices, actively targeting multiple sectors globally.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt6769d2c3991b5331/6a3282b9bd5a9a1a504483c3/fortinet_Lutsenko_Oleksandr_shutterstock.png?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -228,9 +248,9 @@
       "url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
       "source": "Krebs on Security",
       "date": "2026-06-01",
-      "summary": "Hackers exploited Meta's AI support assistant bot to reset Instagram account passwords and seize accounts, including the Obama White House and U.S. Space Force accounts. Instructions circulating on Telegram demonstrated how to social-engineer the AI bot into bypassing normal account authentication and recovery controls.",
+      "summary": "Hackers exploited Meta's AI support assistant chatbot to reset Instagram account passwords and seize accounts, including high-profile ones belonging to the Obama White House and a U.S. Space Force official. Instructions for manipulating the AI bot into performing unauthorized password resets were shared on Telegram, enabling the account takeovers.",
       "image": null,
-      "importance": 6,
+      "importance": 7,
       "paywall": false
     },
     {
@@ -238,7 +258,7 @@
       "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
       "source": "Krebs on Security",
       "date": "2026-05-22",
-      "summary": "A CISA contractor intentionally published AWS GovCloud keys and other agency secrets to a public GitHub account, causing a credentials breach that CISA is still working to contain. Congressional lawmakers from both chambers are demanding answers from CISA as the agency works to invalidate the leaked credentials.",
+      "summary": "A CISA contractor intentionally published AWS GovCloud keys and other agency secrets to a public GitHub account, causing a credential leak that CISA is still working to contain. Congressional lawmakers from both chambers are demanding answers from CISA as the agency works to invalidate the exposed credentials.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -248,9 +268,9 @@
       "url": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
       "source": "Krebs on Security",
       "date": "2026-05-18",
-      "summary": "A CISA contractor publicly exposed highly privileged AWS GovCloud account credentials and internal system access details in a public GitHub repository until this past weekend. The leaked repository contained files detailing CISA's internal software build, test, and deployment processes, representing a significant credentials and access management failure involving government infrastructure.",
+      "summary": "A CISA contractor exposed credentials for highly privileged AWS GovCloud accounts and numerous internal CISA systems in a public GitHub repository. The leaked files contained details about CISA's internal software build, test, and deployment processes, representing a significant privileged credential exposure incident.",
       "image": null,
-      "importance": 7,
+      "importance": 6,
       "paywall": false
     }
   ]
