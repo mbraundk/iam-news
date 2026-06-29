@@ -1,12 +1,22 @@
 {
-  "updated": "June 28, 2026 at 07:09 UTC",
+  "updated": "June 29, 2026 at 08:24 UTC",
   "top_stories": [
+    {
+      "title": "Introduces AI-Powered Agentic Acceleration for Identity Security Modernization",
+      "url": "https://biztoc.com/x/ab98c8c0c9a7625d",
+      "source": "Biztoc.com",
+      "date": "2026-06-28",
+      "summary": "SailPoint introduced SailPoint Agentic Acceleration on June 16, an AI-powered methodology designed to accelerate enterprise migration from legacy on-premises identity systems to modern platforms. The offering targets identity security modernization and represents a new product/methodology launch from a major IGA vendor.",
+      "image": "https://biztoc.com/cdn/ab98c8c0c9a7625d_s.webp",
+      "importance": 8,
+      "paywall": false
+    },
     {
       "title": "Cisco Adds NHI to Security Stack With Astrix, WideField Acquisitions",
       "url": "https://www.darkreading.com/identity-access-management-security/cisco-adds-nhi-security-stack-with-astrix-widefield",
       "source": "Dark Reading",
       "date": "2026-06-26",
-      "summary": "Cisco has acquired Astrix and WideField to add Non-Human Identity (NHI) security capabilities to its security stack. The acquisitions position Cisco to secure machine identities and agentic AI workloads by treating identity as the primary control plane.",
+      "summary": "Cisco has acquired Astrix and WideField to add non-human identity (NHI) security capabilities to its security stack. The acquisitions position Cisco to manage and secure machine identities, API keys, service accounts, and agentic AI workloads as part of its broader security platform.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf5ae2981cb5cbc98/67a6074e7dd6537daef9a0fa/robot-army-laurent-davoust-alamy.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -16,18 +26,8 @@
       "url": "https://www.darkreading.com/application-security/robinhood-reengineered-access-approvals-for-high-velocity-development",
       "source": "Dark Reading",
       "date": "2026-06-25",
-      "summary": "Robinhood's engineering security team overhauled its system access approval process to reduce approval times while maintaining security for developers. The initiative focused on streamlining access granting workflows to support faster development cycles in a fintech environment.",
+      "summary": "Robinhood's engineering security team redesigned their system access approval process to reduce approval times while maintaining security for developers. The initiative focused on streamlining access management workflows to support faster development cycles in a fintech environment.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt702a5bf42e4e4366/64f171e1523617b5bc948dac/office-workshop-Dzianis_Apolka-Alamy.jpg?width=720&quality=80&disable=upscale",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "He Thought He Was Secure; His Phone Number Was Stolen Anyway",
-      "url": "https://www.darkreading.com/cyber-risk/how-a-sim-swap-attack-led-to-a-near-account-takeover",
-      "source": "Dark Reading",
-      "date": "2026-06-22",
-      "summary": "The article covers SIM swap attacks as a method for stealing SMS-based one-time passwords, leading to account takeovers. The piece highlights the vulnerability of SMS-based MFA and the need for stronger authentication methods.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt6dddf9d981db26e1/68ee58f2ca973956d757c9a3/sim-swapping-attacks_.png?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
     },
@@ -46,7 +46,7 @@
       "url": "https://www.helpnetsecurity.com/2026/06/26/mirage2fa-phishing-kit-microsoft-365-html-smuggling/",
       "source": "Help Net Security",
       "date": "2026-06-26",
-      "summary": "Researchers at Fortra identified the Mirage2FA phishing kit, which uses HTML smuggling and obfuscated JavaScript to deliver fake Microsoft 365 login pages that steal credentials during MFA prompts. The campaign employed business-themed lures such as secure documents, remittance services, and payment requests to trick targets into interacting with the malicious attachments.",
+      "summary": "Researchers at Fortra identified Mirage2FA, a phishing kit that uses HTML smuggling and obfuscated JavaScript loaders to deliver fake Microsoft 365 login pages and steal credentials during MFA prompts. The campaign used business-themed lures such as secure documents, remittance services, and payment requests to trick users into submitting credentials.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/08/08143621/microsoft-365-phishing.webp",
       "importance": 7,
       "paywall": false
@@ -58,18 +58,18 @@
       "url": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html",
       "source": "The Hacker News",
       "date": "2026-06-27",
-      "summary": "The SSU and FBI uncovered a Russian intelligence campaign targeting messaging account credentials of government officials, military personnel, politicians, and activists across Ukraine, Europe, and the U.S. The operation used fake support texts as a social engineering vector to steal messaging account credentials from high-value targets.",
+      "summary": "Russian intelligence services conducted a long-running campaign to steal messaging account credentials from government officials, military personnel, politicians, and activists in Ukraine, Europe, and the U.S., according to the SSU and FBI. The attack method involved fake support texts designed to harvest authentication credentials for messaging accounts.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgL9wu_kGShq1lDTiDFjL3VdxF51l9aXdtW8vfE6Z0f3nLKXnr3WctY8jw3INV7FcO0FmLzv_EVCkfmsC4AmEaPih-SD_c24f8R_MJjjNT8OBdd6SuwVECGV3VdxnMDBs7ULHaVBFPPGkZZcruUhMcbmYE-RQu-QTZfn7rEWltSSSdFLhJeZKIZy4jZzl7L/s1600/cyberattack.jpg",
       "importance": 6,
       "paywall": false
     },
     {
-      "title": "SIM-swapping gang busted in international police operation",
-      "url": "https://www.helpnetsecurity.com/2026/06/26/poland-sim-swap-gang-arrests-cryptocurrency-theft/",
-      "source": "Help Net Security",
-      "date": "2026-06-26",
-      "summary": "Polish authorities arrested four suspected members of a cybercrime group responsible for SIM swap attacks, cryptocurrency theft, and money laundering, in coordination with the FBI and HSI. SIM swapping is a method used to bypass SMS-based multi-factor authentication by hijacking victims' phone numbers.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/06/13143218/cybercrime2.webp",
+      "title": "Windows 11 beta build enhances smart card security for remote sessions",
+      "url": "https://4sysops.com/archives/windows-11-beta-build-enhances-smart-card-security-for-remote-sessions/",
+      "source": "4sysops.com",
+      "date": "2026-06-27",
+      "summary": "Microsoft has released a new Windows 11 Insider Beta build that introduces enhanced smart card security controls for remote desktop environments. Administrators can configure Azure Virtual Desktop and Windows 365 sessions to automatically disconnect when a smart card is redirected or removed during a session.",
+      "image": "https://4sysops.com/wp-content/uploads/2026/06/windows-11-beta-build-enhances-smart-card-security-for-remote-sessions.jpg",
       "importance": 6,
       "paywall": false
     },
@@ -78,9 +78,9 @@
       "url": "https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html",
       "source": "The Hacker News",
       "date": "2026-06-26",
-      "summary": "A high-severity vulnerability (CVE-2026-12957, CVSS 8.5) in Amazon Q Developer allowed malicious repositories to execute commands and steal cloud credentials through MCP server configurations. Amazon has patched the flaw, which required a developer to open a malicious repo and trust the workspace for the exploit to trigger.",
+      "summary": "A high-severity vulnerability (CVE-2026-12957, CVSS 8.5) in Amazon Q Developer allowed malicious repositories to execute commands and steal cloud credentials via MCP server configuration handling. Amazon has issued a patch for the flaw.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig3gygt20RdznayWN2yru6wSgNt8CSdr16F8I-naxtPn837cr6v0uV0bXdhz36P1XYrpnjmzDXTAtH0wa43Me8rqD2hvET-xQP0ndoX-ddXsypZCjSSNJUqmfl69g96R6yMiUqgXE_NGAL8bl2z6lYutrgKiY74tNIafz_xRsNsJQSB9s_9lSHiybX2kQ/s1600/aws.jpg",
-      "importance": 6,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -88,7 +88,7 @@
       "url": "https://thehackernews.com/2026/06/guardian-agents-next-layer-of-identity.html",
       "source": "The Hacker News",
       "date": "2026-06-26",
-      "summary": "The article examines how AI agents operating in enterprise environments create governance gaps in existing identity infrastructure, which was built for human access management. It addresses the challenge of governing autonomous actors that inherit permissions and traverse systems at machine speed without adequate oversight from current IAM programs.",
+      "summary": "The article addresses the emerging challenge of governing AI agents within enterprise identity infrastructure, focusing on how autonomous actors inherit permissions and traverse systems outside traditional IAM governance frameworks. The piece examines the gap between current AI agent deployments and existing identity governance program coverage, introducing the concept of \"Guardian Agents\" as a proposed governance layer.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiySQAlgg9_uk-lgoIhvKGoXnx274-L4HUyTdvRdDTEabD2GvfR6LY81pn8p-Vo1mSdb_ycPyUyilvhlpWRYRlb9nulwVW1MCIkZABPd-KelEYK9NAqh_tefhmTmPeDkU9D7LQqW1Yfk0rAMbK1S9-q2CVCDgDk3uu5AQOT_hcnkYKRsD169PeWiwqTq4g/s1600/guardian-agents.jpg",
       "importance": 7,
       "paywall": false
@@ -98,7 +98,7 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/truist-securities-reiterates-buy-sailpoint-211322456.html",
       "source": "Yahoo Entertainment",
       "date": "2026-06-26",
-      "summary": "Truist Securities reiterated a Buy rating on SailPoint (SAIL) stock on June 17, maintaining its price target. This is an analyst ratings update for the identity governance vendor, with no new product or company operational details disclosed.",
+      "summary": "Truist Securities reiterated a Buy rating on SailPoint (SAIL) stock, maintaining its price target as of June 17. This is a financial analyst recommendation for the identity governance vendor's publicly traded shares.",
       "image": "https://s.yimg.com/lo/mysterio/api/DB8ACFFEEE7A0E767F78956C35892F30E270093B3A0257A73D700C8A001568F9/subgraphmysterio/resizefill_w1200_h673;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2Fde33a7226806e9e607f8ab87ef2ab2d8",
       "importance": 3,
       "paywall": false
@@ -108,7 +108,7 @@
       "url": "https://cryptobriefing.com/proof-x401-ai-agent-identity-protocol/",
       "source": "Crypto Briefing",
       "date": "2026-06-26",
-      "summary": "Proof has launched x401, an open protocol designed to verify human authorization behind AI agents during digital transactions. The protocol aims to establish identity verification standards for AI-driven interactions, addressing the emerging challenge of authenticating who controls autonomous AI systems.",
+      "summary": "Proof has launched x401, an open protocol designed to verify human authorization behind AI agents during digital transactions. The protocol aims to establish identity and authorization standards for AI-driven interactions, addressing the emerging challenge of authenticating and attributing actions taken by autonomous AI systems.",
       "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/06/26115746/how-to-prove-company-exists-articles-of-incorporation-800x420.jpeg",
       "importance": 7,
       "paywall": false
@@ -118,7 +118,7 @@
       "url": "https://4sysops.com/archives/microsoft-integrates-entra-and-purview-to-secure-ai-agents-and-data/",
       "source": "4sysops.com",
       "date": "2026-06-26",
-      "summary": "Microsoft is launching a webinar series focused on integrating Microsoft Entra and Microsoft Purview to address identity, access, and data protection challenges in AI environments. The initiative targets management of sensitive data flowing through AI prompts and agents, combining IAM and data governance capabilities.",
+      "summary": "Microsoft is launching a webinar series focused on integrating Microsoft Entra and Microsoft Purview to address identity, access, and data protection challenges introduced by AI agents. The initiative targets organizations seeking to manage sensitive data as it flows through AI systems, combining identity governance with data security controls.",
       "image": "https://4sysops.com/wp-content/uploads/2026/06/microsoft-integrates-entra-and-purview-to-secure-ai-agents-and-data.png",
       "importance": 7,
       "paywall": false
@@ -128,19 +128,19 @@
       "url": "https://www.bleepingcomputer.com/news/security/poland-busts-sim-swapping-gang-tied-to-millions-in-crypto-theft/",
       "source": "Bleeping Computer",
       "date": "2026-06-25",
-      "summary": "Polish authorities arrested four members of a cybercrime group that conducted SIM-swapping attacks by breaching telecommunications partners and hijacking email accounts. The attacks resulted in millions in cryptocurrency theft, exploiting mobile identity verification mechanisms.",
+      "summary": "Polish authorities arrested four members of a cybercrime group that conducted SIM-swapping attacks by breaching telecommunications partners and hijacking email accounts. The attacks resulted in millions in cryptocurrency theft, exploiting weaknesses in phone-based authentication methods.",
       "image": "https://www.bleepstatic.com/content/hl-images/2026/06/11/arrest.jpg",
-      "importance": 5,
+      "importance": 4,
       "paywall": false
     },
     {
-      "title": "Webinar: Why account takeovers remain one of the hardest threats to stop",
-      "url": "https://www.bleepingcomputer.com/news/security/webinar-why-account-takeovers-remain-one-of-the-hardest-threats-to-stop/",
-      "source": "Bleeping Computer",
+      "title": "Identiverse 2026 Recap: Identity Security for Agentic AI Dominates",
+      "url": "https://www.forrester.com/blogs/identiverse-2026-recap-identity-security-for-agentic-ai-dominates/",
+      "source": "Forrester.com",
       "date": "2026-06-25",
-      "summary": "A webinar addresses the persistent challenge of account takeover (ATO) attacks, which are difficult to detect because attackers operate through legitimate accounts and trusted services. The session focuses on using behavioral AI to identify compromised accounts and automate response workflows.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2025/10/01/login-credentials.jpg",
-      "importance": 6,
+      "summary": "Identiverse 2026 in Las Vegas focused heavily on identity security for agentic AI as a central theme. The conference highlighted a transition in identity security practices as organizations manage an expanding scope of identity challenges tied to AI agents.",
+      "image": "https://go.forrester.com/wp-content/uploads/2026/06/Identiverse-2026-Recap-Identity-Security-for-Agentic-AI-Dominates.jpg",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -148,9 +148,9 @@
       "url": "https://www.prnewswire.com/news-releases/britive-joins-torq-amp-alliance-program-to-accelerate-agentic-secops-302810452.html",
       "source": "PRNewswire",
       "date": "2026-06-25",
-      "summary": "Britive has joined the Torq AMP (Alliance and Marketing Program) to integrate its runtime Privileged Access Management capabilities with Torq's agentic AI security operations platform. The partnership focuses on technical integration, go-to-market collaboration, and joint marketing efforts.",
+      "summary": "Britive has joined the Torq AMP Alliance Program to integrate its runtime Privileged Access Management capabilities with Torq's agentic AI security operations platform. The partnership focuses on go-to-market collaboration and joint marketing between the two vendors.",
       "image": "https://mmx.prnewswire.com/media/MS1682302/Britive-Logo---Midnight_Logo.jpg?id=OA2733969&p=facebook",
-      "importance": 5,
+      "importance": 4,
       "paywall": false
     },
     {
@@ -158,7 +158,7 @@
       "url": "https://www.globenewswire.com/news-release/2026/06/25/3317614/0/en/Virtru-and-Rocket-Chat-Partner-to-Bring-Real-Time-Access-Governance-to-Classified-Collaboration.html",
       "source": "GlobeNewswire",
       "date": "2026-06-25",
-      "summary": "Virtru and Rocket.Chat have partnered to integrate real-time access governance into classified collaboration environments. The integration synchronizes channel membership with identity entitlements, automatically revoking access when user permissions change.",
+      "summary": "Virtru and Rocket.Chat have partnered to integrate real-time access governance into classified collaboration channels. The integration automatically removes users from classified channels the moment their entitlements change, tying channel membership directly to identity state.",
       "image": "https://ml.globenewswire.com/Resource/Download/5d5791d2-f3f6-441d-858f-290842ad3269",
       "importance": 7,
       "paywall": false
@@ -168,7 +168,7 @@
       "url": "https://www.prnewswire.com/news-releases/keeper-security-brings-privileged-access-controls-to-microsoft-teams-with-new-keeper-teams-app-302810162.html",
       "source": "PRNewswire",
       "date": "2026-06-25",
-      "summary": "Keeper Security has launched a new app that integrates its privileged access management capabilities directly into Microsoft Teams. The Keeper Teams App enforces zero standing privilege and provides governed, auditable workflows for credential access within the Teams environment.",
+      "summary": "Keeper Security has launched a new Keeper Teams App that integrates privileged access controls directly into Microsoft Teams. The app enforces zero standing privilege and provides governed, auditable workflows for credential access within the Teams environment.",
       "image": "https://mmx.prnewswire.com/media/MS1864138/Keeper_logo_full_color_002.jpg?id=OA2734058&p=facebook",
       "importance": 7,
       "paywall": false
@@ -178,19 +178,9 @@
       "url": "https://www.helpnetsecurity.com/2026/06/25/flare-cti-okta/",
       "source": "Help Net Security",
       "date": "2026-06-25",
-      "summary": "Flare has announced expanded capabilities for its CTI (Cyber Threat Intelligence) platform, including a new Okta integration within its Identity Exposure Management (IEM) offering. The updates extend identity threat intelligence into agentic workflows and tactical threat intelligence use cases.",
+      "summary": "Flare has announced expanded capabilities for its Flare CTI product and a new Okta integration within its Identity Exposure Management (IEM) offering. The updates extend Flare's identity threat intelligence into tactical use cases and agentic workflows, adding direct connectivity with Okta environments.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
       "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Web社内報サービスSOLANOWA、IdP連携の新オプション「ユーザー自動同期（SCIM）」を提供開始",
-      "url": "https://prtimes.jp/main/html/rd/p/000000074.000019694.html",
-      "source": "Prtimes.jp",
-      "date": "2026-06-25",
-      "summary": "Japanese web intranet service SOLANOWA has launched a new \"User Auto-Sync (SCIM)\" option for IdP integration. The feature enables automatic user provisioning and synchronization between identity providers and the SOLANOWA platform.",
-      "image": "https://prcdn.freetls.fastly.net/release_image/19694/74/19694-74-10211005188278ee255dab5e105c4a10-1730x909.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-      "importance": 4,
       "paywall": false
     },
     {
@@ -198,19 +188,9 @@
       "url": "https://thehackernews.com/2026/06/amadey-and-stealc-malware-network.html",
       "source": "The Hacker News",
       "date": "2026-06-24",
-      "summary": "A coordinated law enforcement operation involving Europol and private sector partners including Microsoft disrupted criminal infrastructure behind Amadey and StealC malware, recovering 27 million stolen credentials. The operation targeted cybercriminal \"assembly lines\" used to harvest credentials for ransomware, financial fraud, and critical infrastructure attacks.",
+      "summary": "A coordinated law enforcement operation involving Europol and private sector partners including Microsoft disrupted the Amadey and StealC malware network. The operation recovered 27 million stolen credentials, targeting criminal infrastructure used to facilitate ransomware, financial fraud, and attacks on critical infrastructure.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBVSibdiZdJ1tNYJFrsHtZ8Vr1EG28rqKLY4E7HvAtuax2i3vgpcaMZjEAcGDRxUVu5aa_BHzCAahpw5l2RP2HNw9t7PF6zknNICdw0iuW5jozt5fzqsSfb3Lw55MIvStq2vh5W0139JychUhhJHvchyphenhyphenm7tT2oTS555CkVZrBYSkhmlMKWaXMLtO4OcSp6/s1600/cybercrime-ms.jpg",
       "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Navigating the hidden costs and governance risks of Microsoft 365 E7",
-      "url": "https://4sysops.com/archives/navigating-the-hidden-costs-and-governance-risks-of-microsoft-365-e7/",
-      "source": "4sysops.com",
-      "date": "2026-06-24",
-      "summary": "Microsoft launched Microsoft 365 E7 (branded as the Frontier Suite) in May 2026 at $99 per user per month, bundling E5 capabilities with Microsoft 365 Copilot and the Entra Suite for advanced identity features. The article examines the hidden costs and governance risks associated with this new licensing tier, which has direct implications for identity and access management through its inclusion of the Entra Suite.",
-      "image": "https://4sysops.com/wp-content/uploads/2026/06/navigating-the-hidden-costs-and-governance-risks-of-microsoft-365-e7.jpg",
-      "importance": 7,
       "paywall": false
     },
     {
@@ -218,7 +198,7 @@
       "url": "https://www.darkreading.com/cyberattacks-data-breaches/scope-salesforce-attacks-expands-icarus-leaks-data",
       "source": "Dark Reading",
       "date": "2026-06-23",
-      "summary": "Attackers breached application vendor Klue and used its stolen OAuth tokens to access and exfiltrate customer data from Salesforce. The attack vector highlights OAuth token security risks, with the scope expanding as additional victims are identified.",
+      "summary": "Attackers breached application vendor Klue and used its OAuth tokens to access and steal Salesforce customer data, with the scope of victims expanding. The attack highlights OAuth token abuse as an attack vector against third-party integrations and downstream customers.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltbcd2c419f66a3c63/6a3ae54669022cd7ac4f9ae3/datatheft-mikkelwilliam-Getty-2152310845.jpg?width=720&quality=80&disable=upscale",
       "importance": 6,
       "paywall": false
@@ -228,7 +208,7 @@
       "url": "https://www.darkreading.com/cyberattacks-data-breaches/fortibleed-attackers-firewalls-credentials-stealers",
       "source": "Dark Reading",
       "date": "2026-06-23",
-      "summary": "Threat actors deployed a Golang-based credential sniffer targeting 430,000 FortiGate firewalls, identifying 110 million credentials in an ongoing global campaign. The attack exploits FortiGate vulnerabilities to turn network devices into credential harvesting tools, directly compromising authentication data at scale.",
+      "summary": "Threat actors deployed a Golang-based credential sniffer targeting 430,000 FortiGate firewalls as part of an ongoing global campaign. The attack identified approximately 110 million credentials, turning compromised network devices into credential harvesting tools.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd01406474eab6933/6a3a80e658a7dfc97c4b2d8e/fortinet-JHVEPhoto-Getty-1670649574.jpg?width=720&quality=80&disable=upscale",
       "importance": 6,
       "paywall": false
@@ -238,19 +218,29 @@
       "url": "https://thehackernews.com/2026/06/fortibleed-targeted-fortigate-firewalls.html",
       "source": "The Hacker News",
       "date": "2026-06-23",
-      "summary": "A Russian-speaking initial access broker conducted a large-scale credential-harvesting operation called FortiBleed, targeting over 430,000 FortiGate firewalls globally and collecting 110 million credentials. The campaign, active since February 2026, involved collecting credential lists, brute-forcing accessible systems, and targeting exposed services on FortiGate devices.",
+      "summary": "A Russian-speaking initial access broker conducted a large-scale credential-harvesting operation called FortiBleed, targeting over 430,000 FortiGate firewalls globally and collecting 110 million credentials. The campaign, active since February 2026, involved collecting credential lists, brute-forcing accessible systems, and searching for exposed services.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJkhDD5qINhfAhBFXG2C13raQF6T6zAOmnHlArhnLUP5z0ifBzpyq6M_4n11cgynQfZW0mxJWnYU-TDYSpKQHYFHvXsZHCB7uoMFg0w02yZILY-JLMm2-uqm-CA_wIqZHhzl25FfO_lMd7dYm6VfprDP83bz_SoB3MWLEc059E4YCa554bba-qWHW5udHv/s1600/fortigate.jpg",
       "importance": 7,
       "paywall": false
     },
     {
-      "title": "Trump Order Sets 2030 Deadline for Federal Post-Quantum Crypto Migration",
-      "url": "https://thehackernews.com/2026/06/trump-order-sets-2030-deadline-for.html",
-      "source": "The Hacker News",
+      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
+      "url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
+      "source": "Krebs on Security",
       "date": "2026-06-23",
-      "summary": "President Trump signed Executive Order 14409 on June 22, requiring federal agencies to migrate high-value assets and high-impact systems to post-quantum cryptography by December 31, 2030, with digital signatures deadline set for December 31, 2031. National security systems are placed on a separate migration track under the order.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoC7KFWoDGkSi-UzAyKNUkw-Ogs4oy2tCOAYXiYAAkqEUC1WMotLAE1GUwoWApfXK3prWVctTP05aLGjru0hDBfJkZ1NzPiFeI1VObgSNCx4egTrYhKIUt4m1S14eQ6_GpdffFBL4Ak3Mgjw7UiiBethv1lmyd_OaPIfhk_b-zuMjxCHLZtih8Tk6MtRg/s1600/unitedstates.jpg",
+      "summary": "Two members of the cybercrime group Scattered Spider pleaded guilty in the UK to charges related to an August 2024 cyberattack on Transport for London. Scattered Spider is known for sophisticated social engineering and identity-based attacks, including SIM swapping and MFA bypass techniques used to compromise enterprise systems.",
+      "image": null,
       "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "He Thought He Was Secure; His Phone Number Was Stolen Anyway",
+      "url": "https://www.darkreading.com/cyber-risk/how-a-sim-swap-attack-led-to-a-near-account-takeover",
+      "source": "Dark Reading",
+      "date": "2026-06-22",
+      "summary": "The article covers SIM swap attacks as a method for stealing SMS-based one-time passwords, leading to account takeovers. The piece addresses weaknesses in SMS-based MFA and advocates for layered authentication security measures.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt6dddf9d981db26e1/68ee58f2ca973956d757c9a3/sim-swapping-attacks_.png?width=720&quality=80&disable=upscale",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -258,7 +248,7 @@
       "url": "https://www.darkreading.com/cyber-risk/novo-nordisk-breach-exposes-dev-pipeline-risk",
       "source": "Dark Reading",
       "date": "2026-06-18",
-      "summary": "A GitHub token leak at Novo Nordisk exposed vulnerabilities in software development pipelines related to secrets management. The incident illustrates how organizations misclassify secrets management as a tooling issue rather than an identity and access management problem.",
+      "summary": "A security breach at Novo Nordisk involved a leaked GitHub token exposing risks in software development pipelines. The incident is framed around secrets management as an identity problem, highlighting how machine identities and token-based access control are often mishandled in CI/CD environments.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blta7151b99725c6823/6a342d9a0da29c8273ce5feb/novonordisk_gguy_shutterstock.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -268,8 +258,38 @@
       "url": "https://www.darkreading.com/application-security/fifa-bug-world-cup-streams-remote-takeover",
       "source": "Dark Reading",
       "date": "2026-06-18",
-      "summary": "A security vulnerability in FIFA's systems allowed potential remote takeover of World Cup streams due to unenforced Microsoft Entra access controls. The bug demonstrated how misconfigured identity and access management controls could expose critical broadcast infrastructure to unauthorized access.",
+      "summary": "A security vulnerability in FIFA's systems exposed World Cup streaming infrastructure to potential remote takeover due to unenforced Microsoft Entra access controls. The flaw allowed a hacker to potentially hijack live broadcasts, highlighting a misconfiguration in Entra-based authorization policies.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt3e6c93c7d4c13e54/6a340108ef4a07d48bb3a950/Belgian_fans_soccer-Jasper_Juinen_Stringer-Getty.jpg?width=720&quality=80&disable=upscale",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
+      "url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
+      "source": "Krebs on Security",
+      "date": "2026-06-01",
+      "summary": "Hackers exploited Meta's AI support assistant bot to bypass account security and reset passwords, resulting in high-profile Instagram account takeovers. Instructions for the attack were distributed via Telegram, enabling threat actors to manipulate the AI chatbot into performing unauthorized account recovery actions.",
+      "image": null,
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
+      "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
+      "source": "Krebs on Security",
+      "date": "2026-05-22",
+      "summary": "A CISA contractor intentionally published AWS GovCloud keys and other agency secrets to a public GitHub account, prompting congressional inquiries from both houses. CISA is still working to contain the breach and invalidate the leaked credentials.",
+      "image": null,
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
+      "url": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
+      "source": "Krebs on Security",
+      "date": "2026-05-18",
+      "summary": "A CISA contractor exposed highly privileged AWS GovCloud account credentials and internal system access details in a public GitHub repository until this past weekend. The leaked repository contained files detailing CISA's internal software build, test, and deployment processes alongside the privileged access credentials.",
+      "image": null,
       "importance": 6,
       "paywall": false
     }
