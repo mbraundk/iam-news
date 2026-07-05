@@ -1,12 +1,12 @@
 {
-  "updated": "July 04, 2026 at 06:28 UTC",
+  "updated": "July 05, 2026 at 06:50 UTC",
   "top_stories": [
     {
       "title": "ConsentFix and ClickFix: How Microsoft 365 Accounts are Hijacked in 3 Seconds",
       "url": "https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/",
       "source": "Bleeping Computer",
       "date": "2026-07-02",
-      "summary": "A technical analysis details two attack techniques—ConsentFix and ClickFix—that hijack Microsoft 365 accounts by stealing OAuth tokens and bypassing MFA within seconds. The attacks exploit fake consent prompts and OAuth flows to gain persistent access without requiring user credentials.",
+      "summary": "ConsentFix and ClickFix attacks target Microsoft 365 accounts by stealing authentication tokens through fake prompts and OAuth flows, bypassing MFA in seconds. The attacks exploit OAuth consent mechanisms to hijack sessions without needing user credentials, rendering traditional MFA protections ineffective.",
       "image": "https://www.bleepstatic.com/content/posts/2026/06/30/clickfix-header-s.jpg",
       "importance": 8,
       "paywall": false
@@ -16,7 +16,7 @@
       "url": "https://www.darkreading.com/cyberattacks-data-breaches/djinn-stealer-targets-cloud-ai-credentials",
       "source": "Dark Reading",
       "date": "2026-06-29",
-      "summary": "A new infostealer dubbed 'Djinn' is targeting cloud and AI credentials by exploiting CVE-2026-48558, a critical authentication bypass vulnerability in SimpleHelp. The malware specifically targets credentials that connect development and admin environments to broader enterprise systems.",
+      "summary": "A malware strain called 'Djinn' stealer is targeting cloud and AI credentials by exploiting CVE-2026-48558, a critical authentication bypass vulnerability in SimpleHelp. The infostealer specifically targets credentials that connect development and admin environments to broader enterprise systems.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltb3a3f4df4386574c/6a42db87ff96a7b022fd72f5/djinn_Dimart_Graphics_shutterstock.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -26,7 +26,7 @@
       "url": "https://thehackernews.com/2026/07/identity-lifecycle-management.html",
       "source": "The Hacker News",
       "date": "2026-07-02",
-      "summary": "The article examines how traditional Identity Governance and Administration (IGA) frameworks are structurally misaligned with the requirements of AI agents as autonomous principals in enterprise environments. It identifies specific gaps in identity lifecycle management models—such as the absence of employment records, managers, and departure dates—that existing IGA tools were not designed to address.",
+      "summary": "The article examines structural gaps in traditional Identity Governance and Administration (IGA) tools when applied to AI agents, which lack the employment records, managers, and departure dates that identity lifecycle management was designed around. The piece covers how autonomous AI principals create governance blind spots in enterprise environments that existing IGA frameworks were not built to address.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwwp0Bf4s6Xp_L13nlIV5Pf2D0awJsA5cDdev6yCr9f7nLVbmJmzqJ01cmdJkO4K0E3KEvdHhK10ZDai_tXV6gZDmgJqhnsARjEhVScA9gsWHKL4zzt64aQSSgPBImpeYxLuMiORSByYXgQunRUhYhymV8AQfvYf6qsBieuh82794N44iaJ9lEl8IS8Z0/s1600/Identity-Lifecycle-Management.jpg",
       "importance": 7,
       "paywall": false
@@ -36,29 +36,39 @@
       "url": "https://4sysops.com/archives/managing-local-administrator-passwords-with-windows-laps-and-microsoft-intune/",
       "source": "4sysops.com",
       "date": "2026-07-02",
-      "summary": "Microsoft Intune has integrated with Windows Local Administrator Password Solution (LAPS) to automate local administrator account password management on enrolled devices. The integration uses the Windows LAPS Configuration Service Provider (CSP) to handle local account security, a capability relevant to privileged access management (PAM) practices.",
+      "summary": "Microsoft Intune has integrated with Windows Local Administrator Password Solution (LAPS) to automate local administrator account management on enrolled devices. The integration uses the Windows LAPS Configuration Service Provider (CSP) to handle password rotation and local account security for managed endpoints.",
       "image": "https://4sysops.com/wp-content/uploads/2026/07/managing-local-administrator-passwords-with-windows-laps-and-microsoft-intune.png",
       "importance": 7,
       "paywall": false
     },
     {
-      "title": "ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit",
-      "url": "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/",
-      "source": "Bleeping Computer",
-      "date": "2026-07-03",
-      "summary": "A new phishing-as-a-service platform called \"ARToken\" has been identified as an affiliate of the EvilTokens phishing platform, targeting Microsoft 365 accounts. The toolkit is designed to bypass authentication controls and compromise Microsoft 365 credentials and session tokens.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/05/15/MS365.jpg",
-      "importance": 6,
+      "title": "Microsoft Security June 2026: new features and record Patch Tuesday",
+      "url": "https://4sysops.com/archives/microsoft-security-june-2026-new-features-and-record-patch-tuesday/",
+      "source": "4sysops.com",
+      "date": "2026-07-01",
+      "summary": "Microsoft's June 2026 security updates introduce new identity backup and recovery capabilities alongside AI-driven vulnerability scanning, endpoint protection for local AI agents, and expanded multicloud coverage. The release is part of Microsoft's broader security portfolio update tied to its June 2026 Patch Tuesday cycle.",
+      "image": "https://4sysops.com/wp-content/uploads/2026/07/Defender-network-map-highlights-a-local-AI-agent-image-Microsoft.webp",
+      "importance": 7,
       "paywall": false
     }
   ],
   "news": [
     {
+      "title": "ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit",
+      "url": "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/",
+      "source": "Bleeping Computer",
+      "date": "2026-07-03",
+      "summary": "A new phishing-as-a-service platform called \"ARToken\" has been identified as an affiliate of the EvilTokens phishing platform, targeting Microsoft 365 accounts. The toolkit is designed to compromise Microsoft 365 credentials and sessions, posing direct threats to identity and authentication controls in enterprise environments.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/05/15/MS365.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
       "title": "PamStealer Uses Fake Maccy Sites and PAM Checks to Steal Mac Login Passwords",
       "url": "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html",
       "source": "The Hacker News",
       "date": "2026-07-03",
-      "summary": "Jamf Threat Labs discovered a new macOS information stealer called PamStealer that impersonates the Maccy clipboard manager and abuses PAM (Pluggable Authentication Modules) checks to steal Mac login passwords. The malware is distributed as a compiled AppleScript file and leverages PAM mechanisms to siphon sensitive authentication credentials from infected systems.",
+      "summary": "Researchers at Jamf Threat Labs discovered a new macOS infostealer called PamStealer that abuses the macOS Pluggable Authentication Modules (PAM) framework to steal login passwords. The malware is distributed as a fake Maccy clipboard manager app and uses PAM checks to harvest credentials from infected systems.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEmcBMGUjTwe51gVQWP401twHYLMUOocwG9nYkgadlFV6cmGXrPS-3PeNTg_GJOaUVohWILNXgIC8ufSkPqXRbW1wIyvUr5JEKCrrMI3_hlN8uFtxpf-sBn743tQmlK2ipu_qWtY3k18cPkaQ6XGJnR7RPjuMOWkYwcmJ5XSnSNQHbNpkEgyyP29hJA6j2/s1600/macos-malware.jpg",
       "importance": 6,
       "paywall": false
@@ -68,7 +78,7 @@
       "url": "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
       "source": "The Hacker News",
       "date": "2026-07-03",
-      "summary": "Ransomware groups linked to the Anubis operation are exploiting the Citrix Bleed 2 vulnerability (CVE-2025-5777) to gain initial access to target environments. The attack patterns include credential access techniques, use of legitimate RMM tools, and supply chain credential abuse for lateral movement.",
+      "summary": "Ransomware groups linked to the Anubis operation are exploiting the Citrix Bleed 2 vulnerability (CVE-2025-5777) to gain initial access to target environments. The attacks involve credential access techniques, supply chain credential theft, and lateral movement using legitimate Remote Management and Monitoring tools.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5gkjf1FwB4__nC6-pLZYnDv2rJA29UAL9mxfCv4BNSl1FxNpat9jD-OiMRLewjXJXyiSGvqiLYcewN_b1lLFHh0FhzKkrHFzu82jziSuOodYX87FkwjuCcXaqwzWRsiFdsBcd9mzDnak1rJpDu46F8TV206IEcD1pE7njojB8TcQEZ4Wa70KnK2vyeVKI/s1600/ransomwares.jpg",
       "importance": 6,
       "paywall": false
@@ -78,7 +88,7 @@
       "url": "https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html",
       "source": "The Hacker News",
       "date": "2026-07-02",
-      "summary": "Kaspersky has attributed a new malware called Umbrij to the threat actor ToddyCat, which abuses OAuth to gain unauthorized access to Gmail accounts via the Google API. The malware targets corporate email communications by compromising API-level access rather than using traditional credential theft methods.",
+      "summary": "Kaspersky has attributed a new malware called Umbrij to the threat actor ToddyCat, which abuses OAuth to gain unauthorized access to Gmail accounts via the Google API. The malware targets corporate email communications by compromising API-based access rather than traditional credential theft.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMMnC-1ujLiZRcV1xgXbB3qFoIREcbSiGqLCFID8-G-z8GFI3YEY8VniprVEBW4b4TZKJUvoRDg27elntNJWL9S6JZUHMMe1Ie1JLf9w5Fzsgx2w9c94ja1NoED4m3G1pNngC2DDWOOQPgVGiKOd0uBpZkQSSpFOo60S2Tbl8j2VWKdhb70sIJzF8d93LM/s1600/gmail.jpg",
       "importance": 6,
       "paywall": false
@@ -88,7 +98,7 @@
       "url": "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html",
       "source": "The Hacker News",
       "date": "2026-07-02",
-      "summary": "A credential theft campaign called \"FortiBleed\" targeting FortiGate devices has been attributed to INC and Lynx ransomware operations. Stolen credentials from the campaign were intended for follow-on ransomware intrusions, with an operator linked to the infrastructure found actively working negotiation panels for both ransomware groups.",
+      "summary": "A credential theft campaign dubbed \"FortiBleed\" has been attributed to INC and Lynx ransomware operations, involving mass theft of FortiGate credentials for use in follow-on intrusions. An operator linked to FortiBleed's infrastructure was found managing negotiation panels for both ransomware groups, directly connecting the stolen credentials to ransomware deployment.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcA80dQWiuszAlBgwcxzc3suImls2cKOwk_2nYMo7UY5MNSdlKNMgibekQNEhWRuxmX5s1JcLHCd_dsDZ3m9oy_FxN-livXwyMIqre86oK8WIOMKUSZwDBvoN7XQOaV63zVBAIKQCH77-RGxhyLNc0bnip4LoUd0P7HsWQx-bxBu8nHr7St5HKs6T1cS6Z/s1600/bleed-ransomware.jpg",
       "importance": 6,
       "paywall": false
@@ -98,7 +108,7 @@
       "url": "https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html",
       "source": "The Hacker News",
       "date": "2026-07-02",
-      "summary": "A 19-year-old alleged Scattered Spider member, Peter Stokes, has been extradited from Finland to face U.S. charges of conspiracy, computer intrusion, and fraud. Scattered Spider is a hacking group known for social engineering and identity-based attacks targeting corporate help desks and authentication systems.",
+      "summary": "A 19-year-old alleged member of the Scattered Spider hacking group has been extradited from Finland to face U.S. charges of conspiracy, computer intrusion, and fraud. Peter Stokes appeared in a Chicago federal court on June 30, where he was ordered held in custody.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitCA6eGqIT2msGTmYh2Qr84lq5GYGvI4Y8FSzzNira0osd5SNIbnpLKZfLZLggblyWGxZ1ScIR_I06M-RoM5wM3he2KRkFCnwYxIKtGBDb9PA1JtoK1JM5f0vObSITDMGt4eeVV82LUF3DBNkYiHLhCTYNwnlOP3DlfCHYLkP6NfHjwRJDsHSMTHEGKAs/s1600/hacker-arrested.jpg",
       "importance": 5,
       "paywall": false
@@ -108,7 +118,7 @@
       "url": "https://4sysops.com/archives/microsoft-purview-unifies-insider-risk-alerts-and-user-context-for-faster-triage/",
       "source": "4sysops.com",
       "date": "2026-07-02",
-      "summary": "Microsoft has updated Purview Insider Risk Management with a unified alert experience that consolidates classic alerts and agent-generated insights into a single queue. The update is designed to streamline security team workflows by combining insider risk alerts with user context for faster triage of potential internal threats.",
+      "summary": "Microsoft has updated Purview Insider Risk Management with a unified alert experience that consolidates classic alerts and agent-generated insights into a single queue. The update aims to streamline security team investigations of internal threats by combining user context with risk alerts for faster triage.",
       "image": "https://4sysops.com/wp-content/uploads/2026/07/microsoft-purview-unifies-insider-risk-alerts-and-user-context-for-faster-triage.jpg",
       "importance": 6,
       "paywall": false
@@ -128,7 +138,7 @@
       "url": "https://www.globenewswire.com/news-release/2026/07/02/3321126/0/en/BIO-key-Showcases-Passwordless-Biometric-Identity-Solutions-at-Jordan-Banking-Cybersecurity-Workshop-in-Amman-on-July-6th.html",
       "source": "GlobeNewswire",
       "date": "2026-07-02",
-      "summary": "BIO-key will showcase its passwordless and biometric identity and access management solutions at a Jordan Banking Cybersecurity Workshop in Amman on July 6th. The event marks BIO-key's participation in a regional banking sector cybersecurity event focused on biometric-powered IAM technologies.",
+      "summary": "BIO-key will showcase its passwordless and biometric identity solutions at a Jordan Banking Cybersecurity Workshop in Amman on July 6th. The company, which specializes in biometric-powered identity and access management, is participating in the event targeting the banking sector.",
       "image": "https://ml.globenewswire.com/Resource/Download/4bca27c0-f7ad-4c90-9fab-226813a884b3",
       "importance": 4,
       "paywall": false
@@ -138,18 +148,8 @@
       "url": "https://thehackernews.com/2026/07/microsoft-accelerates-post-quantum.html",
       "source": "The Hacker News",
       "date": "2026-07-01",
-      "summary": "Microsoft has announced it is accelerating its post-quantum cryptography roadmap with a target of 2029, citing faster-than-expected advances in quantum computing that threaten existing encryption standards. Azure CTO Mark Russinovich stated that quantum research developments have shifted the risk horizon, making earlier replacement of current encryption standards necessary.",
+      "summary": "Microsoft announced it is accelerating its post-quantum cryptography roadmap with a target of 2029, citing faster-than-expected advances in quantum computing research. Azure CTO Mark Russinovich stated that quantum research developments have shifted the risk horizon, making earlier replacement of existing encryption standards necessary.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyPq-iy_BsDM3LGWIEtwydOynDIApb_bokv6EuarUGUbyIw8tFnntySLPL5FuN0Qw1PIGNzlabEaSq00S9ojIShTnbJyM0kWKUbCcIEOH3eEbdLOpgOumlnXHVvrsn2o9A75a2R3_8vjpTB18P45qaK7CtSuggZyGAb2uA8SGGXp_bUV7mqY4aGNlYGXwM/s1600/Microsoft-Encryption.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Azure CLI Password Spray Hits at Least 78 Microsoft Accounts in 81M+ Attempts",
-      "url": "https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html",
-      "source": "The Hacker News",
-      "date": "2026-07-01",
-      "summary": "A large-scale automated password spray attack targeting Microsoft Azure CLI has compromised at least 78 accounts across more than 81 million attempts between June 12 and June 26. The attack originates from an IPv6 address range controlled by infrastructure provider LSHIY LLC and was identified by Huntress researchers.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlhMdp0ML_DO3inv2zhyphenhyphenoZ9CmB1ESRBbVh_YHPol3serW7D4zTsXPGVjF62GhEcvamH6fmTs0ZLguVOM72ynrL6ebpPxBgpCv3XeUJNCb4un1Ue4o1V5BjB4r9pEnW_t717d8d49ZdH4OPavLgNkov9VNaJDMruqwG65QoBkxpzFx8q7QofYHuH9gDie-O/s1600/login.jpg",
       "importance": 6,
       "paywall": false
     },
@@ -158,38 +158,8 @@
       "url": "https://github.com/authsec-ai/authsec-ai",
       "source": "Github.com",
       "date": "2026-07-01",
-      "summary": "A developer has released an open-source identity layer project for AI agents and autonomous AI systems, published on GitHub under authsec-ai/authsec-ai. The project implements OAuth 2.1, CIBA, SPIFFE workload identity for agent-to-agent authentication, a secret vault, and MFA.",
+      "summary": "A developer has released an open-source identity layer project for AI agents and autonomous systems, published on GitHub under authsec-ai/authsec-ai. The project implements OAuth 2.1, CIBA (Client-Initiated Backchannel Authentication), SPIFFE workload identity for agent-to-agent authentication, a secret vault, and MFA.",
       "image": "https://opengraph.githubassets.com/1ebc088e335ca1844250cb39ea0082d166b847d6053b7030754c5ad2c8100c4e/authsec-ai/authsec-ai",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft Security June 2026: new features and record Patch Tuesday",
-      "url": "https://4sysops.com/archives/microsoft-security-june-2026-new-features-and-record-patch-tuesday/",
-      "source": "4sysops.com",
-      "date": "2026-07-01",
-      "summary": "Microsoft's June 2026 security updates introduce new identity backup and recovery capabilities alongside AI-driven vulnerability scanning and expanded multicloud coverage. The release is part of a broader Patch Tuesday update affecting Microsoft's security portfolio.",
-      "image": "https://4sysops.com/wp-content/uploads/2026/07/Defender-network-map-highlights-a-local-AI-agent-image-Microsoft.webp",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Anthropic Adds Enterprise Gateway to Simplify Claude Code Access on AWS and Google Cloud",
-      "url": "https://devops.com/anthropic-adds-enterprise-gateway-to-simplify-claude-code-access-on-aws-and-google-cloud/",
-      "source": "DevOps.com",
-      "date": "2026-07-01",
-      "summary": "Anthropic has released an enterprise gateway for Claude Code that includes SSO, central policy management, and spend caps on Amazon Bedrock and Google Cloud. The SSO feature is an access control component of a broader AI developer tooling product rather than a dedicated IAM solution.",
-      "image": "https://devops.com/wp-content/uploads/2022/02/coding-gb646cb77a_1280-e1644931732205.jpg",
-      "importance": 3,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft Intune June 2026: App auto-updates, privilege controls, and enrollment improvements",
-      "url": "https://4sysops.com/archives/microsoft-intune-june-2026-app-auto-updates-privilege-controls-and-enrollment-improvements/",
-      "source": "4sysops.com",
-      "date": "2026-06-30",
-      "summary": "Microsoft Intune's June 2026 release introduces new features including Enterprise Application Management auto-updates reaching general availability and new privilege controls. The update also includes device enrollment improvements relevant to enterprise access and endpoint management workflows.",
-      "image": "https://4sysops.com/wp-content/uploads/2026/06/EAM-auto-update-method-configuration-image-Microsoft.webp",
       "importance": 6,
       "paywall": false
     },
@@ -198,7 +168,7 @@
       "url": "https://www.darkreading.com/identity-access-management-security/cisco-adds-nhi-security-stack-with-astrix-widefield",
       "source": "Dark Reading",
       "date": "2026-06-26",
-      "summary": "Cisco has acquired Astrix and WideField to add Non-Human Identity (NHI) security capabilities to its security stack. The acquisitions position Cisco to manage and secure machine identities, API keys, service accounts, and other non-human credentials as part of its broader security platform.",
+      "summary": "Cisco has acquired Astrix and WideField to add non-human identity (NHI) security capabilities to its security stack. The acquisitions position Cisco to address machine and service account identity governance as agentic AI workloads increase demand for NHI management solutions.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf5ae2981cb5cbc98/67a6074e7dd6537daef9a0fa/robot-army-laurent-davoust-alamy.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -208,9 +178,9 @@
       "url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
       "source": "Krebs on Security",
       "date": "2026-06-23",
-      "summary": "Two members of the Scattered Spider cybercrime group pleaded guilty in the UK to charges related to the August 2024 cyberattack on Transport for London. Scattered Spider is known for sophisticated social engineering and identity-based attacks, including SIM swapping and MFA bypass techniques used in high-profile breaches.",
+      "summary": "Two members of the Scattered Spider cybercrime group pleaded guilty in the UK to charges related to an August 2024 cyberattack on Transport for London. Scattered Spider is known for social engineering and identity-based attacks, including SIM swapping and phishing to bypass MFA and compromise accounts.",
       "image": null,
-      "importance": 6,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -218,7 +188,7 @@
       "url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
       "source": "Krebs on Security",
       "date": "2026-06-01",
-      "summary": "Hackers exploited Meta's AI support assistant bot to reset Instagram account passwords and seize accounts, including those of the Obama White House and a U.S. Space Force official. Instructions circulating on Telegram demonstrated how to socially engineer the AI bot into bypassing normal authentication controls to perform unauthorized password resets.",
+      "summary": "Hackers exploited Meta's AI support assistant bot to reset Instagram account passwords, briefly seizing high-profile accounts including the Obama White House and U.S. Space Force Chief Master Sergeant. Instructions for the attack were circulated on Telegram, demonstrating a social engineering technique that bypassed Meta's account authentication controls.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -238,7 +208,7 @@
       "url": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
       "source": "Krebs on Security",
       "date": "2026-05-18",
-      "summary": "A CISA contractor exposed credentials to highly privileged AWS GovCloud accounts and numerous internal CISA systems via a public GitHub repository. The leaked files included details on how CISA builds, tests, and deploys software internally, representing a significant privileged credential exposure incident.",
+      "summary": "A CISA contractor exposed credentials for highly privileged AWS GovCloud accounts and numerous internal CISA systems in a public GitHub repository. The leaked files reportedly detailed CISA's internal software build, test, and deployment processes, representing a significant government credential exposure incident.",
       "image": null,
       "importance": 6,
       "paywall": false
