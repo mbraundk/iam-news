@@ -1,6 +1,36 @@
 {
-  "updated": "July 07, 2026 at 06:56 UTC",
+  "updated": "July 08, 2026 at 06:06 UTC",
   "top_stories": [
+    {
+      "title": "BeyondTrust warns of critical flaws in remote access software",
+      "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-flaws-in-remote-access-software/",
+      "source": "Bleeping Computer",
+      "date": "2026-07-07",
+      "summary": "BeyondTrust disclosed two critical security vulnerabilities in its Remote Support and Privileged Remote Access software products. The flaws could allow attackers to bypass authentication, requiring immediate customer patching.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/02/16/BeyondTrust.jpg",
+      "importance": 9,
+      "paywall": false
+    },
+    {
+      "title": "BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA",
+      "url": "https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html",
+      "source": "The Hacker News",
+      "date": "2026-07-07",
+      "summary": "BeyondTrust has released patches for two critical security vulnerabilities affecting its Remote Support and Privileged Remote Access products. The flaws, including CVE-2026-40138 with a CVSS score of 9.2, allow unauthenticated attackers to take control of affected devices.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEim5I3ndx1DHNKSznD7AT_CM4ApiaXDfZcQAwsCSDnHq7u8dkGcOzway-IBZJ44bFJintaRMSry4yHbaacESRFOJsRC_UBV6N9l_K4ICcqWsZ2E4zQ5BGibAkxjxm0qPYiiLEvAvDizmPZVYwXC6jN9pgB5G-3xZ9ifiEWisKsZoi9rBjJN1mepJjPl61s9/s1600/bt.jpg",
+      "importance": 9,
+      "paywall": false
+    },
+    {
+      "title": "Completes Entro Security Acquisition To Strengthen AI Identity Governance",
+      "url": "https://biztoc.com/x/b5309c680d2201bf",
+      "source": "Biztoc.com",
+      "date": "2026-07-05",
+      "summary": "SailPoint has completed its acquisition of Entro Security, a move aimed at strengthening AI identity governance and securing AI agents and machine identities. The acquisition follows a series of bullish analyst calls for SailPoint, which is publicly traded on NASDAQ under the ticker SAIL.",
+      "image": "https://biztoc.com/cdn/b5309c680d2201bf_s.webp",
+      "importance": 9,
+      "paywall": false
+    },
     {
       "title": "SailPoint (SAIL) Completes Entro Security Acquisition To Strengthen AI Identity Governance",
       "url": "https://finance.yahoo.com/technology/ai/articles/sailpoint-sail-completes-entro-security-220909129.html",
@@ -12,54 +42,84 @@
       "paywall": false
     },
     {
-      "title": "ConsentFix and ClickFix: How Microsoft 365 Accounts are Hijacked in 3 Seconds",
-      "url": "https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/",
-      "source": "Bleeping Computer",
-      "date": "2026-07-02",
-      "summary": "A technical analysis details two attack techniques—ConsentFix and ClickFix—that hijack Microsoft 365 accounts by stealing OAuth tokens and bypassing MFA within seconds. The attacks exploit fake consent prompts and OAuth authorization flows to gain persistent access without requiring user credentials.",
-      "image": "https://www.bleepstatic.com/content/posts/2026/06/30/clickfix-header-s.jpg",
-      "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA",
-      "url": "https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html",
-      "source": "The Hacker News",
+      "title": "Barracuda adds PAM and identity protection with Evo Security acquisition",
+      "url": "https://www.helpnetsecurity.com/2026/07/07/barracuda-evo-security-acquisition/",
+      "source": "Help Net Security",
       "date": "2026-07-07",
-      "summary": "BeyondTrust has released patches for two critical security vulnerabilities affecting its Remote Support and Privileged Remote Access products. The flaws, including CVE-2026-40138 with a CVSS score of 9.2, allow unauthenticated attackers to take control of affected devices.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEim5I3ndx1DHNKSznD7AT_CM4ApiaXDfZcQAwsCSDnHq7u8dkGcOzway-IBZJ44bFJintaRMSry4yHbaacESRFOJsRC_UBV6N9l_K4ICcqWsZ2E4zQ5BGibAkxjxm0qPYiiLEvAvDizmPZVYwXC6jN9pgB5G-3xZ9ifiEWisKsZoi9rBjJN1mepJjPl61s9/s1600/bt.jpg",
+      "summary": "Barracuda Networks has acquired Evo Security to expand its BarracudaONE platform with privileged access management (PAM), access control, identity protection, and identity threat detection and response capabilities. The acquisition integrates Evo Security's identity solutions into Barracuda's existing identity-driven controls to create a unified identity security architecture delivered through a single platform.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
       "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Completes Entro Security Acquisition To Strengthen AI Identity Governance",
-      "url": "https://biztoc.com/x/b5309c680d2201bf",
-      "source": "Biztoc.com",
-      "date": "2026-07-05",
-      "summary": "SailPoint has completed its acquisition of Entro Security, a move aimed at strengthening AI identity governance and securing AI agents and machine identities. The acquisition follows bullish analyst sentiment around SailPoint and expands its capabilities in the growing area of non-human identity management.",
-      "image": "https://biztoc.com/cdn/b5309c680d2201bf_s.webp",
-      "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Identity Lifecycle Management Wasn't Built for AI Agents",
-      "url": "https://thehackernews.com/2026/07/identity-lifecycle-management.html",
-      "source": "The Hacker News",
-      "date": "2026-07-02",
-      "summary": "The article examines structural limitations in traditional Identity Governance and Administration (IGA) tools when applied to AI agents as autonomous principals in enterprise environments. It identifies specific gaps in identity lifecycle management frameworks that were designed around human employees with employment records, managers, and departure dates.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwwp0Bf4s6Xp_L13nlIV5Pf2D0awJsA5cDdev6yCr9f7nLVbmJmzqJ01cmdJkO4K0E3KEvdHhK10ZDai_tXV6gZDmgJqhnsARjEhVScA9gsWHKL4zzt64aQSSgPBImpeYxLuMiORSByYXgQunRUhYhymV8AQfvYf6qsBieuh82794N44iaJ9lEl8IS8Z0/s1600/Identity-Lifecycle-Management.jpg",
-      "importance": 7,
       "paywall": false
     }
   ],
   "news": [
     {
+      "title": "Big Brand Jobs Scam Targets Marketing Pros' Google Accounts",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/big-brand-jobs-scam-marketing-pros-google-accounts",
+      "source": "Dark Reading",
+      "date": "2026-07-07",
+      "summary": "A phishing campaign is targeting marketing professionals with the goal of stealing Google account credentials. The attack uses nested redirects and other evasion techniques to bypass detection and compromise accounts.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt446e24d69e36537b/6a4d61e6da407598830165a7/phishing-Supatman-Getty-2220462827.jpg?width=720&quality=80&disable=upscale",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft to enable Windows settings backup by default for orgs",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-windows-backup-for-organizations-by-default/",
+      "source": "Bleeping Computer",
+      "date": "2026-07-07",
+      "summary": "Microsoft will enable Windows settings backup and restore by default on Microsoft Entra-joined and hybrid-joined enterprise systems following an upgrade to Windows 11 26H2. The change affects organizations using Microsoft Entra for device identity management.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/03/10/Windows.jpg",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "DEBULL Tooling Abuses Microsoft Device-Code Flow to Target M365 Accounts",
+      "url": "https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html",
+      "source": "The Hacker News",
+      "date": "2026-07-07",
+      "summary": "A phishing campaign dubbed DEBULL has been observed abusing Microsoft's legitimate device-code authentication flow to compromise Microsoft 365 accounts, active between late June and early July 2026. The attack bypasses traditional credential phishing by using collaboration-themed lures to direct victims through the real Microsoft device login experience, as reported by ZeroBEC.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg__v7vicSomxW52wnr8HsJgQKf0vg3kdjUicmIUCMCDexaBZ68pLZzXKVSJxNEeBuBuEzueOldcd5GhtGQI-8eMqd9j0QWMqGScmbZpqBS9RFkXxXSfOZYhBSGqD8BBDfVUEn4RN86sKhgkl9xkJtYMl-7a2zsIU6LCC5j_U2BkupJGr3JqP9_GZCHfHtl/s1600/ms-device-code.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker",
+      "url": "https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html",
+      "source": "The Hacker News",
+      "date": "2026-07-07",
+      "summary": "A federal complaint reveals that FBI investigators used a persistent Windows device ID to trace an alleged Scattered Spider hacker to a 2025 intrusion at a luxury jewelry retailer. Microsoft records linked the device ID to accounts used to maintain access during the breach, connecting them to 19-year-old suspect Peter Stokes.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRD_854zsswRvh7xWklnbEkAjmk7UZy_-dQzlueMbq1ib7deDs-QH0av7XRZ1WEq3vcX57cDDcioIdkebKCiF7qr8xC9Evw7GmFuDS0kQt3mnpXgb3Q2H62eHPIgCy3rk1Mj3uM-Mge0XTfMgSCGaumk3i5KatoyrFnu_PUhg8cZGY1ZAd185qsNqZ1jE/s1600/md-id.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants",
+      "url": "https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html",
+      "source": "The Hacker News",
+      "date": "2026-07-07",
+      "summary": "Researchers disclosed a now-patched session isolation vulnerability in Writer's enterprise AI platform that could allow cross-tenant session token leakage. The flaw, dubbed WriteOut by Sand Security, could enable an unauthenticated attacker to compromise any Writer AI tenant via a one-click attack.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH0EnuZfnTZVOg-ACF0jKSHBB8TemRtJ6vlDerjpWy9giH2VsJTP_XiktA9SCytwnDcP95jn4gyQaPk2r92S-J-4EcB7FDvenxXiNwJKtg1VQkV_f564nT6mrS6S3wuMX3SC22kdd5nJM9y4IecNKJ3CRq569DtujHzUgaVOAwQDpfvCgkCrSrfeRjT1CQ/s1600/writerai.jpg",
+      "importance": 5,
+      "paywall": false
+    },
+    {
       "title": "Your company already adopted AI and nobody is governing access",
       "url": "https://www.helpnetsecurity.com/2026/07/07/ai-attack-surface-video/",
       "source": "Help Net Security",
       "date": "2026-07-07",
-      "summary": "Elba Security CTO Antoine Berton outlines five areas of AI-related access exposure in a Help Net Security video, including ungoverned OAuth grants and AI copilots that inherit human permissions. The discussion covers agent credentials and the lack of access governance when employees connect AI tools to corporate systems like Google Workspace without security review.",
+      "summary": "Antoine Berton, CTO at Elba Security, discusses the ungoverned access risks created when employees connect AI tools to corporate systems without oversight. The video focuses on how unsanctioned AI tool adoption creates an unmanaged access surface that falls outside existing identity governance controls.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/07/04180217/hands-person-1500.webp",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft wants to keep your AI agents from going rogue",
+      "url": "https://www.helpnetsecurity.com/2026/07/07/microsoft-execution-containers-ai-agents-constraints/",
+      "source": "Help Net Security",
+      "date": "2026-07-07",
+      "summary": "Microsoft has introduced Microsoft Execution Containers (MXC), a policy-driven execution layer designed to govern and constrain AI agent behavior on Windows and WSL platforms. The technology enforces access controls and execution boundaries for AI agents, directly addressing authorization and access management concerns in agentic AI systems.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/02/11132343/windows-1500-1.webp",
       "importance": 6,
       "paywall": false
     },
@@ -68,19 +128,69 @@
       "url": "https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/",
       "source": "Bleeping Computer",
       "date": "2026-07-06",
-      "summary": "A phishing campaign impersonates over 30 major brands in fake job interview scenarios to steal Google account credentials from marketing professionals. The attack targets OAuth or login credentials through fraudulent interview processes posing as companies like Adobe, Netflix, and OpenAI.",
+      "summary": "A phishing campaign is impersonating over 30 major brands through fake job interview lures to steal Google account credentials from marketing professionals. The attack targets Google account authentication credentials, making it relevant to identity theft and account compromise vectors.",
       "image": "https://www.bleepstatic.com/content/hl-images/2026/07/06/hacker-looking-for-work-question.jpg",
-      "importance": 3,
+      "importance": 4,
       "paywall": false
     },
     {
-      "title": "OpenSSH 10.4 arrives with security fixes and a post-quantum signature option",
-      "url": "https://www.helpnetsecurity.com/2026/07/06/openssh-10-4-released/",
-      "source": "Help Net Security",
+      "title": "What does zero trust mean for mobile devices in the enterprise?",
+      "url": "https://www.techtarget.com/searchmobilecomputing/answer/What-does-zero-trust-mean-for-mobile-devices-in-the-enterprise",
+      "source": "Techtarget.com",
       "date": "2026-07-06",
-      "summary": "OpenSSH 10.4 has been released with eight security fixes, bug corrections, and new features including a post-quantum signature option. The release addresses vulnerabilities including an sftp issue where a malicious server could manipulate command-line downloads.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/07/06145725/openssh-1500.webp",
+      "summary": "The article examines how zero trust security principles apply to mobile devices in enterprise environments. It addresses the challenge of securing corporate resources as mobile device usage grows and traditional perimeter-based defenses prove insufficient.",
+      "image": "https://www.techtarget.com/rms/onlineimages/security_g1204196785.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Enforce least-privilege authorization in multi-agent AI chains using Cedar",
+      "url": "https://aws.amazon.com/blogs/security/enforce-least-privilege-authorization-in-multi-agent-ai-chains-using-cedar/",
+      "source": "Amazon.com",
+      "date": "2026-07-06",
+      "summary": "The article covers enforcing least-privilege authorization in multi-agent AI systems using Cedar, Amazon's policy language, to prevent unauthorized scope expansion during agent task delegation. The focus is on maintaining proper authorization boundaries across multi-hop agent chains, directly addressing access control and authorization principles in emerging AI architectures.",
+      "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/07/02/cedar-agentic-ai-auth-architecture-1200x600-1.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "ModelCop Launches AI Agent Security Platform, Targets $25B Machine Identity Market",
+      "url": "https://www.prnewswire.com/news-releases/modelcop-launches-ai-agent-security-platform-targets-25b-machine-identity-market-302817714.html",
+      "source": "PRNewswire",
+      "date": "2026-07-06",
+      "summary": "ModelCop has commercially launched an identity-first security platform targeting AI agents and Non-Human Identities (NHIs), entering the machine identity market. The platform is aimed at enterprise security teams and focuses on visibility and governance for AI agent identities, addressing a market the company values at $25 billion.",
+      "image": "https://mmx.prnewswire.com/media/MS1877256/July-4th-ModelCop-Went-Live.jpg?id=OA2749326&p=facebook",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Backs Q2 Guidance at Investor Day",
+      "url": "https://biztoc.com/x/24f1e4ad93a6c70e",
+      "source": "Biztoc.com",
+      "date": "2026-07-06",
+      "summary": "SailPoint confirmed its Q2 adjusted EPS guidance of 7-8 cents against an 8-cent consensus at its Investor Day on June 17, 2026. The company also reaffirmed its Q2 revenue guidance at the same event.",
+      "image": "https://biztoc.com/cdn/24f1e4ad93a6c70e_s.webp",
       "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "SailPoint (SAIL) Backs Q2 Guidance at Investor Day",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sailpoint-sail-backs-q2-guidance-100239515.html",
+      "source": "Yahoo Entertainment",
+      "date": "2026-07-06",
+      "summary": "SailPoint confirmed its Q2 adjusted guidance at an Investor Day event on June 17, 2026. The announcement was made in the context of SailPoint being highlighted as one of eight high-growth cybersecurity stocks.",
+      "image": "https://s.yimg.com/lo/mysterio/api/7AD06C7D8F5D0E454367D89A1CB40CE41FCAC0CD467B122671692B129AC9E7D9/subgraphmysterio/resizefill_w1200_h800;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2Fe13eafb879d337f843e648dbb91ec2ea",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "When checking the URL isn’t enough: a Device Code Phishing attack via a Microsoft website",
+      "url": "https://securelist.com/microsoft-device-code-phishing-attack/120350/",
+      "source": "Securelist.com",
+      "date": "2026-07-06",
+      "summary": "The article covers Device Code Phishing attacks that abuse the OAuth 2.0 Device Authorization Grant flow to steal authentication tokens, bypassing traditional phishing defenses. The attack exploits a legitimate Microsoft authentication mechanism, making it particularly dangerous as checking URLs for legitimacy is insufficient to detect the threat.",
+      "image": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2026/07/03170147/Device-Code-Phishing-pingpongsuperman_A_fisherman_hacker_is_fishing_using_a_large_TV_261a6841-d900-4140-bffd-0f2f596e9977-scaled.jpg",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -88,7 +198,7 @@
       "url": "https://www.computerweekly.com/microscope/news/366645438/Channel-moves-Whos-gone-where",
       "source": "ComputerWeekly.com",
       "date": "2026-07-06",
-      "summary": "One Identity, an IAM vendor, is among ten companies featured in a roundup of personnel/channel moves for the past week. The article focuses primarily on staffing changes across multiple unrelated technology companies, with One Identity being a minor mention among the broader coverage.",
+      "summary": "A weekly roundup of personnel moves covers staffing changes at various technology companies, including One Identity, an IAM vendor. The article is primarily a broad channel industry personnel update spanning multiple unrelated companies.",
       "image": "https://www.computerweekly.com/visuals/German/article/job-interview-3-adobe.jpg",
       "importance": 2,
       "paywall": false
@@ -98,19 +208,9 @@
       "url": "https://www.helpnetsecurity.com/2026/07/06/saas-environments-security-risks-report/",
       "source": "Help Net Security",
       "date": "2026-07-06",
-      "summary": "A report highlights that OAuth connections, guest accounts, and weak MFA configurations are among the primary drivers of SaaS security risk for organizations. Guest accounts created for contractors and partners frequently remain active beyond their intended use, creating unmanaged access paths to corporate data.",
+      "summary": "A report identifies OAuth integrations, guest accounts, and weak MFA configurations as primary drivers of SaaS security risk. Guest accounts created for contractors and partners frequently remain active beyond their intended use, creating persistent unauthorized access paths to corporate data.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2023/06/27144859/saas2.jpg",
       "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit",
-      "url": "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/",
-      "source": "Bleeping Computer",
-      "date": "2026-07-03",
-      "summary": "A phishing-as-a-service platform called ARToken has been identified as an affiliate of the EvilTokens phishing operation, targeting Microsoft 365 accounts. The toolkit is designed to compromise Microsoft 365 credentials and authentication, posing a direct threat to identity and access security in enterprise environments.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/05/15/MS365.jpg",
-      "importance": 6,
       "paywall": false
     },
     {
@@ -118,108 +218,8 @@
       "url": "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html",
       "source": "The Hacker News",
       "date": "2026-07-03",
-      "summary": "Jamf Threat Labs discovered a new macOS information stealer called PamStealer that impersonates the Maccy clipboard manager to steal Mac login passwords. The malware uses PAM (Pluggable Authentication Modules) checks as part of its technique to extract credentials from infected systems.",
+      "summary": "Researchers at Jamf Threat Labs discovered a new macOS infostealer called PamStealer that exploits PAM (Pluggable Authentication Modules) checks to steal Mac login passwords. The malware is distributed as a fake Maccy clipboard manager app in the form of a compiled AppleScript file, using PAM system calls to harvest credentials.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEmcBMGUjTwe51gVQWP401twHYLMUOocwG9nYkgadlFV6cmGXrPS-3PeNTg_GJOaUVohWILNXgIC8ufSkPqXRbW1wIyvUr5JEKCrrMI3_hlN8uFtxpf-sBn743tQmlK2ipu_qWtY3k18cPkaQ6XGJnR7RPjuMOWkYwcmJ5XSnSNQHbNpkEgyyP29hJA6j2/s1600/macos-malware.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials",
-      "url": "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
-      "source": "The Hacker News",
-      "date": "2026-07-03",
-      "summary": "Ransomware groups linked to the Anubis operation are exploiting the Citrix Bleed 2 vulnerability (CVE-2025-5777) to gain initial access to target environments. The attack patterns involve credential access techniques, supply chain credential theft, and lateral movement using legitimate Remote Management and Monitoring tools.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5gkjf1FwB4__nC6-pLZYnDv2rJA29UAL9mxfCv4BNSl1FxNpat9jD-OiMRLewjXJXyiSGvqiLYcewN_b1lLFHh0FhzKkrHFzu82jziSuOodYX87FkwjuCcXaqwzWRsiFdsBcd9mzDnak1rJpDu46F8TV206IEcD1pE7njojB8TcQEZ4Wa70KnK2vyeVKI/s1600/ransomwares.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Zero Trust Architecture Explained for Developers",
-      "url": "https://www.c-sharpcorner.com/article/zero-trust-architecture-explained-for-developers/",
-      "source": "C-sharpcorner.com",
-      "date": "2026-07-03",
-      "summary": "An explainer article covers Zero Trust Architecture principles targeting software developers building distributed applications. The piece focuses on the \"never trust, always verify\" security model as it applies to development practices.",
-      "image": "https://www.c-sharpcorner.com/images/csharp-corner-new.png",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "ToddyCat-Linked Umbrij Malware Abuses OAuth to Access Gmail via Google API",
-      "url": "https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html",
-      "source": "The Hacker News",
-      "date": "2026-07-02",
-      "summary": "Kaspersky has attributed a new malware called Umbrij to the ToddyCat threat actor, designed to abuse OAuth to gain unauthorized access to Gmail via the Google API. The malware targets corporate email communications by compromising API-based access rather than traditional credential theft.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMMnC-1ujLiZRcV1xgXbB3qFoIREcbSiGqLCFID8-G-z8GFI3YEY8VniprVEBW4b4TZKJUvoRDg27elntNJWL9S6JZUHMMe1Ie1JLf9w5Fzsgx2w9c94ja1NoED4m3G1pNngC2DDWOOQPgVGiKOd0uBpZkQSSpFOo60S2Tbl8j2VWKdhb70sIJzF8d93LM/s1600/gmail.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations",
-      "url": "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html",
-      "source": "The Hacker News",
-      "date": "2026-07-02",
-      "summary": "A credential theft campaign called FortiBleed, targeting FortiGate devices, has been attributed to INC and Lynx ransomware operations. The stolen credentials were intended for follow-on ransomware intrusions, with an operator linked to FortiBleed's infrastructure found working negotiation panels for both ransomware groups.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcA80dQWiuszAlBgwcxzc3suImls2cKOwk_2nYMo7UY5MNSdlKNMgibekQNEhWRuxmX5s1JcLHCd_dsDZ3m9oy_FxN-livXwyMIqre86oK8WIOMKUSZwDBvoN7XQOaV63zVBAIKQCH77-RGxhyLNc0bnip4LoUd0P7HsWQx-bxBu8nHr7St5HKs6T1cS6Z/s1600/bleed-ransomware.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft Purview unifies insider risk alerts and user context for faster triage",
-      "url": "https://4sysops.com/archives/microsoft-purview-unifies-insider-risk-alerts-and-user-context-for-faster-triage/",
-      "source": "4sysops.com",
-      "date": "2026-07-02",
-      "summary": "Microsoft has updated Purview Insider Risk Management with a unified alert experience that consolidates classic alerts and agent-generated insights into a single queue. The update aims to streamline security team investigation of internal threats by combining user context with risk alerts for faster triage.",
-      "image": "https://4sysops.com/wp-content/uploads/2026/07/microsoft-purview-unifies-insider-risk-alerts-and-user-context-for-faster-triage.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Teleport Earns Platinum 2026 Pinnacle Award for Zero Trust Solution of the Year",
-      "url": "https://www.globenewswire.com/news-release/2026/07/02/3321342/0/en/Teleport-Earns-Platinum-2026-Pinnacle-Award-for-Zero-Trust-Solution-of-the-Year.html",
-      "source": "GlobeNewswire",
-      "date": "2026-07-02",
-      "summary": "Teleport has received a Platinum 2026 Pinnacle Award for Zero Trust Solution of the Year, recognizing its Infrastructure Identity platform. The award highlights the platform's zero trust architecture designed to secure AI agents, humans, machines, and workloads.",
-      "image": "https://ml.globenewswire.com/Resource/Download/67d89922-be62-4d0c-9bde-f3e82a817328",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Managing local administrator passwords with Windows LAPS and Microsoft Intune",
-      "url": "https://4sysops.com/archives/managing-local-administrator-passwords-with-windows-laps-and-microsoft-intune/",
-      "source": "4sysops.com",
-      "date": "2026-07-02",
-      "summary": "Microsoft Intune has integrated with Windows Local Administrator Password Solution (LAPS) to automate management of local administrator account passwords on enrolled devices. The integration uses the Windows LAPS Configuration Service Provider (CSP) to handle local account security, which is relevant to privileged access management (PAM) practices.",
-      "image": "https://4sysops.com/wp-content/uploads/2026/07/managing-local-administrator-passwords-with-windows-laps-and-microsoft-intune.png",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "BIO-key Showcases Passwordless & Biometric Identity Solutions at Jordan Banking Cybersecurity Workshop in Amman on July 6th",
-      "url": "https://www.globenewswire.com/news-release/2026/07/02/3321126/0/en/BIO-key-Showcases-Passwordless-Biometric-Identity-Solutions-at-Jordan-Banking-Cybersecurity-Workshop-in-Amman-on-July-6th.html",
-      "source": "GlobeNewswire",
-      "date": "2026-07-02",
-      "summary": "BIO-key will showcase its passwordless and biometric identity and access management solutions at the Jordan Banking Cybersecurity Workshop in Amman on July 6th. The company, which specializes in biometric-powered IAM, is participating in the event targeting the banking sector.",
-      "image": "https://ml.globenewswire.com/Resource/Download/4bca27c0-f7ad-4c90-9fab-226813a884b3",
-      "importance": 4,
-      "paywall": false
-    },
-    {
-      "title": "Show HN: Identity Layer for Agents and Autonomous AI",
-      "url": "https://github.com/authsec-ai/authsec-ai",
-      "source": "Github.com",
-      "date": "2026-07-01",
-      "summary": "A developer has released an open-source identity layer for AI agents and autonomous AI systems, published on GitHub under authsec-ai/authsec-ai. The project implements OAuth 2.1, CIBA, SPIFFE workload identity for agent-to-agent authentication, a secret vault, and MFA.",
-      "image": "https://opengraph.githubassets.com/1ebc088e335ca1844250cb39ea0082d166b847d6053b7030754c5ad2c8100c4e/authsec-ai/authsec-ai",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft Security June 2026: new features and record Patch Tuesday",
-      "url": "https://4sysops.com/archives/microsoft-security-june-2026-new-features-and-record-patch-tuesday/",
-      "source": "4sysops.com",
-      "date": "2026-07-01",
-      "summary": "Microsoft's June 2026 security updates introduce new identity backup and recovery capabilities as part of a broader security portfolio update. The release also includes AI-driven vulnerability scanning, endpoint protection for local AI agents, and expanded multicloud coverage alongside a record Patch Tuesday.",
-      "image": "https://4sysops.com/wp-content/uploads/2026/07/Defender-network-map-highlights-a-local-AI-agent-image-Microsoft.webp",
       "importance": 6,
       "paywall": false
     },
@@ -228,29 +228,9 @@
       "url": "https://www.darkreading.com/cyberattacks-data-breaches/djinn-stealer-targets-cloud-ai-credentials",
       "source": "Dark Reading",
       "date": "2026-06-29",
-      "summary": "A new infostealer dubbed 'Djinn' is targeting cloud and AI credentials by exploiting CVE-2026-48558, a critical authentication bypass vulnerability in SimpleHelp. The malware specifically targets credentials connecting development and admin environments to broader enterprise systems.",
+      "summary": "A new infostealer dubbed 'Djinn' is targeting cloud and AI credentials by exploiting CVE-2026-48558, a critical authentication bypass vulnerability in SimpleHelp. The malware specifically targets credentials that link development and admin environments to broader enterprise systems.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltb3a3f4df4386574c/6a42db87ff96a7b022fd72f5/djinn_Dimart_Graphics_shutterstock.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Cisco Adds NHI to Security Stack With Astrix, WideField Acquisitions",
-      "url": "https://www.darkreading.com/identity-access-management-security/cisco-adds-nhi-security-stack-with-astrix-widefield",
-      "source": "Dark Reading",
-      "date": "2026-06-26",
-      "summary": "Cisco has acquired Astrix and WideField to add Non-Human Identity (NHI) security capabilities to its security stack. The acquisitions position Cisco to secure machine identities and agentic AI workloads by treating identity as the primary control plane.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf5ae2981cb5cbc98/67a6074e7dd6537daef9a0fa/robot-army-laurent-davoust-alamy.jpg?width=720&quality=80&disable=upscale",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
-      "url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
-      "source": "Krebs on Security",
-      "date": "2026-06-23",
-      "summary": "Two members of the cybercrime group Scattered Spider pleaded guilty in the UK to charges related to the August 2024 cyberattack on Transport for London. Scattered Spider is known for sophisticated social engineering and identity-based attacks, including SIM swapping, MFA bypass, and vishing techniques targeting helpdesks to gain unauthorized access.",
-      "image": null,
-      "importance": 6,
       "paywall": false
     },
     {
@@ -258,7 +238,7 @@
       "url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
       "source": "Krebs on Security",
       "date": "2026-06-01",
-      "summary": "Hackers exploited Meta's AI support assistant chatbot to bypass account security and reset passwords, resulting in high-profile Instagram account takeovers. Instructions for manipulating the AI bot to perform unauthorized password resets were shared on Telegram, enabling the account compromises.",
+      "summary": "Hackers exploited Meta's AI support assistant chatbot to reset Instagram account passwords and seize high-profile accounts, including the Obama White House and a U.S. Space Force official's accounts. Instructions for manipulating the AI bot to bypass normal authentication and account recovery processes were shared on Telegram, enabling the account takeovers.",
       "image": null,
       "importance": 7,
       "paywall": false
@@ -268,7 +248,7 @@
       "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
       "source": "Krebs on Security",
       "date": "2026-05-22",
-      "summary": "A CISA contractor intentionally published AWS GovCloud keys and other agency secrets to a public GitHub account, resulting in a significant credential leak. Congressional members from both chambers are demanding answers from CISA as the agency works to contain the breach and invalidate the compromised credentials.",
+      "summary": "A CISA contractor intentionally published AWS GovCloud keys and other agency secrets to a public GitHub account, prompting Congressional inquiries from both chambers. CISA is still working to contain the breach and invalidate the leaked credentials.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -278,7 +258,7 @@
       "url": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
       "source": "Krebs on Security",
       "date": "2026-05-18",
-      "summary": "A CISA contractor publicly exposed credentials to several highly privileged AWS GovCloud accounts and numerous internal CISA systems via a public GitHub repository. The leaked files included details on how CISA builds, tests, and deploys software internally, representing a significant government credential exposure incident.",
+      "summary": "A CISA contractor publicly exposed highly privileged AWS GovCloud account credentials and internal system access details in a public GitHub repository until this past weekend. The leaked repository contained files describing CISA's internal software build, test, and deployment processes alongside the compromised credentials.",
       "image": null,
       "importance": 6,
       "paywall": false
