@@ -1,13 +1,13 @@
 {
-  "updated": "July 08, 2026 at 06:06 UTC",
+  "updated": "July 09, 2026 at 06:54 UTC",
   "top_stories": [
     {
-      "title": "BeyondTrust warns of critical flaws in remote access software",
-      "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-flaws-in-remote-access-software/",
+      "title": "Entra passkey enrollment vishing targets Microsoft 365 users",
+      "url": "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/",
       "source": "Bleeping Computer",
-      "date": "2026-07-07",
-      "summary": "BeyondTrust disclosed two critical security vulnerabilities in its Remote Support and Privileged Remote Access software products. The flaws could allow attackers to bypass authentication, requiring immediate customer patching.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/02/16/BeyondTrust.jpg",
+      "date": "2026-07-08",
+      "summary": "A threat actor is conducting vishing (voice phishing) campaigns targeting Microsoft 365 users across multiple sectors, tricking them into enrolling attacker-controlled passkeys in Microsoft Entra. The attack exploits the passkey enrollment process in Microsoft Entra ID to gain persistent authentication access to victim accounts.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/07/08/pink.jpg",
       "importance": 9,
       "paywall": false
     },
@@ -16,28 +16,8 @@
       "url": "https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html",
       "source": "The Hacker News",
       "date": "2026-07-07",
-      "summary": "BeyondTrust has released patches for two critical security vulnerabilities affecting its Remote Support and Privileged Remote Access products. The flaws, including CVE-2026-40138 with a CVSS score of 9.2, allow unauthenticated attackers to take control of affected devices.",
+      "summary": "BeyondTrust has released patches for two critical security vulnerabilities affecting its Remote Support and Privileged Remote Access (PRA) products. One flaw, CVE-2026-40138, carries a CVSS score of 9.2 and allows unauthenticated attackers to take control of affected devices without prior authentication.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEim5I3ndx1DHNKSznD7AT_CM4ApiaXDfZcQAwsCSDnHq7u8dkGcOzway-IBZJ44bFJintaRMSry4yHbaacESRFOJsRC_UBV6N9l_K4ICcqWsZ2E4zQ5BGibAkxjxm0qPYiiLEvAvDizmPZVYwXC6jN9pgB5G-3xZ9ifiEWisKsZoi9rBjJN1mepJjPl61s9/s1600/bt.jpg",
-      "importance": 9,
-      "paywall": false
-    },
-    {
-      "title": "Completes Entro Security Acquisition To Strengthen AI Identity Governance",
-      "url": "https://biztoc.com/x/b5309c680d2201bf",
-      "source": "Biztoc.com",
-      "date": "2026-07-05",
-      "summary": "SailPoint has completed its acquisition of Entro Security, a move aimed at strengthening AI identity governance and securing AI agents and machine identities. The acquisition follows a series of bullish analyst calls for SailPoint, which is publicly traded on NASDAQ under the ticker SAIL.",
-      "image": "https://biztoc.com/cdn/b5309c680d2201bf_s.webp",
-      "importance": 9,
-      "paywall": false
-    },
-    {
-      "title": "SailPoint (SAIL) Completes Entro Security Acquisition To Strengthen AI Identity Governance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/sailpoint-sail-completes-entro-security-220909129.html",
-      "source": "Yahoo Entertainment",
-      "date": "2026-07-05",
-      "summary": "SailPoint has completed its acquisition of Entro Security, expanding its identity governance capabilities. The deal adds Entro's non-human identity and secrets security technology to SailPoint's AI-driven identity governance platform.",
-      "image": "https://s.yimg.com/lo/mysterio/api/780591BB81178A09F94406D1FA16A8BAB772BE6437D320465E5806DBE9567BA8/subgraphmysterio/resizefill_w1200_h800;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2F04e9f86936e69b8cdae4c1d46c7200a7",
       "importance": 9,
       "paywall": false
     },
@@ -46,30 +26,90 @@
       "url": "https://www.helpnetsecurity.com/2026/07/07/barracuda-evo-security-acquisition/",
       "source": "Help Net Security",
       "date": "2026-07-07",
-      "summary": "Barracuda Networks has acquired Evo Security to expand its BarracudaONE platform with privileged access management (PAM), access control, identity protection, and identity threat detection and response capabilities. The acquisition integrates Evo Security's identity solutions into Barracuda's existing identity-driven controls to create a unified identity security architecture delivered through a single platform.",
+      "summary": "Barracuda Networks has acquired Evo Security to expand its identity security capabilities. The deal adds privileged access management (PAM), access control, identity protection, and identity threat detection and response to Barracuda's BarracudaONE platform.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
       "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "Lone Attacker Uses AI to Breach AWS Cloud Environment in 72 Hours",
+      "url": "https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-environment",
+      "source": "Dark Reading",
+      "date": "2026-07-08",
+      "summary": "A lone attacker breached an AWS cloud environment within 72 hours by exploiting AI workflows, chaining cloud misconfigurations, and using stolen credentials. The attack culminated in an extortion attempt against a large Amazon customer, highlighting credential theft and cloud access exploitation as key vectors.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt1db73768baa07d9c/6a4eaaf98fda9d47d6942977/Skull_cloud-AscentXmedia_Getty-2271725500.jpg?width=720&quality=80&disable=upscale",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Blackpoint AI SOC Agent autonomously contains identity-based attacks",
+      "url": "https://www.helpnetsecurity.com/2026/07/08/blackpoint-cyber-ai-soc-agent/",
+      "source": "Help Net Security",
+      "date": "2026-07-08",
+      "summary": "Blackpoint Cyber has launched the generally available AI SOC Agent, an autonomous identity threat detection and response (ITDR) capability for Microsoft 365 and Google Workspace. The tool uses an AI and human hybrid model to contain credential-based attacks in under two minutes on average, and as fast as 21 seconds.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
+      "importance": 7,
       "paywall": false
     }
   ],
   "news": [
     {
+      "title": "3 Ways AI Powers Service Desk Attacks and How to Prevent Them",
+      "url": "https://www.bleepingcomputer.com/news/security/3-ways-ai-powers-service-desk-attacks-and-how-to-prevent-them/",
+      "source": "Bleeping Computer",
+      "date": "2026-07-08",
+      "summary": "Specops Software has published guidance on how AI is enabling more sophisticated service desk impersonation attacks through increased personalization and scalability. The article covers practical defensive measures focused on identity verification and onboarding processes at the service desk level.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/07/06/3-ways-ai-aids-service-desk-attacks-and-how-to-prevent-them.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Telco giant KDDI says data breach affects over 12 million people",
+      "url": "https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/",
+      "source": "Bleeping Computer",
+      "date": "2026-07-08",
+      "summary": "Japanese telecom KDDI disclosed a data breach exposing email addresses and passwords of over 12 million people via a compromised email platform used by five ISPs. The breach involved credential data, making it directly relevant to authentication and identity security concerns.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/07/08/KDDI--logo.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Attackers using Langflow flaw for credential harvesting (CVE-2026-55255)",
+      "url": "https://www.helpnetsecurity.com/2026/07/08/langflow-vulnerability-cve-2026-55255-exploited/",
+      "source": "Help Net Security",
+      "date": "2026-07-08",
+      "summary": "CISA has added CVE-2026-55255, a Langflow vulnerability being actively exploited for credential harvesting, to its Known Exploited Vulnerabilities catalog. Langflow is an open-source visual framework for building AI agents and workflows, and the flaw was observed being actively targeted by the Sysdig Threat Research Team nearly two weeks before the catalog addition.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2025/05/06092817/langflow-1500.webp",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "The Verification Step Is the New ATO Battleground in 2026",
+      "url": "https://thehackernews.com/2026/07/the-verification-step-is-new-ato.html",
+      "source": "The Hacker News",
+      "date": "2026-07-08",
+      "summary": "An analysis piece examines the evolution of account takeover (ATO) attacks as passkeys become mainstream, shifting the battleground from credential stuffing to the verification step itself. The article addresses how attackers are adapting their methods as traditional authentication defenses improve, covering themes of authentication, identity verification, and emerging attack vectors relevant to IAM practitioners.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaJMgdxAojXQ55Emgp0cdpY7ibLUdpF2qw_6WRHLpgdFhT82J_HFoOeqj69x1MNb7EqqMLp23NxnAsbzCeH0rg5cOrrM6bdDFNWlvvXbNZ9-QGzCYyX0q9AqYAGKwXVOb35u2lE91pm27dzyikSEF7zzfmNG-asRkTjhR30sdWgmf7TsZj8tqieCYUnTY/s1600/main-veriff.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "SailPoint、「Agentic Acceleration」を発表、時間を要するクラウド モダナイゼーションを、迅速なシステム導入へと変革",
+      "url": "https://prtimes.jp/main/html/rd/p/000000041.000096451.html",
+      "source": "Prtimes.jp",
+      "date": "2026-07-08",
+      "summary": "SailPoint announced \"Agentic Acceleration,\" a new initiative aimed at transforming cloud modernization for identity management systems. The announcement was originally made on June 16, 2026, with this being a Japanese-language summary of the US press release.",
+      "image": "https://prtimes.jp/common/pc_v4/og.png",
+      "importance": 7,
+      "paywall": false
+    },
+    {
       "title": "Big Brand Jobs Scam Targets Marketing Pros' Google Accounts",
       "url": "https://www.darkreading.com/cyberattacks-data-breaches/big-brand-jobs-scam-marketing-pros-google-accounts",
       "source": "Dark Reading",
       "date": "2026-07-07",
-      "summary": "A phishing campaign is targeting marketing professionals with the goal of stealing Google account credentials. The attack uses nested redirects and other evasion techniques to bypass detection and compromise accounts.",
+      "summary": "A phishing campaign is targeting marketing professionals with the goal of stealing Google account credentials. The attack uses nested redirects and other evasion techniques to bypass detection while impersonating big brand job offers.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt446e24d69e36537b/6a4d61e6da407598830165a7/phishing-Supatman-Getty-2220462827.jpg?width=720&quality=80&disable=upscale",
-      "importance": 4,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft to enable Windows settings backup by default for orgs",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-windows-backup-for-organizations-by-default/",
-      "source": "Bleeping Computer",
-      "date": "2026-07-07",
-      "summary": "Microsoft will enable Windows settings backup and restore by default on Microsoft Entra-joined and hybrid-joined enterprise systems following an upgrade to Windows 11 26H2. The change affects organizations using Microsoft Entra for device identity management.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/03/10/Windows.jpg",
       "importance": 4,
       "paywall": false
     },
@@ -78,7 +118,7 @@
       "url": "https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html",
       "source": "The Hacker News",
       "date": "2026-07-07",
-      "summary": "A phishing campaign dubbed DEBULL has been observed abusing Microsoft's legitimate device-code authentication flow to compromise Microsoft 365 accounts, active between late June and early July 2026. The attack bypasses traditional credential phishing by using collaboration-themed lures to direct victims through the real Microsoft device login experience, as reported by ZeroBEC.",
+      "summary": "A phishing campaign dubbed DEBULL has been observed abusing Microsoft's device-code authentication flow to compromise Microsoft 365 accounts, active from late June into early July 2026. The attack bypasses traditional credential-harvesting methods by manipulating the legitimate Microsoft device login experience through collaboration-themed lures, as reported by ZeroBEC.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg__v7vicSomxW52wnr8HsJgQKf0vg3kdjUicmIUCMCDexaBZ68pLZzXKVSJxNEeBuBuEzueOldcd5GhtGQI-8eMqd9j0QWMqGScmbZpqBS9RFkXxXSfOZYhBSGqD8BBDfVUEn4RN86sKhgkl9xkJtYMl-7a2zsIU6LCC5j_U2BkupJGr3JqP9_GZCHfHtl/s1600/ms-device-code.jpg",
       "importance": 7,
       "paywall": false
@@ -88,7 +128,7 @@
       "url": "https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html",
       "source": "The Hacker News",
       "date": "2026-07-07",
-      "summary": "A federal complaint reveals that FBI investigators used a persistent Windows device ID to trace an alleged Scattered Spider hacker to a 2025 intrusion at a luxury jewelry retailer. Microsoft records linked the device ID to accounts used to maintain access during the breach, connecting them to 19-year-old suspect Peter Stokes.",
+      "summary": "A newly unsealed federal complaint reveals that the FBI used a persistent Windows device ID from Microsoft records to link an alleged Scattered Spider member to a cyberattack on a luxury jewelry retailer. The case illustrates how device identity artifacts and Microsoft account records were used as forensic evidence to attribute the intrusion to 19-year-old Peter Stokes.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRD_854zsswRvh7xWklnbEkAjmk7UZy_-dQzlueMbq1ib7deDs-QH0av7XRZ1WEq3vcX57cDDcioIdkebKCiF7qr8xC9Evw7GmFuDS0kQt3mnpXgb3Q2H62eHPIgCy3rk1Mj3uM-Mge0XTfMgSCGaumk3i5KatoyrFnu_PUhg8cZGY1ZAd185qsNqZ1jE/s1600/md-id.jpg",
       "importance": 6,
       "paywall": false
@@ -98,8 +138,68 @@
       "url": "https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html",
       "source": "The Hacker News",
       "date": "2026-07-07",
-      "summary": "Researchers disclosed a now-patched session isolation vulnerability in Writer's enterprise AI platform that could allow cross-tenant session token leakage. The flaw, dubbed WriteOut by Sand Security, could enable an unauthenticated attacker to compromise any Writer AI tenant via a one-click attack.",
+      "summary": "Researchers disclosed a now-patched critical session isolation vulnerability in Writer's enterprise AI platform that could allow cross-tenant session token leakage. The flaw, dubbed WriteOut by Sand Security Research, could enable an unauthenticated outsider to take over any Writer AI tenant via a one-click attack.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH0EnuZfnTZVOg-ACF0jKSHBB8TemRtJ6vlDerjpWy9giH2VsJTP_XiktA9SCytwnDcP95jn4gyQaPk2r92S-J-4EcB7FDvenxXiNwJKtg1VQkV_f564nT6mrS6S3wuMX3SC22kdd5nJM9y4IecNKJ3CRq569DtujHzUgaVOAwQDpfvCgkCrSrfeRjT1CQ/s1600/writerai.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of SailPoint, Inc. - SAIL",
+      "url": "https://www.globenewswire.com/news-release/2026/07/07/3323710/1087/en/INVESTOR-ALERT-Pomerantz-Law-Firm-Investigates-Claims-On-Behalf-of-Investors-of-SailPoint-Inc-SAIL.html",
+      "source": "GlobeNewswire",
+      "date": "2026-07-07",
+      "summary": "Pomerantz LLP has announced an investigation into claims on behalf of investors of SailPoint, Inc. (NASDAQ: SAIL). The notice advises affected investors to contact the law firm but provides no details about the nature of the claims being investigated.",
+      "image": null,
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "Keeper Security Extends Agentic AI Governance to Endpoint Privilege Manager",
+      "url": "https://www.prnewswire.com/news-releases/keeper-security-extends-agentic-ai-governance-to-endpoint-privilege-manager-302819881.html",
+      "source": "PRNewswire",
+      "date": "2026-07-07",
+      "summary": "Keeper Security has extended its agentic AI governance capabilities to its Endpoint Privilege Manager, enabling discovery and governance of AI agents on employee workstations and endpoints. The update introduces access policies and elevation controls for AI agents operating at the endpoint level, framed within Keeper's zero-trust and zero-knowledge security model.",
+      "image": "https://mmx.prnewswire.com/media/MS1864138/Keeper-logo-full-color-002.jpg?id=OA2754100&p=facebook",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft to enable Windows settings backup by default for enterprise devices",
+      "url": "https://4sysops.com/archives/microsoft-to-enable-windows-settings-backup-by-default-for-enterprise-devices/",
+      "source": "4sysops.com",
+      "date": "2026-07-07",
+      "summary": "Microsoft will enable Windows settings backup and restore by default starting with Windows 11 version 26H2 for enterprise devices joined to Microsoft Entra. The change transitions the feature from opt-in to default-enabled on Entra-joined systems.",
+      "image": "https://4sysops.com/wp-content/uploads/2026/07/microsoft-to-enable-windows-settings-backup-by-default-for-enterprise-devices.jpg",
+      "importance": 3,
+      "paywall": false
+    },
+    {
+      "title": "Privileged Access Management Market Size to Hit $22.93 Billion by 2035 | SNS Insider",
+      "url": "https://www.globenewswire.com/news-release/2026/07/07/3323326/0/en/Privileged-Access-Management-Market-Size-to-Hit-22-93-Billion-by-2035-SNS-Insider.html",
+      "source": "GlobeNewswire",
+      "date": "2026-07-07",
+      "summary": "SNS Insider projects the global Privileged Access Management market will reach $22.93 billion by 2035, with the U.S. accounting for $6.02 billion and Europe $5.01 billion. Growth drivers cited include rising cyberattacks, GDPR compliance, enterprise cloud adoption, and demand for zero trust architectures.",
+      "image": "https://ml.globenewswire.com/Resource/Download/d6272c2e-d204-41b8-b545-a6e2e24f85c2",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft to enable Windows settings backup by default for orgs",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-windows-backup-for-organizations-by-default/",
+      "source": "BleepingComputer",
+      "date": "2026-07-07",
+      "summary": "Microsoft will enable Windows settings backup and restore by default for enterprise systems joined to Microsoft Entra after upgrading to Windows 11 26H2. The change affects both Microsoft Entra-joined and Microsoft Entra hybrid-joined devices, automating settings preservation across the organization.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/03/10/Windows.jpg",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "Identifying and Using OnPremisesImmutableId from Azure AD Connect Synchronization Errors",
+      "url": "https://www.c-sharpcorner.com/article/identifying-and-using-onpremisesimmutableid-from-azure-ad-connect-synchronizatio/",
+      "source": "C-sharpcorner.com",
+      "date": "2026-07-07",
+      "summary": "The article addresses resolving \"Duplicate Attribute\" synchronization errors in Azure AD Connect by extracting and using the OnPremisesImmutableId value directly from the error data. The technique is presented as a method to simplify hybrid identity management in Microsoft Entra/Azure AD environments.",
+      "image": "https://www.c-sharpcorner.com/images/csharp-corner-new.png",
       "importance": 5,
       "paywall": false
     },
@@ -108,7 +208,7 @@
       "url": "https://www.helpnetsecurity.com/2026/07/07/ai-attack-surface-video/",
       "source": "Help Net Security",
       "date": "2026-07-07",
-      "summary": "Antoine Berton, CTO at Elba Security, discusses the ungoverned access risks created when employees connect AI tools to corporate systems without oversight. The video focuses on how unsanctioned AI tool adoption creates an unmanaged access surface that falls outside existing identity governance controls.",
+      "summary": "Elba Security CTO Antoine Berton discusses ungoverned access created by unsanctioned AI tool adoption within organizations. The video focuses on the AI attack surface created when employees connect AI tools to corporate systems without identity governance controls in place.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/07/04180217/hands-person-1500.webp",
       "importance": 6,
       "paywall": false
@@ -118,19 +218,9 @@
       "url": "https://www.helpnetsecurity.com/2026/07/07/microsoft-execution-containers-ai-agents-constraints/",
       "source": "Help Net Security",
       "date": "2026-07-07",
-      "summary": "Microsoft has introduced Microsoft Execution Containers (MXC), a policy-driven execution layer designed to govern and constrain AI agent behavior on Windows and WSL platforms. The technology enforces access controls and execution boundaries for AI agents, directly addressing authorization and access management concerns in agentic AI systems.",
+      "summary": "Microsoft has introduced Microsoft Execution Containers (MXC), a policy-driven execution layer designed to control and constrain AI agent behavior on Windows and WSL platforms. The technology applies access control and policy enforcement to AI agents, representing an extension of authorization and containment concepts into agentic AI workflows.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/02/11132343/windows-1500-1.webp",
       "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Phishing poses as big-brand job interview to steal Google accounts",
-      "url": "https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/",
-      "source": "Bleeping Computer",
-      "date": "2026-07-06",
-      "summary": "A phishing campaign is impersonating over 30 major brands through fake job interview lures to steal Google account credentials from marketing professionals. The attack targets Google account authentication credentials, making it relevant to identity theft and account compromise vectors.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/07/06/hacker-looking-for-work-question.jpg",
-      "importance": 4,
       "paywall": false
     },
     {
@@ -138,7 +228,7 @@
       "url": "https://www.techtarget.com/searchmobilecomputing/answer/What-does-zero-trust-mean-for-mobile-devices-in-the-enterprise",
       "source": "Techtarget.com",
       "date": "2026-07-06",
-      "summary": "The article examines how zero trust security principles apply to mobile devices in enterprise environments. It addresses the challenge of securing corporate resources as mobile device usage grows and traditional perimeter-based defenses prove insufficient.",
+      "summary": "The article examines how zero trust principles apply to mobile devices in enterprise environments. It addresses the growing threat landscape for mobile endpoints and how zero trust architectures can be used to secure corporate resources accessed via mobile devices.",
       "image": "https://www.techtarget.com/rms/onlineimages/security_g1204196785.jpg",
       "importance": 6,
       "paywall": false
@@ -148,7 +238,7 @@
       "url": "https://aws.amazon.com/blogs/security/enforce-least-privilege-authorization-in-multi-agent-ai-chains-using-cedar/",
       "source": "Amazon.com",
       "date": "2026-07-06",
-      "summary": "The article covers enforcing least-privilege authorization in multi-agent AI systems using Cedar, Amazon's policy language, to prevent unauthorized scope expansion during agent task delegation. The focus is on maintaining proper authorization boundaries across multi-hop agent chains, directly addressing access control and authorization principles in emerging AI architectures.",
+      "summary": "The article details using Cedar (Amazon's policy language) to enforce least-privilege authorization in multi-agent AI systems, addressing the risk of authorization scope expansion during agent-to-agent task delegation. The piece focuses on maintaining proper authorization controls in multi-hop agent chains, ensuring agents cannot act beyond what the originating user originally authorized.",
       "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/07/02/cedar-agentic-ai-auth-architecture-1200x600-1.jpg",
       "importance": 6,
       "paywall": false
@@ -158,7 +248,7 @@
       "url": "https://www.prnewswire.com/news-releases/modelcop-launches-ai-agent-security-platform-targets-25b-machine-identity-market-302817714.html",
       "source": "PRNewswire",
       "date": "2026-07-06",
-      "summary": "ModelCop has commercially launched an identity-first security platform targeting AI agents and Non-Human Identities (NHIs), entering the machine identity market. The platform is aimed at enterprise security teams and focuses on visibility and governance for AI agent identities, addressing a market the company values at $25 billion.",
+      "summary": "ModelCop has commercially launched an AI agent security platform targeting the Non-Human Identity (NHI) market, going live on July 4, 2026. The identity-first platform is designed to give enterprise security teams visibility and governance over AI agents and machine identities in a market the company values at $25 billion.",
       "image": "https://mmx.prnewswire.com/media/MS1877256/July-4th-ModelCop-Went-Live.jpg?id=OA2749326&p=facebook",
       "importance": 7,
       "paywall": false
@@ -168,7 +258,7 @@
       "url": "https://biztoc.com/x/24f1e4ad93a6c70e",
       "source": "Biztoc.com",
       "date": "2026-07-06",
-      "summary": "SailPoint confirmed its Q2 adjusted EPS guidance of 7-8 cents against an 8-cent consensus at its Investor Day on June 17, 2026. The company also reaffirmed its Q2 revenue guidance at the same event.",
+      "summary": "SailPoint confirmed its Q2 adjusted EPS guidance of 7-8 cents against an 8-cent consensus at an investor day event on June 17, 2026. The company also reaffirmed its Q2 revenue guidance at the same event.",
       "image": "https://biztoc.com/cdn/24f1e4ad93a6c70e_s.webp",
       "importance": 5,
       "paywall": false
@@ -178,49 +268,9 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/sailpoint-sail-backs-q2-guidance-100239515.html",
       "source": "Yahoo Entertainment",
       "date": "2026-07-06",
-      "summary": "SailPoint confirmed its Q2 adjusted guidance at an Investor Day event on June 17, 2026. The announcement was made in the context of SailPoint being highlighted as one of eight high-growth cybersecurity stocks.",
+      "summary": "SailPoint confirmed its Q2 adjusted guidance at an Investor Day event on June 17, 2026. The announcement was noted in the context of SailPoint being listed among high-growth cybersecurity stocks.",
       "image": "https://s.yimg.com/lo/mysterio/api/7AD06C7D8F5D0E454367D89A1CB40CE41FCAC0CD467B122671692B129AC9E7D9/subgraphmysterio/resizefill_w1200_h800;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2Fe13eafb879d337f843e648dbb91ec2ea",
       "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "When checking the URL isn’t enough: a Device Code Phishing attack via a Microsoft website",
-      "url": "https://securelist.com/microsoft-device-code-phishing-attack/120350/",
-      "source": "Securelist.com",
-      "date": "2026-07-06",
-      "summary": "The article covers Device Code Phishing attacks that abuse the OAuth 2.0 Device Authorization Grant flow to steal authentication tokens, bypassing traditional phishing defenses. The attack exploits a legitimate Microsoft authentication mechanism, making it particularly dangerous as checking URLs for legitimacy is insufficient to detect the threat.",
-      "image": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2026/07/03170147/Device-Code-Phishing-pingpongsuperman_A_fisherman_hacker_is_fishing_using_a_large_TV_261a6841-d900-4140-bffd-0f2f596e9977-scaled.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Channel moves: Who’s gone where?",
-      "url": "https://www.computerweekly.com/microscope/news/366645438/Channel-moves-Whos-gone-where",
-      "source": "ComputerWeekly.com",
-      "date": "2026-07-06",
-      "summary": "A weekly roundup of personnel moves covers staffing changes at various technology companies, including One Identity, an IAM vendor. The article is primarily a broad channel industry personnel update spanning multiple unrelated companies.",
-      "image": "https://www.computerweekly.com/visuals/German/article/job-interview-3-adobe.jpg",
-      "importance": 2,
-      "paywall": false
-    },
-    {
-      "title": "OAuth, guest accounts, and weak MFA drive SaaS risk",
-      "url": "https://www.helpnetsecurity.com/2026/07/06/saas-environments-security-risks-report/",
-      "source": "Help Net Security",
-      "date": "2026-07-06",
-      "summary": "A report identifies OAuth integrations, guest accounts, and weak MFA configurations as primary drivers of SaaS security risk. Guest accounts created for contractors and partners frequently remain active beyond their intended use, creating persistent unauthorized access paths to corporate data.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2023/06/27144859/saas2.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "PamStealer Uses Fake Maccy Sites and PAM Checks to Steal Mac Login Passwords",
-      "url": "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html",
-      "source": "The Hacker News",
-      "date": "2026-07-03",
-      "summary": "Researchers at Jamf Threat Labs discovered a new macOS infostealer called PamStealer that exploits PAM (Pluggable Authentication Modules) checks to steal Mac login passwords. The malware is distributed as a fake Maccy clipboard manager app in the form of a compiled AppleScript file, using PAM system calls to harvest credentials.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEmcBMGUjTwe51gVQWP401twHYLMUOocwG9nYkgadlFV6cmGXrPS-3PeNTg_GJOaUVohWILNXgIC8ufSkPqXRbW1wIyvUr5JEKCrrMI3_hlN8uFtxpf-sBn743tQmlK2ipu_qWtY3k18cPkaQ6XGJnR7RPjuMOWkYwcmJ5XSnSNQHbNpkEgyyP29hJA6j2/s1600/macos-malware.jpg",
-      "importance": 6,
       "paywall": false
     },
     {
@@ -228,9 +278,19 @@
       "url": "https://www.darkreading.com/cyberattacks-data-breaches/djinn-stealer-targets-cloud-ai-credentials",
       "source": "Dark Reading",
       "date": "2026-06-29",
-      "summary": "A new infostealer dubbed 'Djinn' is targeting cloud and AI credentials by exploiting CVE-2026-48558, a critical authentication bypass vulnerability in SimpleHelp. The malware specifically targets credentials that link development and admin environments to broader enterprise systems.",
+      "summary": "A new infostealer dubbed 'Djinn' is targeting cloud and AI credentials by exploiting CVE-2026-48558, a critical authentication bypass vulnerability in SimpleHelp. The malware specifically targets credentials connecting development and admin environments to broader enterprise systems.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltb3a3f4df4386574c/6a42db87ff96a7b022fd72f5/djinn_Dimart_Graphics_shutterstock.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
+      "url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
+      "source": "Krebs on Security",
+      "date": "2026-06-23",
+      "summary": "Two members of the Scattered Spider cybercrime group pleaded guilty in the UK to charges related to the August 2024 cyberattack on Transport for London. Scattered Spider is known for sophisticated social engineering and identity-based attacks, including SIM swapping and MFA bypass techniques used to compromise organizational access.",
+      "image": null,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -238,7 +298,7 @@
       "url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
       "source": "Krebs on Security",
       "date": "2026-06-01",
-      "summary": "Hackers exploited Meta's AI support assistant chatbot to reset Instagram account passwords and seize high-profile accounts, including the Obama White House and a U.S. Space Force official's accounts. Instructions for manipulating the AI bot to bypass normal authentication and account recovery processes were shared on Telegram, enabling the account takeovers.",
+      "summary": "Hackers exploited Meta's AI support assistant chatbot to reset Instagram account passwords and seize accounts, including the Obama White House and U.S. Space Force accounts. Instructions circulating on Telegram demonstrated how to manipulate the AI bot into bypassing normal account authentication and recovery controls.",
       "image": null,
       "importance": 7,
       "paywall": false
@@ -248,17 +308,7 @@
       "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
       "source": "Krebs on Security",
       "date": "2026-05-22",
-      "summary": "A CISA contractor intentionally published AWS GovCloud keys and other agency secrets to a public GitHub account, prompting Congressional inquiries from both chambers. CISA is still working to contain the breach and invalidate the leaked credentials.",
-      "image": null,
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
-      "url": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
-      "source": "Krebs on Security",
-      "date": "2026-05-18",
-      "summary": "A CISA contractor publicly exposed highly privileged AWS GovCloud account credentials and internal system access details in a public GitHub repository until this past weekend. The leaked repository contained files describing CISA's internal software build, test, and deployment processes alongside the compromised credentials.",
+      "summary": "A CISA contractor intentionally published AWS GovCloud keys and other agency secrets to a public GitHub account, prompting congressional inquiries from both chambers. CISA is actively working to contain the breach and invalidate the leaked credentials.",
       "image": null,
       "importance": 6,
       "paywall": false
