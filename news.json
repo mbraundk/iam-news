@@ -1,106 +1,126 @@
 {
-  "updated": "July 15, 2026 at 05:41 UTC",
+  "updated": "July 16, 2026 at 05:49 UTC",
   "top_stories": [
-    {
-      "title": "Microsoft Entra ID gets passkeys default authentication starting September",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-id-gets-passkeys-default-authentication-starting-september/",
-      "source": "Bleeping Computer",
-      "date": "2026-07-14",
-      "summary": "Microsoft announced that passkeys will become the default authentication method for Entra ID starting September 2026. This represents a significant shift in enterprise authentication defaults for one of the largest IAM platforms, affecting organizations worldwide that rely on Entra ID for identity management.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/03/12/Hacking_login.jpg",
-      "importance": 9,
-      "paywall": false
-    },
     {
       "title": "OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials",
       "url": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
       "source": "The Hacker News",
       "date": "2026-07-14",
-      "summary": "A novel evasion technique called OAuth client ID spoofing is being actively weaponized by at least two distinct threat actors to validate stolen credentials in Microsoft Entra ID environments. The technique allows attackers to enumerate user accounts and confirm stolen credentials without generating successful sign-in events, effectively bypassing standard detection telemetry used by defenders.",
+      "summary": "A novel evasion technique called OAuth client ID spoofing is being actively exploited by at least two threat actors to validate stolen credentials in Microsoft Entra ID environments. The attack allows adversaries to enumerate user accounts and verify stolen credentials without generating successful sign-in events, effectively bypassing standard telemetry and defender alerts.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmB1bLC9cna7xlnvFdK0hUnsi8jeo6E7jMh20nj4XTvsF9ogpjbnlPCxx9QYQ1O2aS7JiSDQi4swIRNG6-Xjg2TGR4bn4Zn-KBkjsLTYcKUrXOD-rlGu4XYsvRx06eRqrT4duW0xwklKeYjZvRV1VSarJBKldBzN4DNhkWudVCGRdKPi9uVGrqEwL66mz5/s1600/OAuth-ClientID.jpg",
       "importance": 9,
       "paywall": false
     },
     {
-      "title": "Completes Acquisition of Entro Security to Enhance Non-Human Identity Management",
-      "url": "https://biztoc.com/x/a2003edfeaa5b0fe",
-      "source": "Biztoc.com",
-      "date": "2026-07-11",
-      "summary": "SailPoint completed its acquisition of Entro Security, a non-human identity (NHI) and credential security specialist, as announced on June 29. The acquisition integrates Entro's NHI capabilities into SailPoint's identity governance platform, expanding its coverage beyond human identities to machine identities and secrets management.",
-      "image": "https://biztoc.com/cdn/a2003edfeaa5b0fe_s.webp",
-      "importance": 9,
-      "paywall": false
-    },
-    {
-      "title": "SailPoint (SAIL) Completes Acquisition of Entro Security to Enhance Non-Human Identity Management",
-      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_97a7cf78-834b-467b-84c3-a7e1ac0df2a8",
-      "source": "Yahoo Entertainment",
-      "date": "2026-07-11",
-      "summary": "SailPoint has completed its acquisition of Entro Security, expanding its identity governance platform to include non-human identity management capabilities. Entro Security specializes in managing secrets, service accounts, and machine identities, addressing a growing gap in traditional IGA solutions.",
-      "image": null,
-      "importance": 9,
-      "paywall": false
-    },
-    {
-      "title": "New phishing kits target Microsoft 365 accounts, evade MFA",
-      "url": "https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa/",
-      "source": "Bleeping Computer",
+      "title": "Microsoft Entra ID gets passkeys default authentication starting September",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-id-gets-passkeys-default-authentication-starting-september/",
+      "source": "BleepingComputer",
       "date": "2026-07-14",
-      "summary": "Two new phishing kits named Jalisco and OmegaLord have been discovered targeting Microsoft 365 accounts with techniques that bypass multi-factor authentication. The kits represent emerging adversary-in-the-middle or token-theft attack methods that undermine MFA protections on a widely used identity platform.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/05/15/MS365.jpg",
-      "importance": 8,
+      "summary": "Microsoft has announced that passkeys will become the default authentication method for Entra ID starting September 2026. This represents a major shift in enterprise authentication policy for one of the most widely deployed identity platforms, moving away from traditional password-based methods by default.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/03/12/Hacking_login.jpg",
+      "importance": 9,
+      "paywall": false
+    },
+    {
+      "title": "Millions of Microsoft Entra Accounts Targeted in OAuth Client ID Spoofing Campaigns",
+      "url": "https://hackread.com/microsoft-entra-accounts-oauth-client-id-spoofing/",
+      "source": "HackRead",
+      "date": "2026-07-14",
+      "summary": "Proofpoint has detailed an attack campaign targeting millions of Microsoft Entra accounts through OAuth client ID spoofing techniques. The attackers use spoofed OAuth client IDs to probe accounts, test credentials, and evade standard sign-in detection mechanisms at cloud scale.",
+      "image": "https://hackread.com/wp-content/uploads/2026/07/microsoft-entra-accounts-oauth-client-id-spoofing.png",
+      "importance": 9,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft Entra ID authentication overhaul to start in September 2026",
+      "url": "https://www.helpnetsecurity.com/2026/07/14/microsoft-entra-passkey-authentication/",
+      "source": "Help Net Security",
+      "date": "2026-07-14",
+      "summary": "Microsoft will roll out passkeys as the default authentication experience for Microsoft Entra ID in the public cloud beginning September 1, 2026. Organizations with SMS or voice authentication enabled will be automatically enabled for passkeys, marking a significant shift in default authentication behavior across Entra ID.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/01/26083820/microsoft-entra_id-1500.webp",
+      "importance": 9,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft Entra ID to enforce passkeys and retire legacy MFA by 2027",
+      "url": "https://4sysops.com/archives/microsoft-entra-id-to-enforce-passkeys-and-retire-legacy-mfa-by-2027/",
+      "source": "4sysops.com",
+      "date": "2026-07-14",
+      "summary": "Microsoft Entra ID will make passkeys the default authentication method for all public cloud tenants starting September 1, 2026, with full retirement of legacy SMS and voice-based MFA by 2027. Users currently relying on those legacy MFA methods will be automatically transitioned as part of this enforced platform-wide authentication policy change.",
+      "image": "https://4sysops.com/wp-content/uploads/2026/07/microsoft-entra-id-to-enforce-passkeys-and-retire-legacy-mfa-by-2027.webp",
+      "importance": 9,
       "paywall": false
     }
   ],
   "news": [
     {
-      "title": "Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack",
-      "url": "https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html",
-      "source": "The Hacker News",
+      "title": "Identity Attacks Overtake Exploits as Top Ransomware Cause",
+      "url": "https://www.darkreading.com/identity-access-management-security/identity-attacks-overtake-exploits-top-ransomware-cause",
+      "source": "Dark Reading",
       "date": "2026-07-15",
-      "summary": "Microsoft released its largest-ever Patch Tuesday update, addressing 622 CVEs including two zero-day vulnerabilities currently under active exploitation. Incident responders were credited with discovering both actively exploited flaws, which are the priority patches in the release.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi34s_9ywUXjSc5OtF7-fDiAqSa3H-UHpJfACXyULY5ziUlM67mCJHWee9tluTiGm7ZRhMy36SLal2CUjqwJHZ8vdHuFstRwJhPGLAXe49as-o3nRE-QAyRs2mx3og8eVdWdnzzr9LwGMXckMix80XOQPsWiE30xqqYGG3PNjjpVTCpLsnW77pCk_3MyKQ/s1600/ms=patch.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "LastPass, Bitwarden users targeted with fake security alerts",
-      "url": "https://www.bleepingcomputer.com/news/security/lastpass-bitwarden-users-targeted-with-fake-security-alerts/",
-      "source": "Bleeping Computer",
-      "date": "2026-07-14",
-      "summary": "LastPass is warning its users about an active phishing campaign using fake security alerts to redirect them to fraudulent websites. Bitwarden users are also being targeted in the campaign, which impersonates legitimate security notifications to steal credentials.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/06/23/lastpass.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "SonicWall SMA appliances targeted in zero-day attacks (CVE-2026-15409, CVE-2026-15410)",
-      "url": "https://www.helpnetsecurity.com/2026/07/14/sonicwall-sma-attacks-via-cve-2026-15409-cve-2026-15410/",
-      "source": "Help Net Security",
-      "date": "2026-07-14",
-      "summary": "SonicWall has patched two actively exploited zero-day vulnerabilities (CVE-2026-15409, CVE-2026-15410) in its Secure Mobile Access 1000 Series appliances. Remediation guidance includes upgrading firmware, checking for indicators of compromise, re-imaging affected appliances, changing user and administrator passwords, and resetting TOTP tokens.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/07/14165048/sonicwall-1500.webp",
+      "summary": "Identity-based attacks have surpassed exploits as the leading root cause of ransomware incidents. MFA was present in 97% of credential-based attacks yet failed to prevent compromise, highlighting critical gaps in authentication security.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltde006b8b5b1c0556/6a57e5114b599fb58be63897/biometric_fingerprint-da-kuk-getty-2258608618.jpg?width=720&quality=80&disable=upscale",
       "importance": 8,
       "paywall": false
     },
     {
-      "title": "New macOS malware steals passwords by posing as Apple’s crash-reporting tool",
-      "url": "https://www.helpnetsecurity.com/2026/07/14/crashstealer-macos-infostealer-password-theft/",
+      "title": "Zoom warns of critical account takeover vulnerability",
+      "url": "https://www.bleepingcomputer.com/news/security/zoom-warns-of-critical-account-takeover-vulnerability/",
+      "source": "Bleeping Computer",
+      "date": "2026-07-15",
+      "summary": "Zoom disclosed a critical vulnerability in its Windows desktop client and SDK that allows unauthenticated attackers to take over user accounts. The flaw represents an authentication bypass risk affecting a widely deployed collaboration platform.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/07/15/zoom.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Socure rolls out Remote Verifier for higher-risk identity checks",
+      "url": "https://www.helpnetsecurity.com/2026/07/15/socure-rolls-out-remote-verifier-for-higher-risk-identity-checks/",
       "source": "Help Net Security",
-      "date": "2026-07-14",
-      "summary": "Jamf Threat Labs discovered a new macOS infostealer called CrashStealer that disguises itself as Apple's crash-reporting tool to steal passwords, Keychain data, and cryptocurrency wallets. First spotted in May 2026 during development, the malware moved into active in-the-wild use by early July, with Jamf noting it is more sophisticated than typical macOS commodity stealers.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2025/10/09113955/danger-computer-1500.webp",
+      "date": "2026-07-15",
+      "summary": "Socure has launched Remote Verifier within its RiskOS platform, an AI-powered identity verification tool targeting individuals who fail initial document verification checks. The solution claims to verify over 99% of identities on the first attempt, compared to an industry average of 64%, reducing manual review requirements for higher-risk identity checks.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
       "importance": 6,
       "paywall": false
     },
     {
-      "title": "Google adds FIDO2 keys and phone passkeys to Windows login via GCPW",
-      "url": "https://www.helpnetsecurity.com/2026/07/14/security-key-windows-login-google-workspace/",
-      "source": "Help Net Security",
-      "date": "2026-07-14",
-      "summary": "Google is rolling out FIDO2 physical security key support as a second factor for authentication in Google Credential Provider for Windows (GCPW) to all Google Workspace customers. The update enables administrators to enforce 2-step verification with hardware security keys for Windows device login using Google Workspace credentials.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2023/11/28163714/google_workspace2.jpg",
-      "importance": 7,
+      "title": "Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands",
+      "url": "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
+      "source": "The Hacker News",
+      "date": "2026-07-15",
+      "summary": "SonicWall has disclosed two actively exploited zero-day vulnerabilities in its Secure Mobile Access (SMA) 1000 series appliances, one rated CVSS 10.0. The critical flaw (CVE-2026-15409) is a server-side request forgery vulnerability exploitable by remote unauthenticated attackers to execute arbitrary commands.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0n94FUIdljCnLvlh0SNz5l8xDWbdDqmk7OesE7HAKxrRAMUMIfXpppuMBoI-7F0Q1PB7eXPRjrfg9fgZTTVj3JY5jKsr1Ebheb2mU65p4MUVYbs59lCPPWCBQ4LVYZnoZ0o6nRkoBQitrwwnyLVQc2oYJ41zVjPS6_HchwIR-U8EuWrOdPpl1-Y9Rw1Lm/s1600/sonicwall-patches.jpg",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack",
+      "url": "https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html",
+      "source": "The Hacker News",
+      "date": "2026-07-15",
+      "summary": "Microsoft released its largest-ever Patch Tuesday update, covering 622 CVEs including two zero-days already under active exploitation. The release is more than triple the previous record of approximately 200 CVEs from a single month.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi34s_9ywUXjSc5OtF7-fDiAqSa3H-UHpJfACXyULY5ziUlM67mCJHWee9tluTiGm7ZRhMy36SLal2CUjqwJHZ8vdHuFstRwJhPGLAXe49as-o3nRE-QAyRs2mx3og8eVdWdnzzr9LwGMXckMix80XOQPsWiE30xqqYGG3PNjjpVTCpLsnW77pCk_3MyKQ/s1600/ms=patch.jpg",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft is forcing an enterprise transition to passkeys",
+      "url": "https://www.computerworld.com/article/4197029/microsoft-is-forcing-an-enterprise-transition-to-passkeys.html",
+      "source": "Computerworld",
+      "date": "2026-07-15",
+      "summary": "Microsoft Entra ID will replace SMS and voice authentication with passkeys beginning in September. The change affects enterprise authentication flows and reflects a policy shift away from traditional credential methods in response to AI-powered attack threats.",
+      "image": "https://www.computerworld.com/wp-content/uploads/2026/07/4197029-0-29911600-1784081098-shutterstock_2228408989.jpg?quality=50&strip=all&w=1024",
+      "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "SailPoint、パートナーのイノベーションを促進する「ユニファイド プラットフォーム アクセス」プログラムを発表",
+      "url": "https://prtimes.jp/main/html/rd/p/000000042.000096451.html",
+      "source": "Prtimes.jp",
+      "date": "2026-07-15",
+      "summary": "SailPoint announced a new program called \"Unified Platform Access\" aimed at accelerating partner innovation. The program was originally announced in the United States on June 16, 2026, with this being a Japanese-language summary translation of that release.",
+      "image": "https://prtimes.jp/common/pc_v4/og.png",
+      "importance": 6,
       "paywall": false
     },
     {
@@ -108,7 +128,7 @@
       "url": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
       "source": "The Hacker News",
       "date": "2026-07-14",
-      "summary": "Two access control vulnerabilities in RabbitMQ have been disclosed that can leak OAuth client secrets and allow cross-tenant queue metadata exposure. The flaws, discovered by Miggo's security team, could enable attackers to bypass tenant boundaries and expose enterprise messaging infrastructure.",
+      "summary": "Two access control vulnerabilities in RabbitMQ have been disclosed, allowing attackers to leak OAuth client secrets and bypass cross-tenant queue boundaries. The flaws were discovered by Miggo's security team and affect RabbitMQ's OAuth integration and enterprise messaging infrastructure access controls.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhhRQ9rN4_5eYqXiJ7svWKwWY0dcPiiALZ6EkDG05ruFzTANJtwyw_w2Ht29dON1oFiLAkQkE0M75FYExbXmvFSr4jU0K0sNlwRxG3Q1rU51ouVIt3UtnrazRwhCer3coTHbU3So1dXx_8Frh1KhJKKXc7Lq2h5DZTGkBq35Y2ngnGVg6wAGubf8cVRx0F/s1600/rebbitmq.jpg",
       "importance": 5,
       "paywall": false
@@ -118,9 +138,29 @@
       "url": "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
       "source": "The Hacker News",
       "date": "2026-07-14",
-      "summary": "Microsoft has identified three attack paths used by threat actors aligned with ShinyHunters to compromise corporate Salesforce environments over the past year. The intrusions rely on abusing OAuth connections and existing trust relationships between Salesforce and third-party applications rather than exploiting platform vulnerabilities.",
+      "summary": "Microsoft has identified three attack paths used by threat actors aligned with ShinyHunters to compromise Salesforce environments over the past year. The attacks exploit OAuth connections and trusted third-party integrations rather than platform vulnerabilities, highlighting risks in federated identity and authorization chains.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgu2gmOSckwOqmlhqAYdrlHfRuTsOJIi7dr9cFZosLQAJeoJxcUVQ9PvibcfnCsBdPWvfJRRrxoS8nx9yTt9NtDNCwVCFavEt7tQT0viD7AwGvUjhu-_k0B2J4KBSAJ-5GUGFZHCTSyOuW4I082lHoUkbsbH33tsIeo3gm71_CkjMd_bcAN7i4xPvMnefA/s1600/salesforce-attack-path.jpg",
       "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Configure Microsoft Entra Backup and Recovery",
+      "url": "https://4sysops.com/archives/configure-microsoft-entra-backup-and-recovery/",
+      "source": "4sysops.com",
+      "date": "2026-07-14",
+      "summary": "Microsoft Entra Backup and Recovery reached general availability on June 30, 2026, as a built-in solution for Microsoft Entra ID. The feature automatically backs up critical directory objects daily, enabling restoration to a previous state after accidental changes or deletions.",
+      "image": "https://4sysops.com/wp-content/uploads/2026/07/Entra-admin-center-overview-image-Microsoft.webp",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "New phishing kits target Microsoft 365 accounts, evade MFA",
+      "url": "https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa/",
+      "source": "BleepingComputer",
+      "date": "2026-07-14",
+      "summary": "Two new phishing kits, Jalisco and OmegaLord, have been discovered targeting Microsoft 365 accounts using techniques that bypass multi-factor authentication. The kits employ adversary-in-the-middle (AiTM) or similar MFA-defeating methods to compromise accounts despite MFA protections being in place.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/05/15/MS365.jpg",
+      "importance": 8,
       "paywall": false
     },
     {
@@ -128,7 +168,7 @@
       "url": "https://www.redhat.com/en/blog/zero-trust-workload-identity-manager-11-generally-available-red-hat-openshift",
       "source": "Redhat.com",
       "date": "2026-07-14",
-      "summary": "A zero trust workload identity manager version 1.1 has reached general availability on Red Hat OpenShift. The solution addresses workload identity and access management challenges across multi-cluster, multi-cloud, and hybrid environments, replacing traditional long-lived secrets and static certificates.",
+      "summary": "A zero trust workload identity manager has reached version 1.1 general availability on Red Hat OpenShift, addressing identity and access management challenges in multi-cluster, multi-cloud, and hybrid environments. The solution targets limitations of traditional security mechanisms such as long-lived secrets, static certificates, and cloud provider-specific IAM systems.",
       "image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
       "importance": 7,
       "paywall": false
@@ -138,7 +178,7 @@
       "url": "https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html",
       "source": "The Hacker News",
       "date": "2026-07-13",
-      "summary": "A new phishing-as-a-service platform called Forg365 targets Microsoft 365 accounts using device code phishing and adversary-in-the-middle session theft techniques. The service, distributed via Telegram for $400/month, combines AitM tactics, antibot evasion, AI-assisted lure creation, and post-compromise mailbox operations to bypass authentication controls.",
+      "summary": "A new phishing-as-a-service platform called Forg365 targets Microsoft 365 accounts using device code phishing and adversary-in-the-middle (AitM) session theft techniques. The service, distributed via Telegram for $400/month, combines antibot evasion, AI-assisted lure creation, and post-compromise mailbox operations to bypass authentication controls.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlR-dy6ENZN5NKa1_sViQqXH6fEfEROkwjKV9vTowPmCu_nOALJ89JzGg-ueVJMCAqDHHozMZGd8oWbIlAQDTI8anEd6A2ZK0MdBN_FiShR3UoHGL6Cf0Gbhv8dY9RkVlZxpOCmks29u8Fnmx-JcytGZlnKC_9EuColvIMY4Y5IXH91aRaN5HOgjvvSPEo/s1600/ms-device-code1.jpg",
       "importance": 7,
       "paywall": false
@@ -148,19 +188,9 @@
       "url": "https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html",
       "source": "The Hacker News",
       "date": "2026-07-13",
-      "summary": "An unknown threat actor used a suspected AI-generated PowerShell script to enumerate Active Directory environments, mapping users, computers, domains, and domain controllers. The script exported collected data and generated an HTML report, representing a new tactic of using AI-assisted tooling for AD reconnaissance.",
+      "summary": "An unknown threat actor used a suspected AI-generated PowerShell script to enumerate Active Directory environments, mapping users, computers, and domains before exporting data into a report file. The attack highlights emerging use of AI-assisted tooling for AD reconnaissance, targeting a core identity infrastructure component.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh43TJKqVkJoN7Q3donw2FnXp1IrJEr6vvDteFOBCSR-PptAc8fMXXCq07kvKWoDacCHo6gi5-eUoX9mIBHggv-KXsoH31yBi0-_MZBjxYbiYNlhvAu8V_xhjuKHgnQj43x5S2pORBIGONxE_yLZdZOnDCmcjMegQjhwZtHDThg_4nlhZqwSizsMRCfZFQW/s1600/ps-ai.jpg",
       "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365",
-      "url": "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html",
-      "source": "The Hacker News",
-      "date": "2026-07-13",
-      "summary": "A misconfigured public-facing Python web server exposed the full toolkit of a threat actor running Microsoft 365 phishing operations using Evilginx, an adversary-in-the-middle framework designed to bypass MFA by stealing session cookies. French security firm Lexfo discovered the exposed server and used it to pivot and identify two additional related phishing operations targeting Microsoft 365 credentials.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVh0XoiKxyvhXW_SN-Ynau8iPG3vd2ltt4cDr4L_cGUhc5oBmsogZt5A_l2qbTdPG8Ciu73I0mHhRBDRJ2uWasrA_vqnkdvpbQcdh0ipe-d_cz2HTFJWOCBNxplCO0RuppogFhl1OONqWWXOLQWhH_Bt89c160ZzHtkrnDJN6PsnYWNV1W510diYait_g/s1600/phishing-server-ms.jpg",
-      "importance": 7,
       "paywall": false
     },
     {
@@ -168,7 +198,7 @@
       "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
       "source": "Krebs on Security",
       "date": "2026-07-13",
-      "summary": "CISA released a postmortem on a data leak where a contractor accidentally published dozens of internal credentials, including AWS GovCloud keys, to a public GitHub repository for nearly six months. The incident highlights credential management and secrets management failures, with CISA identifying response gaps relevant to access management practices across security teams.",
+      "summary": "CISA published a postmortem after a contractor exposed dozens of internal credentials, including AWS GovCloud keys, in a public GitHub repository for nearly six months. The incident highlights credential management failures and gaps in secret scanning and response processes relevant to IAM and secrets management practices.",
       "image": null,
       "importance": 7,
       "paywall": false
@@ -178,108 +208,8 @@
       "url": "https://www.itnews.com.au/feature/ai-agents-are-becoming-the-enterprises-most-privileged-users-and-most-organisations-dont-know-it-yet-627324",
       "source": "iTnews",
       "date": "2026-07-13",
-      "summary": "AI agents are increasingly operating with elevated privileges within enterprise environments, functioning as highly privileged users that fall outside traditional identity governance frameworks. Most organizations have not yet recognized or addressed the identity and access management implications of AI agents acting autonomously on enterprise systems.",
+      "summary": "AI agents are increasingly operating with highly privileged access within enterprise environments, often without adequate identity governance controls in place. Most organizations have not yet recognized or addressed the identity and access management risks posed by autonomous AI agents acting as privileged users.",
       "image": "https://i.nextmedia.com.au/Features/20260713025156_Untitled_design_(5).jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Machine Identity Debt: Why Human Identity Is No Longer Cloud Security's Primary Boundary",
-      "url": "https://dzone.com/articles/machine-identity-debt",
-      "source": "Dzone.com",
-      "date": "2026-07-13",
-      "summary": "The article argues that machine identities now vastly outnumber human identities in cloud-native environments, rendering traditional workforce identity security strategies insufficient. It addresses the growing challenge of machine identity debt and outlines recommended security approaches for engineering leaders managing non-human identities in cloud infrastructure.",
-      "image": "https://dz2cdn1.dzone.com/storage/article-thumb/19088875-thumb.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft Entra ID security updates: Passkeys are the default authentication method in Entra ID",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/07/13/microsoft-entra-id-security-updates-passkeys-are-the-default-authentication-method-in-entra-id/",
-      "source": "Microsoft.com",
-      "date": "2026-07-13",
-      "summary": "Microsoft Entra ID has made passkeys the default authentication method for sign-in, replacing previous default options. The update also introduces a new model for SMS and voice authentication, requiring administrators to prepare for the configuration changes.",
-      "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/07/Security-ImageryScan-Modular-Blue-03-2026-1-scaled.jpg",
-      "importance": 8,
-      "paywall": true
-    },
-    {
-      "title": "Teleport Named an Overall Leader in 2026 KuppingerCole Analysts Leadership Compass for Zero Trust Platforms",
-      "url": "https://www.globenewswire.com/news-release/2026/07/13/3326382/0/en/Teleport-Named-an-Overall-Leader-in-2026-KuppingerCole-Analysts-Leadership-Compass-for-Zero-Trust-Platforms.html",
-      "source": "GlobeNewswire",
-      "date": "2026-07-13",
-      "summary": "Teleport has been named an Overall Leader in the 2026 KuppingerCole Analysts Leadership Compass for Zero Trust Platforms. The recognition positions Teleport among top vendors in the zero trust space, with the report evaluating platforms for their ability to enable resilient infrastructure access at scale.",
-      "image": "https://ml.globenewswire.com/Resource/Download/67d89922-be62-4d0c-9bde-f3e82a817328",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "OAuth client ID spoofing allows stealthy Microsoft Entra account enumeration",
-      "url": "https://4sysops.com/archives/oauth-client-id-spoofing-allows-stealthy-microsoft-entra-account-enumeration/",
-      "source": "4sysops.com",
-      "date": "2026-07-13",
-      "summary": "A novel attack technique called OAuth client ID spoofing allows threat actors to enumerate Microsoft Entra ID accounts by sending authentication requests with fabricated or random client identifiers. This method bypasses traditional detection mechanisms because the spoofed client IDs do not correspond to registered applications, making the enumeration activity difficult to identify in logs.",
-      "image": "https://4sysops.com/wp-content/uploads/2026/07/oauth-client-id-spoofing-allows-stealthy-microsoft-entra-account-enumeration.webp",
-      "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Novel OAuth Client ID Spoofing Technique Targets Cloud Environments",
-      "url": "https://www.infosecurity-magazine.com/news/novel-spoofing-technique-targets/",
-      "source": "Infosecurity Magazine",
-      "date": "2026-07-13",
-      "summary": "Researchers have discovered a novel technique allowing attackers to spoof OAuth Client IDs within Microsoft Entra ID, enabling stealthy unauthorized access to cloud environments. The attack targets the OAuth authentication flow in Microsoft's identity platform, posing a threat to organizations relying on Entra ID for cloud access management.",
-      "image": "https://assets.infosecurity-magazine.com/webpage/og/589e1de2-2312-468c-8b0e-c564cf3ef7fd.jpg",
-      "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Fake OAuth client IDs are helping attackers slip past sign-in logs",
-      "url": "https://www.helpnetsecurity.com/2026/07/13/entra-id-oauth-client-id-spoofing/",
-      "source": "Help Net Security",
-      "date": "2026-07-13",
-      "summary": "Attackers targeting Microsoft cloud tenants are spoofing OAuth client IDs during account enumeration attacks to evade standard sign-in telemetry. By falsifying the client_id parameter passed during authentication requests, threat actors can probe accounts while keeping their activity out of the logs defenders typically monitor.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/05/18161426/key.webp",
-      "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Goodbye, Skeleton Keys: Why Machine Identity Broke IAM, and What SPIFFE Is Doing About It",
-      "url": "https://dzone.com/articles/goodbye-skeleton-keys-why-machine-identity-broke-i",
-      "source": "Dzone.com",
-      "date": "2026-07-13",
-      "summary": "An article examines how machine identity failures contributed to a breach, using Cloudflare's forensic timeline of the Salesloft Drift incident as a case study. The piece focuses on SPIFFE (Secure Production Identity Framework for Everyone) as a proposed solution to machine identity management weaknesses in IAM architectures.",
-      "image": "https://dz2cdn1.dzone.com/storage/article-thumb/19087983-thumb.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Trust-based cyberattacks replacing traditional hacking as biggest threat to financial institutions: Report",
-      "url": "https://www.thehindubusinessline.com/info-tech/trust-based-cyberattacks-replacing-traditional-hacking-as-biggest-threat-to-financial-institutions-report/article71216757.ece",
-      "source": "BusinessLine",
-      "date": "2026-07-13",
-      "summary": "A new report identifies trust-based cyberattacks as the leading threat to financial institutions, surpassing traditional hacking methods. Attackers are exploiting trust mechanisms in biometric onboarding, partner application integrations, AI decision-making systems, and real-time payment infrastructure targeting the BFSI sector.",
-      "image": "https://bl-i.thgim.com/public/incoming/ldfd0y/article71216789.ece/alternates/LANDSCAPE_1200/IMG_iStock-1392726249.jp_2_1_4S9U1A1N.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Windows settings backup becomes enabled by default in Windows 11 26H2",
-      "url": "https://4sysops.com/archives/windows-settings-backup-becomes-enabled-by-default-in-windows-11-26h2/",
-      "source": "4sysops.com",
-      "date": "2026-07-11",
-      "summary": "Microsoft is enabling Windows settings backup by default in Windows 11 26H2, affecting Microsoft Entra-joined and hybrid-joined enterprise devices. The change automatically backs up user settings using Microsoft Entra credentials, representing a default configuration shift for enterprise device management.",
-      "image": "https://4sysops.com/wp-content/uploads/2026/07/windows-settings-backup-becomes-enabled-by-default-in-windows-11-26h2.png",
-      "importance": 4,
-      "paywall": false
-    },
-    {
-      "title": "More than half of enterprises report AI agent security incidents, and most are sharing credentials across bots",
-      "url": "https://cryptobriefing.com/enterprise-ai-agent-security-incidents/",
-      "source": "Crypto Briefing",
-      "date": "2026-07-10",
-      "summary": "A new report finds that more than half of enterprises have experienced security incidents related to AI agents, with most organizations sharing credentials across bots. The findings point to gaps in identity management practices for non-human identities and AI agents, a growing concern in IAM.",
-      "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/07/10153921/ai-agent-security-incidents-hit-50-of-enterprises-in-2026-800x420.jpeg",
       "importance": 7,
       "paywall": false
     },
@@ -288,7 +218,7 @@
       "url": "https://www.darkreading.com/identity-access-management-security/ai-agents-new-kind-identity-most-organizations-not-ready",
       "source": "Dark Reading",
       "date": "2026-07-09",
-      "summary": "The article addresses the emerging challenge of managing AI agents as a distinct identity type within enterprise IAM frameworks. It argues that traditional approaches like service accounts or API tokens are insufficient for AI agents, which require a fundamentally different identity and access management model.",
+      "summary": "The article addresses the emerging challenge of managing AI agents as a distinct identity type within IAM frameworks. It argues that traditional identity constructs like service accounts and API tokens are insufficient for governing AI agent identities, requiring new approaches to authentication and authorization.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt64d615142d7be882/6882572f618f869f048e5227/Agentic_AI_(1800)_Pattara_Alamy.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -298,29 +228,9 @@
       "url": "https://www.darkreading.com/cyber-risk/ai-gateways-keys-kingdom",
       "source": "Dark Reading",
       "date": "2026-07-09",
-      "summary": "A cryptomining incident demonstrated how AI gateways can be exploited to gain access to AI models, cloud infrastructure, and IAM data. The attack highlights AI gateways as a potential attack vector that exposes identity and access management systems to threat actors.",
+      "summary": "A cryptomining incident demonstrated how AI gateways can be exploited to gain access to AI models, cloud infrastructure, and IAM data. The attack vector highlights emerging security risks where AI gateway compromises can expose identity and access management systems and credentials.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt5cf949a2c62ba749/6a4eb1ca6ed98610b4607ce7/aigateway_Daniel_Pinkpank_shutterstock.jpg?width=720&quality=80&disable=upscale",
       "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Lone Attacker Uses AI to Breach AWS Cloud Environment in 72 Hours",
-      "url": "https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-environment",
-      "source": "Dark Reading",
-      "date": "2026-07-08",
-      "summary": "A lone attacker breached an AWS cloud environment within 72 hours by chaining cloud misconfigurations, stolen credentials, and AI workflows to gain unauthorized access. The attack involved credential theft and exploitation of cloud access weaknesses to extort a large Amazon customer.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt1db73768baa07d9c/6a4eaaf98fda9d47d6942977/Skull_cloud-AscentXmedia_Getty-2271725500.jpg?width=720&quality=80&disable=upscale",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Big Brand Jobs Scam Targets Marketing Pros' Google Accounts",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/big-brand-jobs-scam-marketing-pros-google-accounts",
-      "source": "Dark Reading",
-      "date": "2026-07-07",
-      "summary": "A phishing campaign is targeting marketing professionals with the goal of stealing Google account credentials. The attack uses nested redirects and other evasion tactics to bypass detection mechanisms.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt446e24d69e36537b/6a4d61e6da407598830165a7/phishing-Supatman-Getty-2220462827.jpg?width=720&quality=80&disable=upscale",
-      "importance": 3,
       "paywall": false
     },
     {
@@ -328,7 +238,7 @@
       "url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
       "source": "Krebs on Security",
       "date": "2026-06-23",
-      "summary": "Two Scattered Spider members pleaded guilty in the UK to charges related to the August 2024 cyberattack on Transport for London. Scattered Spider is known for sophisticated social engineering and identity-based attacks, including SIM swapping and phishing to bypass MFA and compromise identity systems.",
+      "summary": "Two Scattered Spider members pleaded guilty in the UK to charges related to an August 2024 cyberattack on Transport for London, on the first day of what was scheduled to be a six-week trial. Scattered Spider is a cybercrime group known for sophisticated social engineering and identity-based attacks, including SIM swapping and phishing to bypass MFA and gain unauthorized access to corporate systems.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -338,9 +248,9 @@
       "url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
       "source": "Krebs on Security",
       "date": "2026-06-01",
-      "summary": "Hackers exploited Meta's AI support assistant bot to bypass account security and reset passwords, temporarily seizing high-profile Instagram accounts including the Obama White House and a U.S. Space Force official. Instructions for manipulating the AI bot to perform unauthorized password resets were distributed via Telegram, enabling the account takeovers.",
+      "summary": "Hackers exploited Meta's AI support assistant bot to reset Instagram account passwords, briefly compromising high-profile accounts including the Obama White House and a U.S. Space Force official. Instructions for manipulating the AI bot to bypass normal authentication and trigger password resets were shared on Telegram, enabling the account takeovers.",
       "image": null,
-      "importance": 6,
+      "importance": 7,
       "paywall": false
     }
   ]
