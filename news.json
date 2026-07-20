@@ -1,12 +1,12 @@
 {
-  "updated": "July 19, 2026 at 06:08 UTC",
+  "updated": "July 20, 2026 at 06:26 UTC",
   "top_stories": [
     {
       "title": "Microsoft Makes Passkeys Default: What Identity And Security Leaders Need To Do",
       "url": "https://www.forrester.com/?p=300966",
       "source": "Forrester.com",
       "date": "2026-07-16",
-      "summary": "Microsoft announced that passkeys will become the default authentication method for all Microsoft Entra ID users starting September 1, 2026. The change will automatically enable passkey authentication, marking a significant shift in phishing-resistant MFA adoption across the platform.",
+      "summary": "Microsoft announced that passkeys will become the default authentication method for all users in Microsoft Entra ID starting September 1, 2026. The change will automatically enable passkey authentication, marking a significant shift in phishing-resistant MFA adoption across the Microsoft identity platform.",
       "image": "https://go.forrester.com/wp-content/uploads/2026/07/Microsoft-Makes-Passkeys-Default-What-Identity-And-Security-Leaders-Need-To-Do-Now.jpg",
       "importance": 9,
       "paywall": false
@@ -16,7 +16,7 @@
       "url": "https://www.darkreading.com/identity-access-management-security/identity-attacks-overtake-exploits-top-ransomware-cause",
       "source": "Dark Reading",
       "date": "2026-07-15",
-      "summary": "Identity-based attacks have surpassed exploits as the leading root cause of ransomware incidents. MFA was present in 97% of credential-based attacks yet failed to prevent compromise, highlighting gaps in authentication controls.",
+      "summary": "Identity-based attacks have surpassed exploits as the leading root cause of ransomware incidents. MFA was present in 97% of credential-based attacks yet failed to prevent compromise, highlighting critical gaps in authentication defenses.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltde006b8b5b1c0556/6a57e5114b599fb58be63897/biometric_fingerprint-da-kuk-getty-2258608618.jpg?width=720&quality=80&disable=upscale",
       "importance": 8,
       "paywall": false
@@ -26,7 +26,7 @@
       "url": "https://www.helpnetsecurity.com/2026/07/17/1password-anthropic-claude-integration/",
       "source": "Help Net Security",
       "date": "2026-07-17",
-      "summary": "1Password has launched a beta integration called \"1Password for Claude\" that enables Anthropic's Claude AI assistant to authenticate to websites during browser tasks without exposing user credentials or secrets. The integration works across individual, family, and business 1Password plans with Claude Pro, Max, Team, and Enterprise subscribers on macOS using Claude Desktop and the 1Password browser extension.",
+      "summary": "1Password has launched a beta integration called \"1Password for Claude\" that allows Anthropic's Claude AI assistant to authenticate into websites during browser tasks without exposing user credentials or secrets. The integration works across individual, family, and business 1Password plans and requires Claude Desktop on macOS, the 1Password desktop app, and the 1Password browser extension.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/07/17110332/1password-anthopic.webp",
       "importance": 8,
       "paywall": false
@@ -36,7 +36,7 @@
       "url": "https://thenextweb.com/news/oak-60m-seed-ai-native-identity-platform/",
       "source": "The Next Web",
       "date": "2026-07-16",
-      "summary": "Oak, an Israeli identity startup, has emerged from stealth with a $60M seed round to build a unified identity system covering users, machines, and AI agents. The company is targeting the growing challenge of managing non-human identities alongside traditional user identities in enterprise environments.",
+      "summary": "Oak, an Israeli identity startup, emerged from stealth with a $60M seed round to build a unified identity system covering human users, machines, and AI agents. The company is positioning itself in the identity governance and access management space, targeting the growing challenge of managing non-human identities alongside traditional user identities.",
       "image": "https://media.thenextweb.com/2026/07/Oak-team.avif",
       "importance": 8,
       "paywall": false
@@ -46,7 +46,7 @@
       "url": "https://thehackernews.com/2026/07/n8n-token-exchange-flaw-could-let.html",
       "source": "The Hacker News",
       "date": "2026-07-16",
-      "summary": "A token exchange vulnerability in n8n's workflow automation platform allowed attackers to log in as other users by exploiting improper JWT validation on Enterprise instances configured with multiple external token issuers. The flaw occurred because n8n matched incoming JWTs to local users using only the `sub` claim while ignoring the `iss` (issuer) claim, enabling cross-issuer account takeover without knowing the victim's password.",
+      "summary": "A token exchange vulnerability in n8n's workflow automation platform allowed attackers to authenticate as other users by exploiting improper JWT validation on Enterprise instances with multiple external token issuers. The flaw caused the system to match incoming JWTs on the `sub` claim alone while ignoring the `iss` (issuer) claim, enabling cross-issuer account takeover without requiring the victim's credentials.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1Pvezsft8WXzYy1Lw3zKDZrkf0TNZfj95rzTnuQgzbJuztRDNDFK35ahO9UfhNJOicjjuzyZGFCtC_idBl8vgNdw4kzfeYFo6LwUur66S5qUTO2Bl3WVLwCDWoDTnw4dlZdj_ZQ1T2JcG1dWfJeoO3WDZs94EVm9z0hZ8VPL36KDpaAmw7fH9hSWSSaw/s1600/n8n-main.jpg",
       "importance": 7,
       "paywall": false
@@ -54,11 +54,21 @@
   ],
   "news": [
     {
+      "title": "Week in review: High severity WordPress vulnerabilities, fake OAuth IDs bypass sign-in logs",
+      "url": "https://www.helpnetsecurity.com/2026/07/19/week-in-review-oauth-client-ids-spoofed-sonicwall-sma-appliances-targeted-in-zero-day-attacks/",
+      "source": "Help Net Security",
+      "date": "2026-07-19",
+      "summary": "A weekly security roundup covers a technique where fake OAuth client IDs are used to bypass sign-in logs, along with WordPress vulnerabilities and other security news. The OAuth bypass item is directly relevant to IAM professionals as it involves identity federation and authentication audit trail evasion.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2023/12/01112506/cybersecurity_week_in_review2.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
       "title": "Microsoft warns of surge in ACR Stealer attacks on customers",
       "url": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/",
       "source": "Bleeping Computer",
       "date": "2026-07-18",
-      "summary": "Microsoft has observed a surge in ACR Stealer malware attacks targeting enterprise customers, with the malware stealing browser-stored passwords, authentication tokens, and sensitive documents. The campaign directly targets authentication credentials and session tokens, posing risks to identity infrastructure and access management systems.",
+      "summary": "Microsoft has observed a surge in ACR Stealer malware attacks targeting enterprise customers, with the malware focused on stealing browser-stored passwords and authentication tokens. The campaign directly targets credential and session token theft, undermining browser-based authentication mechanisms used across enterprise environments.",
       "image": "https://www.bleepstatic.com/content/hl-images/2024/06/18/hand.jpg",
       "importance": 6,
       "paywall": false
@@ -68,28 +78,18 @@
       "url": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html",
       "source": "The Hacker News",
       "date": "2026-07-18",
-      "summary": "Okta's Red Team discovered and reported a denial-of-service vulnerability in OpenSSL, dubbed \"HollowByte,\" which allows an 11-byte TLS request to cause an unpatched server to reserve up to 131 KB of memory indefinitely. OpenSSL shipped the fix in June without a CVE, advisory, or changelog entry, prompting Okta to publish its own disclosure after finding the issue on glibc systems.",
+      "summary": "Okta's Red Team discovered and reported a denial-of-service vulnerability in OpenSSL, dubbed \"HollowByte,\" which allows an 11-byte TLS request to cause an unpatched server to allocate up to 131 KB of memory that is never released until the process restarts. OpenSSL quietly shipped a fix in June without a CVE, advisory, or changelog entry, prompting Okta to publish its own disclosure.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhk66eU1Srifu4Rdpf7MZDjg3GdNMtQK6ZW-F283kxhZ7Z0W_8nWNJynZiQ7n0ov9OLNm315P4942h3-unMI0WZ1-LH8tdQ6sv2o6q0TxKT-bVKewzkQULKKXSJOee_oANuI3YquoDgSPHsPeXEdQcFRoy8czRQimH_f0sNHJ55-5LA153sQgUPkpBBEVE/s1600/openssl.jpg",
       "importance": 6,
       "paywall": false
     },
     {
-      "title": "The script, not the voice, is what makes AI voice phishing work",
-      "url": "https://www.helpnetsecurity.com/2026/07/17/research-ai-voice-phishing/",
-      "source": "Help Net Security",
-      "date": "2026-07-17",
-      "summary": "Researchers from Harvard Kennedy School, Meta, and other institutions conducted a study with 4,100 US adults testing AI voice phishing susceptibility using six commercial voice systems and human callers. The findings indicate that the persuasiveness of vishing attacks stems from the script content rather than voice quality, with the scenario involving a password reset request being a central test case.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/07/15110755/voice-1500.webp",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens",
-      "url": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
-      "source": "The Hacker News",
-      "date": "2026-07-17",
-      "summary": "A Go-based botnet named NadMesh has been discovered actively scanning for exposed AI services to harvest cloud credentials, with the operator's own dashboard claiming 3,811 unique AWS keys collected. The botnet targets misconfigured AI tools including ComfyUI, Ollama, n8n, Open WebUI, Langflow, and Gradio to extract AWS keys and Kubernetes tokens.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhm0yasBDyeN2fn4q4y7Zs2Y6FvTDTIrI3xi4iN2ZBBUIBoCxLshnVvYc8OPDOrpSuHiyUNO0MLi-50Kf05SxJSo3m1n-PDfKnM3ztP48lWYBz_2IDzR2gNQ0D3-AzQcR6ZJC9qvBgM5wX3RCIaw6mAA7zDh3xAWFFoHScqZuqKSifh-FUr8Qum5dYGQPw/s1600/botnet-malware.jpg",
+      "title": "OpenSSL Fixes HollowByte Memory Exhaustion Bug",
+      "url": "https://securityaffairs.com/195588/hacking/openssl-fixes-hollowbyte-memory-exhaustion-bug.html",
+      "source": "Securityaffairs.com",
+      "date": "2026-07-18",
+      "summary": "Okta's Red Team discovered and disclosed a denial-of-service vulnerability in OpenSSL, named HollowByte, involving an 11-byte flaw that allows remote attackers to exhaust server memory. The vulnerability has been patched by OpenSSL following Okta's responsible disclosure.",
+      "image": "https://securityaffairs.com/wp-content/uploads/2015/03/openssl.png",
       "importance": 6,
       "paywall": false
     },
@@ -98,8 +98,28 @@
       "url": "https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html",
       "source": "The Hacker News",
       "date": "2026-07-17",
-      "summary": "ACR Stealer, an infostealer active since 2024, is stealing browser passwords, session tokens, and Microsoft 365 files including from OneDrive and SharePoint. The malware uses ClickFix social engineering techniques where users are tricked into manually executing malicious commands, bypassing traditional security controls to harvest authentication credentials and live session tokens.",
+      "summary": "ACR Stealer, an infostealer active since 2024, is being used to steal browser passwords, session tokens, and Microsoft 365 documents including files from OneDrive and SharePoint. The malware is delivered via ClickFix lures that trick users into manually executing malicious commands, with Microsoft's Defender Experts team documenting two delivery chains.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj5a79jcbSLlpVrk_Tkl4E0wiB47Zu2a7V3UrYOddEgvO0bNMVU1VzwmLIK-Ac8I71znO7vmH7QSDdF9cg4-VeEzLo_7InYxfc5yaXG8Ziv-nVAK1qRCkTx73CVKtLOESbkL2yUF9srs53F9hLAkXt9hsiSTjntbS3ThRVi3ApZniyKapqVAgz9PEuW9o/s1600/clicks.png",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Kuehn Law Encourages Investors of SailPoint, Inc. to Contact Law Firm",
+      "url": "https://www.globenewswire.com/news-release/2026/07/17/3329286/0/en/Kuehn-Law-Encourages-Investors-of-SailPoint-Inc-to-Contact-Law-Firm.html",
+      "source": "GlobeNewswire",
+      "date": "2026-07-17",
+      "summary": "Kuehn Law, PLLC is investigating whether SailPoint, Inc. officers and directors breached their fiduciary duties to shareholders. The shareholder litigation firm is encouraging SailPoint investors to contact them regarding the investigation.",
+      "image": "https://ml.globenewswire.com/Resource/Download/83bde11e-8ae3-488a-a2c9-2ce956c44090",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "Two Scattered Spider Hackers Get 5.5 Years Each for £29 Million TfL Hack",
+      "url": "https://thehackernews.com/2026/07/two-scattered-spider-hackers-get-55.html",
+      "source": "The Hacker News",
+      "date": "2026-07-16",
+      "summary": "Two members of the Scattered Spider hacking group were sentenced to 5.5 years each for the 2024 cyberattack on Transport for London that compromised 148 systems. The attack forced all 27,000 TfL employees to reset their passwords in person, highlighting the scale of credential compromise involved.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcPDzKH0EAg764dc_I7qiwOAUUcWqBwDJcoojyb1-SwTOL5Gv24t1oGcIxnW8NkJjgXEadKJTIkcoN7nrFzrPk87AhHJj9Z5hPGk-vHGEkIppuyKJ-Sx_2M5aLF9z1VbD7G3uzf_kn_Wy1BYJ_R3RWwqM376W1hkWmfOdXYhlzCSqzSBRcJSbzGvFMkMg/s1600/Scattered-Spider.jpg",
       "importance": 6,
       "paywall": false
     },
@@ -118,7 +138,7 @@
       "url": "https://www.c-sharpcorner.com/article/building-secure-apis-with-oauth-2-1-and-openid-connect/",
       "source": "C-sharpcorner.com",
       "date": "2026-07-16",
-      "summary": "The article covers API security implementation using OAuth 2.1 and OpenID Connect, addressing authentication and authorization flows, token management, PKCE, and security best practices. It serves as a technical guide for IAM professionals working with modern authentication protocols and API access control.",
+      "summary": "An educational resource covers API security implementation using OAuth 2.1 and OpenID Connect, addressing authentication and authorization flows. The content includes token management, PKCE (Proof Key for Code Exchange), and best practices for securing APIs.",
       "image": "https://www.c-sharpcorner.com/images/csharp-corner-new.png",
       "importance": 7,
       "paywall": false
@@ -128,7 +148,7 @@
       "url": "https://www.tribuneindia.com/news/business/esds-launches-swaraj-nandi-and-swaraj-hansa-two-sovereign-enterprise-security-platforms-built-entirely-in-india/",
       "source": "The Tribune India",
       "date": "2026-07-16",
-      "summary": "ESDS has launched two enterprise security platforms called Swaraj Nandi and Swaraj Hansa, described as sovereign, India-built solutions targeting privileged access management and security monitoring. Swaraj Nandi addresses privileged access governance while Swaraj Hansa focuses on security alert management and operations.",
+      "summary": "ESDS launched two enterprise security platforms, Swaraj Nandi (focused on privileged access management) and Swaraj Hansa (security operations/alerting), built entirely in India as sovereign solutions. The platforms target privileged access governance and security monitoring, positioning as domestic alternatives for Indian enterprises.",
       "image": "https://www.tribuneindia.com/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9tZWRpYTk0NWUwNGEwLTgxMTItMTFmMS04YWQ1LTVkY2Y0NzZmMmZlMC5qcGc=",
       "importance": 6,
       "paywall": false
@@ -138,7 +158,7 @@
       "url": "https://www.microsoft.com/en-us/security/blog/2026/07/16/least-privilege-for-ai-agents-identity-access-and-tool-binding/",
       "source": "Microsoft.com",
       "date": "2026-07-16",
-      "summary": "Microsoft published guidance on applying least privilege principles to AI agents, covering identity, access controls, and tool binding. The article addresses how autonomous AI agents require strong identity, access management, and auditing controls to remain secure.",
+      "summary": "Microsoft published guidance on applying least privilege principles to AI agents, covering identity, access controls, and tool binding. The article addresses how autonomous AI agents require strong identity verification, scoped permissions, and auditing controls to remain secure.",
       "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/03/MS_Actional-Insights_AI-agents.jpg",
       "importance": 7,
       "paywall": true
@@ -148,7 +168,7 @@
       "url": "https://www.prnewswire.com/news-releases/keeper-security-closes-the-standing-privilege-gap-in-cloud-identity-with-keeper-privileged-cloud-302827086.html",
       "source": "PRNewswire",
       "date": "2026-07-16",
-      "summary": "Keeper Security launched Keeper Privileged Cloud, a new just-in-time access capability within its KeeperPAM platform. The feature grants privileged credentials only when needed and automatically revokes them when sessions expire, addressing standing privilege risks in cloud identity environments.",
+      "summary": "Keeper Security has launched Keeper Privileged Cloud, a new just-in-time access capability within its KeeperPAM platform. The feature grants privileged credentials only when needed and automatically revokes them when a session expires, addressing standing privilege risks in cloud identity environments.",
       "image": "https://mmx.prnewswire.com/media/MS1864138/Keeper-logo-full-color-002.jpg?id=OA2765894&p=facebook",
       "importance": 7,
       "paywall": false
@@ -158,7 +178,7 @@
       "url": "https://4sysops.com/archives/microsoft-introduces-registry-policy-to-automate-windows-sso-consent/",
       "source": "4sysops.com",
       "date": "2026-07-16",
-      "summary": "Microsoft has introduced a registry-based policy control that allows IT administrators to automatically bypass SSO permission prompts on managed Windows 11 devices. The feature targets enterprise environments running specific Windows 11 versions, enabling automated SSO consent without user interaction.",
+      "summary": "Microsoft has introduced a registry-based control allowing IT administrators to automatically bypass SSO permission prompts on managed Windows 11 devices. The feature targets enterprise environments running specific Windows 11 versions, enabling automated consent management for single sign-on workflows.",
       "image": "https://4sysops.com/wp-content/uploads/2026/07/microsoft-introduces-registry-policy-to-automate-windows-sso-consent.webp",
       "importance": 7,
       "paywall": false
@@ -168,7 +188,7 @@
       "url": "https://www.helpnetsecurity.com/2026/07/16/windows-sso-policy-admin-control/",
       "source": "Help Net Security",
       "date": "2026-07-16",
-      "summary": "Microsoft is introducing a new registry-based policy allowing IT administrators to automatically accept Windows SSO permissions on Windows 11 versions 24H2 and 25H2 devices managed with Microsoft Entra ID. The policy applies to managed devices with work or school accounts, while personal Microsoft account users and unmanaged devices remain outside its scope.",
+      "summary": "Microsoft is introducing a registry-based policy allowing IT administrators to automatically accept Windows SSO permission prompts on Windows 11 versions 24H2 and 25H2 devices managed through Microsoft Entra ID. The policy applies specifically to Entra ID-managed devices, excluding personal Microsoft accounts and unmanaged devices.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/10/01123227/windows-3d.webp",
       "importance": 7,
       "paywall": false
@@ -178,9 +198,9 @@
       "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
       "source": "Krebs on Security",
       "date": "2026-07-13",
-      "summary": "CISA released a postmortem on a data breach in which a contractor exposed dozens of internal credentials, including AWS GovCloud keys, in a public GitHub repository for nearly six months. The incident highlights credential management failures and gaps in secrets detection practices relevant to IAM and privileged access management teams.",
+      "summary": "CISA published a postmortem report on a data breach where a contractor accidentally exposed dozens of internal CISA credentials, including AWS GovCloud keys, in a public GitHub repository for nearly six months. The incident highlights credential management failures and access control gaps, with security experts drawing lessons applicable to all security teams managing sensitive credentials.",
       "image": null,
-      "importance": 6,
+      "importance": 7,
       "paywall": false
     },
     {
@@ -188,7 +208,7 @@
       "url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
       "source": "Krebs on Security",
       "date": "2026-06-23",
-      "summary": "Two members of the Scattered Spider cybercrime group pleaded guilty in the UK to charges related to an August 2024 cyberattack on Transport for London. Scattered Spider is known for sophisticated social engineering and identity-based attacks, including SIM swapping and MFA bypass techniques used to compromise enterprise systems.",
+      "summary": "Two Scattered Spider members pleaded guilty in the UK to charges related to the August 2024 cyberattack on Transport for London. Scattered Spider is a cybercrime group known for social engineering and identity-based attacks, including SIM swapping and phishing to bypass MFA and compromise accounts.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -198,9 +218,9 @@
       "url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
       "source": "Krebs on Security",
       "date": "2026-06-01",
-      "summary": "Hackers exploited Meta's AI support assistant bot to reset Instagram account passwords, briefly seizing high-profile accounts including the Obama White House and U.S. Space Force's Chief Master Sergeant. Instructions for the social engineering attack were distributed via Telegram, enabling unauthorized account takeovers by manipulating the AI chatbot into performing password resets.",
+      "summary": "Hackers exploited Meta's AI support assistant chatbot to reset Instagram account passwords and seize accounts, including those of the Obama White House and a U.S. Space Force official. Instructions for manipulating the AI bot to bypass normal authentication and password reset controls were shared on Telegram.",
       "image": null,
-      "importance": 7,
+      "importance": 6,
       "paywall": false
     }
   ]
