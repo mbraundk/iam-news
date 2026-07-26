@@ -1,12 +1,12 @@
 {
-  "updated": "July 25, 2026 at 05:50 UTC",
+  "updated": "July 26, 2026 at 06:14 UTC",
   "top_stories": [
     {
       "title": "Default Azure Automation Setting Enables Cross-Tenant Identity Takeover",
       "url": "https://www.darkreading.com/cloud-security/default-azure-automation-setting-cross-tenant-identity-takeover",
       "source": "Dark Reading",
       "date": "2026-07-24",
-      "summary": "Microsoft fixed a vulnerability in Azure Automation where a public-by-default configuration combined with a chain of code flaws could allow attackers to take over another tenant's identity. The flaw enabled potential unauthorized access to other tenants' data, credentials, and cloud workloads through cross-tenant identity compromise.",
+      "summary": "Microsoft fixed a vulnerability in Azure Automation where a public-by-default configuration combined with a chain of code flaws could allow attackers to take over another tenant's identity. The flaw exposed cross-tenant access to data, credentials, and cloud workloads, representing a significant identity and authorization risk in Microsoft's cloud platform.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltee2b6459a49ecef3/64f171e51bf536263bbf9b29/Azure_SOPA_Images_Limited_Alamy.jpg?width=720&quality=80&disable=upscale",
       "importance": 8,
       "paywall": false
@@ -26,7 +26,7 @@
       "url": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html",
       "source": "The Hacker News",
       "date": "2026-07-24",
-      "summary": "Researchers H0j3n and Aniq Fakhrul published a working exploit called Certighost on July 24, allowing low-privileged Active Directory users to obtain a Domain Controller certificate and authenticate as that machine. The exploit leverages Domain Controller replication rights to retrieve the krbtgt secret via DCSync, enabling full domain compromise through Active Directory Certificate Services misuse.",
+      "summary": "Researchers H0j3n and Aniq Fakhrul published a working exploit called Certighost on July 24 that allows low-privileged Active Directory users to obtain a certificate for a Domain Controller and authenticate as that machine. The exploit leverages Domain Controller replication rights to retrieve the krbtgt secret via DCSync, enabling full domain compromise through Active Directory Certificate Services misuse.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdJCaF3dwhncVhtS_dn9W8CUCwJSHRmtCVTK5_fXnS6RpDI4GaVTcSVoXvmo_JgxUyd-H5G3yQaRAg3Ahp__DMlq-M5r9ejhJTdk5QlVuv16HVXDWV7e3HJAijAVBRumD3XSyeyQ1O477nfXFfTvCwgFeXlYF8QIdfTN4mlYAu28JGFN7lOWTEoKwlG9g/s1600/certighost.jpg",
       "importance": 8,
       "paywall": false
@@ -36,7 +36,7 @@
       "url": "https://prtimes.jp/main/html/rd/p/000000188.000063011.html",
       "source": "Prtimes.jp",
       "date": "2026-07-24",
-      "summary": "Okta announced new features designed to secure AI agents at runtime and automate governance for agentic workflows. The new capabilities include Agent Gateway, Agent-to-Agent Connections, and Resource Access Certifications for AI Agents, targeting enterprise environments running multi-agent AI workflows.",
+      "summary": "Okta has announced new features designed to secure AI agents at runtime and automate governance, including Agent Gateway, Agent-to-Agent Connections, and Resource Access Certifications for AI Agents. These capabilities aim to secure AI agent interactions with enterprise tools and enable multi-agent workflow execution with continuous governance automation.",
       "image": "https://prcdn.freetls.fastly.net/release_image/63011/188/63011-188-1a787fb513fad3a14f5fa1ffe23c1827-1790x1090.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
       "importance": 8,
       "paywall": false
@@ -46,7 +46,7 @@
       "url": "https://www.techradar.com/pro/microsoft-is-making-passkeys-the-default-authentication-process-for-businesses",
       "source": "TechRadar",
       "date": "2026-07-23",
-      "summary": "Microsoft is making passkeys the default authentication method for businesses, moving away from SMS and phone call-based authentication. The company is actively urging enterprise customers to adopt passkeys, signaling a significant shift in its authentication strategy for business users.",
+      "summary": "Microsoft is making passkeys the default authentication method for businesses, moving away from SMS and phone call-based authentication. The company states that SMS and phone call authentication are no longer sufficient and is urging enterprises to adopt passkeys as their standard authentication process.",
       "image": "https://cdn.mos.cms.futurecdn.net/jiFBDhzqCxAkgFdQnekxzb-1920-80.png",
       "importance": 8,
       "paywall": false
@@ -54,11 +54,21 @@
   ],
   "news": [
     {
+      "title": "CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking",
+      "url": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
+      "source": "The Hacker News",
+      "date": "2026-07-25",
+      "summary": "CTM360 research reveals that phishing campaigns targeting insurance and financial institutions have evolved from credential harvesting to real-time account hijacking techniques. The attacks bypass traditional authentication by intercepting sessions in real time rather than collecting credentials for later use.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiH4zKTZ_Lk6D_VXZEKWwF1k02-iDwrNY9MH7zrX_sotEB_f9m7-qvQkAbfTvW5YQyBVlVdSS3D4_0ky60KOzTABlPuPKEpDXwpnWO3eTtud33d8oxf54HilW5EgDJPwo0ea4rktguzjfMBnRy0yLGch1l2vLdY4GnG12imJqBIdZzhYRb04XcVP67KaxPM/s1600/insuretrap.jpg",
+      "importance": 4,
+      "paywall": false
+    },
+    {
       "title": "Hackers hijack hotel Wi-Fi DNS to steal Microsoft 365 accounts",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/",
       "source": "Bleeping Computer",
       "date": "2026-07-24",
-      "summary": "Hackers are modifying DNS settings on hotel and conference center Wi-Fi devices to redirect users to fake Microsoft 365 login pages for credential theft. The attack targets Microsoft 365 accounts by intercepting authentication flows through DNS hijacking on shared network infrastructure.",
+      "summary": "Hackers are manipulating DNS settings on hotel and conference center Wi-Fi devices to redirect users to fraudulent Microsoft 365 login pages for credential theft. The attack targets Microsoft 365 authentication flows by intercepting users before they reach legitimate login pages.",
       "image": "https://www.bleepstatic.com/content/hl-images/2025/11/05/Credit-card-hacker.jpg",
       "importance": 7,
       "paywall": false
@@ -68,7 +78,7 @@
       "url": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
       "source": "Bleeping Computer",
       "date": "2026-07-24",
-      "summary": "Chick-fil-A confirmed a credential stuffing attack on its website and mobile app between June 17 and June 19, affecting over 13,000 customer accounts. The breach involved attackers using previously compromised credentials to gain unauthorized access to customer accounts.",
+      "summary": "Chick-fil-A confirmed a credential stuffing attack between June 17-19 that compromised over 13,000 customer accounts on its website and mobile app. The incident involved attackers using previously stolen credentials to gain unauthorized access to customer accounts.",
       "image": "https://www.bleepstatic.com/content/hl-images/2026/07/22/Chick-fil-A_headpic.jpg",
       "importance": 5,
       "paywall": false
@@ -78,7 +88,7 @@
       "url": "https://www.helpnetsecurity.com/2026/07/24/meta-facebook-verified-badge-selfie-verification/",
       "source": "Help Net Security",
       "date": "2026-07-24",
-      "summary": "Meta has launched Facebook Verified, a free identity verification badge for users who complete a selfie-based identity check. The feature is designed to distinguish real human accounts from bots or AI-generated profiles on Marketplace, dating, and Group features.",
+      "summary": "Meta has introduced Facebook Verified, a free badge for users who complete identity verification via a selfie check to confirm they are real people rather than bots or AI-generated accounts. The verification applies to Marketplace listings, dating profiles, and Group conversations as part of Meta's effort to address AI-generated identity fraud on its platform.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/04/24111457/meta-place.webp",
       "importance": 6,
       "paywall": false
@@ -88,7 +98,7 @@
       "url": "https://www.helpnetsecurity.com/2026/07/24/google-selfie-video-sign-in-verification/",
       "source": "Help Net Security",
       "date": "2026-07-24",
-      "summary": "Google has introduced a selfie video sign-in verification method that uses recorded video to confirm an account owner is a real person rather than a bot or automated program. The feature is stored securely with user consent, can be deleted at any time, and is not universally available across all regions, accounts, or devices.",
+      "summary": "Google has introduced a selfie video sign-in verification method that records a short video to confirm an account owner is a real person rather than a bot or automated program. The feature is consent-based, stores the video securely within the Google Account, allows deletion at any time, and is not available for all regions, accounts, or devices.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2025/07/03172129/google-security-1100.webp",
       "importance": 7,
       "paywall": false
@@ -98,7 +108,7 @@
       "url": "https://www.helpnetsecurity.com/2026/07/24/governing-al-agents-at-scale-video/",
       "source": "Help Net Security",
       "date": "2026-07-24",
-      "summary": "Enterprise AI leaders from ZoomInfo, Docusign, and AppViewX discussed governing agent identities at scale without building a parallel identity stack. The session covered how to structure AI Centers of Excellence and manage AI agent identity governance within existing enterprise identity frameworks.",
+      "summary": "Enterprise AI leaders from ZoomInfo, Docusign, and AppViewX shared approaches to governing agent identities at scale without building parallel identity stacks. The discussion covered AI Centers of Excellence operations and strategies for managing non-human/agent identities within existing identity infrastructure.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/07/23141938/appviewx-video.webp",
       "importance": 7,
       "paywall": false
@@ -108,7 +118,7 @@
       "url": "https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html",
       "source": "The Hacker News",
       "date": "2026-07-24",
-      "summary": "The article addresses the challenge of enforcing least privilege and access controls for AI agents, examining approaches including identity-layer access controls and prompt filtering. The piece focuses on how security teams can move beyond visibility into active enforcement of what AI agents are permitted to do.",
+      "summary": "The article addresses the challenge of enforcing least privilege and access controls for AI agents, examining approaches including identity-layer access controls. It discusses how AI agent security requires moving beyond visibility toward active enforcement of authorization boundaries.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrpwR_tXhzpbt7F1FuALLW8MYrTuwWibwuWjsRDROepxJKdbvSNlbcZLHbL54SmyG_Q_oYFTjI5fqkudKNtfJkg68jAz4STq0xXHEOXnMeOq7fxPz2UslZesQBy_pWKn3IKYNEbltVsjbZDypkqi56JOeznD5hcGEKO6yB-qS2l5cPHlcX0cli_WOHNGM/s1600/pixer.jpg",
       "importance": 6,
       "paywall": false
@@ -118,9 +128,69 @@
       "url": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
       "source": "The Hacker News",
       "date": "2026-07-24",
-      "summary": "A Russian state-sponsored espionage group exploited a zero-day vulnerability in Zimbra's webmail client to steal emails, browser-saved passwords, and two-factor authentication recovery codes from Western organizations. The NSA and CISA published an advisory on the campaign, which required only opening a malicious message to trigger the payload targeting 90 days of email history and full email directories.",
+      "summary": "A Russian state-sponsored espionage group exploited a zero-day vulnerability in Zimbra's webmail client to steal emails, browser-saved passwords, and two-factor authentication recovery codes from Western targets. The NSA and CISA published a joint advisory about the campaign, which required only opening a malicious message to trigger the payload targeting the last 90 days of email and full directory contents.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXkCZuPeRyg1ChSuRUngYAxHTfN5dCHgGrSaCg3hA40XvmX2vRmKxgGJ7Pzli72_i9XK9XgCQhhRNK5dE3XJ_EklUH_Nzoqx4YLy7NeKSHB4RCd4KkdhrCB1vdEEcGsgnzumTMwi3_J4BxsGc3t0pjb2mhjkHfBcF5PDUqTe9F0wZPaC94Y6AwMXICZ9E/s1600/zimbra-exploit.jpg",
       "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "World Foundation raises $52 million in token sale as proof-of-human demand accelerates",
+      "url": "https://thenextweb.com/news/world-foundation-52-million-token-sale-proof-of-human-ai/",
+      "source": "The Next Web",
+      "date": "2026-07-24",
+      "summary": "World Foundation raised $52 million in a token sale led by Pantera Capital to expand World ID, an iris-scan-based human verification system. The funding will support broader deployment of the biometric proof-of-human identity platform.",
+      "image": "https://media.thenextweb.com/2026/07/world-foundation-52-million-token-sale-proof-of-human-ai.avif",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "CISO's guide to privileged identity management",
+      "url": "https://www.techtarget.com/searchsecurity/tip/CISOs-guide-to-privileged-identity-management",
+      "source": "Techtarget.com",
+      "date": "2026-07-24",
+      "summary": "The article presents a CISO-focused guide on privileged identity management, addressing the management of standing access privileges in the context of AI-era security. The piece covers controlling access for both human and non-human identities accessing systems and data.",
+      "image": "https://www.techtarget.com/rms/onlineimages/security_a296619547.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "World Foundation Raises $52.5M to Scale Sam Altman’s ‘Proof of Human’ ID",
+      "url": "https://decrypt.co/374216/world-foundation-raises-52-5m-to-scale-sam-altmans-proof-of-human-id",
+      "source": "Decrypt",
+      "date": "2026-07-24",
+      "summary": "World Foundation raised $52.5M in a token sale led by Pantera Capital to scale Sam Altman's biometric identity network. The funding will support expansion of World's \"proof of human\" ID system, which uses iris-scanning orbs to distinguish humans from AI agents.",
+      "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/07/world-worldcoin-wld-orb-decrypt-style-1-gID_7.jpg",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "Hotel Wi-Fi Routers Compromised to Steal Corporate Login Credentials From Visitors",
+      "url": "https://www.infosecurity-magazine.com/news/hotel-wifi-dns-poisoning/",
+      "source": "Infosecurity Magazine",
+      "date": "2026-07-24",
+      "summary": "ReliaQuest researchers have identified a cyber espionage campaign using DNS poisoning attacks against hotel Wi-Fi routers to steal corporate login credentials from visitors. The attacks specifically target the hospitality sector to harvest credentials from business travelers connecting to hotel networks.",
+      "image": "https://assets.infosecurity-magazine.com/webpage/og/eb7cfd8e-ac05-4175-9afd-d2520f735c25.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Modernizing SAP identity management with Microsoft Entra",
+      "url": "https://4sysops.com/archives/modernizing-sap-identity-management-with-microsoft-entra/",
+      "source": "4sysops.com",
+      "date": "2026-07-24",
+      "summary": "Microsoft Entra has been positioned as a centralized identity control plane for SAP environments, integrating directly with SAP Cloud Identity Services and SAP Identity Access Governance. The integration enables organizations to automate identity lifecycle management across SAP applications.",
+      "image": "https://4sysops.com/wp-content/uploads/2026/07/modernizing-sap-identity-management-with-microsoft-entra.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "MCP Security Best Practices: Authentication, Authorization, and Secure Tooling",
+      "url": "https://www.c-sharpcorner.com/article/mcp-security-best-practices-authentication-authorization-and-secure-tooling/",
+      "source": "C-sharpcorner.com",
+      "date": "2026-07-24",
+      "summary": "The article covers security best practices for Model Context Protocol (MCP) implementations in .NET, focusing on authentication and authorization for AI integrations. The content addresses how to secure AI tool access and enterprise data within MCP-based architectures.",
+      "image": "https://www.c-sharpcorner.com/images/csharp-corner-new.png",
+      "importance": 5,
       "paywall": false
     },
     {
@@ -128,7 +198,7 @@
       "url": "https://thehackernews.com/2026/07/how-synthetic-identity-fraud-is-coming.html",
       "source": "The Hacker News",
       "date": "2026-07-23",
-      "summary": "The article examines synthetic identity fraud as it applies to machine identities, describing how attackers fabricate composite identities using real and fictitious data points to create non-existent entities that evade detection. The concept extends traditional synthetic identity fraud beyond human identities into the machine identity domain, which is a growing concern for IAM professionals managing non-human identities.",
+      "summary": "This article examines synthetic identity fraud as it applies to machine identities, describing how attackers fabricate composite identities using real and fictitious data points to create non-existent entities. The threat is particularly difficult to detect because no real victim monitors for misuse, making it a growing concern for identity governance and machine identity management programs.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3CPk7mPjct6TcYwb9c1LBGjEBTkHjIkX-_CqYIrmdg3nJu-Vyjmc2qCT_cZbFEoUNaiIEQafCVxDDD0RZfflUs8LqGu9Ecx0N7Tu3nEzHXUW2nKLefXYKsRHfVtv-TZXw_WDILy6sKkE5kk3ts5cBTaSfq1mReYwo6Fb1ghPkg4Z4bLiNuAP4ehxqFG0/s1600/keeper.jpg",
       "importance": 7,
       "paywall": false
@@ -138,7 +208,7 @@
       "url": "https://thehackernews.com/2026/07/google-adds-selfie-video-recovery-for.html",
       "source": "The Hacker News",
       "date": "2026-07-23",
-      "summary": "Google has introduced a selfie video as a new account recovery option for users locked out of their accounts, supplementing existing methods like email and phone number verification. The feature uses video selfie verification as an identity-proofing mechanism to regain access when standard recovery options are unavailable.",
+      "summary": "Google announced a new account recovery method that allows users to submit a selfie video to regain access to locked accounts. The feature serves as an additional recovery option alongside existing methods such as recovery email addresses and phone numbers.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi33P1I6A4GNsGTrz72n-ZgaqJE-ksI5ub_5wWCmRVQhG7fikbuDtdu7inYjTOFVi9v1SukZnH_fWo2LiI-v6zkm2WwWrbaKGsKBK4Z6yHJvXkBX-m5HxX0VzG9Tv_Nz-17rbcUoql67ciu4oMYS2pNs946kSd95SaWvSM096CEeMaBLbSpXpA2KnZprzb-/s1600/google-account-recovery.jpg",
       "importance": 6,
       "paywall": false
@@ -148,7 +218,7 @@
       "url": "https://thehackernews.com/2026/07/check-point-patches-exploited.html",
       "source": "The Hacker News",
       "date": "2026-07-23",
-      "summary": "Check Point has patched a critical authentication bypass vulnerability (CVE-2026-16232, CVSS 9.3) in its SmartConsole product that is being actively exploited in the wild. The flaw affects the SmartConsole login process and allows attackers to gain full administrative access to Security Management and Multi-Domain Management products.",
+      "summary": "Check Point has patched a critical authentication bypass vulnerability (CVE-2026-16232, CVSS 9.3) in its SmartConsole product that is being actively exploited in the wild. The flaw affects the SmartConsole login process in Security Management and Multi-Domain Management products, allowing attackers to gain full administrative access.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTBN3LZDMeKkPoMsoNtsGp_s0KYwVrmhhKHQsQtqgtAN1WAKeS7L-aN1hiehoBwnPi6f1gziIEecy5GlPdAVlWKPlzVprrqHLTLE3tcMZu4NK8QDoRxxS22HEFxfIpyrXnqr8O9b9akb1VVr9dmmmdwzHmhTFTVX4Cpv6WkFwSpz62tr6XKEDvKp5m0aUu/s1600/checkpoint.jpg",
       "importance": 6,
       "paywall": false
@@ -158,7 +228,7 @@
       "url": "https://kb.cert.org/vuls/id/492466",
       "source": "Cert.org",
       "date": "2026-07-23",
-      "summary": "Logto Identity Platform has been identified with multiple vulnerabilities affecting its identity-processing pipeline, including flaws in core protocol handling. The vulnerabilities can allow attackers to bypass account-ownership checks and skip MFA enforcement, undermining authentication and authorization decisions.",
+      "summary": "The Logto Identity Platform has been assigned vulnerability note VU#492466, documenting multiple security flaws in its core protocol handling pipeline. The vulnerabilities include authentication and authorization failures that may allow attackers to bypass account-ownership checks and skip MFA enforcement.",
       "image": null,
       "importance": 8,
       "paywall": false
@@ -168,7 +238,7 @@
       "url": "https://www.bleepingcomputer.com/news/security/fedramp-rev5-is-ending-what-the-20x-transition-really-requires/",
       "source": "BleepingComputer",
       "date": "2026-07-23",
-      "summary": "FedRAMP is transitioning from Rev5 to the FedRAMP 20x framework, replacing point-in-time assessments with continuous, machine-readable security control validation. The shift requires organizations to demonstrate ongoing compliance rather than periodic certification, impacting cloud service providers seeking federal authorization.",
+      "summary": "FedRAMP is transitioning from Rev5 to FedRAMP 20X, replacing periodic point-in-time assessments with continuous, machine-readable security control validation. The article outlines what cloud service providers must do to prepare for this shift to ongoing compliance demonstration.",
       "image": "https://www.bleepstatic.com/content/posts/2026/07/19/anecdotes-rev5.jpg",
       "importance": 6,
       "paywall": false
@@ -178,7 +248,7 @@
       "url": "https://www.infosecurity-magazine.com/news/microsoft-copilot-delayed-over/",
       "source": "Infosecurity Magazine",
       "date": "2026-07-23",
-      "summary": "CoreView research reveals that security leaders are delaying Microsoft Copilot deployments due to concerns about AI assistants exposing confidential data. The concerns center on data access and security risks associated with AI tools operating within enterprise environments.",
+      "summary": "CoreView research reveals that security leaders are delaying Microsoft Copilot deployments due to concerns about confidential data exposure. The findings highlight access control and data governance challenges associated with AI assistant rollouts in enterprise environments.",
       "image": "https://assets.infosecurity-magazine.com/webpage/og/3c6b8be5-3851-4eca-8ed1-5455f384527d.jpg",
       "importance": 4,
       "paywall": false
@@ -188,69 +258,19 @@
       "url": "https://www.helpnetsecurity.com/2026/07/23/product-showcase-appviewx-agent-identity-security/",
       "source": "Help Net Security",
       "date": "2026-07-23",
-      "summary": "AppViewX has showcased its Agent Identity Security product, targeting the management of non-human and machine identities in enterprise environments. The product addresses AI-driven identity proliferation and quantum computing threats to cryptographic trust, positioning itself in the machine identity management space.",
+      "summary": "AppViewX has published a product showcase for its Agent Identity Security solution, targeting the security of machine and AI agent identities in enterprise environments. The product addresses cryptographic trust challenges posed by quantum computing alongside the proliferation of non-human identities in AI-driven enterprises.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/07/22101907/appviewx-product_showcase.webp",
       "importance": 6,
       "paywall": false
     },
     {
-      "title": "Police Dismantle Kratos Phishing Kit Built to Steal Microsoft 365 Sessions and Bypass MFA",
-      "url": "https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html",
-      "source": "The Hacker News",
-      "date": "2026-07-22",
-      "summary": "German and US law enforcement dismantled the infrastructure of the Kratos phishing kit, while Indonesian authorities arrested its alleged developer and operator. Kratos was designed to steal Microsoft 365 session tokens and bypass MFA protections, making it a direct threat to enterprise identity security.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjOaY5kPe-g7dmQXqM_VwJIUOZk8mqgDII9sHVnZgWraV6lnXp9Pu6d664E6wSS82UCkvOd7MkPhzJBnbIKwJO9SLjHaVADbVE0zaSYhZJsHeBkBIh3Y9edJnmW4Ck1ndx5OwkkA5jJMo7gP6ocN_61sO7mOCACXBvzompiLGwnZCRkn2TkaXL6Ay94Fg/s1600/phishkit.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft Entra ID to restrict and retire custom CSS for branded sign-ins",
-      "url": "https://4sysops.com/archives/microsoft-entra-id-to-restrict-and-retire-custom-css-for-branded-sign-ins/",
-      "source": "4sysops.com",
-      "date": "2026-07-22",
-      "summary": "Microsoft is restricting and retiring custom CSS support in Entra ID's branded sign-in pages as part of its Secure Future Initiative. The change targets CSS positioning properties that could be exploited to create phishing-resistant sign-in page overlays or deceptive UI elements.",
-      "image": "https://4sysops.com/wp-content/uploads/2026/07/microsoft-entra-id-to-restrict-and-retire-custom-css-for-branded-sign-ins.png",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Device Code Phishing: Turning a Convenience Feature Into an MFA Bypass",
-      "url": "https://www.trendmicro.com/en_us/research/26/g/device-code-phishing.html",
-      "source": "Trendmicro.com",
-      "date": "2026-07-22",
-      "summary": "Device code phishing exploits the OAuth 2.0 device authorization flow, a legitimate authentication mechanism designed for input-limited devices, to bypass MFA protections. The article analyzes how the attack technique works in practice, includes a recently observed case, and covers defensive measures organizations can implement.",
-      "image": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/thumbnails/26/g/dc-phishing.jpg",
-      "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Disable SSO permission prompts in Windows 11",
-      "url": "https://4sysops.com/archives/disable-sso-permission-prompts-in-windows-11/",
-      "source": "4sysops.com",
-      "date": "2026-07-21",
-      "summary": "Microsoft introduced a new registry policy in Windows 11 that allows administrators to automatically approve SSO permission prompts on managed devices. The change was driven by recent regulatory updates in the European Economic Area (EEA) that altered how SSO consent is handled on Windows devices.",
-      "image": "https://4sysops.com/wp-content/uploads/2026/07/SSO-consent-prompt-in-Microsoft-Word-image-Microsoft.png",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Hybrid identity turns into technical debt for cloud-only Microsoft environments",
-      "url": "https://4sysops.com/archives/hybrid-identity-turns-into-technical-debt-for-cloud-only-microsoft-environments/",
-      "source": "4sysops.com",
-      "date": "2026-07-21",
-      "summary": "Hybrid identity configurations combining on-premises Active Directory with Microsoft Entra ID are creating technical debt as legacy sync tools like Entra Connect conflict with cloud-native workloads. The article examines how domain controllers and hybrid identity infrastructure become liabilities for organizations moving toward cloud-only Microsoft environments using Entra ID, Microsoft 365, and Intune.",
-      "image": "https://4sysops.com/wp-content/uploads/2026/07/hybrid-identity-turns-into-technical-debt-for-cloud-only-microsoft-environments.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Closing the Identity Gaps in Critical Infrastructure Security",
-      "url": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gaps-in-critical-infrastructure-security/",
-      "source": "BleepingComputer",
-      "date": "2026-07-21",
-      "summary": "Specops Software published guidance on securing critical infrastructure through Zero Trust principles, focusing on credential theft and compromised accounts as common attack vectors. The piece outlines why Zero Trust architectures should enforce verification of both user identity and device trust before granting access to critical systems.",
-      "image": "https://www.bleepstatic.com/content/posts/2026/07/18/specops-header-datacenter.jpg",
-      "importance": 6,
+      "title": "Microsoft Patches a Record 570 Security Flaws",
+      "url": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
+      "source": "Krebs on Security",
+      "date": "2026-07-14",
+      "summary": "Microsoft released patches addressing at least 570 security vulnerabilities across Windows and other software, nearly triple the previous month's record. Microsoft attributed the increase in discovered vulnerabilities to AI-assisted security research.",
+      "image": null,
+      "importance": 4,
       "paywall": false
     },
     {
@@ -258,9 +278,9 @@
       "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
       "source": "Krebs on Security",
       "date": "2026-07-13",
-      "summary": "CISA released a postmortem report on a data breach in which a contractor exposed dozens of internal credentials, including AWS GovCloud keys, in a public GitHub repository for nearly six months. The incident highlights credential management failures and secrets sprawl, with CISA's delayed detection and response offering lessons for security teams managing privileged credentials.",
+      "summary": "CISA released a postmortem report on a data breach in which a contractor exposed dozens of internal CISA credentials, including AWS GovCloud keys, in a public GitHub repository for nearly six months. The incident highlights credential management failures and gaps in secrets detection practices relevant to IAM and PAM professionals.",
       "image": null,
-      "importance": 6,
+      "importance": 7,
       "paywall": false
     },
     {
@@ -268,7 +288,7 @@
       "url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
       "source": "Krebs on Security",
       "date": "2026-06-23",
-      "summary": "Two members of the Scattered Spider cybercrime group pleaded guilty in the UK to charges related to an August 2024 cyberattack on Transport for London. Scattered Spider is known for sophisticated social engineering and identity-based attacks, including SIM swapping, phishing, and MFA bypass techniques used to compromise major organizations.",
+      "summary": "Two members of the Scattered Spider cybercrime group pleaded guilty in the UK to charges related to an August 2024 cyberattack on Transport for London. Scattered Spider is known for sophisticated social engineering and identity-based attacks, including SIM swapping and MFA bypass techniques used to compromise major organizations.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -278,9 +298,9 @@
       "url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
       "source": "Krebs on Security",
       "date": "2026-06-01",
-      "summary": "Hackers successfully hijacked high-profile Instagram accounts by manipulating Meta's AI support assistant bot into resetting account passwords. Instructions for the attack circulated on Telegram, enabling threat actors to bypass normal account authentication controls to seize and deface the accounts.",
+      "summary": "Hackers exploited Meta's AI support assistant chatbot to reset Instagram account passwords and seize accounts, including high-profile ones belonging to the Obama White House and a U.S. Space Force official. Instructions circulating on Telegram demonstrated how to manipulate the AI bot into bypassing normal account recovery authentication controls to grant unauthorized access.",
       "image": null,
-      "importance": 6,
+      "importance": 7,
       "paywall": false
     }
   ]
