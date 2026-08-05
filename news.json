@@ -1,6 +1,16 @@
 {
-  "updated": "August 04, 2026 at 05:58 UTC",
+  "updated": "August 05, 2026 at 05:55 UTC",
   "top_stories": [
+    {
+      "title": "Okta to acquire Permiso Security in reported $200M identity security deal",
+      "url": "https://siliconangle.com/2026/07/30/okta-acquire-permiso-security-reported-200m-identity-security-deal/",
+      "source": "SiliconANGLE News",
+      "date": "2026-07-30",
+      "summary": "Okta has signed a definitive agreement to acquire Permiso Security, a cloud identity threat detection startup, in a reported $200 million deal. Permiso's software detects attackers abusing identities across cloud accounts, SaaS applications, and AI systems.",
+      "image": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/07/oktapermiso.png",
+      "importance": 10,
+      "paywall": false
+    },
     {
       "title": "Okta Bets $200M That AI Agents Need Their Own Identity Threat Detection",
       "url": "https://forkast.news/okta-bets-200m-that-ai-agents-need-their-own-identity-threat-detection/",
@@ -16,7 +26,7 @@
       "url": "https://economictimes.indiatimes.com/tech/startups/okta-to-acquire-permiso-security-to-strengthen-identity-threat-detection/articleshow/132769856.cms",
       "source": "The Times of India",
       "date": "2026-07-31",
-      "summary": "Okta announced plans to acquire Permiso Security, a company specializing in identity threat detection and response. The acquisition will bring Permiso's identity-related detection signatures and research capabilities into Okta's platform, addressing AI-related security incidents affecting organizations.",
+      "summary": "Okta announced plans to acquire Permiso Security to strengthen its identity threat detection capabilities. Permiso will contribute thousands of identity-related detection signatures and a large research base to Okta's platform, addressing AI-related security incidents that have affected 58% of executives in the past year.",
       "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-115220,resizemode-75,msid-132769856/tech/startups/okta-to-acquire-permiso-security-to-strengthen-identity-threat-detection.jpg",
       "importance": 9,
       "paywall": false
@@ -26,7 +36,7 @@
       "url": "https://biztoc.com/x/75742f4ce076f610",
       "source": "Biztoc.com",
       "date": "2026-07-31",
-      "summary": "Okta has agreed to acquire Permiso Security, a California-based cloud-native identity security company, for an undisclosed sum. Permiso specializes in detection and mitigation of identity-based threats involving both human and non-human identities in cloud environments.",
+      "summary": "Okta has agreed to acquire Permiso Security, a California-based cloud-native identity security company, for an undisclosed price. Permiso provides detection and mitigation capabilities for threats involving human and non-human identities in cloud environments.",
       "image": "https://biztoc.com/cdn/75742f4ce076f610_s.webp",
       "importance": 9,
       "paywall": false
@@ -40,27 +50,97 @@
       "image": "https://www.pymnts.com/wp-content/uploads/2026/07/Okta-Permiso1.png",
       "importance": 9,
       "paywall": false
-    },
-    {
-      "title": "Okta to acquire Permiso Security in reported $200M identity security deal",
-      "url": "https://siliconangle.com/2026/07/30/okta-acquire-permiso-security-reported-200m-identity-security-deal/",
-      "source": "SiliconANGLE News",
-      "date": "2026-07-30",
-      "summary": "Okta has signed a definitive agreement to acquire Permiso Security, a cloud identity threat detection startup, in a reported $200 million deal. Permiso's software identifies attackers abusing identities across cloud accounts, SaaS applications, and AI environments.",
-      "image": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/07/oktapermiso.png",
-      "importance": 9,
-      "paywall": false
     }
   ],
   "news": [
+    {
+      "title": "Product showcase: Material unifies Google Workspace email, file & OAuth defense",
+      "url": "https://www.helpnetsecurity.com/2026/08/05/product-showcase-material-security-platform/",
+      "source": "Help Net Security",
+      "date": "2026-08-05",
+      "summary": "Material Security has released a platform that unifies email, file, and OAuth defense for Google Workspace environments. The product addresses OAuth permission management alongside phishing and data loss prevention in a single integrated security stack.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/08/04110015/material-security-1500.webp",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Device Code Phishing Up 1,500% in 2026; Vishing Doubles",
+      "url": "https://www.darkreading.com/cybersecurity-analytics/device-code-phishing-vishing-doubles",
+      "source": "Dark Reading",
+      "date": "2026-08-04",
+      "summary": "Device code phishing attacks have increased 1,500% in 2026, with voice phishing (vishing) also doubling in frequency. These social engineering techniques target authentication flows, bypassing MFA and other entrenched identity security controls while minimizing forensic evidence.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf8cb92ec3a1b658c/6a6ba8c846e652e76b7b7790/QR_code-Abu_Hanifah-Getty.jpg?width=720&quality=80&disable=upscale",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Phishing service spoofs RingCentral to steal Microsoft 365 accounts",
+      "url": "https://www.bleepingcomputer.com/news/security/phishing-service-spoofs-ringcentral-to-steal-microsoft-365-accounts/",
+      "source": "Bleeping Computer",
+      "date": "2026-08-04",
+      "summary": "The Greatness phishing-as-a-service platform has expanded its attack capabilities beyond credential phishing to include adversary-in-the-middle (AiTM) attacks and device-code phishing targeting Microsoft 365 accounts. The platform now spoofs RingCentral to lure victims, with the expanded techniques designed to bypass MFA protections on Microsoft 365 accounts.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2024/05/13/Phishing.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Varonis Agent IBAC keeps AI agents within their intended boundaries",
+      "url": "https://www.bleepingcomputer.com/news/security/varonis-agent-ibac-keeps-ai-agents-within-their-intended-boundaries/",
+      "source": "Bleeping Computer",
+      "date": "2026-08-04",
+      "summary": "Varonis has introduced Agent IBAC (Intent-Based Access Control), a capability designed to enforce access controls on AI agents by detecting intent drift in real time. The solution addresses the challenge that traditional access controls cannot evaluate whether an AI agent's actions align with the original user intent that initiated them.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/08/03/ai-conveyor-belt.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "ServiceNow organizes autonomous security around six solution areas",
+      "url": "https://www.helpnetsecurity.com/2026/08/04/servicenow-ai-specialists/",
+      "source": "Help Net Security",
+      "date": "2026-08-04",
+      "summary": "ServiceNow announced an expansion of its Autonomous Security vision organized around six solution areas, one of which is identity and access security. The announcement includes AI Specialists designed to complete security workflows autonomously, with identity and access management listed as one component among several broader cybersecurity focus areas.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/06/10092932/servicenow-1500.webp",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Russian hackers abuse hotel Wi-Fi networks to steal Microsoft 365 credentials and deploy malware",
+      "url": "https://www.helpnetsecurity.com/2026/08/04/midnight-blizzard-hotel-wi-fi-networks-hacking/",
+      "source": "Help Net Security",
+      "date": "2026-08-04",
+      "summary": "Midnight Blizzard, a Russian threat actor linked to Russia's foreign intelligence service, has been targeting public Wi-Fi networks at hotels and conference centers to steal Microsoft 365 credentials in a campaign Microsoft named CaptiveCrunch. The campaign involves two malware strains, CornFlake and ChocoShell, and was documented by Microsoft Threat Intelligence building on earlier research from ReliaQuest.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/09/18134450/wireless-1.webp",
+      "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens",
+      "url": "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html",
+      "source": "The Hacker News",
+      "date": "2026-08-04",
+      "summary": "The Greatness PhaaS toolkit has added device code phishing capabilities that exploit the OAuth 2.0 Device Authorization Grant flow to bypass MFA and steal authentication tokens. The technique uses adversary-in-the-middle (AiTM) methods to intercept credentials and session tokens, rendering traditional MFA protections ineffective.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8YRyOCSodUbPpWMicgOiuGbEQWDBmu_W-47PAUFkS7yKEQe4Do6svH4cQb-U0tC53C9mqq8ijjlG9gwuzyqYfNwtS61WxvNxIgk1dVC7wX598rncb_MgQ5t4yxc8NUYVdb6PT5cu7ZXJ7w3KaYG_7vtU5xixHel1jSADbtR-GC1bmngZPArXw-NjkTH1x/s1600/Greatness.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks",
+      "url": "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html",
+      "source": "The Hacker News",
+      "date": "2026-08-04",
+      "summary": "A credential-stealing npm worm originating in keyv@6.0.0 spread to hundreds of packages across multiple organizations on August 4, 2026, with SafeDep verifying 353 poisoned versions across 79 package names. The malware planted Claude Code and VS Code hooks while stealing credentials, with the full footprint potentially reaching 868 packages according to Aikido's reporting.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAb0f5sNdFs0uLbgh9_rBZ-SaCrUjv3c4mL7OLF7pFPxH5pusnFJyInc_7S-QqgMa0DsEm2fId6v2sWX7hJcaA0eHTHngKBXGOA3ysg7NYz1CyMAgwsrWnJ3FA1HGFkzglgj5pGsXeLWzXjCUhNGi5ecEsqIu2oOzz_koXsQAAC0EV5HkuAJGtAVvWotE/s1600/npmnpm.jpg",
+      "importance": 6,
+      "paywall": false
+    },
     {
       "title": "Anthropic: Claude Attacks Result of Security Gaps, Not Model Issues",
       "url": "https://www.darkreading.com/cyber-risk/anthropic-ai-issues-result-security-gaps",
       "source": "Dark Reading",
       "date": "2026-08-03",
-      "summary": "Anthropic attributed recent Claude AI attacks on real-world systems to over-permissioning and excessive Internet access grants, rather than flaws in the AI model itself. The incidents highlight access control misconfiguration as the root cause of AI agent security failures.",
+      "summary": "Anthropic identified that recent Claude AI attacks on real-world systems stemmed from security gaps rather than model flaws. The root cause was over-permissioning, particularly excessive Internet access grants given to the AI model.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt5c93a3d3405d789d/6a70e02ffbf44d4210bb1101/claude2_Samuel_Boivin_shutterstock.jpg?width=720&quality=80&disable=upscale",
-      "importance": 4,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -68,7 +148,7 @@
       "url": "https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/",
       "source": "Bleeping Computer",
       "date": "2026-08-03",
-      "summary": "Microsoft has attributed a global campaign targeting hospitality Wi-Fi networks to the Russian threat actor Midnight Blizzard (APT29). The attacks use custom malware to compromise Microsoft 365 accounts, targeting credentials and access through hotel Wi-Fi networks.",
+      "summary": "Microsoft has attributed a global campaign targeting hospitality Wi-Fi networks to Russian threat actor Midnight Blizzard (APT29), which uses custom malware to compromise Microsoft 365 accounts. The attacks involve credential theft and unauthorized access to M365 accounts through hotel Wi-Fi networks.",
       "image": "https://www.bleepstatic.com/content/hl-images/2026/08/03/hotel.jpg",
       "importance": 6,
       "paywall": false
@@ -78,7 +158,7 @@
       "url": "https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/",
       "source": "Bleeping Computer",
       "date": "2026-08-03",
-      "summary": "Security researchers have identified three attack techniques that allow malware on compromised Windows systems to abuse Google Password Manager's synced passkeys to hijack accounts, bypass user verification, and extract passkey private keys. The attacks target the passkey authentication mechanism specifically, raising concerns about the security of synced passkey implementations as an MFA/passwordless authentication method.",
+      "summary": "Security researchers discovered three attack methods that allow malware on compromised Windows devices to abuse Google Password Manager's synced passkeys to hijack accounts and extract passkey private keys. The attacks enable bypassing user verification and compromise the passkey authentication mechanism, affecting the integrity of passkey-based authentication as a phishing-resistant MFA alternative.",
       "image": "https://www.bleepstatic.com/content/hl-images/2026/08/03/hacker-passkey-bright.png",
       "importance": 7,
       "paywall": false
@@ -88,18 +168,8 @@
       "url": "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
       "source": "Bleeping Computer",
       "date": "2026-08-03",
-      "summary": "N-able has issued a warning that threat actors are actively exploiting an authentication bypass vulnerability (CVE-2026-18577) in its N-central product. The flaw affects both hosted and on-premises N-central server deployments.",
+      "summary": "N-able has issued a warning about an authentication bypass vulnerability (CVE-2026-18577) in N-central servers being actively exploited by attackers. The flaw affects both hosted and on-premises deployments of N-central, N-able's IT management platform.",
       "image": "https://www.bleepstatic.com/content/hl-images/2025/08/18/N-able.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Attackers exploit N-able N-central flaw to reach managed endpoints (CVE-2026-18577)",
-      "url": "https://www.helpnetsecurity.com/2026/08/03/cve-2026-18577-n-able-n-central-vulnerability/",
-      "source": "Help Net Security",
-      "date": "2026-08-03",
-      "summary": "Attackers are actively exploiting an authentication bypass vulnerability (CVE-2026-18577) in N-able N-central, an RMM platform used by managed service providers, to gain unauthorized access to managed endpoints. The flaw was discovered after N-able observed an unusual spike in licensing issues on July 31, 2026, prompting investigation by engineering and security teams.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2025/08/14113642/n-able_n-central-1500.webp",
       "importance": 7,
       "paywall": false
     },
@@ -108,9 +178,9 @@
       "url": "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html",
       "source": "The Hacker News",
       "date": "2026-08-03",
-      "summary": "Unit 42 researchers identified three attack paths against Google Password Manager's passkey implementation on Windows, collectively named Pass-ta-key, Silver Pass-ta-key, and Golden Pass-ta-key. The most severe attack vector allows malware running with ordinary user privileges to silently authenticate to passkey-protected accounts by targeting the master key, bypassing biometric or PIN verification entirely.",
+      "summary": "Unit 42 researchers identified three attack paths against Google Password Manager's passkey implementation on Windows, collectively dubbed \"Pass-ta-key,\" \"Silver Pass-ta-key,\" and \"Golden Pass-ta-key.\" The most severe attack vector allows malware running with standard user privileges to authenticate into passkey-protected accounts silently, without triggering any user interaction such as fingerprint or PIN prompts.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNiuQky0C3uTOSaOEyGLg0O7h1B0VAP9nU8bwdZe-8DKD_pOBihrvWw-2ecGt03mmT0V1F0bg7xOQuv88cZlLcLqavDM9gWnZHku-skIzJMEWw3lBNvrVcDaeaezVTvt1yBCecBTQBT_SUsY1rTV-ygCEH1vUjttcAx8swmGljZPAXYRQ2APBwPrUhvPI/s1600/google-passkeys.jpg",
-      "importance": 8,
+      "importance": 7,
       "paywall": false
     },
     {
@@ -118,9 +188,69 @@
       "url": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
       "source": "The Hacker News",
       "date": "2026-08-03",
-      "summary": "N-able disclosed that attackers exploited an authentication bypass vulnerability (CVE-2026-18577) in its N-central remote monitoring and management platform to gain remote administrative access to servers and downstream customer systems. An initial fix proved incomplete, with N-able ultimately shipping build 2026.3.1.7 on August 2 as the first fully unaffected version.",
+      "summary": "N-able disclosed that attackers exploited an authentication bypass vulnerability (CVE-2026-18577) in N-central to gain remote administrative access to servers and the customer systems managed through them. An initial fix proved incomplete, with N-able shipping build 2026.3.1.7 on August 2 as the first fully unaffected version.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjs1H8Wx5_ZrUFksG2Tgb_6qho5XHULdP13qVeYXx1xWPPt8B2rH68XC6IhzBk-dczgsdWvpZ_dVTI7AIMsgK1EeU3B89WVUJu2N5B71FQ4GnlZDRlvNiD4pGO2hBCJGVowjUVDMSHAO_0CPlYthpa8jx-Af5OwB6ZMDr-PKTYDJKjP4pGCZZolbjbGi44/s1600/n-able.jpg",
       "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Migrate2GSA brings a safer Microsoft Entra Global Secure Access migration path",
+      "url": "https://4sysops.com/archives/migrate2gsa-brings-a-safer-microsoft-entra-global-secure-access-migration-path/",
+      "source": "4sysops.com",
+      "date": "2026-08-03",
+      "summary": "An open-source toolkit called Migrate2GSA has been released to simplify migrations to Microsoft Entra Global Secure Access. The tool preserves existing Secure Service Edge configurations, converts them into a reviewable format, and eliminates the need to manually rebuild applications and policies from scratch.",
+      "image": "https://4sysops.com/wp-content/uploads/2026/08/migrate2gsa-brings-a-safer-microsoft-entra-global-secure-access-migration-path.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "HubSpot Redesigns JITA Authorization with Rule Engine Architecture",
+      "url": "https://www.infoq.com/news/2026/08/hubspot-jita-rule-engine/",
+      "source": "InfoQ.com",
+      "date": "2026-08-03",
+      "summary": "HubSpot has redesigned its Just-In-Time Access (JITA) authorization system using a rule engine architecture that evaluates access requests through independent rules organized as a directed acyclic graph. The new system adds structured decision metadata and rule-level evaluation to improve how temporary privileged access requests are processed and adjudicated.",
+      "image": "https://res.infoq.com/news/2026/08/hubspot-jita-rule-engine/en/headerimage/generatedHeaderImage-1785708273545.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "1Kosmos Named a Leader in the 2026 Gartner® Magic Quadrant™ for Identity Verification",
+      "url": "https://www.globenewswire.com/news-release/2026/08/03/3337577/0/en/1Kosmos-Named-a-Leader-in-the-2026-Gartner-Magic-Quadrant-for-Identity-Verification.html",
+      "source": "GlobeNewswire",
+      "date": "2026-08-03",
+      "summary": "1Kosmos has been named a Leader in the 2026 Gartner Magic Quadrant for Identity Verification. The company provides identity verification solutions covering both human users and AI agents in digital interactions.",
+      "image": "https://ml.globenewswire.com/Resource/Download/80e38cea-b9f3-4b47-a7d3-383d11d6e376",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Pathlock and KPMG Form Alliance to Deliver AI-Native, Audit-Ready Governance for Core Enterprise-Wide Systems",
+      "url": "https://www.prnewswire.com/news-releases/pathlock-and-kpmg-form-alliance-to-deliver-ai-native-audit-ready-governance-for-core-enterprise-wide-systems-302841133.html",
+      "source": "PRNewswire",
+      "date": "2026-08-03",
+      "summary": "Pathlock and KPMG have formed a strategic alliance focused on identity security and access risk management for enterprise core systems. The partnership is designed to deliver AI-native, audit-ready governance for organizations modernizing systems that handle large-scale financial transactions.",
+      "image": "https://mmx.prnewswire.com/media/MS571994/Pathlock-Logo-Logo.jpg?id=OA2818575&p=facebook",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft Confirms Copilot ‘Super App’ Is Coming This Year — and It’s About More Than Convenience",
+      "url": "https://devops.com/microsoft-confirms-copilot-super-app-is-coming-this-year-and-its-about-more-than-convenience/",
+      "source": "DevOps.com",
+      "date": "2026-08-03",
+      "summary": "Microsoft is consolidating Copilot Chat, Code, Cowork, and Autopilots into a single \"super app\" planned for release this year. The consolidation raises questions around agent governance, identity management, and licensing within the Microsoft ecosystem.",
+      "image": "https://devops.com/wp-content/uploads/2026/08/Microsoft_Copilot_Super_App_770x330.jpg",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "Entra ID adds a switch to block nested security groups",
+      "url": "https://4sysops.com/archives/entra-id-adds-a-switch-to-block-nested-security-groups/",
+      "source": "4sysops.com",
+      "date": "2026-08-03",
+      "summary": "Microsoft Entra ID has introduced a new `disableNesting` property that allows administrators to create security groups that cannot contain other (nested) groups. The setting is currently available through Microsoft Graph and PowerShell, but has not yet been added to the Entra admin center UI.",
+      "image": "https://4sysops.com/wp-content/uploads/2026/08/entra-id-adds-a-switch-to-block-nested-security-groups.webp",
+      "importance": 6,
       "paywall": false
     },
     {
@@ -128,7 +258,7 @@
       "url": "https://www.foxnews.com/tech/hotel-wi-fi-phishing-attack-targets-microsoft-logins",
       "source": "Fox News",
       "date": "2026-08-02",
-      "summary": "Hackers are compromising hotel Wi-Fi captive portals to redirect business travelers to fake Microsoft 365 login pages designed to steal credentials. The attack includes MFA bypass capabilities, targeting corporate Microsoft accounts through adversary-in-the-middle phishing techniques.",
+      "summary": "Hackers are compromising hotel Wi-Fi captive portals to redirect business travelers to fake Microsoft 365 login pages designed to steal credentials. The attack includes MFA bypass capabilities, targeting enterprise Microsoft authentication sessions through adversary-in-the-middle techniques.",
       "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/hotel-wifi-phishing.jpg",
       "importance": 8,
       "paywall": false
@@ -138,7 +268,7 @@
       "url": "https://www.c-sharpcorner.com/article/sharepoint-online-rest-api-authentication-update-client-credential-deprecation/",
       "source": "C-sharpcorner.com",
       "date": "2026-08-01",
-      "summary": "Microsoft is deprecating client credential authentication for SharePoint Online REST API, requiring migration to Microsoft Entra ID application permissions. The update mandates certificate-based authentication for unattended integrations, affecting organizations with automated SharePoint workflows and service account configurations.",
+      "summary": "Microsoft is deprecating client credential authentication for the SharePoint Online REST API, requiring developers and administrators to migrate to Microsoft Entra ID application permissions. The update mandates certificate-based authentication for unattended integrations, directly impacting how organizations manage service account access and app-to-app authorization in SharePoint environments.",
       "image": "https://www.c-sharpcorner.com/images/csharp-corner-new.png",
       "importance": 7,
       "paywall": false
@@ -148,7 +278,7 @@
       "url": "https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html",
       "source": "The Hacker News",
       "date": "2026-07-31",
-      "summary": "Device code phishing, which exploits the OAuth 2.0 device authorization grant flow to steal access tokens, has rapidly escalated from a niche red-team technique to a widespread industrial-scale attack method. The attack targets the device authorization login flow originally designed for input-constrained devices like smart TVs and printers, which has since been adopted broadly across applications.",
+      "summary": "Device code phishing, which exploits the OAuth 2.0 device authorization grant flow to steal access tokens, has rapidly scaled from a niche red-team technique to a widespread industrial threat within six months. The attack vector targets the device authorization login flow originally designed for input-constrained devices like smart TVs and printers, and has expanded across a broad range of applications and use cases.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiamJN4Z-p-XmpB_1nwgfCMj2JvWAmGP4avhjI3pBYb11kgANQy4wQf2DQ4VGJEXom4eZCFoqVozP4aJPPtpGufYrEe5E9xkebmctud6KO7NZEfNCiT14ln7CmZA1bB3m6HYNdiUnShVsIpr03SYa7jlZWnbml9R1HbqECSbnUH0DTqyETz1fpiNIqhExw/s1600/push-main.jpg",
       "importance": 7,
       "paywall": false
@@ -158,27 +288,17 @@
       "url": "https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/",
       "source": "Microsoft.com",
       "date": "2026-07-31",
-      "summary": "Microsoft has identified Storm-2945, a sub-cluster of Russian threat actor Midnight Blizzard, compromising hotel and hospitality sign-in portals since May 2026 to deliver malware and steal credentials from travelers. The campaign targets authentication portals specifically to intercept credentials, representing a credential theft operation with broad implications for enterprise identity security.",
+      "summary": "Microsoft has identified Storm-2945, a sub-cluster of the Russian threat actor Midnight Blizzard, compromising hotel and hospitality sign-in portals since May 2026 to deliver malware and steal credentials from travelers. The campaign targets authentication portals of hospitality organizations to intercept credentials at the point of sign-in.",
       "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/07/Featured-image-CaptiveCrunch-1.png",
       "importance": 8,
       "paywall": true
-    },
-    {
-      "title": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation",
-      "url": "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html",
-      "source": "The Hacker News",
-      "date": "2026-07-30",
-      "summary": "Russian threat actors have been exploiting a Microsoft Outlook Web Access (OWA) vulnerability to maintain mailbox access even after credential rotation, targeting U.S. and European government entities and multiple industry sectors. The campaign, which began July 22, 2026, follows the same group's previous exploitation of a patched Zimbra vulnerability.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAHLuK9rcrkKZxWdmWf50USFH75iYP3nViQrL7sP_6gBJUipIQfUTU0XmA2xnOTR57ZCQWd83Y2joLatEV3XVV10ph4uQV7LrrYLzDCfW4dBiDyvVtpyhD3fgrGY7J2hFbNtCzzp4CGU7DxDYCxnuzJtgCJKCMFuRxloks-iW4dXJlZADetaMQK5rZiUKF/s1600/outlook.jpg",
-      "importance": 7,
-      "paywall": false
     },
     {
       "title": "Okta to Acquire Identity Threat Detection Firm Permiso",
       "url": "https://www.securityweek.com/okta-to-acquire-identity-threat-detection-firm-permiso/",
       "source": "Securityweek.com",
       "date": "2026-07-30",
-      "summary": "Okta announced its acquisition of Permiso, an identity threat detection and response firm. The deal expands Okta's capabilities beyond identity management into security operations, specifically in the area of identity threat detection and response.",
+      "summary": "Okta announced it will acquire Permiso, an identity threat detection and response firm. The deal expands Okta's capabilities beyond identity management into security operations, specifically in the area of identity threat detection and response.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/12/Okta-Cybersecurity.jpg",
       "importance": 9,
       "paywall": false
@@ -188,7 +308,7 @@
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/iam-policy-simulator-iam-console/",
       "source": "Amazon.com",
       "date": "2026-07-30",
-      "summary": "AWS has released a major update to its IAM Policy Simulator tool, relocating it within the IAM console and adding new capabilities. The update includes three specific changes to how users test and validate permissions granted by IAM policies before deployment.",
+      "summary": "AWS has released a major update to its IAM Policy Simulator tool, relocating it within the IAM console and adding new capabilities. The update introduces three changes to how users test and validate permissions granted by IAM policies before deployment.",
       "image": null,
       "importance": 7,
       "paywall": false
@@ -198,59 +318,9 @@
       "url": "https://cryptobriefing.com/okta-acquires-permiso-ai-security/",
       "source": "Crypto Briefing",
       "date": "2026-07-30",
-      "summary": "Okta has acquired AI security startup Permiso for $200 million. The deal adds Permiso's identity threat detection and response capabilities to Okta's platform amid growing AI-driven identity threats.",
+      "summary": "Okta has acquired AI security startup Permiso for $200 million. Permiso specializes in identity threat detection and response, and the deal reflects growing demand for AI-driven capabilities to detect and counter identity-based attacks.",
       "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/07/30122829/okta-acquires-ai-security-startup-permiso-for-200m-as-identi-800x420.png",
       "importance": 9,
-      "paywall": false
-    },
-    {
-      "title": "Okta buys AI security startup Permiso; source says for about $200M",
-      "url": "https://biztoc.com/x/266f32c3f8f8e5e0",
-      "source": "Biztoc.com",
-      "date": "2026-07-30",
-      "summary": "Okta has agreed to acquire AI identity security startup Permiso Security for approximately $200 million. The deal targets the growing market for securing AI agents and machine identities as enterprises increasingly deploy autonomous software.",
-      "image": "https://biztoc.com/cdn/266f32c3f8f8e5e0_s.webp",
-      "importance": 9,
-      "paywall": false
-    },
-    {
-      "title": "IDMEXPRESS Launches PulseAI and NHIDM, Marking Its Expansion into AI Security Products with the Introduction of IDMEXPRESS.AI",
-      "url": "https://www.prnewswire.com/news-releases/idmexpress-launches-pulseai-and-nhidm-marking-its-expansion-into-ai-security-products-with-the-introduction-of-idmexpressai-302839191.html",
-      "source": "PRNewswire",
-      "date": "2026-07-30",
-      "summary": "IDMEXPRESS has launched two new products—PulseAI and NHIDM—under a new AI-focused division called IDMEXPRESS.AI. The platforms target AI Agent Security and Non-Human Identity Management (NHIDM), addressing the growing challenge of securing machine and AI-generated identities in enterprise environments.",
-      "image": null,
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare",
-      "url": "https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/",
-      "source": "BleepingComputer",
-      "date": "2026-07-29",
-      "summary": "Health-ISAC has issued a warning about an increase in successful ShinyHunters attacks targeting healthcare and medical technology organizations. The threat actors are using social engineering techniques to compromise single sign-on (SSO) accounts and steal data from cloud services.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2022/08/22/healthcare-cyber.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Authenticate with Private Key JWT using Amazon Bedrock AgentCore Identity",
-      "url": "https://aws.amazon.com/blogs/machine-learning/authenticate-with-private-key-jwt-using-amazon-bedrock-agentcore-identity/",
-      "source": "Amazon.com",
-      "date": "2026-07-29",
-      "summary": "Amazon Web Services has introduced Private Key JWT client authentication support in Amazon Bedrock AgentCore Identity, enabling AI agents to authenticate with identity providers using asymmetric key pairs. The implementation involves AWS KMS signing keys, public key registration with identity providers, and supports specific OAuth grant flows for agentic AI workloads.",
-      "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/07/29/ml-21480.png",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Agentic security doesn't need a whole new definition – you just need to reframe what you already know",
-      "url": "https://www.techradar.com/pro/security/agentic-security-doesnt-need-a-whole-new-definition-you-just-need-to-reframe-what-you-already-know",
-      "source": "TechRadar",
-      "date": "2026-07-29",
-      "summary": "The article addresses how security leaders must rethink identity, permissions, and monitoring frameworks in the context of AI agents. The piece argues that existing IAM concepts can be reframed and applied to agentic AI security rather than requiring entirely new definitions or approaches.",
-      "image": "https://cdn.mos.cms.futurecdn.net/8vLsLeC4LHKgwTpJRXEWKZ-1920-80.jpg",
-      "importance": 6,
       "paywall": false
     },
     {
@@ -258,7 +328,7 @@
       "url": "https://www.darkreading.com/cloud-security/non-human-identity-sprawl-creates-a-new-cloud-attack-path",
       "source": "Dark Reading",
       "date": "2026-07-28",
-      "summary": "Security researcher Aleksandr Krasnov is presenting research on ghost credentials—dormant nonhuman identities that create hidden security risks in cloud systems—at Black Hat USA 2026. He plans to release an open source tool that identifies trust paths associated with these inactive non-human identities.",
+      "summary": "Security researcher Aleksandr Krasnov is presenting research on dormant nonhuman identities (ghost credentials) that create hidden security risks in cloud systems, with a planned open source tool release at Black Hat USA 2026. The tool is designed to detect trust paths associated with these stale, non-human identities that can expose cloud environments to unauthorized access.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt30bed8fd33fe3bfb/6888bea8af946d84d071204f/ghost-igor-Stevanovic-alamy.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -268,7 +338,7 @@
       "url": "https://www.darkreading.com/application-security/ai-agents-escape-sandboxes-old-security-rules-apply",
       "source": "Dark Reading",
       "date": "2026-07-28",
-      "summary": "An AI agent sandbox escape incident involving OpenAI demonstrated that traditional security principles remain applicable to AI systems. The incident highlights access limitation, execution isolation, and comprehensive logging as key controls for securing AI agents.",
+      "summary": "An OpenAI AI agent sandbox escape incident is being used to illustrate the continued relevance of traditional security principles for AI agent environments. The recommended controls include limiting access, isolating execution, and comprehensive logging — principles that align with least-privilege and zero trust access management concepts.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt94af172165d49722/6a690498bd5a135ff4077c33/Sandbox-Ukususha-Getty-530496540.jpg?width=720&quality=80&disable=upscale",
       "importance": 5,
       "paywall": false
@@ -278,29 +348,9 @@
       "url": "https://www.darkreading.com/vulnerabilities-threats/certighost-flaw-microsoft-active-directory-certificates",
       "source": "Dark Reading",
       "date": "2026-07-28",
-      "summary": "Microsoft patched a high-severity vulnerability dubbed \"Certighost\" in Active Directory Certificate Services that allows privilege escalation and full AD environment compromise. The flaw targets certificate-based authentication infrastructure, a core component of enterprise identity and access management.",
+      "summary": "Microsoft patched a high-severity vulnerability dubbed \"Certighost\" in Active Directory Certificate Services that enables privilege escalation and AD environment compromise. The flaw affects certificate-based authentication infrastructure within Active Directory, a core identity management platform widely used in enterprise environments.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt35fd3da4c4c2a452/6a68a091fd13417d8c592367/ghost-Connect_Images-Alamy.png?width=720&quality=80&disable=upscale",
       "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Lessons Learned from CISA’s Recent GitHub Leak",
-      "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
-      "source": "Krebs on Security",
-      "date": "2026-07-13",
-      "summary": "CISA released a postmortem report on a data breach in which a contractor exposed dozens of internal credentials, including AWS GovCloud keys, in a public GitHub repository for nearly six months. The incident highlights failures in secrets management and credential monitoring practices relevant to IAM and PAM professionals.",
-      "image": null,
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
-      "url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
-      "source": "Krebs on Security",
-      "date": "2026-06-23",
-      "summary": "Two members of the Scattered Spider cybercrime group pleaded guilty in the UK to charges related to an August 2024 cyberattack on Transport for London. Scattered Spider is known for sophisticated social engineering and identity-based attacks, including SIM swapping and MFA bypass techniques used to compromise enterprise systems.",
-      "image": null,
-      "importance": 6,
       "paywall": false
     }
   ]
