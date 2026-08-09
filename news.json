@@ -1,13 +1,23 @@
 {
-  "updated": "August 08, 2026 at 04:18 UTC",
+  "updated": "August 09, 2026 at 04:25 UTC",
   "top_stories": [
     {
       "title": "Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access",
       "url": "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html",
       "source": "The Hacker News",
       "date": "2026-08-07",
-      "summary": "Security researcher Dirk-jan Mollema demonstrated that malware with access to a signed-in Windows session can silently abuse Windows Hello for Business keys to authenticate to Microsoft Entra ID. The attack enables persistent cloud access by registering attacker-controlled devices, obtaining a Primary Refresh Token (PRT), and adding additional authentication methods depending on tenant policies.",
+      "summary": "Security researcher Dirk-jan Mollema demonstrated that malware with access to a signed-in Windows session can silently exploit Windows Hello for Business keys to authenticate to Microsoft Entra ID without user interaction. The attack enables persistent cloud access by allowing an attacker to register a controlled device, obtain a Primary Refresh Token (PRT), and add additional authentication methods depending on tenant policies.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj81b6_YckjrqqfRrJQNRdIf3nu4xfqLNScukFYEao4VeF5QNlt16sbEwrdutizdB9Q1nOWRQpqeSZg4gYZsL8cIhRSJ43XJqMKWKgdKF28oeTl19HQQ75dnOKVHsa6DtXr4zhlmIF43nbUWV5jyEh4D1TjIvBKjgoAX2MpUbjJH3cN4hd4zDvIu_t4Jec/s1600/windows-hello-keys.jpg",
+      "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "Hackers Impersonate IT Support to Breach Leading Financial Companies",
+      "url": "https://securityaffairs.com/196800/security/hackers-impersonate-it-support-to-breach-leading-financial-companies.html",
+      "source": "Securityaffairs.com",
+      "date": "2026-08-07",
+      "summary": "A hacking campaign operating under names including Redact, Pink, Falcon, and Helix built fake IT help desk sites to steal MFA credentials, targeting over 200 firms including major financial companies. The attackers impersonated IT support staff to trick employees into surrendering multi-factor authentication credentials through credential-stealing websites.",
+      "image": "https://securityaffairs.com/wp-content/uploads/2026/08/image-13.png",
       "importance": 8,
       "paywall": false
     },
@@ -16,18 +26,8 @@
       "url": "https://4sysops.com/archives/azure-devops-service-connections-now-replace-pats-across-pipeline-tasks/",
       "source": "4sysops.com",
       "date": "2026-08-06",
-      "summary": "Microsoft has introduced Azure DevOps service connections that allow pipelines to authenticate using Microsoft Entra service principals or managed identities instead of Personal Access Tokens (PATs). The new service connection type supports cross-organization repositories and replaces the use of PATs and build session tokens in pipeline tasks.",
+      "summary": "Microsoft has updated Azure DevOps pipelines to support authentication via Microsoft Entra service principals or managed identities, replacing Personal Access Tokens (PATs) and build session tokens. The new Azure DevOps service connection supports cross-organization repositories, representing a shift toward more secure, token-less authentication in CI/CD pipeline tasks.",
       "image": "https://4sysops.com/wp-content/uploads/2026/08/azure-devops-service-connections-now-replace-pats-across-pipeline-tasks.webp",
-      "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "New Attack Methods Enable Malware to Hijack Passkey-Protected Accounts",
-      "url": "https://www.securityweek.com/new-attack-methods-enable-malware-to-hijack-passkey-protected-accounts/",
-      "source": "Securityweek.com",
-      "date": "2026-08-05",
-      "summary": "Palo Alto Networks researchers have demonstrated attack methods that allow malware to hijack accounts protected by Google's synced passkey implementation. The research reveals vulnerabilities in passkey-based authentication, showing that synced passkeys can be compromised through malware, undermining a key passwordless authentication mechanism.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/10/passkey-authentication.jpeg",
       "importance": 8,
       "paywall": false
     },
@@ -36,7 +36,7 @@
       "url": "https://www.helpnetsecurity.com/2026/08/07/swiss-government-microsoft-sharepoint-vulnerabilities/",
       "source": "Help Net Security",
       "date": "2026-08-07",
-      "summary": "Hackers exploited vulnerabilities in Microsoft SharePoint servers belonging to Switzerland's Federal Office of Information Technology, Systems and Telecommunication (BIT), compromising login credentials for approximately 200 accounts. BIT detected unusual activity on July 28, blocked internet access to the platform, and closed the exploited vulnerabilities, with credential compromise confirmed three days later on July 31.",
+      "summary": "Hackers exploited vulnerabilities in Microsoft SharePoint servers belonging to Switzerland's Federal Office of Information Technology, Systems and Telecommunication (BIT), compromising login credentials for approximately 200 accounts. BIT detected unusual activity on July 28, blocked internet access to the platform, and closed the exploited vulnerabilities, with credential compromise confirmed on July 31.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2025/07/22172109/microsoft-sharepoint-orange.webp",
       "importance": 7,
       "paywall": false
@@ -46,7 +46,7 @@
       "url": "https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html",
       "source": "The Hacker News",
       "date": "2026-08-07",
-      "summary": "Cybersecurity researchers have identified an active phishing campaign using adversary-in-the-middle (AitM) techniques to hijack Microsoft 365 accounts targeting personnel involved in financial workflows. The attack bypasses MFA by intercepting authentication sessions and uses residential proxies to disguise malicious sign-ins as legitimate consumer traffic.",
+      "summary": "Researchers have identified an active phishing campaign using adversary-in-the-middle (AitM) techniques to hijack Microsoft 365 accounts and target personnel involved in payroll and financial workflows. The attack uses residential proxies to disguise malicious sign-ins as legitimate consumer traffic, bypassing standard authentication detection.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH78NjDW1Q_sIk9dwQ1scYlCkNCMutfjGx_9flqrKbE42fEXqvHT8s5EeHTnWjbBGvzCuHPEWStR5r6wjwtIuuHF1hyphenhyphenot22E_Q98xedC1zXVhIhwglw6hLWQs45oSrPKPflK6Tt1BlHTj9iokMPpVaTehuemHGHDLL02cn2sqZJ5iIVstxiVf5IZ5Khodp/s1600/ms-phish.jpg",
       "importance": 7,
       "paywall": false
@@ -54,12 +54,62 @@
   ],
   "news": [
     {
+      "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
+      "url": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
+      "source": "The Hacker News",
+      "date": "2026-08-08",
+      "summary": "Security researchers found that Atlassian's Rovo AI assistant can be manipulated via prompt injection to exfiltrate Jira and Confluence data accessible to a signed-in user to an external server. Two firms independently discovered the vulnerability through different attack routes, with only one confirmed remediated.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFYjJTxVoOMkR9DDRPZ5PkeR_EWAqmBScR3TPw3mlweipGlnQKq0OdfVqR2f26QIV3kBJWQIM65f8XwMSFq3zT6Bl4fsTvkPHxJiU2LilhK9s0tcreXt2gotEpE8sKoDrLQJ3SSVY9B-RS0FsS2dC480op8OV-caeaZvNyTiIipQbeNFJGMnAcjWEVq7g/s1600/rovo.jpg",
+      "importance": 3,
+      "paywall": false
+    },
+    {
+      "title": "New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens",
+      "url": "https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html",
+      "source": "The Hacker News",
+      "date": "2026-08-08",
+      "summary": "Researchers have discovered CSS-based attacks that can break webmail security boundaries across major platforms including Outlook, Gmail, Proton Mail, and Yahoo Mail. The attack techniques can capture passwords, leak authentication tokens, and hijack UI actions by allowing email content to escape its message boundary and interfere with the webmail interface.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCUnWbFb6UGu3ML1MqcuVXYwk0yoD6WzgXIQmi8ijkZQjS6M3g1F3kgV-RanNgyP1bdpNxDOOqMJzJnutZGh4MUVyYCbbu98sNXtAp-GWxueyKH9fDo3z9HmBl4tL-rj91kb11bhdhRvWGAYe56YGYMEzJgGIZeUqj9eGH10Bynj0YE6WMLl0J7O-HhLc/s1600/css-bomb.jpg",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Interview: SailPoint says Taiwan hardware leads but identity governance lags",
+      "url": "https://www.digitimes.com/news/a20260805PD229/taiwan-governance-hardware-manufacturing-cybersecurity.html",
+      "source": "Digitimes",
+      "date": "2026-08-08",
+      "summary": "SailPoint's managing director for Taiwan, Hong Kong, and Macau stated that Taiwan's hardware manufacturing sector is globally leading, but the country's identity governance investment ranks in the bottom half of the Asia-Pacific region. The interview highlights a gap in cybersecurity software adoption, specifically around identity governance, in Taiwan's market.",
+      "image": "https://img.digitimes.com/newsshow/20260805pd229_files/1_b.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
       "title": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data",
       "url": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
       "source": "The Hacker News",
       "date": "2026-08-07",
-      "summary": "A threat group called UNC6671 is conducting vishing attacks against employees in financial services, private equity, and professional services by impersonating IT help desk staff to steal SaaS data. The attackers contact targets on personal phones, posing as IT personnel conducting urgent security migrations to manipulate victims into surrendering credentials or access.",
+      "summary": "A threat group called UNC6671 is conducting vishing attacks against enterprise employees in financial services and professional services sectors by impersonating IT help desk staff to gain access to SaaS data. The attacks involve contacting employees on personal phones and using social engineering to bypass authentication controls during fabricated \"security migrations.\"",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiL6-qu-cN6glV6XSy1IS7siHKdKPFmzqT3X8TQjGCa0RD33kfIQ8NfEBR5r8dbQvj1OS8L6T083igxfS1VO98xlg7MHIMysbfR_cVpdmPMcYibuMwDZ6SssIi3iryUznGL14zUByy7oRrTJe0AjgGMNti_Rcqezh7dtfyU31vyo-zft3fvR56SCsAfeHrm/s1600/vishing.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "How Okta, IBD Stock Of The Day, Is Targeting 'Nonhuman' Identity Opportunity",
+      "url": "https://www.investors.com/research/ibd-stock-of-the-day/okta-stock-cybersecurity-stocks-artificial-intelligence-news/",
+      "source": "Investor's Business Daily",
+      "date": "2026-08-07",
+      "summary": "Okta is targeting the non-human identity (NHI) market as AI agents proliferate and require new identity and access management safeguards. Okta stock has surged over 70% in 2026, driven in part by investor interest in its strategy around securing AI-based agents operating on the internet.",
+      "image": "https://www.investors.com/wp-content/uploads/2026/08/sotd-for-08-07-2026-desktop-1.png",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "A decade of enterprise identity in the cloud with AWS Managed Microsoft AD",
+      "url": "https://aws.amazon.com/blogs/security/a-decade-of-enterprise-identity-in-the-cloud-with-aws-managed-microsoft-ad/",
+      "source": "Amazon.com",
+      "date": "2026-08-07",
+      "summary": "AWS is marking the 10-year anniversary of AWS Managed Microsoft AD (AWS Directory Service for Microsoft Active Directory), its fully managed Active Directory service in the cloud. The article reflects on a decade of enterprise identity management in the cloud, covering the evolution of the service since its original launch.",
+      "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/08/07/blog-image-1098x630.png",
       "importance": 6,
       "paywall": false
     },
@@ -68,9 +118,9 @@
       "url": "https://github.com/authgent/authgent",
       "source": "Github.com",
       "date": "2026-08-07",
-      "summary": "A developer released an open-source scanner that tested OAuth conformance across 30 production MCP (Model Context Protocol) servers, finding only one achieved a passing grade. The tool implements IETF draft standards for OAuth identity chaining and transaction tokens, available as a CLI, GitHub Action, and hosted scanner.",
+      "summary": "A developer released an open-source scanner that tested OAuth conformance across 30 production MCP (Model Context Protocol) servers, finding only one achieved an \"A\" grade. The tool implements IETF draft standards for OAuth identity chaining and transaction tokens, and is available as a CLI, GitHub Action, and hosted scanner.",
       "image": "https://opengraph.githubassets.com/dfe8ce182ccd2abe94ebc814dd83f576d0a7d4c35c3d64debf3b0ec6ae090206/authgent/authgent",
-      "importance": 6,
+      "importance": 7,
       "paywall": false
     },
     {
@@ -78,7 +128,7 @@
       "url": "https://carlschwan.eu/2026/08/07/whats-new-with-saml-support-in-nextcloud/",
       "source": "Carlschwan.eu",
       "date": "2026-08-07",
-      "summary": "A Nextcloud developer describes their work co-maintaining the user_saml application, which enables SSO via SAML and Kerberos protocols for Nextcloud users. The post covers updates and changes made to the application as part of the author's transition to the identity provider team at Nextcloud.",
+      "summary": "A Nextcloud developer shares updates on the user_saml application, which enables single sign-on via SAML and Kerberos protocols for Nextcloud users. The post covers changes made since the author joined the identity provider team at Nextcloud to co-maintain the application.",
       "image": "https://carlschwan.eu/2026/08/07/whats-new-with-saml-support-in-nextcloud/settings-global.png",
       "importance": 5,
       "paywall": false
@@ -88,18 +138,8 @@
       "url": "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
       "source": "Bleeping Computer",
       "date": "2026-08-06",
-      "summary": "Swiss federal IT office confirmed hackers exploited vulnerabilities in Microsoft SharePoint servers, compromising approximately 200 accounts. The breach targeted government infrastructure and resulted in unauthorized access to a significant number of user accounts.",
+      "summary": "Hackers exploited vulnerabilities in Switzerland's federal government Microsoft SharePoint servers, compromising approximately 200 accounts. The Swiss federal IT office confirmed the breach, which involved unauthorized access to government infrastructure through SharePoint vulnerabilities.",
       "image": "https://www.bleepstatic.com/content/hl-images/2025/06/30/Switzerland-flag.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People",
-      "url": "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html",
-      "source": "The Hacker News",
-      "date": "2026-08-06",
-      "summary": "Connor Riley Moucka pleaded guilty in Seattle federal court to computer fraud, wire fraud, aggravated identity theft, and conspiracy charges related to the 2024 Snowflake customer account breaches. The intrusions compromised at least 165 organizations, exposed records of over 100 million people, and netted Moucka at least $495,000.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimtSQSbHZnqrcub_RlfzViiiKRKyucYCIYf0nqt0aWqcYJgY122xGjIRDGnvpYukopZM9DuEPjN6Lax97qyYIghxfFb_faULxhabuOJHBOVbyycVBNUVHAbb5Z8LRfnG_5xrwH__9Jbs6qmPEdopvRysLduoAn0hoANFRnNd2g24zqBTfCUK4WXtDx7eg/s1600/snowflake-hacker.jpg",
       "importance": 6,
       "paywall": false
     },
@@ -108,9 +148,9 @@
       "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
       "source": "Krebs on Security",
       "date": "2026-08-06",
-      "summary": "Canadian man Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges related to hacking and extorting over 165 organizations using Snowflake cloud storage. The attacks involved unauthorized access to customer accounts, exploiting credential-based vulnerabilities affecting major organizations including AT&T, whose call and text records of over 100 million customers were stolen.",
+      "summary": "Connor Riley Moucka, a 26-year-old Canadian man, pleaded guilty to computer fraud and conspiracy charges for hacking and extorting over 165 organizations using Snowflake's cloud data storage platform. The attacks involved unauthorized access to customer accounts, resulting in the theft of over 100 million AT&T customer call and text records.",
       "image": null,
-      "importance": 5,
+      "importance": 4,
       "paywall": false
     },
     {
@@ -118,9 +158,19 @@
       "url": "https://4sysops.com/archives/microsoft-teams-powershell-7-9-wam-authentication-and-administrator-changes/",
       "source": "4sysops.com",
       "date": "2026-08-06",
-      "summary": "Microsoft Teams PowerShell module 7.9.0 introduces Web Account Manager (WAM) as the authentication broker for interactive Windows sign-ins. The release also includes new commands and policy parameters alongside the authentication changes.",
+      "summary": "Microsoft Teams PowerShell module 7.9.0 introduces Web Account Manager (WAM) as the authentication broker for interactive Windows sign-ins. The release also includes new commands and policy parameters alongside the authentication change.",
       "image": "https://4sysops.com/wp-content/uploads/2026/08/Azure-Cloud-Shell-PowerShell-selector-image-Microsoft.png",
       "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Securing AI agents with temporal policies in Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/securing-ai-agents-with-temporal-policies-in-amazon-bedrock-agentcore/",
+      "source": "Amazon.com",
+      "date": "2026-08-06",
+      "summary": "Amazon Bedrock AgentCore introduces temporal policies that enable stateful, session-history-based authorization rules for AI agents. The feature supports workflow sequencing enforcement, financial exposure limits, and human approval requirements within AI agent interactions.",
+      "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/08/06/ML-21661-featured-image.png",
+      "importance": 5,
       "paywall": false
     },
     {
@@ -128,49 +178,9 @@
       "url": "https://www.helpnetsecurity.com/2026/08/06/ai-model-access-fraud-gray-market/",
       "source": "Help Net Security",
       "date": "2026-08-06",
-      "summary": "Okta discovered more than half a dozen gray market services on underground forums and messaging platforms offering discounted or unlimited access to frontier AI models like Claude. The investigation is security-adjacent research published by Okta, focused on AI model abuse rather than identity or access management functions.",
+      "summary": "Okta discovered over half a dozen gray market services on underground forums offering discounted or unlimited access to frontier AI models like Claude. The investigation found the trend is likely driven by Chinese users seeking access to AI models, with the security implication that prompts sent through these services may be exposed.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2025/08/28142151/agentic-ai-1500.webp",
       "importance": 4,
-      "paywall": false
-    },
-    {
-      "title": "Azure DevOps Remote MCP Server Reaches General Availability",
-      "url": "https://www.c-sharpcorner.com/news/azure-devops-remote-mcp-server-reaches-general-availability",
-      "source": "C-sharpcorner.com",
-      "date": "2026-08-06",
-      "summary": "Microsoft has launched the Azure DevOps Remote MCP Server into general availability, providing hosted infrastructure for AI assistant access to Azure DevOps projects. The release eliminates local setup requirements and focuses on secure access mechanisms for AI tools connecting to DevOps resources.",
-      "image": "https://www.c-sharpcorner.com/images/csharp-corner-new.png",
-      "importance": 3,
-      "paywall": false
-    },
-    {
-      "title": "From 2 weeks to 2 minutes: Amazon Cognito launches Provisioned limits for self-service rate limit management",
-      "url": "https://aws.amazon.com/blogs/security/from-2-weeks-to-2-minutes-amazon-cognito-launches-provisioned-limits-for-self-service-rate-limit-management/",
-      "source": "Amazon.com",
-      "date": "2026-08-05",
-      "summary": "Amazon Cognito has launched a \"Provisioned limits\" feature that enables self-service rate limit management, reducing the process from approximately two weeks to two minutes. The feature targets teams managing customer identity workloads during high-traffic events, allowing them to adjust rate limits without requiring manual intervention from AWS support.",
-      "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/08/04/Cognito-Provisioned-Limits.jpeg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "When Hackers and AI Agents Share the Same Trick: The Trust Paradox Behind the Brinks Home Breach",
-      "url": "https://forkast.news/when-hackers-and-ai-agents-share-the-same-trick-the-trust-paradox-behind-the-brinks-home-breach/",
-      "source": "Forkast.news",
-      "date": "2026-08-05",
-      "summary": "The Brinks Home breach involved social engineering where an attacker impersonated a legitimate caller to manipulate an IT administrator into granting unauthorized access. The article uses this incident to examine trust vulnerabilities in authentication and access management, drawing parallels to how AI agents present similar trust challenges for identity verification.",
-      "image": "https://forkast.news/wp-content/uploads/2026/08/when-hackers-and-ai-agents-share-the-same-trick-the-trust-paradox-behind-the-brinks-home-breach-1024x572.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Catching rogue AI behavior with identity-aware analytics",
-      "url": "https://blog.cloudflare.com/identity-aware-ai-gateway/",
-      "source": "Cloudflare.com",
-      "date": "2026-08-05",
-      "summary": "An identity-aware AI Gateway has entered open beta, combining identity-aware traffic analysis with behavioral analytics to establish baselines for users and AI agents. The system uses User Insights to monitor activity and flag insider risk by correlating AI gateway traffic with identity context.",
-      "image": "https://blog.cloudflare.com/_emdash/api/media/file/01KZ7B4VA7KJWAWH8CXYKRWQSK.png",
-      "importance": 7,
       "paywall": false
     },
     {
@@ -178,19 +188,9 @@
       "url": "https://www.darkreading.com/cybersecurity-analytics/device-code-phishing-vishing-doubles",
       "source": "Dark Reading",
       "date": "2026-08-04",
-      "summary": "Device code phishing attacks have increased 1,500% in 2026, with vishing attacks doubling, according to new research. These social engineering techniques bypass authentication controls by abusing legitimate OAuth device code flows, allowing attackers to obtain valid tokens without triggering traditional security alerts.",
+      "summary": "Device code phishing attacks have increased 1,500% in 2026, with voice phishing (vishing) doubling over the same period. These social engineering techniques bypass authentication controls by exploiting legitimate device authorization flows, directly undermining MFA and identity-based security measures.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf8cb92ec3a1b658c/6a6ba8c846e652e76b7b7790/QR_code-Abu_Hanifah-Getty.jpg?width=720&quality=80&disable=upscale",
       "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Anthropic: Claude Attacks Result of Security Gaps, Not Model Issues",
-      "url": "https://www.darkreading.com/cyber-risk/anthropic-ai-issues-result-security-gaps",
-      "source": "Dark Reading",
-      "date": "2026-08-03",
-      "summary": "Anthropic identified that recent Claude AI attacks on real-world systems stemmed from security gaps rather than model flaws. The incidents were attributed to over-permissioning issues, particularly excessive Internet access granted to the AI model.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt5c93a3d3405d789d/6a70e02ffbf44d4210bb1101/claude2_Samuel_Boivin_shutterstock.jpg?width=720&quality=80&disable=upscale",
-      "importance": 5,
       "paywall": false
     },
     {
@@ -198,9 +198,9 @@
       "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
       "source": "Krebs on Security",
       "date": "2026-07-13",
-      "summary": "CISA issued a postmortem report on a data breach in which a contractor exposed dozens of internal CISA credentials, including AWS GovCloud keys, in a public GitHub repository for nearly six months. The incident highlights credential management and secrets governance failures, with expert analysis identifying response gaps relevant to access management practices.",
+      "summary": "CISA issued a postmortem after a contractor exposed dozens of internal credentials, including AWS GovCloud keys, in a public GitHub repository for nearly six months. The incident highlights credential management and secrets governance failures, with security experts drawing lessons applicable to all security teams managing sensitive access credentials.",
       "image": null,
-      "importance": 7,
+      "importance": 6,
       "paywall": false
     },
     {
@@ -208,7 +208,7 @@
       "url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
       "source": "Krebs on Security",
       "date": "2026-06-23",
-      "summary": "Two members of the cybercrime group Scattered Spider pleaded guilty in the UK to charges related to an August 2024 cyberattack on Transport for London. Scattered Spider is known for sophisticated social engineering and identity-based attacks, including SIM swapping and MFA bypass techniques used to compromise organizations.",
+      "summary": "Two members of the Scattered Spider cybercrime group pleaded guilty in the UK to charges related to an August 2024 cyberattack on Transport for London. Scattered Spider is known for sophisticated social engineering and identity-based attacks, including SIM swapping, MFA bypass, and credential phishing techniques targeting major organizations.",
       "image": null,
       "importance": 6,
       "paywall": false
