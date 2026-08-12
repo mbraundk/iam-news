@@ -1,24 +1,24 @@
 {
-  "updated": "August 11, 2026 at 04:28 UTC",
+  "updated": "August 12, 2026 at 04:56 UTC",
   "top_stories": [
     {
       "title": "New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant MFA",
       "url": "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html",
       "source": "The Hacker News",
       "date": "2026-08-10",
-      "summary": "Three separate research efforts have demonstrated new attack techniques capable of defeating passkey protections without breaking their underlying cryptography. The methods include reusing signed authentication material exposed by Windows, extracting cloud-synced passkey private keys via malware, and bypassing phishing-resistant MFA protections.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWKCkGCqH-c6Yaqkd_NnzFQijViu34tjAEsdl9tl2CmZLHL4m1rLhezO76zF6XFRTGS9Sr4R3jhMD7z15QV0BMqG948bjg8SoZb_j6HtQajd0PUDR8Tmw06GMqDwS6VhAtH-ZNtD06lzb9KMhJsHi-Vvkps0n6bl6C8n6rSBHCldBuc1cMczr30h11N-8/s1600/passkeys.jpg",
+      "summary": "Three separate research efforts have demonstrated new attack techniques capable of defeating passkey protections without breaking their underlying cryptography. The attacks involve reusing signed authentication material exposed by Windows, abusing cloud-synced passkey systems via malware, and bypassing phishing-resistant MFA—directly undermining a key security control increasingly adopted by IAM deployments.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXmfqNoa09hdS94VkCzlDhqshyphenhyphenLXM3mo93MtChM8pXBFJxCEh6iP7mlU-wcwnWZGROVidduvOqpGfWajbLA5PaTrH7tibyCqcvmlnS-b4c0yBcGZJ7eJLPPXxoutiEEt_rqGlPf4pSFUjWfmuuME7kegCwQam0Kf7VivC9nAUjKIvxYeBETap8ElXjck5R/s1600/intraid.jpg",
       "importance": 9,
       "paywall": false
     },
     {
-      "title": "Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access",
-      "url": "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html",
-      "source": "The Hacker News",
-      "date": "2026-08-07",
-      "summary": "Researcher Dirk-jan Mollema demonstrated that malware with access to a signed-in Windows session can silently exploit Windows Hello for Business keys to authenticate to Microsoft Entra ID without user interaction. The attack chain allows adversaries to register a controlled device, obtain a Primary Refresh Token (PRT), and add additional authentication methods, enabling persistent cloud access that survives credential resets.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj81b6_YckjrqqfRrJQNRdIf3nu4xfqLNScukFYEao4VeF5QNlt16sbEwrdutizdB9Q1nOWRQpqeSZg4gYZsL8cIhRSJ43XJqMKWKgdKF28oeTl19HQQ75dnOKVHsa6DtXr4zhlmIF43nbUWV5jyEh4D1TjIvBKjgoAX2MpUbjJH3cN4hd4zDvIu_t4Jec/s1600/windows-hello-keys.jpg",
-      "importance": 9,
+      "title": "Microsoft Entra ID will let Windows Hello and macOS PSSO satisfy MFA alone",
+      "url": "https://4sysops.com/archives/microsoft-entra-id-will-let-windows-hello-and-macos-psso-satisfy-mfa-alone/",
+      "source": "4sysops.com",
+      "date": "2026-08-10",
+      "summary": "Microsoft Entra ID will update its authentication policy so that Windows Hello for Business and macOS Platform Single Sign-On (PSSO) will qualify as standalone MFA credentials. The change takes effect in October 2026, eliminating the requirement for an additional passkey or authentication method when using these platform authenticators.",
+      "image": "https://4sysops.com/wp-content/uploads/2026/08/microsoft-entra-id-will-let-windows-hello-and-macos-psso-satisfy-mfa-alone.webp",
+      "importance": 8,
       "paywall": false
     },
     {
@@ -26,18 +26,8 @@
       "url": "https://securityaffairs.com/196800/security/hackers-impersonate-it-support-to-breach-leading-financial-companies.html",
       "source": "Securityaffairs.com",
       "date": "2026-08-07",
-      "summary": "A hacking campaign operating under names including Redact, Pink, Falcon, and Helix created fake IT help desk websites to steal MFA credentials from employees at over 200 financial firms. The attackers impersonated IT support staff to trick targets into submitting their multi-factor authentication credentials on fraudulent sites.",
+      "summary": "A hacking campaign operating under names including Redact, Pink, Falcon, and Helix targeted over 200 financial firms by impersonating IT help desks to steal MFA credentials. Attackers built credential-stealing websites designed to capture employee authentication data by posing as legitimate IT support personnel.",
       "image": "https://securityaffairs.com/wp-content/uploads/2026/08/image-13.png",
-      "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Azure DevOps service connections now replace PATs across pipeline tasks",
-      "url": "https://4sysops.com/archives/azure-devops-service-connections-now-replace-pats-across-pipeline-tasks/",
-      "source": "4sysops.com",
-      "date": "2026-08-06",
-      "summary": "Microsoft has updated Azure DevOps pipelines to support authentication via Microsoft Entra service principals or managed identities, replacing Personal Access Tokens (PATs) and build session tokens. The new Azure DevOps service connection supports cross-organization repository access, reducing reliance on long-lived static credentials in CI/CD workflows.",
-      "image": "https://4sysops.com/wp-content/uploads/2026/08/azure-devops-service-connections-now-replace-pats-across-pipeline-tasks.webp",
       "importance": 8,
       "paywall": false
     },
@@ -46,21 +36,101 @@
       "url": "https://www.darkreading.com/cyber-risk/ghostjacking-identity-governance-gaps-ai-agents",
       "source": "Dark Reading",
       "date": "2026-08-10",
-      "summary": "New research has identified an attack technique called \"GhostJacking\" that exploits identity governance gaps in AI agents by manipulating security alerts and blocked events. The research demonstrates how attackers can hijack AI agents through these mechanisms, exposing weaknesses in how identity and authorization controls apply to agentic AI systems.",
+      "summary": "New research has identified an attack technique called \"GhostJacking\" that exploits identity governance gaps in AI agents by manipulating security alerts and blocked events to hijack agent behavior. The findings highlight weaknesses in how authorization and access controls are implemented for AI agents operating within enterprise environments.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt7efbf6a210292d1d/6a7a43503413ca658e4c0cb9/ghosts-MediaProduction-Getty-1437542277.jpg?width=720&quality=80&disable=upscale",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "AWS Identity and Access Management streamlines assignment of IAM roles to workforce users with account access manager",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-aam/",
+      "source": "Amazon.com",
+      "date": "2026-08-10",
+      "summary": "AWS IAM launched a new feature called account access manager that streamlines the assignment of IAM roles to workforce users. Administrators can use the feature to assign IAM roles across AWS accounts to workforce users directly.",
+      "image": null,
       "importance": 7,
       "paywall": false
     }
   ],
   "news": [
     {
-      "title": "When Credentials Are No Longer Enough: Device Trust in the AI Era",
-      "url": "https://www.bleepingcomputer.com/news/security/when-credentials-are-no-longer-enough-device-trust-in-the-ai-era/",
-      "source": "Bleeping Computer",
-      "date": "2026-08-10",
-      "summary": "Specops published analysis arguing that traditional authentication signals like passwords, MFA, IP reputation, and geolocation are increasingly insufficient against AI-enhanced phishing and credential theft. The piece advocates for incorporating device trust as an additional layer within Zero Trust security strategies.",
-      "image": "https://www.bleepstatic.com/content/posts/2026/08/04/specops-locks.jpg",
+      "title": "Gunra Ransomware Gang Exploits Fortinet Flaws, Bypasses MFA",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/gunra-ransomware-gang-fortinet-flaws-bypasses-mfa",
+      "source": "Dark Reading",
+      "date": "2026-08-11",
+      "summary": "The Gunra ransomware gang is exploiting Fortinet vulnerabilities in firewalls and VPN appliances while bypassing MFA to target critical infrastructure. The operation uses leaked Conti ransomware code and leverages old, unpatched flaws in network perimeter devices to gain initial access.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt468a31de0930ebef/6a7b87a0f0b097cbb1a7bb39/ransomware-jittawit.21-Getty-2178699306.jpg?width=720&quality=80&disable=upscale",
       "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Vague Task, Total Access: When AI Delegation Becomes a Security Risk",
+      "url": "https://www.bleepingcomputer.com/news/security/vague-task-total-access-when-ai-delegation-becomes-a-security-risk/",
+      "source": "Bleeping Computer",
+      "date": "2026-08-11",
+      "summary": "Token Security published analysis warning that AI agents given broad enterprise system access can act beyond their intended task scope, creating security risks. The piece argues organizations need to define agent intent and continuously enforce least-privilege permissions specific to each AI agent's designated function.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/08/10/token-ai-vaugeness.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Locking your ssh-agent exposed local-only keys until OpenSSH 10.5",
+      "url": "https://www.helpnetsecurity.com/2026/08/11/openssh-10-5-ssh-agent-flaw/",
+      "source": "Help Net Security",
+      "date": "2026-08-11",
+      "summary": "OpenSSH 10.4 contained a flaw where locking the ssh-agent inadvertently disabled the check distinguishing local versus forwarded remote connection requests, potentially exposing local-only private keys to remote servers via agent forwarding. OpenSSH 10.5 ships the fix for this vulnerability, which affects the agent responsible for holding decrypted private keys to avoid repeated passphrase entry.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/07/06145725/openssh-1500.webp",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
+      "url": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
+      "source": "The Hacker News",
+      "date": "2026-08-11",
+      "summary": "Security researchers disclosed CVE-2026-55040 (CVSS 9.1), an unauthenticated remote code execution vulnerability in Microsoft SharePoint Server that allows attackers to access servers as any user, including administrators, without valid credentials. The flaw affects SharePoint Server Subscription Edition, SharePoint Server 2019, and SharePoint Server 2016, and was partially discovered using an AI agent.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbDSDTAbeeAZ8pykGFRAGcCDs_3LZBuD8tYUJfh0jG35r_o84zM_bNo7q3TWcoEMPmZqvhzucujEF72b2c2HnzfDjowsj4Iw4psQEwcgADR_rVMCXVw18arcpSB0WLblkZeypa-bgJPsD0qwrqBUk2umKezFZTtuDpbi_kQlsGUSiveb2suBMRyc3oZhQ/s1600/admin.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers",
+      "url": "https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html",
+      "source": "The Hacker News",
+      "date": "2026-08-11",
+      "summary": "Security researchers created a fake cryptocurrency startup and hired three suspected North Korean IT workers to study their tactics. The investigation revealed identity fraud during onboarding, with one hire providing mismatched location, driver's license, and bank account details.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIGgelUshBcG56Nc5uWqBbhQwtUxWtNgSIRTCiJXZoJtkuTWeXEV0KiWRje-UhGGnrvf6wNOmmBGQ7yAxKNigAuJE00RicY4ris0k02Dd_1ch7_RcSM2aJtGvgf4miSazvFMNEqTmVDY3nlDT1zPwg5vkafqzMwbkFRZ1kO4xU2mzZgfxAEUTM0zObjGE/s1600/nk.jpg",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets",
+      "url": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html",
+      "source": "The Hacker News",
+      "date": "2026-08-11",
+      "summary": "Researchers have demonstrated that malicious Model Context Protocol (MCP) servers can manipulate AI coding assistants into exfiltrating secrets such as SSH keys and environment credentials by splitting harmful instructions into seemingly routine fragments. The attack method bypasses initial refusals by distributing the malicious intent across multiple benign-looking requests, posing a threat to secrets and credentials managed within development environments.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2hJoWr0m-Mx1rwaqZpbsdsQa5iSVY8J_jAnt0zKgBUlynOrS-NgEcINm3asfWZR-Ypx9y1iw28BOVud8sfaOQbiq4lmrvSnaZHUBlrkmkH9KXSPy4AXQkklS-AxG83dzpV8sSMj_uUDyVvZTgKs68EpYd18qHJTWF8s2NRaQIF80mh0e7mok6y0SqFi4/s1600/mcp-agent.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft unveils Project Perception in July 2026 Security update",
+      "url": "https://4sysops.com/archives/microsoft-unveils-project-perception-in-july-2026-security-update/",
+      "source": "4sysops.com",
+      "date": "2026-08-10",
+      "summary": "Microsoft has unveiled Project Perception, an agentic defense platform, as part of its July 2026 Security update. The platform includes AI-focused protections covering identities among other areas such as email and cloud agents.",
+      "image": "https://4sysops.com/wp-content/uploads/2026/08/microsoft-unveils-project-perception-in-july-2026-security-update.webp",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft Entra sets November 2026 deadline for memberOf rules",
+      "url": "https://4sysops.com/archives/microsoft-entra-sets-november-2026-deadline-for-memberof-rules/",
+      "source": "4sysops.com",
+      "date": "2026-08-10",
+      "summary": "Microsoft Entra is retiring the `memberOf` rule operator on November 3, 2026, requiring administrators to update identity policies before that deadline. Additional changes include shortened activation times for managed policies and modifications to user re-authentication behavior.",
+      "image": "https://4sysops.com/wp-content/uploads/2026/08/microsoft-entra-sets-november-2026-deadline-for-memberof-rules.jpg",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -68,19 +138,9 @@
       "url": "https://www.helpnetsecurity.com/2026/08/10/entra-id-windows-hello-macos-psso-standalone-mfa/",
       "source": "Help Net Security",
       "date": "2026-08-10",
-      "summary": "Microsoft is updating Entra ID to remove an extra MFA step for users authenticating with Windows Hello for Business or macOS Platform Single Sign-On, with rollout beginning in early October 2026. The change, tracked as MC1450134, aims to promote phishing-resistant authentication methods while reducing reliance on weaker alternatives.",
+      "summary": "Microsoft is updating Entra ID to remove an additional MFA verification step for users who authenticate via Windows Hello for Business or macOS Platform Single Sign-On. The change will roll out to worldwide and GCC tenants beginning early October 2026, with full completion expected by late November 2026.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2025/06/12183518/microsoft_entra_id.webp",
       "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Product showcase: Enpass Password Manager breaks away from the proprietary cloud model",
-      "url": "https://www.helpnetsecurity.com/2026/08/10/product-showcase-enpass-password-manager/",
-      "source": "Help Net Security",
-      "date": "2026-08-10",
-      "summary": "Enpass Password Manager is showcased as a credential management tool that stores passwords, passkeys, payment cards, and other sensitive data in encrypted vaults on-device or in user-selected cloud storage. The product supports multiple platforms including Windows, macOS, Linux, Android, and iOS, with browser extensions for major browsers.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/08/06135437/enpass_password_manager.webp",
-      "importance": 4,
       "paywall": false
     },
     {
@@ -88,7 +148,7 @@
       "url": "http://vrda.jpcert.or.jp/feed/ja/JVNiPedia_JVNDB-2026-027667_AD_1.html",
       "source": "Jpcert.or.jp",
       "date": "2026-08-10",
-      "summary": "A path traversal vulnerability has been identified in Microsoft Entra Provisioning Service, catalogued in the Japanese vulnerability database JVNDB-2026-027667. The flaw affects Microsoft's Entra identity provisioning infrastructure, which is a core component of the Microsoft Entra IAM platform.",
+      "summary": "A path traversal vulnerability has been identified in Microsoft Entra Provisioning Service, catalogued in the Japanese vulnerability database (JVNDB-2026-027667). The vulnerability affects Microsoft Entra, Microsoft's cloud identity and access management platform.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -98,7 +158,7 @@
       "url": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
       "source": "The Hacker News",
       "date": "2026-08-08",
-      "summary": "Security researchers found that Atlassian's Rovo AI assistant can be manipulated via prompt injection attacks to exfiltrate Jira and Confluence data accessible to a signed-in user. Two security firms independently discovered different attack routes, with only one confirmed patched.",
+      "summary": "Security researchers found that Atlassian's Rovo AI assistant can be manipulated via prompt injection to exfiltrate Jira and Confluence data accessible to a signed-in user to an external server. Two security firms independently discovered the vulnerability through different attack routes, with only one confirmed patched.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFYjJTxVoOMkR9DDRPZ5PkeR_EWAqmBScR3TPw3mlweipGlnQKq0OdfVqR2f26QIV3kBJWQIM65f8XwMSFq3zT6Bl4fsTvkPHxJiU2LilhK9s0tcreXt2gotEpE8sKoDrLQJ3SSVY9B-RS0FsS2dC480op8OV-caeaZvNyTiIipQbeNFJGMnAcjWEVq7g/s1600/rovo.jpg",
       "importance": 3,
       "paywall": false
@@ -108,9 +168,9 @@
       "url": "https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html",
       "source": "The Hacker News",
       "date": "2026-08-08",
-      "summary": "New research by PortSwigger's Gareth Heyes demonstrates CSS-based attacks that allow malicious email content to escape message boundaries and interfere with webmail interfaces across Outlook, Gmail, Fastmail, Proton Mail, Yahoo Mail, and AOL Mail. The attack chains can capture passwords, leak authentication tokens, hijack UI actions, and take over third-party accounts.",
+      "summary": "New research from PortSwigger demonstrates CSS-based attacks that allow malicious email content to break out of message boundaries and interfere with webmail interfaces across Outlook, Gmail, Fastmail, Proton Mail, Yahoo Mail, and AOL Mail. The attack chains can capture passwords, leak authentication tokens, hijack UI actions, take over third-party accounts, and manipulate AI email tools.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCUnWbFb6UGu3ML1MqcuVXYwk0yoD6WzgXIQmi8ijkZQjS6M3g1F3kgV-RanNgyP1bdpNxDOOqMJzJnutZGh4MUVyYCbbu98sNXtAp-GWxueyKH9fDo3z9HmBl4tL-rj91kb11bhdhRvWGAYe56YGYMEzJgGIZeUqj9eGH10Bynj0YE6WMLl0J7O-HhLc/s1600/css-bomb.jpg",
-      "importance": 5,
+      "importance": 6,
       "paywall": false
     },
     {
@@ -118,19 +178,9 @@
       "url": "https://www.digitimes.com/news/a20260805PD229/taiwan-governance-hardware-manufacturing-cybersecurity.html",
       "source": "Digitimes",
       "date": "2026-08-08",
-      "summary": "SailPoint's managing director for Taiwan, Hong Kong, and Macau assessed that Taiwan's cybersecurity software and identity governance investment lags behind other Asia-Pacific regions despite the country's global hardware manufacturing leadership. The interview highlights a regional gap in identity governance adoption as observed by a senior SailPoint executive.",
+      "summary": "SailPoint's managing director for Taiwan, Hong Kong, and Macau states that Taiwan's hardware manufacturing sector leads globally but the country's identity governance investment lags behind other Asia-Pacific region peers. The interview highlights a regional gap in cybersecurity software and identity governance adoption despite Taiwan's technological strengths.",
       "image": "https://img.digitimes.com/newsshow/20260805pd229_files/1_b.jpg",
       "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails",
-      "url": "https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html",
-      "source": "The Hacker News",
-      "date": "2026-08-07",
-      "summary": "Cybersecurity researchers have identified an active phishing campaign using adversary-in-the-middle (AitM) techniques to hijack Microsoft 365 accounts, specifically targeting personnel involved in payroll and financial workflows. The attack uses residential proxies to disguise malicious sign-ins as legitimate consumer traffic, effectively bypassing standard authentication controls.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH78NjDW1Q_sIk9dwQ1scYlCkNCMutfjGx_9flqrKbE42fEXqvHT8s5EeHTnWjbBGvzCuHPEWStR5r6wjwtIuuHF1hyphenhyphenot22E_Q98xedC1zXVhIhwglw6hLWQs45oSrPKPflK6Tt1BlHTj9iokMPpVaTehuemHGHDLL02cn2sqZJ5iIVstxiVf5IZ5Khodp/s1600/ms-phish.jpg",
-      "importance": 7,
       "paywall": false
     },
     {
@@ -138,7 +188,7 @@
       "url": "https://www.investors.com/research/ibd-stock-of-the-day/okta-stock-cybersecurity-stocks-artificial-intelligence-news/",
       "source": "Investor's Business Daily",
       "date": "2026-08-07",
-      "summary": "Okta is targeting the \"nonhuman\" identity market as AI-based agents performing internet tasks require new identity and access management safeguards. Okta stock has surged over 70% in 2026 in connection with this emerging opportunity.",
+      "summary": "Okta is targeting the nonhuman identity market as AI-based agents performing internet tasks require new identity and access management safeguards. Okta stock has surged over 70% in 2026 in connection with this strategic focus on securing AI agent identities.",
       "image": "https://www.investors.com/wp-content/uploads/2026/08/sotd-for-08-07-2026-desktop-1.png",
       "importance": 6,
       "paywall": false
@@ -148,7 +198,7 @@
       "url": "https://aws.amazon.com/blogs/security/a-decade-of-enterprise-identity-in-the-cloud-with-aws-managed-microsoft-ad/",
       "source": "Amazon.com",
       "date": "2026-08-07",
-      "summary": "AWS is marking the ten-year anniversary of its Managed Microsoft Active Directory service (AWS Directory Service for Microsoft Active Directory). The article reviews the evolution of the managed AD offering in the AWS Cloud, covering its role in enterprise identity management over the past decade.",
+      "summary": "AWS is marking the 10-year anniversary of AWS Managed Microsoft AD (AWS Directory Service for Microsoft Active Directory), a fully managed Active Directory service in the AWS Cloud. The article reviews the service's evolution over the decade, covering its role in enterprise identity management in cloud environments.",
       "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/08/07/blog-image-1098x630.png",
       "importance": 6,
       "paywall": false
@@ -158,9 +208,9 @@
       "url": "https://github.com/authgent/authgent",
       "source": "Github.com",
       "date": "2026-08-07",
-      "summary": "A developer released an open-source scanner that assessed OAuth conformance across 30 production MCP (Model Context Protocol) servers, finding only one earned a passing grade. The tool implements IETF draft standards for OAuth identity chaining and transaction tokens, available as a CLI, GitHub Action, and hosted scanner.",
+      "summary": "A developer released an open-source scanner that tested OAuth conformance across 30 production MCP (Model Context Protocol) servers, finding only one achieved an \"A\" grade. The tool implements IETF draft standards for OAuth identity chaining and transaction tokens, available as a CLI, GitHub Action, and hosted scanner.",
       "image": "https://opengraph.githubassets.com/dfe8ce182ccd2abe94ebc814dd83f576d0a7d4c35c3d64debf3b0ec6ae090206/authgent/authgent",
-      "importance": 6,
+      "importance": 7,
       "paywall": false
     },
     {
@@ -168,7 +218,7 @@
       "url": "https://carlschwan.eu/2026/08/07/whats-new-with-saml-support-in-nextcloud/",
       "source": "Carlschwan.eu",
       "date": "2026-08-07",
-      "summary": "A Nextcloud developer describes recent updates to the user_saml application, which enables single sign-on via SAML and Kerberos protocols for Nextcloud users. The post covers changes made since the author joined Nextcloud's IdP team as a co-maintainer of the application.",
+      "summary": "A Nextcloud developer describes updates to the user_saml application, which enables single sign-on via SAML and Kerberos protocols for Nextcloud users. The post covers maintenance work and feature changes to the open-source SSO integration component.",
       "image": "https://carlschwan.eu/2026/08/07/whats-new-with-saml-support-in-nextcloud/settings-global.png",
       "importance": 5,
       "paywall": false
@@ -178,9 +228,9 @@
       "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
       "source": "Krebs on Security",
       "date": "2026-08-06",
-      "summary": "Canadian man Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges related to hacking and extorting over 165 organizations using Snowflake cloud storage. The attacks involved unauthorized access to customer accounts, resulting in data theft including over 100 million AT&T customer records.",
+      "summary": "Canadian man Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges for hacking and extorting over 165 organizations using Snowflake's cloud data storage platform. The attacks involved credential-based intrusions into Snowflake customer accounts, resulting in the theft of over 100 million AT&T customer records including call and text history.",
       "image": null,
-      "importance": 4,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -188,29 +238,9 @@
       "url": "https://4sysops.com/archives/microsoft-teams-powershell-7-9-wam-authentication-and-administrator-changes/",
       "source": "4sysops.com",
       "date": "2026-08-06",
-      "summary": "Microsoft Teams PowerShell module 7.9.0 introduces Web Account Manager (WAM) as the authentication broker for interactive Windows sign-ins. The release also includes new commands and policy parameters alongside the authentication infrastructure change.",
+      "summary": "Microsoft Teams PowerShell module 7.9.0 introduces Web Account Manager (WAM) as the authentication broker for interactive Windows sign-ins. The release also includes new commands and policy parameters alongside the authentication changes.",
       "image": "https://4sysops.com/wp-content/uploads/2026/08/Azure-Cloud-Shell-PowerShell-selector-image-Microsoft.png",
       "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Securing AI agents with temporal policies in Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/securing-ai-agents-with-temporal-policies-in-amazon-bedrock-agentcore/",
-      "source": "Amazon.com",
-      "date": "2026-08-06",
-      "summary": "Amazon Web Services introduced temporal policies in Amazon Bedrock AgentCore, enabling stateful authorization rules for AI agents based on session history. The feature allows enforcement of workflow sequencing, financial caps, and human approval requirements for AI agent actions.",
-      "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/08/06/ML-21661-featured-image.png",
-      "importance": 4,
-      "paywall": false
-    },
-    {
-      "title": "Discounted Claude access bought on the gray market may expose every prompt you send",
-      "url": "https://www.helpnetsecurity.com/2026/08/06/ai-model-access-fraud-gray-market/",
-      "source": "Help Net Security",
-      "date": "2026-08-06",
-      "summary": "Okta researchers discovered over half a dozen gray market services on underground forums offering discounted or \"unlimited\" access to frontier AI models like Claude. The investigation centers on Okta's threat intelligence findings rather than any IAM product or identity security capability directly.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2025/08/28142151/agentic-ai-1500.webp",
-      "importance": 4,
       "paywall": false
     },
     {
@@ -218,7 +248,7 @@
       "url": "https://www.darkreading.com/cybersecurity-analytics/device-code-phishing-vishing-doubles",
       "source": "Dark Reading",
       "date": "2026-08-04",
-      "summary": "Device code phishing attacks have increased 1,500% in 2026, with voice phishing (vishing) attacks doubling over the same period. These social engineering techniques target authentication flows, allowing attackers to bypass established security controls including MFA by exploiting legitimate device authorization mechanisms.",
+      "summary": "Device code phishing attacks have increased 1,500% in 2026, while voice phishing (vishing) has doubled, according to new research. These social engineering techniques bypass authentication controls by abusing legitimate device authorization flows, directly undermining MFA and identity-based security measures.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf8cb92ec3a1b658c/6a6ba8c846e652e76b7b7790/QR_code-Abu_Hanifah-Getty.jpg?width=720&quality=80&disable=upscale",
       "importance": 6,
       "paywall": false
@@ -228,7 +258,7 @@
       "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
       "source": "Krebs on Security",
       "date": "2026-07-13",
-      "summary": "CISA released a postmortem report on a data breach where a contractor publicly exposed dozens of internal CISA credentials, including AWS GovCloud keys, on GitHub for nearly six months. The incident highlights credential management failures and secret sprawl risks, with security experts drawing lessons for access management and secrets hygiene practices.",
+      "summary": "CISA released a postmortem report on a data breach in which a contractor accidentally exposed dozens of internal credentials, including AWS GovCloud keys, in a public GitHub repository for nearly six months. The incident was not discovered internally but reported by KrebsOnSecurity, highlighting gaps in credential monitoring and secrets management practices.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -238,7 +268,7 @@
       "url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
       "source": "Krebs on Security",
       "date": "2026-06-23",
-      "summary": "Two Scattered Spider members pleaded guilty in the UK to charges related to an August 2024 cyberattack on Transport for London, on the first day of what was expected to be a six-week trial. Scattered Spider is a cybercrime group known for sophisticated social engineering and identity-based attacks, including SIM swapping and phishing to bypass MFA and gain unauthorized access to corporate systems.",
+      "summary": "Two Scattered Spider members pleaded guilty in the UK to charges related to the August 2024 cyberattack on Transport for London, on the first day of what was expected to be a six-week trial. Scattered Spider is a cybercrime group known for sophisticated social engineering and identity-based attacks, including SIM swapping and MFA bypass techniques used to compromise major organizations.",
       "image": null,
       "importance": 6,
       "paywall": false
