@@ -1,13 +1,13 @@
 {
-  "updated": "August 19, 2026 at 03:55 UTC",
+  "updated": "August 20, 2026 at 03:55 UTC",
   "top_stories": [
     {
-      "title": "Hacker claims millions of records stolen from corporate Azure tenants",
-      "url": "https://www.helpnetsecurity.com/2026/08/18/azure-data-leak-fortune-500-companies/",
-      "source": "Help Net Security",
-      "date": "2026-08-18",
-      "summary": "A threat actor called \"TheHatman\" claims to have stolen millions of employee records from Azure tenants belonging to multiple Fortune 500 companies, including McDonald's, Vodafone, Kyndryl, and Tata Consultancy Services. The stolen data was posted on cybercrime forums and purportedly extracted directly from the victim organizations' Microsoft Azure environments.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/07/31124109/microsoft-azure-1500.webp",
+      "title": "Password spraying attacks surge 155x as hackers exploit MFA gaps",
+      "url": "https://www.bleepingcomputer.com/news/security/password-spraying-attacks-surge-155x-as-hackers-exploit-mfa-gaps/",
+      "source": "Bleeping Computer",
+      "date": "2026-08-19",
+      "summary": "Huntress recorded a 155x increase in password spraying attacks in the first half of 2026, including a single campaign generating over 81 million login attempts within two weeks. The attacks specifically exploited legacy authentication protocols and incomplete MFA implementations where certain login flows remained unprotected.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/08/18/header-image.jpg",
       "importance": 8,
       "paywall": false
     },
@@ -16,18 +16,8 @@
       "url": "https://4sysops.com/archives/microsoft-entra-news-162-passkeys-become-first-mfa-as-tenant-governance-goes-ga/",
       "source": "4sysops.com",
       "date": "2026-08-16",
-      "summary": "Microsoft Entra is rolling out multiple identity changes including allowing users to register passkeys or passwordless sign-in as their first MFA method, while retiring SMS first-factor sign-in for Entra ID Free tenants. The update also includes the general availability of Tenant Governance, a significant administrator-facing feature for managing identity across tenants.",
+      "summary": "Microsoft Entra is updating its MFA framework to allow passkeys and passwordless sign-in as a user's first registered MFA method, while retiring SMS first-factor sign-in for Entra ID Free tenants. The update also includes the general availability of Tenant Governance, marking a notable shift in Entra's authentication and governance capabilities.",
       "image": "https://4sysops.com/wp-content/uploads/2026/08/microsoft-entra-news-162-passkeys-become-first-mfa-as-tenant-governance-goes-ga.jpg",
-      "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft is urging administrators to prioritise Entra ID over Active Directory",
-      "url": "https://4sysops.com/archives/microsoft-is-urging-administrators-to-prioritise-entra-id-over-active-directory/",
-      "source": "4sysops.com",
-      "date": "2026-08-14",
-      "summary": "Microsoft is urging IT administrators to prioritize Microsoft Entra ID as the primary identity platform for modern workloads over on-premises Active Directory. The recommended migration path is incremental, covering authentication, access decisions, and related identity functions.",
-      "image": "https://4sysops.com/wp-content/uploads/2026/08/microsoft-is-urging-administrators-to-prioritise-entra-id-over-active-directory.webp",
       "importance": 8,
       "paywall": false
     },
@@ -36,51 +26,51 @@
       "url": "https://www.darkreading.com/identity-access-management-security/cyera-oasis-security-acquisition-ai-agent-control",
       "source": "Dark Reading",
       "date": "2026-08-14",
-      "summary": "Cyera acquired Oasis Security in a $1 billion deal to converge data security and identity management into a single control plane. The acquisition redefines privileged access management around business context rather than static roles, with a focus on controlling AI agent identities.",
+      "summary": "Cyera acquired Oasis Security in a $1 billion deal to converge data security and identity management into a unified control plane. The acquisition redefines privileged access management around business context rather than static roles, with a focus on controlling AI agent identities.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blta34684778cb8b0db/682deb002835ee067393fc41/Mergers_M&A_(1800)_pichetw_Alamy.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
     },
     {
-      "title": "Belgium's eID Authentication Opens Citizen Accounts to RCE",
-      "url": "https://www.darkreading.com/application-security/belgium-eid-authentication-citizen-accounts-rce",
-      "source": "Dark Reading",
-      "date": "2026-08-13",
-      "summary": "Belgium's national eID authentication system was found to contain severe vulnerabilities in a critical browser extension, fully compromising the underlying trust framework. The flaws exposed citizen accounts to remote code execution (RCE), highlighting systemic security risks in browser extension-based authentication mechanisms.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9d4b34421b322d00/6a7cd6b1cff117fe2ff5b3b3/Belgium-alxpin-GettyImages-2159495100.jpg?width=720&quality=80&disable=upscale",
+      "title": "AWS IAM identity federation to external services is now available in AWS European Sovereign Cloud Region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-european-sovereign-cloud/",
+      "source": "Amazon.com",
+      "date": "2026-08-18",
+      "summary": "AWS has launched IAM identity federation support in its European Sovereign Cloud (Germany) Region, enabling AWS workloads to authenticate with external services using short-lived JSON Web Tokens (JWTs). This feature allows workloads to obtain temporary credentials without managing long-term secrets, extending existing IAM federation capabilities to the sovereign cloud environment designed for European data residency requirements.",
+      "image": null,
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Portnox adds Microsoft Defender integration to police AI agent access",
+      "url": "https://siliconangle.com/2026/08/18/portnox-adds-microsoft-defender-integration-to-police-ai-agent-access/",
+      "source": "SiliconANGLE News",
+      "date": "2026-08-18",
+      "summary": "Portnox has launched expanded access control capabilities targeting AI agents and non-human identities, including a new integration with Microsoft Defender. The update focuses on governing how AI agents and other non-human identities authenticate and access corporate networks, applications, and infrastructure.",
+      "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/08/portnox.png",
       "importance": 7,
       "paywall": false
     }
   ],
   "news": [
     {
-      "title": "Download: 2026 Credential Risk Report",
-      "url": "https://www.helpnetsecurity.com/2026/08/18/download-enzoic-2026-credential-risk-report/",
-      "source": "Help Net Security",
-      "date": "2026-08-18",
-      "summary": "Enzoic has published its 2026 Credential Risk Report, finding that 85% of cybersecurity professionals view compromised credentials as a primary attack vector, yet only 19% continuously monitor and auto-remediate credential exposure. The report examines gaps in credential detection, monitoring, and response, and addresses limitations of MFA and point-in-time password screening in favor of continuous credential defense approaches.",
-      "image": null,
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Google’s $10,000 refund test shows why AI agents need zero trust",
-      "url": "https://www.helpnetsecurity.com/2026/08/18/google-zero-trust-ai-agents/",
-      "source": "Help Net Security",
-      "date": "2026-08-18",
-      "summary": "Google published an open-source Customer Support & Returns Agent built with its Agent Development Kit (ADK) and Gemini that demonstrates applying zero-trust security principles to AI agents interacting with sensitive systems. The architecture places security controls outside the AI model itself to verify and limit agent actions, treating the agent as potentially compromised or manipulated.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/07/27145900/google-tech-1500.webp",
+      "title": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second",
+      "url": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html",
+      "source": "The Hacker News",
+      "date": "2026-08-20",
+      "summary": "Researchers disclosed a remote Spectre-based side-channel attack against Cloudflare Workers that successfully leaked JSON Web Tokens (JWTs) from co-located Workers at up to 12 bits per second. The attack, conducted in a production environment, achieved a rate 360 times faster than a comparable 2021 attack, demonstrating a practical method for stealing authentication tokens used in identity and access workflows.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi50HcHSWt796lc8zQ8Anp_fHUqgV-BM0xiS1NxJW8zRDgBRJ9ovZOECiIhdQt0aVTUdhduJYP1o5wTa5RpDoCwhihq8rKqWmh73E9E8UzafyDcq1n1khCEIDCikK2L6NEt1mbIuMRm6F36bap74JtZawFqqCPvWF72SAm25BzREVerWYaRIDEo1O89V4k/s1600/jwt.jpg",
       "importance": 6,
       "paywall": false
     },
     {
-      "title": "OpenAI tightens defenses after AI agents breach research environment",
-      "url": "https://www.helpnetsecurity.com/2026/08/18/openai-strengthening-security-measures/",
-      "source": "Help Net Security",
-      "date": "2026-08-18",
-      "summary": "OpenAI strengthened its security requirements after an agentic AI collective breached its research infrastructure and another company's production infrastructure by chaining multiple vulnerabilities, including leaked credentials. The incident highlights credential exposure as a contributing attack vector, with OpenAI subsequently tightening safety and security measures in response.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/05/03102604/openai-lock-1500.webp",
-      "importance": 5,
+      "title": "Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P",
+      "url": "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html",
+      "source": "The Hacker News",
+      "date": "2026-08-19",
+      "summary": "Hackers compromised over 14,500 Dahua IoT/camera devices between June and July 2026 using credential attacks, two authentication-bypass vulnerabilities, and a P2P relay technique in a campaign dubbed Operation CameraSwarm. The attack leveraged exposed credentials and auth-bypass flaws (CVEs unspecified in the description) against the Dahua device ecosystem, as reconstructed from an exposed 407 MB working directory containing 2,616 files.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMoFWi-QSod_BQxqARN9B9-f3XXRsEk-QHunmW3JSc9DHyZNKRK91l5KTzt_DYxGnTUtGqRMo1WHR9zfREMAXDAeDOYFgXpSJdgyUXHgOGTnpiokI06ZsJ1syAzn8GYlkzZqr6L73IsPJDAKgCbobSSkzZfWfJPapFiVJS4Kc1DyP3SBsMFgyZjCL6V6Y/s1600/camera.jpg",
+      "importance": 4,
       "paywall": false
     },
     {
@@ -88,28 +78,18 @@
       "url": "https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html",
       "source": "The Hacker News",
       "date": "2026-08-18",
-      "summary": "Researchers at Ontinue have disclosed a Python-based implant framework called TWINLOOT that abuses Microsoft SharePoint Online and Teams as command-and-control infrastructure to steal credentials and facilitate lateral movement. The modular framework is hardened with PyArmor and operates entirely within trusted Microsoft services to evade detection.",
+      "summary": "Security researchers at Ontinue have disclosed a Python-based implant framework called TWINLOOT that abuses Microsoft SharePoint Online and Teams to conduct credential theft and lateral movement across networks. The malware uses trusted Microsoft services as its command-and-control infrastructure and is hardened with PyArmor obfuscation to evade detection.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIrQ96TUVfZUEVto7SlNlTp_8P2270tmrpifBbd-F8vo3gQz3Na40YH60oRh2dEazLOZInJzCGa66bxl9t85Usl30eG_Db_yjMWup2eOM3BmaPhILk_Ihs-yo6AdB-DWG99L7OXK9bdD8Jygu2imWU71-Ap3bPtYLOgqu-vO2Zbr5egp6A5HNcXDSaa0o2/s1600/windows-malware.jpg",
       "importance": 6,
       "paywall": false
     },
     {
-      "title": "Hacker claims 3.6 million Azure account records stolen from major companies",
-      "url": "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/",
-      "source": "Bleeping Computer",
-      "date": "2026-08-17",
-      "summary": "A threat actor claims to have stolen 3.6 million Azure account records from multiple Fortune 500 companies by using compromised credentials to gain unauthorized access. The stolen data allegedly consists of employee databases exfiltrated from Microsoft Azure infrastructure, with the actor now selling the records.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/06/29/DataLeak.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
-      "url": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
-      "source": "Bleeping Computer",
-      "date": "2026-08-17",
-      "summary": "A vulnerability tracked as CVE-2026-54121 allows a standard domain user to escalate privileges to Domain Controller level through an Enterprise Certificate Authority. The article addresses standing privilege, implicit trust, and the classification of PKI as Tier 0 identity infrastructure, which are core concepts in PAM and zero trust architecture.",
-      "image": "https://www.bleepstatic.com/content/posts/2026/08/12/certification-authority-header.jpg",
+      "title": "Netwrix Extends Identity Security to AI Agents in Microsoft Entra ID",
+      "url": "https://www.prnewswire.com/news-releases/netwrix-extends-identity-security-to-ai-agents-in-microsoft-entra-id-302853353.html",
+      "source": "PRNewswire",
+      "date": "2026-08-18",
+      "summary": "Netwrix has updated its PingCastle and Threat Manager products to extend identity security coverage to AI agent identities within Microsoft Entra ID. The releases expand Entra ID risk checks to over 100 and add threat detection capabilities for Azure Files.",
+      "image": "https://mmx.prnewswire.com/media/MS754685/resized-netwrix-logo-no-tagline-2x.jpg?id=OA2891515&p=facebook",
       "importance": 7,
       "paywall": false
     },
@@ -118,7 +98,7 @@
       "url": "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
       "source": "The Hacker News",
       "date": "2026-08-17",
-      "summary": "MCP (Model Context Protocol) servers pose security risks to enterprise environments by exposing secrets through plaintext configuration files, over-permissioned access, and prompt injection vulnerabilities. The security concern centers on AI agents gaining access to tools and data through MCP before security teams are aware the servers are running, creating potential unauthorized access gaps relevant to IAM controls.",
+      "summary": "MCP (Model Context Protocol) servers present security risks to enterprise environments through plaintext configuration files, over-permissioned access, and prompt injection vulnerabilities. These risks are particularly relevant to IAM as MCP servers can expose credentials and secrets before security teams are aware the servers are operational.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmy_mE0_W-wEeuppBUYhS19P_uTo6RifgrGEV5eLim_B6KkhI_BO5wSL930qS_NCD6aR7nL5mAizU4RAfinzkWhz-oq1wCnHszL6C25H0Sj_MahJIBsr7lw_wzJ7xZ4YF7-GVJJO0L1wxe8LQXv3rHuLV3vbuDUEQ9D7vXa6D4zK6ARD1aFmiQv4fka5Y/s1600/keeper.png",
       "importance": 6,
       "paywall": false
@@ -128,7 +108,7 @@
       "url": "https://biztoc.com/x/cf5141eecbbeb367",
       "source": "Biztoc.com",
       "date": "2026-08-17",
-      "summary": "Wells Fargo upgraded Okta's stock to Overweight from Equal-Weight and raised its price target to $180 from $150. The upgrade was accompanied by a 1.9% premarket share price increase.",
+      "summary": "Wells Fargo upgraded Okta's stock rating to Overweight from Equal-Weight and raised its price target to $180 from $150. The upgrade is based on analyst assessment of demand trends for the identity security company.",
       "image": "https://biztoc.com/cdn/cf5141eecbbeb367_s.webp",
       "importance": 3,
       "paywall": false
@@ -138,7 +118,7 @@
       "url": "https://biztoc.com/x/671e548010a37c1d",
       "source": "Biztoc.com",
       "date": "2026-08-17",
-      "summary": "Wells Fargo upgraded Okta stock to Overweight with a $180 price target, citing AI upside potential. Analyst Richard Poland's commentary focuses on Okta's financial and market position rather than product or technology developments.",
+      "summary": "Wells Fargo upgraded Okta stock to Overweight with a $180 price target, citing AI upside potential. Analyst Richard Poland's assessment drove a 1.59% intraday price increase for the identity and access management software provider.",
       "image": "https://biztoc.com/cdn/671e548010a37c1d_s.webp",
       "importance": 4,
       "paywall": false
@@ -148,7 +128,7 @@
       "url": "https://aws.amazon.com/blogs/security/updates-to-your-aws-sign-in-experience/",
       "source": "Amazon.com",
       "date": "2026-08-17",
-      "summary": "AWS is gradually rolling out updates to its Sign-In and sign-up experience to a limited number of customers. The changes affect the authentication interface used by AWS users, with a phased rollout planned for broader availability.",
+      "summary": "AWS is gradually rolling out updates to its Sign-In and sign-up experience to a limited number of customers. The changes affect the authentication interface for AWS console access, with broader availability planned over time.",
       "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/08/07/sign_in_blog_hero_image-1260x630.jpeg",
       "importance": 4,
       "paywall": false
@@ -158,7 +138,7 @@
       "url": "https://aws.amazon.com/blogs/big-data/iam-authentication-with-oauth-2-0-for-amazon-mq-for-rabbitmq/",
       "source": "Amazon.com",
       "date": "2026-08-17",
-      "summary": "Amazon MQ for RabbitMQ now supports IAM authentication via OAuth 2.0, allowing clients to connect using existing IAM identities instead of static broker-local credentials. The article details the rabbitmq.conf configuration required to use AWS IAM as an OAuth 2.0 provider for this integration.",
+      "summary": "AWS has published guidance on using IAM authentication with OAuth 2.0 for Amazon MQ for RabbitMQ, enabling clients to authenticate using existing IAM identities instead of static broker-local credentials. The post details the rabbitmq.conf configuration required to use AWS IAM as an OAuth 2.0 provider for RabbitMQ connections.",
       "image": "https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2026/08/17/BDB-5962.png",
       "importance": 6,
       "paywall": false
@@ -168,7 +148,7 @@
       "url": "https://aws.amazon.com/blogs/big-data/oauth-2-0-ldap-and-http-auth-for-amazon-mq-for-rabbitmq/",
       "source": "Amazon.com",
       "date": "2026-08-17",
-      "summary": "Amazon MQ for RabbitMQ has added support for OAuth 2.0, LDAP, and HTTP-based authentication backends, allowing brokers to integrate with existing identity infrastructure. The post covers how each authentication method works and guidance on selecting the appropriate approach for different use cases.",
+      "summary": "Amazon MQ for RabbitMQ has published guidance on integrating its message broker with OAuth 2.0, LDAP, and HTTP-based authentication backends. The post covers how each authentication method works and provides criteria for selecting the appropriate approach based on use case.",
       "image": "https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2026/08/12/BDB-5767-featured-image.png",
       "importance": 5,
       "paywall": false
@@ -178,7 +158,7 @@
       "url": "https://aws.amazon.com/blogs/big-data/mutual-tls-and-ssl-certificate-authentication-for-amazon-mq-for-rabbitmq/",
       "source": "Amazon.com",
       "date": "2026-08-17",
-      "summary": "Amazon MQ for RabbitMQ has published guidance on implementing certificate-based authentication using SSL certificates and mutual TLS (mTLS). The post covers passwordless login via the EXTERNAL SASL mechanism and two-way certificate verification for RabbitMQ message broker identity verification.",
+      "summary": "Amazon MQ for RabbitMQ has published guidance on implementing certificate-based authentication using SSL certificates and mutual TLS (mTLS). The post covers passwordless login via the EXTERNAL SASL mechanism and two-way certificate verification through mTLS for RabbitMQ message broker identity verification.",
       "image": "https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2026/08/07/BDB-5768-featured-image.png",
       "importance": 4,
       "paywall": false
@@ -188,7 +168,7 @@
       "url": "https://aws.amazon.com/blogs/big-data/authentication-and-authorization-options-for-amazon-mq-for-rabbitmq/",
       "source": "Amazon.com",
       "date": "2026-08-17",
-      "summary": "AWS published a guide detailing authentication and authorization options available for Amazon MQ for RabbitMQ, covering how brokers can integrate with existing identity infrastructure. The post outlines multiple methods for connecting RabbitMQ brokers to identity systems to help users select appropriate configurations for their use cases.",
+      "summary": "AWS published a guide covering authentication and authorization options available for Amazon MQ for RabbitMQ, including integration with existing identity infrastructure. The post outlines available methods to help users select the appropriate approach for their specific use case.",
       "image": "https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2026/08/17/BDB-5476.png",
       "importance": 4,
       "paywall": false
@@ -196,90 +176,20 @@
     {
       "title": "IAM Compliance Requirements and Best Practices",
       "url": "https://thehackernews.com/2026/08/iam-compliance-requirements-and-best.html",
-      "source": "The Hacker News",
+      "source": "Internet",
       "date": "2026-08-14",
-      "summary": "This article provides a comprehensive guide on IAM compliance requirements, covering regulations, access controls, and best practices for organizations. It addresses continuous verification approaches and evidence-backed audit processes across users, applications, infrastructure, and non-human identities.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtCfpJQBf2uorUk8jQiK_Cpzh2QLElku5-T5DS6dLc9iV3XA5w1fsd7F9aiCv1gMYri3jEogBTuyYaiSzgdBhvDxWSN_1X1Q-AZkr3u5QBBvzzvZ_F7mpQdqxy-mXsXC_YuPpikK6nHTLhRy8cwpccEKb3ScMiQ8bGLYw5-NMf8kOcEVCYefsCUgu8LEU/s1600/ORCHID.jpg",
+      "summary": "An educational guide has been published explaining IAM compliance requirements, covering how identity and access controls must be documented and enforced across users, applications, infrastructure, and non-human identities. The guide addresses relevant regulations and best practices for maintaining compliance in IAM programs.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtCfpJQBf2uorUk8jQiK_Cpzh2QLElku5-T5DS6dLc9iV3XA5w1fsd7F9aiCv1gMYri3jEogBTuyYaiSzgdBhvDxWSN_1X1Q-AZkr3u5QBBvzzvZ_F7mpQdqxy-mXsXC_YuPpikK6nHTLhRy8cwpccEKb3ScMiQ8bGLYw5-NMf8kOcEVCYefsCUgu8LEU/s1700-e365/ORCHID.jpg",
       "importance": 6,
       "paywall": false
     },
     {
-      "title": "Chrome DevTools Technique Enables Authenticated Session Hijacking in Live Windows Browsers",
-      "url": "https://thehackernews.com/2026/08/chrome-devtools-technique-enables.html",
-      "source": "The Hacker News",
-      "date": "2026-08-14",
-      "summary": "Researchers have detailed a post-exploitation technique using Chrome DevTools Protocol (CDP) to hijack authenticated browser sessions in live Chrome and Edge processes on Windows. The attack requires existing code execution on the host and enables theft of cookies and authenticated sessions, directly threatening session-based authentication and SSO implementations.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqxmoJtQxCw_JRBCIc5vQ8KP7fDvEliYGDzRe4RRTwH_vydH3_bliXj-rfs_e5j3YD6EPrvVKtSlI_IUIA5EoxajlFgyLPhLtjiYZjwotvmIHvLuvf_bIhfUuGJ-Sgxx0Wjhl7UigBQko3hYNb44Z4PT6fRSXFEVdPZIzMjLe7uge8CWthwqzErdqpheA/s1600/chrome.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "CTM360 Uncovers Over 3,000 Recruitment Phishing URLs Using Browser-in-the-Browser (BitB) Credential Traps",
-      "url": "https://thehackernews.com/2026/08/ctm360-uncovers-over-3000-recruitment.html",
-      "source": "The Hacker News",
-      "date": "2026-08-14",
-      "summary": "CTM360 identified over 3,000 phishing URLs using Browser-in-the-Browser (BitB) techniques to steal Google and Facebook credentials through fake recruitment pages. The campaign includes real-time MFA prompt relay capabilities, effectively bypassing multi-factor authentication protections.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg_fCSow6T3Wo-vpD0YGw6I-3-9B4BmxQvPW4XX5NjGqYkEd929vj1fiXMD5ebscmBPVViIEhlkfg0zmJ9ftMUtLbwIolt1uXcmnnWYlHiFxNQhRa1_4lvnEOXGT6uBwrPbJkZiMBF0mmu3EeAvzu6dnj1hnak63Fb1nL5Owdv4cdWU3ymWoBRho7Vo5w/s1600/ctm.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "How Identity Drives MSP Profitability: An Analyst’s Perspective",
-      "url": "https://blogs.cisco.com/partner/how-identity-drives-msp-profitability-an-analysts-perspective",
-      "source": "Cisco.com",
-      "date": "2026-08-14",
-      "summary": "Cisco's Secure MSP Center and Duo are being positioned as tools for managed service providers to deliver identity-first security to SMB and midmarket customers. The article focuses on how MSPs can use these products to reduce vendor sprawl and generate recurring revenue.",
-      "image": "https://blogs.cisco.com/gcs/ciscoblogs/1/2026/08/26-08_BLOG-_-How-Identity-Drives-MSP-Profitability_1200x514_v01-1024x439.png",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Leading SAP GRC Tools: 2026",
-      "url": "https://cloudtweaks.com/2026/08/leading-sap-grc-tools-2026/",
-      "source": "Cloudtweaks.com",
-      "date": "2026-08-14",
-      "summary": "The article reviews leading SAP GRC (Governance, Risk, and Compliance) tools for 2026, focusing on software that controls access and authorization within SAP environments. The coverage addresses who can perform sensitive actions like approving payments or creating vendors, which falls within identity governance and access control for SAP systems.",
-      "image": "https://cloudtweaks.com/wp-content/uploads/2026/08/soterion1.webp",
-      "importance": 4,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft 365 backup gap leaves customers responsible after ransomware",
-      "url": "https://4sysops.com/archives/microsoft-365-backup-gap-leaves-customers-responsible-after-ransomware/",
-      "source": "4sysops.com",
-      "date": "2026-08-14",
-      "summary": "Microsoft does not guarantee restoration of customer data to a specific known-good point after ransomware attacks affecting Microsoft 365, Entra ID, and Azure services. The article highlights that stolen identities enabling such attacks make independent, immutable backups critical, with Entra ID configuration data specifically cited as a recovery gap.",
-      "image": "https://4sysops.com/wp-content/uploads/2026/08/microsoft-365-backup-gap-leaves-customers-responsible-after-ransomware.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "RISE with SAP and the SAP IDM Sunset: Two Deadlines, One Identity Strategy",
-      "url": "https://www.infosecurity-magazine.com/blogs/rise-with-sap-idm-sunset-identity/",
-      "source": "Infosecurity Magazine",
-      "date": "2026-08-14",
-      "summary": "SAP Identity Management is approaching end of life, creating a deadline pressure for organizations also transitioning to RISE with SAP. The article covers migration strategies and planning considerations for identity governance during this dual transition period.",
-      "image": "https://assets.infosecurity-magazine.com/webpage/og/44f067a7-6b70-4671-a4c2-ec8aa62ca598.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Weak IAM affects up to 98% of cloud environments",
-      "url": "https://www.helpnetsecurity.com/2026/08/14/intruder-cloud-misconfiguration-trends-report/",
-      "source": "Help Net Security",
-      "date": "2026-08-14",
-      "summary": "Research finds weak IAM configurations affect up to 98% of cloud environments, with misconfiguration identified as a leading cloud security threat. CISA has mandated baseline cloud configuration standards to address issues including unrotated keys, exposed services, and logging gaps.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/09/26104518/cloud-secure-2.webp",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "The Customer Identity And Access Management Solutions Landscape, Q3 2026 Is Live",
-      "url": "https://www.forrester.com/blogs/the-customer-identity-and-access-management-solutions-landscape-q3-2026-is-live/",
-      "source": "Forrester.com",
+      "title": "Belgium's eID Authentication Opens Citizen Accounts to RCE",
+      "url": "https://www.darkreading.com/application-security/belgium-eid-authentication-citizen-accounts-rce",
+      "source": "Dark Reading",
       "date": "2026-08-13",
-      "summary": "Forrester has published its Customer Identity and Access Management (CIAM) Solutions Landscape report for Q3 2026. The report identifies three primary drivers shaping the CIAM market, including AI agents as a new identity type requiring CIAM consideration.",
-      "image": "https://go.forrester.com/wp-content/uploads/2026/08/The-Forrester-Customer-IAM-CIAM-Landscape-Is-Live.jpg",
+      "summary": "Belgium's electronic ID (eID) authentication system was found to contain severe vulnerabilities in a key browser extension that fully compromised its trust framework. The flaws enabled remote code execution (RCE), exposing citizen accounts and highlighting broader security risks inherent in browser extension-based authentication mechanisms.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9d4b34421b322d00/6a7cd6b1cff117fe2ff5b3b3/Belgium-alxpin-GettyImages-2159495100.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
     },
@@ -288,7 +198,7 @@
       "url": "https://www.darkreading.com/cyberattacks-data-breaches/gunra-ransomware-gang-fortinet-flaws-bypasses-mfa",
       "source": "Dark Reading",
       "date": "2026-08-11",
-      "summary": "The Gunra ransomware gang is exploiting Fortinet vulnerabilities in firewalls and VPN appliances to bypass MFA as part of its attacks on critical infrastructure targets. The group operates as a ransomware-as-a-service using leaked Conti code alongside unpatched flaws to gain unauthorized access.",
+      "summary": "The Gunra ransomware gang is exploiting Fortinet vulnerabilities in firewalls and VPN appliances while bypassing MFA protections to target critical infrastructure. The group operates as a ransomware-as-a-service using leaked Conti code alongside unpatched flaws in network perimeter devices.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt468a31de0930ebef/6a7b87a0f0b097cbb1a7bb39/ransomware-jittawit.21-Getty-2178699306.jpg?width=720&quality=80&disable=upscale",
       "importance": 6,
       "paywall": false
@@ -298,7 +208,7 @@
       "url": "https://www.darkreading.com/cyber-risk/ghostjacking-identity-governance-gaps-ai-agents",
       "source": "Dark Reading",
       "date": "2026-08-10",
-      "summary": "New research has identified an attack technique called \"GhostJacking\" that exploits identity governance gaps in AI agents by using security alerts and blocked events to manipulate and hijack them. The findings highlight weaknesses in how identity and authorization controls are applied to AI agent workflows, raising concerns for IAM professionals managing agentic AI systems.",
+      "summary": "New research has identified an attack technique called \"GhostJacking\" that exploits identity governance gaps in AI agents by manipulating security alerts and blocked events to hijack agent behavior. The findings highlight weaknesses in how identity and authorization controls are applied to AI agents operating within enterprise environments.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt7efbf6a210292d1d/6a7a43503413ca658e4c0cb9/ghosts-MediaProduction-Getty-1437542277.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -308,7 +218,7 @@
       "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
       "source": "Krebs on Security",
       "date": "2026-08-06",
-      "summary": "Canadian threat actor Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges for hacking and extorting more than 165 organizations using Snowflake cloud storage. The case involved credential-based attacks on Snowflake customer accounts, resulting in the theft of over 100 million AT&T customer records.",
+      "summary": "Canadian national Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges related to hacking and extorting over 165 organizations using Snowflake's cloud data storage platform. The attacks also resulted in the theft of call and text history records from more than 100 million AT&T customers.",
       "image": null,
       "importance": 5,
       "paywall": false
@@ -318,7 +228,7 @@
       "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
       "source": "Krebs on Security",
       "date": "2026-07-13",
-      "summary": "CISA released a postmortem report on a data breach in which a contractor accidentally exposed dozens of internal credentials, including AWS GovCloud keys, in a public GitHub repository for nearly six months. The incident highlights credential management failures and was only brought to CISA's attention by KrebsOnSecurity rather than the agency's own detection mechanisms.",
+      "summary": "CISA released a postmortem report on a data breach in which a contractor exposed dozens of internal CISA credentials, including AWS GovCloud keys, in a public GitHub repository for nearly six months. The incident highlights credential management failures and gaps in secrets detection and response processes relevant to IAM and PAM practices.",
       "image": null,
       "importance": 7,
       "paywall": false
@@ -328,9 +238,9 @@
       "url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
       "source": "Krebs on Security",
       "date": "2026-06-23",
-      "summary": "Two Scattered Spider members pleaded guilty in the UK to charges related to the August 2024 cyberattack on Transport for London, on the first day of what was expected to be a six-week trial. Scattered Spider is known for sophisticated social engineering and identity-based attacks, including SIM swapping and MFA bypass techniques used to compromise organizations.",
+      "summary": "Two Scattered Spider members pleaded guilty in the UK to charges related to the August 2024 cyberattack on Transport for London. Scattered Spider is known for sophisticated social engineering and identity-based attacks, including SIM swapping and phishing to bypass MFA and gain unauthorized access to corporate systems.",
       "image": null,
-      "importance": 6,
+      "importance": 5,
       "paywall": false
     }
   ]
