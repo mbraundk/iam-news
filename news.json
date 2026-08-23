@@ -1,24 +1,24 @@
 {
-  "updated": "August 22, 2026 at 03:51 UTC",
+  "updated": "August 23, 2026 at 03:58 UTC",
   "top_stories": [
-    {
-      "title": "Microsoft warns of max severity Entra ID flaw exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
-      "source": "Bleeping Computer",
-      "date": "2026-08-21",
-      "summary": "Microsoft has patched a maximum-severity vulnerability in its Entra ID identity and access management platform. The flaw has been actively exploited in attacks, making it a critical security issue for organizations using Entra ID.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/08/21/Microsoft.jpg",
-      "importance": 10,
-      "paywall": false
-    },
     {
       "title": "Critical Microsoft Entra ID vulnerability exploited in the wild (CVE-2026-69836)",
       "url": "https://www.helpnetsecurity.com/2026/08/21/microsoft-entra-id-vulnerability-cve-2026-69836/",
       "source": "Help Net Security",
       "date": "2026-08-21",
-      "summary": "Microsoft has patched a critical remote code execution vulnerability (CVE-2026-69836) in Microsoft Entra ID, its cloud identity platform, with a maximum CVSS score of 10.0 that has been actively exploited in the wild. The flaw, discovered by Microsoft Principal Security Engineer Robert Fitzpatrick, allows an unauthenticated attacker to remotely execute code on the identity service that controls access to Microsoft 365, Azure, and connected third-party applications.",
+      "summary": "Microsoft has patched a critical remote code execution vulnerability (CVE-2026-69836) in Microsoft Entra ID, its cloud identity service, with a maximum CVSS score of 10.0 that is being actively exploited in the wild. The vulnerability, discovered by Microsoft Principal Security Engineer Robert Fitzpatrick, allows an unauthenticated attacker to remotely execute code in Entra ID, which controls authentication and access for Microsoft 365, Azure, and connected third-party applications.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2025/06/12183518/microsoft_entra_id.webp",
       "importance": 10,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft patches max severity code execution, privilege escalation flaws",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
+      "source": "Bleeping Computer",
+      "date": "2026-08-21",
+      "summary": "Microsoft patched a maximum-severity vulnerability in Entra ID that has been actively exploited in attacks. The flaw involves code execution and privilege escalation within the identity and access management platform.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/08/21/Microsoft.jpg",
+      "importance": 9,
       "paywall": false
     },
     {
@@ -26,7 +26,7 @@
       "url": "https://www.helpnetsecurity.com/2026/08/21/citrix-netscaler-gateway-cve-2026-19490/",
       "source": "Help Net Security",
       "date": "2026-08-21",
-      "summary": "Citrix has patched a critical authentication bypass vulnerability (CVE-2026-19490) in NetScaler ADC and NetScaler Gateway, urging customers to upgrade affected appliances immediately. NetScaler Gateway is a widely deployed remote access and SSO solution, making authentication bypass flaws a direct and serious concern for IAM professionals managing enterprise access infrastructure.",
+      "summary": "Citrix has patched a critical authentication bypass vulnerability (CVE-2026-19490) in NetScaler ADC and NetScaler Gateway, urging customers to upgrade affected appliances immediately. The flaw affects NetScaler Gateway, a widely deployed remote access and SSO solution, making this directly relevant to IAM professionals managing authentication infrastructure.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2022/12/13145840/citrix-2022.jpg",
       "importance": 9,
       "paywall": false
@@ -36,18 +36,18 @@
       "url": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
       "source": "The Hacker News",
       "date": "2026-08-21",
-      "summary": "Microsoft patched a critical vulnerability in Microsoft Entra ID with a CVSS score of 10.0 that could allow remote code execution. Microsoft initially marked the flaw as actively exploited before correcting that status to \"No\" following media inquiry.",
+      "summary": "Microsoft patched a critical vulnerability in Microsoft Entra ID rated CVSS 10.0 that allowed remote code execution. Microsoft initially marked the flaw as exploited before correcting that status to \"No\" after being contacted for comment.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid22xatm4tPGWO1VA9heA8p7i0iK4au3br36QORRasXlUO2uY5836xkZe6gywLOId9oHICopC6jZ8J-di4JI9O3CPOSOGsqoOR4Ps4DrEbKCXSXwMxX_wOGo0fY3zaTW4By4nzbY6jldD58kLAlBYfFxMOEeZOglaQu8R0TtT23Q2jLbQjHwJSoS21pqu5/s1600/entraid.jpg",
       "importance": 9,
       "paywall": false
     },
     {
-      "title": "LoginRadius Global Acquired by Volaris Group",
-      "url": "https://financialpost.com/globe-newswire/loginradius-global-acquired-by-volaris-group",
-      "source": "Financial Post",
-      "date": "2026-08-20",
-      "summary": "Volaris Group has acquired LoginRadius Global, a Canadian enterprise customer identity and access management (CIAM) provider. The acquisition expands Volaris Group's footprint in the security vertical, bringing LoginRadius's CIAM platform under new ownership.",
-      "image": null,
+      "title": "Microsoft’s CVSS 10.0 Entra ID RCE Briefly Tagged ‘Exploited’ Before Correction — and What That Reveals About Identity Infrastructure Disclosure",
+      "url": "https://forkast.news/microsofts-cvss-10-0-entra-id-rce-briefly-tagged-exploited-before-correction-and-what-that-reveals-about-identity-infrastructure-disclosure/",
+      "source": "Forkast.news",
+      "date": "2026-08-22",
+      "summary": "Microsoft disclosed CVE-2026-69836, a critical remote code execution vulnerability in Microsoft Entra ID with a maximum CVSS score of 10.0, allowing unauthenticated network-accessible exploitation. The vulnerability was briefly tagged as actively exploited before the classification was corrected, raising questions about disclosure accuracy for identity infrastructure vulnerabilities.",
+      "image": "https://forkast.news/wp-content/uploads/2026/08/entra-id-cve-1024x572.jpg",
       "importance": 9,
       "paywall": false
     }
@@ -68,7 +68,7 @@
       "url": "https://www.helpnetsecurity.com/2026/08/21/axiad-pqc-migration-readiness-gaps-report/",
       "source": "Help Net Security",
       "date": "2026-08-21",
-      "summary": "New research from Axiad finds that nearly half of enterprises lack designated ownership for post-quantum cryptography (PQC) migration efforts. The study also reveals gaps in testing and visibility around certificates, cryptographic keys, and algorithms, despite 75% of respondents claiming to maintain a continuously updated inventory of these assets.",
+      "summary": "New research from Axiad finds that nearly half of enterprises lack designated ownership for post-quantum cryptography (PQC) migration, despite believing they are prepared for quantum computing security challenges. The study highlights gaps in testing and visibility, noting that while 75% of respondents claim to maintain updated inventories of certificates, cryptographic keys, and algorithms, significant readiness deficiencies remain.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/03/29223248/access.webp",
       "importance": 6,
       "paywall": false
@@ -78,9 +78,29 @@
       "url": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
       "source": "The Hacker News",
       "date": "2026-08-21",
-      "summary": "Three suspected Russian cyber espionage groups (UNC6293, UNC7005, and UNC5976) have been observed abusing legitimate Google OAuth and WhatsApp authentication flows to hijack accounts targeting individuals in academia, aerospace, defense, governments, and think tanks across Europe and the U.S. The attacks exploit legitimate authentication mechanisms rather than breaking them, representing a significant threat vector relevant to identity and access management defenses.",
+      "summary": "Three suspected Russian cyber espionage groups (UNC6293, UNC7005, and UNC5976) have been observed abusing Google OAuth authentication flows and WhatsApp account linking mechanisms to hijack accounts. The targets include individuals in academia, aerospace and defense, governments, and think tanks across Europe and the U.S.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEix5lAWOEf4I8fcz0CJYg-EBclOrTPnlbsf6tKT2-L8xsfQ4XqtjOq15iU6EBbIsWlqQq3e1-hIXrPe7MMg4JwSGj6mSwjSwG8V3UFMrfgYD-Lo9bKvncTGJ9lPbZoxq-1RNmKLyL_jZSiurWVgGuIxjgYYJeXW_wE51PRTDUhT7kRxp0MMpc3YflI9bntb/s1600/google-whatsapp.jpg",
       "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Fine-Grained Access Control Now Available for All Heroku Customers",
+      "url": "https://www.heroku.com/blog/fine-grained-access-control-now-available-all-customers/",
+      "source": "Heroku.com",
+      "date": "2026-08-21",
+      "summary": "Heroku has released Fine-Grained Access Controls (FGAC) to all customers, replacing its legacy predefined role system. The new system allows individual capability-level permissions rather than fixed permission bundles tied to roles like admin, member, or collaborator.",
+      "image": "https://www.heroku.com/wp-content/uploads/2025/08/heroku-card-dark.png",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft sounds alarm as perfect-10 Entra ID flaw comes under attack",
+      "url": "https://www.theregister.com/cyber-crime/2026/08/21/microsoft-sounds-alarm-as-perfect-10-entra-id-flaw-comes-under-attack/5290925",
+      "source": "Theregister.com",
+      "date": "2026-08-21",
+      "summary": "Microsoft has disclosed a critical severity (CVSS 10.0) vulnerability in Microsoft Entra ID that has been actively exploited in the wild. The flaw affects Microsoft's cloud identity platform, and while Microsoft states it has already been patched, the company has not disclosed details about who exploited it or the scope of the attacks.",
+      "image": "https://image.theregister.com/5211376.jpg?imageId=5211376&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+      "importance": 9,
       "paywall": false
     },
     {
@@ -88,7 +108,7 @@
       "url": "https://www.darkreading.com/vulnerabilities-threats/n-able-bug-password-vault-master-keys",
       "source": "Dark Reading",
       "date": "2026-08-20",
-      "summary": "A vulnerability in N-able's Passportal password manager exposed master keys to the password vault, affecting MSPs and SMBs that rely on the product. A patch has been issued, but security concerns remain due to the product's cloud-based architecture.",
+      "summary": "A vulnerability in N-able's Passportal password manager exposed master keys to the password vault, affecting MSPs and SMBs that rely on the product. The flaw raises concerns about cloud-based password vault architectures, with questions remaining about residual risk even after the patch was applied.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt0a77c38c9943dba1/6a7ccfe21978b46e991f0379/Vault-Dragon_Claws-Getty.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -98,7 +118,7 @@
       "url": "https://www.helpnetsecurity.com/2026/08/20/aws-ai-agents-access-controls/",
       "source": "Help Net Security",
       "date": "2026-08-20",
-      "summary": "AWS has detailed an approach for propagating user authorization context through AI agents in Amazon Bedrock AgentCore, allowing access controls to be enforced at the infrastructure level rather than relying on the agent itself. The system ensures that AI agents respect user-level permissions when accessing data sources such as DynamoDB tables, document repositories, SaaS platforms, and internal knowledge bases, even when the agent is manipulated.",
+      "summary": "AWS has introduced an approach for propagating user authorization context through AI agents in Amazon Bedrock AgentCore, allowing access controls to be enforced at the infrastructure level rather than relying on the agent itself. The system enables downstream services like Amazon DynamoDB and SaaS platforms to apply per-user authorization, preventing agents from returning data beyond what the requesting user is permitted to access.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/12/09102526/aws-1500-key1.webp",
       "importance": 7,
       "paywall": false
@@ -118,7 +138,7 @@
       "url": "https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html",
       "source": "The Hacker News",
       "date": "2026-08-20",
-      "summary": "A Meta AI agent caused a Sev 1 security incident in March 2026 by exposing sensitive company and user data to unauthorized employees after posting a response publicly without approval. The incident highlights emerging governance challenges around AI agents and authorization controls, specifically the risk of AI systems bypassing access permissions.",
+      "summary": "A Meta internal AI agent caused a Sev 1 security incident in March 2026 by exposing sensitive company and user data to unauthorized employees after it posted a response publicly without approval. The incident highlights emerging governance challenges around AI agents and authorization controls, as AI systems access and act on data beyond the permissions intended for human users.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgw0UN7paSPEt1BbP-tObzJmXd5LHvNrZpta_hHK2pwYGVsYyZt2FQO20Ld8uePEO35Hg9MUqHRoA3tvbxXf9Wdh2D8IgHIt9M56YTvveuPUILhMZ_drcaBL6ILCPzZmAwryt6cqjNvh4A0NUIPIBS6tpJCHJz6R5Lu42t06EyJ56wnlATWOg5UC-5JlBA/s1600/tines.jpg",
       "importance": 6,
       "paywall": false
@@ -128,7 +148,7 @@
       "url": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html",
       "source": "The Hacker News",
       "date": "2026-08-20",
-      "summary": "Cybersecurity researchers demonstrated a remote Spectre-based side-channel attack against Cloudflare Workers that successfully leaked JSON Web Tokens (JWTs) from co-located Workers at 12 bits per second in a production environment. The attack is 360 times faster than a similar attack demonstrated in 2021, with JWTs being a widely used authentication token standard in IAM and web security contexts.",
+      "summary": "Researchers demonstrated a remote Spectre-based side-channel attack against Cloudflare Workers that successfully leaked JSON Web Tokens (JWTs) from co-located Workers at 12 bits per second in a production environment. The attack rate is 360 times faster than a similar 2021 demonstration, with JWTs being a widely used authentication credential in modern identity systems.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi50HcHSWt796lc8zQ8Anp_fHUqgV-BM0xiS1NxJW8zRDgBRJ9ovZOECiIhdQt0aVTUdhduJYP1o5wTa5RpDoCwhihq8rKqWmh73E9E8UzafyDcq1n1khCEIDCikK2L6NEt1mbIuMRm6F36bap74JtZawFqqCPvWF72SAm25BzREVerWYaRIDEo1O89V4k/s1600/jwt.jpg",
       "importance": 6,
       "paywall": false
@@ -138,7 +158,7 @@
       "url": "https://kitploit.com/en/posts/github-jumpserver-jumpserver-v41019",
       "source": "Kitploit.com",
       "date": "2026-08-20",
-      "summary": "JumpServer released version 4.10.19 of its open-source Privileged Access Management platform. The platform provides secure access to SSH, RDP, Kubernetes, Database, and RemoteApp endpoints via a web browser for DevOps and IT teams.",
+      "summary": "JumpServer released version 4.10.19 of its open-source Privileged Access Management platform. The platform provides secure access to SSH, RDP, Kubernetes, database, and RemoteApp endpoints via a web browser for DevOps and IT teams.",
       "image": "https://assets.kitploit.com/production/public/brand/social-default-v1.png",
       "importance": 4,
       "paywall": false
@@ -148,7 +168,7 @@
       "url": "https://www.prnewswire.com/news-releases/pathlock-recognized-as-an-overall-leader-in-the-2026-kuppingercole-analysts-leadership-compass-for-identity-and-access-governance-302856691.html",
       "source": "PRNewswire",
       "date": "2026-08-20",
-      "summary": "Pathlock has been recognized as an Overall Leader in the 2026 KuppingerCole Analysts Leadership Compass for Identity and Access Governance. The report specifically highlights high-risk access governance as one of Pathlock's stronger areas, positioning the company within the converged identity governance and ERP security market.",
+      "summary": "Pathlock has been named an Overall Leader in the 2026 KuppingerCole Analysts Leadership Compass for Identity and Access Governance. The report specifically highlights high-risk access governance as one of Pathlock's stronger areas, positioning the company within the converged identity governance and ERP security market.",
       "image": "https://mmx.prnewswire.com/media/MS571994/Pathlock-Logo-Logo.jpg?id=OA2900617&p=facebook",
       "importance": 6,
       "paywall": false
@@ -158,9 +178,19 @@
       "url": "https://recoverycodes.eu/",
       "source": "Recoverycodes.eu",
       "date": "2026-08-20",
-      "summary": "A developer has launched RecoveryCodes, a tool designed to inventory MFA credentials for accounts that fall outside federated identity providers like Okta and Microsoft Entra. The tool targets root accounts, domain registrars, banking portals, and vendor sites that rely on local authentication rather than SSO.",
+      "summary": "A developer has launched RecoveryCodes, a tool designed to inventory MFA configurations for accounts that fall outside federated identity providers like Okta and Microsoft Entra. The tool aims to map root accounts, registrars, banks, and vendor portals to their associated devices and recovery codes.",
       "image": "https://recoverycodes.eu/og.png",
-      "importance": 4,
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "LoginRadius Global Acquired by Volaris Group",
+      "url": "https://financialpost.com/globe-newswire/loginradius-global-acquired-by-volaris-group",
+      "source": "Financial Post",
+      "date": "2026-08-20",
+      "summary": "Volaris Group has acquired LoginRadius Global, a Canadian enterprise customer identity and access management (CIAM) provider. The acquisition expands Volaris Group's presence in the security vertical and adds LoginRadius's CIAM platform to its portfolio.",
+      "image": null,
+      "importance": 9,
       "paywall": false
     },
     {
@@ -168,109 +198,9 @@
       "url": "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html",
       "source": "The Hacker News",
       "date": "2026-08-19",
-      "summary": "Researchers at Hunt.io documented a campaign called Operation CameraSwarm that compromised over 14,530 Dahua IoT devices between June and July 2026 using credential attacks and two authentication-bypass vulnerabilities. The attack combined brute-force credential stuffing, auth bypass flaws, and P2P relay techniques to gain unauthorized access to the devices.",
+      "summary": "Hackers compromised over 14,530 Dahua surveillance devices between June 17 and July 22, 2026, using credential attacks, two authentication-bypass vulnerabilities, and a P2P relay technique. The campaign, dubbed Operation CameraSwarm, was uncovered by Hunt.io researchers who analyzed a 407 MB exposed working directory containing 2,616 files.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMoFWi-QSod_BQxqARN9B9-f3XXRsEk-QHunmW3JSc9DHyZNKRK91l5KTzt_DYxGnTUtGqRMo1WHR9zfREMAXDAeDOYFgXpSJdgyUXHgOGTnpiokI06ZsJ1syAzn8GYlkzZqr6L73IsPJDAKgCbobSSkzZfWfJPapFiVJS4Kc1DyP3SBsMFgyZjCL6V6Y/s1600/camera.jpg",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Amazon DynamoDB Streams now supports attribute-based access control",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-dynamodb-streams-abac/",
-      "source": "Amazon.com",
-      "date": "2026-08-19",
-      "summary": "Amazon DynamoDB Streams has added support for attribute-based access control (ABAC), allowing tag-based conditions in IAM policies to control access to data streams. ABAC is an authorization strategy that enables access control decisions based on attributes or tags associated with users and resources.",
-      "image": null,
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft Sentinel UEBA anomalies on the behaviors layer",
-      "url": "https://4sysops.com/archives/microsoft-sentinel-ueba-anomalies-on-the-behaviors-layer/",
-      "source": "4sysops.com",
-      "date": "2026-08-19",
-      "summary": "Microsoft Sentinel has updated its User and Entity Behavior Analytics (UEBA) feature to attach insights directly to records from the UEBA behaviors layer. The machine-learning capability builds baselines of typical activity for users, hosts, IP addresses, and applications to detect anomalous behavior relevant to identity threat detection.",
-      "image": "https://4sysops.com/wp-content/uploads/2026/08/UEBA-behaviors-layer-data-flow-image-Microsoft.webp",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Secure SageMaker Unified Studio access with SAML and conditional policies",
-      "url": "https://aws.amazon.com/blogs/big-data/secure-sagemaker-unified-studio-access-with-saml-and-conditional-policies/",
-      "source": "Amazon.com",
-      "date": "2026-08-19",
-      "summary": "AWS published a guide detailing how to secure Amazon SageMaker Unified Studio by integrating it with an external SAML identity provider such as Okta. The implementation covers conditional access policies enforcing device compliance, IP-based restrictions, and multi-factor authentication.",
-      "image": "https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2026/07/27/5271.png",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Propagate user authorization context in AI agents with Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/security/propagate-user-authorization-context-in-ai-agents-with-amazon-bedrock-agentcore/",
-      "source": "Amazon.com",
-      "date": "2026-08-19",
-      "summary": "Amazon has introduced Bedrock AgentCore, a capability designed to propagate user authorization context through AI agents accessing resources like DynamoDB, SaaS platforms, and internal knowledge bases. The feature addresses the risk of AI agents bypassing user-level access controls by maintaining and enforcing authorization context throughout automated workflows.",
-      "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/08/18/agentcore_identity_blog_banner-1260x630.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Okta’s AI Tailwind Could Put This Forgotten Software Stock Back in Play",
-      "url": "https://www.marketbeat.com/articles/oktas-ai-tailwind-could-put-this-forgotten-software-stock-back-in-play/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
-      "source": "MarketBeat",
-      "date": "2026-08-19",
-      "summary": "Okta's stock has rallied approximately 60% in the current year, driven by analyst optimism around identity management spending growth, AI agent demand, and improved profitability. Wall Street attention is returning to the identity vendor as these factors combine to boost its market position.",
-      "image": "https://s.yimg.com/lo/mysterio/api/176CDDDB5F4B80849AF8EC954D7D85941B56A019C74798DC857F188F5BB6A641/subgraphmysterio/resizefill_w1200_h514;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmarketbeat_955%2F75cb944566b1d2ae9d1cd4e4dbb1a064.png",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "AWS IAM now supports 20 managed policies per role by default",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-quota-increase/",
-      "source": "Amazon.com",
-      "date": "2026-08-19",
-      "summary": "AWS IAM has doubled its default quota for managed policies per role from 10 to 20. This change reduces the need for Service Quota requests when following IAM best practices such as separating permissions into distinct managed policies.",
-      "image": null,
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "infisical v0.162.21",
-      "url": "https://kitploit.com/en/posts/github-infisical-infisical-v016221",
-      "source": "Kitploit.com",
-      "date": "2026-08-19",
-      "summary": "Infisical released version 0.162.21 of its open-source secrets management and privileged access management platform. The platform includes features such as secret scanning, dynamic secrets, PKI, and CI/CD integrations, available as cloud-native or self-hosted deployments.",
-      "image": "https://kitploit.com/production/public/tools/42659/2321b21bb161ee8ce067f7b44c6b109f8950464fc1adbe900eaf9d029f0f23a4.png",
       "importance": 4,
-      "paywall": false
-    },
-    {
-      "title": "Former Ping Identity and CyberArk Executives Join AppViewX to Scale Machine and Agent Identity Security",
-      "url": "https://www.nextbigfuture.com/2026/08/former-ping-identity-and-cyberark-executives-join-appviewx-to-scale-machine-and-agent-identity-security.html",
-      "source": "Next Big Future",
-      "date": "2026-08-19",
-      "summary": "AppViewX has hired former executives from Ping Identity and CyberArk to bolster its leadership team. The new hires are focused on scaling the company's machine and agent identity security capabilities.",
-      "image": null,
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Keeper Security Launches Certified Microsoft Power Platform Connector for Secrets Manager, Bringing Zero-Knowledge Credential Management to Azure Logic Apps",
-      "url": "https://www.prnewswire.com/news-releases/keeper-security-launches-certified-microsoft-power-platform-connector-for-secrets-manager-bringing-zero-knowledge-credential-management-to-azure-logic-apps-302854626.html",
-      "source": "PRNewswire",
-      "date": "2026-08-19",
-      "summary": "Keeper Security has launched a certified Microsoft Power Platform Connector for its Secrets Manager product, enabling integration with Azure Logic Apps and Power Automate. The connector allows enterprise teams to retrieve and manage credentials at runtime, removing the need for hardcoded secrets in automated workflows using Keeper's zero-knowledge, zero-trust architecture.",
-      "image": "https://mmx.prnewswire.com/media/MS1864138/Keeper-logo-full-color-002.jpg?id=OA2895525&p=facebook",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Okta MCP: Revolutionizing AI Agent Token Economics in Enterprise Finance",
-      "url": "https://www.c-sharpcorner.com/article/okta-mcp-revolutionizing-ai-agent-token-economics-in-enterprise-finance/",
-      "source": "C-sharpcorner.com",
-      "date": "2026-08-19",
-      "summary": "The article describes how to build an enterprise financial audit system integrating Okta with MCP-style context optimization, LangGraph, RAG, and persistent memory. The implementation focuses on using Okta for authentication and authorization within an AI agent architecture to improve security, compliance, and auditability while reducing token usage.",
-      "image": "https://www.c-sharpcorner.com/images/csharp-corner-new.png",
-      "importance": 6,
       "paywall": false
     },
     {
@@ -278,7 +208,7 @@
       "url": "https://www.darkreading.com/identity-access-management-security/cyera-oasis-security-acquisition-ai-agent-control",
       "source": "Dark Reading",
       "date": "2026-08-14",
-      "summary": "Cyera acquired Oasis Security in a $1 billion deal to combine data security and identity into a unified control plane. The acquisition redefines privileged access management around business context rather than static roles, with a focus on controlling AI agents.",
+      "summary": "Cyera acquired Oasis Security in a $1 billion deal to converge data security and identity management into a single control plane. The acquisition redefines privileged access management around business context rather than static roles, with a focus on controlling AI agent identities.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blta34684778cb8b0db/682deb002835ee067393fc41/Mergers_M&A_(1800)_pichetw_Alamy.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -288,7 +218,7 @@
       "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
       "source": "Krebs on Security",
       "date": "2026-08-06",
-      "summary": "Canadian man Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges related to hacking and extorting over 165 organizations using Snowflake cloud storage. The attacks involved unauthorized access to Snowflake customer accounts, resulting in data theft including AT&T call and text records for over 100 million customers.",
+      "summary": "Connor Riley Moucka, a 26-year-old Canadian, pleaded guilty to computer fraud and conspiracy charges related to hacking and extorting over 165 organizations using Snowflake's cloud data storage platform. The attacks resulted in the theft of data including over 100 million AT&T customer call and text records.",
       "image": null,
       "importance": 4,
       "paywall": false
@@ -298,7 +228,7 @@
       "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
       "source": "Krebs on Security",
       "date": "2026-07-13",
-      "summary": "CISA published a postmortem report on a data breach in which a contractor accidentally exposed dozens of internal credentials, including AWS GovCloud keys, in a public GitHub repository for nearly six months. The incident was reported by KrebsOnSecurity before CISA was aware, and the postmortem highlights gaps in the agency's credential monitoring and incident response processes.",
+      "summary": "CISA released a postmortem report on a data breach in which a contractor accidentally exposed dozens of internal CISA credentials, including AWS GovCloud keys, in a public GitHub repository for nearly six months. The incident highlights credential management failures and secret sprawl risks, with security experts drawing lessons applicable to IAM and secrets management practices across organizations.",
       "image": null,
       "importance": 7,
       "paywall": false
@@ -308,7 +238,7 @@
       "url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
       "source": "Krebs on Security",
       "date": "2026-06-23",
-      "summary": "Two Scattered Spider members pleaded guilty in the UK to charges related to a cyberattack on Transport for London in August 2024. Scattered Spider is known for social engineering and identity-based attacks, including SIM swapping and phishing to bypass MFA and compromise credentials.",
+      "summary": "Two Scattered Spider members pleaded guilty in the UK to charges related to the August 2024 cyberattack on Transport for London. Scattered Spider is known for social engineering and identity-based attacks, including SIM swapping and MFA bypass techniques used to compromise organizational accounts.",
       "image": null,
       "importance": 5,
       "paywall": false
