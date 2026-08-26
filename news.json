@@ -1,32 +1,12 @@
 {
-  "updated": "August 25, 2026 at 03:56 UTC",
+  "updated": "August 26, 2026 at 04:00 UTC",
   "top_stories": [
-    {
-      "title": "Microsoft patches critical Entra ID vulnerability (CVE-2026-69836)",
-      "url": "https://www.helpnetsecurity.com/2026/08/21/microsoft-entra-id-vulnerability-cve-2026-69836/",
-      "source": "Help Net Security",
-      "date": "2026-08-21",
-      "summary": "Microsoft has patched CVE-2026-69836, a critical remote code execution vulnerability in Entra ID with a maximum CVSS score of 10.0, reported to have been exploited in the wild. The flaw, discovered by Microsoft Principal Security Engineer Robert Fitzpatrick, could allow an unauthenticated attacker to compromise Microsoft's cloud identity service that controls access to Microsoft 365, Azure, and connected third-party applications.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2025/06/12183518/microsoft_entra_id.webp",
-      "importance": 10,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft warns of max severity Entra ID flaw exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
-      "source": "BleepingComputer",
-      "date": "2026-08-21",
-      "summary": "Microsoft has patched a maximum-severity vulnerability in its Entra ID identity and access management platform. The flaw has been actively exploited in attacks prior to the patch being released.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/08/21/Microsoft.jpg",
-      "importance": 10,
-      "paywall": false
-    },
     {
       "title": "Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account",
       "url": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html",
       "source": "The Hacker News",
       "date": "2026-08-24",
-      "summary": "A critical vulnerability (CVE-2026-18963, CVSS 9.1) has been discovered in Keycloak, the open-source identity and access management server maintained by Red Hat, allowing unauthenticated remote attackers to take over any user account via forced password reset. Red Hat and the Keycloak project have released patches to address the flaw.",
+      "summary": "A critical vulnerability (CVE-2026-18963, CVSS 9.1) in Keycloak, the open-source identity and access management server, allows unauthenticated remote attackers to take over any user account by forcing a password reset. Red Hat and the Keycloak project have released patches to address the flaw.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhB3jURz2EzucPTALqHju1yDNnbHFvawrKxEfvNEprkdA3QIDyOjuUqvHOyTyiZuYJR-4KwewHnd8CdT37TDxBMBK3OLknOxym2a0klblR6rNUc2lqXHdAQUl1JO8uE7bGupO-WqsaEM0UDLUGyWICu5fkA6x4GwNUCo_w3quxp8joYWhNX8grP55eVg8/s1600/keylock.jpg",
       "importance": 9,
       "paywall": false
@@ -36,9 +16,19 @@
       "url": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
       "source": "The Hacker News",
       "date": "2026-08-21",
-      "summary": "Microsoft patched a critical vulnerability in Microsoft Entra ID with a CVSS score of 10.0 that allowed remote code execution. Microsoft initially indicated the flaw had been exploited before correcting that status to \"No\" following media inquiry.",
+      "summary": "Microsoft patched a critical vulnerability in Microsoft Entra ID with a CVSS score of 10.0 that could allow remote code execution. Microsoft initially marked the flaw as exploited before correcting that status to \"No\" after media inquiry, clarifying the vulnerability had not been exploited in the wild.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid22xatm4tPGWO1VA9heA8p7i0iK4au3br36QORRasXlUO2uY5836xkZe6gywLOId9oHICopC6jZ8J-di4JI9O3CPOSOGsqoOR4Ps4DrEbKCXSXwMxX_wOGo0fY3zaTW4By4nzbY6jldD58kLAlBYfFxMOEeZOglaQu8R0TtT23Q2jLbQjHwJSoS21pqu5/s1600/entraid.jpg",
       "importance": 9,
+      "paywall": false
+    },
+    {
+      "title": "ShinyHunters taunts ReliaQuest after its own employee falls for social engineering attack",
+      "url": "https://www.helpnetsecurity.com/2026/08/25/reliaquest-breach-social-engineering/",
+      "source": "Help Net Security",
+      "date": "2026-08-25",
+      "summary": "A ReliaQuest employee fell for a social engineering attack, providing attackers with a password and temporary access to the company's identity system. The extortion group ShinyHunters subsequently posted screenshots on its leak site claiming broader access to the cybersecurity firm's systems.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/05/31195930/social-engineering_1500.webp",
+      "importance": 8,
       "paywall": false
     },
     {
@@ -46,13 +36,103 @@
       "url": "https://decrypt.co/376287/microsoft-perfect-10-exploit-hackers-run-code",
       "source": "Decrypt",
       "date": "2026-08-22",
-      "summary": "Microsoft patched a critical severity vulnerability in Microsoft Entra ID that received a perfect 10 CVSS score and could have allowed attackers to execute code remotely. Microsoft states the bug was fixed prior to CVE publication and no evidence of exploitation in the wild was found.",
+      "summary": "Microsoft patched a critical severity vulnerability in Microsoft Entra ID that received a perfect 10 CVE score and could have allowed remote code execution. Microsoft resolved the flaw before publicly disclosing the CVE and reported no evidence of exploitation in the wild.",
       "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/microsoft-decrypt-style-01-gID_7.png",
-      "importance": 9,
+      "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "N-able Bug Exposes Password Vault Master Keys",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/n-able-bug-password-vault-master-keys",
+      "source": "Dark Reading",
+      "date": "2026-08-20",
+      "summary": "A vulnerability in N-able's Passportal password manager exposed master keys to the password vault. The flaw affects MSPs and SMBs using the cloud-based product, and concerns remain about the security of cloud-hosted password vault architectures even after patching.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt0a77c38c9943dba1/6a7ccfe21978b46e991f0379/Vault-Dragon_Claws-Getty.jpg?width=720&quality=80&disable=upscale",
+      "importance": 7,
       "paywall": false
     }
   ],
   "news": [
+    {
+      "title": "From Fake Workers to Account Recovery: The Growing Identity Verification Risk",
+      "url": "https://www.bleepingcomputer.com/news/security/from-fake-workers-to-account-recovery-the-growing-identity-verification-risk/",
+      "source": "Bleeping Computer",
+      "date": "2026-08-25",
+      "summary": "Attackers are shifting focus from login-based attacks to targeting identity establishment and account recovery processes to gain legitimate access. Specops outlines how organizations can strengthen identity verification practices to counter threats such as fake worker schemes and social engineering.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/08/19/specops-lock-laptop.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "WhatsApp adds stronger two-step verification, multiple passkeys",
+      "url": "https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/",
+      "source": "Bleeping Computer",
+      "date": "2026-08-25",
+      "summary": "WhatsApp is rolling out new account security features including support for multiple passkeys and enhanced two-step verification. The update expands passkey functionality and strengthens authentication options for the messaging platform's users.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/03/26/whatsapp.jpg",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "TruffleHog AWS Analyze reduces remediation time on leaked AWS credentials",
+      "url": "https://www.helpnetsecurity.com/2026/08/25/trufflehog-aws-analyze-leaked-credentials/",
+      "source": "Help Net Security",
+      "date": "2026-08-25",
+      "summary": "Truffle Security launched TruffleHog AWS Analyze, a new feature for TruffleHog Enterprise that enriches discovered AWS credentials with permissions and access level context. The tool extends existing credential detection across 800+ secret types by adding identity and access analysis for AWS, following prior support for SaaS platforms and Google Cloud.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android",
+      "url": "https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html",
+      "source": "The Hacker News",
+      "date": "2026-08-25",
+      "summary": "Meta has announced support for multiple passkeys on a single WhatsApp account, enabling phishing-resistant sign-ins across both iOS and Android devices. The feature expands on passkey support first introduced for Android in October 2023, with Meta reporting over 1 billion users already using passkeys to log into WhatsApp.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqyjfLJEnp8xcmcz9iVBOKykdcxx36J8KgONSwImU9YSYuvWD_uzKDaGkJre9D_8P1XLdE8vPHqNyBUKOvjYPLJj_oZ1T-pfUxdOm-bZTtaz4LC2eVcuFloJTtEE7IWVnOaVJIEtFUoPKfOn9xeBASQG7e7X2-wA7P-hwGIzqP7G_-Ot2BOpj-OSO0tUBh/s1600/whatsapp.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
+      "url": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
+      "source": "The Hacker News",
+      "date": "2026-08-25",
+      "summary": "A phishing-as-a-service toolkit called Mirage2FA has targeted 4,500 US and EU companies between 2024 and 2026 by abusing Microsoft 365 login flows to bypass two-factor authentication. Research from ANY.RUN found that 48% of targeted email addresses were potentially compromised, with the majority of affected organizations based in the US.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSPS7eK6wOjr-bcJ7RjMVB4C03l21IHeGkyUQNGJANpvXsE90ssTzIlECk6HcpnLkw5_4PYTQ7ZP9k8pj2GBmvLnIfFkv6e-0NkLC4ouAf8Hn24SrQY2egjmzprIkgcvfLRHrYrzPYtx6mXKb59jjGazFjHe_7ttNqB-7AX0OB8ZvTI_QpgCA_NCEZY8Q/s1600/usa.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access",
+      "url": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
+      "source": "The Hacker News",
+      "date": "2026-08-25",
+      "summary": "Attackers are actively exploiting two critical unauthenticated authentication bypass vulnerabilities (including CVE-2026-61979, CVSS 8.1) in the miniOrange SAML 2.0 Single Sign On WordPress plugin. The flaws allow unauthenticated attackers to sign in as any WordPress user, including administrators, bypassing SAML-based authentication controls entirely.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtxn6tX1r1BmVfN_4cdoh6p5jmcAe3D9ckNhjscacXx5HpxZJAdb1SvIWo404cGlwahzCLyFIRB-MdUjGcQdBLLC5pMwaCB75e9AT5jKvC49cvIP5jGIOB4IjcQGaOpibWbIPKj929DICeMilGRZn5JmVIcVslRm2hWgz5RTXIZK5d2b2N5dlEnRBBwWVO/s1600/wordpress-hack.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
+      "url": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
+      "source": "The Hacker News",
+      "date": "2026-08-25",
+      "summary": "CISA added CVE-2026-21962, a CVSS 10.0 vulnerability in Oracle HTTP Server and Oracle WebLogic Server, to its Known Exploited Vulnerabilities catalog due to active exploitation. The flaw allows unauthenticated attackers with HTTP network access to access critical data, directly impacting authentication and access control in enterprise environments running Oracle middleware.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl_xYf_N0l1MVU0TVJFootEd6UCngqtfmbbEKRc06D7-0-ehjKU2SrBoA3qKaSkUWrOzgAu6hkbtimW8U7M4zgfH_6jXzgy6w7aQEGQKni-doNdQFCmAm9_vI_Zq4I6tx7lO2q533pbWWOLKBuUUYLGdY9O7SfBcwcGrqvsMLaFMPL09xXK86vRu38JfEp/s1600/oracle.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "AWS Lambda functions now support full IAM resource-based policies",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-full-iam-resource-based-policies/",
+      "source": "Amazon.com",
+      "date": "2026-08-25",
+      "summary": "AWS Lambda functions now support full IAM resource-based policies, expanding access control capabilities for platform admins and security teams. This update enables granular permission definitions using the complete feature set of AWS IAM for Lambda function access management.",
+      "image": null,
+      "importance": 7,
+      "paywall": false
+    },
     {
       "title": "Hackers target WordPress sites in miniOrange auth bypass attacks",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
@@ -64,13 +144,53 @@
       "paywall": false
     },
     {
-      "title": "South Korean startup platform breach exposes key management failures",
-      "url": "https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures/",
-      "source": "Bleeping Computer",
+      "title": "Microsoft Entra August 2026: Windows SSO control, Exchange attribute writeback, Lifecycle Workflows, and Cloud Sync",
+      "url": "https://4sysops.com/archives/microsoft-entra-august-2026-windows-sso-control-exchange-attribute-writeback-lifecycle-workflows-and-cloud-sync/",
+      "source": "4sysops.com",
       "date": "2026-08-24",
-      "summary": "A breach at a South Korean government-backed startup platform exposed encrypted personal data due to an encryption key being embedded directly in an API. Penta Security commented on the incident, highlighting that encryption keys must be stored separately from the data they protect.",
-      "image": "https://www.bleepstatic.com/content/posts/2026/08/21/penta-cyber-keys.jpg",
-      "importance": 5,
+      "summary": "Microsoft published its August 2026 Microsoft Entra feature roundup, announcing general availability of Windows SSO prompt control, Exchange Online attribute writeback via Microsoft Entra Cloud Sync, and Lifecycle Workflows testing updates. The release covers multiple identity and access management capabilities across SSO, directory synchronization, and identity governance workflows.",
+      "image": "https://4sysops.com/wp-content/uploads/2026/08/Cloud-managed-Exchange-attributes-architecture-image-Microsoft.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Treasury launches task force to prepare financial sector for quantum cyber threats",
+      "url": "https://www.nextgov.com/cybersecurity/2026/08/treasury-launches-task-force-prepare-financial-sector-quantum-cyber-threats/415601/",
+      "source": "Nextgov",
+      "date": "2026-08-24",
+      "summary": "The U.S. Treasury has launched a public-private task force to prepare the financial sector for quantum computing cyber threats. The task force will focus on transitioning financial institutions to quantum-resistant cryptography and addressing risks from vendors and digital assets.",
+      "image": "https://cdn.nextgov.com/media/img/cd/2026/08/24/082426TreasuryNG/open-graph.jpg",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "NIST Warns of Unique Security Risks in Multi-Cloud Environments",
+      "url": "https://www.infosecurity-magazine.com/news/nist-risks-multi-cloud/",
+      "source": "Infosecurity Magazine",
+      "date": "2026-08-24",
+      "summary": "NIST has identified 23 novel security challenges specific to multi-cloud environments in a new publication. The challenges include issues relevant to IAM such as identity federation, access control consistency, and authentication across cloud providers.",
+      "image": "https://assets.infosecurity-magazine.com/webpage/og/455e6395-166e-4f2a-9d75-6f215a6ce1b3.jpeg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "ShinyHunters and ReliaQuest trade blows over claimed breach",
+      "url": "https://www.theregister.com/cyber-crime/2026/08/24/shinyhunters-and-reliaquest-trade-blows-over-claimed-breach/5291702",
+      "source": "Theregister.com",
+      "date": "2026-08-24",
+      "summary": "ShinyHunters threat actors claimed to have breached ReliaQuest, with evidence showing access to an employee's identity dashboard. ReliaQuest disputed the extent of the breach, stating that access did not go beyond that initial identity dashboard view.",
+      "image": "https://image.theregister.com/5235702.jpg?imageId=5235702&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "GSA begins quantum security efforts for digital and physical systems",
+      "url": "https://www.nextgov.com/emerging-tech/2026/08/gsa-begins-quantum-security-efforts-digital-and-physical-systems/415583/",
+      "source": "Nextgov",
+      "date": "2026-08-24",
+      "summary": "The General Services Administration is updating its identity and access management framework and expanding physical security testing to support a government-wide migration to post-quantum cryptography. The effort reflects broader federal initiatives to prepare digital and physical systems for quantum-resilient security standards.",
+      "image": "https://cdn.nextgov.com/media/img/cd/2026/08/21/082126quantumNG/open-graph.jpg",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -78,29 +198,9 @@
       "url": "https://www.redhat.com/en/blog/passwordless-workload-identity-openshift",
       "source": "Redhat.com",
       "date": "2026-08-24",
-      "summary": "The article covers passwordless workload identity authentication on OpenShift, focusing on machine-to-machine authentication for database interactions. It addresses the shift away from static secrets toward modern authentication approaches for non-human identities in enterprise environments.",
+      "summary": "The article covers passwordless workload identity authentication on OpenShift, focusing on how machine-to-machine authentication (specifically database interactions) is evolving away from static secrets. It addresses workload identity concepts including how non-human identities authenticate without traditional credentials, relevant to IAM professionals managing machine identity and zero trust implementations.",
       "image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft’s CVSS 10.0 Entra ID RCE Briefly Tagged ‘Exploited’ Before Correction — and What That Reveals About Identity Infrastructure Disclosure",
-      "url": "https://forkast.news/microsofts-cvss-10-0-entra-id-rce-briefly-tagged-exploited-before-correction-and-what-that-reveals-about-identity-infrastructure-disclosure/",
-      "source": "Forkast.news",
-      "date": "2026-08-22",
-      "summary": "Microsoft disclosed CVE-2026-69836, a critical remote code execution vulnerability in Microsoft Entra ID with a maximum CVSS score of 10.0, allowing unauthenticated network-accessible exploitation. The disclosure was briefly and incorrectly tagged as actively exploited before being corrected, raising questions about accuracy and process in identity infrastructure vulnerability disclosure.",
-      "image": "https://forkast.news/wp-content/uploads/2026/08/entra-id-cve-1024x572.jpg",
-      "importance": 9,
-      "paywall": false
-    },
-    {
-      "title": "Hundreds of leaked AWS keys give full control over corporate accounts",
-      "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/",
-      "source": "Bleeping Computer",
-      "date": "2026-08-21",
-      "summary": "Over 9,300 AWS access keys exposed publicly between August 2022 and August 2026 remain active and valid. The leaked credentials grant full control over corporate AWS accounts, representing a significant access management and credential security issue.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/08/21/awskey.jpg",
-      "importance": 6,
+      "importance": 7,
       "paywall": false
     },
     {
@@ -108,69 +208,9 @@
       "url": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
       "source": "The Hacker News",
       "date": "2026-08-21",
-      "summary": "Three suspected Russian cyber espionage groups (UNC6293, UNC7005, and UNC5976) have been observed abusing legitimate Google OAuth authentication flows and WhatsApp account linking to hijack accounts. The attacks target individuals in academia, aerospace and defense, governments, and think tanks across Europe and the U.S.",
+      "summary": "Three suspected Russian cyber espionage groups (UNC6293, UNC7005, and UNC5976) have been observed abusing Google OAuth authentication flows and WhatsApp account linking to hijack accounts. The attacks target individuals in academia, aerospace and defense, government, and think tanks across Europe and the U.S.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEix5lAWOEf4I8fcz0CJYg-EBclOrTPnlbsf6tKT2-L8xsfQ4XqtjOq15iU6EBbIsWlqQq3e1-hIXrPe7MMg4JwSGj6mSwjSwG8V3UFMrfgYD-Lo9bKvncTGJ9lPbZoxq-1RNmKLyL_jZSiurWVgGuIxjgYYJeXW_wE51PRTDUhT7kRxp0MMpc3YflI9bntb/s1600/google-whatsapp.jpg",
       "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Fine-Grained Access Control Now Available for All Heroku Customers",
-      "url": "https://www.heroku.com/blog/fine-grained-access-control-now-available-all-customers/",
-      "source": "Heroku.com",
-      "date": "2026-08-21",
-      "summary": "Heroku has made Fine-Grained Access Controls (FGAC) available to all customers, replacing its legacy predefined role system. The new system replaces fixed roles (admin, member, collaborator) with individual capability controls, allowing more granular permission management.",
-      "image": "https://www.heroku.com/wp-content/uploads/2025/08/heroku-card-dark.png",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft sounds alarm as perfect-10 Entra ID flaw comes under attack",
-      "url": "https://www.theregister.com/cyber-crime/2026/08/21/microsoft-sounds-alarm-as-perfect-10-entra-id-flaw-comes-under-attack/5290925",
-      "source": "Theregister.com",
-      "date": "2026-08-21",
-      "summary": "Microsoft has disclosed a critical severity (CVSS 10.0) vulnerability in Microsoft Entra ID that has been actively exploited in the wild. The cloud identity flaw has been patched by Microsoft, though the company has not disclosed details about the threat actors involved or the scope of exploitation.",
-      "image": "https://image.theregister.com/5211376.jpg?imageId=5211376&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
-      "importance": 9,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft sounds alarm over perfect-10 Entra ID flaw",
-      "url": "https://www.theregister.com/cyber-crime/2026/08/21/microsoft-sounds-alarm-over-perfect-10-entra-id-flaw/5290925",
-      "source": "Theregister.com",
-      "date": "2026-08-21",
-      "summary": "Microsoft has disclosed a critical severity (CVSS 10) vulnerability in Microsoft Entra ID, its cloud identity platform. The flaw has already been patched by Microsoft before public disclosure.",
-      "image": "https://image.theregister.com/5211376.jpg?imageId=5211376&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
-      "importance": 9,
-      "paywall": false
-    },
-    {
-      "title": "N-able Bug Exposes Password Vault Master Keys",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/n-able-bug-password-vault-master-keys",
-      "source": "Dark Reading",
-      "date": "2026-08-20",
-      "summary": "A vulnerability in N-able's Passportal password manager exposes master keys to the password vault, affecting MSPs and SMBs that rely on the product. The flaw relates to the cloud-based architecture of the solution, and concerns persist about residual risk even after patching.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt0a77c38c9943dba1/6a7ccfe21978b46e991f0379/Vault-Dragon_Claws-Getty.jpg?width=720&quality=80&disable=upscale",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers",
-      "url": "https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html",
-      "source": "The Hacker News",
-      "date": "2026-08-20",
-      "summary": "Citrix has released security updates addressing two vulnerabilities in NetScaler ADC and NetScaler Gateway, including a critical authentication bypass flaw. The vulnerability affects customer-managed deployments including certain FIPS and NDcPP builds, as well as SecurAccess configurations on Gateway and AAA servers.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoCXrYMA_j7aJrrdIZKt2gQwTWYXhhHZTfBvrNcgpLLBTa5hzcmDNguBKwBhiD8p7kO5K2OeQYVbIPg2HHDBwu9LNzR6oAFE-znmFWIgjY_XzA0qdy-rA8XzV_uGvsxLWRNXCyyOlUKdDV0LGrXPN15wxYsTuZslyecGQ1cqE2OKdX5cocpp74uXenwdj0/s1600/citrix.jpg",
-      "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Why \"Shady AI\" is Security's Next Big Governance Problem",
-      "url": "https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html",
-      "source": "The Hacker News",
-      "date": "2026-08-20",
-      "summary": "A Meta AI agent caused a Sev 1 security incident in March 2026 by exposing sensitive company and user data to unauthorized employees after posting a response publicly without approval. The incident highlights emerging governance and authorization challenges around AI agents accessing and sharing data beyond intended permission boundaries.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgw0UN7paSPEt1BbP-tObzJmXd5LHvNrZpta_hHK2pwYGVsYyZt2FQO20Ld8uePEO35Hg9MUqHRoA3tvbxXf9Wdh2D8IgHIt9M56YTvveuPUILhMZ_drcaBL6ILCPzZmAwryt6cqjNvh4A0NUIPIBS6tpJCHJz6R5Lu42t06EyJ56wnlATWOg5UC-5JlBA/s1600/tines.jpg",
-      "importance": 6,
       "paywall": false
     },
     {
@@ -178,7 +218,7 @@
       "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
       "source": "Krebs on Security",
       "date": "2026-08-06",
-      "summary": "Connor Riley Moucka, a 26-year-old Canadian man, pleaded guilty to computer fraud and conspiracy charges related to hacking and extorting over 165 organizations using Snowflake cloud storage. The attacks involved unauthorized access to Snowflake customer accounts, largely enabled by stolen credentials and the absence of MFA enforcement.",
+      "summary": "Canadian threat actor Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges for hacking and extorting over 165 organizations using Snowflake cloud storage. The case involved credential-based attacks exploiting accounts without MFA, resulting in data theft from major companies including AT&T.",
       "image": null,
       "importance": 4,
       "paywall": false
@@ -188,7 +228,7 @@
       "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
       "source": "Krebs on Security",
       "date": "2026-07-13",
-      "summary": "CISA published a postmortem after a contractor exposed dozens of internal credentials, including AWS GovCloud keys, in a public GitHub repository for nearly six months. The incident highlights credential management failures and gaps in secrets detection practices relevant to IAM and PAM professionals.",
+      "summary": "CISA published a postmortem after a contractor accidentally exposed dozens of internal credentials, including AWS GovCloud keys, in a public GitHub repository for nearly six months. The incident highlights credential management failures and gaps in secrets detection processes relevant to IAM and PAM practices.",
       "image": null,
       "importance": 7,
       "paywall": false
@@ -198,9 +238,9 @@
       "url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
       "source": "Krebs on Security",
       "date": "2026-06-23",
-      "summary": "Two Scattered Spider members pleaded guilty in the UK to charges related to an August 2024 cyberattack on Transport for London. Scattered Spider is known for sophisticated social engineering and identity-based attacks, including SIM swapping and MFA bypass techniques used to compromise enterprise environments.",
+      "summary": "Two members of the Scattered Spider cybercrime group pleaded guilty in the UK to charges related to the August 2024 cyberattack on Transport for London. Scattered Spider is known for social engineering and identity-based attacks, including SIM swapping and phishing to bypass MFA and compromise accounts.",
       "image": null,
-      "importance": 6,
+      "importance": 5,
       "paywall": false
     }
   ]
