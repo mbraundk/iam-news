@@ -1,33 +1,13 @@
 {
-  "updated": "August 27, 2026 at 14:07 UTC",
+  "updated": "August 28, 2026 at 15:17 UTC",
   "top_stories": [
     {
-      "title": "Semperis Researcher Discovers Critical Active Directory Privilege Escalation Vulnerabilities",
-      "url": "https://www.prnewswire.com/news-releases/semperis-researcher-discovers-critical-active-directory-privilege-escalation-vulnerabilities-302860009.html",
-      "source": "PRNewswire",
-      "date": "2026-08-26",
-      "summary": "A Semperis researcher discovered two critical Active Directory privilege escalation vulnerabilities, dubbed ResetNightmare and KerberLoss. The flaws exploit weaknesses in how identity systems interpret usernames and service names, enabling attackers to potentially disrupt services, weaken authentication, or impersonate privileged users.",
-      "image": "https://mmx.prnewswire.com/media/MS1122565/Semperis-Logo-Logo-Logo.jpg?id=OA2911428&p=facebook",
-      "importance": 9,
-      "paywall": false
-    },
-    {
-      "title": "Entra CAE gives service principals an instant token kill switch",
-      "url": "https://4sysops.com/archives/entra-cae-gives-service-principals-an-instant-token-kill-switch/",
-      "source": "4sysops.com",
-      "date": "2026-08-26",
-      "summary": "Microsoft Entra has extended Continuous Access Evaluation (CAE) to support service principals, enabling administrators to invalidate bearer tokens immediately upon the next resource request rather than waiting up to 90 minutes for expiration. This update addresses a key security gap in non-human identity access control, allowing near-real-time token revocation for service principals in emergency scenarios.",
-      "image": "https://4sysops.com/wp-content/uploads/2026/08/entra-cae-gives-service-principals-an-instant-token-kill-switch.jpg",
-      "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Cisco bets on Teleport to put identity on every server, workload, and AI agent",
-      "url": "https://4sysops.com/archives/cisco-bets-on-teleport-to-put-identity-on-every-server-workload-and-ai-agent/",
-      "source": "4sysops.com",
-      "date": "2026-08-25",
-      "summary": "Cisco is investing in Teleport and integrating its infrastructure-access technology across its portfolio to assign cryptographic identities to servers, laptops, workloads, network devices, and AI agents. The partnership targets the elimination of standing credentials in favor of identity-based access for infrastructure and machine identities.",
-      "image": "https://4sysops.com/wp-content/uploads/2026/08/cisco-bets-on-teleport-to-put-identity-on-every-server-workload-and-ai-agent.webp",
+      "title": "The Identity Crisis No One Planned For: Governing Non-Human Agents at Enterprise Scale",
+      "url": "https://www.oreilly.com/radar/the-identity-crisis-no-one-planned-for-governing-non-human-agents-at-enterprise-scale/#BlogPosting",
+      "source": "Oreilly.com",
+      "date": "2026-08-27",
+      "summary": "The article addresses the emerging IAM challenge of governing non-human identities (agents, service accounts, bots) at enterprise scale. It focuses on how traditional IGA frameworks built around human user lifecycle management are inadequate for managing the rapidly growing population of non-human identities.",
+      "image": "https://www.oreilly.com/radar/wp-content/uploads/sites/3/2026/08/The-identity-crisis-no-one-planned-for_1-1600x1244.jpg",
       "importance": 8,
       "paywall": false
     },
@@ -36,31 +16,81 @@
       "url": "https://www.darkreading.com/endpoint-security/novacookies-steals-microsoft-365-sessions-320-a-month",
       "source": "Dark Reading",
       "date": "2026-08-26",
-      "summary": "A phishing-as-a-service kit called \"NovaCookies\" is being sold for $320 per month, enabling adversary-in-the-middle attacks that steal Microsoft 365 session cookies to bypass authentication. The kit targets session tokens rather than just credentials, allowing attackers to circumvent MFA protections on Microsoft 365 accounts.",
+      "summary": "A phishing-as-a-service kit called \"NovaCookies\" enables adversary-in-the-middle attacks against Microsoft 365 for $320 per month, stealing session cookies to bypass authentication controls. The service targets Microsoft 365 sessions, allowing attackers to hijack authenticated sessions rather than just stealing credentials, undermining MFA protections.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt282e8f2cd221edf1/6a8f1cccca0617268e4c2e0a/cookie_monster-dpa_picture_alliance-Alamy_REVISED_FOR_16_X_9.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
     },
     {
-      "title": "Snowflake ends service-account passwords. Now comes the hard part",
-      "url": "https://www.bleepingcomputer.com/news/security/snowflake-ends-service-account-passwords-now-comes-the-hard-part/",
-      "source": "Bleeping Computer",
+      "title": "NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions",
+      "url": "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
+      "source": "The Hacker News",
       "date": "2026-08-26",
-      "summary": "Snowflake is eliminating password authentication for legacy service accounts, requiring organizations to migrate to passwordless authentication methods. The migration challenge centers on non-human identity management issues: identifying account dependencies, establishing ownership, and right-sizing access privileges for service accounts.",
-      "image": "https://www.bleepstatic.com/content/posts/2026/08/25/token-key-rack.jpg",
+      "summary": "Researchers have disclosed a new adversary-in-the-middle phishing toolkit called NovaCookies, sold as a $320/month subscription service, that proxies Microsoft 365 sign-in pages to capture authenticated session cookies. The toolkit abuses legitimate DocuSign notifications to lure victims and bypasses MFA by stealing post-authentication sessions rather than credentials.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiz4GD3giiT1DIPT5Q13XvCZcwC8-STaGCZ3KbqUzQ5Q9oniGfA0Odbqfmwva6B-xSSTD2QG1wdqu5fFOleaBVFSA-t3ZfeqpcrYOEomdygWsZOONJXYcpxhRdT-EbTS_DZ0zYLrH_-1YN7TjXCsDuIj0I2G53mFT0df1HC3tjUdUQ5MCdHdEo27rDE2QEm/s1600/docusign.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Okta Q2 2027 earnings beat estimates as AI agent security drives growth",
+      "url": "https://biztoc.com/x/02c4641af945c8c1",
+      "source": "Biztoc.com",
+      "date": "2026-08-27",
+      "summary": "Okta reported Q2 2027 revenue of $805 million, up 11% year-over-year, beating analyst expectations of $795 million and driving a 20% stock surge in extended trading. The company attributed growth in part to AI agent security, reflecting expanding demand for identity solutions in agentic AI environments.",
+      "image": "https://biztoc.com/cdn/02c4641af945c8c1_s.webp",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Okta Q2 Earnings Call Highlights",
+      "url": "https://www.marketbeat.com/instant-alerts/transcript-okta-q2-earnings-call-highlights-2026-08-26/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
+      "source": "MarketBeat",
+      "date": "2026-08-26",
+      "summary": "Okta reported its Q2 fiscal 2027 earnings, citing broad-based demand across its workforce and customer identity platforms. The results reflect continued market activity for Okta's core IAM product lines.",
+      "image": "https://s.yimg.com/lo/mysterio/api/474046190fe088670f000f5f5fd2c052d9369671f98a83db6f764c09a8f4627c/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmarketbeat_955%2Fe916e7fcf91604c187fd3af21c94bd0d.png",
       "importance": 7,
       "paywall": false
     }
   ],
   "news": [
     {
-      "title": "NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions",
-      "url": "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
+      "title": "Key Reasons Why Identity Fabric Matters in 2026",
+      "url": "https://thehackernews.com/2026/08/key-reasons-why-identity-fabric-matters.html",
       "source": "The Hacker News",
-      "date": "2026-08-26",
-      "summary": "Cybersecurity researchers have disclosed a new adversary-in-the-middle (AitM) phishing toolkit called NovaCookies that proxies Microsoft 365 sign-ins to steal authenticated session cookies, effectively bypassing MFA. The $320/month subscription service abuses legitimate DocuSign notifications to lure victims, capturing session tokens to enable unauthorized account access.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiz4GD3giiT1DIPT5Q13XvCZcwC8-STaGCZ3KbqUzQ5Q9oniGfA0Odbqfmwva6B-xSSTD2QG1wdqu5fFOleaBVFSA-t3ZfeqpcrYOEomdygWsZOONJXYcpxhRdT-EbTS_DZ0zYLrH_-1YN7TjXCsDuIj0I2G53mFT0df1HC3tjUdUQ5MCdHdEo27rDE2QEm/s1600/docusign.jpg",
-      "importance": 7,
+      "date": "2026-08-28",
+      "summary": "The article explains the concept of Identity Fabric as an architectural approach that integrates fragmented identity systems into a unified layer for runtime visibility across applications, APIs, and infrastructure. It covers Identity Fabric architecture, risks associated with unmanaged identities, and its relevance as enterprise access increasingly spans cloud services and automated workloads.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtiQiqrq5S2ip1c5QHUZaJADW3_fskqNx6rhLXi2mGqOH5NGwuTwmFXPtqLpFKXDLVMtG-rZTTVlRh8ZVJON5DFBxdE7RwCN8_Fh0Y_mypooHEo4yZeYB-FoGinET6wHzTwgYWDMeZxVT9b-uCQSJ7bLEZdzRUglWWuOY5ItZyGC94Xo85iFck6FMmUmY/s1600/orchid-main.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Okta skyrockets 20%, CrowdStrike surges 15% as rising AI threat boosts earnings",
+      "url": "https://biztoc.com/x/1be2b83895c89713",
+      "source": "Biztoc.com",
+      "date": "2026-08-27",
+      "summary": "Okta shares surged approximately 20% following earnings results that beat Wall Street estimates for the fiscal second quarter, with the company also raising its forward guidance. AI adoption was cited as a key driver pushing customers to increase spending on cybersecurity tools, including Okta's identity management products.",
+      "image": "https://biztoc.com/cdn/1be2b83895c89713_s.webp",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Cybersecurity Stocks Rally on Twin Earnings Beats: Okta Spikes 22%, CrowdStrike Jumps 13%",
+      "url": "https://biztoc.com/x/0b461699f5ea6924",
+      "source": "Biztoc.com",
+      "date": "2026-08-27",
+      "summary": "Okta's stock spiked 22% and CrowdStrike's jumped 13% following fiscal Q2 2027 earnings beats from both cybersecurity companies. Okta's strong quarterly results signal continued growth for the IAM vendor in a competitive market.",
+      "image": "https://biztoc.com/cdn/0b461699f5ea6924_s.webp",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Integrity360 agrees deal for identity specialist CyberIAM",
+      "url": "https://www.rte.ie/news/business/2026/0827/1589396-integrity360-agrees-deal-for-identity-specialist-cyberiam/",
+      "source": "RTE",
+      "date": "2026-08-27",
+      "summary": "Integrity360 has agreed to acquire identity specialist CyberIAM, which operates in the UK and South Africa. The deal expands Integrity360's identity and access management capabilities through the purchase of a dedicated IAM services firm.",
+      "image": "https://www.rte.ie/images/00221e50-1600.jpg",
+      "importance": 6,
       "paywall": false
     },
     {
@@ -68,7 +98,7 @@
       "url": "https://thehackernews.com/2026/08/cisa-red-team-compromised-two-critical.html",
       "source": "The Hacker News",
       "date": "2026-08-26",
-      "summary": "CISA published results of two simultaneous red team assessments against critical infrastructure organizations, both of which were fully compromised at the domain level. One organization detected nothing during the assessment, highlighting significant gaps in defensive capabilities relevant to identity and access controls.",
+      "summary": "CISA published results of two simultaneous red team assessments against critical infrastructure organizations, both of which were fully compromised at the domain level. One organization detected none of the intrusion activity, highlighting gaps in defensive capabilities relevant to identity and access controls.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhW3w9bF-wcalV_4xeymOZiHzRSkeBfz8Vh1B58JkthAgonYo-DGr3kWwNQ8ia760jX1kfC7NTkitD9rWxJNSNzMZWTAVWqrmJQXL7-1rOHbmC7mKSmfArdBAp5s4phuF3SlKr20agmwKrpI56a9SijzuYLnhYlb3R4l7uhb4S0Na0d3_OplvHmbC1EDCk/s1600/cisa-hack.jpg",
       "importance": 6,
       "paywall": false
@@ -78,179 +108,79 @@
       "url": "https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html",
       "source": "The Hacker News",
       "date": "2026-08-26",
-      "summary": "Researchers at SOCRadar identified a phishing-as-a-service platform called AnonyMousKIT that uses AI voice agents to impersonate Apple Support and trick theft victims into revealing device passcodes and 2FA codes. The platform is credit-metered and targets Apple's Activation Lock system to enable stolen device access.",
+      "summary": "Researchers at SOCRadar identified a phishing-as-a-service platform called AnonyMousKIT that uses AI voice agents to impersonate Apple Support and trick stolen device owners into revealing passcodes and 2FA codes. The platform is credit-metered and targets Apple's Activation Lock mechanism by socially engineering victims over phone calls.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZ7ibePn1YRPkAC27RIrMl_O-41pR7ieF0Mkpr8WUTkzCddWjpttUiIrXWI3CYGukgNR8eoppnOFUYjzSbEm66XiK4ttGge7-KicMnSf49N5L-wKXyf4NIzWi1Yi5JbKQXPYpmtWfZfMADrNswG9-ZfOOE9LjWwUFl7twHmvEskgU9iXPR5AGEQ4hUETo/s1600/iphone-passcode.jpg",
       "importance": 5,
       "paywall": false
     },
     {
-      "title": "Remote Help for Windows adds unattended remote sign-in",
-      "url": "https://4sysops.com/archives/remote-help-for-windows-adds-unattended-remote-sign-in/",
-      "source": "4sysops.com",
+      "title": "CrowdStrike and Okta shares jump on second-quarter beats and raised outlooks",
+      "url": "https://siliconangle.com/2026/08/26/crowdstrike-and-okta-shares-jump-on-second-quarter-beats-and-raised-outlooks/",
+      "source": "SiliconANGLE News",
       "date": "2026-08-26",
-      "summary": "Microsoft has added unattended remote sign-in support to Intune Remote Help for Windows, enabling authorized helpdesk staff to access managed devices without a user present. The helper operates in a separate Windows session while any existing user session remains intact.",
-      "image": "https://4sysops.com/wp-content/uploads/2026/08/remote-help-for-windows-adds-unattended-remote-sign-in.webp",
-      "importance": 5,
+      "summary": "Okta reported better-than-expected second-quarter financial results, causing its shares to rise more than 19% in after-hours trading. Okta also raised its forward financial outlook following the earnings beat.",
+      "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/08/crowdstrikeoktaearnings.png",
+      "importance": 6,
       "paywall": false
     },
     {
-      "title": "EntraFalcon V20260824",
-      "url": "https://kitploit.com/en/posts/github-compasssecurity-entrafalcon-v20260824",
+      "title": "Okta Lifts Full-Year Outlook as AI Agents Spur Demand",
+      "url": "https://biztoc.com/x/9b025c1e4b895553",
+      "source": "Biztoc.com",
+      "date": "2026-08-26",
+      "summary": "Okta raised its full-year revenue outlook to $3.22–$3.23 billion, up from its previous guidance of $3.19–$3.21 billion. The company cited growing demand driven by AI agents as a factor in the improved forecast.",
+      "image": "https://biztoc.com/cdn/995/og.png",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Okta Earnings Top Estimates. Cybersecurity Firm's Sales Outlook Above Views",
+      "url": "https://biztoc.com/x/042a1840f545a979",
+      "source": "Biztoc.com",
+      "date": "2026-08-26",
+      "summary": "Okta reported Q2 earnings and revenue that exceeded analyst estimates, with its sales outlook also coming in above expectations. The results reflect the financial performance of one of the leading identity and access management platform providers.",
+      "image": "https://biztoc.com/cdn/995/og.png",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Okta pops 15% after topping estimates as AI threat spikes demand for identity security",
+      "url": "https://biztoc.com/x/3e4e025f612ac1ee",
+      "source": "Biztoc.com",
+      "date": "2026-08-26",
+      "summary": "Okta reported fiscal second-quarter results that exceeded Wall Street estimates, with adjusted EPS of $1.05 against an expected 97 cents, sending shares up approximately 15% in extended trading. The company attributed stronger-than-expected demand to AI-driven threats increasing the need for identity security solutions.",
+      "image": "https://biztoc.com/cdn/3e4e025f612ac1ee_s.webp",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "CyberFOX review: A privileged access tool built for teams that don’t have time for one",
+      "url": "https://thegadgetflow.com/blog/cyberfox-review/",
+      "source": "Gadget Flow",
+      "date": "2026-08-26",
+      "summary": "A review of CyberFOX, a privileged access management (PAM) tool, was published targeting IT teams with limited resources. The review focuses on the product's usability and design philosophy for smaller or under-resourced IT operations managing privileged access.",
+      "image": "https://thegadgetflow.com/wp-content/uploads/2026/08/CyberFOX-Review-blog-featured.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "infisical v0.162.24",
+      "url": "https://kitploit.com/en/posts/github-infisical-infisical-v016224",
       "source": "Kitploit.com",
       "date": "2026-08-26",
-      "summary": "EntraFalcon is a lightweight PowerShell tool designed to assess the security posture of Microsoft Entra ID environments. It identifies privileged objects, risky role assignments, and potential misconfigurations within Entra ID tenants.",
-      "image": "https://assets.kitploit.com/production/public/tools/7445/f54e976ba617639c0aa878369a05d23afdd3001b8e061cc29b57efbe2f054588.png",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android",
-      "url": "https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html",
-      "source": "The Hacker News",
-      "date": "2026-08-25",
-      "summary": "Meta has added support for multiple passkeys to a single WhatsApp account, enabling phishing-resistant sign-ins across both iOS and Android devices. The feature expands on passkey support first introduced for Android in October 2023, with Meta reporting over 1 billion users now using passkeys to log into WhatsApp.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqyjfLJEnp8xcmcz9iVBOKykdcxx36J8KgONSwImU9YSYuvWD_uzKDaGkJre9D_8P1XLdE8vPHqNyBUKOvjYPLJj_oZ1T-pfUxdOm-bZTtaz4LC2eVcuFloJTtEE7IWVnOaVJIEtFUoPKfOn9xeBASQG7e7X2-wA7P-hwGIzqP7G_-Ot2BOpj-OSO0tUBh/s1600/whatsapp.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
-      "url": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
-      "source": "The Hacker News",
-      "date": "2026-08-25",
-      "summary": "A phishing-as-a-service toolkit called Mirage2FA has targeted 4,500 US and EU companies between 2024 and 2026, specifically abusing Microsoft 365 login flows to bypass two-factor authentication. According to ANY.RUN research, 48% of targeted email addresses were potentially compromised, with the majority of affected organizations being US-based.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSPS7eK6wOjr-bcJ7RjMVB4C03l21IHeGkyUQNGJANpvXsE90ssTzIlECk6HcpnLkw5_4PYTQ7ZP9k8pj2GBmvLnIfFkv6e-0NkLC4ouAf8Hn24SrQY2egjmzprIkgcvfLRHrYrzPYtx6mXKb59jjGazFjHe_7ttNqB-7AX0OB8ZvTI_QpgCA_NCEZY8Q/s1600/usa.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access",
-      "url": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
-      "source": "The Hacker News",
-      "date": "2026-08-25",
-      "summary": "Attackers are actively exploiting two critical authentication bypass vulnerabilities (CVE-2026-61979, CVSS 8.1) in the miniOrange SAML 2.0 Single Sign On WordPress plugin. The flaws allow unauthenticated attackers to log in as any WordPress user, including administrators, as disclosed by Patchstack.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtxn6tX1r1BmVfN_4cdoh6p5jmcAe3D9ckNhjscacXx5HpxZJAdb1SvIWo404cGlwahzCLyFIRB-MdUjGcQdBLLC5pMwaCB75e9AT5jKvC49cvIP5jGIOB4IjcQGaOpibWbIPKj929DICeMilGRZn5JmVIcVslRm2hWgz5RTXIZK5d2b2N5dlEnRBBwWVO/s1600/wordpress-hack.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
-      "url": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
-      "source": "The Hacker News",
-      "date": "2026-08-25",
-      "summary": "CISA added CVE-2026-21962, a maximum-severity (CVSS 10.0) vulnerability in Oracle HTTP Server and Oracle WebLogic Server, to its Known Exploited Vulnerabilities catalog due to active exploitation. The flaw allows unauthenticated attackers with network access via HTTP to access critical data, making it directly relevant to authentication and access control concerns in enterprise environments.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl_xYf_N0l1MVU0TVJFootEd6UCngqtfmbbEKRc06D7-0-ehjKU2SrBoA3qKaSkUWrOzgAu6hkbtimW8U7M4zgfH_6jXzgy6w7aQEGQKni-doNdQFCmAm9_vI_Zq4I6tx7lO2q533pbWWOLKBuUUYLGdY9O7SfBcwcGrqvsMLaFMPL09xXK86vRu38JfEp/s1600/oracle.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "M&A Is Quietly Driving a Surge in Cloud Migration",
-      "url": "https://cloudtweaks.com/2026/08/surge-in-cloud-migration/",
-      "source": "Cloudtweaks.com",
-      "date": "2026-08-25",
-      "summary": "The article discusses how mergers and acquisitions are driving cloud migration projects, with identity consolidation being a key component of post-deal IT integration. The piece focuses on the challenge of unifying users, identities, applications, and devices from separate environments following M&A activity.",
-      "image": "https://cloudtweaks.com/wp-content/uploads/2022/05/StaceyFarrar1-scaled-e1652182030445.jpg",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "IAM Roles Anywhere now provides a Java plugin for the AWS SDK",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/iam-roles-anywhere-java/",
-      "source": "Amazon.com",
-      "date": "2026-08-25",
-      "summary": "AWS IAM Roles Anywhere has released a Java plugin for the AWS SDK v2 that allows workloads running outside of AWS to obtain temporary AWS credentials directly within the Java application process. The plugin integrates with the SDK's credential provider chain, enabling non-AWS workloads to authenticate using X.509 certificates without requiring external credential helper processes.",
-      "image": null,
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Shadow Agents, Standing Privileges, and the Governance Gap Between Deployment and Discovery",
-      "url": "https://www.oreilly.com/radar/shadow-agents-standing-privileges-and-the-governance-gap-between-deployment-and-discovery/#BlogPosting",
-      "source": "Oreilly.com",
-      "date": "2026-08-25",
-      "summary": "The article addresses the emerging IAM challenge of AI agents operating with standing privileges and outside traditional identity governance frameworks. It focuses on the governance gap created when autonomous AI workflows are deployed without proper discovery, access controls, or privileged access management oversight.",
-      "image": "https://www.oreilly.com/radar/wp-content/uploads/sites/3/2026/08/Shadow-agents-standing-privileges-and-the-governance-gap-between-deployment-1600x1244.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Entra ID memberOf retirement exposes silent group and agent-account risks",
-      "url": "https://4sysops.com/archives/entra-id-memberof-retirement-exposes-silent-group-and-agent-account-risks/",
-      "source": "4sysops.com",
-      "date": "2026-08-25",
-      "summary": "Microsoft Entra ID will retire the `memberOf` operator on November 3, 2026, causing affected dynamic groups, administrative units, and entitlement policies to freeze without visible errors. Organizations must audit and update affected configurations before the deadline to avoid silent access control failures.",
-      "image": "https://4sysops.com/wp-content/uploads/2026/08/entra-id-memberof-retirement-exposes-silent-group-and-agent-account-risks.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "ShinyHunters taunts ReliaQuest after its own employee falls for social engineering attack",
-      "url": "https://www.helpnetsecurity.com/2026/08/25/reliaquest-breach-social-engineering/",
-      "source": "Help Net Security",
-      "date": "2026-08-25",
-      "summary": "ReliaQuest confirmed an employee fell for a social engineering attack, providing attackers with a password and temporary access to the company's identity system. The incident was publicized after extortion group ShinyHunters taunted the cybersecurity firm following the breach.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/05/31195930/social-engineering_1500.webp",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "AWS Secrets Manager adds managed external secrets support for Cisco Security Platform and Netskope",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/secrets-manager-cisco-netskope/",
-      "source": "Amazon.com",
-      "date": "2026-08-25",
-      "summary": "AWS Secrets Manager has expanded its managed external secrets capability to support automatic rotation of Cisco Security Platform API keys and Netskope API tokens. This update allows users to rotate these third-party credentials directly from the AWS console without custom code.",
-      "image": null,
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Q2 Earnings Report Preview: What To Look For",
-      "url": "https://biztoc.com/x/2a1834827f475d94",
-      "source": "Biztoc.com",
-      "date": "2026-08-25",
-      "summary": "Okta is scheduled to release its Q2 earnings report on Wednesday afternoon. The preview notes Okta beat analyst revenue expectations last quarter with $765 million in revenue, representing 11.2% year-over-year growth.",
-      "image": "https://biztoc.com/cdn/2a1834827f475d94_s.webp",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "AWS Lambda functions now support full IAM resource-based policies",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-full-iam-resource-based-policies/",
-      "source": "Amazon.com",
-      "date": "2026-08-25",
-      "summary": "AWS Lambda functions now support full IAM resource-based policies, expanding access control capabilities for platform admins and security teams. This update enables granular permission definitions using the complete AWS IAM policy feature set for Lambda functions.",
-      "image": null,
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft Entra August 2026: Windows SSO control, Exchange attribute writeback, Lifecycle Workflows, and Cloud Sync",
-      "url": "https://4sysops.com/archives/microsoft-entra-august-2026-windows-sso-control-exchange-attribute-writeback-lifecycle-workflows-and-cloud-sync/",
-      "source": "4sysops.com",
-      "date": "2026-08-24",
-      "summary": "Microsoft published its August 2026 Microsoft Entra feature roundup, announcing generally available updates including Windows SSO prompt control, Exchange Online attribute writeback via Microsoft Entra Cloud Sync, and Lifecycle Workflows enhancements. The release covers multiple identity and access management capabilities across SSO, cloud synchronization, and identity governance workflows.",
-      "image": "https://4sysops.com/wp-content/uploads/2026/08/Cloud-managed-Exchange-attributes-architecture-image-Microsoft.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Treasury launches task force to prepare financial sector for quantum cyber threats",
-      "url": "https://www.nextgov.com/cybersecurity/2026/08/treasury-launches-task-force-prepare-financial-sector-quantum-cyber-threats/415601/",
-      "source": "Nextgov",
-      "date": "2026-08-24",
-      "summary": "The U.S. Treasury has launched a public-private task force to prepare the financial sector for quantum computing cyber threats. The task force will focus on migrating financial institutions to quantum-resistant cryptography and addressing risks from vendors and digital assets.",
-      "image": "https://cdn.nextgov.com/media/img/cd/2026/08/24/082426TreasuryNG/open-graph.jpg",
+      "summary": "Infisical released version 0.162.24 of its open-source secrets management and privileged access management platform. The platform includes features such as secret scanning, dynamic secrets, PKI, and CI/CD integrations, available as cloud-native or self-hosted deployments.",
+      "image": "https://assets.kitploit.com/production/public/tools/42659/2321b21bb161ee8ce067f7b44c6b109f8950464fc1adbe900eaf9d029f0f23a4.png",
       "importance": 4,
       "paywall": false
     },
     {
-      "title": "Hackers target WordPress sites in miniOrange auth bypass attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
-      "source": "BleepingComputer",
-      "date": "2026-08-24",
-      "summary": "Hackers are actively exploiting two critical authentication bypass vulnerabilities in the miniOrange SAML 2.0 Single Sign On plugin for WordPress. The flaws allow attackers to forge SAML responses and gain administrator-level access to affected WordPress sites.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/08/24/miniorange.jpg",
-      "importance": 7,
+      "title": "INE Launches eIAMA Certification to Help Organizations Build Practical Identity and Access Management Skills",
+      "url": "https://financialpost.com/globe-newswire/ine-launches-eiama-certification-to-help-organizations-build-practical-identity-and-access-management-skills",
+      "source": "Financial Post",
+      "date": "2026-08-26",
+      "summary": "INE has launched the eIAMA, a new vendor-neutral certification aimed at cybersecurity and IT professionals focused on identity and access management skills. The certification is designed to prepare practitioners to implement, operate, and secure identity systems in modern enterprise environments.",
+      "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/08/ine-launches-eiama-certification-to-help-organizations-build.png",
+      "importance": 5,
       "paywall": false
     },
     {
@@ -258,7 +188,7 @@
       "url": "https://www.darkreading.com/vulnerabilities-threats/n-able-bug-password-vault-master-keys",
       "source": "Dark Reading",
       "date": "2026-08-20",
-      "summary": "A vulnerability in N-able's Passportal password manager exposed master keys to the password vault, affecting MSPs and SMBs that rely on the product. The flaw has been patched, but concerns remain about the security risks inherent in cloud-based password vault architectures.",
+      "summary": "A vulnerability in N-able's Passportal password manager exposed master keys to the password vault, affecting MSPs and SMBs that rely on the product. The flaw raises concerns about cloud-based password vault architectures, as the cloud design itself is cited as a residual risk even after the patch was applied.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt0a77c38c9943dba1/6a7ccfe21978b46e991f0379/Vault-Dragon_Claws-Getty.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -268,9 +198,9 @@
       "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
       "source": "Krebs on Security",
       "date": "2026-08-06",
-      "summary": "Canadian man Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges related to hacking and extorting over 165 organizations using Snowflake cloud storage. The attacks involved credential-based access to Snowflake accounts, resulting in data theft including over 100 million AT&T customer records.",
+      "summary": "Canadian man Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges for hacking and extorting over 165 organizations using Snowflake cloud storage. The attacks involved credential-based unauthorized access to Snowflake customer accounts, resulting in data theft including over 100 million AT&T customer records.",
       "image": null,
-      "importance": 4,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -278,9 +208,9 @@
       "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
       "source": "Krebs on Security",
       "date": "2026-07-13",
-      "summary": "CISA released a postmortem report on a data breach in which a contractor accidentally published dozens of internal credentials, including AWS GovCloud keys, to a public GitHub repository for nearly six months. The incident highlights gaps in credential management, secrets detection, and third-party contractor access controls relevant to IAM and PAM practices.",
+      "summary": "CISA published a postmortem after a contractor exposed dozens of internal credentials, including AWS GovCloud keys, in a public GitHub repository for nearly six months. The incident highlights credential management failures and gaps in secrets detection and response processes relevant to IAM and privileged access management practices.",
       "image": null,
-      "importance": 7,
+      "importance": 6,
       "paywall": false
     }
   ]
