@@ -1,12 +1,12 @@
 {
-  "updated": "August 29, 2026 at 09:59 UTC",
+  "updated": "August 30, 2026 at 09:10 UTC",
   "top_stories": [
     {
       "title": "'NovaCookies' Kit Steals Microsoft 365 Sessions for $320 a Month",
       "url": "https://www.darkreading.com/endpoint-security/novacookies-steals-microsoft-365-sessions-320-a-month",
       "source": "Dark Reading",
       "date": "2026-08-26",
-      "summary": "A phishing-as-a-service kit called \"NovaCookies\" enables adversary-in-the-middle attacks targeting Microsoft 365 sessions for $320 per month. The service steals session cookies rather than just credentials, allowing attackers to bypass MFA by hijacking authenticated sessions.",
+      "summary": "A phishing-as-a-service kit called \"NovaCookies\" is being sold for $320 per month, enabling adversary-in-the-middle attacks that steal Microsoft 365 session cookies rather than just credentials. The service bypasses MFA by hijacking authenticated sessions, posing a direct threat to Microsoft 365 identity security.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt282e8f2cd221edf1/6a8f1cccca0617268e4c2e0a/cookie_monster-dpa_picture_alliance-Alamy_REVISED_FOR_16_X_9.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -16,18 +16,18 @@
       "url": "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
       "source": "The Hacker News",
       "date": "2026-08-26",
-      "summary": "Researchers have disclosed details of NovaCookies, an adversary-in-the-middle (AitM) phishing toolkit sold as a $320/month subscription service that proxies Microsoft 365 sign-ins to capture authenticated sessions. The toolkit abuses legitimate DocuSign notifications to bypass MFA by stealing session cookies rather than credentials directly.",
+      "summary": "Researchers have disclosed a new adversary-in-the-middle phishing toolkit called NovaCookies, sold as a $320/month subscription service, that proxies Microsoft 365 sign-ins to steal authenticated session cookies. The attack abuses legitimate DocuSign notifications to bypass MFA by capturing post-authentication sessions rather than credentials directly.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiz4GD3giiT1DIPT5Q13XvCZcwC8-STaGCZ3KbqUzQ5Q9oniGfA0Odbqfmwva6B-xSSTD2QG1wdqu5fFOleaBVFSA-t3ZfeqpcrYOEomdygWsZOONJXYcpxhRdT-EbTS_DZ0zYLrH_-1YN7TjXCsDuIj0I2G53mFT0df1HC3tjUdUQ5MCdHdEo27rDE2QEm/s1600/docusign.jpg",
       "importance": 7,
       "paywall": false
     },
     {
-      "title": "Okta climbs 22% on strong Q2, raised outlook",
-      "url": "https://biztoc.com/x/508edfaccdf443c0",
+      "title": "Okta’s AI boom just created a new security problem",
+      "url": "https://biztoc.com/x/15bb22211ca1e017",
       "source": "Biztoc.com",
-      "date": "2026-08-27",
-      "summary": "Okta shares jumped 22% after the company reported stronger-than-expected Q2 results with revenue reaching $805 million. The IAM vendor also raised its full-year financial outlook following the quarterly earnings report.",
-      "image": "https://biztoc.com/cdn/508edfaccdf443c0_s.webp",
+      "date": "2026-08-28",
+      "summary": "Okta reported fiscal Q2 revenue of $805 million (up 11%), with subscription revenue reaching $793 million, while highlighting a new security challenge posed by AI \"workers\" requiring identity management. The article addresses how the rise of AI agents is creating new identity and access management concerns that extend beyond traditional human user authentication.",
+      "image": "https://biztoc.com/cdn/15bb22211ca1e017_s.webp",
       "importance": 7,
       "paywall": false
     },
@@ -36,29 +36,79 @@
       "url": "https://thehackernews.com/2026/08/key-reasons-why-identity-fabric-matters.html",
       "source": "The Hacker News",
       "date": "2026-08-28",
-      "summary": "The article explains the concept of Identity Fabric as an architectural approach to unifying fragmented identity systems across cloud services, APIs, and infrastructure. It covers Identity Fabric architecture, risks of unmanaged identities, and the shift from static configuration to runtime visibility in enterprise identity security.",
+      "summary": "This article explains the concept of Identity Fabric architecture and its relevance to enterprise identity security in 2026. It covers how Identity Fabric integrates fragmented identity systems to provide runtime visibility across cloud services, APIs, and automated workloads, and addresses risks associated with unmanaged identities.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtiQiqrq5S2ip1c5QHUZaJADW3_fskqNx6rhLXi2mGqOH5NGwuTwmFXPtqLpFKXDLVMtG-rZTTVlRh8ZVJON5DFBxdE7RwCN8_Fh0Y_mypooHEo4yZeYB-FoGinET6wHzTwgYWDMeZxVT9b-uCQSJ7bLEZdzRUglWWuOY5ItZyGC94Xo85iFck6FMmUmY/s1600/orchid-main.jpg",
       "importance": 6,
       "paywall": false
     },
     {
-      "title": "Stock Soaring Today",
-      "url": "https://biztoc.com/x/e7f1fb9e6b372f2e",
+      "title": "Grew Remaining Performance Obligations 17% While Revenue Rose 11%. Is the Platform Reaccelerating?",
+      "url": "https://biztoc.com/x/223b1c80530d5a24",
       "source": "Biztoc.com",
-      "date": "2026-08-28",
-      "summary": "Okta's stock jumped 28% following stronger-than-expected Q2 financial results. The company also raised its full-year revenue outlook alongside the earnings report.",
-      "image": "https://biztoc.com/cdn/e7f1fb9e6b372f2e_s.webp",
+      "date": "2026-08-29",
+      "summary": "Okta reported fiscal Q2 2027 financial results with revenue rising 11% year over year to $805 million. Remaining Performance Obligations grew 17%, suggesting a potential acceleration in bookings for the IAM vendor.",
+      "image": "https://biztoc.com/cdn/223b1c80530d5a24_s.webp",
       "importance": 6,
       "paywall": false
     }
   ],
   "news": [
     {
+      "title": "Okta (OKTA) Grew Remaining Performance Obligations 17% While Revenue Rose 11%. Is the Platform Reaccelerating?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/okta-okta-grew-remaining-performance-031750646.html",
+      "source": "Yahoo Entertainment",
+      "date": "2026-08-29",
+      "summary": "Okta reported fiscal Q2 2027 financial results with revenue rising 11% year over year and remaining performance obligations growing 17%. The results indicate a bookings recovery for the identity and access management vendor.",
+      "image": "https://s.yimg.com/lo/mysterio/api/98d9da0fab5757f2f205017d0308f69cfed730e4f6b14d485076bcb6e07735d6/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2F4cbbb2a82849874ee840491626f778a2.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Okta Just Jumped 29%. AI Agents May Be Creating a New Bottleneck",
+      "url": "https://biztoc.com/x/adc62710b10da6fc",
+      "source": "Biztoc.com",
+      "date": "2026-08-29",
+      "summary": "Okta's stock jumped 28.6% on August 27, closing at $172.91 after reporting better-than-expected earnings results and reaching a four-year high. The article discusses how AI agents may be creating new identity and access management bottlenecks, framing Okta's growth in the context of expanding demand for machine identity management.",
+      "image": "https://biztoc.com/cdn/adc62710b10da6fc_s.webp",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "CrowdStrike and Okta Soar as AI Could Create “About 90” New Identities Per Worker",
+      "url": "https://biztoc.com/x/066d5620a9e09286",
+      "source": "Biztoc.com",
+      "date": "2026-08-28",
+      "summary": "CrowdStrike and Okta stocks rose amid predictions that AI could generate approximately 90 new identities per worker, significantly expanding the identity management landscape. The projection highlights growing demand for IAM and cybersecurity solutions as AI agents and automated systems require their own managed identities.",
+      "image": "https://biztoc.com/cdn/066d5620a9e09286_s.webp",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "A Deadline No One Can Negotiate Is Coming for the World’s Encryption, and the Race to Get Ready Has Quietly Begun",
+      "url": "https://financialpost.com/globe-newswire/a-deadline-no-one-can-negotiate-is-coming-for-the-worlds-encryption-and-the-race-to-get-ready-has-quietly-begun",
+      "source": "Financial Post",
+      "date": "2026-08-28",
+      "summary": "Quantum Secure Encryption Corp issued commentary on the approaching threat of quantum computing to current encryption standards, including those protecting identity and authentication systems. The piece addresses the urgency of transitioning to post-quantum cryptography across sectors including banking, identity, and government records.",
+      "image": null,
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "CrowdStrike and Okta shares soar as AI threats fuel cybersecurity spending",
+      "url": "https://4sysops.com/archives/crowdstrike-and-okta-shares-soar-as-ai-threats-fuel-cybersecurity-spending/",
+      "source": "4sysops.com",
+      "date": "2026-08-28",
+      "summary": "CrowdStrike and Okta shares rose sharply after both companies beat quarterly earnings estimates and raised forecasts, with Okta's stock climbing significantly. The results were attributed to increased cybersecurity spending driven by AI-related threats.",
+      "image": "https://4sysops.com/wp-content/uploads/2026/08/crowdstrike-and-okta-shares-soar-as-ai-threats-fuel-cybersecurity-spending.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
       "title": "AI IR Overlay – Incident Response Specification for AI Agents",
       "url": "https://www.darknet.org.uk/2026/08/ai-ir-overlay-incident-response-specification-for-ai-agents/",
       "source": "Darknet.org.uk",
       "date": "2026-08-28",
-      "summary": "A specification called AI IR Overlay has been published addressing incident response procedures for AI agents, including containment protocols for agents operating with valid credentials. The specification includes a kill-switch contract mechanism but acknowledges a gap in coverage during unstaffed SOC periods.",
+      "summary": "A specification called AI IR Overlay has been published addressing incident response procedures for AI agents, including containment protocols for agents operating with valid credentials. The specification includes a kill-switch contract mechanism but acknowledges a gap in coverage when no SOC is staffed.",
       "image": "https://www.darknet.org.uk/wp-content/uploads/2026/08/ai-ir-overlay-incident-response-framework-for-ai-agents.webp",
       "importance": 4,
       "paywall": false
@@ -68,7 +118,7 @@
       "url": "https://biztoc.com/x/bf082cc574875956",
       "source": "Biztoc.com",
       "date": "2026-08-28",
-      "summary": "Okta's share price reached a four-year high following strong Q2 fiscal year 2027 earnings results. The article focuses primarily on stock performance and hedge fund investment activity rather than IAM product or technology developments.",
+      "summary": "Okta's share price reached a four-year high following strong Q2 fiscal year 2027 earnings results. The article focuses on stock performance and hedge fund investment activity rather than IAM product or technology developments.",
       "image": "https://biztoc.com/cdn/bf082cc574875956_s.webp",
       "importance": 4,
       "paywall": false
@@ -78,7 +128,7 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/okta-inc-okta-record-high-053959842.html",
       "source": "Yahoo Entertainment",
       "date": "2026-08-28",
-      "summary": "Okta's share price reached a four-year high following strong Q2 earnings results. Hedge funds have increased their exposure to OKTA stock amid broader AI market momentum.",
+      "summary": "Okta's share price reached a four-year high following strong Q2 earnings results, with hedge funds increasing their exposure to the stock. The article focuses primarily on stock performance and investor activity rather than IAM product or technology developments.",
       "image": "https://s.yimg.com/lo/mysterio/api/7b01971e0204404240c3c0b82c789bc0df45ffd50ee6e671ad1fd4f4a1a29946/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2F25c2f9a82d994c0db376f8bb184a1aeb.jpg",
       "importance": 3,
       "paywall": false
@@ -88,58 +138,18 @@
       "url": "https://biztoc.com/x/03fd9d834479ab28",
       "source": "Biztoc.com",
       "date": "2026-08-28",
-      "summary": "Okta's stock surged following a strong quarterly earnings report showing better-than-expected profits. The article is primarily a financial/investment analysis piece rather than a report on IAM technology, products, or security developments.",
+      "summary": "Okta's stock surged following a strong quarterly earnings report showing profits above expectations. The article is primarily a financial/investment analysis piece rather than a report on IAM product or technology developments.",
       "image": "https://biztoc.com/cdn/03fd9d834479ab28_s.webp",
       "importance": 4,
       "paywall": false
     },
     {
-      "title": "Wells Fargo Upgrades Okta Stock as Growth Story Shows Signs of Turning a Corner",
-      "url": "https://biztoc.com/x/9ac117ff9d80375e",
+      "title": "Stock Soaring Today",
+      "url": "https://biztoc.com/x/e7f1fb9e6b372f2e",
       "source": "Biztoc.com",
-      "date": "2026-08-27",
-      "summary": "Wells Fargo upgraded Okta stock to \"Overweight\" with a $180 price target, citing easing concerns about the company's slowing growth. The upgrade is a financial analyst rating change rather than a product, policy, or operational development at Okta.",
-      "image": "https://biztoc.com/cdn/9ac117ff9d80375e_s.webp",
-      "importance": 4,
-      "paywall": false
-    },
-    {
-      "title": "Okta Earnings Top Estimates. Cybersecurity Firm's Sales Outlook Above Views.",
-      "url": "https://www.investors.com/news/technology/okta-stock-okta-earnings-news-q22026/",
-      "source": "Investor's Business Daily",
-      "date": "2026-08-27",
-      "summary": "Okta reported Q2 earnings and revenue that exceeded analyst estimates. The company's sales outlook also came in above expectations.",
-      "image": "https://www.investors.com/wp-content/uploads/2021/04/Stock-okta-03-shutt.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Okta Stock Just Hit a New 3-Year High on Earnings Rally. How You Should Play the Surge",
-      "url": "https://biztoc.com/x/4a26209b741728f4",
-      "source": "Biztoc.com",
-      "date": "2026-08-27",
-      "summary": "Okta shares hit a new three-year high following a market-beating Q2 earnings report, with the company also raising its full-year guidance. RBC Capital Markets raised its price target following the results.",
-      "image": "https://biztoc.com/cdn/4a26209b741728f4_s.webp",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "How Picnic configured multiple OAuth providers for Amazon MQ",
-      "url": "https://aws.amazon.com/blogs/big-data/how-picnic-configured-multiple-oauth-providers-for-amazon-mq/",
-      "source": "Amazon.com",
-      "date": "2026-08-27",
-      "summary": "Picnic published a technical guide on configuring Amazon MQ for RabbitMQ to trust multiple OAuth 2.0 identity providers simultaneously, using Keycloak for human operators and AWS IAM for services. The post covers broker configuration details for supporting both providers within a single RabbitMQ instance.",
-      "image": "https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2026/08/25/BDB-6191-featured-image.png",
-      "importance": 4,
-      "paywall": false
-    },
-    {
-      "title": "Okta skyrockets 20%, CrowdStrike surges 15% as rising AI threat boosts earnings",
-      "url": "https://biztoc.com/x/1be2b83895c89713",
-      "source": "Biztoc.com",
-      "date": "2026-08-27",
-      "summary": "Okta shares surged approximately 20% after the company beat Wall Street earnings estimates for its fiscal second quarter and raised its forward guidance. The company attributed growth partly to AI adoption driving increased customer spending on cybersecurity and identity tools.",
-      "image": "https://biztoc.com/cdn/1be2b83895c89713_s.webp",
+      "date": "2026-08-28",
+      "summary": "Okta shares jumped 28% following stronger-than-expected Q2 financial results. The company also raised its full-year revenue outlook following the earnings report.",
+      "image": "https://biztoc.com/cdn/e7f1fb9e6b372f2e_s.webp",
       "importance": 6,
       "paywall": false
     },
@@ -148,9 +158,9 @@
       "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
       "source": "Krebs on Security",
       "date": "2026-08-06",
-      "summary": "Canadian man Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges related to hacking and extorting over 165 organizations using Snowflake's cloud data storage platform. The attacks involved credential-based access to Snowflake accounts and resulted in the theft of over 100 million AT&T customer call and text records.",
+      "summary": "Canadian cybercriminal Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges related to hacking and extorting over 165 organizations using Snowflake cloud storage. The attacks involved unauthorized access to Snowflake accounts, largely exploiting stolen credentials and the absence of MFA enforcement.",
       "image": null,
-      "importance": 5,
+      "importance": 4,
       "paywall": false
     },
     {
@@ -158,7 +168,7 @@
       "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
       "source": "Krebs on Security",
       "date": "2026-07-13",
-      "summary": "CISA issued a postmortem report on a data breach in which a contractor accidentally published dozens of internal CISA credentials, including AWS GovCloud keys, to a public GitHub repository for nearly six months. The incident highlights credential management and secrets exposure failures, with security experts drawing lessons for security teams around credential lifecycle management and monitoring.",
+      "summary": "CISA released a postmortem on a data breach in which a contractor accidentally published dozens of internal CISA credentials, including AWS GovCloud keys, to a public GitHub repository for nearly six months. The incident highlights credential management and secrets management failures, with security experts drawing lessons for security teams around detecting and responding to exposed credentials.",
       "image": null,
       "importance": 7,
       "paywall": false
