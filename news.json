@@ -1,43 +1,135 @@
 {
-  "updated": "August 31, 2026 at 09:39 UTC",
+  "updated": "September 01, 2026 at 08:35 UTC",
   "top_stories": [
+    {
+      "title": "Okta Launches Agent SSO to Standardize Digital Labor Identity",
+      "url": "https://forkast.news/okta-launches-agent-sso-to-standardize-digital-labor-identity/",
+      "source": "Forkast.news",
+      "date": "2026-08-30",
+      "summary": "Okta announced the general availability of Agent SSO on August 24, 2026, a product designed to manage AI agent identities distinct from traditional service accounts. The solution registers AI agents as first-class identities within enterprise IAM infrastructure, standardizing authentication and access management for digital labor.",
+      "image": "https://forkast.news/wp-content/uploads/2026/08/okta-agent-sso-hero-1024x572.jpg",
+      "importance": 9,
+      "paywall": false
+    },
+    {
+      "title": "Massive Microsoft 365 outage causes auth issues, service failures",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-failures-auth-issues/",
+      "source": "Bleeping Computer",
+      "date": "2026-08-31",
+      "summary": "Microsoft experienced a massive Microsoft 365 outage causing authentication failures and service disruptions for Exchange Online customers. The incident affected auth systems and prompted an active investigation by Microsoft.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2025/04/15/Exchange_headpic.jpg",
+      "importance": 8,
+      "paywall": false
+    },
     {
       "title": "'NovaCookies' Kit Steals Microsoft 365 Sessions for $320 a Month",
       "url": "https://www.darkreading.com/endpoint-security/novacookies-steals-microsoft-365-sessions-320-a-month",
       "source": "Dark Reading",
       "date": "2026-08-26",
-      "summary": "A phishing-as-a-service kit called \"NovaCookies\" enables adversary-in-the-middle attacks targeting Microsoft 365 sessions for $320 per month. The service steals session cookies rather than just credentials, allowing attackers to bypass MFA protections by hijacking authenticated sessions.",
+      "summary": "A phishing-as-a-service kit called \"NovaCookies\" enables adversary-in-the-middle attacks against Microsoft 365 sessions for $320 per month. The service steals session cookies rather than just credentials, allowing attackers to bypass MFA protections by hijacking authenticated sessions.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt282e8f2cd221edf1/6a8f1cccca0617268e4c2e0a/cookie_monster-dpa_picture_alliance-Alamy_REVISED_FOR_16_X_9.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
     },
     {
-      "title": "NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions",
-      "url": "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
-      "source": "The Hacker News",
-      "date": "2026-08-26",
-      "summary": "Researchers have disclosed a new adversary-in-the-middle phishing toolkit called NovaCookies that proxies Microsoft 365 sign-ins to capture authenticated session cookies, bypassing MFA protections. The service operates as a subscription-based platform for $320/month and abuses legitimate DocuSign notifications to lure victims.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiz4GD3giiT1DIPT5Q13XvCZcwC8-STaGCZ3KbqUzQ5Q9oniGfA0Odbqfmwva6B-xSSTD2QG1wdqu5fFOleaBVFSA-t3ZfeqpcrYOEomdygWsZOONJXYcpxhRdT-EbTS_DZ0zYLrH_-1YN7TjXCsDuIj0I2G53mFT0df1HC3tjUdUQ5MCdHdEo27rDE2QEm/s1600/docusign.jpg",
+      "title": "LastPass enhancements improve visibility, governance, and control",
+      "url": "https://www.helpnetsecurity.com/2026/09/01/lastpass-security-product-enhancements-innovations/",
+      "source": "Help Net Security",
+      "date": "2026-09-01",
+      "summary": "LastPass announced a series of product innovations focused on access management, visibility, governance, and control in response to AI-driven threats. The enhancements include new tools to simplify access management and improvements aimed at delivering more value to existing customers.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
       "importance": 7,
       "paywall": false
     },
     {
-      "title": "Okta’s AI boom just created a new security problem",
-      "url": "https://biztoc.com/x/15bb22211ca1e017",
-      "source": "Biztoc.com",
-      "date": "2026-08-28",
-      "summary": "Okta reported fiscal Q2 revenue of $805 million (up 11%), while highlighting that AI-driven \"workers\" are creating new identity security challenges beyond traditional employee credential protection. The article addresses how the rise of AI agents introduces new access management concerns that extend Okta's core identity verification market.",
-      "image": "https://biztoc.com/cdn/15bb22211ca1e017_s.webp",
+      "title": "NIS2 compliance: Fixing IAM and access control before the 2026 audit",
+      "url": "https://www.helpnetsecurity.com/2026/09/01/nis2-credential-compliance-before-audit/",
+      "source": "Help Net Security",
+      "date": "2026-09-01",
+      "summary": "An article from Help Net Security outlines NIS2 Directive compliance requirements with a focus on IAM and access control ahead of 2026 audit deadlines. The piece covers obligations related to credential management and access controls, with EU member states moving into enforcement phases and non-compliance penalties reaching up to €10 million.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/02/28064142/nis2-eu-1.webp",
+      "importance": 7,
+      "paywall": false
+    }
+  ],
+  "news": [
+    {
+      "title": "Anthropic Users Hit by Infostealer Attacks, Session Thefts",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts",
+      "source": "Dark Reading",
+      "date": "2026-08-31",
+      "summary": "A threat actor deployed infostealers to steal session tokens and gain unauthorized access to Claude accounts belonging to Anthropic users. The attack involved session hijacking techniques to bypass authentication on the AI platform.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte57f544bc451abd9/6a95e1e44e3e37aa8ed4fed0/claude_Thaspol_Sangsee_shutterstock.jpg?width=720&quality=80&disable=upscale",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "File servers are here to stay. Here’s how to manage them securely",
+      "url": "https://www.bleepingcomputer.com/news/security/file-servers-are-here-to-stay-heres-how-to-manage-them-securely/",
+      "source": "Bleeping Computer",
+      "date": "2026-08-31",
+      "summary": "tenfold Software published a guide outlining five best practices for managing file server access securely, focusing on least-privilege principles. The article addresses permission management and access control challenges in file server environments.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/08/23/FileServerHeader.jpg",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Threat actors are posing as AI crawlers to hunt for exposed credentials",
+      "url": "https://www.helpnetsecurity.com/2026/08/31/ai-crawlers-scan-exposed-credentials/",
+      "source": "Help Net Security",
+      "date": "2026-08-31",
+      "summary": "Threat actors are masquerading as AI web crawlers from OpenAI, Anthropic, Google, and Perplexity to scan websites for exposed credentials and configuration files, according to GreyNoise research. The attack exploits the fact that User-Agent strings in HTTP requests are unverifiable, allowing attackers to blend malicious scanning traffic with legitimate AI crawler activity.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/05/18084539/ai-robot-llm-1500.webp",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "AWS Console Private Access can block sign-ins to personal accounts",
+      "url": "https://www.helpnetsecurity.com/2026/08/31/amazon-aws-console-private-access/",
+      "source": "Help Net Security",
+      "date": "2026-08-31",
+      "summary": "AWS Console Private Access became generally available on August 28, allowing the AWS Management Console to load entirely within a VPC with no public internet path, routing authentication flows and API calls through PrivateLink endpoints. The feature enables organizations to block sign-ins to personal AWS accounts by restricting console access to approved corporate identities only.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2025/08/18175341/aws-1500.webp",
       "importance": 7,
       "paywall": false
     },
     {
-      "title": "Key Reasons Why Identity Fabric Matters in 2026",
-      "url": "https://thehackernews.com/2026/08/key-reasons-why-identity-fabric-matters.html",
+      "title": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance",
+      "url": "https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html",
       "source": "The Hacker News",
-      "date": "2026-08-28",
-      "summary": "The article examines the Identity Fabric architecture concept and its relevance for enterprise identity security in 2026. It covers how Identity Fabric integrates fragmented identity systems across cloud services and automated workloads, addressing risks associated with unmanaged identities and runtime visibility.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtiQiqrq5S2ip1c5QHUZaJADW3_fskqNx6rhLXi2mGqOH5NGwuTwmFXPtqLpFKXDLVMtG-rZTTVlRh8ZVJON5DFBxdE7RwCN8_Fh0Y_mypooHEo4yZeYB-FoGinET6wHzTwgYWDMeZxVT9b-uCQSJ7bLEZdzRUglWWuOY5ItZyGC94Xo85iFck6FMmUmY/s1600/orchid-main.jpg",
+      "date": "2026-08-31",
+      "summary": "Anthropic has introduced Compliance API endpoints for Claude Code, giving security teams visibility into AI agent activity including file access, shell commands, and credential usage. The article uses this as a basis to discuss identity governance challenges around AI agents operating with developer credentials.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEithkMoEFgk1IZj_h_hGp94DwzD4UyQGh2f-epiRD6fn_XcMyB44HkXe-7XaHzviE8sImzIctDBjibyY0Gdrt_OPFFeja3KnOd9KsPFP3PeTxUzlshseSyukl0-cmQWZctAeVQHTUpvW99C8FZrhCcwPDZWoYShfC9jTGqmj1Va2K-Mo2kK6GbSksGIbM4/s1600/dan.jpg",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs",
+      "url": "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html",
+      "source": "The Hacker News",
+      "date": "2026-08-31",
+      "summary": "A China-linked threat actor called Fire Ant has expanded its espionage campaign to compromise Cisco IOS XR routers, TACACS authentication servers, and Linux management hosts. The attackers are targeting credential theft and disabling security logging on infrastructure used for authentication and network access management in high-value networks.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxYI5Ntk3CPoEGUHNQbd80hij-0QLnz3V_HBU3aXV-mvQq98IE6xsRlbuwZ2PNbbSV7dA-HlNfqRWj0_bd3XpQCOPt9R2gS3PJMm8lfMP_9IoKyhDNbY9NOotNDHO68v2DSUT_R-0UYTqZQc16DJM7OqS8_35iVUMqyy3GrUt7iMaIWz6iW6OSP2ddiDc/s1600/cisco-creds.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "AI agents that pass authentication can still drift, expose data, or get memory-poisoned",
+      "url": "https://venturebeat.com/security/ai-agents-that-pass-authentication-can-still-drift-expose-data-or-get-memory-poisoned",
+      "source": "VentureBeat",
+      "date": "2026-08-30",
+      "summary": "AI agents that successfully pass authentication can still pose security risks through behavioral drift, data exposure, and memory poisoning attacks. The article highlights that authentication alone is insufficient to secure AI agents, raising challenges around authorization, access control, and runtime behavior monitoring.",
+      "image": "https://images.ctfassets.net/jdtwqhzvc2n1/6rkrplCZAm3RWGgQAlLmAb/498dff3f929a0e91f7518f33ed5201a6/u7277289442_A_modern_interpretation_of_cybersecurity._Lock._D_a9df6b39-5c1d-4d77-9190-c4f954f7dfa8_0.png?w=800&q=75",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Huntoso – Eliminate standing access with zero-trust PAM on Entra ID",
+      "url": "https://betalist.com/startups/huntoso",
+      "source": "Betalist.com",
+      "date": "2026-08-29",
+      "summary": "Huntoso offers a Privileged Access Management (PAM) solution built on Microsoft Entra ID that implements zero-trust principles by eliminating standing access. The product targets organizations seeking to reduce persistent privileged credentials through just-in-time access controls integrated with Entra ID.",
+      "image": "https://resize.imagekit.co/V7oSuR_0D73eSNE32XMUB75oTefcXGudskvsKLZy31o/plain/s3://betalist-production/1wbg4ailo90hjtwlk8uw3cx2w9uw",
       "importance": 6,
       "paywall": false
     },
@@ -46,13 +138,11 @@
       "url": "https://biztoc.com/x/223b1c80530d5a24",
       "source": "Biztoc.com",
       "date": "2026-08-29",
-      "summary": "Okta reported fiscal Q2 2027 financial results with revenue rising 11% year over year to $805 million. Remaining Performance Obligations grew 17%, suggesting a potential recovery in bookings for the IAM vendor.",
+      "summary": "Okta reported fiscal Q2 2027 financial results with revenue rising 11% year over year to $805 million. Remaining Performance Obligations grew 17%, suggesting a potential acceleration in bookings for the IAM vendor.",
       "image": "https://biztoc.com/cdn/223b1c80530d5a24_s.webp",
       "importance": 6,
       "paywall": false
-    }
-  ],
-  "news": [
+    },
     {
       "title": "Okta (OKTA) Grew Remaining Performance Obligations 17% While Revenue Rose 11%. Is the Platform Reaccelerating?",
       "url": "https://finance.yahoo.com/markets/stocks/articles/okta-okta-grew-remaining-performance-031750646.html",
@@ -68,8 +158,18 @@
       "url": "https://biztoc.com/x/adc62710b10da6fc",
       "source": "Biztoc.com",
       "date": "2026-08-29",
-      "summary": "Okta's stock jumped 28.6% on August 27, closing at $172.91 after reporting better-than-expected earnings results and reaching a four-year high. The article explores how AI agents may be creating new identity and access management bottlenecks, framing Okta's growth within the context of rising demand for machine identity management.",
+      "summary": "Okta's stock jumped 28.6% on August 27, closing at $172.91 after reporting better-than-expected earnings results and reaching a four-year high. The article examines how AI agents may be creating new identity and access management bottlenecks, positioning Okta for potential growth in managing non-human identities.",
       "image": "https://biztoc.com/cdn/adc62710b10da6fc_s.webp",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Key Reasons Why Identity Fabric Matters in 2026",
+      "url": "https://thehackernews.com/2026/08/key-reasons-why-identity-fabric-matters.html",
+      "source": "The Hacker News",
+      "date": "2026-08-28",
+      "summary": "The article examines the concept of Identity Fabric as an architectural approach to unifying fragmented identity systems across cloud services, APIs, and infrastructure. It covers runtime visibility, unmanaged identity risks, and the growing relevance of identity fabric frameworks as enterprise access environments become more complex.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtiQiqrq5S2ip1c5QHUZaJADW3_fskqNx6rhLXi2mGqOH5NGwuTwmFXPtqLpFKXDLVMtG-rZTTVlRh8ZVJON5DFBxdE7RwCN8_Fh0Y_mypooHEo4yZeYB-FoGinET6wHzTwgYWDMeZxVT9b-uCQSJ7bLEZdzRUglWWuOY5ItZyGC94Xo85iFck6FMmUmY/s1600/orchid-main.jpg",
       "importance": 6,
       "paywall": false
     },
@@ -78,7 +178,7 @@
       "url": "https://biztoc.com/x/066d5620a9e09286",
       "source": "Biztoc.com",
       "date": "2026-08-28",
-      "summary": "CrowdStrike and Okta stocks rose following analyst projections that AI could create approximately 90 new identities per worker, significantly expanding the identity management market. The forecast highlights growing demand for IAM solutions as AI agents and automated systems require their own managed identities within enterprise environments.",
+      "summary": "CrowdStrike and Okta stocks rose amid projections that AI could create approximately 90 new identities per worker, significantly expanding the identity management landscape. The growth forecast highlights increasing demand for IAM and cybersecurity solutions as AI agents and automated processes require their own managed identities.",
       "image": "https://biztoc.com/cdn/066d5620a9e09286_s.webp",
       "importance": 6,
       "paywall": false
@@ -88,9 +188,19 @@
       "url": "https://financialpost.com/globe-newswire/a-deadline-no-one-can-negotiate-is-coming-for-the-worlds-encryption-and-the-race-to-get-ready-has-quietly-begun",
       "source": "Financial Post",
       "date": "2026-08-28",
-      "summary": "Quantum Secure Encryption Corp issued a news commentary warning about the approaching deadline for transitioning to post-quantum cryptography, highlighting threats to current encryption standards protecting identity and authentication systems. The piece addresses the broader race to adopt quantum-resistant encryption before sufficiently powerful quantum computers can break current cryptographic protections used in banking, identity, and government systems.",
+      "summary": "Quantum Secure Encryption Corp issued a news commentary highlighting the looming threat of quantum computing to current encryption standards, including those protecting identity and authentication systems. The piece addresses the broader industry shift toward post-quantum cryptography, which directly impacts IAM infrastructure such as PKI, authentication protocols, and secure credential management.",
       "image": null,
       "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Okta’s AI boom just created a new security problem",
+      "url": "https://biztoc.com/x/15bb22211ca1e017",
+      "source": "Biztoc.com",
+      "date": "2026-08-28",
+      "summary": "Okta reported fiscal Q2 revenue of $805 million (up 11%), with the company highlighting AI agents as a new identity security challenge alongside traditional human user authentication. The article addresses how the rise of AI \"workers\" introduces new identity and access management concerns beyond conventional credential-based threats.",
+      "image": "https://biztoc.com/cdn/15bb22211ca1e017_s.webp",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -98,59 +208,19 @@
       "url": "https://4sysops.com/archives/crowdstrike-and-okta-shares-soar-as-ai-threats-fuel-cybersecurity-spending/",
       "source": "4sysops.com",
       "date": "2026-08-28",
-      "summary": "CrowdStrike and Okta shares rose sharply after both companies beat quarterly earnings estimates and raised forecasts, with Okta's stock climbing following its financial results. The strong performance was attributed to increased cybersecurity spending driven by AI-related threats.",
+      "summary": "CrowdStrike and Okta both beat quarterly financial estimates and raised forecasts, with Okta's shares rising sharply following its earnings report. The results reflect increased cybersecurity spending driven by AI-related threats, signaling strong market demand for identity and access management solutions.",
       "image": "https://4sysops.com/wp-content/uploads/2026/08/crowdstrike-and-okta-shares-soar-as-ai-threats-fuel-cybersecurity-spending.jpg",
       "importance": 6,
       "paywall": false
     },
     {
-      "title": "AI IR Overlay – Incident Response Specification for AI Agents",
-      "url": "https://www.darknet.org.uk/2026/08/ai-ir-overlay-incident-response-specification-for-ai-agents/",
-      "source": "Darknet.org.uk",
-      "date": "2026-08-28",
-      "summary": "A specification called AI IR Overlay has been published to address incident response procedures for AI agents operating with valid credentials. The specification includes a kill-switch contract mechanism for containment but acknowledges a gap in coverage during unstaffed SOC periods.",
-      "image": "https://www.darknet.org.uk/wp-content/uploads/2026/08/ai-ir-overlay-incident-response-framework-for-ai-agents.webp",
-      "importance": 4,
-      "paywall": false
-    },
-    {
-      "title": "on Record High Amid AI Boom; Hedge Funds Raise Exposure",
-      "url": "https://biztoc.com/x/bf082cc574875956",
-      "source": "Biztoc.com",
-      "date": "2026-08-28",
-      "summary": "Okta's share price reached a four-year high following strong Q2 fiscal year 2027 earnings results. The stock gains are attributed to AI-related growth and increased hedge fund exposure.",
-      "image": "https://biztoc.com/cdn/bf082cc574875956_s.webp",
-      "importance": 4,
-      "paywall": false
-    },
-    {
-      "title": "Okta Inc (OKTA) on Record High Amid AI Boom; Hedge Funds Raise Exposure",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/okta-inc-okta-record-high-053959842.html",
-      "source": "Yahoo Entertainment",
-      "date": "2026-08-28",
-      "summary": "Okta's share price reached a new four-year high following strong Q2 earnings results. Hedge funds have increased their exposure to OKTA stock amid broader AI sector momentum.",
-      "image": "https://s.yimg.com/lo/mysterio/api/7b01971e0204404240c3c0b82c789bc0df45ffd50ee6e671ad1fd4f4a1a29946/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2F25c2f9a82d994c0db376f8bb184a1aeb.jpg",
-      "importance": 3,
-      "paywall": false
-    },
-    {
-      "title": "Okta's Stock Is Surging. Here's Why This Top Cybersecurity Stock Is Still a Buy",
-      "url": "https://biztoc.com/x/03fd9d834479ab28",
-      "source": "Biztoc.com",
-      "date": "2026-08-28",
-      "summary": "Okta's stock surged following a strong quarterly earnings report showing higher-than-expected profits. The article is primarily a financial/investment analysis piece focused on stock performance and AI agent security as a growth driver.",
-      "image": "https://biztoc.com/cdn/03fd9d834479ab28_s.webp",
-      "importance": 4,
-      "paywall": false
-    },
-    {
-      "title": "Stock Soaring Today",
-      "url": "https://biztoc.com/x/e7f1fb9e6b372f2e",
-      "source": "Biztoc.com",
-      "date": "2026-08-28",
-      "summary": "Okta shares jumped 28% following stronger-than-expected second-quarter financial results. The company also raised its full-year revenue outlook following the earnings report.",
-      "image": "https://biztoc.com/cdn/e7f1fb9e6b372f2e_s.webp",
-      "importance": 6,
+      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
+      "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+      "source": "Krebs on Security",
+      "date": "2026-08-06",
+      "summary": "Canadian national Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges related to hacking and extorting over 165 organizations using Snowflake's cloud data storage platform. The attacks involved credential-based intrusions targeting Snowflake customer accounts, resulting in the theft of over 100 million AT&T customer records.",
+      "image": null,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -158,9 +228,9 @@
       "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
       "source": "Krebs on Security",
       "date": "2026-07-13",
-      "summary": "CISA released a postmortem report on a data breach in which a contractor accidentally published internal CISA credentials, including AWS GovCloud keys, to a public GitHub repository where they remained for nearly six months. The incident highlights credential management and secrets governance failures, with security experts drawing lessons applicable to IAM and access management practices across organizations.",
+      "summary": "CISA published a postmortem after a contractor accidentally exposed dozens of internal credentials, including AWS GovCloud keys, in a public GitHub repository for nearly six months. The incident highlights credential management failures and gaps in secrets detection practices relevant to IAM and privileged access management teams.",
       "image": null,
-      "importance": 7,
+      "importance": 6,
       "paywall": false
     }
   ]
