@@ -1,12 +1,12 @@
 {
-  "updated": "September 01, 2026 at 08:35 UTC",
+  "updated": "September 02, 2026 at 07:54 UTC",
   "top_stories": [
     {
       "title": "Okta Launches Agent SSO to Standardize Digital Labor Identity",
       "url": "https://forkast.news/okta-launches-agent-sso-to-standardize-digital-labor-identity/",
       "source": "Forkast.news",
       "date": "2026-08-30",
-      "summary": "Okta announced the general availability of Agent SSO on August 24, 2026, a product designed to manage AI agent identities distinct from traditional service accounts. The solution registers AI agents as first-class identities within enterprise IAM infrastructure, standardizing authentication and access management for digital labor.",
+      "summary": "Okta announced the general availability of Agent SSO on August 24, 2026, a product designed to manage AI agent identities distinctly from traditional service accounts. The solution registers AI agents as first-class identity principals, standardizing how enterprises handle authentication and authorization for digital labor workforces.",
       "image": "https://forkast.news/wp-content/uploads/2026/08/okta-agent-sso-hero-1024x572.jpg",
       "importance": 9,
       "paywall": false
@@ -22,75 +22,95 @@
       "paywall": false
     },
     {
-      "title": "'NovaCookies' Kit Steals Microsoft 365 Sessions for $320 a Month",
-      "url": "https://www.darkreading.com/endpoint-security/novacookies-steals-microsoft-365-sessions-320-a-month",
+      "title": "GM’s 200,000-user passkey rollout exposes the hard parts admins miss",
+      "url": "https://4sysops.com/archives/gms-200000-user-passkey-rollout-exposes-the-hard-parts-admins-miss/",
+      "source": "4sysops.com",
+      "date": "2026-08-31",
+      "summary": "General Motors deployed passkeys to approximately 200,000 employees using FIDO2 authentication, revealing that the primary challenge lies in eliminating legacy weak-method authentication dependencies rather than enabling the technology itself. The rollout uses Microsoft Entra ID, which is set to make passkeys the default authentication method starting September 1.",
+      "image": "https://4sysops.com/wp-content/uploads/2026/08/gms-200000-user-passkey-rollout-exposes-the-hard-parts-admins-miss.jpg",
+      "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "Attackers Pounce on Critical Artifactory Flaw Following Disclosure",
+      "url": "https://www.darkreading.com/application-security/attackers-pounce-critical-artifactory-flaw-disclosure",
       "source": "Dark Reading",
-      "date": "2026-08-26",
-      "summary": "A phishing-as-a-service kit called \"NovaCookies\" enables adversary-in-the-middle attacks against Microsoft 365 sessions for $320 per month. The service steals session cookies rather than just credentials, allowing attackers to bypass MFA protections by hijacking authenticated sessions.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt282e8f2cd221edf1/6a8f1cccca0617268e4c2e0a/cookie_monster-dpa_picture_alliance-Alamy_REVISED_FOR_16_X_9.jpg?width=720&quality=80&disable=upscale",
+      "date": "2026-09-01",
+      "summary": "A critical authentication bypass vulnerability (CVE-2026-82329) has been disclosed in JFrog Artifactory, allowing attackers to gain admin-level access on affected systems. Attackers are actively exploiting the flaw following its public disclosure.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte71738f751de1daa/6a97388d5d30863e09d86b97/jfrog-hapabapa-Getty-1273253225.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
     },
     {
-      "title": "LastPass enhancements improve visibility, governance, and control",
-      "url": "https://www.helpnetsecurity.com/2026/09/01/lastpass-security-product-enhancements-innovations/",
-      "source": "Help Net Security",
+      "title": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
+      "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html",
+      "source": "The Hacker News",
       "date": "2026-09-01",
-      "summary": "LastPass announced a series of product innovations focused on access management, visibility, governance, and control in response to AI-driven threats. The enhancements include new tools to simplify access management and improvements aimed at delivering more value to existing customers.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "NIS2 compliance: Fixing IAM and access control before the 2026 audit",
-      "url": "https://www.helpnetsecurity.com/2026/09/01/nis2-credential-compliance-before-audit/",
-      "source": "Help Net Security",
-      "date": "2026-09-01",
-      "summary": "An article from Help Net Security outlines NIS2 Directive compliance requirements with a focus on IAM and access control ahead of 2026 audit deadlines. The piece covers obligations related to credential management and access controls, with EU member states moving into enforcement phases and non-compliance penalties reaching up to €10 million.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/02/28064142/nis2-eu-1.webp",
+      "summary": "A critical authentication bypass vulnerability (CVE-2026-82329, CVSS 9.8) in JFrog Artifactory is being actively exploited days after public disclosure, allowing attackers to gain administrative access. The flaw involves an authentication weakness present under default configurations, enabling threat actors to mint admin tokens without valid credentials.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0o8dDcHW4CJBLnXfYzfofbG1w0Fi4zCPqcjEgASsL0gXnESv5isMONZgXzek2rM3VwkhnEqz2K4whDwB_lFylCYvfXASQmsQSPA-8U25998PBT2Xopdaaj9_iG0XqdBPu6iXRmtlN2CGc8b5mv3t68CVxV2HYneRkiUhUu3EIgSogEgipzJUiymLfl0NQ/s1600/jfrog.jpg",
       "importance": 7,
       "paywall": false
     }
   ],
   "news": [
     {
-      "title": "Anthropic Users Hit by Infostealer Attacks, Session Thefts",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts",
-      "source": "Dark Reading",
-      "date": "2026-08-31",
-      "summary": "A threat actor deployed infostealers to steal session tokens and gain unauthorized access to Claude accounts belonging to Anthropic users. The attack involved session hijacking techniques to bypass authentication on the AI platform.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte57f544bc451abd9/6a95e1e44e3e37aa8ed4fed0/claude_Thaspol_Sangsee_shutterstock.jpg?width=720&quality=80&disable=upscale",
-      "importance": 4,
-      "paywall": false
-    },
-    {
-      "title": "File servers are here to stay. Here’s how to manage them securely",
-      "url": "https://www.bleepingcomputer.com/news/security/file-servers-are-here-to-stay-heres-how-to-manage-them-securely/",
-      "source": "Bleeping Computer",
-      "date": "2026-08-31",
-      "summary": "tenfold Software published a guide outlining five best practices for managing file server access securely, focusing on least-privilege principles. The article addresses permission management and access control challenges in file server environments.",
-      "image": "https://www.bleepstatic.com/content/posts/2026/08/23/FileServerHeader.jpg",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Threat actors are posing as AI crawlers to hunt for exposed credentials",
-      "url": "https://www.helpnetsecurity.com/2026/08/31/ai-crawlers-scan-exposed-credentials/",
+      "title": "Vali Cyber ZeroLock 5 brings MFA to the hypervisor command line",
+      "url": "https://www.helpnetsecurity.com/2026/09/02/vali-cyber-zerolock-5-hypervisor-security/",
       "source": "Help Net Security",
-      "date": "2026-08-31",
-      "summary": "Threat actors are masquerading as AI web crawlers from OpenAI, Anthropic, Google, and Perplexity to scan websites for exposed credentials and configuration files, according to GreyNoise research. The attack exploits the fact that User-Agent strings in HTTP requests are unverifiable, allowing attackers to blend malicious scanning traffic with legitimate AI crawler activity.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/05/18084539/ai-robot-llm-1500.webp",
+      "date": "2026-09-02",
+      "summary": "Vali Cyber released ZeroLock 5, a security product that adds MFA to the hypervisor command line for ESX and Linux hosts. The release targets insider threats and stolen credentials at the hypervisor layer, addressing authentication gaps in virtualization infrastructure.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
       "importance": 6,
       "paywall": false
     },
     {
-      "title": "AWS Console Private Access can block sign-ins to personal accounts",
-      "url": "https://www.helpnetsecurity.com/2026/08/31/amazon-aws-console-private-access/",
+      "title": "Open-source secrets scanning tool Sift hunts credentials in Microsoft 365, Slack, and Jira",
+      "url": "https://www.helpnetsecurity.com/2026/09/02/sift-open-source-secret-scanning/",
       "source": "Help Net Security",
-      "date": "2026-08-31",
-      "summary": "AWS Console Private Access became generally available on August 28, allowing the AWS Management Console to load entirely within a VPC with no public internet path, routing authentication flows and API calls through PrivateLink endpoints. The feature enables organizations to block sign-ins to personal AWS accounts by restricting console access to approved corporate identities only.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2025/08/18175341/aws-1500.webp",
+      "date": "2026-09-02",
+      "summary": "Stratus Security released Sift, a free open-source command line tool designed to scan for exposed credentials, API keys, and passwords across enterprise platforms including Microsoft 365, Active Directory, SharePoint, Slack, and Jira. The tool was originally built for penetration testing engagements and searches both local and cloud-based storage locations where sensitive credentials may be inadvertently stored.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/09/31115226/sift-1500.webp",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Nearly 22,000 Microsoft Exchange servers vulnerable to hijack attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/",
+      "source": "Bleeping Computer",
+      "date": "2026-09-01",
+      "summary": "Nearly 22,000 Microsoft Exchange servers remain unpatched against a high-severity authentication bypass vulnerability that enables attackers to hijack all user mailboxes. The flaw allows unauthorized access without valid credentials, representing a significant authentication and access control failure in a widely deployed enterprise email platform.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2025/03/14/Exchange-Online.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
+      "url": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
+      "source": "The Hacker News",
+      "date": "2026-09-01",
+      "summary": "Microsoft's threat intelligence team identified ClickFix as the most common initial access method observed last year, a social engineering technique that manipulates users into executing malicious commands by exploiting clipboard and terminal interactions. The trend highlights how attackers are increasingly bypassing technical security controls by targeting human behavior and authentication entry points rather than exploiting software vulnerabilities.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXRNAAGu1amxjm97oXzRGvVBD23d-thmuPvBbQm10hKlACH58ndu51swo4ggT2P2FJw1vbmWy6qdMZSyTRrgAXoi19O0Zf0vCcS47oMuhMuPSyKc1kL7bpIySVrQwgrIaYJkc4IiavU0rucYYMYWHwXgDCmsPLanV2LZv3mt__srP93r0vLWSz8Vp_L0o/s1600/click.jpg",
       "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "source": "Krebs on Security",
+      "date": "2026-09-01",
+      "summary": "A dark web service is selling digital scans of over 153 million U.S. and Canadian driver's licenses, with the FBI's New Orleans field office launching a formal investigation. The images appear to have been sourced from a Louisiana-based identity verification company, representing a major breach of identity verification infrastructure.",
+      "image": null,
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Anthropic Users Hit by Infostealer Attacks, Session Thefts",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts",
+      "source": "Dark Reading",
+      "date": "2026-08-31",
+      "summary": "A threat actor deployed infostealer malware to steal session tokens and gain unauthorized access to Anthropic Claude user accounts. The attack targeted session credentials rather than passwords, bypassing standard authentication controls to hijack active user sessions.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9f9e09d2a1c53673/6a97083643fb84d5c0cc2cc1/claude_Thaspol_Sangsee_shutterstock_REVISED_FOR_16_X_9_RATIO.jpg?width=720&quality=80&disable=upscale",
+      "importance": 6,
       "paywall": false
     },
     {
@@ -98,9 +118,9 @@
       "url": "https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html",
       "source": "The Hacker News",
       "date": "2026-08-31",
-      "summary": "Anthropic has introduced Compliance API endpoints for Claude Code, giving security teams visibility into AI agent activity including file access, shell commands, and credential usage. The article uses this as a basis to discuss identity governance challenges around AI agents operating with developer credentials.",
+      "summary": "Anthropic has introduced new Compliance API endpoints for Claude Code that provide security teams visibility into AI agent activity, including file access, shell commands, and MCP tool invocations. The article addresses identity governance challenges around AI agents, specifically whether logged access reflects legitimately provisioned credentials and permissions.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEithkMoEFgk1IZj_h_hGp94DwzD4UyQGh2f-epiRD6fn_XcMyB44HkXe-7XaHzviE8sImzIctDBjibyY0Gdrt_OPFFeja3KnOd9KsPFP3PeTxUzlshseSyukl0-cmQWZctAeVQHTUpvW99C8FZrhCcwPDZWoYShfC9jTGqmj1Va2K-Mo2kK6GbSksGIbM4/s1600/dan.jpg",
-      "importance": 5,
+      "importance": 6,
       "paywall": false
     },
     {
@@ -108,8 +128,58 @@
       "url": "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html",
       "source": "The Hacker News",
       "date": "2026-08-31",
-      "summary": "A China-linked threat actor called Fire Ant has expanded its espionage campaign to compromise Cisco IOS XR routers, TACACS authentication servers, and Linux management hosts. The attackers are targeting credential theft and disabling security logging on infrastructure used for authentication and network access management in high-value networks.",
+      "summary": "The China-linked threat group Fire Ant has expanded its espionage campaign to compromise Cisco IOS XR routers, TACACS servers, and Linux management hosts to steal credentials and evade security logging. The group specifically targeted TACACS authentication infrastructure, allowing them to harvest credentials from network authentication systems used in high-value enterprise environments.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxYI5Ntk3CPoEGUHNQbd80hij-0QLnz3V_HBU3aXV-mvQq98IE6xsRlbuwZ2PNbbSV7dA-HlNfqRWj0_bd3XpQCOPt9R2gS3PJMm8lfMP_9IoKyhDNbY9NOotNDHO68v2DSUT_R-0UYTqZQc16DJM7OqS8_35iVUMqyy3GrUt7iMaIWz6iW6OSP2ddiDc/s1600/cisco-creds.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Rogue agents are forcing a governance reckoning as enterprises hand over the keys",
+      "url": "https://siliconangle.com/2026/08/31/ai-infrastructure-governance-shifts-rogue-agents-vmwareexplore/",
+      "source": "SiliconANGLE News",
+      "date": "2026-08-31",
+      "summary": "Enterprises are facing identity governance challenges as autonomous AI agents take on mission-critical roles, requiring new access control frameworks beyond those designed for human users. The shift is prompting a reassessment of PAM, authorization, and identity governance practices to account for non-human identities operating with elevated privileges.",
+      "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/08/IMG_8046-scaled.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Automate IAM Identity Center governance with continuous discovery and reporting",
+      "url": "https://aws.amazon.com/blogs/security/automate-iam-identity-center-governance-with-continuous-discovery-and-reporting/",
+      "source": "Amazon.com",
+      "date": "2026-08-31",
+      "summary": "AWS has published guidance on automating IAM Identity Center governance through continuous discovery and reporting. The solution focuses on centralized authentication and authorization management for AWS resources across AWS Organizations, integrating with external identity providers.",
+      "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/08/27/reporting-arch-main2-1260x630.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Okta Stock Could Have More Upside After Its 28% Rally, Analysts Say",
+      "url": "https://biztoc.com/x/55005a527b7209a1",
+      "source": "Biztoc.com",
+      "date": "2026-08-31",
+      "summary": "Okta's stock has risen 28% in five days and approximately 93% year-to-date following a stronger-than-expected fiscal second-quarter earnings report. Analysts are evaluating potential further upside for the identity management vendor's shares.",
+      "image": "https://biztoc.com/cdn/55005a527b7209a1_s.webp",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "File servers are here to stay. Here’s how to manage them securely",
+      "url": "https://www.bleepingcomputer.com/news/security/file-servers-are-here-to-stay-heres-how-to-manage-them-securely/",
+      "source": "BleepingComputer",
+      "date": "2026-08-31",
+      "summary": "tenfold Software published a guide outlining five best practices for secure file server access management, focusing on least-privilege access principles. The article addresses permission management complexity in IT environments where file servers remain in active use.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/08/23/FileServerHeader.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Article: Eliminating Long-Lived Credentials in GCP with Workload Identity Federation",
+      "url": "https://www.infoq.com/articles/gcp-wif-scale/",
+      "source": "InfoQ.com",
+      "date": "2026-08-31",
+      "summary": "This article details the implementation of Workload Identity Federation across 120+ GCP production projects to eliminate long-lived service account credentials. The approach addresses machine identity management challenges including credential rotation, secret sprawl, and leakage risks inherent to static service account keys.",
+      "image": "https://res.infoq.com/articles/gcp-wif-scale/en/headerimage/gcp-wif-scale-header-1787838950646.jpg",
       "importance": 7,
       "paywall": false
     },
@@ -118,7 +188,7 @@
       "url": "https://venturebeat.com/security/ai-agents-that-pass-authentication-can-still-drift-expose-data-or-get-memory-poisoned",
       "source": "VentureBeat",
       "date": "2026-08-30",
-      "summary": "AI agents that successfully pass authentication can still pose security risks through behavioral drift, data exposure, and memory poisoning attacks. The article highlights that authentication alone is insufficient to secure AI agents, raising challenges around authorization, access control, and runtime behavior monitoring.",
+      "summary": "The article examines security risks specific to AI agents that persist even after successfully passing authentication, including behavioral drift, data exposure, and memory poisoning attacks. These risks highlight gaps in traditional authentication and authorization models when applied to non-human AI agent identities.",
       "image": "https://images.ctfassets.net/jdtwqhzvc2n1/6rkrplCZAm3RWGgQAlLmAb/498dff3f929a0e91f7518f33ed5201a6/u7277289442_A_modern_interpretation_of_cybersecurity._Lock._D_a9df6b39-5c1d-4d77-9190-c4f954f7dfa8_0.png?w=800&q=75",
       "importance": 6,
       "paywall": false
@@ -128,7 +198,7 @@
       "url": "https://betalist.com/startups/huntoso",
       "source": "Betalist.com",
       "date": "2026-08-29",
-      "summary": "Huntoso offers a Privileged Access Management (PAM) solution built on Microsoft Entra ID that implements zero-trust principles by eliminating standing access. The product targets organizations seeking to reduce persistent privileged credentials through just-in-time access controls integrated with Entra ID.",
+      "summary": "Huntoso has introduced a Privileged Access Management (PAM) solution built on Microsoft Entra ID that implements zero-trust principles by eliminating standing access. The product targets organizations seeking just-in-time access controls integrated directly with Entra ID.",
       "image": "https://resize.imagekit.co/V7oSuR_0D73eSNE32XMUB75oTefcXGudskvsKLZy31o/plain/s3://betalist-production/1wbg4ailo90hjtwlk8uw3cx2w9uw",
       "importance": 6,
       "paywall": false
@@ -148,9 +218,9 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/okta-okta-grew-remaining-performance-031750646.html",
       "source": "Yahoo Entertainment",
       "date": "2026-08-29",
-      "summary": "Okta reported fiscal Q2 2027 financial results with revenue rising 11% year over year and remaining performance obligations growing 17%. The results indicate a potential bookings recovery for the identity and access management platform vendor.",
+      "summary": "Okta reported fiscal Q2 2027 financial results showing 11% year-over-year revenue growth and 17% growth in remaining performance obligations. The results indicate a potential bookings recovery for the identity management vendor.",
       "image": "https://s.yimg.com/lo/mysterio/api/98d9da0fab5757f2f205017d0308f69cfed730e4f6b14d485076bcb6e07735d6/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2F4cbbb2a82849874ee840491626f778a2.jpg",
-      "importance": 6,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -158,7 +228,7 @@
       "url": "https://biztoc.com/x/adc62710b10da6fc",
       "source": "Biztoc.com",
       "date": "2026-08-29",
-      "summary": "Okta's stock jumped 28.6% on August 27, closing at $172.91 after reporting better-than-expected earnings results and reaching a four-year high. The article examines how AI agents may be creating new identity and access management bottlenecks, positioning Okta for potential growth in managing non-human identities.",
+      "summary": "Okta's stock jumped 28.6% on August 27, closing at $172.91 after reporting better-than-expected quarterly earnings and reaching a four-year high. The article frames AI agents as a potential new growth driver for Okta's identity platform, suggesting autonomous agents create new identity and access management demands.",
       "image": "https://biztoc.com/cdn/adc62710b10da6fc_s.webp",
       "importance": 6,
       "paywall": false
@@ -168,49 +238,19 @@
       "url": "https://thehackernews.com/2026/08/key-reasons-why-identity-fabric-matters.html",
       "source": "The Hacker News",
       "date": "2026-08-28",
-      "summary": "The article examines the concept of Identity Fabric as an architectural approach to unifying fragmented identity systems across cloud services, APIs, and infrastructure. It covers runtime visibility, unmanaged identity risks, and the growing relevance of identity fabric frameworks as enterprise access environments become more complex.",
+      "summary": "The article explains the concept of Identity Fabric as an architectural approach that unifies fragmented identity systems across applications, APIs, and infrastructure. It covers the architecture, risks of unmanaged identities, and runtime visibility as enterprise access expands across cloud services and automated workloads.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtiQiqrq5S2ip1c5QHUZaJADW3_fskqNx6rhLXi2mGqOH5NGwuTwmFXPtqLpFKXDLVMtG-rZTTVlRh8ZVJON5DFBxdE7RwCN8_Fh0Y_mypooHEo4yZeYB-FoGinET6wHzTwgYWDMeZxVT9b-uCQSJ7bLEZdzRUglWWuOY5ItZyGC94Xo85iFck6FMmUmY/s1600/orchid-main.jpg",
       "importance": 6,
       "paywall": false
     },
     {
-      "title": "CrowdStrike and Okta Soar as AI Could Create “About 90” New Identities Per Worker",
-      "url": "https://biztoc.com/x/066d5620a9e09286",
-      "source": "Biztoc.com",
-      "date": "2026-08-28",
-      "summary": "CrowdStrike and Okta stocks rose amid projections that AI could create approximately 90 new identities per worker, significantly expanding the identity management landscape. The growth forecast highlights increasing demand for IAM and cybersecurity solutions as AI agents and automated processes require their own managed identities.",
-      "image": "https://biztoc.com/cdn/066d5620a9e09286_s.webp",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "A Deadline No One Can Negotiate Is Coming for the World’s Encryption, and the Race to Get Ready Has Quietly Begun",
-      "url": "https://financialpost.com/globe-newswire/a-deadline-no-one-can-negotiate-is-coming-for-the-worlds-encryption-and-the-race-to-get-ready-has-quietly-begun",
-      "source": "Financial Post",
-      "date": "2026-08-28",
-      "summary": "Quantum Secure Encryption Corp issued a news commentary highlighting the looming threat of quantum computing to current encryption standards, including those protecting identity and authentication systems. The piece addresses the broader industry shift toward post-quantum cryptography, which directly impacts IAM infrastructure such as PKI, authentication protocols, and secure credential management.",
-      "image": null,
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Okta’s AI boom just created a new security problem",
-      "url": "https://biztoc.com/x/15bb22211ca1e017",
-      "source": "Biztoc.com",
-      "date": "2026-08-28",
-      "summary": "Okta reported fiscal Q2 revenue of $805 million (up 11%), with the company highlighting AI agents as a new identity security challenge alongside traditional human user authentication. The article addresses how the rise of AI \"workers\" introduces new identity and access management concerns beyond conventional credential-based threats.",
-      "image": "https://biztoc.com/cdn/15bb22211ca1e017_s.webp",
+      "title": "'NovaCookies' Kit Steals Microsoft 365 Sessions for $320 a Month",
+      "url": "https://www.darkreading.com/endpoint-security/novacookies-steals-microsoft-365-sessions-320-a-month",
+      "source": "Dark Reading",
+      "date": "2026-08-26",
+      "summary": "A phishing-as-a-service kit called \"NovaCookies\" enables adversary-in-the-middle (AitM) attacks targeting Microsoft 365 session cookies for $320 per month. The service bypasses MFA by stealing authenticated session tokens rather than credentials, undermining standard authentication controls.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt282e8f2cd221edf1/6a8f1cccca0617268e4c2e0a/cookie_monster-dpa_picture_alliance-Alamy_REVISED_FOR_16_X_9.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "CrowdStrike and Okta shares soar as AI threats fuel cybersecurity spending",
-      "url": "https://4sysops.com/archives/crowdstrike-and-okta-shares-soar-as-ai-threats-fuel-cybersecurity-spending/",
-      "source": "4sysops.com",
-      "date": "2026-08-28",
-      "summary": "CrowdStrike and Okta both beat quarterly financial estimates and raised forecasts, with Okta's shares rising sharply following its earnings report. The results reflect increased cybersecurity spending driven by AI-related threats, signaling strong market demand for identity and access management solutions.",
-      "image": "https://4sysops.com/wp-content/uploads/2026/08/crowdstrike-and-okta-shares-soar-as-ai-threats-fuel-cybersecurity-spending.jpg",
-      "importance": 6,
       "paywall": false
     },
     {
@@ -218,7 +258,7 @@
       "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
       "source": "Krebs on Security",
       "date": "2026-08-06",
-      "summary": "Canadian national Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges related to hacking and extorting over 165 organizations using Snowflake's cloud data storage platform. The attacks involved credential-based intrusions targeting Snowflake customer accounts, resulting in the theft of over 100 million AT&T customer records.",
+      "summary": "Connor Riley Moucka, a 26-year-old Canadian man, pleaded guilty to computer fraud and conspiracy charges related to hacking and extorting over 165 organizations using Snowflake's cloud data storage platform. The attacks involved credential-based intrusions targeting Snowflake customer accounts, resulting in the theft of over 100 million AT&T customer records including call and text history.",
       "image": null,
       "importance": 5,
       "paywall": false
@@ -228,9 +268,9 @@
       "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
       "source": "Krebs on Security",
       "date": "2026-07-13",
-      "summary": "CISA published a postmortem after a contractor accidentally exposed dozens of internal credentials, including AWS GovCloud keys, in a public GitHub repository for nearly six months. The incident highlights credential management failures and gaps in secrets detection practices relevant to IAM and privileged access management teams.",
+      "summary": "CISA published a postmortem after a contractor exposed dozens of internal credentials, including AWS GovCloud keys, in a public GitHub repository for nearly six months. The incident highlights credential management failures and gaps in secrets detection and response processes relevant to IAM and PAM practitioners.",
       "image": null,
-      "importance": 6,
+      "importance": 7,
       "paywall": false
     }
   ]
