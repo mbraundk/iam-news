@@ -1,12 +1,32 @@
 {
-  "updated": "September 04, 2026 at 08:00 UTC",
+  "updated": "September 05, 2026 at 07:38 UTC",
   "top_stories": [
+    {
+      "title": "IDScan sued over alleged data breach affecting 153 million drivers",
+      "url": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
+      "source": "Bleeping Computer",
+      "date": "2026-09-04",
+      "summary": "Identity verification company IDScan faces multiple lawsuits after hackers allegedly breached its systems and offered to sell data from more than 153 million driver's licenses. The breach targets a company whose core business is identity document scanning and verification, a critical component of identity proofing workflows.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/09/04/IDScan.jpg",
+      "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "39 New Methods That Compromise Passkey Authentication",
+      "url": "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/",
+      "source": "Bleeping Computer",
+      "date": "2026-09-04",
+      "summary": "Researchers have documented 39 methods for compromising passkey-based authentication systems without breaking FIDO2 cryptography. The attack vectors include abuse of authentication prompts, synced credentials, enrollment processes, recovery mechanisms, and other trust boundaries.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/08/28/39-methods-compromise-passkeys.jpg",
+      "importance": 8,
+      "paywall": false
+    },
     {
       "title": "Impersonating IT support: how threat actors turn a remote session into enterprise-wide access",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/09/02/impersonating-it-support-threat-actors-turn-remote-session-into-enterprise-wide-access/",
       "source": "Microsoft.com",
       "date": "2026-09-02",
-      "summary": "Microsoft Threat Intelligence documented a human-operated attack campaign that exploits Microsoft Teams external collaboration features to impersonate IT support and gain unauthorized remote access to enterprise systems. Attackers use social engineering through Teams to establish remote sessions, then deploy a Node.js-based implant to achieve persistent enterprise-wide access.",
+      "summary": "Microsoft Threat Intelligence documented a human-operated attack campaign that exploits Microsoft Teams external collaboration features to impersonate IT support personnel and gain unauthorized remote access to enterprise systems. Attackers use social engineering via Teams to convince users to grant remote sessions, then deploy a Node.js-based implant to establish persistence and move laterally across the environment.",
       "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/04/MS_Actional-Insights_Rapid-response.jpg",
       "importance": 8,
       "paywall": true
@@ -16,7 +36,7 @@
       "url": "https://4sysops.com/archives/new-identity-governance-and-access-features-in-microsoft-entra/",
       "source": "4sysops.com",
       "date": "2026-09-02",
-      "summary": "Microsoft released multiple generally available and preview updates to Microsoft Entra in September 2026, covering identity governance and access management features. The updates include tenant governance, user-centric access reviews, lifecycle workflow management, passwordless Teams device identities, and hybrid identity improvements.",
+      "summary": "Microsoft released multiple generally available and preview updates to Microsoft Entra in September 2026, covering identity governance and access management capabilities. The updates include tenant governance, user-centric access reviews, lifecycle workflow management, passwordless Teams device identities, and hybrid identity features.",
       "image": "https://4sysops.com/wp-content/uploads/2026/09/MCP-firewall-discovered-tools-rule-image-Microsoft.png",
       "importance": 8,
       "paywall": false
@@ -26,39 +46,39 @@
       "url": "https://www.darkreading.com/application-security/attackers-pounce-critical-artifactory-flaw-disclosure",
       "source": "Dark Reading",
       "date": "2026-09-01",
-      "summary": "A critical authentication bypass vulnerability (CVE-2026-82329) has been disclosed in JFrog Artifactory, allowing attackers to gain admin-level access on affected systems. Attackers are actively exploiting the flaw following its public disclosure.",
+      "summary": "A critical authentication bypass vulnerability (CVE-2026-82329) has been disclosed in JFrog Artifactory, allowing attackers to gain administrative-level access on affected systems. Threat actors are actively exploiting the flaw following its public disclosure.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte71738f751de1daa/6a97388d5d30863e09d86b97/jfrog-hapabapa-Getty-1273253225.jpg?width=720&quality=80&disable=upscale",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Your Employee’s Password Appeared in an Infostealer Log. Now What?",
-      "url": "https://www.bleepingcomputer.com/news/security/your-employees-password-appeared-in-an-infostealer-log-now-what/",
-      "source": "Bleeping Computer",
-      "date": "2026-09-03",
-      "summary": "Flare published guidance on responding to employee credentials appearing in infostealer logs, covering risks beyond passwords such as stolen authenticated sessions that can bypass MFA. The article outlines how defenders can prioritize compromised identities and assess whether stolen access tokens remain valid to prevent account takeover.",
-      "image": "https://www.bleepstatic.com/content/posts/2026/08/27/computer-cyber.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Hackers exploit critical JFrog Artifactory flaw to forge admin tokens",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-jfrog-artifactory-flaw-to-forge-admin-tokens/",
-      "source": "Bleeping Computer",
-      "date": "2026-09-02",
-      "summary": "A critical authentication bypass vulnerability (CVE-2026-82329) in JFrog Artifactory is being actively exploited to forge administrative tokens. The flaw allows attackers to bypass authentication and create tokens with administrative access to Artifactory instances.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/03/24/hacker_box.jpg",
       "importance": 7,
       "paywall": false
     }
   ],
   "news": [
     {
+      "title": "Critical Citrix NetScaler auth bypass now leveraged in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
+      "source": "Bleeping Computer",
+      "date": "2026-09-04",
+      "summary": "A critical authentication bypass vulnerability in Citrix NetScaler (CVE-2026-19490) is being actively exploited in the wild. The flaw allows attackers to bypass authentication controls, with exploitation confirmed by vulnerability intelligence firm Previdian.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/09/04/Citrix-headpic.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft Teams is about to make QR code phishing much harder",
+      "url": "https://www.helpnetsecurity.com/2026/09/04/microsoft-teams-qr-code-phishing-protection/",
+      "source": "Help Net Security",
+      "date": "2026-09-04",
+      "summary": "Microsoft is developing a new Teams feature that will automatically hide QR codes sent by external users, requiring recipients to manually reveal them before viewing or scanning. The feature is expected to roll out in October 2026 across Android, desktop, iOS, and Mac platforms.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2025/10/17114130/ms-teams-2-1500.webp",
+      "importance": 5,
+      "paywall": false
+    },
+    {
       "title": "A five-part inventory for your AI agent credentials",
       "url": "https://www.helpnetsecurity.com/2026/09/04/ai-agent-credentials-video/",
       "source": "Help Net Security",
       "date": "2026-09-04",
-      "summary": "Orchid co-founder and CEO Roy Katmor presents a framework for inventorying AI agent credentials, highlighting that agents built in AI studios receive accounts and access to enterprise tools that fall outside standard identity review processes. The video walks through a specific onboarding agent with access to HR, identity provider, ticketing, and payroll systems as a case study for unmanaged non-human identities.",
+      "summary": "Roy Katmor, CEO of Orchid, outlines a five-part inventory framework for managing AI agent credentials that fall outside standard identity review processes. The framework addresses how AI agents built in studios receive accounts and access to enterprise tools—including HR systems, identity providers, ticketing, and payroll—without being subject to normal identity governance reviews.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/09/03085632/ai-bot-key-authentication-1500.webp",
       "importance": 7,
       "paywall": false
@@ -68,9 +88,19 @@
       "url": "https://www.helpnetsecurity.com/2026/09/04/new-infosec-products-of-the-week-september-4-2026/",
       "source": "Help Net Security",
       "date": "2026-09-04",
-      "summary": "A weekly infosec product roundup features releases from BugBase, F5 Networks, Ping Identity, and Superna. The Ping Identity inclusion makes this marginally relevant to IAM professionals, though the article is a broad multi-vendor roundup with limited detail on Ping Identity's specific release.",
+      "summary": "A weekly product roundup covers new releases from BugBase, F5 Networks, Ping Identity, and Superna. The Ping Identity inclusion makes it marginally relevant to IAM professionals, though the article is a broad infosec product digest rather than focused IAM coverage.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/03/28091843/infosec-week-1200.webp",
       "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "Your Employee’s Password Appeared in an Infostealer Log. Now What?",
+      "url": "https://www.bleepingcomputer.com/news/security/your-employees-password-appeared-in-an-infostealer-log-now-what/",
+      "source": "Bleeping Computer",
+      "date": "2026-09-03",
+      "summary": "Flare published guidance on responding to employee credential exposure in infostealer logs, covering risks beyond passwords such as stolen authenticated sessions that can bypass MFA. The article outlines how defenders can prioritize compromised identities and assess whether stolen access remains valid to prevent account takeover.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/08/27/computer-cyber.jpg",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -78,7 +108,7 @@
       "url": "https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html",
       "source": "The Hacker News",
       "date": "2026-09-03",
-      "summary": "Thomson Reuters disclosed that an unauthorized party obtained files from C-Track, its West Publishing court case management platform, in March 2026, affecting courts in 11 U.S. states, the U.S. Virgin Islands, and Ontario, Canada. The breach potentially exposed sensitive personal data including Social Security Numbers and sealed court records.",
+      "summary": "Thomson Reuters disclosed a breach of C-Track, its court case management platform, in which an unauthorized party obtained files affecting courts in 11 U.S. states, the U.S. Virgin Islands, and Ontario, Canada. The breach, discovered June 30, 2026, potentially exposed sensitive personal data including Social Security Numbers and sealed court records.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX1nx19KbhbT0_rYFjMzqgJuG35q7QvJiMrikolTZV9sWztkSoSFUr95E-h-9vHv-GBGmRHAyh5Du0DDMYMr1m0VbD5YgYO6dVoY7p8d6Z5BbORiBOGgJfZjg4euf9uwUkGO4ZX8QZXUpuU0CFUwNV46UozcdMJ9SyZ4T4cy4pAI9ho7xYQ8cDJaFdfKM/s1600/reuters.jpg",
       "importance": 6,
       "paywall": false
@@ -88,9 +118,9 @@
       "url": "https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html",
       "source": "The Hacker News",
       "date": "2026-09-03",
-      "summary": "GitGuardian researchers discovered that a Shai-Hulud infostealer worm variant has expanded its credential-stealing capability from 189 to 469 locations, targeting developer environments, CI/CD tooling, cloud configurations, and AI tool configs. The expansion demonstrates a significant escalation in credential harvesting scope across identity-sensitive infrastructure components.",
+      "summary": "GitGuardian researchers discovered a new variant of the Shai-Hulud infostealer worm that scans for credentials across 469 locations, up from 189 in earlier variants. The expanded targeting covers developer environments, CI/CD tooling, cloud configurations, and AI tool configs.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfx0JCqLgANXGkgF5NMg__RxJg5IJ8HgQcvr_2zxEM6HSYzesKdLjKbrqmtAegyIpBmLxnryF5CeJlRh4J09q3e1kOo8dEzGXjhQpunnmGoL6wzEW_6R7lsN4zE5IybADP50VCjGGrBercYm6OIMCYsSgbHJ6sN9AYY3v6kCqPof8TWzR2O_ybViE1aYo/s1600/Shai-Hulud.gif",
-      "importance": 7,
+      "importance": 6,
       "paywall": false
     },
     {
@@ -98,9 +128,49 @@
       "url": "https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html",
       "source": "The Hacker News",
       "date": "2026-09-03",
-      "summary": "A security researcher released a proof-of-concept exploit called FalconFlank demonstrating a zero-day privilege escalation vulnerability in CrowdStrike Falcon. The flaw abuses the office malicious macros remediation feature in CrowdStrike Falcon Sensor to achieve privilege escalation.",
+      "summary": "A security researcher released a proof-of-concept exploit called FalconFlank demonstrating a privilege escalation zero-day vulnerability in CrowdStrike Falcon Sensor. The flaw abuses the office malicious macros remediation feature within the Falcon Sensor to achieve privilege escalation.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmg6caSDWQVOPIIl9NAXS4ofXmOdWz1eIGPMKMLCbHXc_uWiv11QNh2k-f43JAoVVQNMQj54d2yqJ_iO9vzwIO8nvQIyxr7N6GDCKsYDmSJEpyjiUBsY-zhMcmfEsWcEqDrKvrEkXxQC1LPldFXkqbJHO81V7oHnsRtuyjMZKzubBjwrK_yQ2xT2om89Ja/s1600/windows-exploit.jpg",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft Security enhancements: Defender MDR Plan 2, Entra Tenant Governance, Intune Autopilot, Purview Auto-Labeling, and AI Agent Containment",
+      "url": "https://4sysops.com/archives/microsoft-security-enhancements-defender-mdr-plan-2-entra-tenant-governance-intune-autopilot-purview-auto-labeling-and-ai-agent-containment/",
+      "source": "4sysops.com",
+      "date": "2026-09-03",
+      "summary": "Microsoft has announced a set of security enhancements including Entra Tenant Governance for multi-tenant identity governance management. Additional updates include Defender MDR Plan 2 support for third-party logs, Intune Autopilot improvements, Purview auto-labeling throughput increases, and AI agent containment guidance.",
+      "image": "https://4sysops.com/wp-content/uploads/2026/09/Defender-Experts-MDR-alert-dashboard-image-Microsoft.webp",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "An infostealer log can bypass MFA—respond within the first hour",
+      "url": "https://4sysops.com/archives/an-infostealer-log-can-bypass-mfa-respond-within-the-first-hour/",
+      "source": "4sysops.com",
+      "date": "2026-09-03",
+      "summary": "Research highlights that infostealer logs can contain active browser session cookies and identity-provider tokens that allow attackers to bypass MFA entirely. Security teams are advised to treat corporate credentials found in infostealer logs as potential live identity compromises requiring response within the first hour to revoke sessions before attackers can exploit them.",
+      "image": "https://4sysops.com/wp-content/uploads/2026/09/an-infostealer-log-can-bypass-mfa-respond-within-the-first-hour.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "The $100M Signal: Why AI Agent Security is Becoming Its Own Category",
+      "url": "https://forkast.news/the-100m-signal-why-ai-agent-security-is-becoming-its-own-category/",
+      "source": "Forkast.news",
+      "date": "2026-09-03",
+      "summary": "The article discusses the emergence of AI agent security as a distinct security category, driven by the shift from simple chatbots to autonomous AI agents that can execute tasks, access data, and make decisions on behalf of users. The piece addresses how traditional identity and access management approaches are challenged by AI agents requiring new frameworks for authorization, authentication, and access control.",
+      "image": "https://forkast.news/wp-content/uploads/2026/09/hiddenlayer-100m-agent-security-hero-1024x572.jpg",
       "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Keeper Security Names Jessica Krowel and Bill Grabner to Lead North America Private and Public Sector Sales",
+      "url": "https://www.prnewswire.com/news-releases/keeper-security-names-jessica-krowel-and-bill-grabner-to-lead-north-america-private-and-public-sector-sales-302868446.html",
+      "source": "PRNewswire",
+      "date": "2026-09-03",
+      "summary": "Keeper Security appointed Jessica Krowel and Bill Grabner to lead North America private and public sector sales, respectively. The hires are described as strengthening the company's go-to-market team following Keeper's recognition as the second fastest-growing security software company globally.",
+      "image": "https://mmx.prnewswire.com/media/MS1980739/Keeper-Security-Jessica-Krowel.jpg?id=OA2927085&p=facebook",
+      "importance": 3,
       "paywall": false
     },
     {
@@ -108,9 +178,9 @@
       "url": "https://www.nist.gov/blogs/cybersecurity-insights/back-future-why-agentic-ai-needs-strong-identity-foundation",
       "source": "Nist.gov",
       "date": "2026-09-03",
-      "summary": "The article examines the identity infrastructure requirements for agentic AI deployments in enterprise environments. It addresses how AI agents require robust identity foundations to manage authentication, authorization, and access controls as autonomous systems interact with applications and services.",
+      "summary": "The article examines the identity infrastructure requirements for agentic AI deployments in enterprise environments. It addresses how AI agents require a strong identity foundation to manage authentication, authorization, and access controls as organizations scale automation use cases.",
       "image": "https://www.nist.gov/themes/custom/nist_www/img/homepage/nist_mark.png",
-      "importance": 7,
+      "importance": 6,
       "paywall": false
     },
     {
@@ -118,7 +188,7 @@
       "url": "https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency",
       "source": "Dark Reading",
       "date": "2026-09-02",
-      "summary": "Threat actors exploited unpatched vulnerabilities in ownCloud to breach the Philippines Nuclear Agency, stealing credential stores among other sensitive data. The attack leveraged commodity vulnerabilities to gain initial access, resulting in the compromise of personnel records and reactor databases.",
+      "summary": "Threat actors exploited unpatched vulnerabilities in ownCloud to breach the Philippines Nuclear Research Institute, stealing reactor databases, personnel records, and credential stores. The attack leveraged commodity vulnerabilities to gain initial access, resulting in the compromise of sensitive credential data.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt61b6b950560b6729/6a974efda0ff3877b64d75b3/philippines-south-china-sea-map-AustralianCamera-shutterstock.jpg?width=720&quality=80&disable=upscale",
       "importance": 5,
       "paywall": false
@@ -128,7 +198,7 @@
       "url": "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html",
       "source": "The Hacker News",
       "date": "2026-09-02",
-      "summary": "SonicWall has released security updates addressing two zero-day vulnerabilities in its Secure Mobile Access (SMA) 1000 series VPN appliances, including a pre-authentication SSRF flaw rated CVSS 10.0. The vulnerabilities, which may form an attack chain, have been actively exploited and affect remote access infrastructure commonly used in enterprise environments.",
+      "summary": "SonicWall has released security updates addressing two zero-day vulnerabilities in its Secure Mobile Access (SMA) 1000 series VPN appliances, including a critical pre-authentication SSRF flaw rated CVSS 10.0. The vulnerabilities, which may form an attack chain, have been actively exploited and were discovered internally by SonicWall researchers William Perry and Adam Babis.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHkRZMEpG9dgsbvSzYfaPZC5u0gmzUw-5NHDTcsQ-MQtxr6pqNrngG2LsyMJ0KKxA364L3Lq4xhGAxCTRQ3C8szlo9aLJeWXw37C6hsAD5YbYCJF8KuQyuWMIPNCNDXX8-1HN76xxYhxffeenDDyWobOpA4AXC76hFcdh1vnqpjI_pLF2YuxiAwu87cHwC/s1600/sonicwall.jpg",
       "importance": 6,
       "paywall": false
@@ -138,68 +208,8 @@
       "url": "https://emsroute.com/2026/03/19/passkeys-beginners-101/",
       "source": "Emsroute.com",
       "date": "2026-09-02",
-      "summary": "The article provides a deep-dive guide to implementing passkeys in Microsoft Entra as a phishing-resistant authentication method. It covers passkey configuration and setup within the Entra identity platform as an alternative to traditional passwords.",
+      "summary": "The article provides a detailed guide on implementing passkeys in Microsoft Entra as a phishing-resistant authentication method. The content covers Entra passkey configuration and positions passkeys as a passwordless, phishing-resistant alternative to traditional passwords.",
       "image": "https://i0.wp.com/emsroute.com/wp-content/uploads/2026/03/passkeys-1.png?fit=1200%2C675&ssl=1",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Okta Stock Has More Than Doubled in 2026. AI Agents Could Drive the Next Leg Higher",
-      "url": "https://biztoc.com/x/183f7e62fdc65442",
-      "source": "Biztoc.com",
-      "date": "2026-09-02",
-      "summary": "Okta stock has more than doubled in 2026, with analysts pointing to AI agent identity management as a key growth driver. The article focuses on Okta's market position in securing AI agents as businesses increasingly deploy autonomous digital workers requiring identity and access controls.",
-      "image": "https://biztoc.com/cdn/183f7e62fdc65442_s.webp",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Gartner named SafePaaS in the 2026 Market Guide for Identity Governance and Administration (IGA) for cybersecurity leaders facing growing threats from AI agents",
-      "url": "https://www.prnewswire.com/news-releases/gartner-named-safepaas-in-the-2026-market-guide-for-identity-governance-and-administration-iga-for-cybersecurity-leaders-facing-growing-threats-from-ai-agents-302867469.html",
-      "source": "PRNewswire",
-      "date": "2026-09-02",
-      "summary": "SafePaaS has been named a Representative Vendor in the 2026 Gartner Market Guide for Identity Governance and Administration (IGA). The recognition positions SafePaaS within the IGA market landscape, with the guide addressing growing cybersecurity threats from AI agents.",
-      "image": null,
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Cloudflare Adds Optional OAuth Scopes, Letting Developers Mark What Users May Decline",
-      "url": "https://www.infoq.com/news/2026/09/cloudflare-optional-oauth-scopes/",
-      "source": "InfoQ.com",
-      "date": "2026-09-02",
-      "summary": "Cloudflare has introduced optional OAuth scopes, allowing developers to designate which permissions users can deselect during the consent flow. The feature was motivated by MCP (Model Context Protocol) server use cases where agents request broad permission sets that users may not fully need to grant.",
-      "image": "https://res.infoq.com/news/2026/09/cloudflare-optional-oauth-scopes/en/headerimage/generatedHeaderImage-1787915759251.jpg",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "OpenID Connect Authentication for MySQL, Now Fully Open Source",
-      "url": "https://www.percona.com/blog/oidc-authentication-for-percona-mysql/",
-      "source": "Percona.com",
-      "date": "2026-09-02",
-      "summary": "Percona Server for MySQL has released a fully open source OpenID Connect (OIDC) authentication plugin, available starting with versions 8.4.11-11 and 9.7.2-2. The plugin allows MySQL accounts to authenticate against an OIDC-compliant identity provider, enabling federated identity and SSO capabilities for database access.",
-      "image": "https://www.percona.com/wp-content/uploads/2026/09/percona_oidc_flow.png",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
-      "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html",
-      "source": "The Hacker News",
-      "date": "2026-09-01",
-      "summary": "Threat actors are actively exploiting CVE-2026-82329, a critical authentication bypass vulnerability (CVSS 9.8) in JFrog Artifactory, within days of its public disclosure. The flaw allows attackers to bypass authentication and gain administrative access, enabling the minting of admin tokens in affected Artifactory instances.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0o8dDcHW4CJBLnXfYzfofbG1w0Fi4zCPqcjEgASsL0gXnESv5isMONZgXzek2rM3VwkhnEqz2K4whDwB_lFylCYvfXASQmsQSPA-8U25998PBT2Xopdaaj9_iG0XqdBPu6iXRmtlN2CGc8b5mv3t68CVxV2HYneRkiUhUu3EIgSogEgipzJUiymLfl0NQ/s1600/jfrog.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
-      "url": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
-      "source": "The Hacker News",
-      "date": "2026-09-01",
-      "summary": "Microsoft's threat intelligence team identified ClickFix as the most common initial access method observed last year, where attackers manipulate users into executing malicious clipboard commands via social engineering rather than exploiting technical vulnerabilities. The technique bypasses traditional security controls by targeting human behavior during authentication or verification interactions, representing a shift toward repeatable, low-sophistication credential and access compromise methods.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXRNAAGu1amxjm97oXzRGvVBD23d-thmuPvBbQm10hKlACH58ndu51swo4ggT2P2FJw1vbmWy6qdMZSyTRrgAXoi19O0Zf0vCcS47oMuhMuPSyKc1kL7bpIySVrQwgrIaYJkc4IiavU0rucYYMYWHwXgDCmsPLanV2LZv3mt__srP93r0vLWSz8Vp_L0o/s1600/click.jpg",
       "importance": 7,
       "paywall": false
     },
@@ -208,7 +218,7 @@
       "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
       "source": "Krebs on Security",
       "date": "2026-09-01",
-      "summary": "A dark web identity theft service is selling digital scans of over 153 million U.S. and Canadian driver's licenses, apparently sourced from a Louisiana-based identity verification company. The FBI's New Orleans field office has opened an official investigation into the breach, which affects a widely-used identity verification provider.",
+      "summary": "A dark web service is selling digital scans of over 153 million U.S. and Canadian driver's licenses, apparently sourced from a Louisiana-based identity verification company. The FBI's New Orleans field office has launched an official inquiry into the breach, which directly implicates an identity verification provider's data security.",
       "image": null,
       "importance": 7,
       "paywall": false
@@ -218,9 +228,9 @@
       "url": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts",
       "source": "Dark Reading",
       "date": "2026-08-31",
-      "summary": "A threat actor deployed infostealer malware to steal session tokens and gain unauthorized access to Claude (Anthropic) user accounts. The attack involved session hijacking techniques to bypass authentication on compromised accounts.",
+      "summary": "A threat actor deployed infostealer malware to steal session tokens and gain unauthorized access to Claude (Anthropic) user accounts. The attack involved session hijacking techniques to bypass authentication on an unknown number of compromised accounts.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9f9e09d2a1c53673/6a97083643fb84d5c0cc2cc1/claude_Thaspol_Sangsee_shutterstock_REVISED_FOR_16_X_9_RATIO.jpg?width=720&quality=80&disable=upscale",
-      "importance": 4,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -228,7 +238,7 @@
       "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
       "source": "Krebs on Security",
       "date": "2026-08-06",
-      "summary": "Canadian hacker Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges related to breaching over 165 organizations using cloud data storage provider Snowflake. The attacks exploited stolen credentials to access Snowflake customer accounts, resulting in data theft including over 100 million AT&T customer records.",
+      "summary": "Canadian man Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges for hacking and extorting over 165 organizations using Snowflake cloud storage. The attacks involved stolen credentials used to access Snowflake customer accounts, resulting in data theft including over 100 million AT&T customer records.",
       "image": null,
       "importance": 4,
       "paywall": false
@@ -238,9 +248,9 @@
       "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
       "source": "Krebs on Security",
       "date": "2026-07-13",
-      "summary": "CISA published a postmortem after a contractor accidentally exposed dozens of internal credentials, including AWS GovCloud keys, in a public GitHub repository for nearly six months. The incident highlights credential management failures and gaps in secret scanning and response procedures relevant to IAM and secrets management practices.",
+      "summary": "CISA issued a postmortem report after a contractor exposed dozens of internal credentials, including AWS GovCloud keys, in a public GitHub repository for nearly six months. The incident highlights credential management and secrets governance failures, with the leak only discovered after KrebsOnSecurity notified the agency.",
       "image": null,
-      "importance": 7,
+      "importance": 6,
       "paywall": false
     }
   ]
