@@ -1,23 +1,43 @@
 {
-  "updated": "September 11, 2026 at 08:01 UTC",
+  "updated": "September 12, 2026 at 07:52 UTC",
   "top_stories": [
     {
-      "title": "IDScan confirms breach tied to 153 million stolen driver’s licenses",
-      "url": "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/",
-      "source": "Bleeping Computer",
-      "date": "2026-09-10",
-      "summary": "IDScan, an identity verification company, confirmed a breach in which hackers accessed customer data stored in its cloud platform. The breach is linked to a database containing over 153 million stolen driver's license scans.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/09/04/IDScan.jpg",
-      "importance": 9,
+      "title": "Identity-Based AI Attack Threatens Security of Enterprise Data",
+      "url": "https://www.darkreading.com/threat-intelligence/identity-based-ai-attack-security-enterprise-data",
+      "source": "Dark Reading",
+      "date": "2026-09-09",
+      "summary": "A new attack technique called \"workflow identity hijacking\" has been identified, which exploits unauthenticated entry points to bypass standard security controls and compromise enterprise data. The attack targets identity-based weaknesses in automated workflows, allowing adversaries to hijack organizational data through basic requests that circumvent authentication mechanisms.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte7893676670a76d5/6aa13f3e0a3bef09c363535c/Data_security(1800)_ber1a_Alamy.png?width=720&quality=80&disable=upscale",
+      "importance": 8,
       "paywall": false
     },
     {
-      "title": "Attackers call employees’ personal phones to break into Microsoft 365 accounts",
-      "url": "https://www.helpnetsecurity.com/2026/09/10/microsoft-365-social-engineering-personal-phones/",
+      "title": "Passkey-themed phishing attacks lead to Microsoft 365 data theft",
+      "url": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
+      "source": "Bleeping Computer",
+      "date": "2026-09-11",
+      "summary": "Threat actors linked to ShinyHunters, Helix, and other extortion gangs are conducting phishing attacks themed around passkeys and single sign-on to compromise corporate Microsoft accounts. The attacks target Microsoft 365 services, exploiting user familiarity with passkey and SSO authentication flows as a social engineering vector.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2025/08/04/Microsoft-365.jpg",
+      "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "IDScan confirms breach after 153 million driver’s licenses leak on dark web",
+      "url": "https://www.helpnetsecurity.com/2026/09/11/idscan-net-data-breach-153-million-drivers-licenses/",
       "source": "Help Net Security",
+      "date": "2026-09-11",
+      "summary": "IDScan.net, an identity verification company, confirmed that hackers accessed customer data on its cloud platform after a dark web database containing over 153 million driver's license scans was linked to the firm. The Louisiana-based company posted a breach notice on September 4, acknowledging the incident that exposed ID verification data processed for car rental companies, retailers, and cannabis dispensaries.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/09/02152933/data_leak-1500.webp",
+      "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "JumpCloud extends Agentic IAM with new controls for autonomous AI agents",
+      "url": "https://siliconangle.com/2026/09/10/jumpcloud-extends-agentic-iam-with-new-controls-for-autonomous-ai-agents/",
+      "source": "SiliconANGLE News",
       "date": "2026-09-10",
-      "summary": "Microsoft Security Research has been tracking a social engineering campaign since May 2026 in which attackers impersonate internal IT staff via calls and texts to employees' personal phones to gain access to corporate Microsoft 365 accounts. Once access is obtained, threat actors exfiltrate data from SharePoint, OneDrive, and email inboxes over extended periods of weeks.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/05/31195930/social-engineering_1500.webp",
+      "summary": "JumpCloud has extended its Agentic IAM service with new controls that give IT teams direct management over autonomous AI agents operating within their organizations. The update places AI agents within the same identity and access management framework used for human users and traditional workloads.",
+      "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/09/jumpcloudagenticiam.png",
       "importance": 8,
       "paywall": false
     },
@@ -26,40 +46,50 @@
       "url": "https://www.bleepingcomputer.com/news/security/mfas-weakest-link-account-recovery-is-the-new-attack-path/",
       "source": "BleepingComputer",
       "date": "2026-09-09",
-      "summary": "Attackers are increasingly bypassing MFA by targeting account recovery and password reset processes rather than the authentication mechanisms themselves. Specops outlines why stronger identity verification at the service desk is necessary to prevent social engineering attacks that exploit recovery workflows.",
+      "summary": "Attackers are increasingly bypassing MFA by targeting account recovery and password reset processes rather than the authentication methods themselves. Specops highlights the need for stronger identity verification at the service desk to counter social engineering attacks on recovery workflows.",
       "image": "https://www.bleepstatic.com/content/posts/2026/09/03/specops-backdoor.jpg",
       "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Identity-Based AI Attack Threatens Security of Enterprise Data",
-      "url": "https://www.darkreading.com/threat-intelligence/identity-based-ai-attack-security-enterprise-data",
-      "source": "Dark Reading",
-      "date": "2026-09-09",
-      "summary": "A newly identified attack technique called \"workflow identity hijacking\" targets AI-based workflows by exploiting unauthenticated entry points to bypass standard security controls and access enterprise data. The attack leverages identity-based vulnerabilities in AI systems without requiring authenticated access, posing risks to organizations relying on AI-integrated workflows.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte7893676670a76d5/6aa13f3e0a3bef09c363535c/Data_security(1800)_ber1a_Alamy.png?width=720&quality=80&disable=upscale",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "The Top 4 Threats We Found by Investigating Every Alert for a Quarter",
-      "url": "https://www.bleepingcomputer.com/news/security/the-top-4-threats-we-found-by-investigating-every-alert-for-a-quarter/",
-      "source": "Bleeping Computer",
-      "date": "2026-09-10",
-      "summary": "Prophet Security analyzed customer environment alerts over a three-month period (May–July 2026), finding that identity was the target in approximately half of all confirmed malicious activity. The report breaks down four main attack patterns observed, including why some identity-based attacks succeeded while others were blocked.",
-      "image": "https://www.bleepstatic.com/content/posts/2026/09/09/prophet-ai-report.jpg",
-      "importance": 7,
       "paywall": false
     }
   ],
   "news": [
     {
+      "title": "Florida confirms DMV database breached via stolen police account",
+      "url": "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/",
+      "source": "Bleeping Computer",
+      "date": "2026-09-11",
+      "summary": "Florida's DMV database (DAVID) was breached by attackers using stolen credentials from a police department employee account. The incident highlights the risks of compromised privileged accounts used to access sensitive government databases.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2024/08/16/data-leak.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Artifactory flaws chained in attacks deploying backdoor malware",
+      "url": "https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware/",
+      "source": "Bleeping Computer",
+      "date": "2026-09-11",
+      "summary": "Threat actors are chaining critical and high-severity vulnerabilities in JFrog Artifactory to bypass authentication and gain administrative privileges on self-hosted servers. The attack chain culminates in the deployment of a Rust-based backdoor on compromised systems.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2025/03/12/hacker.jpg",
+      "importance": 4,
+      "paywall": false
+    },
+    {
       "title": "AI is changing what Salesforce security needs to govern",
       "url": "https://www.helpnetsecurity.com/2026/09/11/withsecure-salesforce-ai-trust-governance-paper/",
       "source": "Help Net Security",
       "date": "2026-09-11",
-      "summary": "WithSecure released a paper titled \"Navigating Trust in the Modern Salesforce Ecosystem\" examining how AI is expanding security governance requirements beyond traditional identity and access controls. The paper argues Salesforce environments now require governance of information dependencies, trust relationships across connected systems, and AI-driven actions and outcomes.",
+      "summary": "WithSecure published a paper titled \"Navigating Trust in the Modern Salesforce Ecosystem\" examining how AI is expanding security and governance requirements in Salesforce environments. The paper argues that organizations must now govern information trust, cross-system trust relationships, and action outcomes in addition to traditional identities, permissions, and access controls.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/05/12203032/door-open.webp",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "authentik version/2026.8.2",
+      "url": "https://kitploit.com/en/posts/github-goauthentik-authentik-version202682",
+      "source": "Kitploit.com",
+      "date": "2026-09-11",
+      "summary": "authentik released version 2026.8.2 of its open-source identity provider platform. The release supports SAML, OAuth2/OIDC, LDAP, and RADIUS protocols for centralized authentication, authorization, and access management.",
+      "image": "https://assets.kitploit.com/production/public/tools/50747/f3ebbcd539b9e915df894173e2c1f8b932d85a067fe4aaa1a85dfe94e7ec8ab2-social-v1.webp",
       "importance": 4,
       "paywall": false
     },
@@ -68,18 +98,8 @@
       "url": "https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements",
       "source": "Dark Reading",
       "date": "2026-09-10",
-      "summary": "The EU Cyber Resilience Act begins enforcing a 24-hour mandatory reporting requirement for serious product security incidents affecting European organizations. This regulation introduces new compliance obligations relevant to IAM vendors and practitioners operating in the EU market.",
+      "summary": "The EU Cyber Resilience Act begins enforcing a 24-hour mandatory reporting requirement for serious product security incidents affecting European organizations. This regulation introduces new compliance obligations relevant to IAM and security teams responsible for managing access and responding to identity-related breaches.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltba41cd0488eb4d89/6aa1a2aa145a18d222181a6c/EU_lock-Alexey_Krukovsky-Getty.jpg?width=720&quality=80&disable=upscale",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Your passkeys can now move between password managers on Android",
-      "url": "https://www.helpnetsecurity.com/2026/09/10/google-android-password-manager-transfer/",
-      "source": "Help Net Security",
-      "date": "2026-09-10",
-      "summary": "Google has enabled a direct transfer feature in Android that allows passwords and passkeys to move between password managers without requiring an intermediate file download. The feature initiates from within the destination app and transfers data in encrypted form, eliminating the previous method of exporting to unencrypted text files.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/09/10053553/google-sharing-passwords.webp",
       "importance": 6,
       "paywall": false
     },
@@ -88,19 +108,29 @@
       "url": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
       "source": "The Hacker News",
       "date": "2026-09-10",
-      "summary": "CISA added three critical vulnerabilities affecting Cisco, Citrix, and Fortinet to its Known Exploited Vulnerabilities catalog, requiring federal agencies to patch by September 12, 2026. One of the flaws, CVE-2026-20079, carries a CVSS score of 10.0 and involves an authentication vulnerability.",
+      "summary": "CISA added three actively exploited vulnerabilities affecting Cisco, Citrix, and Fortinet to its Known Exploited Vulnerabilities catalog, with a federal patch deadline of September 12, 2026. One of the flaws, CVE-2026-20079, carries a maximum CVSS score of 10.0 and involves an authentication vulnerability.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7j6Sm8OqDeYzrbb5faLBuDOc0zIMlvfjiKbn1aCMpx_2iBl6gb3HhJhpbqU8SPajHUClJEXUwnFbY1DcubmzWeVaWCyGcHkw45rCYqU_4IFO_g4OwdyNrTFFK3l3YsXwfOWQj2QtW3UTeglKmyRJ4GvbVKMxLTByMgeZ7E0WWpxpi50qie2lx9DbCY9rr/s1600/cisa-list.jpg",
       "importance": 6,
       "paywall": false
     },
     {
-      "title": "Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/",
-      "source": "Bleeping Computer",
-      "date": "2026-09-09",
-      "summary": "Cisco has confirmed active exploitation of CVE-2026-20079, a maximum-severity authentication bypass vulnerability in its Secure Firewall Management Center (FMC) software. The flaw allows attackers to bypass authentication controls, directly impacting access management security in affected Cisco firewall deployments.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2024/07/18/Cisco.jpg",
+      "title": "There's a New Black Market Just for Stolen ChatGPT and Claude Logins. It's Open 24/7.",
+      "url": "https://gizmodo.com/theres-a-new-black-market-just-for-stolen-chatgpt-and-claude-logins-its-open-24-7-2000809840",
+      "source": "Gizmodo.com",
+      "date": "2026-09-10",
+      "summary": "Okta has published a report revealing that stolen AI service account credentials (including Claude, ChatGPT, Gemini, and Cursor logins) are being traded on Telegram-based black markets with organized customer support and bulk pricing. The markets operate continuously and offer money-back guarantees, indicating a professionalized ecosystem for trading compromised AI platform tokens.",
+      "image": "https://gizmodo.com/app/uploads/2026/09/dark-web-img-1200x675.jpg",
       "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "TATS",
+      "url": "https://kitploit.com/en/tools/github/icemoonhsv/tats/",
+      "source": "Kitploit.com",
+      "date": "2026-09-10",
+      "summary": "A tool called TATS has been released that analyzes and tracks OAuth 2.0, OIDC, and Microsoft Entra ID tokens captured from Burp, mitmproxy, or Chrome DevTools. It provides features including token lifecycle visualization, risky scope detection, and token export for replay via an interactive dashboard.",
+      "image": "https://assets.kitploit.com/production/public/tools/54670/48c8dc0762b1d8e8544e7a740565a090b2e06441dabac099810cb881a46f19a5-social-v1.webp",
+      "importance": 6,
       "paywall": false
     },
     {
@@ -108,7 +138,7 @@
       "url": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
       "source": "The Hacker News",
       "date": "2026-09-09",
-      "summary": "Cybercriminals are using infostealer malware logs (such as Lumma Stealer and Vidar) to harvest replayable session tokens and API keys from AI platforms like Google and Anthropic, enabling account takeover that bypasses MFA controls. The attack exploits the persistence of stolen session tokens, which remain valid even after password changes, effectively rendering MFA protections moot.",
+      "summary": "Cybercriminals are using infostealer malware logs to harvest replayable AI session tokens and API keys that can bypass MFA protections on AI platform accounts. Tools like Lumma Stealer and Vidar are being used to capture credentials, session tokens, and API keys from providers including Google and Anthropic, enabling account takeover without requiring re-authentication.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYP_zrhRTZRWnPPcDkUrE7dBh2Bf5eaQmlBxyl7euTRGjS0C8boQppnrmjY0CIVjGrS_PF13V1W3BPVI3RDPZY59s_7xIkI8LnFkg3Tn_Q0x7_tbCs_sMkvhZMREtFLW3IOJSNNmQrKCDI88FCWhfymdWkEWtdMMRzivv3lZXImjreAz0d74VXt2K80ipH/s1600/tokens.jpg",
       "importance": 7,
       "paywall": false
@@ -118,8 +148,18 @@
       "url": "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html",
       "source": "The Hacker News",
       "date": "2026-09-09",
-      "summary": "Sophos published an analysis revealing malware targeting F5 BIG-IP Access Policy Manager (APM) appliances that injects a PHP web shell into memory to evade disk-based detection. The malware modifies in-memory copies of PHP scripts loaded by Apache, meaning file integrity checks return clean results while the system remains compromised.",
+      "summary": "Sophos identified malware targeting F5 BIG-IP Access Policy Manager (APM) appliances that injects a PHP web shell into memory to evade disk-based detection. The malware hooks into Apache's PHP script loading process, leaving disk files unmodified while maintaining persistent access through the in-memory web shell.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIA552mINL2oyFm7mf9nHTwjJGJUVAtfYnMXbqYsowSEsDMzVsAgHG8MHKn5_EmwZ9bgRmhEndE20FhQAN4rvOLv5ESSAu0kHTV4QyygvUePYCJ1fvda0bU0Mzi5B9J8LHhULDeRRI9HGC84dntx8jaLu6WFLOz6OOhEwKNnSf6zzFRyAtlLKDQzHvygg/s1600/f5-malware.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
+      "url": "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html",
+      "source": "The Hacker News",
+      "date": "2026-09-09",
+      "summary": "SAP has patched a CVSS 10.0 severity vulnerability (CVE-2026-44756) in SAP Extended Passport (EPP) Processing that allows unauthenticated remote code execution via memory corruption. The flaw affects SAP's passport/identity processing component, which is directly relevant to authentication and identity infrastructure used in enterprise environments.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwUnFS6EAvkjYM7AC_3-k8C6QSAmpatuThkiXaa1WxvtiZU7M-n384kpPN4-VSAQfwL8PCTPUVd3iYeTDn_V5ZoZGEfuizJSZghdAw4Ldq_wFg7rxWyKBbwdMctiiBaykAmL40L6wappUeeyIr58u8SFFSszCP-rszf5ioHsaz0dtKilEpkw1LTEmtaCtZ/s1600/sap-flaws.jpg",
       "importance": 6,
       "paywall": false
     },
@@ -128,7 +168,7 @@
       "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-sailpoint-inc-q2-2027-earnings-call-summary?utm_source=yahoo_finance&amp;utm_medium=rss",
       "source": "Moby.co",
       "date": "2026-09-09",
-      "summary": "SailPoint held its Q2 2027 earnings call, with a summary provided by Moby. No specific financial figures, product announcements, or strategic details are available from the description provided.",
+      "summary": "SailPoint held its Q2 2027 earnings call, with a summary produced by Moby. No specific financial figures, product announcements, or strategic details are provided in the description.",
       "image": "https://s.yimg.com/lo/mysterio/api/d82da3e584ca2cbe0b018d83d15498f41187c1972bfbaab28597540b885e3587/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmoby_896%2Ff5f22dbeb61fc83d399a0afe5774719c.png",
       "importance": 4,
       "paywall": false
@@ -138,7 +178,7 @@
       "url": "https://biztoc.com/x/e367829b1929c186",
       "source": "Biztoc.com",
       "date": "2026-09-09",
-      "summary": "SailPoint reported its fiscal Q2 earnings, with ARR rising 25% year over year to $1.231 billion and revenue increasing 17% to $309 million. SaaS ARR grew 36%, with overall performance exceeding expectations.",
+      "summary": "SailPoint reported fiscal Q2 earnings with ARR rising 25% year over year to $1.231 billion and revenue increasing 17% to $309 million. SaaS ARR grew 36%, with overall performance exceeding expectations.",
       "image": "https://biztoc.com/cdn/e367829b1929c186_s.webp",
       "importance": 6,
       "paywall": false
@@ -148,7 +188,7 @@
       "url": "https://www.barchart.com/story/news/4514190/dear-sailpoint-stock-fans-mark-your-calendars-for-september-9",
       "source": "Barchart.com",
       "date": "2026-09-09",
-      "summary": "SailPoint is scheduled to report its fiscal Q2 earnings on September 9. Investors are monitoring whether growing demand for identity security solutions is translating into improved profitability for the IAM vendor.",
+      "summary": "SailPoint is scheduled to report its fiscal Q2 earnings on September 9, with investor focus on profitability and revenue growth. The report centers on financial performance metrics tied to demand for SailPoint's identity security offerings.",
       "image": "https://s.yimg.com/lo/mysterio/api/c102b29c386cf9ac185b22cde54e00a5f9e732ec7dd08efc870fa32f68465804/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2Fa9d9deb99ed802fcc1d588603b40c900.jpg",
       "importance": 4,
       "paywall": false
@@ -168,7 +208,7 @@
       "url": "https://www.prnewswire.com/news-releases/commvault-introduces-active-directory-pre-recover-enabling-near-real-time-access-to-trusted-identity-services-during-cyberattacks-302872883.html",
       "source": "PRNewswire",
       "date": "2026-09-09",
-      "summary": "Commvault has launched Active Directory Pre Recover, a solution designed to restore access to Active Directory identity services in near-real-time during cyberattacks. The product addresses scenarios where identity infrastructure is compromised, coupling recovery speed with recovery cleanliness to maintain access to critical systems.",
+      "summary": "Commvault launched Active Directory Pre Recover, a solution designed to restore Active Directory services in near-real-time during cyberattacks. The product targets scenarios where identity infrastructure is compromised, coupling recovery speed with recovery cleanliness to maintain access to critical systems.",
       "image": "https://mmx.prnewswire.com/media/MS427064/Commvault-new-Logo.jpg?id=OA2936722&p=facebook",
       "importance": 7,
       "paywall": false
@@ -178,7 +218,7 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/okta-earnings-ai-offerings-drive-114128456.html",
       "source": "Yahoo Entertainment",
       "date": "2026-09-09",
-      "summary": "Okta's shares have risen 94% year-to-date, driven by strong earnings and AI-related offerings. The stock gains reflect increased demand for Okta's identity security products and AI capabilities.",
+      "summary": "Okta's shares have risen 94% year-to-date, driven by strong earnings and AI-related product offerings. The stock performance reflects increased demand for Okta's AI-enhanced identity and access management solutions.",
       "image": "https://s.yimg.com/lo/mysterio/api/1888dabca4f2944b4d8da791d6a725b02cb39137cd681bbe8ccd1ee763c06136/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ffx_empire_176%2F0f0863f8590a5152e227c678d3a0f932.png",
       "importance": 6,
       "paywall": false
@@ -188,19 +228,9 @@
       "url": "https://kitploit.com/en/posts/github-firezone-firezone-headless-client-1512",
       "source": "Kitploit.com",
       "date": "2026-09-09",
-      "summary": "Firezone has released headless-client version 1.5.12 of its enterprise zero-trust access platform built on WireGuard. The release represents an incremental update to the open-source zero-trust networking solution that provides secure access management capabilities.",
+      "summary": "Firezone has released headless-client version 1.5.12 of its enterprise zero-trust access platform built on WireGuard. The release is a versioned update to Firezone's client software, which provides zero-trust network access capabilities for enterprise environments.",
       "image": "https://assets.kitploit.com/production/public/tools/4836/8aa4b2440860598a74ad08b6c841bbd3765178176cb676ce4ad1acfe0e39bad3.png",
       "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
-      "url": "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html",
-      "source": "The Hacker News",
-      "date": "2026-09-08",
-      "summary": "A financially motivated threat actor used an autonomous multi-agent AI framework to conduct a large-scale credential harvesting campaign, compromising thousands of credentials in under six hours. Google Threat Intelligence Group (GTIG) observed the attack, highlighting the use of AI to accelerate credential theft operations at scale.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdVKt_UmqEYNHNt0K516skza4MoV47hITqzcoC3WLLI3QkQ_jUEffHvaL7VHVtzRqvdt6k2bZwGAFVif-hRkoiTQva6JM95w3NgNRU_WpuTaZfhLGXAcOdLQXy_sMWU1dxAunMAsf7J8PEDG2AKvkFuXbOFyOmIQcaocMIBhNpaYscCUeJElKDXu6xGhkX/s1600/ai-agent.jpg",
-      "importance": 7,
       "paywall": false
     },
     {
@@ -208,19 +238,9 @@
       "url": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
       "source": "Krebs on Security",
       "date": "2026-09-08",
-      "summary": "Microsoft released a record-breaking patch batch addressing at least 974 security vulnerabilities across Windows and other software. The company attributed the accelerated vulnerability discovery pace to AI tooling, while security experts note organizations are struggling to prioritize and deploy the high volume of fixes.",
+      "summary": "Microsoft released a record-breaking patch batch addressing at least 974 security vulnerabilities across Windows and other software. AI is being credited with accelerating vulnerability discovery, though security experts note organizations are struggling to keep up with testing and deploying the volume of fixes.",
       "image": null,
       "importance": 3,
-      "paywall": false
-    },
-    {
-      "title": "eMazzanti Technologies' Messaging Architects Partners with miniOrange to Deliver Unified Identity and Access Management for Legacy and Hybrid IT Environments",
-      "url": "https://www.prnewswire.com/news-releases/emazzanti-technologies-messaging-architects-partners-with-miniorange-to-deliver-unified-identity-and-access-management-for-legacy-and-hybrid-it-environments-302869871.html",
-      "source": "PRNewswire",
-      "date": "2026-09-08",
-      "summary": "eMazzanti Technologies' Messaging Architects division has partnered with miniOrange to deliver IAM solutions including SSO, MFA, PAM, and Zero Trust for legacy and hybrid IT environments. The partnership targets organizations running on-premises systems, GroupWise, and mixed SaaS environments.",
-      "image": "https://mmx.prnewswire.com/media/MS1825212/eMazzanti-Technologies-Carl-Mazzanti-Cofounder-and-President-eMazzanti-Technologies-2026.jpg?id=OA2929469&p=facebook",
-      "importance": 5,
       "paywall": false
     },
     {
@@ -228,19 +248,9 @@
       "url": "https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency",
       "source": "Dark Reading",
       "date": "2026-09-02",
-      "summary": "Threat actors exploited unpatched vulnerabilities in ownCloud to breach the Philippines Nuclear Agency, stealing credential stores among other data. The attack leveraged commodity vulnerabilities to gain initial access, resulting in the exfiltration of personnel records and reactor databases.",
+      "summary": "Threat actors exploited unpatched vulnerabilities in ownCloud to breach the Philippines Nuclear Agency, stealing credential stores, personnel records, and reactor databases. The attack leveraged commodity vulnerabilities to gain initial access, resulting in the compromise of authentication credentials and sensitive identity-related data.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt61b6b950560b6729/6a974efda0ff3877b64d75b3/philippines-south-china-sea-map-AustralianCamera-shutterstock.jpg?width=720&quality=80&disable=upscale",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Attackers Pounce on Critical Artifactory Bug Following Disclosure",
-      "url": "https://www.darkreading.com/application-security/attackers-pounce-critical-artifactory-flaw-disclosure",
-      "source": "Dark Reading",
-      "date": "2026-09-01",
-      "summary": "A critical authentication bypass vulnerability (CVE-2026-82329) has been disclosed in JFrog Artifactory, allowing attackers to gain admin-level access on affected systems. Exploitation attempts have been observed following public disclosure of the flaw.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte71738f751de1daa/6a97388d5d30863e09d86b97/jfrog-hapabapa-Getty-1273253225.jpg?width=720&quality=80&disable=upscale",
-      "importance": 7,
+      "importance": 6,
       "paywall": false
     },
     {
@@ -248,7 +258,7 @@
       "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
       "source": "Krebs on Security",
       "date": "2026-09-01",
-      "summary": "A dark web service is selling digital scans of over 153 million U.S. and Canadian drivers licenses, allegedly sourced from a Louisiana-based identity verification company. The FBI's New Orleans field office has opened an official inquiry into the breach of the identity verification provider.",
+      "summary": "A dark web service is selling digital scans of over 153 million U.S. and Canadian drivers licenses, apparently sourced from a Louisiana-based identity verification company. The FBI's New Orleans field office has opened an official inquiry into the breach.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -258,9 +268,9 @@
       "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
       "source": "Krebs on Security",
       "date": "2026-08-06",
-      "summary": "Canadian cybercriminal Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges related to hacking and extorting over 165 organizations using Snowflake's cloud data storage platform. The attacks resulted in the theft of data including over 100 million AT&T customer call and text records.",
+      "summary": "Canadian man Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges for hacking and extorting over 165 organizations using Snowflake cloud storage. The attacks involved unauthorized access to customer accounts, stealing data including over 100 million AT&T customer call and text records.",
       "image": null,
-      "importance": 4,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -268,7 +278,7 @@
       "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
       "source": "Krebs on Security",
       "date": "2026-07-13",
-      "summary": "CISA released a postmortem report on a data breach in which a contractor accidentally published dozens of internal credentials, including AWS GovCloud keys, to a public GitHub repository for nearly six months. The incident highlights credential management failures and gaps in secrets detection practices relevant to IAM and PAM professionals.",
+      "summary": "CISA conducted a postmortem after a contractor accidentally exposed dozens of internal credentials, including AWS GovCloud keys, in a public GitHub repository for nearly six months. The incident highlights credential management failures and gaps in secret scanning and monitoring practices relevant to IAM and secrets management professionals.",
       "image": null,
       "importance": 7,
       "paywall": false
