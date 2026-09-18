@@ -1,13 +1,43 @@
 {
-  "updated": "September 17, 2026 at 08:38 UTC",
+  "updated": "September 18, 2026 at 08:11 UTC",
   "top_stories": [
     {
       "title": "Cisco warns of max severity ISE zero-day exploited in attacks",
       "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-zero-day-exploited-in-attacks/",
       "source": "Bleeping Computer",
       "date": "2026-09-17",
-      "summary": "Cisco has released security updates to address a maximum-severity zero-day vulnerability in its Identity Services Engine (ISE) that is being actively exploited in attacks. Cisco ISE is a network access control and policy enforcement platform widely used for authentication, authorization, and access management in enterprise environments.",
+      "summary": "Cisco has released security updates to address a maximum-severity zero-day vulnerability in its Identity Services Engine (ISE) that is being actively exploited in the wild. Cisco ISE is a network access control and identity management platform widely used for authentication, authorization, and policy enforcement in enterprise environments.",
       "image": "https://www.bleepstatic.com/content/hl-images/2026/07/02/Cisco.jpg",
+      "importance": 9,
+      "paywall": false
+    },
+    {
+      "title": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
+      "url": "https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
+      "source": "The Hacker News",
+      "date": "2026-09-17",
+      "summary": "Cisco has disclosed a maximum-severity (CVSS 10.0) zero-day vulnerability in its Identity Services Engine (ISE), tracked as CVE-2026-76460, that is actively being exploited in the wild. The flaw exists in an API endpoint with insufficient authentication controls, allowing unauthenticated remote attackers to bypass authentication entirely.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKC3hrw_VedPPLj2lAD6qhUn-7eJuJ8dqSBMAOwTEjUdYxlwnOla9dFF4pwOBNr-QsjzJPuXEtkA6orbkLHUqHI3RbWMBR0VeNaYvZqSnkNnM5HH-T9ofLeBzrZcOXn5nbZyNC2YeQjANmTzBAhaAwhDoGoXLJOeB1nFbIr-TJuFTHM8y0TAzj6Hxd0MYM/s1600/cisco-0-day.jpg",
+      "importance": 9,
+      "paywall": false
+    },
+    {
+      "title": "The Gatekeeper Is the Door: Cisco ISE’s Nine-CVE Disclosure and the Identity Infrastructure Attack Surface",
+      "url": "https://forkast.news/the-gatekeeper-is-the-door-cisco-ises-nine-cve-disclosure-and-the-identity-infrastructure-attack-surface/",
+      "source": "Forkast.news",
+      "date": "2026-09-16",
+      "summary": "Cisco disclosed nine vulnerabilities in its Identity Services Engine (ISE), including multiple critical-severity flaws confirmed under active exploitation. The disclosure includes CVE-2026-76460, an unauthenticated REST API vulnerability, affecting a platform widely used for network access control and identity-based policy enforcement.",
+      "image": "https://forkast.news/wp-content/uploads/2026/09/cisco-ise-nine-cve-identity-attack-surface-1024x572.jpg",
+      "importance": 9,
+      "paywall": false
+    },
+    {
+      "title": "Two Unauthenticated Lockpicks for the Enterprise Vault: Delinea Secret Server’s Double Critical Disclosure",
+      "url": "https://forkast.news/two-unauthenticated-lockpicks-for-the-enterprise-vault-delinea-secret-servers-double-critical-disclosure/",
+      "source": "Forkast.news",
+      "date": "2026-09-16",
+      "summary": "Two critical unauthenticated vulnerabilities were disclosed in Delinea Secret Server, a privileged access management platform used to secure enterprise credentials. The flaws, disclosed on September 15, 2026, allow unauthenticated attackers to compromise the system, directly exposing sensitive privileged credentials stored within the PAM vault.",
+      "image": "https://forkast.news/wp-content/uploads/2026/09/delinea-secret-server-double-critical-1024x572.jpg",
       "importance": 9,
       "paywall": false
     },
@@ -16,19 +46,91 @@
       "url": "https://www.helpnetsecurity.com/2026/09/16/nist-cisa-cloud-token-security-guidance/",
       "source": "Help Net Security",
       "date": "2026-09-16",
-      "summary": "NIST and CISA have finalized guidance titled \"Protecting Tokens and Assertions from Forgery, Theft, and Misuse\" (NIST IR 858x) to help federal agencies and cloud service providers defend identity and access tokens against forgery, theft, and misuse. The playbook directly addresses token-based authentication and authorization mechanisms central to modern IAM and zero trust architectures.",
+      "summary": "NIST and CISA have finalized guidelines (NIST IR 858) targeting the protection of identity and access tokens from forgery, theft, and misuse, aimed at federal agencies and cloud service providers. The playbook addresses token security across authentication and authorization workflows, covering threat vectors such as token theft and assertion forgery.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/14151926/nist-1500-a.webp",
       "importance": 9,
       "paywall": false
+    }
+  ],
+  "news": [
+    {
+      "title": "Hardcoded MCP credentials found in public GitHub files",
+      "url": "https://www.helpnetsecurity.com/2026/09/18/hush-security-mcp-credential-exposure-report/",
+      "source": "Help Net Security",
+      "date": "2026-09-18",
+      "summary": "Hush Security's research found that 12% of credential slots in approximately 82,000 publicly accessible MCP configuration files on GitHub contained hardcoded credential literals, including API keys and access tokens. The findings highlight identity security gaps in AI coding tool configurations where exposed credentials could provide unauthorized access to connected services and systems.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/06/03083014/lock-boxes-1500.webp",
+      "importance": 7,
+      "paywall": false
     },
     {
-      "title": "The Vendor Rush Is Here: Agent Governance Hits Its Tipping Point",
-      "url": "https://forkast.news/the-vendor-rush-is-here-agent-governance-hits-its-tipping-point/",
-      "source": "Forkast.news",
-      "date": "2026-09-15",
-      "summary": "Multiple major infrastructure vendors have reached general availability with standalone agent governance products, marking a significant shift in the IAM landscape. Okta's July 2026 product innovations were highlighted as pushing furthest into new territory among the competing vendors.",
-      "image": "https://forkast.news/wp-content/uploads/2026/09/enterprise-agent-governance-wave-1024x687.jpg",
-      "importance": 8,
+      "title": "98% of fraudulent hires have company credentials by the time they’re caught",
+      "url": "https://www.helpnetsecurity.com/2026/09/18/hypr-hiring-fraud-detection-report/",
+      "source": "Help Net Security",
+      "date": "2026-09-18",
+      "summary": "HYPR's State of HR Identity Fraud Detection report finds that 98% of fraudulent hires already possess company credentials by the time they are identified. The report highlights a 90-day hiring-to-onboarding gap as a critical vulnerability in enterprise identity security, where attackers obtain legitimate credentials through remote hiring processes rather than network breaches.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2025/12/24083548/person-identity-1500.webp",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "What Recent AI-Powered Attacks Mean for Your Identity Security",
+      "url": "https://www.bleepingcomputer.com/news/security/what-recent-ai-powered-attacks-mean-for-your-identity-security/",
+      "source": "Bleeping Computer",
+      "date": "2026-09-17",
+      "summary": "Specops published analysis on how AI-powered attacks are accelerating credential theft and identity-based threats. The piece argues that identity security must extend beyond authentication to include device trust verification as part of a more comprehensive access control approach.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/09/09/specops-hands-typing.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "A fake ChatGPT billing email is after your OpenAI password",
+      "url": "https://www.helpnetsecurity.com/2026/09/17/chatgpt-phishing-email-openai-password/",
+      "source": "Help Net Security",
+      "date": "2026-09-17",
+      "summary": "A phishing campaign is using fake ChatGPT billing emails to direct users to a spoofed OpenAI login page that harvests their credentials. Cofense's Phishing Defense Center researcher Josh Varden identified the attack, which routes victims through a Google redirect to the attacker-controlled page targeting both work and personal accounts.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/09/16104127/chatgpt-phishing.webp",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "Druva expands identity resilience with ransomware detection",
+      "url": "https://www.helpnetsecurity.com/2026/09/17/druva-identity-resilience-ransomware-detection/",
+      "source": "Help Net Security",
+      "date": "2026-09-17",
+      "summary": "Druva has announced expanded capabilities for its Identity Resilience product, including a new Ransomware Detection feature powered by a proprietary AI threat pipeline called Dru MetaGraph. The new offerings use behavioral intelligence to detect suspicious identity-related activity, confirm compromise impact, and support containment and recovery efforts.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
+      "url": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
+      "source": "The Hacker News",
+      "date": "2026-09-17",
+      "summary": "A critical vulnerability in Check Point's Security Management and Log Servers allows unauthenticated attackers to execute code as root remotely. Check Point has released a fix via its LivePatch update channel and reports no known active exploitation of the flaw.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuFSb4LQQ7e_Iz1RS0JfQEDY9G9LcQZ23RM0h6ladr56GJ6nN3kPwVoZPpNVJUyJEBmLVEyMaIxytF2XqyQs8fGjIdd_ymPjwaZA8Q8R7JiXC-srMFj0_YBd-a94juv46HZm4ie72j7PTj45veyTgOBaeuN53HvktSH3JTgasvV_Mo-RwjsTPnRLlHFVk/s1600/cp-main.jpg",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "Okta CEO Todd McKinnon goes one-on-one with Jim Cramer",
+      "url": "https://biztoc.com/x/6311aee86a757e8f",
+      "source": "Biztoc.com",
+      "date": "2026-09-17",
+      "summary": "Okta CEO Todd McKinnon appeared on CNBC's Mad Money with Jim Cramer to discuss AI agents, quarterly results, and the company's future. The conversation covered Okta's business performance and strategic direction around AI-driven identity.",
+      "image": "https://biztoc.com/cdn/6311aee86a757e8f_s.webp",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Keeper Security、SailPointとの連携により特権アクセスガバナンスを自動化",
+      "url": "https://prtimes.jp/main/html/rd/p/000000132.000113863.html",
+      "source": "Prtimes.jp",
+      "date": "2026-09-17",
+      "summary": "Keeper Security has announced an integration with SailPoint to automate privileged access governance. The partnership combines Keeper's privileged access management capabilities with SailPoint's identity governance platform.",
+      "image": "https://prcdn.freetls.fastly.net/release_image/113863/132/113863-132-e6a9d32e4ff26176701df476b244c2c7-360x360.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -36,7 +138,7 @@
       "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124008-update-breaks-domain-trust-for-some-users/",
       "source": "Bleeping Computer",
       "date": "2026-09-16",
-      "summary": "Microsoft's Windows 11 KB5124008 security update is breaking domain trust relationships on some enterprise systems. Affected users are unable to log in with valid domain credentials, prompting Microsoft to investigate the issue.",
+      "summary": "Microsoft's Windows 11 KB5124008 security update is breaking domain trust relationships on some enterprise systems. The issue prevents users from logging in with valid domain credentials, affecting enterprise authentication infrastructure.",
       "image": "https://www.bleepstatic.com/content/hl-images/2024/10/02/Windows_11_headpic.jpg",
       "importance": 7,
       "paywall": false
@@ -46,41 +148,9 @@
       "url": "https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html",
       "source": "The Hacker News",
       "date": "2026-09-16",
-      "summary": "A phishing kit called N0va is targeting organizations in the US and EU by impersonating trusted services and abusing legitimate authentication flows to compromise user identities. The attacks bypass traditional malware detection by leveraging valid account access, posing a direct threat to identity security and authentication systems.",
+      "summary": "A phishing kit called N0va is targeting organizations in North America and Europe by impersonating trusted services and abusing legitimate authentication flows to compromise user identities. The attacks bypass traditional malware detection by leveraging valid account credentials, enabling threat actors to access sensitive data and cloud business systems through a single compromised identity.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEji_HlxXvIPYjLUnTTNbkIHzO8UKX2MISan0W6hxfEB55j5U8GUlvJexOakfaxqEyihcT1mluW0C2l2X73wbAk8V3K514rf7X4N0Iojw-JrbimvmTAAOQ-3aawWLHywrmGYkwyCzl_zZI5FjVdlY2GIVIPIDn0v1EEh4PqQlAh9tkNk5NjRyoILB5-D7gI/s1600/N0va.jpg",
       "importance": 7,
-      "paywall": false
-    }
-  ],
-  "news": [
-    {
-      "title": "Microsoft shares workaround for Windows domain login issues",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-workaround-for-windows-domain-login-authentication-issues/",
-      "source": "Bleeping Computer",
-      "date": "2026-09-17",
-      "summary": "Microsoft identified a known issue preventing Windows 11 users from logging in with valid domain credentials after installing September 2026 security updates. A temporary workaround has been shared while a permanent fix is in development.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2025/02/07/Windows_11.jpg",
-      "importance": 4,
-      "paywall": false
-    },
-    {
-      "title": "AWS’s new sign-up gives accounts spend caps, email invites, and agent-set permissions",
-      "url": "https://www.helpnetsecurity.com/2026/09/17/aws-spend-limit-agent-set-permissions/",
-      "source": "Help Net Security",
-      "date": "2026-09-17",
-      "summary": "AWS has introduced a new sign-up flow allowing users to authenticate via Google, GitHub, or Apple login, with coding agents automatically configuring permissions within project environments. The new system includes agent-set permissions and a project-based access model, with optional central governance features available for accounts requiring multi-region management.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/06/18062330/aws-1500.webp",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "GNOME 51 adds passkey logins, offline maps and drawn PDF signatures",
-      "url": "https://www.helpnetsecurity.com/2026/09/17/gnome-51-new-features/",
-      "source": "Help Net Security",
-      "date": "2026-09-17",
-      "summary": "GNOME 51, released on September 16, introduces passkey login support at the Linux desktop login screen alongside other features like offline maps and PDF signatures. The passkey functionality adds FIDO2/passkey authentication options to the GNOME display manager for Linux distributions including Fedora 45 and Ubuntu 26.10.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/07/21053944/gnome-1500.webp",
-      "importance": 5,
       "paywall": false
     },
     {
@@ -88,7 +158,7 @@
       "url": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
       "source": "The Hacker News",
       "date": "2026-09-16",
-      "summary": "A critical vulnerability (CVE-2026-5430, CVSS 9.8) in WSO2 API Manager is being actively exploited in the wild, allowing attackers to forge admin tokens by bypassing JWT authentication through improper cryptographic signature verification. The flaw can result in full account takeover, as reported by watchTowr.",
+      "summary": "A critical vulnerability (CVE-2026-5430, CVSS 9.8) in WSO2 API Manager is being actively exploited in the wild, allowing attackers to bypass JWT authentication through improper cryptographic signature verification. The flaw enables account takeover via forged admin tokens, with exploitation attempts documented by watchTowr researchers.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjenXPNzZ8-fnZOSWlAtRwfZVCV0iy-vnK86gK4vmTGsWSjSS7x9a3k80NLsiEZUym2AjBaYj7pLtxyQju7Hiyl6ttQPyXEPMy7Gwn_bQTTTaUOB-8HbhJfYxl54Z3WE5yqKEoW1vvkCBukKwea-6DlpBiO6i08Zo0GhBoqgRsGGXadsOYy8COPUPQ7rn2w/s1600/jwt-api.jpg",
       "importance": 7,
       "paywall": false
@@ -98,9 +168,39 @@
       "url": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
       "source": "The Hacker News",
       "date": "2026-09-16",
-      "summary": "Elastic Security Labs has identified a Brazilian banking malware called KREMLIN, tracked as REF9334, that hijacks Chrome and Edge browsers to steal credentials and session tokens. The malware uses browser extensions to target users of Brazilian banks by impersonating their login pages, directly compromising authentication credentials and session data.",
+      "summary": "Elastic Security Labs has documented a Brazilian banking malware called KREMLIN, tracked as REF9334, which hijacks Chrome and Edge browsers to steal credentials and session tokens. The malware uses browser extensions to target users of Brazilian banks by impersonating their login pages.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPTs6qupSdjinGg233zkoldOvlD4cva51loWufV3l9GrlDopNRIKsV9yluCDjbGELBAAvVGx_h4R-sjx4jvDp290Znzhv6j546sq5JB0NJUShGVV3w0gKU7nu4dBVCosaPeKW-Pr1_WHn4FV26aEJRgEo7oSJsgUE5_ZGCMKWPPBdZ7NMh5XRr04Cs6qTh/s1600/browser-malware.jpg",
-      "importance": 5,
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "SailPoint (SAIL) Reaches $1.2 Billion ARR. Can AI Growth Lift Revenue and Cash Flow?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sailpoint-sail-reaches-1-2-200914884.html",
+      "source": "Yahoo Entertainment",
+      "date": "2026-09-16",
+      "summary": "SailPoint reported fiscal Q2 2027 revenue of $308.8 million, a 17% year-over-year increase, with annual recurring revenue reaching $1.2 billion. The company highlighted AI-driven growth as a factor in its financial performance.",
+      "image": "https://s.yimg.com/lo/mysterio/api/5e12db6d7f171dd5cf5ffa6917259265316b6f95dc255996f3a80e7e7c8a07c5/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2Fd15130425b806b509938ee3278c36175.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "CISA and NIST Issue Guidance to Protect Cloud Identity Tokens",
+      "url": "https://www.infosecurity-magazine.com/news/cisa-nist-cloud-identity-token/",
+      "source": "Infosecurity Magazine",
+      "date": "2026-09-16",
+      "summary": "CISA and NIST have released final guidance aimed at protecting cloud identity tokens and assertions. The guidance targets a critical component of cloud authentication infrastructure used across identity federation and SSO implementations.",
+      "image": "https://assets.infosecurity-magazine.com/webpage/og/b82afd72-1fc3-4a9e-8f90-37f2e0b2e9b2.jpg",
+      "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "Quest Software Takes Aim at Rogue AI Agents as Identity Security Threats Drive 90% of Cyber Incidents",
+      "url": "https://www.prnewswire.com/news-releases/quest-software-takes-aim-at-rogue-ai-agents-as-identity-security-threats-drive-90-of-cyber-incidents-302879876.html",
+      "source": "PRNewswire",
+      "date": "2026-09-16",
+      "summary": "Quest Software announced a major expansion of its Quest Security Manager platform, positioning it as a NIST-aligned identity security solution targeting AI agent-related threats. The platform is designed to expose identity risk, contain lateral movement attacks, and accelerate recovery of critical operations.",
+      "image": "https://mmx.prnewswire.com/media/MS1989374/Quest-Software-Logo.jpg?id=OA2951511&p=facebook",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -108,7 +208,7 @@
       "url": "https://financialpost.com/globe-newswire/kuppingercole-analysts-include-regula-in-the-leadership-compass-for-its-identity-data-control-and-document-verification",
       "source": "Financial Post",
       "date": "2026-09-16",
-      "summary": "KuppingerCole Analysts has included Regula in its 2026 Leadership Compass for Identity Verification, recognizing the vendor among leading providers in the space. Regula's inclusion is attributed to its privacy-first approach to identity checks and document verification capabilities.",
+      "summary": "KuppingerCole Analysts has included Regula in its 2026 Leadership Compass for Identity Verification, recognizing the vendor among leading identity verification providers. Regula was noted for its privacy-first approach to identity checks and document verification capabilities.",
       "image": null,
       "importance": 5,
       "paywall": false
@@ -118,9 +218,19 @@
       "url": "https://aws.amazon.com/blogs/security/aws-sts-simplifies-session-token-size-limits-and-adds-session-token-size-monitoring/",
       "source": "Amazon.com",
       "date": "2026-09-15",
-      "summary": "AWS Security Token Service (STS) has replaced its previous packed policy size and overall session token size limits with a single unified token size limit. This change gives IAM users more flexibility when working with session policies and session tags, and adds monitoring capabilities for session token size.",
+      "summary": "AWS Security Token Service (STS) has simplified its session token size limits by replacing the packed policy size and overall session token size limits with a single token size limit. The update also adds session token size monitoring, giving IAM practitioners more flexibility when working with session policies and session tags.",
       "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/08/11/STS-Token-Blog-Hero-1200x600-1.jpg",
       "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "The Vendor Rush Is Here: Agent Governance Hits Its Tipping Point",
+      "url": "https://forkast.news/the-vendor-rush-is-here-agent-governance-hits-its-tipping-point/",
+      "source": "Forkast.news",
+      "date": "2026-09-15",
+      "summary": "Major infrastructure vendors including Okta have reached a tipping point in agent governance, with four vendors shipping standalone agent governance products at general availability. Okta's July 2026 product innovations were highlighted as pushing furthest into new territory in this emerging category.",
+      "image": "https://forkast.news/wp-content/uploads/2026/09/enterprise-agent-governance-wave-1024x687.jpg",
+      "importance": 8,
       "paywall": false
     },
     {
@@ -128,7 +238,7 @@
       "url": "https://aws.amazon.com/blogs/security/architecting-resilient-authentication-with-amazon-cognito-multi-region-replication/",
       "source": "Amazon.com",
       "date": "2026-09-15",
-      "summary": "Amazon Web Services published guidance on architecting resilient consumer identity and access management (CIAM) systems using Amazon Cognito with multi-Region replication. The article covers how to maintain authentication availability as businesses scale across geographies, addressing failover and redundancy for user sign-in and access services.",
+      "summary": "AWS published guidance on architecting resilient consumer identity and access management (CIAM) systems using Amazon Cognito with multi-Region replication. The article addresses authentication availability and continuity as businesses scale across geographies, covering replication strategies for user pools and authentication flows.",
       "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/09/15/architecting-resilient-1260x630.jpg",
       "importance": 7,
       "paywall": false
@@ -138,7 +248,7 @@
       "url": "https://www.zdnet.com/paid-content/article/how-cisco-is-confronting-the-security-crisis-of-agentic-ai/",
       "source": "ZDNet",
       "date": "2026-09-15",
-      "summary": "Cisco's VP of product for identity has warned that shadow AI agents are present in nearly every environment, posing a significant security challenge. The company has developed Duo Agentic Identity, a product designed to address identity and access management challenges specific to agentic AI systems.",
+      "summary": "Cisco's VP of product for identity has flagged the widespread presence of unauthorized \"shadow agents\" in enterprise environments as a growing security concern. Cisco is addressing this through its Duo Agentic Identity product, designed to manage and secure agentic AI within identity infrastructure.",
       "image": "https://www.zdnet.com/wp-content/uploads/sites/3/zdnet-cisco-duo-interview-article-header_06c6b8.jpg",
       "importance": 7,
       "paywall": false
@@ -148,58 +258,8 @@
       "url": "https://aws.amazon.com/blogs/security/operationalizing-least-privilege-automate-iam-remediation-through-your-ci-cd-pipeline/",
       "source": "Amazon.com",
       "date": "2026-09-15",
-      "summary": "The article addresses operationalizing least privilege access controls in AWS by automating IAM remediation through CI/CD pipelines. It focuses on the practical challenge of permission sprawl that occurs during application deployment and proposes automated tooling as a solution for maintaining least privilege at scale.",
+      "summary": "The article addresses operationalizing least privilege in AWS environments by automating IAM remediation through CI/CD pipelines. It focuses on the practical challenge of permission sprawl during application deployment and proposes automated tooling as a solution for maintaining least privilege at scale.",
       "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/09/10/Key-lock-main-1260x630.jpeg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "What Actually Lifted Okta Stock To A One-Year High?",
-      "url": "https://www.trefis.com/articles/615399/what-actually-lifted-okta-stock-to-a-one-year-high/2026-09-15",
-      "source": "Trefis",
-      "date": "2026-09-15",
-      "summary": "Okta's stock rose 12% in a single session, closing at $186.45, its highest price in one year. The article examines the specific factors driving the significant share price increase for the IAM vendor.",
-      "image": "https://s.yimg.com/lo/mysterio/api/cad0244d127d4de8b8b741ff58b44391bb778cdd9cca3c7731b7afa6477b7a31/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftrefis_142%2F76f67321f301c304c1642284cf82390d.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
-      "url": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
-      "source": "The Hacker News",
-      "date": "2026-09-14",
-      "summary": "An attacker compromised 3BB, a major Thai broadband provider, using MeshCentral as a backdoor to maintain root access to internal machines. The attack targeted subscriber credentials, with threat intelligence firm Hunt.io discovering the intrusion through an exposed attacker-controlled server.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9khzZCrFkNfQ1fOYHT8A4LJrIsfc52ppe6xZffdUrfRacqTVQ76P0VPDZhqC2UfKM32jdbEiQfaCZDbrV2F0_dssOM8V8nT3ZZYvwhflLdfEhJhdNa0-UntK9XHkFJ4R5RthFMOM2X5kDZxUKW1RnRLmmQ0xLh5foMldMZovB0ZPdafoRf9cEb_w9Hwk/s1600/3bb.jpg",
-      "importance": 4,
-      "paywall": false
-    },
-    {
-      "title": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
-      "url": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html",
-      "source": "The Hacker News",
-      "date": "2026-09-14",
-      "summary": "A malicious browser extension named \"Twitch Enhanced Viewer | JeetBot\" exfiltrated OAuth tokens from nearly 31,000 Twitch users to proxy servers linked to a Russian commercial bot service. The extension was distributed across both the Google Chrome Web Store and Mozilla Firefox Add-Ons store, exploiting OAuth token theft as the attack vector.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguNgykDjufnR6xGrMUSq67eZ5sCFxbYjf8J6pEXekhUnt-zCt2xaJ4jzj6I0wPMYjps9z2ufKJ-JSJ8ZqhGe4BcbtNWfRETdaB6QgIRVLw0CtnsM5q2qCpyI3kL7oBXmNixcTTcumZJHFgCKaoLY8kRIBDbPHslMmmzzb25TlESGooJuaxtXEL5qrUzkop/s1600/twitch.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "IDrive Adds Microsoft Entra ID Backup to Strengthen Identity and Access Protection for Microsoft 365 Organizations",
-      "url": "https://www.prnewswire.com/news-releases/idrive-adds-microsoft-entra-id-backup-to-strengthen-identity-and-access-protection-for-microsoft-365-organizations-302877858.html",
-      "source": "PRNewswire",
-      "date": "2026-09-14",
-      "summary": "IDrive has added Microsoft Entra ID Backup functionality to its IDrive Microsoft 365 Backup solution. The new capability is designed to help organizations protect and recover identity and access data stored in Microsoft Entra ID.",
-      "image": null,
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
-      "url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
-      "source": "The Hacker News",
-      "date": "2026-09-13",
-      "summary": "Microsoft disclosed two threat actor campaigns involving abuse of third-party email delivery infrastructure for financial fraud and passkey-themed social engineering to breach cloud environments. The campaigns include over one million scam emails sent between August 3-5, 2026, with attackers impersonating CEOs to hijack Microsoft cloud accounts and exfiltrate data.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZ2E2hmYwxfZ25xw5iPhCHaSDENcuEyEIaha9e_rIJCf68srth31FtjIiIlnOcEiSQDDuk2Vg-dQdNLfR753ePSoDntP3BS-MGbEH2DS8Ch5ihzhpiDZZm5UIzKCbL1vNJSwSABCYst8oG6Oa-7iBWaSF6WSTEkCJBAi9YEEwAmVEdGYvu-JWZnxwEX9ni/s1600/ms-outlook.jpg",
       "importance": 7,
       "paywall": false
     },
@@ -208,7 +268,7 @@
       "url": "https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements",
       "source": "Dark Reading",
       "date": "2026-09-10",
-      "summary": "The EU Cyber Resilience Act begins enforcing a 24-hour mandatory reporting requirement for serious product security incidents affecting European organizations. This regulatory change imposes new compliance obligations on organizations handling software and connected products, including IAM systems and vendors operating in the EU market.",
+      "summary": "The EU Cyber Resilience Act begins enforcing a 24-hour mandatory reporting requirement for serious product security incidents affecting European organizations. This regulatory change introduces new compliance obligations relevant to IAM and security teams managing access to critical systems and products.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltba41cd0488eb4d89/6aa1a2aa145a18d222181a6c/EU_lock-Alexey_Krukovsky-Getty.jpg?width=720&quality=80&disable=upscale",
       "importance": 6,
       "paywall": false
@@ -218,9 +278,9 @@
       "url": "https://www.darkreading.com/threat-intelligence/identity-based-ai-attack-security-enterprise-data",
       "source": "Dark Reading",
       "date": "2026-09-09",
-      "summary": "A new attack technique called \"workflow identity hijacking\" has been identified that can bypass standard security controls by exploiting unauthenticated entry points to compromise enterprise data. The attack targets identity-based weaknesses in AI workflows, enabling unauthorized access without triggering conventional authentication defenses.",
+      "summary": "A new attack technique called \"workflow identity hijacking\" has been identified that can bypass standard security controls by exploiting unauthenticated entry points in enterprise environments. The attack targets identity-based weaknesses in AI workflows to gain unauthorized access to organizational data.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte7893676670a76d5/6aa13f3e0a3bef09c363535c/Data_security(1800)_ber1a_Alamy.png?width=720&quality=80&disable=upscale",
-      "importance": 8,
+      "importance": 7,
       "paywall": false
     },
     {
@@ -228,7 +288,7 @@
       "url": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
       "source": "Krebs on Security",
       "date": "2026-09-08",
-      "summary": "Microsoft released a record-breaking patch batch addressing at least 974 security vulnerabilities across Windows and other software. AI is being credited with accelerating vulnerability discovery, though security teams are struggling to prioritize testing and deploying the volume of fixes.",
+      "summary": "Microsoft released a patch batch of at least 974 security vulnerabilities across Windows and other software, its largest ever. AI is being credited for accelerating vulnerability discovery, though security experts note organizations are struggling to prioritize and deploy the high volume of fixes.",
       "image": null,
       "importance": 3,
       "paywall": false
@@ -238,7 +298,7 @@
       "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
       "source": "Krebs on Security",
       "date": "2026-09-01",
-      "summary": "A dark web service is selling digital scans of over 153 million U.S. and Canadian driver's licenses, allegedly sourced from a Louisiana-based identity verification company. The FBI's New Orleans field office has opened an official inquiry into the breach, which affects a widely-used identity verification provider.",
+      "summary": "A dark web service is selling digital scans of over 153 million U.S. and Canadian drivers licenses, allegedly sourced from a Louisiana-based identity verification company. The FBI's New Orleans field office has opened an official inquiry into the breach.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -248,9 +308,9 @@
       "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
       "source": "Krebs on Security",
       "date": "2026-08-06",
-      "summary": "Canadian man Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges for hacking and extorting over 165 organizations using Snowflake cloud storage. The attacks involved unauthorized access to accounts, relevant to IAM as a case study in credential-based cloud account compromise.",
+      "summary": "Canadian man Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges related to hacking and extorting over 165 organizations using Snowflake's cloud data storage platform. The attacks also resulted in the theft of call and text records belonging to more than 100 million AT&T customers.",
       "image": null,
-      "importance": 5,
+      "importance": 4,
       "paywall": false
     }
   ]
