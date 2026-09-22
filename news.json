@@ -1,23 +1,13 @@
 {
-  "updated": "September 21, 2026 at 08:52 UTC",
+  "updated": "September 22, 2026 at 08:31 UTC",
   "top_stories": [
     {
       "title": "Cisco Zero-Day Highlights API Endpoint Authentication Issues",
       "url": "https://www.darkreading.com/vulnerabilities-threats/cisco-zero-day-api-endpoint-authentication-issues",
       "source": "Dark Reading",
       "date": "2026-09-18",
-      "summary": "A maximum-severity authentication bypass vulnerability (CVE-2026-76460) has been discovered in Cisco's Identity Services Engine (ISE), receiving a CVSS score of 10 out of 10. The zero-day flaw affects API endpoint authentication in Cisco ISE, a widely used network access control and identity management platform.",
+      "summary": "A maximum-severity authentication bypass vulnerability (CVE-2026-76460) has been discovered in Cisco's Identity Services Engine (ISE), receiving a perfect 10.0 CVSS score. The flaw targets API endpoint authentication, allowing attackers to bypass authentication controls in Cisco's NAC and identity management platform.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9b9202e55102d483/6aad857c8cb60c3268956114/api-saifulasmee_chede-Getty-2203607940.jpg?width=720&quality=80&disable=upscale",
-      "importance": 9,
-      "paywall": false
-    },
-    {
-      "title": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
-      "url": "https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
-      "source": "The Hacker News",
-      "date": "2026-09-17",
-      "summary": "Cisco has disclosed a maximum-severity (CVSS 10.0) zero-day vulnerability in its Identity Services Engine (ISE), tracked as CVE-2026-76460, that is actively being exploited in the wild. The flaw allows unauthenticated remote attackers to bypass authentication due to insufficient authentication controls on an API endpoint.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKC3hrw_VedPPLj2lAD6qhUn-7eJuJ8dqSBMAOwTEjUdYxlwnOla9dFF4pwOBNr-QsjzJPuXEtkA6orbkLHUqHI3RbWMBR0VeNaYvZqSnkNnM5HH-T9ofLeBzrZcOXn5nbZyNC2YeQjANmTzBAhaAwhDoGoXLJOeB1nFbIr-TJuFTHM8y0TAzj6Hxd0MYM/s1600/cisco-0-day.jpg",
       "importance": 9,
       "paywall": false
     },
@@ -26,7 +16,7 @@
       "url": "https://forkast.news/the-pillar-cracks-three-ways-azure-identity-infrastructure-takes-three-max-severity-hits-in-one-patch-tuesday-2/",
       "source": "Forkast.news",
       "date": "2026-09-17",
-      "summary": "Microsoft's September 2026 Patch Tuesday addressed three maximum-severity vulnerabilities targeting the Azure identity infrastructure, part of a record-breaking 964 CVE patch cycle. All three flaws directly affect Azure's identity stack, posing significant risks to authentication and access management systems built on Microsoft's cloud platform.",
+      "summary": "Microsoft's September 2026 Patch Tuesday addressed three maximum-severity vulnerabilities targeting the Azure identity infrastructure, part of a record-breaking 964 CVE patch cycle. All three flaws targeted the Azure identity stack, representing a concentrated attack surface against Microsoft's cloud identity systems.",
       "image": null,
       "importance": 9,
       "paywall": false
@@ -36,7 +26,7 @@
       "url": "https://forkast.news/microsoft-entra-agent-id-expands-with-mcp-firewall-adding-network-level-control-to-agent-governance/",
       "source": "Forkast.news",
       "date": "2026-09-17",
-      "summary": "Microsoft is expanding its Entra Agent ID governance framework with the introduction of an MCP Firewall, adding network-level control to AI agent management. The new capability provides security teams with additional controls to govern AI agents operating in enterprise production environments within the Microsoft Entra ecosystem.",
+      "summary": "Microsoft is expanding its Entra Agent ID governance framework with the introduction of an MCP Firewall, adding network-level control to AI agent management. The new capability extends Microsoft Entra's identity governance to AI agents operating in enterprise production environments, providing security teams with additional controls over agent behavior and access.",
       "image": "https://forkast.news/wp-content/uploads/2026/09/entra-mcp-firewall-hero-1024x572.jpg",
       "importance": 8,
       "paywall": false
@@ -46,21 +36,71 @@
       "url": "https://www.darkreading.com/vulnerabilities-threats/mfa-oauth-consent-abuse",
       "source": "Dark Reading",
       "date": "2026-09-18",
-      "summary": "The article argues that MFA is insufficient to protect against OAuth consent abuse attacks, where attackers trick users into granting malicious applications access to their accounts. The piece highlights the need for OAuth governance controls including least-privilege scopes, consent monitoring, and token revocation capabilities as necessary complements to MFA.",
+      "summary": "The article argues that MFA is insufficient to protect against OAuth consent abuse attacks, where attackers exploit delegated permissions rather than compromised credentials. The piece covers OAuth governance controls including least-privilege scopes, consent monitoring, and token revocation as necessary complementary measures.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt8631b42f8b5aec85/6aad80fd266d963c81df6ccc/approval-_acilo_-_getty-471084261.jpg?width=720&quality=80&disable=upscale",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft reminds admins to migrate Entra ID users to passkeys",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-migrate-entra-id-users-to-passkeys/",
+      "source": "Bleeping Computer",
+      "date": "2026-09-21",
+      "summary": "Microsoft has issued a reminder to administrators to migrate Entra ID users to phishing-resistant authentication methods, such as passkeys, ahead of a policy change. SMS first-factor sign-in will be retired starting February 2027, with admins warned that failure to migrate will cause sign-in disruptions for affected users.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/03/12/Hacking_login.jpg",
       "importance": 7,
       "paywall": false
     }
   ],
   "news": [
     {
+      "title": "Passwork NIS2 efficiency guide: Save your team hours before the 2026 audit",
+      "url": "https://www.helpnetsecurity.com/2026/09/22/passwork-nis2-compliance-guide/",
+      "source": "Help Net Security",
+      "date": "2026-09-22",
+      "summary": "Passwork has published a NIS2 compliance efficiency guide aimed at helping organizations prepare for 2026 EU audit reviews. The guide addresses IAM implementation challenges highlighted by ENISA's 2025 report, which found 34% of EU organizations face severe IAM skills shortages under NIS2 requirements.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/02/28064142/nis2-eu-1.webp",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "FBI's CJIS v6.1: What Security Teams Need to Know.",
+      "url": "https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/",
+      "source": "Bleeping Computer",
+      "date": "2026-09-21",
+      "summary": "The FBI updated its Criminal Justice Information Services (CJIS) Security Policy to version 6.1, introducing stronger requirements around encryption, vulnerability scanning, MFA, and identity management. Specops outlines the changes and provides guidance for agencies preparing for audits under the new policy.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/09/14/specops-legal-doc.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
+      "url": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
+      "source": "The Hacker News",
+      "date": "2026-09-21",
+      "summary": "Researchers at LastPass and Delphos Labs discovered a fake LastPass Authenticator installer on GitHub that deploys a Microsoft-signed Windows kernel driver to disable antivirus and EDR software before executing a password stealer. The malicious driver, signed through Microsoft's hardware compatibility program, scored zero detections on VirusTotal, making it a significant supply chain and credential theft threat targeting LastPass users.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEil-5ZV6QK7R23fL7Vtl-pdxgFYPAG9dT_cIIrXWgR70hLZRM705Ij3WuRpCL00VuDop9dTmVNf1t3QS60nqRGV9GCzsZ792yd7mFY_pjvgfufOK9D-oQJdxP4ZtrXiyeq08KNUBv3-mhQ_KCiCOMWIbeQpCAyF_h4lMZw54T0l9AcDdGf6aRptXAZJNcU/s1600/last.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
       "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
       "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
       "source": "The Hacker News",
       "date": "2026-09-20",
-      "summary": "Security researchers at Hacktron used Claude Opus 5 to chain two vulnerabilities—a bug in OpenAI's help forum software and a weakness in OpenAI's login system—to take over ChatGPT and Codex accounts of OpenAI employees and access an internal code repository. The attack exploited flaws in OpenAI's authentication and account management infrastructure, demonstrating AI-assisted account takeover via chained identity and login weaknesses.",
+      "summary": "Security researchers at Hacktron used Claude Opus 5 to chain two vulnerabilities—a bug in OpenAI's public help forum software and a weakness in OpenAI's login system—to take over ChatGPT and Codex accounts belonging to OpenAI employees. The attack chain ultimately granted access to an internal OpenAI code repository, demonstrating an account takeover via chained authentication and session flaws.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAElV4rXwWf_kTjj5e0UJFsEG-a0B7MUsCFqhFLYEA76kk2A7UeXbaG0DfRt-Syf7dxx4bHUanr0lVvwIUFyFgtPIfhyphenhyphenx61ccuo3oDZr6-wKROoEAVWjrAcKWuZ5WdlvL_pmKC91i9juBrsnI3FiLTGGgjnnJRAnjTgAxAbMjcbCTxZSWybZPPtG8HN1E/s1600/claude-openai.jpg",
       "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Okta Stock Is Up 132% Since March. Is the Stock Already Priced In?",
+      "url": "https://biztoc.com/x/db2263226ba72779",
+      "source": "Biztoc.com",
+      "date": "2026-09-20",
+      "summary": "Okta stock has risen 132.5% since mid-March, with a 21% single-day jump on August 27 following a fiscal second-quarter earnings beat. Analyst ratings currently stand at 25 buys, 9 outperforms, 10 holds, and 1 underperform.",
+      "image": "https://biztoc.com/cdn/db2263226ba72779_s.webp",
+      "importance": 3,
       "paywall": false
     },
     {
@@ -68,9 +108,9 @@
       "url": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
       "source": "The Hacker News",
       "date": "2026-09-19",
-      "summary": "An article examines identity visibility as a foundational element of identity security in IAM, citing credential theft as a leading breach vector per Verizon's DBIR. The piece covers what identity visibility means in IAM contexts and how cloud and multicloud environments create additional complexity for managing it.",
+      "summary": "An article explains the concept of identity visibility as a foundational element of modern identity security, referencing credential theft as a leading breach vector per Verizon's DBIR. The piece covers what identity visibility means in IAM contexts and why cloud and multicloud environments present complications for achieving it.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTFTNQKV-yV8FRZZRLBPRxZDhk6E7s3v8SpP5xW_aeDyMz-xMvi-xAVUmvDvMC-CnU1kddKpVGN9BBzeoH4xeq8zE3OAqUq5441sYhC4tfYcyU1-3_yPkVphC-20dCQX_e5kN_G-Ji42wbYuxavkjczHwYn9QP0WRXnN16KUA33kizHwh38yQl7clZAA0/s1600/ORCHID-1.jpg",
-      "importance": 6,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -78,7 +118,7 @@
       "url": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
       "source": "The Hacker News",
       "date": "2026-09-19",
-      "summary": "SolarWinds has patched a high-severity vulnerability (CVE-2026-28326, CVSS 8.8) in its Access Rights Manager (ARM) product involving a hard-coded key that could allow unauthenticated remote code execution. The flaw affects all versions of Access Rights Manager 2026.2 and prior.",
+      "summary": "SolarWinds has patched a high-severity vulnerability (CVE-2026-28326, CVSS 8.8) in its Access Rights Manager (ARM) product that could allow unauthenticated remote code execution via a hard-coded key flaw. The flaw affects all versions of Access Rights Manager 2026.2 and prior.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXW-SaTg898BaxxlrDjSCrcm6ZYDgxoeuYCBY4QNWs6Nt5RhyphenhyphenCf4iSIyodz-7jk8rTqUT8hjlMT74dIf6ZjL_pD5NmiNbAHhsZwzw2rakJUDaU1tVeEvKw7Az3tMf34Xwh3ffToJeI1tpTQ8rAR8AvVn2XTupFgfhehb9sHClHDDGeDd4Y9z4oUf5CYPoS/s1600/solar.jpg",
       "importance": 7,
       "paywall": false
@@ -88,29 +128,9 @@
       "url": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
       "source": "The Hacker News",
       "date": "2026-09-19",
-      "summary": "CrowdSec disclosed that approximately 170 private GitHub repositories were copied by an attacker on May 22, exploiting the active account of a recently departed employee whose offboarding had not included revoking GitHub access. The breach originated from a supply chain attack on TanStack npm packages that stole credentials from the former employee's laptop, highlighting failures in access deprovisioning and identity lifecycle management.",
+      "summary": "CrowdSec disclosed that an attacker copied approximately 170 private GitHub repositories on May 22 by using the credentials of a recently departed employee whose access had not been revoked. The breach originated from a supply chain attack on TanStack npm packages that stole credentials, highlighting failures in access deprovisioning and offboarding processes.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1oastBaXn1Z-Cqbx-BPWZb2oSsgDseV8bReFs787OUvmfsQxJppvU6Fq_uUY_yrCdz1Z4xuevbNRdG88X9lnejn0NUF2RILOB8VxTm8lGXQ6VpZ1hPPqfmC4U86Ci2iYpIqpjy_3H3rCxJe6_9AKm0U9vgO6GHGrDHaKSdzCcFfgpUolbZvSB6VPbCC8/s1600/crowdsec.jpg",
       "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Fake LastPass Authenticator GitHub repos push new Rapuncel infostealer",
-      "url": "https://www.bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer/",
-      "source": "Bleeping Computer",
-      "date": "2026-09-18",
-      "summary": "A malware campaign is using SEO-optimized GitHub repositories to impersonate LastPass Authenticator and other software firms to distribute a new infostealer called Rapuncel. The campaign specifically targets authentication and password management tools, posing a direct threat to users seeking legitimate IAM-related software downloads.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/06/23/lastpass.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Secure enterprise sharing with access reviews for Microsoft 365",
-      "url": "https://www.bleepingcomputer.com/news/security/secure-enterprise-sharing-with-access-reviews-for-microsoft-365/",
-      "source": "Bleeping Computer",
-      "date": "2026-09-18",
-      "summary": "tenfold Software has published guidance on managing file-sharing access sprawl in Microsoft 365 through centralized access governance and owner-driven access reviews. The piece addresses how organizations can gain visibility into and remediate stale or unnecessary access permissions to sensitive data in Microsoft 365 environments.",
-      "image": "https://www.bleepstatic.com/content/posts/2026/09/09/tenfold-upload.jpg",
-      "importance": 7,
       "paywall": false
     },
     {
@@ -118,7 +138,7 @@
       "url": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
       "source": "The Hacker News",
       "date": "2026-09-18",
-      "summary": "Microsoft patched a maximum-severity (CVSS 10.0) vulnerability in Azure AI Foundry, tracked as CVE-2026-85889, that allowed unauthorized attackers to escalate privileges over a network. The flaw stemmed from missing authentication for a critical function, and Microsoft states no customer action is required as fixes have been deployed.",
+      "summary": "Microsoft patched a maximum-severity (CVSS 10.0) vulnerability in Azure AI Foundry, tracked as CVE-2026-85889, that allowed unauthorized privilege escalation over a network due to missing authentication for a critical function. The fix was applied server-side and requires no customer action.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiML2C2l_2QmIUPPt9Gs6K9nVdVk9WZWhJaeBQjf92a7R0O0ghnhNznkqPHwG1quCmfadrkibl0WJhLioNmbATDXGxPcy6EHuDVvUrcDF_q0m23IQD1CxL0DsMZT2ZnXCtOyGADMztIcBmgQzaAvNQR39JWnvbG085s4q4W01UQnH4g-Yj15_ZKrJXDaOpQ/s1600/ms-azure.jpg",
       "importance": 6,
       "paywall": false
@@ -128,7 +148,7 @@
       "url": "https://finance.yahoo.com/technology/ai/articles/sailpoint-sail-falcon-next-gen-183101460.html",
       "source": "Yahoo Entertainment",
       "date": "2026-09-18",
-      "summary": "SailPoint expanded its strategic alliance with CrowdStrike, integrating with CrowdStrike's Falcon Next-Gen SIEM platform. The partnership advances SailPoint's identity security capabilities by combining identity governance data with CrowdStrike's threat detection and security operations tooling.",
+      "summary": "SailPoint expanded its strategic alliance with CrowdStrike, integrating with CrowdStrike's Falcon Next-Gen SIEM platform. The partnership connects SailPoint's identity governance capabilities with CrowdStrike's security operations tooling.",
       "image": "https://s.yimg.com/lo/mysterio/api/1dc026d707dee455caf1d85c9159bc8fae5962ed0e1f3b4f8c5cba6f9bbb5384/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2Fbf11bfbf19a24a68218c8b54b3a098f3.jpg",
       "importance": 7,
       "paywall": false
@@ -138,7 +158,7 @@
       "url": "https://biztoc.com/x/32b2c973000c6628",
       "source": "Biztoc.com",
       "date": "2026-09-18",
-      "summary": "Jim Cramer commented on Okta during a Mad Money episode, stating that AI is not making Okta's identity security software obsolete. The segment is a brief media mention of Okta framed around AI trends rather than reporting any concrete company news or product developments.",
+      "summary": "Jim Cramer discussed Okta on a September 16 episode of Mad Money, arguing that AI is making Okta's identity security software more essential rather than obsolete. The segment is a brief television commentary on Okta's market position rather than reporting any new product, financial, or operational development from the company.",
       "image": "https://biztoc.com/cdn/32b2c973000c6628_s.webp",
       "importance": 3,
       "paywall": false
@@ -148,7 +168,7 @@
       "url": "https://biztoc.com/x/75e95d3d0f4cee87",
       "source": "Biztoc.com",
       "date": "2026-09-18",
-      "summary": "Okta's stock rose 10% this week, driven by positive market momentum among cybersecurity names and solid earnings results. The article covers the financial performance of the identity and authentication platform vendor Okta.",
+      "summary": "Okta's stock rose 10% this week, driven by positive market momentum among cybersecurity names and solid earnings results. The article covers Okta's financial performance as an enterprise authentication and identity platform.",
       "image": "https://biztoc.com/cdn/75e95d3d0f4cee87_s.webp",
       "importance": 6,
       "paywall": false
@@ -158,18 +178,18 @@
       "url": "https://kitploit.com/en/posts/github-jumpserver-jumpserver-v500",
       "source": "Kitploit.com",
       "date": "2026-09-18",
-      "summary": "JumpServer has released version 5.0.0 of its open-source Privileged Access Management platform. The platform provides DevOps and IT teams with secure access to SSH, RDP, Kubernetes, Database, and RemoteApp endpoints through a web browser.",
+      "summary": "JumpServer has released version 5.0.0 of its open-source Privileged Access Management platform. The platform provides DevOps and IT teams with secure access to SSH, RDP, Kubernetes, database, and RemoteApp endpoints through a web browser.",
       "image": "https://assets.kitploit.com/production/public/tools/9035/0f9c64e97e720e22b1483be483fa6ea8438dee812c3d54b8b018a55155b9fff8.png",
       "importance": 7,
       "paywall": false
     },
     {
-      "title": "Gyazo Breach Exposes 23.62 Million User Records and 490 Million Image Metadata Records",
-      "url": "https://thehackernews.com/2026/09/gyazo-breach-exposes-2362-million-user.html",
+      "title": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
+      "url": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
       "source": "The Hacker News",
       "date": "2026-09-17",
-      "summary": "Gyazo, an image-sharing service operated by Helpfeel, suffered a data breach exposing approximately 23.62 million user records including email addresses and password hashes. The breach also exposed around 490 million image metadata records, primarily for images from January 2019 or earlier.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjo_VMcM5A8FocwrVqXOjmk-BvMd3D_JA6RIur9wT4Gca5jQjiLLinldpcu3u2hWmJQeJZg5nhVRBwxHe2y0BHg1TZEd046RkPLatyX5JN-7_WtuRyPMX3VnMCAs7tfCYOSghFuBCUT6HFyCBH-bLeAPWlAj9TPtAn1sitCktd2vp_pJr6VtzHd2_EFDpo/s1600/gyazo.jpg",
+      "summary": "A critical vulnerability in Check Point's Security Management and Log Servers allows unauthenticated remote attackers to execute code as root. Check Point has released a patch via its LivePatch update channel and reports no known exploitation in the wild.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuFSb4LQQ7e_Iz1RS0JfQEDY9G9LcQZ23RM0h6ladr56GJ6nN3kPwVoZPpNVJUyJEBmLVEyMaIxytF2XqyQs8fGjIdd_ymPjwaZA8Q8R7JiXC-srMFj0_YBd-a94juv46HZm4ie72j7PTj45veyTgOBaeuN53HvktSH3JTgasvV_Mo-RwjsTPnRLlHFVk/s1600/cp-main.jpg",
       "importance": 4,
       "paywall": false
     },
@@ -178,7 +198,7 @@
       "url": "https://kitploit.com/en/posts/github-keycloak-keycloak-2674",
       "source": "Kitploit.com",
       "date": "2026-09-17",
-      "summary": "Keycloak has released version 26.7.4 of its open source identity and access management platform. The release continues support for modern applications and services through the open source IAM project maintained by Red Hat.",
+      "summary": "Keycloak has released version 26.7.4 of its open source identity and access management platform. The release continues Keycloak's support for modern applications and services with this minor version update.",
       "image": "https://assets.kitploit.com/production/public/tools/50743/f62b3e3d2e3b70008a97b2c459aaed5342b1b8144b52d491e5ef016d9b7ecc60-social-v1.webp",
       "importance": 3,
       "paywall": false
@@ -188,7 +208,7 @@
       "url": "https://kitploit.com/en/posts/github-hashicorp-vault-v211",
       "source": "Kitploit.com",
       "date": "2026-09-17",
-      "summary": "HashiCorp Vault version 2.1.1 has been released as a tool covering secrets management, encryption as a service, and privileged access management. No specific details about changes, fixes, or new features in this release are provided in the description.",
+      "summary": "Vault version 2.1.1 has been released as a tool covering secrets management, encryption as a service, and privileged access management. No specific details about new features, bug fixes, or breaking changes are provided in the description.",
       "image": "https://assets.kitploit.com/production/public/tools/3483/71f7d3dd33330158ec748ca22c865bfea9f2f8dc0ca778ff88ec6ca33a0cfe12.png",
       "importance": 3,
       "paywall": false
@@ -198,7 +218,7 @@
       "url": "https://aws.amazon.com/blogs/machine-learning/implementing-defense-in-depth-authorization-for-mcp-tools-on-amazon-quick/",
       "source": "Amazon.com",
       "date": "2026-09-17",
-      "summary": "The article provides a technical walkthrough for implementing defense-in-depth authorization for Model Context Protocol (MCP) tools on Amazon Bedrock using Microsoft Entra ID. The implementation uses Entra ID group and claims-based JWTs through an Amazon Bedrock AgentCore Gateway interceptor to enforce per-user, per-tool access controls.",
+      "summary": "The article provides a technical walkthrough for implementing defense-in-depth authorization for Model Context Protocol (MCP) tools on Amazon Bedrock AgentCore Gateway. The implementation uses Microsoft Entra ID group and claims-based JWTs to enforce per-user, per-tool access controls.",
       "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/15/ML-21168-featured-image.png",
       "importance": 7,
       "paywall": false
@@ -208,29 +228,9 @@
       "url": "https://www.prnewswire.com/news-releases/amplifier-extends-workforce-security-to-the-ai-agents-employees-build-and-use-302881873.html",
       "source": "PRNewswire",
       "date": "2026-09-17",
-      "summary": "Amplifier Security announced Agent Intent & Posture Management (AIPM), a capability that connects discovered AI agents to employee owners and documents each agent's stated purpose for risk remediation. The product extends workforce security to AI agents built and used by employees, addressing identity and access governance concerns around non-human identities.",
+      "summary": "Amplifier Security announced Agent Intent & Posture Management, a new capability that connects discovered AI agents to employee owners, documents each agent's stated purpose, and guides risk remediation. The solution extends workforce security to AI agents built and used by employees, addressing identity and access governance concerns around agentic AI in enterprise environments.",
       "image": "https://mmx.prnewswire.com/media/MS1990312/Amplifier-engagement-about-an-agent-with-its-human-owner-in-Slack.jpg?id=OA2954394&p=facebook",
       "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Druva expands identity resilience with ransomware detection",
-      "url": "https://www.helpnetsecurity.com/2026/09/17/druva-identity-resilience-ransomware-detection/",
-      "source": "Help Net Security",
-      "date": "2026-09-17",
-      "summary": "Druva has announced new capabilities for its Identity Resilience product alongside a new Ransomware Detection feature powered by a proprietary AI threat pipeline called Dru MetaGraph. The additions use behavioral intelligence to enhance identity protection within Druva's data security platform.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "EU Cyber Resilience Act to Enforce New Reporting Requirements",
-      "url": "https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements",
-      "source": "Dark Reading",
-      "date": "2026-09-10",
-      "summary": "The EU Cyber Resilience Act begins enforcing a 24-hour mandatory reporting requirement for serious product security incidents affecting European organizations. This regulation directly impacts IAM vendors and practitioners operating in the EU who must now report significant security vulnerabilities or incidents within this compressed timeframe.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltba41cd0488eb4d89/6aa1a2aa145a18d222181a6c/EU_lock-Alexey_Krukovsky-Getty.jpg?width=720&quality=80&disable=upscale",
-      "importance": 6,
       "paywall": false
     },
     {
@@ -238,7 +238,7 @@
       "url": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
       "source": "Krebs on Security",
       "date": "2026-09-08",
-      "summary": "Microsoft released a record-breaking patch batch addressing at least 974 security vulnerabilities across Windows and other software. AI is being credited for accelerating vulnerability discovery, though security experts note organizations are struggling to keep pace with testing and deploying the volume of fixes.",
+      "summary": "Microsoft released a record-breaking patch batch addressing at least 974 security vulnerabilities across Windows and other software. AI is being credited for accelerating vulnerability discovery, though security experts note organizations are struggling to prioritize testing and deploying the volume of fixes.",
       "image": null,
       "importance": 3,
       "paywall": false
@@ -248,7 +248,7 @@
       "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
       "source": "Krebs on Security",
       "date": "2026-09-01",
-      "summary": "A dark web service is selling digital scans of over 153 million U.S. and Canadian drivers licenses, apparently sourced from a Louisiana-based identity verification company. The FBI's New Orleans field office has opened an official inquiry into the breach.",
+      "summary": "A dark web service is selling digital scans of over 153 million U.S. and Canadian driver's licenses, apparently sourced from a Louisiana-based identity verification company. The FBI's New Orleans field office has launched an official inquiry into the breach, which affects a widely-used identity verification provider.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -258,7 +258,7 @@
       "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
       "source": "Krebs on Security",
       "date": "2026-08-06",
-      "summary": "Canadian cybercriminal Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges for hacking and extorting over 165 organizations using Snowflake's cloud data storage platform. The case involved credential-based attacks targeting Snowflake customer accounts, resulting in the theft of over 100 million AT&T customer records including call and text history.",
+      "summary": "Canadian man Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges for hacking and extorting over 165 organizations using Snowflake cloud storage. The attacks involved credential-based unauthorized access to Snowflake customer accounts, resulting in data theft including over 100 million AT&T customer records.",
       "image": null,
       "importance": 4,
       "paywall": false
