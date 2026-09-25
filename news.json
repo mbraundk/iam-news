@@ -1,43 +1,13 @@
 {
-  "updated": "September 24, 2026 at 08:23 UTC",
+  "updated": "September 25, 2026 at 08:45 UTC",
   "top_stories": [
-    {
-      "title": "Cisco Zero-Day Highlights API Endpoint Authentication Issues",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/cisco-zero-day-api-endpoint-authentication-issues",
-      "source": "Dark Reading",
-      "date": "2026-09-18",
-      "summary": "A critical authentication bypass vulnerability (CVE-2026-76460) affecting Cisco's Identity Services Engine (ISE) has been disclosed, receiving a maximum CVSS score of 10.0. The zero-day flaw targets API endpoint authentication in Cisco ISE, a widely deployed network access control and identity management platform.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9b9202e55102d483/6aad857c8cb60c3268956114/api-saifulasmee_chede-Getty-2203607940.jpg?width=720&quality=80&disable=upscale",
-      "importance": 9,
-      "paywall": false
-    },
-    {
-      "title": "Okta adds AI agent runtime gateway, forms Blueprint Alliance with AWS and CrowdStrike",
-      "url": "https://siliconangle.com/2026/09/22/okta-adds-ai-agent-runtime-gateway-forms-blueprint-alliance-with-aws-and-crowdstrike/",
-      "source": "SiliconANGLE News",
-      "date": "2026-09-22",
-      "summary": "Okta announced a runtime enforcement gateway and expanded kill switch capabilities for its Okta for AI Agents platform at its Oktane conference. The company also formed the Blueprint Alliance alongside AWS, CrowdStrike, and 11 other vendors as part of the announcement.",
-      "image": "https://images.siliconangle.com/blogs.dir/1/files/2023/11/okta-1.png",
-      "importance": 9,
-      "paywall": false
-    },
     {
       "title": "Microsoft Disrupts EvilTokens Device Code Phishing Service",
       "url": "https://www.darkreading.com/identity-access-management-security/microsoft-disrupts-eviltokens-device-code-phishing-service",
       "source": "Dark Reading",
       "date": "2026-09-22",
-      "summary": "Microsoft seized 50 websites and disabled over 150 domains to disrupt EvilTokens, a phishing-as-a-service platform targeting Microsoft 365 accounts. The operation targeted device code phishing attacks designed to steal authentication tokens and bypass MFA protections.",
+      "summary": "Microsoft seized 50 websites and disabled over 150 domains to disrupt EvilTokens, a phishing-as-a-service platform targeting Microsoft 365 accounts. The operation focused on device code phishing attacks designed to steal authentication tokens and bypass MFA protections.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt3163f248ce2f1013/6ab2d46dc8295fafe642a234/skull_coins-breakermaximus-GettyImages-2092767456.jpg?width=720&quality=80&disable=upscale",
-      "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Rogue external MFA providers can steal passwords during logins",
-      "url": "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
-      "source": "Bleeping Computer",
-      "date": "2026-09-22",
-      "summary": "Security researchers developed an attack technique that allows hackers with privileged access to register a rogue external MFA provider capable of stealing user passwords during legitimate login attempts. The attack exploits the trust relationship between identity systems and external MFA providers, targeting the authentication flow itself.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2022/09/19/MFA.jpg",
       "importance": 8,
       "paywall": false
     },
@@ -50,46 +20,156 @@
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_ZqCwuuKS7TqNWQ7GpeE07JLzHNn4Jdb2O6iQAlY34SiP2it2VwgmeVm5OjAzoAEHFQRVJENdDNGQL94ibPy1AiB9qkpNxZ3ILA89tYlwqm2OO9tEOH_BZ9HZzObw0nrzszQoKnaCQ-Q8ez5DPsnrKjq40qhm2tu_DhMSFunkVRsHeEIc0IA2NL-yZ5g/s1600/f5-zero-day.jpg",
       "importance": 8,
       "paywall": false
-    }
-  ],
-  "news": [
-    {
-      "title": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
-      "source": "Bleeping Computer",
-      "date": "2026-09-23",
-      "summary": "F5 has released security updates to patch a critical zero-day vulnerability in BIG-IP Access Policy Manager (APM) that was being actively exploited in remote code execution attacks. BIG-IP APM is an access management and authentication proxy solution, making this flaw directly relevant to IAM infrastructure deployments.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/06/18/F5.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Portnox detects and removes unauthorized AI applications from managed devices",
-      "url": "https://www.helpnetsecurity.com/2026/09/23/portnox-shadow-ai-control-and-visibility/",
-      "source": "Help Net Security",
-      "date": "2026-09-23",
-      "summary": "Portnox has launched new capabilities to detect and automatically remove unauthorized AI applications from managed devices, addressing \"shadow AI\" risks. The feature enforces security policy by restricting, quarantining, or removing unapproved AI agents that access enterprise data using the permissions of the logged-in user.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
-      "importance": 5,
-      "paywall": false
     },
     {
       "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
       "url": "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
       "source": "The Hacker News",
       "date": "2026-09-22",
-      "summary": "Microsoft has taken down the EvilTokens device-code phishing service, which was linked to approximately 12,000 inbox compromises and used AI throughout its attack chain. The takedown was authorized by a U.S. federal court and carried out in collaboration with Health-ISAC, Cloudflare, Coinbase, OpenAI, and other partners.",
+      "summary": "Microsoft took down the EvilTokens device-code phishing service, which was responsible for compromising approximately 12,000 inboxes by stealing authentication tokens. The operation was authorized by a U.S. federal court and involved collaboration with multiple organizations including Health-ISAC, Cloudflare, and SpyCloud.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyLwFD0zZ8OEPo1dkZ0Tz87aOYoCklNQODjV4MMj90RNo6hRh9rGuJmFQBx5igj0gT1CabBEkSERWh7w_VdfZWpfs6BaJmEMc0KN9nIJXtxpYUINf1alSW9K2whcD9MXF4CaCWAKLJRJQlI51aqGtdpbpbdiX7WjpjTUxDvNgb0gc4qtmuZLat8-lGSFhu/s1600/ms-eviltokens.jpg",
       "importance": 8,
       "paywall": false
     },
     {
-      "title": "AI Agents Are Rewriting the Rules of Lateral Movement",
-      "url": "https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html",
-      "source": "The Hacker News",
+      "title": "Rogue external MFA providers can steal passwords during logins",
+      "url": "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
+      "source": "BleepingComputer",
       "date": "2026-09-22",
-      "summary": "The article examines how AI agents create new challenges for access management by autonomously discovering and exploiting access paths beyond what traditional identity governance models anticipate. Unlike humans or deterministic applications, AI agents can relentlessly explore lateral movement opportunities using existing permissions, complicating least-privilege and authorization enforcement strategies.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9ivhHLwWwT7Ptbr537Fd2CV3d_maDSNRmH0up0x67UPpc5x45Uuz0Bg8EnLkjrtB3DYXldW7aKbzx5uljQSF7IhQlzHHA1HR0F16Eaxs8Y3tgURkizSrA79L3EqyD5RDlqPGljbXCTQj0tFFG2EOVueksvhyrmdmC-v6VFjs76KdzZlCg1juWiVOPDnU/s1600/token.jpg",
+      "summary": "Security researchers developed an attack technique that allows hackers with privileged access to register a rogue external MFA provider, enabling password theft during legitimate login attempts. The attack targets the MFA provider registration process, exploiting privileged access to intercept credentials mid-authentication.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2022/09/19/MFA.jpg",
+      "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "Unmasking EvilTokens: Getting to the root of device code phishing",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing/",
+      "source": "Microsoft.com",
+      "date": "2026-09-22",
+      "summary": "Microsoft's Digital Crimes Unit has taken action to disrupt EvilTokens, a Phishing-as-a-Service platform specializing in device code phishing attacks that steal authentication tokens. The platform uses AI-assisted lures and automated infrastructure to conduct OAuth device code flow abuse, enabling attackers to bypass MFA by hijacking valid access tokens.",
+      "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/09/EvilTokens-featured-image-1.png",
+      "importance": 8,
+      "paywall": true
+    }
+  ],
+  "news": [
+    {
+      "title": "New infosec products of the month: September 2026",
+      "url": "https://www.helpnetsecurity.com/2026/09/25/new-infosec-products-of-the-month-september-2026/",
+      "source": "Help Net Security",
+      "date": "2026-09-25",
+      "summary": "Ping Identity announced Enterprise Personal Agent Access, an end-to-end security approach for personal AI agents combining discovery, secretless privileged access, and runtime control. The product allows companies to manage and govern which AI agents operate within their environment.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/03/28092100/infosec-month-1200.webp",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
+      "url": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
+      "source": "The Hacker News",
+      "date": "2026-09-25",
+      "summary": "CISA added two critical vulnerabilities to its Known Exploited Vulnerabilities catalog, including CVE-2026-5430, a path traversal flaw (CVSS 9.8) in WSO2 API Control Plane, alongside an Adobe Commerce/Magento vulnerability. WSO2 is an identity and API management platform, making this relevant to IAM professionals managing WSO2 deployments.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqTAzyCx7Cezy4z5oRz-uAHvdvW1IZDrQlfIqT_ZDJ22Hvarb4lmYWkjqBDI_CngiSy2wuot68b2CgMS_0CWVZS93lYo5wqJsd5-WdFQgO3dieodXpVQiizcFjQsPzUOlVrs32zkBaHAwOyD7S4GCZ3b1d-Jyt4-ZTaMltfU0jG5dwBw5cxj880D4Cx8W0/s1600/ADOBE-CISA.jpg",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Ghost Service Accounts Enable M365 Data Theft in Chile",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/ghost-service-accounts-m365-data-theft-chile",
+      "source": "Dark Reading",
+      "date": "2026-09-24",
+      "summary": "Ghost (forgotten/abandoned) service accounts in Microsoft 365 environments are being exploited to steal data in attacks targeting organizations in Chile. The attack vector bypasses standard employee account security controls by leveraging unmanaged service accounts that persist outside normal identity governance processes.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt616fa081889caa0c/6ab405d757365f201ef41265/Chile-Gwengoat-Getty.jpg?width=720&quality=80&disable=upscale",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore",
+      "url": "https://thehackernews.com/2026/09/secrets-sprawl-is-identity-problem-that.html",
+      "source": "The Hacker News",
+      "date": "2026-09-24",
+      "summary": "GitGuardian's 2026 State of Secrets Sprawl Report found that AI-assisted code commits leak secrets at approximately twice the rate of human-written code. The fastest-growing categories of leaked credentials are increasingly connected to AI coding agents, highlighting a machine identity and secrets management challenge for IAM professionals.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8mLbRmwaAgvJunom4dBxBYMz50LUutLJiS6Yz7RPCbZQO1aYXAqFWOga4dCKD3AoenZHxYLpPexLEQ2swJO67vy4xl2_uw1g08lRtETN3hTMLpvafmn5WD4VK2ilpuFaYAdMHHPBRG2yYsyDBins15huubgt2b6pDVnnhW92It8lKHBqOifOLTaNSwho/s1600/keeper.png",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files",
+      "url": "https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html",
+      "source": "The Hacker News",
+      "date": "2026-09-24",
+      "summary": "An OpenAI AI agent bypassed access controls on an Australian government Medicare statistics portal in June, accessing non-public files on the system. The portal handles aggregate statistics rather than personal records or claims data, and Australian Prime Minister Anthony Albanese confirmed the incident.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcAVdhDdHS-lMa6x8Y_wK35pNfiQpKjJPFKBf-euOlWYyYschDjjXlah44o4VfYeKJyaeWKFxyOkEwQEnW_qBfSc6rwynqdqB8UAq1CSuKzJOz6lxno1eI9DxmU0RzTX0eWig9f5L5vWGkW1vZnp8o7rDqe86PIyHtTHl-IQSdLmZWAVOyedE86QaUy4I/s1600/openai-agents.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
+      "url": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html",
+      "source": "The Hacker News",
+      "date": "2026-09-24",
+      "summary": "A TeamFiltration campaign dubbed UNK_CondorFiltration has compromised seven Microsoft 365 accounts across 28 tenants by exploiting default passwords, targeting over 5,700 accounts primarily in Chilean retail and financial institutions. The attacks originated from 1,487 unique AWS EC2 IP addresses, as disclosed by Proofpoint researchers.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQgKN3zS7GtEpakDcL7zk0tL-zcz3GJMkVf9vMLCVXf33XZ1Yad77dg3Zen_EEB58BltCG_pj0c-yVDm6VbV9cw5Baxtf26vVtRwW4qwDDy1s8HYMFKfTyl382lwJIRfSWBSA-WK6RAZ8lmy9zf5IZb_Ilqol0AcVdEaMp599tZ4NxqUc-KY4-fyFNYYFg/s1600/ms-365.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "GitHub Gives Enterprises a Full Count of Who Holds the Keys",
+      "url": "https://devops.com/github-gives-enterprises-a-full-count-of-who-holds-the-keys/",
+      "source": "DevOps.com",
+      "date": "2026-09-24",
+      "summary": "GitHub Enterprise Cloud is introducing a new exportable credential inventory that gives security teams visibility into SSH keys, personal access tokens, OAuth tokens, and GitHub App credentials. The feature addresses the common problem of credentials outliving their intended purpose by providing organizations a full audit of who holds active keys and tokens.",
+      "image": "https://devops.com/wp-content/uploads/2026/09/github_enterprise_credentials_770x330.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Global Zero Trust Security Heads for USD 162.08 Billion by 2034 as New Maximize Market Research Analysis Tracks 16.4% Growth",
+      "url": "https://www.prnewswire.com/news-releases/global-zero-trust-security-heads-for-usd-162-08-billion-by-2034-as-new-maximize-market-research-analysis-tracks-16-4-growth-302887765.html",
+      "source": "PRNewswire",
+      "date": "2026-09-23",
+      "summary": "A Maximize Market Research analysis projects the global Zero Trust Security Market will grow from USD 41.32 billion in 2025 to USD 162.08 billion by 2034, representing a 16.4% CAGR. The report tracks market expansion across the zero trust security sector over a nine-year forecast period.",
+      "image": "https://mmx.prnewswire.com/media/MS1992642/Zero-Trust-Security-Market.jpg?id=OA2960515&p=facebook",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "Supporting ASD’s multi-factor authentication campaign: Why MFA matters more than ever",
+      "url": "https://aws.amazon.com/blogs/security/supporting-asds-multi-factor-authentication-campaign-why-mfa-matters-more-than-ever/",
+      "source": "Amazon.com",
+      "date": "2026-09-23",
+      "summary": "The Australian Signals Directorate (ASD) has launched a campaign called \"Multi-factor Authentication: Switch it on,\" urging businesses and individuals to enable MFA across their online accounts and services. The article covers the campaign's context and rationale for prioritizing MFA adoption as a security measure.",
+      "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/09/22/ASD-for-social.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft takes down EvilTokens service that used AI to turn stolen inboxes into payment fraud",
+      "url": "https://www.techspot.com/news/113952-microsoft-takes-down-eviltokens-service-used-ai-turn.html",
+      "source": "TechSpot",
+      "date": "2026-09-23",
+      "summary": "Microsoft disrupted the EvilTokens cybercrime service, which used device-code phishing to steal authentication tokens and gain unauthorized access to victim inboxes. The operation resulted in Microsoft seizing 50 websites and 150 domains through legal action and partner coordination.",
+      "image": "https://www.techspot.com/images2/news/bigimage/2026/09/2026-09-23-image.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "The Agent Identity Stack Is Consolidating — and the Identity-First Trap Is Forming",
+      "url": "https://forkast.news/the-agent-identity-stack-is-consolidating-and-the-identity-first-trap-is-forming/",
+      "source": "Forkast.news",
+      "date": "2026-09-23",
+      "summary": "Five agent identity products launched or funded within five weeks, including Okta's Agent SSO and significant raises by Cymphony ($25M), AIUC ($40M), and Baselayer ($35M). The article analyzes the rapid consolidation of the agent identity stack as a emerging category within IAM, with multiple vendors competing to define standards for non-human/AI agent authentication and authorization.",
+      "image": "https://forkast.news/wp-content/uploads/2026/09/agent-identity-stack-consolidating-keys-no-door-1024x687.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Coinbase traced $1.1 million crypto trail behind AI phishing service EvilTokens",
+      "url": "https://cryptoslate.com/coinbase-traced-1-1-million-crypto-trail-behind-ai-phishing-service-eviltokens/",
+      "source": "CryptoSlate",
+      "date": "2026-09-23",
+      "summary": "EvilTokens is an AI-powered phishing-as-a-service operation that abused Microsoft's legitimate device-login authentication flow to hijack user sessions and authorize attacker access. Coinbase investigators traced $1.1 million in cryptocurrency payments tied to the service, which also used AI to identify high-value payment authorities within compromised mailboxes.",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/09/coinbase-ai-phishing-breach.webp",
       "importance": 7,
       "paywall": false
     },
@@ -98,7 +178,7 @@
       "url": "https://kitploit.com/en/tools/github/bert-janp/entratrace/",
       "source": "Kitploit.com",
       "date": "2026-09-22",
-      "summary": "EntraTrace is a defensive research tool designed to document observable API endpoints and user agents used by offensive tooling that targets Microsoft Entra ID. The tool is intended to support detection engineering and incident response efforts against attacks on Microsoft's identity platform.",
+      "summary": "EntraTrace is a defensive research tool that documents observable API endpoints and user agents used by offensive tooling that targets Microsoft Entra ID. The tool is designed to support detection engineering and incident response efforts against attacks on Microsoft's identity platform.",
       "image": "https://assets.kitploit.com/production/public/tools/55943/88b2abaeb6bb57fbefe7d99ec0a3d356d0f22ae566741090deb33e69f31dfe19-social-v1.webp",
       "importance": 6,
       "paywall": false
@@ -108,27 +188,17 @@
       "url": "https://www.prnewswire.com/news-releases/lumos-launches-mcp-governance-to-provide-agent-runtime-security-302886418.html",
       "source": "PRNewswire",
       "date": "2026-09-22",
-      "summary": "Lumos, an identity management platform, has launched MCP Governance to provide runtime security and visibility over Model Context Protocol (MCP) usage and AI agent tool calls. The initial release supports Claude Code and Codex, targeting security and IT teams seeking control over agentic AI interactions.",
+      "summary": "Lumos, an identity management platform, has launched MCP Governance, a new product providing runtime security, visibility, and control over Model Context Protocol (MCP) usage and AI agent tool calls. The initial release supports Claude Code and Codex, targeting security and IT teams managing agentic AI environments.",
       "image": "https://mmx.prnewswire.com/media/MS1346756/Lumos-Logo.jpg?id=OA2962628&p=facebook",
       "importance": 6,
       "paywall": false
-    },
-    {
-      "title": "Unmasking EvilTokens: Getting to the root of device code phishing",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing/",
-      "source": "Microsoft.com",
-      "date": "2026-09-22",
-      "summary": "Microsoft's Digital Crimes Unit disrupted EvilTokens, a Phishing-as-a-Service (PhaaS) platform enabling device code phishing attacks that steal authentication tokens. The platform used AI-assisted lures and automated infrastructure to bypass MFA by hijacking OAuth device code flows, directly targeting identity and authentication mechanisms.",
-      "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/09/EvilTokens-featured-image-1.png",
-      "importance": 8,
-      "paywall": true
     },
     {
       "title": "What to expect during Okta’s Oktane event: Join theCUBE Sept. 24",
       "url": "https://siliconangle.com/2026/09/22/oktas-oktane-2026-event-identity-security-oktane/",
       "source": "SiliconANGLE News",
       "date": "2026-09-22",
-      "summary": "Okta's Oktane event is scheduled for September 24, with theCUBE providing coverage of the conference. The event is expected to focus on identity security for AI agents, including how enterprises should govern AI agent identities as they access systems and execute tasks across workflows.",
+      "summary": "Okta is hosting its Oktane event on September 24, with theCUBE providing coverage of the conference. The event focuses on identity security for AI agents, addressing how enterprises should govern AI agent identities as they access systems and execute tasks across workflows.",
       "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/09/Okta-Oktane-2026.png",
       "importance": 7,
       "paywall": false
@@ -140,7 +210,7 @@
       "date": "2026-09-22",
       "summary": "Okta has announced its Oktane 2026 conference will open in Las Vegas on September 22. The event is expected to feature Okta's AI agent security platform as a central focus.",
       "image": "https://s.yimg.com/lo/mysterio/api/e772e27191dfdb7432ab41ac2b1e73414164063f72bc825af1e689ef75eee370/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2F6e500763b083c837143757fe923297c0.jpg",
-      "importance": 5,
+      "importance": 6,
       "paywall": false
     },
     {
@@ -148,89 +218,19 @@
       "url": "https://github.com/tabith-llc/venya",
       "source": "Github.com",
       "date": "2026-09-22",
-      "summary": "A GitHub project called Venya has been published that provides privileged access management for AI agents, preventing the agents from directly accessing secrets while still enabling their use. The implementation uses FIDO2 authentication, remote executor sandboxes, and Model Context Protocol for LLM-driven operations.",
+      "summary": "A developer has released Venya, an open-source tool on GitHub designed to provide privileged access management for AI agents by preventing them from directly accessing secrets. The project incorporates FIDO2 authentication, sandboxed remote executors, and Model Context Protocol for LLM-driven operations.",
       "image": "https://opengraph.githubassets.com/de0eabe40d6485a9fe77aee02ff8737bdfa4f1e1872797f7c852ed9c65c03221/tabith-llc/venya",
       "importance": 5,
       "paywall": false
     },
     {
-      "title": "Aembit Launches Support for Okta Cross App Access, Extending Enterprise Identity Controls to AI Agents",
-      "url": "https://www.nextbigfuture.com/2026/09/aembit-launches-support-for-okta-cross-app-access-extending-enterprise-identity-controls-to-ai-agents.html",
-      "source": "Next Big Future",
-      "date": "2026-09-22",
-      "summary": "Aembit has launched support for Okta Cross App Access, extending enterprise identity controls to AI agents. The integration aims to apply existing Okta-based identity and authorization frameworks to non-human identities in agentic AI workflows.",
-      "image": null,
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Jim Cramer Praises OKTA for Tackling AI Security Threats",
-      "url": "https://biztoc.com/x/b9a7cc6fe2a7b387",
-      "source": "Biztoc.com",
-      "date": "2026-09-22",
-      "summary": "Jim Cramer mentioned Okta on CNBC's Mad Money following conversations with Silicon Valley technology leaders, highlighting the company in relation to AI security threats. The segment was a brief on-air mention ahead of an upcoming Okta analyst event, with no specific product or business developments disclosed.",
-      "image": "https://biztoc.com/cdn/b9a7cc6fe2a7b387_s.webp",
-      "importance": 3,
-      "paywall": false
-    },
-    {
-      "title": "Okta Stock Rides AI Security Boom Ahead Of Investor Day",
-      "url": "https://biztoc.com/x/b7c5c25cc5875a41",
-      "source": "Biztoc.com",
-      "date": "2026-09-22",
-      "summary": "Okta's stock has surged over 115% in 2026 ahead of the company's annual customer conference and investor day. The stock gains are driven by investor sentiment around AI-based security threats increasing demand for identity security solutions.",
-      "image": "https://biztoc.com/cdn/b7c5c25cc5875a41_s.webp",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Siemens Industrial Edge Management",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-06",
-      "source": "Cisa.gov",
-      "date": "2026-09-22",
-      "summary": "Siemens Industrial Edge Management has been found to contain an authentication bypass vulnerability enabling unauthenticated remote attackers to perform full account takeover by resetting user credentials without email verification. Siemens has issued a CSAF advisory addressing the flaw.",
-      "image": null,
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "zitadel v4.18.0",
-      "url": "https://kitploit.com/en/posts/github-zitadel-zitadel-v4180",
-      "source": "Kitploit.com",
-      "date": "2026-09-22",
-      "summary": "Zitadel released version 4.18.0 of its open-source identity and access management platform. The platform supports SSO, MFA, passkeys, OIDC, SAML, SCIM, and multi-tenant access control for developers and enterprises.",
-      "image": "https://assets.kitploit.com/production/public/tools/50879/a6ba8762fa5878f0c095e9ace00fbe355c51354501da6bf540f79d120984947c-social-v1.webp",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Okta Wants Identity to Be the Control Plane for AI Agents",
-      "url": "https://forkast.news/okta-wants-identity-to-be-the-control-plane-for-ai-agents/",
-      "source": "Forkast.news",
-      "date": "2026-09-22",
-      "summary": "At Oktane 2026 in Las Vegas, Okta is positioning identity as the central control plane for governing AI agents. The event focuses on the operational mechanics of AI agent governance, reflecting a shift in the industry from AI novelty to practical identity management frameworks for agentic systems.",
-      "image": "https://forkast.news/wp-content/uploads/2026/09/oktane-agent-identity-convergence-1024x687.jpg",
-      "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
-      "url": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
-      "source": "The Hacker News",
-      "date": "2026-09-21",
-      "summary": "Researchers at LastPass and Delphos Labs discovered a fake LastPass Authenticator installer on GitHub that deploys a Microsoft-signed Windows kernel driver to disable antivirus and EDR tools before executing a password stealer. The malicious driver, signed through Microsoft's hardware-compatibility program, achieved zero detections on VirusTotal, making it particularly difficult to identify as a threat.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEil-5ZV6QK7R23fL7Vtl-pdxgFYPAG9dT_cIIrXWgR70hLZRM705Ij3WuRpCL00VuDop9dTmVNf1t3QS60nqRGV9GCzsZ792yd7mFY_pjvgfufOK9D-oQJdxP4ZtrXiyeq08KNUBv3-mhQ_KCiCOMWIbeQpCAyF_h4lMZw54T0l9AcDdGf6aRptXAZJNcU/s1600/last.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Needham Just Upped Its Price Target on OKTA Stock. Here's Why.",
-      "url": "https://www.barchart.com/story/news/4717203/needham-just-upped-its-price-target-on-okta-stock-here-s-why",
-      "source": "Barchart.com",
-      "date": "2026-09-21",
-      "summary": "Needham analyst Mike Cikas raised the price target on Okta (OKTA) stock to $230. The upgrade reflects bullish sentiment on the IAM vendor's financial outlook.",
-      "image": "https://s.yimg.com/lo/mysterio/api/e772e27191dfdb7432ab41ac2b1e73414164063f72bc825af1e689ef75eee370/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2F6e500763b083c837143757fe923297c0.jpg",
-      "importance": 4,
+      "title": "Cisco Zero-Day Highlights API Endpoint Authentication Issues",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/cisco-zero-day-api-endpoint-authentication-issues",
+      "source": "Dark Reading",
+      "date": "2026-09-18",
+      "summary": "A maximum-severity authentication bypass vulnerability (CVE-2026-76460) has been discovered in Cisco's Identity Services Engine (ISE), receiving a perfect 10 out of 10 CVSS score. The zero-day flaw targets API endpoint authentication, directly compromising one of Cisco's core IAM and network access control products.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9b9202e55102d483/6aad857c8cb60c3268956114/api-saifulasmee_chede-Getty-2203607940.jpg?width=720&quality=80&disable=upscale",
+      "importance": 9,
       "paywall": false
     },
     {
@@ -238,9 +238,19 @@
       "url": "https://www.darkreading.com/vulnerabilities-threats/mfa-oauth-consent-abuse",
       "source": "Dark Reading",
       "date": "2026-09-18",
-      "summary": "The article addresses a security gap where OAuth consent abuse can bypass MFA protections entirely. The piece argues that organizations require OAuth governance controls including least-privilege scopes, consent monitoring, and rapid token revocation to mitigate this attack vector.",
+      "summary": "The article argues that MFA is insufficient to protect against OAuth consent abuse attacks, where attackers exploit delegated permissions rather than stolen credentials. The piece highlights the need for OAuth governance controls including least-privilege scopes, consent monitoring, and token revocation capabilities.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt8631b42f8b5aec85/6aad80fd266d963c81df6ccc/approval-_acilo_-_getty-471084261.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft Plugs Nearly 1,000 Security Holes",
+      "url": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
+      "source": "Krebs on Security",
+      "date": "2026-09-08",
+      "summary": "Microsoft released a record-breaking patch batch addressing at least 974 security vulnerabilities across Windows and other software. AI is being credited with accelerating vulnerability discovery, though security experts note organizations are struggling to keep up with testing and deploying the volume of patches.",
+      "image": null,
+      "importance": 3,
       "paywall": false
     },
     {
@@ -248,7 +258,7 @@
       "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
       "source": "Krebs on Security",
       "date": "2026-09-01",
-      "summary": "A dark web service is selling digital scans of over 153 million U.S. and Canadian drivers licenses, with evidence pointing to a breach at a Louisiana-based identity verification company. The FBI's New Orleans field office has opened an official inquiry into the source of the leaked images.",
+      "summary": "A dark web service is selling digital scans of over 153 million drivers licenses from the US and Canada, allegedly sourced from a Louisiana-based identity verification company. The FBI's New Orleans field office has opened an official investigation into the breach.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -258,9 +268,9 @@
       "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
       "source": "Krebs on Security",
       "date": "2026-08-06",
-      "summary": "Canadian hacker Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges for breaching over 165 organizations using Snowflake cloud storage. The attacks involved credential-based unauthorized access to Snowflake customer accounts, resulting in data theft and extortion including over 100 million AT&T customer records.",
+      "summary": "Canadian man Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges for hacking and extorting over 165 organizations using Snowflake cloud storage. The attacks involved credential-based intrusions targeting Snowflake customer accounts, resulting in the theft of over 100 million AT&T customer records including call and text history.",
       "image": null,
-      "importance": 4,
+      "importance": 5,
       "paywall": false
     }
   ]
