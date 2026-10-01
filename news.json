@@ -1,23 +1,23 @@
 {
-  "updated": "September 30, 2026 at 09:36 UTC",
+  "updated": "October 01, 2026 at 10:03 UTC",
   "top_stories": [
     {
       "title": "IAM for AI agents: A Practical Enterprise Framework",
       "url": "https://thehackernews.com/2026/09/iam-for-ai-agent.html",
       "source": "The Hacker News",
       "date": "2026-09-28",
-      "summary": "This article presents a practical enterprise framework for applying IAM principles to AI agents, covering authentication, authorization, and delegated authority for agentic systems. The guide addresses gaps in conventional provisioning approaches and outlines components for governing AI agent identity, including runtime verification of agent behavior.",
+      "summary": "This article presents a practical framework for applying identity and access management principles to AI agents operating within enterprise environments. It covers authentication, delegated authority, provisioning limitations, and runtime governance components specific to agentic AI systems.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5iI5XAgqXDB1IvqmdWgs2QFGVb5cAbMuJgwtgpKwvRtamF2xs9Od5F4Xwv7JhH8HC0yDOUx1ErLjZaeOBSu8mkCR3ewFb3x3VTV-IFbfXwUR2Pzoqf6_JKFq9de2wf1enmkMSK8M5QU2FBGovMkMkhLzI2qV90LuQYTgdMW-ymc5zxrv_yieHXBUr4Ck/s1600/OR.jpg",
       "importance": 8,
       "paywall": false
     },
     {
-      "title": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
-      "url": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html",
-      "source": "The Hacker News",
-      "date": "2026-09-28",
-      "summary": "A threat actor tracked as JADEPUFFER (Storm-3168) used compromised Azure service principals to conduct destructive operations within a Microsoft Azure environment over an 18-hour period in early June 2026. The attack involved abusing service principals—a core identity and access construct in Azure—to delete resources, representing an evolution in the threat actor's tactics.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHYvL1hsEQjB3x7u-jNflFT0QK3a9IEFse8ghWqV9SxkawlFerAn8pzjfYgztccVleVlLzZcDlOSvu7gqJhHP_XLWL1lqZkeIVCifya8Ohinriqk_o-kpzzdtv4x7NinDhQgWbE9B7yJliuJPGZ2x0qh9jRgkWfyNyPexujdTWpLTbfe7MKRVQT1Z3BAQ9/s1600/azure-ai.jpg",
+      "title": "Okta moves inline to police what AI agents actually do",
+      "url": "https://siliconangle.com/2026/09/29/agent-gateway-lets-okta-police-ai-runtime-actions-oktane/",
+      "source": "SiliconANGLE News",
+      "date": "2026-09-30",
+      "summary": "Okta has introduced an agent gateway designed to govern the actions of autonomous AI agents at runtime, moving beyond traditional authentication to enforce authorization decisions inline. The gateway sits in the path of AI agent actions to police what they do once inside a system, extending identity security into the domain of agentic AI behavior.",
+      "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/09/IMG_1897-scaled.jpg",
       "importance": 8,
       "paywall": false
     },
@@ -26,60 +26,110 @@
       "url": "https://siliconangle.com/2026/09/28/okta-builds-shared-architecture-agent-runtime-security-oktane/",
       "source": "SiliconANGLE News",
       "date": "2026-09-29",
-      "summary": "Okta has transformed its agent runtime security framework into a multivendor reference architecture through the Blueprint Alliance. The initiative establishes shared controls across the technology stack to address identity and security challenges as enterprises deploy AI agents in production environments.",
+      "summary": "Okta has converted its agent runtime security framework into a multivendor reference architecture through the Blueprint Alliance. The initiative addresses identity and access controls for AI agents running in production enterprise environments across the technology stack.",
       "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/09/IMG_2025-scaled.jpg",
       "importance": 8,
       "paywall": false
-    },
-    {
-      "title": "Storm-3168: Agentic-driven cloud attacks using compromised service principals",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/09/25/storm-3168-agentic-driven-cloud-attacks-using-compromised-service-principals/",
-      "source": "Microsoft.com",
-      "date": "2026-09-25",
-      "summary": "Microsoft has detailed attack activity by Storm-3168 (linked to JADEPUFFER) targeting Azure environments through compromised service principals, involving reconnaissance, resource deletion, and credential access. The report includes defender guidance focused on protecting Azure service principals, which are a core identity and access management construct in cloud environments.",
-      "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/03/MS_Actional-Insights_Adversarial-AI.png",
-      "importance": 8,
-      "paywall": true
     },
     {
       "title": "Dual NetScaler Zero-Days Trigger Chaos for Citrix Customers",
       "url": "https://www.darkreading.com/vulnerabilities-threats/netscaler-zero-days-chaos-citrix",
       "source": "Dark Reading",
       "date": "2026-09-29",
-      "summary": "Citrix disclosed two critical zero-day vulnerabilities affecting NetScaler (formerly Citrix ADC and Gateway) products in their default configurations. The flaws effectively grant attackers unauthorized access to customer networks, functioning as authentication and access bypasses with broad impact across Citrix's customer base.",
+      "summary": "Citrix disclosed two critical zero-day vulnerabilities in its NetScaler products that affect default configurations and allow attackers unauthorized access to customer networks. The flaws function as authentication bypasses, effectively granting attackers a skeleton key to access protected network resources without valid credentials.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt5de91a8011e409dc/68ae00c0ae4a7a4290bef1c1/citrix_JHVEPhoto_shutterstock.jpg?width=720&quality=80&disable=upscale",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "AI Agents Are Privileged Users; Who Is Auditing Their Access?",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/ai-agents-are-privileged-users-who-is-auditing-their-access",
+      "source": "Dark Reading",
+      "date": "2026-09-28",
+      "summary": "The article examines how autonomous AI agents are operating with broad privileged access in enterprise environments without the same oversight applied to human users. The piece frames AI agents as a PAM and identity governance challenge, highlighting the gap between how human and non-human identities are audited and controlled.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt6c9f5fa659c439fa/6abab77dfee74bb9c8c001cc/AI_agent-MF3d-Getty-2217030312.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
     }
   ],
   "news": [
     {
-      "title": "Genea brings AI agents to access control with role-based permissions",
-      "url": "https://www.helpnetsecurity.com/2026/09/30/genea-mcp/",
-      "source": "Help Net Security",
-      "date": "2026-09-30",
-      "summary": "Genea has launched Genea MCP, a Model Context Protocol server that connects AI agents to its physical access control platform using role-based permissions. The product allows natural language commands to handle tasks like onboarding new hires, provisioning contractors, and managing physical access points.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
+      "title": "Over 543,000 valid credentials exposed in public GitHub repositories",
+      "url": "https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/",
       "source": "Bleeping Computer",
-      "date": "2026-09-29",
-      "summary": "Attackers exploited a Citrix NetScaler zero-day vulnerability (CVE-2026-88772) to deploy web shells and tunneling malware on compromised systems. The attack chain included gaining root access, stealing credentials, and moving laterally into internal networks.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2023/07/21/citrix_headpic.jpg",
+      "date": "2026-09-30",
+      "summary": "Over 543,000 valid credentials were found exposed in public GitHub repositories as of July, despite GitHub's existing security measures designed to prevent accidental credential leaks. The exposed credentials represent active authentication tokens and secrets that remain exploitable, posing direct risks to identity and access management infrastructure.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/05/21/GitHub_headpic.jpg",
       "importance": 6,
       "paywall": false
     },
     {
-      "title": "Catch threats before they escalate with real-time Identity Telemetry",
-      "url": "https://www.bleepingcomputer.com/news/security/catch-threats-before-they-escalate-with-real-time-identity-telemetry/",
+      "title": "AI's Third Wave: Coworkers Break the Security Model That Worked for Agents",
+      "url": "https://www.bleepingcomputer.com/news/security/ais-third-wave-coworkers-break-the-security-model-that-worked-for-agents/",
       "source": "Bleeping Computer",
-      "date": "2026-09-29",
-      "summary": "tenfold Software published content advocating for real-time identity telemetry as a complement to traditional identity governance and periodic access reviews. The piece argues that continuous monitoring of identity activity enables security teams to detect and investigate suspicious behavior before it escalates into a breach.",
-      "image": "https://www.bleepstatic.com/content/posts/2026/09/25/tenfold-handcuffs.jpg",
+      "date": "2026-09-30",
+      "summary": "Token Security argues that persistent AI coworkers require dedicated identity management approaches distinct from those used for traditional AI agents, including assigned owners, scoped permissions, and lifecycle controls. The piece addresses the identity risks created by AI systems operating continuously with standing access, a challenge existing security models were not designed to handle.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/09/29/token-security-ai-agent.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft to block Entra ID script injection attacks starting October",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/",
+      "source": "Bleeping Computer",
+      "date": "2026-09-30",
+      "summary": "Microsoft will implement protections against external script injection attacks in its Entra ID authentication system starting in October. The change affects customers using Entra ID and represents a security update to the authentication platform's defenses.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2021/09/15/Microsoft_passwordless.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
+      "url": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
+      "source": "The Hacker News",
+      "date": "2026-09-30",
+      "summary": "Threat actors are exploiting a patched Zimbra Collaboration Suite vulnerability (CVE-2026-73570, CVSS 8.9) to deploy web shells and harvest authentication secrets from mailboxes. The unauthenticated OS command injection flaw enables remote code execution via SNMP, with findings reported by Microsoft Security Research.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNxFzgwNCn6YTNDvFIlEUKsnNOR9Y8UF__1rQ8N5BuMTKmJRPs-d_ilYcoeXwb03y07EXxnGyf5Ka8gyrKbFtzM2GoqYfrp79A-ZwHZyQDHEIU9twKFM67Glqk8eE4_j3fiHxNnPFl0euvHnKKfrmTd2aKcsMnebFQ4z73INLZfIdT66yH3MV5vOIBaMV5/s1600/zimbra-email.jpg",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
+      "url": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
+      "source": "The Hacker News",
+      "date": "2026-09-30",
+      "summary": "Cisco has warned of active exploitation of a critical authentication bypass vulnerability (CVE-2026-76504) in Cisco Catalyst SD-WAN Manager. The flaw allows unauthenticated remote attackers to access the Manager's API with admin-level privileges, with fixed releases available but no workaround.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDRBMRmTwQer5G9fB3V6UvczV_QEpVLnIpRMEjpkiSKOC1vvem-ZkM9zP2vgBIYDlH-jveY5oeV2qcYJ2YiVD1-z1q4bJNBrPYpewyUqOOgbl89xV3JCsQeor1fhrWLS6EEvtNCIHlyuNB8jRnDzqdO9bQZ4hNN0yvEE6ceXw0A43onar4xorpsnM1qog/s1600/cisco-admin.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "US-Focused CSuite Phishing Steals Microsoft 365 Sessions and Deploys RMM Tools for Remote Access",
+      "url": "https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html",
+      "source": "The Hacker News",
+      "date": "2026-09-30",
+      "summary": "Researchers at ANY.RUN analyzed a phishing campaign called CSuite that steals Microsoft 365 session tokens to bypass authentication controls, based on 351 sandbox submissions with 51% originating from the US. The attack combines session hijacking with remote management tool (RMM) deployment, enabling persistent unauthorized access beyond initial credential theft.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5fq_zpvT8d0bG8IIotVRgIHIXCNOTPBhfIBUIWxLlg1X4bDmzf0PRgt_0UaHhvTIznPU4nOCCuLJ6JbJ3Tx22FPY2Ox93L_HNhA7XjQEvOcsXfw3NIixeGcy9DywlAx_SuEhCM6DRjgP3NBQrdHnJrFOCEFHFR8bFyF4YFWYtYEuPbG7kvWrgAsotLWI/s1600/rmm.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "NTT TechnoCross Receives Frost & Sullivan's 2026 Japanese Company of the Year Recognition for Privileged Access Management Leadership for the Third Consecutive Year",
+      "url": "https://www.prnewswire.com/news-releases/ntt-technocross-receives-frost--sullivans-2026-japanese-company-of-the-year-recognition-for-privileged-access-management-leadership-for-the-third-consecutive-year-302892650.html",
+      "source": "PRNewswire",
+      "date": "2026-09-30",
+      "summary": "NTT TechnoCross has received Frost & Sullivan's 2026 Japanese Company of the Year award for privileged access management for the third consecutive year. The recognition highlights the company's focus on unified governance, cloud-ready security, and customer-centric innovation in Japan's PAM market.",
+      "image": null,
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Could Be 36% Overvalued Following Its AI Agent Identity Push",
+      "url": "https://biztoc.com/x/8bc4a9d1a92bb73a",
+      "source": "Biztoc.com",
+      "date": "2026-09-30",
+      "summary": "Aembit has announced support for Cross App Access, an open protocol introduced by Okta for AI agent identity management. This development follows Okta's Oktane 2026 announcements and relates to Okta's push into non-human/AI agent identity capabilities.",
+      "image": "https://biztoc.com/cdn/8bc4a9d1a92bb73a_s.webp",
       "importance": 6,
       "paywall": false
     },
@@ -88,7 +138,7 @@
       "url": "https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html",
       "source": "The Hacker News",
       "date": "2026-09-29",
-      "summary": "An attacker used stolen employee credentials to exfiltrate tax data on hundreds of thousands of French taxpayers and businesses from the national tax administration over a seven-week period without detection. France's cybersecurity agency ANSSI attributed the breach's success to weak security controls, with the attack relying solely on compromised staff passwords rather than sophisticated techniques.",
+      "summary": "An attacker used stolen staff credentials to exfiltrate tax data on hundreds of thousands of French taxpayers and businesses from France's tax administration over a seven-week period in June and July. ANSSI's report concluded the attack succeeded due to weak access controls, with neither the tax administration nor the national cybersecurity agency detecting the data exfiltration as it occurred.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9h550xeoGqzMnMqY6B6Ejo9xeSvbx4fnnu1OmLWvhYAvYeLNB1zeik8F8yYB82oW685qieusoRaI27P68ugA34Vg0720ZZdLfQUJtuIjxkUYRgq_hQtivtsopRYYoddpwb4mICLERqQrVKtZv5EHg78rU14dlQmgevB0KsOR0ePvG4E8cpqKB1TyliaE/s1600/france.jpg",
       "importance": 7,
       "paywall": false
@@ -98,9 +148,79 @@
       "url": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
       "source": "The Hacker News",
       "date": "2026-09-29",
-      "summary": "A vulnerability in the official MCP Python SDK allowed malicious servers to steal OAuth credentials including client secrets, authorization codes, and PKCE proof keys by redirecting them to attacker-controlled token endpoints. The flaw has been patched in version 1.30.0 of the SDK.",
+      "summary": "A vulnerability in the official MCP Python SDK allowed malicious servers to steal OAuth credentials including client secrets, authorization codes, and PKCE proof keys by redirecting them to attacker-controlled token endpoints. The flaw has been patched in SDK version 1.30.0 and later.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2N5owhsoQXHTQV74afwfngdyitjwcW37BHLX2QKkq6xZAxP8_AOXAh1ODPj5DyvvmMUq3mKH9eR2B1r7owc6djzLViK2U4BY_hw3rTWmaHjhFEyyh8LPlUMPZ7MdWkqN7bjtQyMByBLrsI5m0mAU9y-IbrsAe9OPhZXHN63AWwuv_1OB5MSrpRdVZ9CM/s1600/mcp-python.jpg",
       "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "In the AI era, identity evolves into the control plane for trust",
+      "url": "https://siliconangle.com/2026/09/29/in-the-ai-era-identity-evolves-into-the-control-plane-for-trust/",
+      "source": "SiliconANGLE News",
+      "date": "2026-09-29",
+      "summary": "The article examines how identity is evolving to become the central control plane for trust in the AI era, particularly as autonomous agents replace human users as the primary subjects of authentication and authorization. The piece addresses the shift from traditional username/password identity models to identity frameworks that must govern AI agents and non-human identities.",
+      "image": "https://images.siliconangle.com/blogs.dir/1/files/2024/10/sailpoint1.png",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Morgan Stanley Resets Okta Stock Price Target For Rest of Year",
+      "url": "https://biztoc.com/x/82f40ed47d4e6a58",
+      "source": "Biztoc.com",
+      "date": "2026-09-29",
+      "summary": "Morgan Stanley updated its price target for Okta stock following the cybersecurity company's investor event. The analyst's bullish stance is based on Okta's positioning around securing AI agents.",
+      "image": "https://biztoc.com/cdn/82f40ed47d4e6a58_s.webp",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "AI agents spark an identity cleanup",
+      "url": "https://siliconangle.com/2026/09/29/access-management-gets-reboot-ai-agents-scale-okta-oktane/",
+      "source": "SiliconANGLE News",
+      "date": "2026-09-29",
+      "summary": "The proliferation of AI agents moving into production is driving enterprises to reassess their existing identity and access management infrastructure. Decades of accumulated, fragmented identity tools and integration gaps are being exposed as organizations rush to deploy AI agents at scale.",
+      "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/09/IMG_1973-scaled.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "From 2 AM alarm to answer: Security Triage with AWS DevOps Agent",
+      "url": "https://aws.amazon.com/blogs/mt/from-2-am-alarm-to-answer-security-triage-with-aws-devops-agent/",
+      "source": "Amazon.com",
+      "date": "2026-09-29",
+      "summary": "AWS published a post describing how a DevOps Agent can assist with security incident triage, using an IAM access key creation event as the example scenario. The article focuses on the AWS tooling and workflow automation rather than IAM concepts or policy themselves.",
+      "image": "https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2026/09/28/Screenshot-2026-09-28-at-13.54.37-1260x506.png",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "Securden Recognized as a Leader in GigaOm Radar for Enterprise Password Management",
+      "url": "https://www.prnewswire.com/news-releases/securden-recognized-as-a-leader-in-gigaom-radar-for-enterprise-password-management-302893063.html",
+      "source": "PRNewswire",
+      "date": "2026-09-29",
+      "summary": "Securden has been recognized as a Leader in the GigaOm Radar report for Enterprise Password Management. The recognition covers Securden's capabilities across password management, machine identities, and AI-agent governance within its unified identity security and privileged access management platform.",
+      "image": "https://mmx.prnewswire.com/media/MS1537837/Securden-Inc-Bala-Venkatramani-CEO-Photo.jpg?id=OA2976842&p=facebook",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Catch threats before they escalate with real-time Identity Telemetry",
+      "url": "https://www.bleepingcomputer.com/news/security/catch-threats-before-they-escalate-with-real-time-identity-telemetry/",
+      "source": "BleepingComputer",
+      "date": "2026-09-29",
+      "summary": "tenfold Software has published content explaining how real-time identity telemetry can supplement traditional identity governance by detecting threats as they occur. The piece argues that periodic access reviews in IGA tools are insufficient alone for catching active attacks, and positions real-time monitoring as a complement to standard governance processes.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/09/25/tenfold-handcuffs.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Amazon Bedrock AgentCore Flaws Could Expose AWS Credentials",
+      "url": "https://www.infosecurity-magazine.com/news/aws-agentcore-sdk-flaws-ai/",
+      "source": "Infosecurity Magazine",
+      "date": "2026-09-29",
+      "summary": "Security researchers discovered flaws in Amazon Bedrock AgentCore's SDK that could allow attackers to execute commands within AI sandboxes and access AWS credentials. The vulnerabilities relate to credential exposure in cloud AI infrastructure rather than core IAM controls, though AWS credential compromise is a relevant concern for access management practitioners.",
+      "image": "https://assets.infosecurity-magazine.com/webpage/og/b461c255-c8e1-4aea-bfcd-cb89966c7ca9.jpg",
+      "importance": 5,
       "paywall": false
     },
     {
@@ -108,18 +228,8 @@
       "url": "https://siliconangle.com/2026/09/28/ai-agent-identity-security-demands-layered-defenses-omdia-says-oktane/",
       "source": "SiliconANGLE News",
       "date": "2026-09-29",
-      "summary": "Omdia released analysis on AI agent identity security, arguing that layered defenses are needed to protect a growing class of machine identities. The report references consolidation trends in the identity security market, including activity from Palo Alto Networks, CyberArk, and Okta.",
+      "summary": "Omdia has released analysis on AI agent identity security, highlighting the need for layered defenses to protect machine identities. The report references major IAM market moves including Palo Alto Networks' acquisition of CyberArk and Okta's role in the evolving identity security landscape.",
       "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/09/IMG_1936.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "AI Agents Are Privileged Users; Who Is Auditing Their Access?",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/ai-agents-are-privileged-users-who-is-auditing-their-access",
-      "source": "Dark Reading",
-      "date": "2026-09-28",
-      "summary": "The article examines how autonomous AI agents are operating with broad privileged access within enterprises, drawing parallels to insider threat risks. The piece raises questions about auditing and governance frameworks for AI agent access, intersecting with PAM, identity governance, and access management disciplines.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt6c9f5fa659c439fa/6abab77dfee74bb9c8c001cc/AI_agent-MF3d-Getty-2217030312.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
     },
@@ -128,28 +238,8 @@
       "url": "https://www.darkreading.com/cloud-security/jadepuffer-ai-actor-azure-tenant-destructive-cloud-attack",
       "source": "Dark Reading",
       "date": "2026-09-28",
-      "summary": "A threat actor dubbed \"JadePuffer\" compromised an Azure tenant and conducted a destructive attack that deleted cloud-based storage, applications, and databases. The actor is believed to have used exposed credentials to gain initial access, making this directly relevant to cloud identity and access management security.",
+      "summary": "A threat actor dubbed \"JadePuffer\" compromised an Azure tenant in a destructive attack, deleting cloud-based storage, applications, and databases. The actor reportedly used exposed credentials to gain access, highlighting risks around credential exposure and cloud identity security in Microsoft Azure environments.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltbc06310368e21110/6a4bdbe6a6d4757864059ce1/llm-Boy_Wirat-Getty-2149059417.jpg?width=720&quality=80&disable=upscale",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Webinar: How to Govern AI Agents, Reduce Excessive Access, and Control Shadow AI",
-      "url": "https://thehackernews.com/2026/09/webinar-how-to-govern-ai-agents-reduce.html",
-      "source": "The Hacker News",
-      "date": "2026-09-28",
-      "summary": "A webinar is being promoted addressing the governance of AI agents in enterprise environments, citing Okta's Global CISO Insights 2026 report. The content focuses on reducing excessive access, controlling shadow AI, and applying identity controls to AI agents operating across business systems.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibRtgg2jeMV3szE5OkdAQtqtUYgPjYEf96vKrzXPpd8_9XDiXOC9iTBfh-neWto1RsFBY0qXpLpc71bz9OwQQ8agSkvr6zYzcqwI157keOyKgX-_L-mwGdLJxLrGhbV_yK4wQn2Jc4E72zhY7XPa05O61GOgFR3-9cpbgYbACE-dR9CqqHuavdrJV8GVg/s1600/webinar-agents.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
-      "url": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
-      "source": "The Hacker News",
-      "date": "2026-09-28",
-      "summary": "CISA added two critical Citrix NetScaler ADC and Gateway vulnerabilities to its Known Exploited Vulnerabilities catalog due to active global exploitation. The flaws affect NetScaler Gateway, which is widely used for remote access and authentication, with one vulnerability (CVE-2026-88771, CVSS 9.5) allowing unauthenticated attackers to exploit improper input validation.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjG1pBfETB-EOlAvKfZwROp5B3Nr3d00xBbxRPhsq5hDBvK8QTVYmc2r8tR8RNz7omvXWoufetWbVk1S-tZ74b-z0nxsHS_Zz7XnN4Vs7VGvDtlnOhsfG0ecx-LX_kuRwBLJwkIMN-26auGXjzdcAS2Yz8sdQ2U_kDtKpQOnOYD18r6WEu1twQ79p_ZJGhD/s1600/ct.jpg",
       "importance": 7,
       "paywall": false
     },
@@ -158,7 +248,7 @@
       "url": "https://siliconangle.com/2026/09/28/1password-ties-ai-agent-access-individual-tasks-oktane/",
       "source": "SiliconANGLE News",
       "date": "2026-09-28",
-      "summary": "1Password is implementing task-scoped access controls for AI agents, tying credential access to individual tasks rather than persistent sessions. The approach addresses the identity attribution challenge posed by AI agents, which exhibit characteristics of both human and machine users and complicate audit logging and access governance.",
+      "summary": "1Password is implementing task-scoped access controls for AI agents, tying their credentials and permissions to individual tasks rather than persistent sessions. The approach addresses the emerging IAM challenge of AI agents that blend human and machine identity characteristics, complicating attribution in audit logs and access governance.",
       "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/09/IMG_1670-scaled.jpg",
       "importance": 7,
       "paywall": false
@@ -168,7 +258,7 @@
       "url": "https://www.computerweekly.com/news/366651433/Oktane-2026-The-industry-is-ready-to-talk-about-AI-kill-switches",
       "source": "ComputerWeekly.com",
       "date": "2026-09-28",
-      "summary": "At Okta's Oktane 2026 conference, security leaders discussed the concept of AI kill switches as a mechanism to terminate out-of-control AI agents. The conversation reflects growing industry focus on controlling and governing non-human/AI identities within IAM frameworks.",
+      "summary": "At Okta's Oktane 2026 conference, security leaders discussed the concept of AI kill switches as a practical mechanism for terminating out-of-control AI agents. The conversations reflect growing IAM industry focus on controlling and governing autonomous AI agent access and permissions.",
       "image": "https://www.computerweekly.com/visuals/ComputerWeekly/Hero Images/stop-button-emergency-machine-ASPhotoProject-adobe.jpg",
       "importance": 6,
       "paywall": false
@@ -178,9 +268,9 @@
       "url": "https://securityaffairs.com/199933/ai/ai-accounts-are-becoming-the-new-target-for-infostealers.html",
       "source": "Securityaffairs.com",
       "date": "2026-09-28",
-      "summary": "SOCRadar analyzed stealer log data from the past 90 days and found 482 companies with exposed AI accounts, credentials, sessions, and API keys captured by infostealers. The findings highlight that corporate AI platform accounts and API keys are increasingly targeted, representing a credential and session theft vector relevant to access management.",
+      "summary": "SOCRadar analyzed stealer log data from the past 90 days and found 482 companies with exposed AI accounts, credentials, sessions, and API keys captured by infostealers. The findings highlight how compromised AI service accounts and API keys provide attackers with access to sensitive data and connected systems, directly intersecting with credential and access management concerns.",
       "image": "https://securityaffairs.com/wp-content/uploads/2026/09/image-80.png",
-      "importance": 5,
+      "importance": 6,
       "paywall": false
     },
     {
@@ -188,9 +278,9 @@
       "url": "https://aws.amazon.com/blogs/big-data/enforce-iam-permissions-boundaries-for-amazon-sagemaker-unified-studio-tooling-blueprints/",
       "source": "Amazon.com",
       "date": "2026-09-28",
-      "summary": "Amazon SageMaker Unified Studio has added support for custom IAM permissions boundaries for roles created by its Tooling blueprints. The feature allows administrators to restrict AI agent capabilities and configure boundaries via AWS CLI.",
+      "summary": "Amazon SageMaker Unified Studio has added support for custom IAM permissions boundaries applied to roles created by its Tooling blueprints. The feature allows administrators to restrict AI agent capabilities by configuring permissions boundaries via AWS CLI on the Tooling blueprint.",
       "image": "https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2026/08/25/BDB-6010-featured-image.png",
-      "importance": 5,
+      "importance": 6,
       "paywall": false
     },
     {
@@ -198,69 +288,9 @@
       "url": "https://siliconangle.com/2026/09/28/okta-advances-shared-architecture-agentic-ai-security-oktane/",
       "source": "SiliconANGLE News",
       "date": "2026-09-28",
-      "summary": "Okta is advocating for coordinated, cross-industry security safeguards to address the trust and security challenges posed by agentic AI systems operating across multiple platforms. The discussion centers on how autonomous AI agents interacting between products require identity and access controls that go beyond individual vendor implementations.",
+      "summary": "Okta is advocating for coordinated, cross-vendor security safeguards to address the identity and trust challenges posed by agentic AI systems operating across multiple platforms. The discussion centers on how autonomous AI agents require new frameworks for establishing trust as they move between products and environments.",
       "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/09/Charlotte-Wylie-senior-vice-president-and-deputy-chief-security-officer-of-Okta-Inc.-–-Oktas-Oktane-event-2026-scaled.jpg",
       "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "New in Symfony 8.2: OpenID Connect Login",
-      "url": "https://symfony.com/blog/new-in-symfony-8-2-openid-connect-login",
-      "source": "Symfony.com",
-      "date": "2026-09-28",
-      "summary": "Symfony 8.2 is introducing native OpenID Connect (OIDC) login support, allowing applications to delegate authentication to identity providers such as Keycloak, Auth0, Okta, and Microsoft Entra ID. This builds on OIDC token handler support added in Symfony 6.3, extending the framework's built-in federation capabilities.",
-      "image": "https://symfony.com/images/opengraph/symfony.png",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Authorizer: Open-source authentication and authorization for your apps",
-      "url": "https://www.helpnetsecurity.com/2026/09/28/authorizer-open-source-authentication-server/",
-      "source": "Help Net Security",
-      "date": "2026-09-28",
-      "summary": "Authorizer is an open-source authentication and authorization server that organizations can self-host on their own infrastructure with a choice of database backend. The project includes a permissions engine, support for web and mobile apps, and has added an interface for AI agent integration.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/09/23114927/authorizer-1500.webp",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
-      "url": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
-      "source": "The Hacker News",
-      "date": "2026-09-26",
-      "summary": "The article addresses the application of Zero Trust principles to AI agents, prompted by recent security incidents including an intrusion at Hugging Face during an OpenAI agent evaluation. The piece argues that organizations deploying AI agents face fundamental visibility and access control gaps that require IAM-focused solutions.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbfTXTCeNSvaPIRWOUJJxKPfYp45QnSjl24XZ1Set210zScJhg03o_TYX0QKPQdcSq-vkiWnymSqBu-bSwcCm1Kb2Te5do1VIcbCQjc_-TOOR6VwqRiHu5LE-tBb0gdrDjmPuDADfUraASQenGh-1gI4PF_xa2GwREsDM4vq4_C-aEU8EJsBBvhykJ1E0/s1600/sans-article.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence",
-      "url": "https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html",
-      "source": "The Hacker News",
-      "date": "2026-09-25",
-      "summary": "Cybersecurity researchers at Jamf Threat Labs identified a new version of PamStealer macOS malware that uses server-side decryption chains to protect its payload and employs multi-layer persistence mechanisms. The malware targets credential and session data on macOS systems using JavaScript for Automation (JXA) droppers with modified lures and delivery methods.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRZ3gQjU3cKnH6bHzlz8PjeaUqGcrVWnRx-bT-mgDBYv-G4CM2Iix8afTJe8sAXEghuPTiD5KszOYzA0peRhyoGKNW9YE1QtwLubBFuv9YZjXnANEGyMGwi7-oEdIqmtRBWPzUZV7S91WiUX4cI2YVMHVSQbByCmIwAX9oZxvzjb2ScVJmpmMCzpDKaKtN/s1600/macos.jpg",
-      "importance": 4,
-      "paywall": false
-    },
-    {
-      "title": "Vanderbilt University extends identity governance to AI agents",
-      "url": "https://siliconangle.com/2026/09/25/vanderbilt-university-extends-identity-governance-ai-agents-oktane/",
-      "source": "SiliconANGLE News",
-      "date": "2026-09-25",
-      "summary": "Vanderbilt University is extending its identity governance framework to cover AI agents as they enter institutional workflows. The university uses OneVU, powered by Okta, as the foundation for managing these expanding identity relationships between people, institutions, and AI technology.",
-      "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/09/Shane-Callahan-scaled-e1790365275827.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "AWS IAM outbound identity federation now supports interface VPC endpoints for OIDC discovery",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts-vpc-oidc/",
-      "source": "Amazon.com",
-      "date": "2026-09-25",
-      "summary": "AWS IAM outbound identity federation has added support for interface VPC endpoints for OIDC discovery APIs. This allows access to OIDC discovery metadata and JSON Web Key Set (JWKS) verification without requiring traffic to route over the public internet.",
-      "image": null,
-      "importance": 6,
       "paywall": false
     },
     {
@@ -268,7 +298,7 @@
       "url": "https://www.darkreading.com/cyberattacks-data-breaches/ghost-service-accounts-m365-data-theft-chile",
       "source": "Dark Reading",
       "date": "2026-09-24",
-      "summary": "A security incident in Chile involved attackers exploiting forgotten and unmanaged service accounts to steal data from Microsoft 365 environments. The attack highlights risks posed by orphaned or \"ghost\" service accounts that fall outside standard identity governance and access management controls.",
+      "summary": "Ghost (forgotten/abandoned) service accounts in Microsoft 365 environments are being exploited to steal data in attacks observed in Chile. The attack vector involves unmanaged service accounts that persist even when employee accounts are locked down, undermining the organization's entire M365 security posture.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt616fa081889caa0c/6ab405d757365f201ef41265/Chile-Gwengoat-Getty.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -278,7 +308,7 @@
       "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
       "source": "Krebs on Security",
       "date": "2026-09-01",
-      "summary": "A dark web service is selling digital scans of over 153 million U.S. and Canadian driver's licenses, apparently sourced from a Louisiana-based identity verification company. The FBI's New Orleans field office has opened an official inquiry into the breach, which affects identity verification infrastructure used across multiple organizations.",
+      "summary": "A dark web service is selling digital scans of over 153 million U.S. and Canadian driver's licenses, apparently sourced from a Louisiana-based identity verification company. The FBI's New Orleans field office has opened an official inquiry into the breach.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -288,9 +318,9 @@
       "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
       "source": "Krebs on Security",
       "date": "2026-08-06",
-      "summary": "Canadian man Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges for hacking and extorting over 165 organizations using Snowflake cloud storage. The attacks involved unauthorized access to Snowflake customer accounts, affecting organizations including AT&T, from which over 100 million customer records were stolen.",
+      "summary": "Canadian man Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges related to hacking and extorting over 165 organizations using Snowflake cloud storage. The attacks involved credential-based unauthorized access to Snowflake customer accounts, resulting in the theft of data including over 100 million AT&T customer records.",
       "image": null,
-      "importance": 4,
+      "importance": 6,
       "paywall": false
     }
   ]
