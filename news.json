@@ -1,12 +1,32 @@
 {
-  "updated": "October 03, 2026 at 09:04 UTC",
+  "updated": "October 04, 2026 at 09:37 UTC",
   "top_stories": [
+    {
+      "title": "Danish university DTU breach exposes data of up to 200,000 people",
+      "url": "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/",
+      "source": "Bleeping Computer",
+      "date": "2026-10-03",
+      "summary": "The Technical University of Denmark (DTU) suffered a breach in which hackers accessed its identity and access management system and downloaded data belonging to up to 200,000 users. The attack directly targeted the IAM infrastructure, resulting in exposure of user data at scale.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/10/03/DTU.png",
+      "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "Aembit Becomes First Third-Party Enforcement Point for Okta’s XAA Agent Identity Protocol",
+      "url": "https://forkast.news/aembit-becomes-first-third-party-enforcement-point-for-oktas-xaa-agent-identity-protocol/",
+      "source": "Forkast.news",
+      "date": "2026-10-02",
+      "summary": "Aembit has become the first third-party enforcement point for Okta's Cross App Access (XAA) protocol, an agent identity standard Okta formalized at Oktane in September 2026. XAA is an open protocol designed to manage enterprise identity for AI agents across applications, and Aembit's integration marks the first external vendor implementation of this standard.",
+      "image": "https://forkast.news/wp-content/uploads/2026/10/aembit-xaa-enforcement-point-1024x687.jpg",
+      "importance": 8,
+      "paywall": false
+    },
     {
       "title": "Oktane 2026 Recap: Okta Announces A Unified IAM Control Plane, With Agent Governance And Identity Details Remaining Unclear",
       "url": "https://www.forrester.com/blogs/oktane-2026-recap-okta-announces-a-unified-iam-control-plane-with-agent-governance-and-identity-details-remaining-unclear/",
       "source": "Forrester.com",
       "date": "2026-10-01",
-      "summary": "At Oktane 2026 in Las Vegas, Okta announced plans to transform its platform into a unified IAM control plane with capabilities for AI agent governance. Details around agent identity and governance implementation remain unclear following the conference announcements.",
+      "summary": "At Oktane 2026 in Las Vegas, Okta announced plans to transform its platform into a unified IAM control plane with AI agent governance capabilities. Details around agent identity and governance implementation remain unclear following the conference keynotes and product announcements.",
       "image": "https://go.forrester.com/wp-content/uploads/2026/10/Oktane-2026-Recap-Okta-Announces-A-Unified-IAM-Control-Plane-With-Agent-Governance-And-Identity-Details-Remaining-Unclear-scaled.jpg",
       "importance": 8,
       "paywall": false
@@ -16,7 +36,7 @@
       "url": "https://www.darkreading.com/vulnerabilities-threats/netscaler-zero-days-chaos-citrix",
       "source": "Dark Reading",
       "date": "2026-09-29",
-      "summary": "Citrix disclosed two critical zero-day vulnerabilities in its NetScaler products that affect default configurations and allow attackers unauthorized access to customer networks. The flaws function as authentication bypasses, effectively granting attackers a skeleton key to compromise network access controls.",
+      "summary": "Citrix disclosed two critical zero-day vulnerabilities in its NetScaler products that affect default configurations and allow attackers unauthorized access to customer networks. The flaws function as authentication bypass or session hijacking mechanisms, directly impacting access control to enterprise environments.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt5de91a8011e409dc/68ae00c0ae4a7a4290bef1c1/citrix_JHVEPhoto_shutterstock.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -26,39 +46,29 @@
       "url": "https://www.darkreading.com/vulnerabilities-threats/ai-agents-are-privileged-users-who-is-auditing-their-access",
       "source": "Dark Reading",
       "date": "2026-09-28",
-      "summary": "The article examines AI agents operating with broad privileged access within enterprise environments, framing them as a new category of privileged users that fall outside traditional PAM and access governance controls. The piece raises concerns about the lack of auditing and oversight applied to autonomous AI agents compared to human users, directly implicating IAM and PAM frameworks.",
+      "summary": "The article examines how autonomous AI agents are being granted broad privileged access within enterprise environments without the same auditing and oversight applied to human users. The piece frames AI agents as a emerging privileged access management challenge, positioning them as potential insider threat vectors analogous to human privileged users.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt6c9f5fa659c439fa/6abab77dfee74bb9c8c001cc/AI_agent-MF3d-Getty-2217030312.jpg?width=720&quality=80&disable=upscale",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "JadePuffer AI Actor Compromises Azure Tenant in Destructive Cloud Attack",
-      "url": "https://www.darkreading.com/cloud-security/jadepuffer-ai-actor-azure-tenant-destructive-cloud-attack",
-      "source": "Dark Reading",
-      "date": "2026-09-28",
-      "summary": "A threat actor dubbed \"JadePuffer\" compromised an Azure tenant in a destructive cloud attack, deleting cloud-based storage, applications, and databases. The actor reportedly used exposed credentials to gain access, highlighting risks around credential management and cloud identity security in Microsoft Azure environments.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltbc06310368e21110/6a4bdbe6a6d4757864059ce1/llm-Boy_Wirat-Getty-2149059417.jpg?width=720&quality=80&disable=upscale",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "The Day-One Hole in Zero Trust Architecture",
-      "url": "https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture/",
-      "source": "Bleeping Computer",
-      "date": "2026-10-01",
-      "summary": "Specops published an analysis identifying a structural vulnerability in Zero Trust architecture during the user onboarding phase, before credentials and MFA methods are established. The piece argues that identity verification must occur prior to issuing credentials, MFA, and access rights to close the trust gap that exists before strong authentication is in place.",
-      "image": "https://www.bleepstatic.com/content/posts/2026/09/23/specops-question-mark.jpg",
       "importance": 7,
       "paywall": false
     }
   ],
   "news": [
     {
+      "title": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
+      "url": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
+      "source": "The Hacker News",
+      "date": "2026-10-04",
+      "summary": "A China-aligned threat actor designated TA419 has conducted credential phishing campaigns targeting AI policy experts at U.S. think tanks, universities, and legal organizations. The campaigns employ Microsoft Adversary-in-the-Middle (AitM) phishing techniques to harvest credentials, impersonating economists, AI policymakers, and an Anthropic employee to target victims.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgR69JnEBkz8N6_Nd5K75adIWh8xVmxW8FB21gsKinx9HBzgXQSLWL5sYdKMe9d-cbTSrgc45ZtYhmvhLZJII1H-tPXKn4AiRvj4KrU8ayeZskmMCfiV-mUc2pz10MumKyXKH6ybJ2RsVj9ZZ67l-4u0Y2f5Dl3kX7PLEzCAqogMfHTSfD7gM7QypHi-yos/s1600/china-ms.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
       "title": "Kiteworks &amp; Citrix Incidents Show Challenges of Zero-Day Response",
       "url": "https://www.darkreading.com/cybersecurity-operations/kiteworks-citrix-incidents-challenges-zero-day-response",
       "source": "Dark Reading",
       "date": "2026-10-02",
-      "summary": "Kiteworks and Citrix faced separate zero-day security incidents requiring emergency response measures, with Kiteworks instructing customers to power down its platform during a nine-hour window. Citrix did not communicate with customers about reported attacks prior to releasing a patch, highlighting differing vendor disclosure practices in zero-day response scenarios.",
+      "summary": "Kiteworks and Citrix both faced zero-day vulnerability incidents, with Kiteworks instructing customers to power down its platform during a nine-hour maintenance window as part of its response. Citrix took a different approach by remaining silent on reported active attacks before releasing a patch, highlighting contrasting vendor communication strategies during zero-day response.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt3f39295ab2cc8617/6abec652493aca7db2e138d1/hear-no-evil-see-no-evil-monkeys-robert_lemos.jpg?width=720&quality=80&disable=upscale",
       "importance": 6,
       "paywall": false
@@ -68,9 +78,9 @@
       "url": "https://www.darkreading.com/cybersecurity-operations/swift-banking-govt-middleware-rce",
       "source": "Dark Reading",
       "date": "2026-10-02",
-      "summary": "A vulnerability in SWIFT banking and government middleware has been identified that enables remote code execution (RCE). The flaw can be exploited to bypass hardware-based MFA in high-security environments, making patching urgent for affected organizations.",
+      "summary": "A vulnerability in SWIFT banking and government middleware has been identified that enables remote code execution. The flaw can be exploited to bypass hardware-based MFA in high-security environments, with patching recommended as the immediate mitigation.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt20cb2cd941ab8738/6abfc2b68e913fc976ab5ea7/USB-years-Getty.jpg?width=720&quality=80&disable=upscale",
-      "importance": 6,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -78,9 +88,9 @@
       "url": "https://www.helpnetsecurity.com/2026/10/02/china-aligned-ta419-phishing-ai-policy-experts/",
       "source": "Help Net Security",
       "date": "2026-10-02",
-      "summary": "A China-aligned espionage group tracked as TA419 conducted credential phishing campaigns in July 2026, impersonating a former White House OSTP official and a prominent economist to access cloud accounts of AI policy experts. Proofpoint researchers identified the campaigns, which targeted victims' cloud account credentials through identity impersonation tactics.",
+      "summary": "A China-aligned espionage group tracked as TA419 conducted credential phishing campaigns in July 2026, impersonating a former White House OSTP official and other prominent figures to compromise cloud accounts of AI policy experts. Proofpoint researchers identified the campaigns, which targeted credentials for cloud account access.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/03/03095125/esionage-1-1500.webp",
-      "importance": 5,
+      "importance": 6,
       "paywall": false
     },
     {
@@ -88,7 +98,7 @@
       "url": "https://www.helpnetsecurity.com/2026/10/02/intel-471-insider-threat-recruitment-report/",
       "source": "Help Net Security",
       "date": "2026-10-02",
-      "summary": "Intel 471's \"Insiders for Hire\" report details how cybercriminals are actively recruiting employees at specific organizations to exploit their legitimate access for criminal purposes. The report covers underground markets where insiders sell access-related services including account resets, transaction approvals, and information lookups to criminal customers.",
+      "summary": "Intel 471's \"Insiders for Hire\" report details how cybercriminals are actively recruiting employees at specific organizations to exploit their legitimate access for criminal purposes. The report covers underground markets where criminals pay brokers to find insiders who can perform actions such as account resets, transaction approvals, and information lookups as paid services.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/06/09174915/insider-threat.webp",
       "importance": 6,
       "paywall": false
@@ -108,7 +118,7 @@
       "url": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
       "source": "The Hacker News",
       "date": "2026-10-02",
-      "summary": "Dell has released security updates addressing critical vulnerabilities in Dell Container Storage Modules (CSM), including CVE-2026-63688 (CVSS 10.0), a missing authentication flaw in the csm-authorization-storage gRPC server. The vulnerability enables unauthenticated administrative access and root-level compromise on Kubernetes nodes, directly affecting Dell's CSM authorization component.",
+      "summary": "Dell has released security updates addressing critical vulnerabilities in Dell Container Storage Modules (CSM), including CVE-2026-63688 (CVSS 10.0), which allows unauthenticated access to a critical authorization function via the csm-authorization-storage gRPC server. The flaw enables attackers to bypass authentication controls and gain administrative or root-level access on Kubernetes nodes.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiypcfC3W6keUc31zSJympZfpI6eLwDhyphenhyphen4uy_0M3VFljfoSn2pjzBmS3yyAZTzILPxi_sXeOx2jyeu6mdSPKqjiFv7LAMd2mn6Q8GvIRq6yVXUoQm5MiXeEs96i9IT-ZCP2W7hAzR08B9JOuOJv8NNI7o7DfCSa7cplzrsT_x_0R0dPVSQxKmdLP8NvAsnp/s1600/dell.jpg",
       "importance": 6,
       "paywall": false
@@ -118,19 +128,19 @@
       "url": "https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html",
       "source": "The Hacker News",
       "date": "2026-10-02",
-      "summary": "The article addresses the challenge CISOs face when reporting security posture to boards, with identity provider data being one of several sources used to compile reports. The content is primarily focused on board communication and security reporting strategy rather than IAM-specific technology or practice.",
+      "summary": "The article addresses the challenge CISOs face when reporting security posture to boards, framing it around data reconciliation from identity providers and other security tools. It touches on IAM-adjacent topics like identity provider data as part of board reporting, but is primarily a general security leadership and communication piece.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0hKMtHvRqPQiVRgaUAvYQ1XOUA_EToiZ3Tx-v7pSvbqwlnoo7qr5jQ_5KJuYpRFW0MzE3bLPePNT-rn4m8bEz7eTMVysO0OcfFwNKKFgKIo6tiT0JKKauf9MFxYTet3LiqJ2lXxfxVuKzRIPloaGR-_bOUEXOz_-ONc3AXfHKZV-PhAW8wEfayC-iwZE/s1600/ciso-ready.jpg",
       "importance": 4,
       "paywall": false
     },
     {
-      "title": "Microsoft enables Windows settings backup by default for orgs",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-enables-windows-settings-backup-by-default-for-orgs/",
+      "title": "The Day-One Hole in Zero Trust Architecture",
+      "url": "https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture/",
       "source": "Bleeping Computer",
       "date": "2026-10-01",
-      "summary": "Microsoft has enabled Windows settings backup and restore by default on enterprise systems joined to Microsoft Entra (both standard and hybrid) when upgraded to Windows 11 26H2. This change affects how organizational device configurations are stored and synchronized through Microsoft Entra-joined environments.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/10/01/Windows-headpic.jpg",
-      "importance": 5,
+      "summary": "Specops has published analysis identifying a security gap in Zero Trust architectures during the employee onboarding phase, before credentials and MFA methods are established. The piece argues that identity verification must occur prior to issuing credentials, MFA, and access rights to close this pre-authentication vulnerability.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/09/23/specops-question-mark.jpg",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -138,7 +148,7 @@
       "url": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
       "source": "The Hacker News",
       "date": "2026-10-01",
-      "summary": "CISA added a critical authentication bypass vulnerability in Cisco Catalyst SD-WAN Manager (CVE-2026-76504, CVSS 9.8) to its Known Exploited Vulnerabilities catalog following confirmed active exploitation. The flaw allows unauthenticated remote attackers to access affected systems, representing a direct authentication control failure in network management infrastructure.",
+      "summary": "CISA added a critical authentication bypass vulnerability in Cisco Catalyst SD-WAN Manager (CVE-2026-76504, CVSS 9.8) to its Known Exploited Vulnerabilities catalog following reports of active exploitation. The flaw allows an unauthenticated remote attacker to access affected systems, making it directly relevant to authentication and access security practices.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8jgm3LMY2zr1S1DmXnvVEPDiTKYR5FXHW7q_6duG1lVPhzbW2ZfJwRM9glqAJrQhBX3HAAiksz-tUpRN4pfT9VWHUksa-1SgHZmKcNUd1tJfsyFiwhtezZN_zBM_cEmqjkECI_2gfWhnqZ1ry2hgDou-qQCB21zbl1RzYN9JB0bRjqzhB2m6gBomg-ow9/s1600/cisa-wan.jpg",
       "importance": 6,
       "paywall": false
@@ -148,7 +158,7 @@
       "url": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html",
       "source": "The Hacker News",
       "date": "2026-10-01",
-      "summary": "Threat actors are exploiting a critical pre-authentication command injection vulnerability in Citrix NetScaler ADC and NetScaler Gateway to deploy web shells and steal configuration data. The attacks, analyzed by LevelBlue's THOR team across multiple customer environments, involve creating superuser accounts and mapping web shells to CSS-like URLs to evade detection.",
+      "summary": "Threat actors are exploiting a critical pre-authentication command injection vulnerability in Citrix NetScaler ADC and NetScaler Gateway to deploy web shells and steal configuration data. The attacks involve creating superuser accounts and mapping web shells to CSS-like URLs, as analyzed by LevelBlue's THOR team across multiple customer environments.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAuODp7WTARNyJa6hiyuveQ1LUgYlaYQXGDDfRAYUA7Zkwwb7vMriA7VIh5HmBJwWWR0kALhQkijvT43ke2ajjOQHk6YxQb2rAgsB0PYcbMKPdm-JezjILBH8j3kY29iATKhZLQhVIyAjwNj9XFBTeenqPCHM1AzKMKRCVlMME3jQs5yIYSoVtrbRnVSY7/s1600/citrix-css-shell.jpg",
       "importance": 6,
       "paywall": false
@@ -158,9 +168,19 @@
       "url": "https://www.prnewswire.com/news-releases/ditto-named-a-product-leader-in-kuppingercole-analysts-leadership-compass-for-identity-verification-302896440.html",
       "source": "PRNewswire",
       "date": "2026-10-01",
-      "summary": "Ditto has been named a Product Leader in the KuppingerCole Analysts Leadership Compass for Identity Verification. The recognition highlights Ditto's approach to binding verified identity to high-assurance authentication and its no-code orchestration layer.",
+      "summary": "Ditto has been named a Product Leader in the KuppingerCole Analysts Leadership Compass for Identity Verification. The recognition highlights Ditto's binding of verified identity to high-assurance authentication and its no-code orchestration layer.",
       "image": "https://mmx.prnewswire.com/media/MS2000735/Ditto-KuppingerCole-Product-Leader-in-IDV-no-button.jpg?id=OA2982477&p=facebook",
       "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft enables Windows settings backup by default for orgs",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-enables-windows-settings-backup-by-default-for-orgs/",
+      "source": "BleepingComputer",
+      "date": "2026-10-01",
+      "summary": "Microsoft has enabled Windows settings backup and restore by default on all Microsoft Entra-joined or hybrid-joined enterprise systems upgraded to Windows 11 26H2. The change applies automatically to organizations using Microsoft Entra for device identity management.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/10/01/Windows-headpic.jpg",
+      "importance": 5,
       "paywall": false
     },
     {
@@ -168,7 +188,7 @@
       "url": "https://www.prnewswire.com/news-releases/keeper-security-freshservice-workflow-app-streamlines-vault-and-privileged-access-request-process-302895333.html",
       "source": "PRNewswire",
       "date": "2026-10-01",
-      "summary": "Keeper Security has launched a new integration with Freshservice that allows IT and security teams to search the Keeper vault and submit privileged access requests directly from the Freshservice ticket sidebar. The integration combines Keeper's zero-trust, zero-knowledge PAM capabilities with Freshservice's IT service management workflow.",
+      "summary": "Keeper Security has launched a new integration with Freshservice that allows IT and security teams to search the Keeper vault and submit privileged access requests directly from the Freshservice ticket sidebar. The integration connects Keeper's zero-trust, zero-knowledge PAM platform with Freshservice's IT service management workflows to streamline access request processes.",
       "image": "https://mmx.prnewswire.com/media/MS1864138/Keeper-logo-full-color-002.jpg?id=OA2981209&p=facebook",
       "importance": 6,
       "paywall": false
@@ -178,7 +198,7 @@
       "url": "https://www.infosecurity-magazine.com/blogs/why-agent-governance-needs/",
       "source": "Infosecurity Magazine",
       "date": "2026-10-01",
-      "summary": "The article addresses the emerging challenge of governing AI agents within enterprise identity governance frameworks, arguing that traditional static IAM models are insufficient for managing autonomous AI systems. The piece focuses on the need for continuous monitoring and dynamic risk management as AI agents proliferate and operate with delegated access across enterprise environments.",
+      "summary": "The article addresses the need for identity governance frameworks to adapt to the proliferation of AI agents in enterprise environments, moving from static to dynamic, continuously enforced models. The piece focuses on managing risk associated with AI agent identities, positioning agent governance as an emerging requirement within IGA disciplines.",
       "image": "https://assets.infosecurity-magazine.com/webpage/og/fff99ede-b6c5-4793-890b-424624f58b20.jpg",
       "importance": 7,
       "paywall": false
@@ -188,7 +208,7 @@
       "url": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
       "source": "The Hacker News",
       "date": "2026-09-30",
-      "summary": "Threat actors are exploiting a critical Zimbra Collaboration Suite vulnerability (CVE-2026-73570, CVSS 8.9) to deploy web shells and harvest authentication secrets from mailboxes. The flaw is an unauthenticated OS command injection vulnerability enabling remote code execution via SNMP, discovered by Microsoft Security Research.",
+      "summary": "Threat actors are exploiting a patched Zimbra Collaboration Suite vulnerability (CVE-2026-73570, CVSS 8.9) to deploy web shells and harvest authentication secrets from mailboxes. The unauthenticated OS command injection flaw enables remote code execution via SNMP, with findings reported by Microsoft Security Research.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNxFzgwNCn6YTNDvFIlEUKsnNOR9Y8UF__1rQ8N5BuMTKmJRPs-d_ilYcoeXwb03y07EXxnGyf5Ka8gyrKbFtzM2GoqYfrp79A-ZwHZyQDHEIU9twKFM67Glqk8eE4_j3fiHxNnPFl0euvHnKKfrmTd2aKcsMnebFQ4z73INLZfIdT66yH3MV5vOIBaMV5/s1600/zimbra-email.jpg",
       "importance": 5,
       "paywall": false
@@ -198,19 +218,9 @@
       "url": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
       "source": "The Hacker News",
       "date": "2026-09-30",
-      "summary": "Cisco disclosed an actively exploited critical authentication bypass vulnerability (CVE-2026-76504) in Cisco Catalyst SD-WAN Manager that allows unauthenticated remote attackers to access the system's API with admin privileges. Fixed releases are available, and no workaround exists for the flaw.",
+      "summary": "Cisco disclosed active exploitation of a critical authentication bypass vulnerability (CVE-2026-76504) in Cisco Catalyst SD-WAN Manager, allowing unauthenticated remote attackers to access the system's API with admin-level privileges. Fixed releases are available with no workaround, and Cisco issued the advisory on September 30.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDRBMRmTwQer5G9fB3V6UvczV_QEpVLnIpRMEjpkiSKOC1vvem-ZkM9zP2vgBIYDlH-jveY5oeV2qcYJ2YiVD1-z1q4bJNBrPYpewyUqOOgbl89xV3JCsQeor1fhrWLS6EEvtNCIHlyuNB8jRnDzqdO9bQZ4hNN0yvEE6ceXw0A43onar4xorpsnM1qog/s1600/cisco-admin.jpg",
       "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Know Your Enemy: Browser-Based Attack Techniques in 2026",
-      "url": "https://thehackernews.com/2026/09/know-your-enemy-browser-based-attack.html",
-      "source": "The Hacker News",
-      "date": "2026-09-30",
-      "summary": "An article outlines six browser-based attack techniques relevant to security teams in 2026, noting that most breaches today originate and occur entirely within browser sessions. The piece focuses on browser as an attack surface but does not specifically address IAM controls, authentication mechanisms, or identity-specific defenses.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHy63Qp6WLBgRhCGaWARbZzjcdu6DhFo9JxZXTE9Rt4B42ImiW_cB0Fdq2yV_HYiZohMmVMRxTu1DxcbiOE9GNu4lAF2HZZ61QiCrWSEKGJFjEt5E5pKpXhjGK9DsZrqTxHFqF2IIaToRSTItghSELEiA_kgTP69_iOwbHdT35ht3yLCqIiNb5ysgDeuM/s1600/push-phish.jpg",
-      "importance": 4,
       "paywall": false
     },
     {
@@ -218,7 +228,7 @@
       "url": "https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html",
       "source": "The Hacker News",
       "date": "2026-09-30",
-      "summary": "Researchers at ANY.RUN identified a phishing campaign called CSuite targeting Microsoft 365 users, traced across 351 sandbox analyses with 51% of submissions from the US. The campaign combines Microsoft 365 session token theft with deployment of remote management tools to enable persistent access and broader account compromise across technology, manufacturing, government, and consulting sectors.",
+      "summary": "Researchers at ANY.RUN identified a phishing campaign called CSuite targeting executives that steals Microsoft 365 session tokens to bypass MFA and maintains persistence via remote monitoring and management (RMM) tool deployment. The campaign, analyzed across 351 sandbox submissions with 51% originating from the US, targets technology, manufacturing, government, and consulting sectors.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5fq_zpvT8d0bG8IIotVRgIHIXCNOTPBhfIBUIWxLlg1X4bDmzf0PRgt_0UaHhvTIznPU4nOCCuLJ6JbJ3Tx22FPY2Ox93L_HNhA7XjQEvOcsXfw3NIixeGcy9DywlAx_SuEhCM6DRjgP3NBQrdHnJrFOCEFHFR8bFyF4YFWYtYEuPbG7kvWrgAsotLWI/s1600/rmm.jpg",
       "importance": 7,
       "paywall": false
@@ -228,7 +238,7 @@
       "url": "https://kitploit.com/en/posts/keycloak-b520086576975b10",
       "source": "Kitploit.com",
       "date": "2026-09-30",
-      "summary": "Keycloak has released version 26.7.5 of its open source identity and access management platform. The release applies to Keycloak's IAM solution designed for modern applications and services.",
+      "summary": "Keycloak has released version 26.7.5 of its open source identity and access management platform. This is a maintenance/patch release of the widely-used IAM solution for modern applications and services.",
       "image": "https://assets.kitploit.com/production/public/tools/50743/f62b3e3d2e3b70008a97b2c459aaed5342b1b8144b52d491e5ef016d9b7ecc60-social-v1.webp",
       "importance": 3,
       "paywall": false
@@ -238,9 +248,9 @@
       "url": "https://www.cbinsights.com/research/ceo-interview-oak/",
       "source": "Cbinsights.com",
       "date": "2026-09-30",
-      "summary": "Oak CEO Shai Ben-Zion Morag gave an interview to CB Insights discussing the company's positioning in the identity governance market. The interview covers Oak's view of customer needs and where the company fits within the identity governance space.",
+      "summary": "Oak CEO Shai Ben-Zion Morag discussed the company's positioning in the identity governance market in an interview with CB Insights. The interview covers Oak's view of customer needs and their place within the identity governance space.",
       "image": "https://research-assets.cbinsights.com/2026/09/30053508/oalk.png",
-      "importance": 6,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -248,68 +258,18 @@
       "url": "https://www.prnewswire.com/news-releases/britive-launches-frictionless-pam-transformation-program-to-modernize-privileged-access-for-the-autonomous-era-302893915.html",
       "source": "PRNewswire",
       "date": "2026-09-30",
-      "summary": "Britive has launched a Frictionless PAM Transformation Program aimed at helping enterprises modernize their Privileged Access Management infrastructure. The program targets migration from traditional PAM environments to a model designed to support AI agents, non-human identities, and cloud-native operations.",
+      "summary": "Britive has launched a Frictionless PAM Transformation Program aimed at helping enterprises modernize their Privileged Access Management infrastructure. The program is designed to support AI agents, non-human identities, and cloud environments, moving organizations away from traditional fragmented PAM approaches.",
       "image": "https://mmx.prnewswire.com/media/MS1682302/Britive-Logo-Midnight-Logo.jpg?id=OA2978495&p=facebook",
       "importance": 6,
       "paywall": false
     },
     {
-      "title": "AI's Third Wave: Coworkers Break the Security Model That Worked for Agents",
-      "url": "https://www.bleepingcomputer.com/news/security/ais-third-wave-coworkers-break-the-security-model-that-worked-for-agents/",
-      "source": "BleepingComputer",
-      "date": "2026-09-30",
-      "summary": "Token Security has published analysis arguing that persistent AI \"coworker\" systems require dedicated identity management approaches distinct from those used for traditional AI agents, citing risks from continuous operation with standing access. The piece outlines requirements including individual identities, defined owners, scoped permissions, and lifecycle management for these AI entities.",
-      "image": "https://www.bleepstatic.com/content/posts/2026/09/29/token-security-ai-agent.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft to block Entra ID script injection attacks starting October",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/",
-      "source": "BleepingComputer",
-      "date": "2026-09-30",
-      "summary": "Microsoft will implement enhanced protections against external script injection attacks in its Entra ID authentication system starting in October. The update targets a specific attack vector affecting the Entra ID platform and was announced as a reminder to customers to prepare for the change.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2021/09/15/Microsoft_passwordless.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Security Uses Cryptography in Pieces. WinMagic Says That Gap Is What AI Attacks.",
-      "url": "https://www.prnewswire.com/news-releases/security-uses-cryptography-in-pieces-winmagic-says-that-gap-is-what-ai-attacks-302894388.html",
-      "source": "PRNewswire",
-      "date": "2026-09-30",
-      "summary": "WinMagic CEO Thi Nguyen-Huu argues that AI-enabled attacks exploit gaps between disparate cryptographic components in security systems. He advocates for reducing user-dependent security decisions and tying authentication more closely to the protected session that follows.",
-      "image": "https://mmx.prnewswire.com/media/MS1999244/WinMagic-Photo.jpg?id=OA2978385&p=facebook",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Five MCP Authentication Mechanisms Shipped in Two Weeks – the Pattern",
-      "url": "https://forkast.news/five-mcp-authentication-mechanisms-shipped-in-two-weeks-the-pattern/",
-      "source": "Forkast.news",
-      "date": "2026-09-30",
-      "summary": "Five distinct and non-interoperable authentication mechanisms for the Model Context Protocol (MCP) were shipped within a two-week window in late September, developed independently without coordination. The fragmented rollout highlights emerging authentication challenges in AI tool integration protocols relevant to IAM architects evaluating agentic AI security.",
-      "image": "https://forkast.news/wp-content/uploads/2026/09/five-mcp-auth-mechanisms-pattern-1024x687.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "NTT TechnoCross Receives Frost & Sullivan's 2026 Japanese Company of the Year Recognition for Privileged Access Management Leadership for the Third Consecutive Year",
-      "url": "https://www.prnewswire.com/news-releases/ntt-technocross-receives-frost--sullivans-2026-japanese-company-of-the-year-recognition-for-privileged-access-management-leadership-for-the-third-consecutive-year-302892650.html",
-      "source": "PRNewswire",
-      "date": "2026-09-30",
-      "summary": "NTT TechnoCross has received Frost & Sullivan's 2026 Japanese Company of the Year award for privileged access management for the third consecutive year. The recognition highlights the company's unified governance approach, cloud-ready security offerings, and innovation in Japan's PAM market.",
-      "image": null,
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks",
-      "url": "https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html",
-      "source": "The Hacker News",
-      "date": "2026-09-29",
-      "summary": "An attacker used stolen staff credentials to exfiltrate tax data on hundreds of thousands of French taxpayers and businesses from France's tax administration, going undetected for seven weeks. France's national cybersecurity agency ANSSI attributed the successful breach to weak security controls rather than sophisticated attack techniques.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9h550xeoGqzMnMqY6B6Ejo9xeSvbx4fnnu1OmLWvhYAvYeLNB1zeik8F8yYB82oW685qieusoRaI27P68ugA34Vg0720ZZdLfQUJtuIjxkUYRgq_hQtivtsopRYYoddpwb4mICLERqQrVKtZv5EHg78rU14dlQmgevB0KsOR0ePvG4E8cpqKB1TyliaE/s1600/france.jpg",
+      "title": "JadePuffer AI Actor Compromises Azure Tenant in Destructive Cloud Attack",
+      "url": "https://www.darkreading.com/cloud-security/jadepuffer-ai-actor-azure-tenant-destructive-cloud-attack",
+      "source": "Dark Reading",
+      "date": "2026-09-28",
+      "summary": "A threat actor dubbed \"JadePuffer\" compromised an Azure tenant in a destructive cloud attack, deleting cloud-based storage, applications, and databases. The attacker reportedly used exposed credentials to gain initial access, highlighting risks around credential exposure and cloud identity security in Microsoft Azure environments.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltbc06310368e21110/6a4bdbe6a6d4757864059ce1/llm-Boy_Wirat-Getty-2149059417.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
     },
@@ -318,7 +278,7 @@
       "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
       "source": "Krebs on Security",
       "date": "2026-09-01",
-      "summary": "A dark web service is selling digital scans of over 153 million U.S. and Canadian driver's licenses, allegedly sourced from a Louisiana-based identity verification company. The FBI's New Orleans field office has launched an official inquiry into the breach, which affects a widely-used identity verification provider.",
+      "summary": "A dark web service is selling digital scans of over 153 million U.S. and Canadian drivers licenses, with evidence pointing to a Louisiana-based identity verification company as the source of the breach. The FBI's New Orleans field office has opened an official investigation into the origin of the leaked images.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -328,7 +288,7 @@
       "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
       "source": "Krebs on Security",
       "date": "2026-08-06",
-      "summary": "Canadian man Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges for hacking and extorting over 165 organizations using Snowflake cloud storage. The attacks involved credential-based unauthorized access to Snowflake customer accounts, resulting in theft of AT&T call and text records belonging to over 100 million customers.",
+      "summary": "Canadian man Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges for hacking and extorting over 165 organizations using Snowflake cloud storage. The attacks involved unauthorized access to accounts, impacting more than 100 million AT&T customers whose call and text records were stolen.",
       "image": null,
       "importance": 5,
       "paywall": false
