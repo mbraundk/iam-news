@@ -1,23 +1,23 @@
 {
-  "updated": "October 05, 2026 at 10:18 UTC",
+  "updated": "October 06, 2026 at 10:05 UTC",
   "top_stories": [
     {
-      "title": "Danish university DTU breach exposes data of up to 200,000 people",
-      "url": "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/",
-      "source": "Bleeping Computer",
-      "date": "2026-10-03",
-      "summary": "The Technical University of Denmark (DTU) suffered a breach in which hackers accessed its identity and access management system and downloaded data belonging to up to 200,000 people. The attack directly targeted the IAM infrastructure, resulting in the exposure of user information at scale.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/10/03/DTU.png",
+      "title": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
+      "url": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
+      "source": "The Hacker News",
+      "date": "2026-10-05",
+      "summary": "Citrix has released security updates for a high-severity zero-day vulnerability (CVE-2026-88779, CVSS 8.7) in NetScaler ADC and NetScaler Gateway that is actively being exploited in targeted attacks. The memory overflow vulnerability can knock SAML deployments offline, directly impacting identity federation and authentication infrastructure.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhV4of0Q-gWaIOffgWXdEfAxmI1ENcyrpDSSDjBurAHSpUuAI8lASQI5wrUvL3Evb0iqA31rRywo51olFOzoWe_lQ9cwN7Sp5QQw_2h-y44n0Va4vwlRQZipZ5fkm98BRmTOoVDPTs8pUMW_ClnH2GlPobgQQ33rNzL8EBnBW84aacH3dLXdyyLW9bBEqG5/s1600/citrix-offline.jpg",
       "importance": 8,
       "paywall": false
     },
     {
-      "title": "Okta XAA Ecosystem Scales to 25+ Partners as AI Gateways Become the Identity Enforcement Layer",
-      "url": "https://forkast.news/okta-xaa-ecosystem-scales-to-25-partners-as-ai-gateways-become-the-identity-enforcement-layer/",
-      "source": "Forkast.news",
-      "date": "2026-10-04",
-      "summary": "Okta's Cross App Access (XAA) protocol ecosystem has scaled to 25+ partners, with AI gateway vendor TrueFoundry becoming the latest to integrate the protocol. The integration positions AI gateways as identity enforcement layers where agents present credentials before accessing downstream resources.",
-      "image": "https://forkast.news/wp-content/uploads/2026/10/okta-xaa-ecosystem-scales-gateway-identity-1024x687.jpg",
+      "title": "Danish university DTU breach exposes data of up to 200,000 people",
+      "url": "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/",
+      "source": "BleepingComputer",
+      "date": "2026-10-03",
+      "summary": "The Technical University of Denmark (DTU) suffered a breach in which hackers accessed its identity and access management system and downloaded data belonging to up to 200,000 users. The attack directly targeted the IAM infrastructure, resulting in potential exposure of user identity data across the institution.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/10/03/DTU.png",
       "importance": 8,
       "paywall": false
     },
@@ -26,7 +26,7 @@
       "url": "https://forkast.news/aembit-becomes-first-third-party-enforcement-point-for-oktas-xaa-agent-identity-protocol/",
       "source": "Forkast.news",
       "date": "2026-10-02",
-      "summary": "Aembit has become the first third-party enforcement point for Okta's Cross App Access (XAA) protocol, an open agent identity standard Okta formalized at Oktane in September 2026. XAA is designed to standardize enterprise-managed authorization for agentic and cross-application access scenarios, and Aembit's adoption marks the first external implementation of the protocol.",
+      "summary": "Aembit has become the first third-party enforcement point for Okta's Cross App Access (XAA) protocol, an agent identity standard Okta formalized at Oktane in September 2026. XAA is an open protocol designed to manage enterprise-controlled authorization for AI agents accessing applications across organizational boundaries.",
       "image": "https://forkast.news/wp-content/uploads/2026/10/aembit-xaa-enforcement-point-1024x687.jpg",
       "importance": 8,
       "paywall": false
@@ -36,41 +36,9 @@
       "url": "https://www.forrester.com/blogs/oktane-2026-recap-okta-announces-a-unified-iam-control-plane-with-agent-governance-and-identity-details-remaining-unclear/",
       "source": "Forrester.com",
       "date": "2026-10-01",
-      "summary": "At Oktane 2026 in Las Vegas, Okta announced plans to transform its platform into a unified IAM control plane with AI agent governance capabilities. Key details around agent identity and governance implementation remain unclear following the conference keynotes and product announcements.",
+      "summary": "At Oktane 2026, Okta announced plans to transform its platform into a unified IAM control plane with AI agent governance capabilities. Details around agent identity management and specific identity controls were described as remaining unclear following the conference announcements.",
       "image": "https://go.forrester.com/wp-content/uploads/2026/10/Oktane-2026-Recap-Okta-Announces-A-Unified-IAM-Control-Plane-With-Agent-Governance-And-Identity-Details-Remaining-Unclear-scaled.jpg",
       "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Dual NetScaler Zero-Days Trigger Chaos for Citrix Customers",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/netscaler-zero-days-chaos-citrix",
-      "source": "Dark Reading",
-      "date": "2026-09-29",
-      "summary": "Citrix disclosed two critical zero-day vulnerabilities in its NetScaler products that affect default configurations and allow attackers unauthorized access to customer networks. The flaws are particularly relevant to IAM and access management professionals as NetScaler is widely used as an application delivery and access gateway solution.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt5de91a8011e409dc/68ae00c0ae4a7a4290bef1c1/citrix_JHVEPhoto_shutterstock.jpg?width=720&quality=80&disable=upscale",
-      "importance": 7,
-      "paywall": false
-    }
-  ],
-  "news": [
-    {
-      "title": "Keyorix: Open-source secrets management for teams that can’t use SaaS",
-      "url": "https://www.helpnetsecurity.com/2026/10/05/keyorix-open-source-on-premise-secrets-management/",
-      "source": "Help Net Security",
-      "date": "2026-10-05",
-      "summary": "Keyorix SL has launched Keyorix, an open-source, self-hosted secrets manager that stores database passwords, API keys, and tokens on a company's own servers without requiring internet connectivity. The tool ships as a single binary and targets organizations that cannot send credentials to cloud-based SaaS platforms.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/10/01130616/keyorix-1500.webp",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
-      "url": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
-      "source": "The Hacker News",
-      "date": "2026-10-05",
-      "summary": "Citrix has released security updates for a high-severity zero-day vulnerability (CVE-2026-88779, CVSS 8.7) in NetScaler ADC and Citrix NetScaler Gateway that is being actively exploited in targeted attacks. The memory overflow vulnerability can knock SAML deployments offline, directly impacting identity federation and authentication infrastructure.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhV4of0Q-gWaIOffgWXdEfAxmI1ENcyrpDSSDjBurAHSpUuAI8lASQI5wrUvL3Evb0iqA31rRywo51olFOzoWe_lQ9cwN7Sp5QQw_2h-y44n0Va4vwlRQZipZ5fkm98BRmTOoVDPTs8pUMW_ClnH2GlPobgQQ33rNzL8EBnBW84aacH3dLXdyyLW9bBEqG5/s1600/citrix-offline.jpg",
-      "importance": 7,
       "paywall": false
     },
     {
@@ -78,9 +46,91 @@
       "url": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
       "source": "Bleeping Computer",
       "date": "2026-10-04",
-      "summary": "Citrix released emergency patches for a zero-day vulnerability (CVE-2026-88779) in NetScaler affecting SAML functionality that has been actively exploited in denial-of-service attacks. Researchers are investigating whether the flaw can also be leveraged for remote code execution.",
+      "summary": "Citrix released emergency patches for a zero-day vulnerability (CVE-2026-88779) in NetScaler affecting SAML functionality that has been actively exploited in denial-of-service attacks. Researchers are also investigating whether the flaw can be leveraged for remote code execution.",
       "image": "https://www.bleepstatic.com/content/hl-images/2026/08/27/Citrix.jpg",
       "importance": 7,
+      "paywall": false
+    }
+  ],
+  "news": [
+    {
+      "title": "Data breach at Denmark’s population register exposes 8.8 million people",
+      "url": "https://www.helpnetsecurity.com/2026/10/06/denmark-central-population-register-cpr-data-breach/",
+      "source": "Help Net Security",
+      "date": "2026-10-06",
+      "summary": "Denmark's Central Population Register (CPR) suffered a data breach exposing personal information of 8.8 million people, including current residents, deceased individuals, and citizens abroad. The CPR number, a 10-digit identifier used across taxes, healthcare, and banking, is at the center of the breach, making it directly relevant to national identity infrastructure.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/06/05092050/data_breach-2.webp",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "NIS2 compliance: 7 low-cost steps to secure credentials",
+      "url": "https://www.helpnetsecurity.com/2026/10/06/passwork-nis2-credential-security/",
+      "source": "Help Net Security",
+      "date": "2026-10-06",
+      "summary": "Help Net Security published a sponsored/vendor article outlining seven low-cost steps for securing credentials to achieve NIS2 compliance, featuring Passwork as the solution provider. The piece references Article 21 risk-management requirements and cites Verizon's 2026 breach report statistic that credentials appeared in 28% of breaches.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/06/05105926/europe-1500-3.webp",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account",
+      "url": "https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html",
+      "source": "The Hacker News",
+      "date": "2026-10-06",
+      "summary": "Attackers accessed Denmark's Central Person Register (CPR) through a compromised private company account, exposing names, addresses, and national identification numbers for approximately 8.8 million people. The breach exploited legitimate third-party access rights to the national population registry, highlighting risks associated with delegated account access and third-party authorization controls.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyl-dsAiVrN_a0ie2xM1-2S8GDtnp-OYIAY1Cd_nhYhGkY3q0VeVEvEInjHAYCJTtnRYkXag2mY_iFjcEkFjeLQ7LrF6JqbTQ6eLZQM7aVzTHQsZ37a7PMIWPNkPvc8yTvHgWRLhdnoXbHZSlYfXJMAgfKkPcgSWD6JVb6kBYfzz9LB3SQPx357xqsr8o/s1600/cpr.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "tenfold CE: Our free Identity Governance tool just got 2 new features",
+      "url": "https://www.bleepingcomputer.com/news/security/tenfold-ce-our-free-identity-governance-tool-just-got-2-new-features/",
+      "source": "Bleeping Computer",
+      "date": "2026-10-05",
+      "summary": "Tenfold has added shared content governance and real-time event auditing to its free Community Edition identity governance tool for organizations with under 150 users. The update includes Microsoft 365 sharing management and suspicious identity activity investigation capabilities.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/10/01/tenfold-person-laptop.jpg",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "CISA flags new exploited NetScaler flaw as attackers crash appliances (CVE-2026-88779)",
+      "url": "https://www.helpnetsecurity.com/2026/10/05/cisa-flags-new-exploited-netscaler-flaw-as-attackers-crash-appliances-cve-2026-88779/",
+      "source": "Help Net Security",
+      "date": "2026-10-05",
+      "summary": "CISA has added CVE-2026-88779, a memory overflow vulnerability in Citrix NetScaler ADC and Gateway, to its Known Exploited Vulnerabilities catalog. The flaw is being actively exploited in targeted attacks against unmitigated NetScaler deployments, causing Denial of Service conditions that can render the service unavailable if triggered repeatedly.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/09/29153605/netscaler-2-1500.webp",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes",
+      "url": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
+      "source": "The Hacker News",
+      "date": "2026-10-05",
+      "summary": "Microsoft released out-of-band security updates to patch CVE-2026-96940, a high-severity privilege escalation flaw in Microsoft Exchange Server rated 8.8 on the CVSS scale. The vulnerability involves weak authorization controls that allow an authenticated attacker to elevate privileges and read other users' mailboxes.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBNa12GUjRngANug2kbws6i9X_HPN2PRVbOcxr7GtaXMKq9PloaCTD7DuYC8zZIcrg5Wa-F5pDv9y-00EMX4QWvovMz-ZWK5vNZ-gkIdEA7UiZQ1SqBCZof411VOQt6nQrvZCYxZpmzPA3hUeFia9KVP45Q1J1OPkiIH_Fhy5hoiOo9z6eYw1H16RgvKs5/s1600/ms-emails.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "The Credential Layer Is Expanding Faster Than Security Teams Can See It",
+      "url": "https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html",
+      "source": "The Hacker News",
+      "date": "2026-10-05",
+      "summary": "GitGuardian published content outlining its approach to securing enterprise credentials through three capabilities: detection, remediation, and prevention. The piece focuses on the expanding credential surface across human, system, and AI identities in modern enterprises.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcMENqm_uSfWzk7VlgN5LXTaqUnYGOAelJ9aFsc6s57oUV43awGRScfhyphenhyphenaOYpv1eWkCfunH00lWMH6uUS9sUav8nBmwSHh9w_e3VL1F5AvjF9tpbUeFHCu6ohHZbqOqujA75PEZo_DbtWTv1NtQOKLwaIwJvGZw8rdFDEMcCm_0DvIOfeVPzW8ITMmVwg/s1600/git.gif",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access",
+      "url": "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html",
+      "source": "The Hacker News",
+      "date": "2026-10-05",
+      "summary": "Apple is tightening macOS Full Disk Access (FDA) controls due to security risks from AI agents accessing sensitive user data without full user awareness. The change targets developers who use FDA permissions to expose files, mail, messages, and browsing history beyond what users knowingly consent to.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDBg5lUcW7uXfKt2vo4Pq5MQUxOty2Xq3pApCIyhUAuSpTzu1jR_CGkNNS2UkAKxYvqk4KCyP1Ehr0PYcW6xVolcSuSdfRPx4rSDDnkuAKaCkgBii_l7kH-s9u7oEhyK2FpvAnaTRWDV48t9XBXEv-MpUIWhBaZYIBx3CFY_zSUXxdw-3C5rB_30Y0VEtf/s1600/macos-ai.jpg",
+      "importance": 4,
       "paywall": false
     },
     {
@@ -88,8 +138,48 @@
       "url": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
       "source": "The Hacker News",
       "date": "2026-10-04",
-      "summary": "A China-aligned threat group designated TA419 has been conducting credential phishing campaigns targeting AI policy experts at U.S. think tanks, universities, and legal organizations. The attacks use Microsoft Adversary-in-the-Middle (AitM) phishing techniques, impersonating economists, AI policymakers, and an Anthropic employee to steal credentials.",
+      "summary": "A China-aligned threat actor designated TA419 has conducted credential phishing campaigns targeting AI policy experts at U.S. think tanks, universities, and legal organizations. The attacks use Microsoft Adversary-in-the-Middle (AitM) phishing techniques, impersonating economists, AI policymakers, and an Anthropic employee to harvest credentials.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgR69JnEBkz8N6_Nd5K75adIWh8xVmxW8FB21gsKinx9HBzgXQSLWL5sYdKMe9d-cbTSrgc45ZtYhmvhLZJII1H-tPXKn4AiRvj4KrU8ayeZskmMCfiV-mUc2pz10MumKyXKH6ybJ2RsVj9ZZ67l-4u0Y2f5Dl3kX7PLEzCAqogMfHTSfD7gM7QypHi-yos/s1600/china-ms.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "kl-security-key",
+      "url": "https://kitploit.com/en/tools/github/karaaslanlabs/kl-security-key/",
+      "source": "Kitploit.com",
+      "date": "2026-10-04",
+      "summary": "An experimental FIDO2/WebAuthn authenticator has been developed using the RP2040 microcontroller, featuring packed attestation support. The project documents interoperability with Windows and Microsoft Entra, making it relevant to hardware security key and passwordless authentication implementations.",
+      "image": "https://assets.kitploit.com/production/public/tools/56821/8dc33db96ff927138b51b7960dc22a5dd81b17fd0df39b4d2f5f706c4019a5fb-social-v1.webp",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "What to expect at SailPoint’s Navigate event: Join theCUBE Oct. 6–7",
+      "url": "https://siliconangle.com/2026/10/04/ai-agents-identity-security-sailpointnavigate/",
+      "source": "SiliconANGLE News",
+      "date": "2026-10-04",
+      "summary": "SailPoint's Navigate event is scheduled for October 6–7, focusing on identity security topics including agentic AI and its implications for access governance. The event will address how AI agents acquiring permissions and acting on behalf of users is expanding the scope of traditional identity governance beyond employees and machine identities.",
+      "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/10/SailPoint-Navigate-2026.png",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "The IETF Published a Draft for Agent Identity. The Market Already Shipped.",
+      "url": "https://forkast.news/the-ietf-published-a-draft-for-agent-identity-the-market-already-shipped/",
+      "source": "Forkast.news",
+      "date": "2026-10-04",
+      "summary": "The IETF received a draft specification (draft-embesozzi-oauth-agent-native-authorization-00) proposing a standardized OAuth-based authorization framework for AI agent identity. The article examines the gap between emerging IETF standardization efforts for agentic identity and the faster pace of vendor implementations already shipping in the market.",
+      "image": "https://forkast.news/wp-content/uploads/2026/10/ietf-agent-identity-draft-explainer-1024x687.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Okta XAA Ecosystem Scales to 25+ Partners as AI Gateways Become the Identity Enforcement Layer",
+      "url": "https://forkast.news/okta-xaa-ecosystem-scales-to-25-partners-as-ai-gateways-become-the-identity-enforcement-layer/",
+      "source": "Forkast.news",
+      "date": "2026-10-04",
+      "summary": "Okta's Cross App Access (XAA) protocol ecosystem has grown to 25+ partners, with AI gateway vendor TrueFoundry among the latest to integrate it as of October 1. The integrations position AI gateways as identity enforcement layers where agents must present credentials before accessing downstream resources.",
+      "image": "https://forkast.news/wp-content/uploads/2026/10/okta-xaa-ecosystem-scales-gateway-identity-1024x687.jpg",
       "importance": 7,
       "paywall": false
     },
@@ -98,7 +188,7 @@
       "url": "https://www.saastr.com/okta-tripled-on-11-growth-5-interesting-learnings-from-one-of-the-biggest-re-ratings-in-b2b-this-year-14-crpo-growth-30-of-bookings-from-new-products-and-50x-forward-earnings/",
       "source": "Saastr.com",
       "date": "2026-10-03",
-      "summary": "The article analyzes Okta's stock performance and financial metrics, noting the company tripled in value despite modest 11% growth, with 14% cRPO growth and 30% of bookings from new products. The piece is primarily a financial/investment analysis of Okta's market re-rating rather than coverage of IAM products, features, or security developments.",
+      "summary": "The article analyzes Okta's stock performance and financial metrics, including 14% cRPO growth and 30% of bookings from new products. The piece is primarily a financial/investment analysis of Okta's market re-rating rather than coverage of IAM products, technology, or security developments.",
       "image": "https://i0.wp.com/www.saastr.com/wp-content/uploads/2026/09/Screenshot-2026-09-28-at-10.11.56-AM-scaled.png?fit=1000%2C587&quality=70&ssl=1",
       "importance": 4,
       "paywall": false
@@ -108,7 +198,7 @@
       "url": "https://www.darkreading.com/cybersecurity-operations/kiteworks-citrix-incidents-challenges-zero-day-response",
       "source": "Dark Reading",
       "date": "2026-10-02",
-      "summary": "Kiteworks and Citrix both faced zero-day vulnerability incidents that revealed contrasting approaches to incident response and customer communication. Kiteworks instructed customers to power down its data-protection platform during a nine-hour window, while Citrix remained silent on reported attacks before releasing a patch.",
+      "summary": "Kiteworks and Citrix both faced zero-day vulnerability incidents, with Kiteworks instructing customers to power down its data-protection platform during a nine-hour window while Citrix remained silent on reported attacks before releasing a patch. The incidents highlight differing vendor communication and response strategies when handling zero-day exploits affecting their platforms.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt3f39295ab2cc8617/6abec652493aca7db2e138d1/hear-no-evil-see-no-evil-monkeys-robert_lemos.jpg?width=720&quality=80&disable=upscale",
       "importance": 6,
       "paywall": false
@@ -118,19 +208,9 @@
       "url": "https://www.darkreading.com/cybersecurity-operations/swift-banking-govt-middleware-rce",
       "source": "Dark Reading",
       "date": "2026-10-02",
-      "summary": "A vulnerability in SWIFT banking and government middleware has been identified that enables remote code execution (RCE). The flaw can be exploited to bypass hardware-based MFA in high-security environments, with patching recommended as the immediate mitigation.",
+      "summary": "A vulnerability in SWIFT banking and government middleware has been identified that enables remote code execution (RCE). The flaw can be exploited to bypass hardware-based MFA in high-security environments, making patching urgent for organizations relying on this middleware.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt20cb2cd941ab8738/6abfc2b68e913fc976ab5ea7/USB-years-Getty.jpg?width=720&quality=80&disable=upscale",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Chinese spies impersonate White House, Anthropic figures to phish AI policy experts",
-      "url": "https://www.helpnetsecurity.com/2026/10/02/china-aligned-ta419-phishing-ai-policy-experts/",
-      "source": "Help Net Security",
-      "date": "2026-10-02",
-      "summary": "A China-aligned espionage group tracked as TA419 conducted credential phishing campaigns in July 2026, impersonating a former White House Office of Science and Technology Policy official and an economist to gain access to cloud accounts of AI policy experts. Proofpoint researchers identified the campaigns, which targeted account credentials rather than exploiting IAM platform vulnerabilities.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/03/03095125/esionage-1-1500.webp",
-      "importance": 5,
+      "importance": 6,
       "paywall": false
     },
     {
@@ -138,7 +218,7 @@
       "url": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
       "source": "The Hacker News",
       "date": "2026-10-02",
-      "summary": "Dell has released security updates addressing critical vulnerabilities in Dell Container Storage Modules (CSM), including CVE-2026-63688 (CVSS 10.0), which allows unauthenticated access to critical functions via the csm-authorization-storage gRPC server. The flaws enable unauthenticated admin access and root-level compromise on Kubernetes nodes, directly impacting Dell's CSM authorization component.",
+      "summary": "Dell has released security updates addressing critical vulnerabilities in Dell Container Storage Modules (CSM), including CVE-2026-63688 with a perfect CVSS score of 10.0. The flaw exists in the csm-authorization-storage gRPC server and allows unauthenticated access to critical functions, enabling attackers to gain admin access and root on Kubernetes nodes.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiypcfC3W6keUc31zSJympZfpI6eLwDhyphenhyphen4uy_0M3VFljfoSn2pjzBmS3yyAZTzILPxi_sXeOx2jyeu6mdSPKqjiFv7LAMd2mn6Q8GvIRq6yVXUoQm5MiXeEs96i9IT-ZCP2W7hAzR08B9JOuOJv8NNI7o7DfCSa7cplzrsT_x_0R0dPVSQxKmdLP8NvAsnp/s1600/dell.jpg",
       "importance": 6,
       "paywall": false
@@ -148,7 +228,7 @@
       "url": "https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html",
       "source": "The Hacker News",
       "date": "2026-10-02",
-      "summary": "The article addresses the challenge CISOs face in reporting security posture to boards, with identity provider data being one of several sources used to build security reports. The content focuses broadly on board reporting methodology rather than IAM-specific topics, though identity data is mentioned as one input among many.",
+      "summary": "The article addresses how CISOs can better communicate security posture to board members, with a focus on reconciling data from identity providers and other security tools. The content centers on reporting methodology and board communication challenges rather than substantive IAM product or policy developments.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0hKMtHvRqPQiVRgaUAvYQ1XOUA_EToiZ3Tx-v7pSvbqwlnoo7qr5jQ_5KJuYpRFW0MzE3bLPePNT-rn4m8bEz7eTMVysO0OcfFwNKKFgKIo6tiT0JKKauf9MFxYTet3LiqJ2lXxfxVuKzRIPloaGR-_bOUEXOz_-ONc3AXfHKZV-PhAW8wEfayC-iwZE/s1600/ciso-ready.jpg",
       "importance": 4,
       "paywall": false
@@ -158,18 +238,8 @@
       "url": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
       "source": "The Hacker News",
       "date": "2026-10-01",
-      "summary": "CISA added a critical authentication bypass vulnerability in Cisco Catalyst SD-WAN Manager (CVE-2026-76504, CVSS 9.8) to its Known Exploited Vulnerabilities catalog following reports of active exploitation. The flaw allows an unauthenticated remote attacker to access affected systems, making it directly relevant to IAM professionals concerned with authentication security.",
+      "summary": "CISA added a critical authentication bypass vulnerability in Cisco Catalyst SD-WAN Manager (CVE-2026-76504, CVSS 9.8) to its Known Exploited Vulnerabilities catalog following reports of active exploitation. The flaw allows an unauthenticated remote attacker to access affected systems, making it directly relevant to authentication and access security.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8jgm3LMY2zr1S1DmXnvVEPDiTKYR5FXHW7q_6duG1lVPhzbW2ZfJwRM9glqAJrQhBX3HAAiksz-tUpRN4pfT9VWHUksa-1SgHZmKcNUd1tJfsyFiwhtezZN_zBM_cEmqjkECI_2gfWhnqZ1ry2hgDou-qQCB21zbl1RzYN9JB0bRjqzhB2m6gBomg-ow9/s1600/cisa-wan.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs",
-      "url": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html",
-      "source": "The Hacker News",
-      "date": "2026-10-01",
-      "summary": "Threat actors are exploiting a critical pre-authentication command injection vulnerability in Citrix NetScaler ADC and NetScaler Gateway to deploy web shells and steal configuration data. The attacks involve creating superuser accounts and mapping web shells to CSS-like URLs, with LevelBlue's THOR team identifying the activity across multiple customer environments.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAuODp7WTARNyJa6hiyuveQ1LUgYlaYQXGDDfRAYUA7Zkwwb7vMriA7VIh5HmBJwWWR0kALhQkijvT43ke2ajjOQHk6YxQb2rAgsB0PYcbMKPdm-JezjILBH8j3kY29iATKhZLQhVIyAjwNj9XFBTeenqPCHM1AzKMKRCVlMME3jQs5yIYSoVtrbRnVSY7/s1600/citrix-css-shell.jpg",
       "importance": 6,
       "paywall": false
     },
@@ -188,7 +258,7 @@
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-enables-windows-settings-backup-by-default-for-orgs/",
       "source": "BleepingComputer",
       "date": "2026-10-01",
-      "summary": "Microsoft has enabled Windows settings backup and restore by default for all Microsoft Entra-joined or hybrid-joined enterprise systems upgraded to Windows 11 26H2. The change affects organizations using Microsoft Entra for device identity management and join configurations.",
+      "summary": "Microsoft has enabled Windows settings backup and restore by default for all Microsoft Entra-joined or hybrid-joined enterprise systems upgraded to Windows 11 26H2. The change applies automatically to enterprise devices connected to Microsoft Entra, requiring no manual configuration from administrators.",
       "image": "https://www.bleepstatic.com/content/hl-images/2026/10/01/Windows-headpic.jpg",
       "importance": 5,
       "paywall": false
@@ -198,49 +268,19 @@
       "url": "https://www.prnewswire.com/news-releases/keeper-security-freshservice-workflow-app-streamlines-vault-and-privileged-access-request-process-302895333.html",
       "source": "PRNewswire",
       "date": "2026-10-01",
-      "summary": "Keeper Security has launched a new integration between its password/PAM platform and Freshservice, enabling IT and security teams to search the Keeper vault and submit privileged access requests directly from the Freshservice ticket sidebar. The integration connects Keeper's zero-trust, zero-knowledge vault capabilities with Freshservice's IT service management workflows to streamline privileged access request processes.",
+      "summary": "Keeper Security launched a new integration with Freshservice that allows IT and security teams to search the Keeper vault and submit privileged access requests directly from the Freshservice ticket sidebar. The integration connects Keeper's zero-trust, zero-knowledge password and secrets management platform with Freshservice's IT service management workflows.",
       "image": "https://mmx.prnewswire.com/media/MS1864138/Keeper-logo-full-color-002.jpg?id=OA2981209&p=facebook",
       "importance": 6,
       "paywall": false
     },
     {
-      "title": "From Shadow AI to Accountable Agents: Why Agent Governance Needs Enforcement",
-      "url": "https://www.infosecurity-magazine.com/blogs/why-agent-governance-needs/",
-      "source": "Infosecurity Magazine",
-      "date": "2026-10-01",
-      "summary": "The article addresses the need for identity governance frameworks to adapt to the proliferation of AI agents in enterprise environments. It argues that traditional IAM approaches must shift to dynamic, continuous monitoring models to manage the risks posed by autonomous AI agents.",
-      "image": "https://assets.infosecurity-magazine.com/webpage/og/fff99ede-b6c5-4793-890b-424624f58b20.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
-      "url": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
-      "source": "The Hacker News",
-      "date": "2026-09-30",
-      "summary": "Threat actors are exploiting a patched Zimbra Collaboration Suite vulnerability (CVE-2026-73570, CVSS 8.9) to deploy web shells and harvest authentication secrets from mailboxes. The unauthenticated OS command injection flaw enables remote code execution via SNMP, with findings reported by Microsoft Security Research.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNxFzgwNCn6YTNDvFIlEUKsnNOR9Y8UF__1rQ8N5BuMTKmJRPs-d_ilYcoeXwb03y07EXxnGyf5Ka8gyrKbFtzM2GoqYfrp79A-ZwHZyQDHEIU9twKFM67Glqk8eE4_j3fiHxNnPFl0euvHnKKfrmTd2aKcsMnebFQ4z73INLZfIdT66yH3MV5vOIBaMV5/s1600/zimbra-email.jpg",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
-      "url": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
-      "source": "The Hacker News",
-      "date": "2026-09-30",
-      "summary": "Cisco disclosed a critical authentication bypass vulnerability (CVE-2026-76504) in Catalyst SD-WAN Manager that allows remote, unauthenticated attackers to access the system's API with admin-level privileges. The flaw is being actively exploited in the wild, fixed releases are available, and no workaround exists.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDRBMRmTwQer5G9fB3V6UvczV_QEpVLnIpRMEjpkiSKOC1vvem-ZkM9zP2vgBIYDlH-jveY5oeV2qcYJ2YiVD1-z1q4bJNBrPYpewyUqOOgbl89xV3JCsQeor1fhrWLS6EEvtNCIHlyuNB8jRnDzqdO9bQZ4hNN0yvEE6ceXw0A43onar4xorpsnM1qog/s1600/cisco-admin.jpg",
+      "title": "Dual NetScaler Zero-Days Trigger Chaos for Citrix Customers",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/netscaler-zero-days-chaos-citrix",
+      "source": "Dark Reading",
+      "date": "2026-09-29",
+      "summary": "Citrix disclosed two critical zero-day vulnerabilities in its NetScaler products that affect default configurations and allow attackers unauthorized access to customer networks. The flaws function as authentication bypasses, giving threat actors a skeleton key to compromise network access controls.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt5de91a8011e409dc/68ae00c0ae4a7a4290bef1c1/citrix_JHVEPhoto_shutterstock.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "keycloak v26.7.5",
-      "url": "https://kitploit.com/en/posts/keycloak-b520086576975b10",
-      "source": "Kitploit.com",
-      "date": "2026-09-30",
-      "summary": "Keycloak has released version 26.7.5 of its open source identity and access management platform. The release continues support for modern applications and services, though specific changelog details are not provided in the description.",
-      "image": "https://assets.kitploit.com/production/public/tools/50743/f62b3e3d2e3b70008a97b2c459aaed5342b1b8144b52d491e5ef016d9b7ecc60-social-v1.webp",
-      "importance": 3,
       "paywall": false
     },
     {
@@ -248,7 +288,7 @@
       "url": "https://www.darkreading.com/vulnerabilities-threats/ai-agents-are-privileged-users-who-is-auditing-their-access",
       "source": "Dark Reading",
       "date": "2026-09-28",
-      "summary": "The article examines AI agents operating within enterprise environments with broad privileged access, drawing parallels to insider threat risks traditionally associated with human users. The piece addresses gaps in auditing and access governance for autonomous AI agents, touching on PAM and identity governance considerations relevant to IAM practitioners.",
+      "summary": "The article examines the security risks posed by autonomous AI agents operating with broad privileged access within enterprise environments. It frames AI agents as a class of privileged users that currently lack the same access auditing, governance, and oversight controls applied to human employees.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt6c9f5fa659c439fa/6abab77dfee74bb9c8c001cc/AI_agent-MF3d-Getty-2217030312.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -258,9 +298,19 @@
       "url": "https://www.darkreading.com/cloud-security/jadepuffer-ai-actor-azure-tenant-destructive-cloud-attack",
       "source": "Dark Reading",
       "date": "2026-09-28",
-      "summary": "A threat actor named JadePuffer compromised an Azure tenant in a destructive cloud attack, deleting cloud-based storage, applications, and databases. The actor allegedly used exposed credentials to gain initial access, highlighting risks around credential management and cloud identity security.",
+      "summary": "A threat actor dubbed \"JadePuffer\" compromised an Azure tenant and conducted a destructive attack, deleting cloud-based storage, applications, and databases. The actor reportedly used exposed credentials to gain initial access, highlighting risks around credential management and cloud identity security in Microsoft Azure environments.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltbc06310368e21110/6a4bdbe6a6d4757864059ce1/llm-Boy_Wirat-Getty-2149059417.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft Plugs Nearly 1,000 Security Holes",
+      "url": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
+      "source": "Krebs on Security",
+      "date": "2026-09-08",
+      "summary": "Microsoft released a record-breaking patch batch addressing at least 974 security vulnerabilities across Windows and other software. AI is being credited for accelerating vulnerability discovery, though security experts note organizations are struggling to keep up with testing and deploying the volume of fixes.",
+      "image": null,
+      "importance": 3,
       "paywall": false
     },
     {
@@ -268,7 +318,7 @@
       "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
       "source": "Krebs on Security",
       "date": "2026-09-01",
-      "summary": "A dark web service is selling digital scans of over 153 million U.S. and Canadian drivers licenses, allegedly sourced from a Louisiana-based identity verification company. The FBI's New Orleans field office has opened an official inquiry into the breach.",
+      "summary": "A dark web service is selling digital scans of over 153 million U.S. and Canadian drivers licenses, apparently sourced from a Louisiana-based identity verification company. The FBI's New Orleans field office has opened an official inquiry into the breach.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -278,9 +328,9 @@
       "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
       "source": "Krebs on Security",
       "date": "2026-08-06",
-      "summary": "Canadian man Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges related to hacking and extorting over 165 organizations using Snowflake cloud storage. The attacks involved unauthorized access to Snowflake customer accounts, resulting in data theft including over 100 million AT&T customer records.",
+      "summary": "Canadian hacker Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges for breaching over 165 organizations using cloud data provider Snowflake. The attacks involved unauthorized access to Snowflake customer accounts, with stolen data including over 100 million AT&T customer call and text records.",
       "image": null,
-      "importance": 4,
+      "importance": 5,
       "paywall": false
     }
   ]
