@@ -1,13 +1,23 @@
 {
-  "updated": "October 07, 2026 at 10:08 UTC",
+  "updated": "October 08, 2026 at 10:23 UTC",
   "top_stories": [
     {
-      "title": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
-      "url": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
-      "source": "The Hacker News",
-      "date": "2026-10-05",
-      "summary": "Citrix has released security updates addressing CVE-2026-88779, a high-severity memory overflow vulnerability in NetScaler ADC and NetScaler Gateway with a CVSS score of 8.7, which is being actively exploited in targeted zero-day attacks. The flaw can knock SAML deployments offline, directly impacting identity federation and authentication infrastructure used in IAM environments.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhV4of0Q-gWaIOffgWXdEfAxmI1ENcyrpDSSDjBurAHSpUuAI8lASQI5wrUvL3Evb0iqA31rRywo51olFOzoWe_lQ9cwN7Sp5QQw_2h-y44n0Va4vwlRQZipZ5fkm98BRmTOoVDPTs8pUMW_ClnH2GlPobgQQ33rNzL8EBnBW84aacH3dLXdyyLW9bBEqG5/s1600/citrix-offline.jpg",
+      "title": "In the agentic era, standing privilege must go: Key thoughts from the SailPoint Navigate keynote",
+      "url": "https://siliconangle.com/2026/10/06/in-the-agentic-era-standing-privilege-must-go-key-thoughts-from-the-sailpoint-navigate-keynote/",
+      "source": "SiliconANGLE News",
+      "date": "2026-10-07",
+      "summary": "SailPoint used its Navigate 2026 conference keynote in Austin to shift its positioning toward real-time access prevention, moving beyond traditional identity governance toward eliminating standing privileges. The announcement signals a strategic product and vision direction change for SailPoint, emphasizing agentic AI era identity security.",
+      "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/10/McLain2.png",
+      "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "SailPoint adds AI agent discovery, temporary access and compliance automation",
+      "url": "https://www.helpnetsecurity.com/2026/10/06/sailpoint-agentic-fabric-innovation/",
+      "source": "Help Net Security",
+      "date": "2026-10-06",
+      "summary": "SailPoint has announced new capabilities including AI agent discovery, temporary access, and compliance automation across its SailPoint Agentic Fabric and SailPoint Human Fabric products. The features are built on the SailPoint Atlas platform and aim to give enterprises greater visibility and control over identity governance.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
       "importance": 8,
       "paywall": false
     },
@@ -16,50 +26,70 @@
       "url": "https://forkast.news/four-providers-15-cves-three-days-the-agent-identity-stack-is-under-coordinated-attack/",
       "source": "Forkast.news",
       "date": "2026-10-05",
-      "summary": "Between October 2–5, 2026, four identity-layer providers were hit with 15 CVEs in three days, including a 10-CVE cluster in ZITADEL, a Zimbra authentication vulnerability, a Bouncy Castle cryptographic flaw, and an MCP OAuth credential theft issue. The coordinated timing of these disclosures targeted core components of the agent identity stack, affecting authentication, authorization, and cryptographic libraries used across IAM implementations.",
+      "summary": "Between October 2–5, 2026, four identity-layer providers were hit with 15 CVEs in a coordinated three-day window, affecting ZITADEL (10 CVEs), Zimbra, Bouncy Castle, and MCP OAuth credential theft. The vulnerabilities target the agent identity stack, spanning authentication libraries, OAuth flows, and identity infrastructure components.",
       "image": "https://forkast.news/wp-content/uploads/2026/10/agent-identity-layer-risk-four-locks-1024x572.jpg",
       "importance": 8,
       "paywall": false
     },
     {
-      "title": "MFA Passed. The Attacker Still Got In.",
-      "url": "https://www.darkoperator.com/blog/2026/10/5/mfa-passed-the-attacker-still-got-in",
-      "source": "Darkoperator.com",
-      "date": "2026-10-05",
-      "summary": "The article examines how MFA can be bypassed by attackers and advocates for the transition from MFA to passkeys within Microsoft Entra ID. It is part one of a seven-part series addressing authentication security gaps and the move toward phishing-resistant credentials.",
-      "image": "http://static1.squarespace.com/static/52ad1d91e4b00a98a27ba20e/t/6ac25849acc95b5681b6d4af/1791121485833/secure-sign-in.png?format=1500w",
-      "importance": 8,
+      "title": "The people who know passkeys best are still typing passwords",
+      "url": "https://www.helpnetsecurity.com/2026/10/08/passkey-adoption-typing-passwords/",
+      "source": "Help Net Security",
+      "date": "2026-10-08",
+      "summary": "Yubico and Okta's 2026 Global State of Authentication Report surveyed 1,890 technology and security professionals across nine countries about their workplace sign-in methods. Despite 87% reporting familiarity with passkeys, 43% still use username and password as their primary authentication method, with half having been issued credentials in that format at the start of their current role.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/09/23141041/llm-door-people.webp",
+      "importance": 7,
       "paywall": false
     },
     {
-      "title": "Okta XAA Ecosystem Scales to 25+ Partners as AI Gateways Become the Identity Enforcement Layer",
-      "url": "https://forkast.news/okta-xaa-ecosystem-scales-to-25-partners-as-ai-gateways-become-the-identity-enforcement-layer/",
-      "source": "Forkast.news",
-      "date": "2026-10-04",
-      "summary": "Okta's Cross App Access (XAA) protocol ecosystem has scaled to 25+ partners, with AI gateway vendor TrueFoundry announcing integration on October 1. The XAA protocol positions AI gateways as identity enforcement layers where agents present credentials before accessing downstream resources.",
-      "image": "https://forkast.news/wp-content/uploads/2026/10/okta-xaa-ecosystem-scales-gateway-identity-1024x687.jpg",
-      "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Danish university DTU breach exposes data of up to 200,000 people",
-      "url": "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/",
-      "source": "BleepingComputer",
-      "date": "2026-10-03",
-      "summary": "The Technical University of Denmark (DTU) suffered a breach in which hackers accessed its identity and access management system and downloaded data belonging to up to 200,000 users. The attack directly targeted the IAM infrastructure, exposing personal information of students, staff, and potentially other individuals associated with the university.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/10/03/DTU.png",
-      "importance": 8,
+      "title": "High Awareness, Low Adoption: New Survey Reveals Nearly Half of Security Professionals Still Rely on Passwords",
+      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/high-awareness-low-adoption-new-survey-reveals-nearly-half-of-security-professionals-still-rely-on-passwords",
+      "source": "Financial Post",
+      "date": "2026-10-07",
+      "summary": "A joint survey by Yubico and Okta found that nearly half of security professionals still rely on passwords despite widespread awareness of stronger authentication alternatives. The global study highlights an adoption gap in enterprise security regarding modern identity controls and passwordless authentication.",
+      "image": null,
+      "importance": 7,
       "paywall": false
     }
   ],
   "news": [
     {
-      "title": "AI Agent Gateway: Open-source tool keeps credentials out of agent configs",
-      "url": "https://www.helpnetsecurity.com/2026/10/07/open-source-ai-agent-gateway/",
+      "title": "GitHub adds AI to catch passwords before a code push",
+      "url": "https://www.helpnetsecurity.com/2026/10/08/github-push-protection-modernbert/",
       "source": "Help Net Security",
+      "date": "2026-10-08",
+      "summary": "GitHub has launched an AI-powered credential detector, built with Microsoft Applied Sciences using a ModernBERT-based classifier, to expand its push protection feature in code repositories. The tool goes beyond format-based secret detection by analyzing surrounding code context to identify unstructured secrets such as database passwords before they enter repository history.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/06/16084705/github-speed-1400.webp",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks",
+      "url": "https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html",
+      "source": "The Hacker News",
+      "date": "2026-10-08",
+      "summary": "The U.S. State Department is offering up to $10 million for information on Zhang Yu, a Chinese national charged in connection with the 2021 HAFNIUM Microsoft Exchange Server attacks. The HAFNIUM campaign exploited zero-day vulnerabilities in Microsoft Exchange Server, compromising tens of thousands of organizations' email and identity infrastructure worldwide.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgFF6VpR3wVqISJUhvijTLl00h_uH1hImVFzJiqEyaGpgFqwRMQxT1VEbay1QbGWehkEmZXIa5rAvkjA5K326ZRtVY7OKq9luzZo1gRXX6jUPX3ajFp6gLfpFf6tQg6D5wBgsctILhw7Ma_dpUgswrwXUYTphyphenhyphenj2rT9nfz3zURxMwvma9EZvKYEzkqlIk/s1600/reward.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
+      "url": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
+      "source": "The Hacker News",
       "date": "2026-10-07",
-      "summary": "Tuskira released an open-source AI Agent Gateway that centralizes credential management for AI agents, preventing model keys and MCP credentials from being embedded in individual agent configurations. The gateway sits between AI agents and their called services (MCP tool servers, model providers), running in the user's own environment without requiring a Tuskira account.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/10/05090252/tuskira-ai-agent-gateway.webp",
+      "summary": "SonicWall has released hotfixes addressing four vulnerabilities in its SMA1000 appliances, including a CVSS 10.0 pre-authentication SSRF flaw. The critical flaw allows unauthenticated attackers to send requests through the appliance to reach internal network functions, affecting remote access gateway infrastructure.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg93cv3mDcrVCz0IYIpCH3eRNzbDYkM2Z_N2acg9D6bCFGvE3cr3eJ1uGJblGasKplvyvuO6pSuMCxamTwHJSP2ztJ7WBswe1igBdzoadRJPZSDfs5K2og83_iMDMZYuh-LpFdA4qb4Pv7SyJ1A4EQtO_gi6nuxV5ioid32rXABiS0Il9t8boUATp2lTes/s1600/sonicwall.png",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials",
+      "url": "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html",
+      "source": "The Hacker News",
+      "date": "2026-10-07",
+      "summary": "The FBI and Secret Service warned that the FortiBleed campaign remains active, having harvested 86,644 credentials from Fortinet FortiGate firewalls and SSL VPN gateways. The campaign exploits reused or leaked credentials and legacy SHA-256 password storage on internet-facing Fortinet devices.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQZeKQIcHTVLgqnHpZYN73YclFawl51QxpykrKEb97sAJjA8qtN7FaUJaS0jLMeSS29cTB0nR_yFzsITX_e5SI8Xa8BfM1LDOGsEEEpDmVC8YNqOcEYEuep1UbHovyLlxrwRmYZ3FrbaaKq9eKwICiUTkkPleIibOHdWnbV5cpwYPCrHQasrTxVFA9seQ-/s1600/forti-admin.jpg",
       "importance": 6,
       "paywall": false
     },
@@ -68,19 +98,29 @@
       "url": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
       "source": "The Hacker News",
       "date": "2026-10-07",
-      "summary": "Cybersecurity researchers have identified a human-operated phishing platform that impersonates advertising portals for AI chatbots including ChatGPT, Gemini, and Claude to harvest credentials and MFA codes. The platform lures victims with fake campaign optimization and business-account connection services, targeting multi-factor authentication bypass as part of its credential theft operation.",
+      "summary": "Cybersecurity researchers have identified a human-operated phishing platform that impersonates advertising portals for major AI chatbots including ChatGPT, Gemini, and Claude to steal credentials and MFA codes. The platform lures victims with fake services such as campaign optimization and spend audits, ultimately capturing authentication factors to compromise accounts.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0zSahkV9zcg01XiHIrV4cYRCzxV9MLlvvX9vRW5e0Nd5Kg0aXGPgWR2oqqdHAAcrmm5r66m5Aj8VF9HYZtgTJv_X1HOaijWEoB_6m8ieYd-F9ytUtmn-1GgX4B-BWo6LXQgzVzr0nTiXsicD-3eTf02ZvrTwPsOCFt8yYGvuxTHfIYxwErOI1w99uekRz/s1600/muse-ai.jpg",
       "importance": 6,
       "paywall": false
     },
     {
-      "title": "Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes",
-      "url": "https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/",
-      "source": "Bleeping Computer",
-      "date": "2026-10-06",
-      "summary": "A credential theft campaign targets advertising account managers using fake AI tool websites (ChatGPT, Gemini, Claude, Perplexity) to steal login credentials and MFA codes via browser-in-browser attacks. The attack method specifically bypasses multi-factor authentication by intercepting codes in real time through spoofed browser windows.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2024/05/13/Phishing.jpg",
+      "title": "Half of Cybersecurity Pros Still Rely on Passwords Despite Security Concerns",
+      "url": "https://www.infosecurity-magazine.com/news/cybersecurity-pros-rely-passwords/",
+      "source": "Infosecurity Magazine",
+      "date": "2026-10-07",
+      "summary": "A Yubico survey found that half of cybersecurity professionals still rely on passwords as a primary authentication method despite awareness of associated security risks. The survey highlights a gap between knowledge of more secure authentication methods and their actual adoption within enterprise environments.",
+      "image": "https://assets.infosecurity-magazine.com/webpage/og/d73e31c4-a6f9-4756-b4f3-9a5ee566fa89.jpeg",
       "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Stop Hoping for Secure AI and Start Building It: RSA Agent ID Closes the Agentic Identity Gap for Highly Regulated Industries",
+      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/stop-hoping-for-secure-ai-and-start-building-it-rsa-agent-id-closes-the-agentic-identity-gap-for-highly-regulated-industries",
+      "source": "Financial Post",
+      "date": "2026-10-07",
+      "summary": "RSA has launched Agent ID, a product designed to address identity and authentication challenges for AI agents operating in regulated industries such as finance and government. The solution enables organizations to discover and register AI agents, verify authorization for actions taken by those agents, and supports flexible deployment options.",
+      "image": null,
+      "importance": 7,
       "paywall": false
     },
     {
@@ -88,7 +128,7 @@
       "url": "https://thehackernews.com/2026/10/welcome-to-jungle-what-we-found-inside.html",
       "source": "The Hacker News",
       "date": "2026-10-06",
-      "summary": "OX Security researchers analyzed 15,465 public MCP (Model Context Protocol) servers and found critical vulnerabilities in the ecosystem. The research identified security issues in how AI agents connect to tools and data, with implications for authentication and access control in agentic workflows.",
+      "summary": "OX Security researchers analyzed 15,465 public MCP (Model Context Protocol) servers and found critical security vulnerabilities in the ecosystem. The research touches on authentication and authorization weaknesses in AI agent infrastructure connecting models and tools.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhd9ijWk9zlAlr4Ogzkb3OyeREM6GDYe0AZx5DQ-TmdUPN5ogFXFM0Z9Lh-qdG1CAIVdBX7cV7NSfgEk_yBtaTFCPdIjAo23ixCfHqa4j1m8FY2cRfmdcrd4GZNn-5QQScWonyO6GDRx6RA1ZRcuW9tAmCOFG9u7KQbWx3fftJ921w8rUqHx4ya_5CFuJM/s1600/ox.png.jpg",
       "importance": 4,
       "paywall": false
@@ -98,9 +138,59 @@
       "url": "https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html",
       "source": "The Hacker News",
       "date": "2026-10-06",
-      "summary": "Attackers accessed Denmark's Central Person Register (CPR) through a compromised private company account, exposing names, addresses, and national identification numbers for 8.8 million people. The breach highlights risks associated with delegated access rights, where a company's legitimate authorization to query government records was exploited by unauthorized parties.",
+      "summary": "Attackers accessed Denmark's Central Person Register (CPR) through a compromised private company account, exposing names, addresses, and personal identification numbers for 8.8 million people. The breach exploited legitimate business access credentials rather than a direct system vulnerability, highlighting risks in third-party access management to sensitive government identity data.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyl-dsAiVrN_a0ie2xM1-2S8GDtnp-OYIAY1Cd_nhYhGkY3q0VeVEvEInjHAYCJTtnRYkXag2mY_iFjcEkFjeLQ7LrF6JqbTQ6eLZQM7aVzTHQsZ37a7PMIWPNkPvc8yTvHgWRLhdnoXbHZSlYfXJMAgfKkPcgSWD6JVb6kBYfzz9LB3SQPx357xqsr8o/s1600/cpr.jpg",
       "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "SailPoint’s 40x Gap — Enterprise AI Agent Adoption Has Outrun Identity Security by a Factor of 40",
+      "url": "https://forkast.news/sailpoints-40x-gap-enterprise-ai-agent-adoption-has-outrun-identity-security-by-a-factor-of-40/",
+      "source": "Forkast.news",
+      "date": "2026-10-06",
+      "summary": "SailPoint's Navigate 2026 conference in Austin highlighted a significant gap between enterprise AI agent adoption and identity security capabilities, with data showing AI agent deployment outpacing identity security by a factor of 40. The findings were presented at SailPoint's annual conference, underscoring the challenge IGA platforms face in governing non-human identities at scale.",
+      "image": "https://forkast.news/wp-content/uploads/2026/10/sailpoint-40x-gap-hero-1024x687.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Improving SPIRE security and resiliency with AWS managed services",
+      "url": "https://aws.amazon.com/blogs/security/improving-spire-security-and-resiliency-with-aws-managed-services/",
+      "source": "Amazon.com",
+      "date": "2026-10-06",
+      "summary": "The article covers improving SPIRE (SPIFFE Runtime Environment) security and resiliency using AWS managed services for workload identity in cloud environments. SPIRE is an open-source implementation of the SPIFFE standard for workload identity and authentication in machine-to-machine communication, replacing traditional static credentials like API keys and shared secrets.",
+      "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/10/06/SPIRE-pic.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Identity-aware AI data agents with AWS Lake Formation and Trusted Identity Propagation",
+      "url": "https://aws.amazon.com/blogs/security/identity-aware-ai-data-agents-with-aws-lake-formation-and-trusted-identity-propagation/",
+      "source": "Amazon.com",
+      "date": "2026-10-06",
+      "summary": "AWS has published guidance on building identity-aware AI data agents using AWS Lake Formation and Trusted Identity Propagation to enforce access governance policies within AI-driven lakehouse queries. The approach enables AI agents to respect existing IAM-based data access controls by propagating user identity through the query pipeline rather than granting the agent broad permissions.",
+      "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/09/30/Main-image-2.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/",
+      "source": "BleepingComputer",
+      "date": "2026-10-06",
+      "summary": "A malicious campaign is targeting advertising account managers using fake AI tool websites (ChatGPT, Gemini, Claude, Perplexity) to steal login credentials and MFA codes via browser-in-browser attacks. The attack method bypasses multi-factor authentication by intercepting MFA codes in real time through the spoofed browser interface.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2024/05/13/Phishing.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "When identity isn’t human: securing the agentic enterprise",
+      "url": "https://www.techradar.com/pro/when-identity-isnt-human-securing-the-agentic-enterprise",
+      "source": "TechRadar",
+      "date": "2026-10-06",
+      "summary": "The article addresses securing AI agents in enterprise environments through identity governance and runtime controls. It focuses on non-human identity management, continuous authentication, and governance frameworks applied to agentic AI systems.",
+      "image": "https://cdn.mos.cms.futurecdn.net/4d3FzfBhbeGTkD9mnMpEdM-2560-80.jpg",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -108,7 +198,7 @@
       "url": "https://www.prnewswire.com/news-releases/fusionauth-establishes-uk-team-as-european-demand-for-data-sovereignty-drives-72-regional-growth-302899054.html",
       "source": "PRNewswire",
       "date": "2026-10-06",
-      "summary": "FusionAuth has established its first dedicated UK sales team amid 72% regional growth in Europe, driven by enterprise demand for data sovereignty and tenant isolation. The Customer Identity and Access Management (CIAM) vendor reported 48% new-business ARR growth in Q1, attributing expansion to organizations seeking greater data control.",
+      "summary": "FusionAuth, a customer identity and access management (CIAM) platform, has established its first dedicated UK sales team following 72% regional growth in Europe. The expansion is driven by enterprise demand for data sovereignty and tenant isolation, with the company reporting 48% new-business ARR growth in Q1.",
       "image": "https://mmx.prnewswire.com/media/MS1859660/FusionAuth-Logo.jpg?id=OA2988614&p=facebook",
       "importance": 6,
       "paywall": false
@@ -118,9 +208,9 @@
       "url": "https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html",
       "source": "The Hacker News",
       "date": "2026-10-05",
-      "summary": "GitGuardian outlines its approach to securing the enterprise credential layer through detection, remediation, and prevention capabilities. The piece addresses the growing challenge of managing credentials across human, system, and AI identities in modern enterprises.",
+      "summary": "GitGuardian published a promotional overview of its credential security platform, describing three core capabilities: detecting, remediating, and preventing credential exposure across enterprise environments. The article focuses on the expanding \"credential layer\" encompassing human, system, and AI identities connecting to data and services.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcMENqm_uSfWzk7VlgN5LXTaqUnYGOAelJ9aFsc6s57oUV43awGRScfhyphenhyphenaOYpv1eWkCfunH00lWMH6uUS9sUav8nBmwSHh9w_e3VL1F5AvjF9tpbUeFHCu6ohHZbqOqujA75PEZo_DbtWTv1NtQOKLwaIwJvGZw8rdFDEMcCm_0DvIOfeVPzW8ITMmVwg/s1600/git.gif",
-      "importance": 6,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -128,7 +218,7 @@
       "url": "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html",
       "source": "The Hacker News",
       "date": "2026-10-05",
-      "summary": "Apple is tightening macOS Full Disk Access (FDA) controls in response to security risks from AI agents accessing user data without full user awareness. The change targets developers who use FDA permissions to expose files, mail, messages, and browsing history beyond what users explicitly authorize.",
+      "summary": "Apple is tightening macOS Full Disk Access (FDA) controls in response to security risks posed by AI agents accessing sensitive user data. The change targets developers who use FDA permissions to expose files, mail, messages, and browsing history without users' full awareness.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDBg5lUcW7uXfKt2vo4Pq5MQUxOty2Xq3pApCIyhUAuSpTzu1jR_CGkNNS2UkAKxYvqk4KCyP1Ehr0PYcW6xVolcSuSdfRPx4rSDDnkuAKaCkgBii_l7kH-s9u7oEhyK2FpvAnaTRWDV48t9XBXEv-MpUIWhBaZYIBx3CFY_zSUXxdw-3C5rB_30Y0VEtf/s1600/macos-ai.jpg",
       "importance": 4,
       "paywall": false
@@ -138,7 +228,7 @@
       "url": "https://www.prnewswire.com/news-releases/keeper-security-surpasses-100-000-enterprise-customers-as-organizations-consolidate-identity-security-solutions-in-the-agentic-era-302898789.html",
       "source": "PRNewswire",
       "date": "2026-10-05",
-      "summary": "Keeper Security announced it has surpassed 100,000 enterprise customers for its zero-trust and zero-knowledge identity security platform. The milestone reflects broader enterprise consolidation of identity security solutions amid growing adoption of agentic AI environments.",
+      "summary": "Keeper Security announced it has surpassed 100,000 enterprise customers for its zero-trust and zero-knowledge identity security platform. The milestone reflects enterprise consolidation of identity security solutions amid growing adoption of agentic AI technologies.",
       "image": "https://mmx.prnewswire.com/media/MS1864138/Keeper-logo-full-color-002.jpg?id=OA2988022&p=facebook",
       "importance": 6,
       "paywall": false
@@ -148,68 +238,8 @@
       "url": "https://www.bleepingcomputer.com/news/security/tenfold-ce-our-free-identity-governance-tool-just-got-2-new-features/",
       "source": "BleepingComputer",
       "date": "2026-10-05",
-      "summary": "Tenfold has added shared content governance and real-time event auditing to its free Community Edition IGA tool for organizations with under 150 users. The new features support Microsoft 365 sharing management and identity activity investigation.",
+      "summary": "tenfold has added shared content governance and real-time event auditing to its free Community Edition identity governance tool for organizations with under 150 users. The new features target Microsoft 365 sharing management and suspicious identity activity investigation.",
       "image": "https://www.bleepstatic.com/content/posts/2026/10/01/tenfold-person-laptop.jpg",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Keyfactor Appoints Former CyberArk CEO Matt Cohen to Board of Directors and Strategic Advisor",
-      "url": "https://www.prnewswire.com/news-releases/keyfactor-appoints-former-cyberark-ceo-matt-cohen-to-board-of-directors-and-strategic-advisor-302897270.html",
-      "source": "PRNewswire",
-      "date": "2026-10-05",
-      "summary": "Keyfactor has appointed Matt Cohen, former CyberArk CEO, to its board of directors and as a strategic advisor. The appointment coincides with Keyfactor closing a $1B+ growth investment led by Summit Partners as the company surpasses $200 million in ARR.",
-      "image": "https://mmx.prnewswire.com/media/MS2000942/Keyfactor-image.jpg?id=OA2983082&p=facebook",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
-      "url": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
-      "source": "The Hacker News",
-      "date": "2026-10-04",
-      "summary": "A China-aligned threat actor designated TA419 has conducted credential phishing campaigns targeting AI policy experts at U.S. think tanks, universities, and legal organizations. The attacks employ Microsoft Adversary-in-the-Middle (AitM) phishing techniques, impersonating economists, AI policymakers, and an Anthropic employee to steal credentials.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgR69JnEBkz8N6_Nd5K75adIWh8xVmxW8FB21gsKinx9HBzgXQSLWL5sYdKMe9d-cbTSrgc45ZtYhmvhLZJII1H-tPXKn4AiRvj4KrU8ayeZskmMCfiV-mUc2pz10MumKyXKH6ybJ2RsVj9ZZ67l-4u0Y2f5Dl3kX7PLEzCAqogMfHTSfD7gM7QypHi-yos/s1600/china-ms.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "kl-security-key",
-      "url": "https://kitploit.com/en/tools/github/karaaslanlabs/kl-security-key/",
-      "source": "Kitploit.com",
-      "date": "2026-10-04",
-      "summary": "An experimental FIDO2/WebAuthn authenticator built on the RP2040 microcontroller has been developed with packed attestation support. The project includes documented interoperability testing with Windows and Microsoft Entra, making it relevant to hardware security key and passwordless authentication use cases.",
-      "image": "https://assets.kitploit.com/production/public/tools/56821/8dc33db96ff927138b51b7960dc22a5dd81b17fd0df39b4d2f5f706c4019a5fb-social-v1.webp",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "What to expect at SailPoint’s Navigate event: Join theCUBE Oct. 6–7",
-      "url": "https://siliconangle.com/2026/10/04/ai-agents-identity-security-sailpointnavigate/",
-      "source": "SiliconANGLE News",
-      "date": "2026-10-04",
-      "summary": "SailPoint's Navigate event is scheduled for October 6–7, featuring discussions on agentic AI and its impact on identity security. The event will cover how AI agents acquire permissions and interact with applications, expanding the scope of identity governance beyond traditional human and machine identities.",
-      "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/10/SailPoint-Navigate-2026.png",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "The IETF Published a Draft for Agent Identity. The Market Already Shipped.",
-      "url": "https://forkast.news/the-ietf-published-a-draft-for-agent-identity-the-market-already-shipped/",
-      "source": "Forkast.news",
-      "date": "2026-10-04",
-      "summary": "The IETF received a draft proposal (draft-embesozzi-oauth-agent-native-authorization-00) focused on agent identity and native authorization for AI agents using OAuth. The draft highlights the emerging standardization effort around non-human/agentic identity, an area where vendors have already begun shipping solutions ahead of formal specification.",
-      "image": "https://forkast.news/wp-content/uploads/2026/10/ietf-agent-identity-draft-explainer-1024x687.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Why Okta Tripled on … 11% Growth. 5 Interesting Learnings From One of the Biggest Re-Ratings in B2B This Year: 14% cRPO Growth, 30% of Bookings From New Products, and ~50x Forward Earnings",
-      "url": "https://www.saastr.com/okta-tripled-on-11-growth-5-interesting-learnings-from-one-of-the-biggest-re-ratings-in-b2b-this-year-14-crpo-growth-30-of-bookings-from-new-products-and-50x-forward-earnings/",
-      "source": "Saastr.com",
-      "date": "2026-10-03",
-      "summary": "The article analyzes Okta's significant stock re-rating in 2024, noting the company tripled in value despite modest 11% revenue growth. Key metrics highlighted include 14% cRPO growth and 30% of bookings coming from new products.",
-      "image": "https://i0.wp.com/www.saastr.com/wp-content/uploads/2026/09/Screenshot-2026-09-28-at-10.11.56-AM-scaled.png?fit=1000%2C587&quality=70&ssl=1",
       "importance": 5,
       "paywall": false
     },
@@ -218,7 +248,7 @@
       "url": "https://www.darkreading.com/cybersecurity-operations/kiteworks-citrix-incidents-challenges-zero-day-response",
       "source": "Dark Reading",
       "date": "2026-10-02",
-      "summary": "Kiteworks and Citrix both faced zero-day vulnerability incidents, with Kiteworks instructing customers to power down its data-protection platform during a nine-hour window while Citrix remained silent on reported attacks before releasing a patch. The incidents highlight contrasting vendor communication and response strategies when handling zero-day exploits affecting enterprise security platforms.",
+      "summary": "Kiteworks and Citrix faced separate zero-day incidents requiring emergency response measures, with Kiteworks instructing customers to power down its data-protection platform during a nine-hour window. Citrix did not communicate with customers about reported attacks prior to releasing a patch, highlighting contrasting approaches to zero-day disclosure and incident response.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt3f39295ab2cc8617/6abec652493aca7db2e138d1/hear-no-evil-see-no-evil-monkeys-robert_lemos.jpg?width=720&quality=80&disable=upscale",
       "importance": 6,
       "paywall": false
@@ -228,49 +258,9 @@
       "url": "https://www.darkreading.com/cybersecurity-operations/swift-banking-govt-middleware-rce",
       "source": "Dark Reading",
       "date": "2026-10-02",
-      "summary": "Vulnerabilities in SWIFT banking and government middleware have been disclosed, enabling remote code execution (RCE). The flaws can be exploited to bypass hardware-based MFA in high-security environments, making patching urgent.",
+      "summary": "A vulnerability in SWIFT banking and government middleware has been identified that enables remote code execution (RCE). The flaw can be exploited to bypass hardware-based MFA in high-security environments, with a patch recommended to mitigate the risk.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt20cb2cd941ab8738/6abfc2b68e913fc976ab5ea7/USB-years-Getty.jpg?width=720&quality=80&disable=upscale",
       "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
-      "url": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
-      "source": "The Hacker News",
-      "date": "2026-10-02",
-      "summary": "Dell has released security updates addressing critical vulnerabilities in Dell Container Storage Modules (CSM), including CVE-2026-63688 (CVSS 10.0), which allows unauthenticated access to the csm-authorization-storage gRPC server. The flaws can be exploited to gain unauthorized admin access and root-level control on Kubernetes nodes.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiypcfC3W6keUc31zSJympZfpI6eLwDhyphenhyphen4uy_0M3VFljfoSn2pjzBmS3yyAZTzILPxi_sXeOx2jyeu6mdSPKqjiFv7LAMd2mn6Q8GvIRq6yVXUoQm5MiXeEs96i9IT-ZCP2W7hAzR08B9JOuOJv8NNI7o7DfCSa7cplzrsT_x_0R0dPVSQxKmdLP8NvAsnp/s1600/dell.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report",
-      "url": "https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html",
-      "source": "The Hacker News",
-      "date": "2026-10-02",
-      "summary": "The article addresses the challenge CISOs face when reporting security posture to boards, with a focus on reconciling data from identity providers and other security tools. It frames the problem around answering high-level questions about organizational security using fragmented data sources including IAM systems.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0hKMtHvRqPQiVRgaUAvYQ1XOUA_EToiZ3Tx-v7pSvbqwlnoo7qr5jQ_5KJuYpRFW0MzE3bLPePNT-rn4m8bEz7eTMVysO0OcfFwNKKFgKIo6tiT0JKKauf9MFxYTet3LiqJ2lXxfxVuKzRIPloaGR-_bOUEXOz_-ONc3AXfHKZV-PhAW8wEfayC-iwZE/s1600/ciso-ready.jpg",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Aembit Becomes First Third-Party Enforcement Point for Okta’s XAA Agent Identity Protocol",
-      "url": "https://forkast.news/aembit-becomes-first-third-party-enforcement-point-for-oktas-xaa-agent-identity-protocol/",
-      "source": "Forkast.news",
-      "date": "2026-10-02",
-      "summary": "Aembit has become the first third-party enforcement point for Okta's Cross App Access (XAA) protocol, an agent identity standard Okta formalized at Oktane in September 2026. XAA is an open protocol designed to standardize enterprise-managed identity for AI agents and cross-application access scenarios.",
-      "image": "https://forkast.news/wp-content/uploads/2026/10/aembit-xaa-enforcement-point-1024x687.jpg",
-      "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Dual NetScaler Zero-Days Trigger Chaos for Citrix Customers",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/netscaler-zero-days-chaos-citrix",
-      "source": "Dark Reading",
-      "date": "2026-09-29",
-      "summary": "Two critical zero-day vulnerabilities in Citrix NetScaler products allow attackers to bypass authentication controls in default configurations. The flaws effectively grant unauthorized network access, functioning as authentication bypasses that compromise perimeter security for affected Citrix customers.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt5de91a8011e409dc/68ae00c0ae4a7a4290bef1c1/citrix_JHVEPhoto_shutterstock.jpg?width=720&quality=80&disable=upscale",
-      "importance": 7,
       "paywall": false
     },
     {
@@ -278,7 +268,7 @@
       "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
       "source": "Krebs on Security",
       "date": "2026-09-01",
-      "summary": "A dark web service is selling digital scans of over 153 million U.S. and Canadian drivers licenses, apparently sourced from a Louisiana-based identity verification company. The FBI's New Orleans field office has opened an official inquiry into the breach.",
+      "summary": "A dark web service is selling digital scans of over 153 million drivers licenses from the US and Canada, apparently sourced from a Louisiana-based identity verification company. The FBI's New Orleans field office has launched an official inquiry into the breach of the identity verification provider.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -288,7 +278,7 @@
       "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
       "source": "Krebs on Security",
       "date": "2026-08-06",
-      "summary": "Canadian national Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges related to hacking and extorting over 165 organizations using Snowflake's cloud data storage platform. The attacks also resulted in the theft of call and text records belonging to more than 100 million AT&T customers.",
+      "summary": "Canadian man Connor Riley Moucka pleaded guilty to computer fraud and conspiracy charges for hacking and extorting over 165 organizations using Snowflake cloud storage. The attacks involved credential-based access to Snowflake accounts, resulting in the theft of over 100 million AT&T customer call and text records.",
       "image": null,
       "importance": 4,
       "paywall": false
