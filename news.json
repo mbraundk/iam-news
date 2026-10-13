@@ -1,12 +1,12 @@
 {
-  "updated": "October 12, 2026 at 10:36 UTC",
+  "updated": "October 13, 2026 at 10:25 UTC",
   "top_stories": [
     {
       "title": "18 insights from SailPoint’s Navigate event: Enterprises race to bring identity security for AI agents up to machine speed",
       "url": "https://siliconangle.com/2026/10/09/identity-security-ai-agents-18-insights-from-navigate-2026-sailpointnavigate/",
       "source": "SiliconANGLE News",
       "date": "2026-10-09",
-      "summary": "SailPoint's Navigate event surfaced 18 key insights on enterprise identity security for AI agents, highlighting how AI agents are acquiring unintended access at scale and creating new challenges for identity governance. The discussion centered on the need for machine-speed identity controls as AI agent populations grow into the thousands within organizations.",
+      "summary": "SailPoint's Navigate event surfaced 18 key insights on how enterprises are approaching identity security for AI agents. Key themes include AI agents accumulating unintended access privileges at scale and the resulting pressure on identity governance systems to operate at machine speed.",
       "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/10/IMG_3496-scaled-e1791552764778.jpg",
       "importance": 8,
       "paywall": false
@@ -16,19 +16,9 @@
       "url": "https://forkast.news/tenable-identity-exposure-saas-has-cvss-9-9-command-injection-that-hands-attackers-system-on-the-domain-controller/",
       "source": "Forkast.news",
       "date": "2026-10-09",
-      "summary": "A critical command injection vulnerability (CVE-2026-106126) with a CVSS score of 9.9 has been disclosed in Tenable Identity Exposure, a SaaS-based Active Directory security and identity threat detection platform. The flaw allows attackers to execute commands that grant SYSTEM-level access on the domain controller.",
+      "summary": "A critical command injection vulnerability (CVE-2026-106126, CVSS 9.9) has been discovered in Tenable Identity Exposure's SaaS platform. The flaw, classified as CWE-78, allows attackers to gain SYSTEM-level access on domain controllers.",
       "image": "https://forkast.news/wp-content/uploads/2026/10/tenable-identity-exposure-cve-2026-106126-1024x572.jpg",
       "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "How to keep AI agents within their permissions",
-      "url": "https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions/",
-      "source": "Bleeping Computer",
-      "date": "2026-10-09",
-      "summary": "The article addresses the challenge of AI agents operating beyond their assigned permissions using valid credentials, a gap in traditional access control models. Token Security outlines approaches for enforcing agent-specific authorization policies while maintaining operational autonomy.",
-      "image": "https://www.bleepstatic.com/content/posts/2026/10/07/token-ai-agents.jpg",
-      "importance": 7,
       "paywall": false
     },
     {
@@ -36,7 +26,7 @@
       "url": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
       "source": "The Hacker News",
       "date": "2026-10-10",
-      "summary": "A report on agent security reveals that in studied environments, approximately 1,280 third-party products embed AI agents, but only 282 authenticate through SSO, leaving roughly 1,000 invisible to identity infrastructure. The article addresses the governance gap created when AI agents bypass standard authentication flows, framing it as a structural challenge for identity and access management programs.",
+      "summary": "A report on agent security finds that in studied environments, approximately 1,280 third-party products embed AI agents, but only 282 authenticate through SSO, leaving roughly 1,000 outside identity governance visibility. The \"2026 State of Agent Security Report\" highlights a structural gap in IAM coverage where agentic AI systems bypass identity infrastructure by not authenticating through it.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghemGbtxM2amUYAlxUPHPdMiyDMQJFWZeY-dDODRqCRD0phZXXQv0rrKHiOsLPW3t0Fq2XxvvFyCC-OmNs7TXhXXKSRVMPpC1GPKSUsyzN9t-W6L4jtiA2DUiTLgou4iyw0QXN-6Wfz0H2zWYGgC6-OxtlQrfb0PygOeBWwDnR11nl3Gl8W5pL07sExNc/s1600/reco.gif",
       "importance": 7,
       "paywall": false
@@ -50,27 +40,37 @@
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibn_fvM8uZUZWhBhgCeggTmULC4rEZ68qb-99aKdn9RNOXIg8egC2vTwn9_-cLcs3vTam1i_g61RbAjXfoVTA1HiGYGKZeeG5nnNu03GcOE6X5aqOB3O60MppHQvTvWFdaEWZl1HhIIGl5zc8_8_lhlqtrmRa5-DAqldfJ6EjmM8mq8rCAp_MHdUrPAt4/s1600/sailpoint.jpg",
       "importance": 7,
       "paywall": false
-    }
-  ],
-  "news": [
-    {
-      "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
-      "url": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
-      "source": "The Hacker News",
-      "date": "2026-10-10",
-      "summary": "A credential-theft campaign has compromised two high-profile open-source maintainer accounts to inject malicious GitHub Actions workflows into over 340 repositories. The attacker used the compromised account of pyxel author Takashi Kitao to push malicious workflows to 27 repositories, with the campaign focused on stealing credentials from CI/CD pipelines.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoJXBEAVVijhwsYs32WSejvp0sG3ej-Qoi7Z6qHDp8rY5IZENkKOpexrbbU1BNyiCbbB0ZXHjEDL-UYqu7CDpPpoYLiGXkuLCZJTItgP5XeLD_Sb1galPzOGtrFZigEM5CGUbwi9gcL_-XCYY6NKu9j5FiakIWn5s66DZE-OjrLZO3sMGka3YNFvGUecJT/s1600/gitworm.jpg",
-      "importance": 6,
-      "paywall": false
     },
     {
       "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
       "url": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
       "source": "The Hacker News",
       "date": "2026-10-09",
-      "summary": "Citrix has released patches for a critical memory overflow vulnerability (CVE-2026-107406) in NetScaler ADC and NetScaler Gateway that can enable remote code execution or denial-of-service. The flaw specifically affects SAML deployments, making it directly relevant to IAM professionals managing federated authentication infrastructure.",
+      "summary": "Citrix has released patches for a critical memory overflow vulnerability (CVE-2026-107406) in NetScaler ADC and NetScaler Gateway that can enable remote code execution or denial-of-service. The flaw specifically affects SAML deployments, making it directly relevant to IAM professionals managing federated identity and SSO infrastructure.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifRR7IQ4Ngqm8ANJ-DKwW60qeemJlrfrtvhaAwtpzW37_jAkbdctxJEqjw8k_m1KT32ryqoxa1dNYoEPG-E9xNwrbtXqbOjbzmgs3JM9RW68FZMNA8ky14QKTLpEfHop9A4xmXO46fxQaeXZMZzzMQ-qoIXLpMrr8Gbekn3cgNX5xc7bYvMRDYKjDeLf4o/s1600/cit.jpg",
       "importance": 7,
+      "paywall": false
+    }
+  ],
+  "news": [
+    {
+      "title": "No Identity, No Recovery: Cyber Resilience Starts With IAM",
+      "url": "https://www.darkreading.com/cybersecurity-operations/cyber-resilience-starts-with-iam",
+      "source": "Dark Reading",
+      "date": "2026-10-12",
+      "summary": "The article argues that cyber resilience strategies must prioritize identity and access management as a foundational element. The piece addresses the growing complexity of enterprise app sprawl and reliance on cloud identity providers as drivers for rethinking identity security approaches.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltc4e8be3c10aa2950/6acd23ee26d33c046ebc6ef9/resilience-hogehoge511-Getty-2296989476.jpg?width=720&quality=80&disable=upscale",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
+      "url": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
+      "source": "The Hacker News",
+      "date": "2026-10-10",
+      "summary": "An ongoing campaign has compromised open-source maintainer accounts on GitHub to inject malicious workflows into over 340 repositories for credential theft. Attackers used the compromised account of a high-profile developer to push malicious GitHub Actions workflows, targeting stored credentials and secrets within CI/CD pipelines.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoJXBEAVVijhwsYs32WSejvp0sG3ej-Qoi7Z6qHDp8rY5IZENkKOpexrbbU1BNyiCbbB0ZXHjEDL-UYqu7CDpPpoYLiGXkuLCZJTItgP5XeLD_Sb1galPzOGtrFZigEM5CGUbwi9gcL_-XCYY6NKu9j5FiakIWn5s66DZE-OjrLZO3sMGka3YNFvGUecJT/s1600/gitworm.jpg",
+      "importance": 6,
       "paywall": false
     },
     {
@@ -78,7 +78,7 @@
       "url": "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html",
       "source": "The Hacker News",
       "date": "2026-10-09",
-      "summary": "The FBI and agencies from six countries reported that hackers linked to Chinese cybersecurity firm Integrity Technology Group stole emails from government, law enforcement, healthcare, and religious organizations in Southeast Asia. The hackers operated a portal allowing third-party access to stolen email data, with Integrity Technology Group subsequently sanctioned by the U.S. and UK.",
+      "summary": "The FBI and agencies from six other countries reported that hackers linked to Chinese cybersecurity firm Integrity Technology Group stole emails from government, law enforcement, healthcare, and religious organizations in Southeast Asia. The attackers operated a portal allowing third-party access to stolen email data, and Integrity Technology Group has been sanctioned by both the U.S. and UK governments.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyj_ek8VTEYw5CpVqkAK63I01D84oGBvRsHmwpjeAfat3TCDqzhXqRWXWCGkNZKwH3rF0uyeuowCSGcBT-mLkdw-174FA0gGh8ZIVKOXUbXt9w0eTZZTlMGE-ySkZIIkswfxe0-cEU9ww6E8iIpWI2eDQU_NrsezDxIoE2WNBt8mDtG6nYeke9Ut17_JY/s1600/china-email.jpg",
       "importance": 5,
       "paywall": false
@@ -88,18 +88,8 @@
       "url": "https://fortune.com/2026/10/09/mfa-optional-phishing-attacks-company-trainings/",
       "source": "Fortune",
       "date": "2026-10-09",
-      "summary": "A survey found that nearly 1 in 4 security professionals report that MFA is optional at their organizations, despite 44% indicating an AI-driven phishing attack successfully penetrated their defenses last year. The findings highlight a gap between perceived security posture and actual MFA enforcement practices among security teams.",
+      "summary": "A survey found that nearly 1 in 4 security professionals report that MFA is optional at their organization, despite widespread awareness of phishing threats. 44% of security professionals surveyed said an AI-driven phishing attack successfully penetrated their organization in the past year.",
       "image": "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-1241639569-e1791487787706.jpg?resize=1200,600",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks",
-      "url": "https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html",
-      "source": "The Hacker News",
-      "date": "2026-10-08",
-      "summary": "The U.S. State Department is offering up to $10 million for information on Zhang Yu, a Chinese national charged in connection with the 2021 HAFNIUM Microsoft Exchange Server attacks. The HAFNIUM campaign exploited critical vulnerabilities in Microsoft Exchange Server to gain unauthorized access to email accounts and networks across thousands of organizations.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgFF6VpR3wVqISJUhvijTLl00h_uH1hImVFzJiqEyaGpgFqwRMQxT1VEbay1QbGWehkEmZXIa5rAvkjA5K326ZRtVY7OKq9luzZo1gRXX6jUPX3ajFp6gLfpFf6tQg6D5wBgsctILhw7Ma_dpUgswrwXUYTphyphenhyphenj2rT9nfz3zURxMwvma9EZvKYEzkqlIk/s1600/reward.jpg",
       "importance": 6,
       "paywall": false
     },
@@ -108,7 +98,7 @@
       "url": "https://www.prnewswire.com/news-releases/id-dataweb-named-overall-id-management-solution-of-the-year-in-the-2026-cybersecurity-breakthrough-awards-program-302898194.html",
       "source": "PRNewswire",
       "date": "2026-10-08",
-      "summary": "ID Dataweb was named \"Overall ID Management Solution of the Year\" in the 2026 CyberSecurity Breakthrough Awards Program. The company specializes in identity threat detection and risk mitigation for enterprises.",
+      "summary": "ID Dataweb was named \"Overall ID Management Solution of the Year\" in the 2026 CyberSecurity Breakthrough Awards Program. The award recognizes the company's approach to identity threat detection and risk mitigation for enterprises.",
       "image": "https://mmx.prnewswire.com/media/MS1857038/IDDW-Logo-PrimarySmall-Logo.jpg?id=OA2985336&p=facebook",
       "importance": 5,
       "paywall": false
@@ -118,38 +108,8 @@
       "url": "https://www.prnewswire.com/news-releases/anugal-announces-us-sap-idm-readiness-campaign-ahead-of-2027-maintenance-deadline-302902381.html",
       "source": "PRNewswire",
       "date": "2026-10-08",
-      "summary": "Anugal, a product of Business Core Solutions, has launched a U.S. campaign to help enterprises prepare for the SAP Identity Management (SAP IDM) end-of-maintenance deadline in 2027. The campaign focuses on uncovering hidden SAP IDM dependencies, maintaining governance continuity, and reducing migration risk as organizations transition away from the platform.",
+      "summary": "Anugal, a product of Business Core Solutions, has launched a U.S. readiness campaign to help enterprises prepare for the SAP Identity Management (SAP IDM) end-of-maintenance deadline in 2027. The campaign focuses on identifying hidden SAP IDM dependencies, maintaining governance continuity, and reducing migration risk for organizations needing to transition away from SAP IDM.",
       "image": "https://mmx.prnewswire.com/media/MS1855424/Anugal-IGA-Logo.jpg?id=OA2994531&p=facebook",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "The people who know passkeys best are still typing passwords",
-      "url": "https://www.helpnetsecurity.com/2026/10/08/passkey-adoption-typing-passwords/",
-      "source": "Help Net Security",
-      "date": "2026-10-08",
-      "summary": "A Yubico and Okta survey of 1,890 technology and security professionals across nine countries found that 43% still use username and password as their primary work account sign-in method, despite 87% reporting familiarity with passkeys. The data highlights a gap between passkey awareness and adoption among the very professionals expected to champion modern authentication methods.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/09/23141041/llm-door-people.webp",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
-      "url": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
-      "source": "The Hacker News",
-      "date": "2026-10-07",
-      "summary": "SonicWall has released hotfixes addressing four vulnerabilities in its SMA1000 appliances, including a CVSS 10.0 pre-authentication SSRF flaw. The critical flaw allows unauthenticated attackers to send requests through the appliance to reach internal network functions, affecting remote access gateway infrastructure.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg93cv3mDcrVCz0IYIpCH3eRNzbDYkM2Z_N2acg9D6bCFGvE3cr3eJ1uGJblGasKplvyvuO6pSuMCxamTwHJSP2ztJ7WBswe1igBdzoadRJPZSDfs5K2og83_iMDMZYuh-LpFdA4qb4Pv7SyJ1A4EQtO_gi6nuxV5ioid32rXABiS0Il9t8boUATp2lTes/s1600/sonicwall.png",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Browser-in-browser attacks use fake Meta Muse Ad lure to steal credentials",
-      "url": "https://www.theregister.com/research/2026/10/07/browser-in-browser-attacks-use-fake-meta-muse-ad-lure-to-steal-credentials/5301505",
-      "source": "Theregister.com",
-      "date": "2026-10-07",
-      "summary": "A browser-in-browser (BitB) phishing campaign is using fake Meta Muse advertisements to steal user credentials through convincing fake login pages. The attack technique renders a simulated browser window within the real browser to spoof legitimate authentication pages, bypassing user awareness of phishing URLs.",
-      "image": "https://image.theregister.com/5298941.jpg?imageId=5298941&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
       "importance": 5,
       "paywall": false
     },
@@ -158,7 +118,7 @@
       "url": "https://www.darkreading.com/cybersecurity-operations/kiteworks-citrix-incidents-challenges-zero-day-response",
       "source": "Dark Reading",
       "date": "2026-10-02",
-      "summary": "Kiteworks and Citrix both faced zero-day vulnerability incidents, with Kiteworks instructing customers to power down its data-protection platform during a nine-hour window while Citrix stayed silent on reported attacks before releasing a patch. The incidents highlight differing vendor response approaches to zero-day disclosures, a key concern for IAM and access management professionals given Citrix's role in secure remote access infrastructure.",
+      "summary": "Kiteworks and Citrix both faced zero-day vulnerability incidents, with Kiteworks instructing customers to power down its data-protection platform during a nine-hour window and Citrix withholding public communication about reported attacks prior to releasing a patch. The incidents highlight contrasting approaches to zero-day disclosure and incident response, relevant to access management professionals given Citrix's role in network access and application delivery infrastructure.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt3f39295ab2cc8617/6abec652493aca7db2e138d1/hear-no-evil-see-no-evil-monkeys-robert_lemos.jpg?width=720&quality=80&disable=upscale",
       "importance": 6,
       "paywall": false
@@ -168,9 +128,9 @@
       "url": "https://www.darkreading.com/cybersecurity-operations/swift-banking-govt-middleware-rce",
       "source": "Dark Reading",
       "date": "2026-10-02",
-      "summary": "A vulnerability in SWIFT banking and government middleware enables remote code execution (RCE). The flaw can be exploited to bypass hardware-based MFA in high-security environments, with patching recommended as the immediate mitigation.",
+      "summary": "A vulnerability in SWIFT banking and government middleware has been identified that enables remote code execution (RCE). The flaw can be exploited to bypass hardware-based MFA in high-security environments, making patching of the middleware a critical remediation step.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt20cb2cd941ab8738/6abfc2b68e913fc976ab5ea7/USB-years-Getty.jpg?width=720&quality=80&disable=upscale",
-      "importance": 5,
+      "importance": 6,
       "paywall": false
     },
     {
@@ -178,7 +138,7 @@
       "url": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
       "source": "Krebs on Security",
       "date": "2026-09-08",
-      "summary": "Microsoft released a record-breaking patch batch addressing at least 974 security vulnerabilities across Windows and other software. AI is being credited for accelerating vulnerability discovery, though security experts note organizations are struggling to keep pace with testing and deploying the volume of monthly fixes.",
+      "summary": "Microsoft released a record-breaking patch update addressing at least 974 security vulnerabilities across Windows and other software. The update is notable for its scale, with Microsoft attributing the increased discovery rate to AI-assisted vulnerability detection.",
       "image": null,
       "importance": 3,
       "paywall": false
@@ -188,7 +148,7 @@
       "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
       "source": "Krebs on Security",
       "date": "2026-09-01",
-      "summary": "A dark web service is selling digital scans of over 153 million U.S. and Canadian driver's licenses, with images apparently sourced from a Louisiana-based identity verification company. The FBI's New Orleans field office has opened an official inquiry into the breach.",
+      "summary": "A dark web service is selling digital scans of over 153 million U.S. and Canadian drivers licenses, apparently sourced from a Louisiana-based identity verification company. The FBI's New Orleans field office has opened an official inquiry into the breach.",
       "image": null,
       "importance": 6,
       "paywall": false
