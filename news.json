@@ -1,12 +1,32 @@
 {
-  "updated": "October 14, 2026 at 08:36 UTC",
+  "updated": "October 15, 2026 at 08:11 UTC",
   "top_stories": [
+    {
+      "title": "Workday to Acquire C1.ai, a Leading Agentic Identity Platform for People and Agents",
+      "url": "https://www.prnewswire.com/news-releases/workday-to-acquire-c1ai-a-leading-agentic-identity-platform-for-people-and-agents-302906593.html",
+      "source": "PRNewswire",
+      "date": "2026-10-13",
+      "summary": "Workday announced its acquisition of C1.ai, described as an agentic identity platform managing access for both human users and AI agents throughout their lifecycle. The deal, announced at Workday Rising 2026, positions Workday to offer integrated identity governance capabilities covering provisioning and deprovisioning for people and AI agents.",
+      "image": "https://mmx.prnewswire.com/media/MS1321030/Workday-Logo-1.jpg?id=OA3014724&p=facebook",
+      "importance": 9,
+      "paywall": false
+    },
+    {
+      "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
+      "url": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
+      "source": "The Hacker News",
+      "date": "2026-10-14",
+      "summary": "CISA is urging organizations to immediately update Ivanti Connect Secure appliances following active exploitation of CVE-2026-104935, an authentication bypass vulnerability with a CVSS score of 8.6. Honeypot data has recorded 105 exploit attempts targeting this flaw, which affects the widely-used secure access and VPN platform.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBUpsAaH4Pe-HlsDhdSH5KK3VgWm9NEXXLNBOpxxp4d8WMZwSNNyPALzuapR_iUlq3-dLDe2bnPJfh42cdfH5m3LQWGKXZvHF3sYacyDbtZacKIIoluyNgP01-6bjjEz-RBhAQqxw-VHGD7gpn3ToRulgeH0ydeWXOucoK4hLBwvXtlCg81tB1scdjPbKN/s1600/i-h.jpg",
+      "importance": 8,
+      "paywall": false
+    },
     {
       "title": "SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python Allowing OAuth2 Credential Theft",
       "url": "https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html",
       "source": "The Hacker News",
       "date": "2026-10-13",
-      "summary": "SAP disclosed a critical CVSS 10.0 vulnerability in its Cloud SDK for Python that allows OAuth2 client credential theft by redirecting authentication data to attacker-controlled servers. The flaw affects multi-tenant applications on SAP Business Technology Platform (BTP), requiring an attacker to control the tenant subdomain to exploit it.",
+      "summary": "SAP disclosed a critical CVSS 10 vulnerability in its Cloud SDK for Python that allows OAuth2 client credential theft by redirecting credentials to an attacker-controlled server. The flaw affects multi-tenant applications on SAP Business Technology Platform that use the SDK, requiring an attacker to control the tenant subdomain to exploit it.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKBZR5elkBVKRcFO6lyde7XYDVO73IBxDvnx9-UkLst3GhVFuK8Yz3QBVIIEJABDjZuJMn8tyf7RLLPIRV8J8qe-OUULjnQRaQNyWricSsOjlKJoyYu8WOvs5PxBWQpzuiq8hlDlOY7zY-qIYDgQ6NFuifS5GbHbnLBET0OTfmsMC8797Mo5un9_ECyg8/s1600/sap-hacker.jpg",
       "importance": 8,
       "paywall": false
@@ -16,50 +36,110 @@
       "url": "https://forkast.news/golden-saml-explained-one-stolen-key-unlimited-accepted-identities/",
       "source": "Forkast.news",
       "date": "2026-10-13",
-      "summary": "The article explains the Golden SAML attack technique, in which adversaries steal AD FS signing keys to forge authentication tokens that are indistinguishable from legitimate credentials. It covers the role of the DKM container in protecting signing keys and addresses the scope and limitations of Microsoft's October hardening measures against this attack vector.",
+      "summary": "The article explains the Golden SAML attack technique, which allows attackers to forge SAML tokens using stolen AD FS signing keys to impersonate any identity without detection. It covers the role of the Distributed Key Manager (DKM) container in protecting signing keys and addresses what Microsoft's October hardening measures do and do not mitigate.",
       "image": "https://forkast.news/wp-content/uploads/2026/10/golden-saml-explained-1024x687.jpg",
       "importance": 8,
       "paywall": false
     },
     {
-      "title": "18 insights from SailPoint’s Navigate event: Enterprises race to bring identity security for AI agents up to machine speed",
-      "url": "https://siliconangle.com/2026/10/09/identity-security-ai-agents-18-insights-from-navigate-2026-sailpointnavigate/",
-      "source": "SiliconANGLE News",
-      "date": "2026-10-09",
-      "summary": "SailPoint's Navigate event surfaced 18 key insights on securing AI agent identities at enterprise scale. Key findings include that AI agents now number in the thousands within enterprises, accumulate unintended access permissions, and are driving identity security to operate at machine speed.",
-      "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/10/IMG_3496-scaled-e1791552764778.jpg",
-      "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Ivanti warns of Connect Secure zero-day exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/",
-      "source": "Bleeping Computer",
-      "date": "2026-10-13",
-      "summary": "Ivanti has disclosed an actively exploited zero-day vulnerability in its Connect Secure (ICS) remote access gateway, urging customers to apply patches immediately. Connect Secure is a widely deployed SSL VPN and remote access solution, making this vulnerability directly relevant to access management and network security professionals.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/10/13/Ivanti.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "The MFA Gaps Attackers are Still Exploiting",
-      "url": "https://www.bleepingcomputer.com/news/security/the-mfa-gaps-attackers-are-still-exploiting/",
-      "source": "Bleeping Computer",
-      "date": "2026-10-13",
-      "summary": "Attackers are exploiting MFA coverage gaps by using stolen credentials to access VPNs, RDP, and Windows systems that lack MFA enforcement beyond cloud applications. Specops outlines the authentication blind spots organizations leave unprotected when MFA is only applied to cloud services.",
-      "image": null,
+      "title": "Ivanti ICS Zero-Day Attacks Highlight Vendor Patching Hurdles",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching",
+      "source": "Dark Reading",
+      "date": "2026-10-14",
+      "summary": "A high-severity zero-day vulnerability (CVE-2026-104935) affecting Ivanti ICS combines authentication bypass and remote code execution, and was only partially discovered and patched in July. The incomplete patch left systems exposed, allowing threat actors to exploit the authentication bypass flaw in active attacks.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt5c7ce56f98018528/6acfd608b8750c62d9a7bd46/patching-Florencio_Horcajo_Alvarez-Getty-2270656800.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
     }
   ],
   "news": [
     {
-      "title": "Most companies count AI agents as insiders, and CISOs worry about their own liability",
-      "url": "https://www.helpnetsecurity.com/2026/10/14/ciso-ai-agent-insider-risk/",
+      "title": "Immuta CISO predicts critical AI incidents at major enterprises within 18 months",
+      "url": "https://www.helpnetsecurity.com/2026/10/15/michael-scott-immuta-ai-agent-permissions/",
+      "source": "Help Net Security",
+      "date": "2026-10-15",
+      "summary": "Immuta CISO Michael Scott discusses how organizations should manage permissions for AI agents, arguing they should be treated as lower-trust identities rather than inheriting full user access privileges. The interview covers agent privilege creep, authority delegation to sub-agents, and why authentication alone is insufficient to secure AI agent actions.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/10/13093935/michael-scott-2-immuta.webp",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Anthropic 'SneakPeek' Flaw Is a Silent Zero-Click Threat",
+      "url": "https://www.darkreading.com/threat-intelligence/new-anthropic-sneakpeek-silent-zero-click-threat",
+      "source": "Dark Reading",
+      "date": "2026-10-14",
+      "summary": "A vulnerability dubbed \"SneakPeek\" in Anthropic's Claude Code Desktop allows attackers to silently steal credentials including SSH private keys, AWS credentials, and OAuth tokens via the application's preview pane without user interaction. The zero-click flaw enables credential theft from developers without requiring any action on the victim's part.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltebc5737d9330c848/6acfd08de9c3113a94cf7694/cat_peek_Seregaff_Getty.jpg?width=720&quality=80&disable=upscale",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "CISA warns admins to immediately fix Ivanti flaw exploited as zero-day",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/",
+      "source": "Bleeping Computer",
+      "date": "2026-10-14",
+      "summary": "CISA issued an urgent warning to security teams to immediately patch a zero-day vulnerability in Ivanti Connect Secure that has been actively exploited since at least October 1st. Ivanti Connect Secure is a widely-used SSL VPN solution that handles remote access and authentication, making this vulnerability directly relevant to access management infrastructure.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/10/14/Ivanti.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "FBI raids 40+ laptop farms helping North Korea pocket US tech salaries",
+      "url": "https://www.helpnetsecurity.com/2026/10/14/north-korean-it-workers-laptop-farms-arrests/",
       "source": "Help Net Security",
       "date": "2026-10-14",
-      "summary": "A Trellix survey of 600 CISOs found that 95% of companies linked an AI agent or autonomous system to an insider incident in the past 12 months. 78% of respondents already include AI agents and machine identities in their insider risk definitions, reflecting a shift in how non-human identities are governed and monitored within enterprise environments.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/06/25140016/ciso-see-1500.webp",
+      "summary": "The US Department of Justice arrested individuals in Ohio and Texas for helping North Korean IT workers infiltrate over 70 US companies using stolen and fabricated identities to obtain remote employment. The scheme involved Americans operating laptop farms from their homes to maintain access to company systems on behalf of the fraudulent workers.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/04/23110717/north_korea2.webp",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
+      "url": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
+      "source": "The Hacker News",
+      "date": "2026-10-14",
+      "summary": "Microsoft, alongside Health-ISAC, JC3, and private sector partners, disrupted three phishing kits—CoGUI, Haozi, and Iron Man System—linked to over 1 billion scam messages since January 2026. The operation targeted credential-harvesting infrastructure used by threat actors to conduct large-scale phishing campaigns.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtmZA0sGFnGRVBoPOHXGNOr-Q1MpdbCUNVrfxBTV6z_URgCka1DOH4xcc_WuismhU3W1BEiostTKZetIhtrFyXrInKdz_jqK6Dtia5TDOqRiu4rkktKmF2Iz1br28coCyU3c5td-yrINUgjYIdwG-7q_n1fEZT_mumUoVBp2HfNPKHnqC3jTryRDL7hxAL/s1600/phish-shop.jpg",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
+      "url": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
+      "source": "The Hacker News",
+      "date": "2026-10-14",
+      "summary": "The article outlines a structured drill methodology for security teams to test their defenses against deepfake voice and video attacks targeting authentication workflows, including help desk resets and access requests. The drill is designed to identify verification gaps in identity confirmation processes before real deepfake-based social engineering attacks occur.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEYzcrs6sSW45od6MYo5jFl29yPGuwipgy7nfS3STYqknrD9b5OcU00_c0sqjG8Arvqq36ojwHSZMbjboA3bUQ1-ZcLRRjmuEQpzTDYYXnyvySzynW0UOvHOVmYNNzp_n-J5xXmwByMCofw5kxslXe4dqAVYqrWa-1LivXxPNa_ZGOQgIBxhyhvtiLxDs/s1600/icon.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.",
+      "url": "https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html",
+      "source": "The Hacker News",
+      "date": "2026-10-14",
+      "summary": "An AI pentesting agent independently discovered a critical OTP bypass vulnerability during an authorized assessment of a major insurer's production website. The flaw allowed users to redirect one-time passcodes to an attacker-controlled destination by manipulating a parameter in the login request.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_bop9V2vtfHPW4Obd0zupOPpNFCd9N5HtVwWVs9u-njx8RuEgOkAh75uRjWLS_h3zHQ847m7xc01PkVAdKhyphenhyphen5Pkg2Pb_qthWVQe-9lcpKclCOq3ZDpQ2iSfRSFCQQU8gxyBl6lWEjTKWZHn9LiNSq2rQ4_nUIM6Sjcqv5fwgVRnFpiuxpYDfhrkbikLE/s1600/case.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Semperis 2026 Ransomware Report Reveals Increases in AI-Driven Attacks and a Rise in Physical Threats Against Executives and Their Families",
+      "url": "https://www.prnewswire.com/news-releases/semperis-2026-ransomware-report-reveals-increases-in-ai-driven-attacks-and-a-rise-in-physical-threats-against-executives-and-their-families-302907731.html",
+      "source": "PRNewswire",
+      "date": "2026-10-14",
+      "summary": "Semperis released its 2026 Ransomware Report highlighting increases in AI-driven attacks targeting identity systems, along with a rise in physical threats against executives and their families. The report covers repeat ransomware attacks, threats to employees, and attacks on identity systems outpacing organizational recovery readiness.",
+      "image": "https://mmx.prnewswire.com/media/MS1122565/Semperis-Logo-Logo-Logo.jpg?id=OA3017407&p=facebook",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Workday Signs C1 Ai Deal to Govern People and Agents - El-Balad.com",
+      "url": "https://www.el-balad.com/17057447",
+      "source": "El-balad.com",
+      "date": "2026-10-14",
+      "summary": "Workday signed a definitive agreement to acquire C1 AI on October 13, 2026, targeting governance of access for both human users and AI agents. The deal extends Workday's identity and access governance capabilities into the AI agent space.",
+      "image": "https://www.el-balad.com/uploads/2026/10/14/c1-ai-9cf0ae2c_1200w.webp",
       "importance": 7,
       "paywall": false
     },
@@ -68,28 +148,8 @@
       "url": "https://www.darkreading.com/vulnerabilities-threats/zero-days-microsoft-october-patch-tuesday",
       "source": "Dark Reading",
       "date": "2026-10-13",
-      "summary": "Microsoft's October Patch Tuesday, described as the largest security update ever, contains multiple zero-day vulnerabilities including security bypasses and unauthenticated remote code execution flaws. The update addresses critical vulnerabilities relevant to IAM professionals managing Microsoft environments, including authentication and access control weaknesses.",
+      "summary": "Microsoft's October Patch Tuesday, described as the largest security update ever, contains multiple zero-day vulnerabilities including security bypasses and unauthenticated remote code execution flaws. The update includes critical fixes relevant to IAM professionals managing Microsoft environments, particularly around authentication and access controls.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt2208c9717985ba6f/6aceb2c101a45e612a7baa2b/harvest-China_Photos-GettyImages-71574532.jpg?width=720&quality=80&disable=upscale",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Docker Hub flaw let attackers impersonate users, tamper with images",
-      "url": "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/",
-      "source": "Bleeping Computer",
-      "date": "2026-10-13",
-      "summary": "Docker disclosed a critical vulnerability (CVE-2026-105445) in Docker Hub that allowed attackers to access other users' container repositories using a personal access token (PAT). The flaw enabled impersonation and repository tampering by exploiting weaknesses in Docker Hub's token-based authentication mechanism.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/10/13/docker.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "SAP warns of maximum severity OAuth2 SSRF security flaw",
-      "url": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/",
-      "source": "Bleeping Computer",
-      "date": "2026-10-13",
-      "summary": "SAP patched a maximum-severity OAuth2 Server-Side Request Forgery (SSRF) vulnerability in its Cloud SDK for Python as part of its October 2026 security update cycle, which also addressed 19 other security flaws across multiple products. The OAuth2 flaw carries maximum severity, meaning it could allow attackers to abuse the authorization framework to make unauthorized server-side requests.",
-      "image": null,
       "importance": 6,
       "paywall": false
     },
@@ -98,7 +158,7 @@
       "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
       "source": "The Hacker News",
       "date": "2026-10-13",
-      "summary": "An attacker chained three zero-day vulnerabilities in Ivanti Connect Secure VPN to achieve unauthenticated root-level command execution, according to security firm Volexity. Ivanti has patched two of the three flaws and is urging customers on affected versions to act immediately, while a fix for the third vulnerability remains pending.",
+      "summary": "An attacker chained three zero-day vulnerabilities in Ivanti Connect Secure VPN appliances to gain unauthenticated root access, according to security firm Volexity. Ivanti has patched two of the three flaws and is urging customers on affected versions to act immediately, while a fix for the third vulnerability remains pending.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZSH26NsXmSsQGaAbhNyJLMaBQKFCmabIbFZ_yi2sUGXjHQOVztQEQfXLarEAx1Fl9lRwGAryBE4zZEooJ4cochODcB4x8wQnPl3MRWiyBcpyEV6i8VPxvwcLHmShQVZVhuOcTjMXRhHAlx4Y0Uo85c74EVU4cea84YgXju02I9jlNzcGOFtLfa_am82Q/s1600/ivanti-hack.jpg",
       "importance": 7,
       "paywall": false
@@ -108,7 +168,7 @@
       "url": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
       "source": "The Hacker News",
       "date": "2026-10-13",
-      "summary": "GitHub has updated its npm trusted publishing system to expire unvalidated configurations after 48 hours, following the discovery of a flaw that allowed attackers to push malicious versions of other users' packages without credential theft. Over 1,500 npm packages were found vulnerable to this hijacking technique, which exploited unvalidated trusted publishing configurations.",
+      "summary": "GitHub has implemented a security change to npm's trusted publishing system, expiring unvalidated configurations 48 hours after creation following a flaw that allowed attackers to push malicious versions of other users' packages without credential theft. The vulnerability affected over 1,500 packages and exploited the trusted publishing workflow, which is used as an authentication mechanism for npm package publishing.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3aDWaWT6PmRDL9d6tHPDisxclb_Ak7YZIxuS02EUFvNaWrc4_UKwUqW0RI1KT3r8zsneOguD6b85yg8mf3gAzZZOGuLi-mXckG_yzwmXXb3IchTBSVeRvPlUo7QU4Kp4yiM6QqPshmo4p0GQ55XZPTEDc0DZn9N84S_ZibZ4rkXuhZ3OvoHNCYH-wk0k-/s1600/git-npm.jpg",
       "importance": 6,
       "paywall": false
@@ -118,19 +178,9 @@
       "url": "https://thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html",
       "source": "The Hacker News",
       "date": "2026-10-13",
-      "summary": "A webinar is being promoted addressing AI-driven privilege escalation and runtime identity controls as a defense mechanism. The content focuses on how compromised accounts can be exploited through AI-accelerated reconnaissance and lateral movement, framed around PAM and dynamic identity security concepts.",
+      "summary": "A webinar is being promoted focused on stopping AI-driven privilege escalation using runtime identity controls. The content addresses how attackers use AI to accelerate reconnaissance and privilege escalation after an initial account compromise.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIhyphenhyphenHu3P6G99-W2G5NryBVw_aHrwdzZeMvGjoMkyUiKFOtwD_fqUvdytUAQuhg9gPZzpsWSFatNS2LcMylaW4jsMmRR-tmAXkZxokH4WcEqnXTlFnBFgg8-20j4LsTCQMaKRJY-ysNuH8uXg_D3Zb626eqIdGeTkkmvyh95PERJ_mnaPNnnv2maV0q4F2-/s1600/silverfort.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft Patches More Than 1,400 Security Flaws",
-      "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
-      "source": "Krebs on Security",
-      "date": "2026-10-13",
-      "summary": "Microsoft released a patch update addressing more than 1,400 security vulnerabilities across Windows and other software products. This exceeds the previous record of nearly 1,000 fixes issued in September, representing roughly ten times the normal monthly patch volume.",
-      "image": null,
-      "importance": 4,
+      "importance": 7,
       "paywall": false
     },
     {
@@ -138,7 +188,7 @@
       "url": "https://www.darkreading.com/cybersecurity-operations/cyber-resilience-starts-with-iam",
       "source": "Dark Reading",
       "date": "2026-10-12",
-      "summary": "The article argues that cyber resilience strategies must prioritize identity and access management given the proliferation of enterprise applications and reliance on cloud identity providers. The piece calls for a rethink of identity security approaches in modern enterprise environments.",
+      "summary": "The article argues that cyber resilience strategies must prioritize identity and access management due to the proliferation of enterprise applications and cloud identity providers. It calls for a rethink of identity security approaches in modern enterprise environments.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltc4e8be3c10aa2950/6acd23ee26d33c046ebc6ef9/resilience-hogehoge511-Getty-2296989476.jpg?width=720&quality=80&disable=upscale",
       "importance": 6,
       "paywall": false
@@ -148,7 +198,7 @@
       "url": "https://aws.amazon.com/blogs/security/quantum-resistant-signing-on-aws-part-2-enforce-your-ml-dsa-algorithm-policy-with-scps-and-iam/",
       "source": "Amazon.com",
       "date": "2026-10-12",
-      "summary": "AWS has published guidance on enforcing quantum-resistant ML-DSA cryptographic algorithm policies using Service Control Policies (SCPs) and IAM. The post details how organizations can use IAM controls to prevent non-compliant cryptographic choices as they transition to post-quantum cryptography in AWS environments.",
+      "summary": "AWS published a technical guide on enforcing quantum-resistant ML-DSA cryptographic algorithm policies using Service Control Policies (SCPs) and IAM in AWS environments. The post addresses post-quantum cryptography adoption by showing how IAM policies can be used to restrict non-compliant algorithm choices across an AWS environment.",
       "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/10/12/quantum-resist-2.jpg",
       "importance": 6,
       "paywall": false
@@ -158,28 +208,8 @@
       "url": "https://www.prnewswire.com/news-releases/anugal-brings-agentic-ai-into-enterprise-identity-governance-and-access-decisions-302905593.html",
       "source": "PRNewswire",
       "date": "2026-10-12",
-      "summary": "Anugal has launched an agentic AI platform targeting enterprise identity governance and access decisions, with capabilities spanning SAP role design, intelligent access reviews, and Microsoft Teams integration. The solution is positioned to help enterprises make faster, risk-aware, and policy-governed access decisions using AI-driven automation.",
+      "summary": "Anugal has launched an agentic AI platform targeting enterprise identity governance and access decisions, including AI-assisted SAP role design, intelligent access reviews, and Microsoft Teams integration. The product aims to help enterprises make faster, risk-aware, and policy-governed access decisions through AI automation.",
       "image": "https://mmx.prnewswire.com/media/MS1855424/Anugal-IGA-Logo.jpg?id=OA3012447&p=facebook",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
-      "url": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
-      "source": "The Hacker News",
-      "date": "2026-10-10",
-      "summary": "A report on agent security finds that approximately 1,280 third-party products now embed AI agents, but only 282 of them authenticate through SSO, leaving roughly 1,000 outside identity governance visibility. The findings highlight a structural gap in IAM coverage where identity infrastructure can only govern what authenticates through it, leaving most embedded AI agents unmanaged by default.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghemGbtxM2amUYAlxUPHPdMiyDMQJFWZeY-dDODRqCRD0phZXXQv0rrKHiOsLPW3t0Fq2XxvvFyCC-OmNs7TXhXXKSRVMPpC1GPKSUsyzN9t-W6L4jtiA2DUiTLgou4iyw0QXN-6Wfz0H2zWYGgC6-OxtlQrfb0PygOeBWwDnR11nl3Gl8W5pL07sExNc/s1600/reco.gif",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
-      "url": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
-      "source": "The Hacker News",
-      "date": "2026-10-10",
-      "summary": "A credential-theft campaign compromised two high-profile open-source maintainer accounts to inject malicious GitHub Actions workflows into over 340 repositories. The attacker used the compromised account of pyxel author Takashi Kitao to push malicious workflows to 27 repositories, with the campaign focused on stealing credentials from CI/CD pipeline environments.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoJXBEAVVijhwsYs32WSejvp0sG3ej-Qoi7Z6qHDp8rY5IZENkKOpexrbbU1BNyiCbbB0ZXHjEDL-UYqu7CDpPpoYLiGXkuLCZJTItgP5XeLD_Sb1galPzOGtrFZigEM5CGUbwi9gcL_-XCYY6NKu9j5FiakIWn5s66DZE-OjrLZO3sMGka3YNFvGUecJT/s1600/gitworm.jpg",
       "importance": 6,
       "paywall": false
     },
@@ -188,7 +218,7 @@
       "url": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
       "source": "Krebs on Security",
       "date": "2026-09-08",
-      "summary": "Microsoft released a record-breaking patch batch addressing at least 974 security vulnerabilities across its Windows operating systems and other software. Microsoft attributed the increased vulnerability discovery pace in part to AI, while security experts noted organizations are struggling to keep up with testing and deploying the volume of monthly fixes.",
+      "summary": "Microsoft released a record-breaking patch update addressing at least 974 security vulnerabilities across Windows and other software. The scale of the patch batch is straining organizations' ability to test and prioritize fixes, with AI being credited for accelerating vulnerability discovery.",
       "image": null,
       "importance": 3,
       "paywall": false
@@ -198,7 +228,7 @@
       "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
       "source": "Krebs on Security",
       "date": "2026-09-01",
-      "summary": "A dark web service is selling digital scans of over 153 million driver's licenses from the US and Canada, apparently sourced from a Louisiana-based identity verification company. The FBI's New Orleans field office has launched an official inquiry into the breach, which affects a widely-used identity verification provider.",
+      "summary": "A dark web service is selling digital scans of over 153 million U.S. and Canadian drivers licenses, with evidence pointing to a Louisiana-based identity verification company as the source of the breach. The FBI's New Orleans field office has launched a formal inquiry into the origin of the leaked images.",
       "image": null,
       "importance": 6,
       "paywall": false
