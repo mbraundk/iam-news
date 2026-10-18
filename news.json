@@ -1,12 +1,22 @@
 {
-  "updated": "October 17, 2026 at 07:42 UTC",
+  "updated": "October 18, 2026 at 07:58 UTC",
   "top_stories": [
+    {
+      "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+      "source": "Bleeping Computer",
+      "date": "2026-10-17",
+      "summary": "ConnectWise shut down customer access to its Cloud Backup service after hackers exploited application identities to compromise Microsoft 365 tenants in a supply-chain attack. The breach involved attackers accessing application identities within the ConnectWise Cloud Backup platform (formerly SkyKick Cloud Backup) to gain unauthorized access to customer Microsoft 365 environments.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/09/07/ConnectWise.jpg",
+      "importance": 9,
+      "paywall": false
+    },
     {
       "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
       "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
       "source": "The Hacker News",
       "date": "2026-10-16",
-      "summary": "A China-linked cyber espionage group tracked as Armory Castle exploited a critical zero-day vulnerability (CVE-2026-102764, CVSS 9.3) in BeyondTrust Remote Support to take over remote support servers. The flaw involves improper origin validation in an internal messaging component and was exploited in late August 2026.",
+      "summary": "A China-linked cyber espionage group tracked as Armory Castle exploited a critical zero-day vulnerability (CVE-2026-102764, CVSS 9.3) in BeyondTrust Remote Support servers in late August 2026. The flaw involves improper origin validation in an internal messaging component and allowed attackers to take over Remote Support servers, targeting a key PAM and privileged access vendor.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEic5zD5GBvYxe93igsDOMdwS6eyfDORIWio42Z9UY0enK0XKWYcQlLB9RLx3iO_V1xm8vqBxMVZ_R8Lt-xxOumO5_RIFN3hgB-yZyGGlVMypRx5lm2GJq-1c9cbzfRcjrMAIfBI67L4QUI-MwjjQjKL1RcgPnzFdYuAF3k1y2Ev-ppSmiG8sdQ5dbJkbjKR/s1600/beyond.jpg",
       "importance": 9,
       "paywall": false
@@ -16,7 +26,7 @@
       "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
       "source": "Bleeping Computer",
       "date": "2026-10-16",
-      "summary": "BeyondTrust disclosed a critical zero-day vulnerability in its Remote Support product that has been actively exploited in attacks since August. The flaw required an emergency patch and affects BeyondTrust's privileged access management and remote support infrastructure.",
+      "summary": "BeyondTrust disclosed a critical zero-day vulnerability in its Remote Support (RS) product that has been actively exploited in attacks since late August. The company issued patches and warned customers to apply them immediately to remediate the flaw.",
       "image": "https://www.bleepstatic.com/content/hl-images/2026/10/16/BeyondTrust.jpg",
       "importance": 8,
       "paywall": false
@@ -26,7 +36,7 @@
       "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
       "source": "The Hacker News",
       "date": "2026-10-17",
-      "summary": "Threat actors used a compromised ConnectWise Cloud Backup credential to gain unauthorized access to 173 Microsoft 365 tenants belonging to managed service providers and their customers. The attack highlights risks associated with shared service provider credentials and cross-tenant access in M365 environments.",
+      "summary": "Threat actors used a compromised ConnectWise Cloud Backup credential to gain unauthorized access to 173 Microsoft 365 tenant environments. The attack highlights supply chain credential compromise risks, where a single stolen MSP credential enabled lateral access across multiple customer M365 instances.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgel6whr7-1_Lf62w6AJwYfEyic0x1lJ0c-qOfOprMUdm83xpM7rqXbJzplx7BPBUBDD4yUcLWoPvFBhF6HIDORPNNXYj7NfDOTf7YN5lT7p80jxtN6VrTxMjWT0OplFNx0BdjoMmFzk3ssVlbapm7Qfl0Z9_1T7jA_zwz2tbjrxzRircL28mr0zcsci98x/s1600/connectwise.jpg",
       "importance": 8,
       "paywall": false
@@ -36,9 +46,31 @@
       "url": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
       "source": "The Hacker News",
       "date": "2026-10-14",
-      "summary": "CISA is urging organizations to immediately update Ivanti Connect Secure appliances following active exploitation of CVE-2026-104935, an authentication bypass vulnerability with a CVSS score of 8.6. Honeypots have recorded 105 exploit attempts against the flaw, which affects the ICS remote access and VPN product.",
+      "summary": "CISA is urging organizations to immediately update Ivanti Connect Secure appliances following active exploitation of CVE-2026-104935, an authentication bypass vulnerability with a CVSS score of 8.6. Honeypot data has recorded 105 exploit attempts targeting this flaw in Ivanti's VPN/access management product.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBUpsAaH4Pe-HlsDhdSH5KK3VgWm9NEXXLNBOpxxp4d8WMZwSNNyPALzuapR_iUlq3-dLDe2bnPJfh42cdfH5m3LQWGKXZvHF3sYacyDbtZacKIIoluyNgP01-6bjjEz-RBhAQqxw-VHGD7gpn3ToRulgeH0ydeWXOucoK4hLBwvXtlCg81tB1scdjPbKN/s1600/i-h.jpg",
       "importance": 8,
+      "paywall": false
+    }
+  ],
+  "news": [
+    {
+      "title": "Six Vendors Are Shipping Agent Identity Products. The IETF Has Not Finished the Standard.",
+      "url": "https://forkast.news/six-vendors-are-shipping-agent-identity-products-the-ietf-has-not-finished-the-standard/",
+      "source": "Forkast.news",
+      "date": "2026-10-17",
+      "summary": "Six vendors are shipping agent identity products despite the IETF's ID-JAG standard remaining an unfinished Internet-Draft (version -04, expiring November 22). The article examines the standardization gap where commercial implementations are outpacing the formal specification process for agent identity.",
+      "image": "https://forkast.news/wp-content/uploads/2026/10/d208v2-agent-identity-implementation-map-hero-1024x687.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "The IETF Is Formalizing the Identity Layer Vendors Are Already Shipping",
+      "url": "https://forkast.news/the-ietf-is-formalizing-the-identity-layer-vendors-are-already-shipping/",
+      "source": "Forkast.news",
+      "date": "2026-10-17",
+      "summary": "The IETF is working to formalize identity standards for autonomous agents, addressing governance gaps as organizations scale agentic deployments. The standardization effort targets the authentication and authorization infrastructure needed to manage an estimated 150,000 agents by 2028, codifying approaches that IAM vendors are already implementing.",
+      "image": "https://forkast.news/wp-content/uploads/2026/10/d207-ietf-agent-identity-hero-1024x687.jpg",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -46,19 +78,17 @@
       "url": "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs",
       "source": "Dark Reading",
       "date": "2026-10-16",
-      "summary": "A zero-day vulnerability in BeyondTrust Remote Support has been actively exploited, joining a wave of edge device vulnerabilities affecting Ivanti, Cisco, and Palo Alto Networks in the same week. BeyondTrust is a privileged access management (PAM) vendor, making this directly relevant to IAM security practitioners managing remote and privileged access infrastructure.",
+      "summary": "A zero-day vulnerability in BeyondTrust Remote Support was actively exploited, joining a wave of edge device vulnerabilities affecting Ivanti, Cisco, and Palo Alto Networks. BeyondTrust is a PAM vendor whose Remote Support product is used for privileged remote access management.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt4a126b2e0eae913e/6ad27ebc7cb22e18dd04a52b/Locusts-ZU_09-Getty.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
-    }
-  ],
-  "news": [
+    },
     {
       "title": "Why Active Directory weaknesses stay open for years in teams with one or two admins",
       "url": "https://www.helpnetsecurity.com/2026/10/16/david-fuhr-intcube-active-directory-security/",
       "source": "Help Net Security",
       "date": "2026-10-16",
-      "summary": "An interview with intcube CTO David Fuhr details a 12-week security cohort where 27 municipalities collaboratively hardened Windows Server and Active Directory configurations. The program covered critical authentication and directory settings including SMB signing, LDAP signing, and Kerberos hardening, with lab testing used to validate changes before deployment.",
+      "summary": "An interview with intcube CTO David Fuhr describes a 12-week security cohort where 27 municipalities collaborated to harden Windows Server and Active Directory configurations. The program covered SMB signing, LDAP signing, and Kerberos hardening, using lab testing and weekly sessions to help small admin teams implement security changes safely.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/10/14125938/david_fuhr-2-intcube.webp",
       "importance": 6,
       "paywall": false
@@ -68,8 +98,18 @@
       "url": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
       "source": "The Hacker News",
       "date": "2026-10-16",
-      "summary": "Researchers have disclosed details of an APT spear-phishing campaign (UAT-11985) targeting Taiwan research organization affiliates using fake event invites leading to an adversary-in-the-middle phishing framework. The campaign is designed to harvest Google account credentials and MFA codes, bypassing multi-factor authentication protections.",
+      "summary": "An APT group tracked as UAT-11985 is conducting spear-phishing campaigns against Taiwan research organization affiliates using adversary-in-the-middle (AitM) techniques to steal Google account credentials and MFA codes. The campaign uses fake event invites to bypass MFA protections by intercepting authentication sessions in real time rather than just capturing passwords.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPclyw7bJ19im5Qmzj9jgFlsM4XJqPK6hyphenhyphenRDCcQ0bnpWrteeTWgPNlip5T0P_oj_AC6V3osZ2xIpYipKjXWQw3BfFEQ1n28dleNCLRi7difLnPLY8Yc-oJ6BCVZ1V0VBpF_ZNu36qM_yCvyvbgBsSfh2AXq-IBIk7QjnBSR_T7s8ajMCOkIEhA5YGeYWg4/s1600/google-phish.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Keeper Security and Tenable Integrate to Streamline Cloud Risk Detection, Remediation and Vulnerability Assessment",
+      "url": "https://www.prnewswire.com/news-releases/keeper-security-and-tenable-integrate-to-streamline-cloud-risk-detection-remediation-and-vulnerability-assessment-302910900.html",
+      "source": "PRNewswire",
+      "date": "2026-10-16",
+      "summary": "Keeper Security and Tenable have announced a new integration connecting Keeper's identity security platform with Tenable's cloud risk and vulnerability assessment tools. The integration enables remediation of cloud security findings and secures privileged credentials used during vulnerability scanning.",
+      "image": "https://mmx.prnewswire.com/media/MS1864138/Keeper-logo-full-color-002.jpg?id=OA3020156&p=facebook",
       "importance": 6,
       "paywall": false
     },
@@ -78,7 +118,7 @@
       "url": "https://kitploit.com/en/posts/jumpserver-90ba45e1e4e23279",
       "source": "Kitploit.com",
       "date": "2026-10-16",
-      "summary": "JumpServer has released version 5.1.0 of its open-source Privileged Access Management platform. The platform provides DevOps and IT teams with secure access to SSH, RDP, Kubernetes, database, and RemoteApp endpoints via a web browser.",
+      "summary": "JumpServer has released version 5.1.0 of its open-source Privileged Access Management platform. The platform provides DevOps and IT teams with secure access to SSH, RDP, Kubernetes, Database, and RemoteApp endpoints through a web browser.",
       "image": "https://assets.kitploit.com/production/public/tools/9035/0f9c64e97e720e22b1483be483fa6ea8438dee812c3d54b8b018a55155b9fff8.png",
       "importance": 6,
       "paywall": false
@@ -88,9 +128,19 @@
       "url": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
       "source": "The Hacker News",
       "date": "2026-10-15",
-      "summary": "A credential-theft campaign called GhostAction compromised approximately 1,900 GitHub accounts and targeted over 30,000 repositories across 3,000 users and organizations. The attack, observed on October 8-9, 2026, attempted to extract 3,174 secrets from public repositories' CI pipelines, according to GitGuardian researchers.",
+      "summary": "A credential-theft campaign called GhostAction compromised approximately 1,900 GitHub accounts and targeted over 30,000 repositories across 3,000 users and organizations. The attack, observed on October 8-9, 2026 and reported by GitGuardian, attempted to extract 3,174 secrets from public repositories' CI pipelines.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiddFchlm_nV3vywI0BM2-8IaZb-wHXwE8DplGqZYkRmcYkeXiSLfVmnVAU-jM4yikWW7SWokanh_S4hq88cVHjAnaWDGkl3VVAtPdv9SHWp0MNb0CIOAA-I73EuwwUSE-wNMnXEzbIdDYorJn2hIuBZQ5Jh_5I2IntiXuUYZz3sKax-wfRoaxy_pD9kGx0/s1600/ghost-git.jpg",
       "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Cybersecurity Stocks Retreat From Record Highs — Citi Raises CRWD, PANW, ZS Targets On Improving Spending Momentum",
+      "url": "https://biztoc.com/x/d18bb54d078c20b7",
+      "source": "Biztoc.com",
+      "date": "2026-10-15",
+      "summary": "Citi analyst Fatima Boolani raised price targets for several cybersecurity stocks, including Okta, citing AI-driven security spending momentum. The article is primarily a financial/market analysis piece focused on stock performance rather than IAM-specific developments.",
+      "image": "https://biztoc.com/cdn/d18bb54d078c20b7_s.webp",
+      "importance": 2,
       "paywall": false
     },
     {
@@ -98,7 +148,7 @@
       "url": "https://ubuntu.com/blog/canonical-releases-ubuntu-26-10-stonking-stingray",
       "source": "Ubuntu.com",
       "date": "2026-10-15",
-      "summary": "Canonical released Ubuntu 26.10 Stonking Stingray, an interim release that includes improvements to enterprise identity integration among other features. The release also adds post-quantum package signing, Rust coreutils, and privacy-focused speech-to-text capabilities.",
+      "summary": "Canonical released Ubuntu 26.10 Stonking Stingray, an interim release that includes improvements to enterprise identity integration among other features. The release also introduces post-quantum package signing, Rust coreutils, and privacy-conscious speech-to-text capabilities.",
       "image": "https://ubuntu.com/wp-content/uploads/6ca3/Screenshot-from-2026-10-14-17-35-16.png",
       "importance": 3,
       "paywall": false
@@ -108,7 +158,7 @@
       "url": "https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching",
       "source": "Dark Reading",
       "date": "2026-10-14",
-      "summary": "A high-severity zero-day vulnerability (CVE-2026-104935) affecting Ivanti ICS combines authentication bypass and remote code execution, and was only partially discovered and patched in July. The incomplete patch left a window for threat actors to exploit the authentication bypass flaw in active attacks.",
+      "summary": "A high-severity zero-day vulnerability (CVE-2026-104935) in Ivanti ICS combines authentication bypass and remote code execution, and was only partially discovered and patched in July. The incomplete patch left a window for threat actors to exploit the authentication bypass flaw in active attacks.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt5c7ce56f98018528/6acfd608b8750c62d9a7bd46/patching-Florencio_Horcajo_Alvarez-Getty-2270656800.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -118,7 +168,7 @@
       "url": "https://www.darkreading.com/threat-intelligence/new-anthropic-sneakpeek-silent-zero-click-threat",
       "source": "Dark Reading",
       "date": "2026-10-14",
-      "summary": "A vulnerability dubbed \"SneakPeek\" in Anthropic's Claude Code Desktop application allows attackers to silently steal credentials including SSH private keys, AWS credentials, and OAuth tokens via the preview pane without requiring user interaction. The zero-click flaw enables credential theft from developers without any visible indicators of compromise.",
+      "summary": "A vulnerability dubbed \"SneakPeek\" in Anthropic's Claude Code Desktop application allows attackers to silently steal credentials, including SSH private keys, AWS credentials, and OAuth tokens, via the preview pane without any user interaction. The zero-click flaw enables credential theft from developers without requiring them to open or execute any malicious content.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltebc5737d9330c848/6acfd08de9c3113a94cf7694/cat_peek_Seregaff_Getty.jpg?width=720&quality=80&disable=upscale",
       "importance": 6,
       "paywall": false
@@ -128,7 +178,7 @@
       "url": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
       "source": "The Hacker News",
       "date": "2026-10-14",
-      "summary": "Microsoft, alongside Health-ISAC, JC3, and private sector partners, disrupted three phishing kits—CoGUI, Haozi, and Iron Man System—linked to over 1 billion scam messages since January 2026. The operation involved companies including Resecurity, Cloudflare, Oracle, Proofpoint, and TRM Labs targeting credential-harvesting infrastructure.",
+      "summary": "Microsoft, alongside Health-ISAC, JC3, and partners including Cloudflare, Oracle, and Proofpoint, disrupted three phishing kits—CoGUI, Haozi, and Iron Man System—linked to over 1 billion scam messages since January 2026. The operation targeted phishing-as-a-service infrastructure used by threat actors to conduct large-scale credential theft campaigns.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtmZA0sGFnGRVBoPOHXGNOr-Q1MpdbCUNVrfxBTV6z_URgCka1DOH4xcc_WuismhU3W1BEiostTKZetIhtrFyXrInKdz_jqK6Dtia5TDOqRiu4rkktKmF2Iz1br28coCyU3c5td-yrINUgjYIdwG-7q_n1fEZT_mumUoVBp2HfNPKHnqC3jTryRDL7hxAL/s1600/phish-shop.jpg",
       "importance": 5,
       "paywall": false
@@ -138,7 +188,7 @@
       "url": "https://forkast.news/employees-built-the-agents-enterprises-just-bought-the-supervisors/",
       "source": "Forkast.news",
       "date": "2026-10-14",
-      "summary": "The article examines the emerging dual-lane enterprise AI agent landscape, distinguishing between IT-sanctioned agents managed through identity governance platforms like Okta and employee-built unsanctioned agents. The divide creates new challenges for identity governance and access management as enterprises attempt to monitor and control AI agents operating within their environments.",
+      "summary": "The article examines a growing divide between employee-built and enterprise-deployed AI agents and how this affects identity governance and access management. Company-deployed agents are managed through identity governance platforms like Okta, while shadow AI agents operate outside official IAM controls.",
       "image": "https://forkast.news/wp-content/uploads/2026/10/employees-built-agents-enterprises-bought-supervisors-1024x687.jpg",
       "importance": 6,
       "paywall": false
@@ -148,37 +198,17 @@
       "url": "https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/",
       "source": "Microsoft.com",
       "date": "2026-10-14",
-      "summary": "Microsoft uncovered a Chinese-language cybercriminal ecosystem involving phishing kit operators (Storm-2990) and an illicit marketplace (Storm-3119) selling tools and infrastructure for large-scale phishing attacks. The operation targets credential theft and identity compromise at scale, with Microsoft collaborating on the investigation and takedown efforts.",
+      "summary": "Microsoft uncovered a Chinese-language cybercriminal ecosystem involving phishing kit operators (Storm-2990) and an illicit marketplace (Storm-3119) selling tools and infrastructure for large-scale phishing attacks. The operation targets credential theft at scale, with Microsoft collaborating on disruption efforts against the network.",
       "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/10/Storm-3119-and-Storm-2990-featured.png",
       "importance": 6,
       "paywall": true
-    },
-    {
-      "title": "Semperis 2026 Ransomware Report Reveals Increases in AI-Driven Attacks and a Rise in Physical Threats Against Executives and Their Families",
-      "url": "https://www.prnewswire.com/news-releases/semperis-2026-ransomware-report-reveals-increases-in-ai-driven-attacks-and-a-rise-in-physical-threats-against-executives-and-their-families-302907731.html",
-      "source": "PRNewswire",
-      "date": "2026-10-14",
-      "summary": "Semperis released its 2026 Ransomware Report highlighting increases in AI-driven attacks, repeat ransomware incidents, and attacks specifically targeting identity systems. The report also documents a rise in physical threats against executives and their families, with findings indicating that recovery readiness has not kept pace with the evolving threat landscape.",
-      "image": "https://mmx.prnewswire.com/media/MS1122565/Semperis-Logo-Logo-Logo.jpg?id=OA3017407&p=facebook",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Workday Signs C1 Ai Deal to Govern People and Agents - El-Balad.com",
-      "url": "https://www.el-balad.com/17057447",
-      "source": "El-balad.com",
-      "date": "2026-10-14",
-      "summary": "Workday signed a definitive agreement to acquire C1 AI on October 13, 2026, targeting governance of access for both human users and AI agents. The deal extends Workday's capabilities into identity governance territory, addressing the growing need to manage AI agent access alongside traditional workforce access.",
-      "image": "https://www.el-balad.com/uploads/2026/10/14/c1-ai-9cf0ae2c_1200w.webp",
-      "importance": 7,
-      "paywall": false
     },
     {
       "title": "Zero-Days Lurk in Microsoft's Overgrown October Patch Tuesday",
       "url": "https://www.darkreading.com/vulnerabilities-threats/zero-days-microsoft-october-patch-tuesday",
       "source": "Dark Reading",
       "date": "2026-10-13",
-      "summary": "Microsoft's October Patch Tuesday, described as the largest security update ever, contains multiple zero-day vulnerabilities including defense bypasses and unauthenticated remote code execution flaws. The update is relevant to IAM professionals due to the presence of authentication-related bypass vulnerabilities in Microsoft's ecosystem.",
+      "summary": "Microsoft's October Patch Tuesday, described as the largest security update ever, contains multiple zero-day vulnerabilities including defense bypasses and unauthenticated remote code execution flaws. The update is relevant to IAM professionals due to the presence of security defense bypasses that could undermine authentication and access control mechanisms.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt2208c9717985ba6f/6aceb2c101a45e612a7baa2b/harvest-China_Photos-GettyImages-71574532.jpg?width=720&quality=80&disable=upscale",
       "importance": 6,
       "paywall": false
@@ -188,9 +218,9 @@
       "url": "https://www.darkreading.com/cybersecurity-operations/cyber-resilience-starts-with-iam",
       "source": "Dark Reading",
       "date": "2026-10-12",
-      "summary": "The article argues that identity and access management is a foundational component of cyber resilience strategies. It focuses on the challenges posed by enterprise app proliferation and reliance on cloud identity providers.",
+      "summary": "The article addresses the critical role of identity and access management in cyber resilience strategies, focusing on the growing complexity of enterprise app proliferation and cloud identity providers. It argues that IAM must be reconsidered as a foundational component of organizational recovery and security posture.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltc4e8be3c10aa2950/6acd23ee26d33c046ebc6ef9/resilience-hogehoge511-Getty-2296989476.jpg?width=720&quality=80&disable=upscale",
-      "importance": 5,
+      "importance": 6,
       "paywall": false
     },
     {
@@ -198,7 +228,7 @@
       "url": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
       "source": "Krebs on Security",
       "date": "2026-09-08",
-      "summary": "Microsoft released a record patch batch fixing at least 974 security vulnerabilities across Windows and other software. The update is notable for its scale, with Microsoft attributing accelerated vulnerability discovery to AI assistance.",
+      "summary": "Microsoft released a record-breaking patch batch addressing at least 974 security vulnerabilities across Windows and other software. AI is being credited for accelerating vulnerability discovery, though security experts note organizations are struggling to prioritize and deploy the high volume of monthly fixes.",
       "image": null,
       "importance": 3,
       "paywall": false
@@ -208,7 +238,7 @@
       "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
       "source": "Krebs on Security",
       "date": "2026-09-01",
-      "summary": "A dark web service is selling digital scans of over 153 million U.S. and Canadian drivers licenses, apparently sourced from a Louisiana-based identity verification company. The FBI's New Orleans field office has opened an official investigation into the breach.",
+      "summary": "A dark web service is selling digital scans of over 153 million drivers licenses from the US and Canada, apparently sourced from a Louisiana-based identity verification company. The FBI's New Orleans field office has opened an official inquiry into the breach, which affects a widely-used identity verification provider.",
       "image": null,
       "importance": 6,
       "paywall": false
