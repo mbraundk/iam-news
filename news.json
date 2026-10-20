@@ -1,44 +1,24 @@
 {
-  "updated": "October 19, 2026 at 08:45 UTC",
+  "updated": "October 20, 2026 at 08:26 UTC",
   "top_stories": [
-    {
-      "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
-      "source": "Bleeping Computer",
-      "date": "2026-10-17",
-      "summary": "ConnectWise shut down customer access to its Cloud Backup service after hackers compromised application identities and breached Microsoft 365 tenants in a supply-chain attack. The attack vector involved unauthorized access to application identities, resulting in downstream compromise of Microsoft 365 environments across affected tenants.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/09/07/ConnectWise.jpg",
-      "importance": 9,
-      "paywall": false
-    },
     {
       "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
       "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
       "source": "The Hacker News",
       "date": "2026-10-16",
-      "summary": "A China-linked cyber espionage group tracked as Armory Castle exploited a critical zero-day vulnerability (CVE-2026-102764, CVSS 9.3) in BeyondTrust Remote Support to take over remote support servers in late August 2026. The flaw involves improper origin validation in an internal messaging component of BeyondTrust's Remote Support product, formerly known as Bomgar.",
+      "summary": "A China-linked cyber espionage group tracked as Armory Castle exploited a critical zero-day vulnerability (CVE-2026-102764, CVSS 9.3) in BeyondTrust Remote Support servers in late August 2026. The flaw involves improper origin validation in an internal messaging component and allowed attackers to take over Remote Support servers.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEic5zD5GBvYxe93igsDOMdwS6eyfDORIWio42Z9UY0enK0XKWYcQlLB9RLx3iO_V1xm8vqBxMVZ_R8Lt-xxOumO5_RIFN3hgB-yZyGGlVMypRx5lm2GJq-1c9cbzfRcjrMAIfBI67L4QUI-MwjjQjKL1RcgPnzFdYuAF3k1y2Ev-ppSmiG8sdQ5dbJkbjKR/s1600/beyond.jpg",
       "importance": 9,
       "paywall": false
     },
     {
-      "title": "BeyondTrust patches zero-day exploited in attacks since August",
-      "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
-      "source": "Bleeping Computer",
-      "date": "2026-10-16",
-      "summary": "BeyondTrust disclosed a critical zero-day vulnerability in its Remote Support product that has been actively exploited in attacks since late August. The flaw prompted an emergency patch warning to customers, highlighting a security risk in a widely-used privileged access management vendor's tooling.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/10/16/BeyondTrust.jpg",
-      "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
-      "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
-      "source": "The Hacker News",
-      "date": "2026-10-17",
-      "summary": "Threat actors used a compromised ConnectWise Cloud Backup credential to gain unauthorized access to 173 Microsoft 365 tenants belonging to MSP customers. The attack highlights the risk of credential compromise in third-party service provider accounts that have delegated access to multiple customer Microsoft 365 environments.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgel6whr7-1_Lf62w6AJwYfEyic0x1lJ0c-qOfOprMUdm83xpM7rqXbJzplx7BPBUBDD4yUcLWoPvFBhF6HIDORPNNXYj7NfDOTf7YN5lT7p80jxtN6VrTxMjWT0OplFNx0BdjoMmFzk3ssVlbapm7Qfl0Z9_1T7jA_zwz2tbjrxzRircL28mr0zcsci98x/s1600/connectwise.jpg",
-      "importance": 8,
+      "title": "ConnectWise Cloud Backup Credential Abuse: 173 M365 Tenants Compromised in Trust-Through-Defaults Incident",
+      "url": "https://forkast.news/connectwise-cloud-backup-credential-abuse-173-m365-tenants-compromised-in-trust-through-defaults-incident/",
+      "source": "Forkast.news",
+      "date": "2026-10-18",
+      "summary": "Threat actors abused a vendor-managed credential in ConnectWise Cloud Backup to authenticate across 173 Microsoft 365 tenants in a supply chain-style attack. The incident highlights failures in credential management and cross-tenant trust, with customer-side controls like MFA and conditional access reportedly ineffective due to the trusted vendor credential context.",
+      "image": "https://forkast.news/wp-content/uploads/2026/10/connectwise-msp-credential-abuse-hero-1024x572.jpg",
+      "importance": 9,
       "paywall": false
     },
     {
@@ -46,13 +26,93 @@
       "url": "https://forkast.news/nine-identity-layer-bypasses-in-twenty-one-days-the-trust-through-defaults-pattern-has-reached-every-layer-of-the-stack/",
       "source": "Forkast.news",
       "date": "2026-10-17",
-      "summary": "Nine distinct identity-layer bypasses were disclosed across the authentication stack within a 21-day window between late September and mid-October 2026. Each vulnerability exploited a common structural pattern where receiving systems implicitly trusted assertions from upstream sources without sufficient validation, affecting multiple tiers of the identity stack.",
+      "summary": "Nine distinct identity-layer bypasses were disclosed across multiple tiers of the authentication stack within a 21-day window between late September and mid-October 2026. Each vulnerability exploited a shared structural flaw where receiving systems incorrectly assumed that assertions from trusted sources were valid without further verification, a pattern described as \"trust-through-defaults.\"",
       "image": "https://forkast.news/wp-content/uploads/2026/10/nine-layer-trust-through-defaults-hero-1024x572.jpg",
+      "importance": 9,
+      "paywall": false
+    },
+    {
+      "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+      "source": "Bleeping Computer",
+      "date": "2026-10-17",
+      "summary": "ConnectWise shut down customer access to its Cloud Backup service after hackers accessed application identities and compromised Microsoft 365 tenants through a supply-chain attack. The breach involved the exploitation of application identities, directly impacting Microsoft 365 tenant security for affected ConnectWise customers.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/09/07/ConnectWise.jpg",
+      "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "ConnectWise suspends Cloud Backup service after attackers abuse its Microsoft 365 access",
+      "url": "https://www.helpnetsecurity.com/2026/10/19/connectwise-cloud-backup-suspended-security-incident/",
+      "source": "Help Net Security",
+      "date": "2026-10-19",
+      "summary": "ConnectWise suspended its Cloud Backup service (formerly SkyKick) after attackers used compromised application credentials to access customer Microsoft 365 accounts. The incident also led to suspension of related SaaS Security and Cloud Management services due to their integration with the affected application identity infrastructure.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/02/26121838/connectwise-1400.jpg",
       "importance": 8,
       "paywall": false
     }
   ],
   "news": [
+    {
+      "title": "Your frontline workers have a workaround for that MFA prompt",
+      "url": "https://www.helpnetsecurity.com/2026/10/20/frontline-worker-authentication-passwordless/",
+      "source": "Help Net Security",
+      "date": "2026-10-20",
+      "summary": "A Sapio Research survey of 700 IT and security decision-makers found that 95% observed frontline workers bypassing MFA through credential sharing, persistent sessions, and other workarounds in the past 12 months. The research focuses on authentication challenges specific to healthcare and manufacturing environments where shared workstations and workflow pressures conflict with standard MFA implementations.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2025/02/09085513/keys2-1500.webp",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "ConnectWise Disables Cloud Backups Amid Concerns for Downstream MSPs",
+      "url": "https://www.darkreading.com/identity-access-management-security/connectwise-disables-cloud-backups-downstream-msps",
+      "source": "Dark Reading",
+      "date": "2026-10-19",
+      "summary": "ConnectWise disabled cloud backups after attackers reportedly used ConnectWise credentials to authenticate into Microsoft 365 tenants. Customer impact remains unconfirmed according to ConnectWise, while researchers indicate downstream MSPs may be affected.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt8bed2421e7501183/6ad6650c7e69bd1337538960/Cloud_Backup-TU_IS-GettyImages-1399936043_(1).jpg?width=720&quality=80&disable=upscale",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Inside the Underground Market for Know Your Client Services",
+      "url": "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/",
+      "source": "Bleeping Computer",
+      "date": "2026-10-19",
+      "summary": "Cybercriminals are selling underground services including forged identity documents, deepfake videos, and live verification assistance to bypass Know Your Customer (KYC) identity verification checks. Flare's research examines the techniques used to create fraudulent verified accounts, targeting identity verification systems used by financial and other regulated industries.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/10/16/flare-sidebar.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Cybercriminals favor Microsoft over Apple and Google in brand phishing attacks",
+      "url": "https://www.helpnetsecurity.com/2026/10/19/check-point-brand-impersonation-scams-q3-2026-report/",
+      "source": "Help Net Security",
+      "date": "2026-10-19",
+      "summary": "Check Point Research found Microsoft accounted for 33% of brand impersonation attempts in Q3 2026, up from 23% the previous quarter and roughly four times the share of any other brand. Apple and Google each followed at 8%, with attackers targeting Microsoft credentials due to their broad access potential across enterprise systems.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/07/07112906/deepfake-impersonation-person-1500.webp",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
+      "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
+      "source": "The Hacker News",
+      "date": "2026-10-19",
+      "summary": "The GhostAction threat actor has expanded its supply chain attack campaign to include credential stealer malware disguised as a font file, planted across 94 GitHub repositories. The attack targets open-source developers through phishing and malicious GitHub Actions workflows, with the stealer designed to harvest credentials from compromised systems.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtAKfaW5dHhlv9lpzzAju1Cm_EjO4wOkhGQEMspSKCVFUCA_eaanAXGHkb-Dv3c9zSXWHW45I50Fp_bqX6ydaNlPWixkd39bl4IOeYv8xQ0oviE4d6SZcQmQ27ztf-tVV7BozEDeFYi2Fde0LpJAJ9gTHUGSOvc46MtgawesAd5-wljApeBpLyUYnczZnR/s1600/git-font.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "IDWolf",
+      "url": "https://kitploit.com/en/tools/github/g4bri-3l3/idwolf",
+      "source": "Kitploit.com",
+      "date": "2026-10-19",
+      "summary": "IDWolf is a read-only PowerShell-based auditing tool for Active Directory and Microsoft Entra ID hygiene assessment. It offers deterministic findings, attack path analysis, compliance mapping for NIS2/ISO 27001/DORA/GDPR, and supports HTML/CSV/JSONL reporting with optional AI analysis.",
+      "image": "https://assets.kitploit.com/production/public/tools/57652/adf60c37774ea805689335c7800bff21148305f65faa9f16a0521735074fd912-social-v1.webp",
+      "importance": 6,
+      "paywall": false
+    },
     {
       "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
       "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
@@ -64,11 +124,31 @@
       "paywall": false
     },
     {
+      "title": "SAP Cloud SDK for Python Lets Attackers Steal OAuth2 Credentials Through a Tenant Subdomain Input — CVSS 10.0",
+      "url": "https://forkast.news/sap-cloud-sdk-for-python-lets-attackers-steal-oauth2-credentials-through-a-tenant-subdomain-input-cvss-10-0/",
+      "source": "Forkast.news",
+      "date": "2026-10-18",
+      "summary": "A CVSS 10.0 Server-Side Request Forgery vulnerability in the SAP Cloud SDK for Python allows attackers to steal OAuth2 client credentials by manipulating the tenant_subdomain parameter without authentication. The flaw enables hijacking of OAuth2 token requests, exposing application client IDs and secrets.",
+      "image": "https://forkast.news/wp-content/uploads/2026/10/sap-cloud-sdk-oauth2-ssrf-hero-1024x572.jpg",
+      "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
+      "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+      "source": "The Hacker News",
+      "date": "2026-10-17",
+      "summary": "Threat actors used a compromised ConnectWise Cloud Backup credential to gain unauthorized access to 173 Microsoft 365 tenants belonging to managed service providers' customers. The attack highlights risks associated with delegated administrative credentials and third-party service provider access to M365 environments.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgel6whr7-1_Lf62w6AJwYfEyic0x1lJ0c-qOfOprMUdm83xpM7rqXbJzplx7BPBUBDD4yUcLWoPvFBhF6HIDORPNNXYj7NfDOTf7YN5lT7p80jxtN6VrTxMjWT0OplFNx0BdjoMmFzk3ssVlbapm7Qfl0Z9_1T7jA_zwz2tbjrxzRircL28mr0zcsci98x/s1600/connectwise.jpg",
+      "importance": 8,
+      "paywall": false
+    },
+    {
       "title": "The Industry’s Primary Agent Identity Standard Expires in 36 Days",
       "url": "https://forkast.news/the-industrys-primary-agent-identity-standard-expires-in-36-days/",
       "source": "Forkast.news",
       "date": "2026-10-17",
-      "summary": "The ID-JAG (Identity for JSON Agentic) draft standard, described as the industry's primary agent identity standard, is set to expire on November 22, 2026, with 36 days remaining. The expiration highlights a gap between commercially deployed agentic AI infrastructure and the pace of institutional standards development for agent identity.",
+      "summary": "The ID-JAG (Identity for Autonomous Agents) draft standard is set to expire on November 22, with 36 days remaining as of October 17, 2026. The expiration highlights a gap between commercially deployed agent identity infrastructure and the pace of institutional standards development.",
       "image": "https://forkast.news/wp-content/uploads/2026/10/id-jag-expiration-deadline-hero-1024x687.jpg",
       "importance": 6,
       "paywall": false
@@ -78,7 +158,7 @@
       "url": "https://forkast.news/mage-oss-ships-an-oauth-bypass-that-creates-sessions-from-unrecognized-providers-the-tenth-trust-through-defaults-incident-in-twenty-one-days/",
       "source": "Forkast.news",
       "date": "2026-10-17",
-      "summary": "Mage OSS has a critical authentication bypass vulnerability (CVE-2026-111823, CVSS 9.8) that allows session creation from unrecognized OAuth providers, affecting all versions through 0.9.80. The flaw is categorized as a trust-through-defaults issue in OAuth implementation, enabling unauthorized access without valid credentials.",
+      "summary": "Mage OSS has been found to contain a critical authentication bypass vulnerability (CVE-2026-111823, CVSS 9.8) that creates sessions from unrecognized OAuth providers, affecting all versions through 0.9.80. The flaw is tracked under GHSA-93gm-r5p2-wxq7 and represents a trust-through-defaults misconfiguration in OAuth session handling.",
       "image": "https://forkast.news/wp-content/uploads/2026/10/mage-oss-oauth-bypass-tenth-trust-through-defaults-hero-1024x687.jpg",
       "importance": 7,
       "paywall": false
@@ -88,7 +168,7 @@
       "url": "https://forkast.news/microsoft-is-blocking-every-third-party-script-from-its-entra-sign-in-page-and-it-hits-mid-october/",
       "source": "Forkast.news",
       "date": "2026-10-17",
-      "summary": "Microsoft will enforce Content Security Policy (CSP) on Entra sign-in pages at login.microsoftonline.com starting mid-to-late October 2026, blocking all third-party scripts not originating from trusted Microsoft domains. The change is part of Microsoft's Secure Future Initiative and will impact organizations that have injected custom or third-party scripts into Entra sign-in pages.",
+      "summary": "Microsoft will enforce Content Security Policy (CSP) on Entra sign-in pages at login.microsoftonline.com starting mid-to-late October 2026, blocking all third-party scripts not from trusted Microsoft domains. The change is part of Microsoft's Secure Future Initiative and will affect organizations that inject custom scripts into Entra sign-in pages.",
       "image": "https://forkast.news/wp-content/uploads/2026/10/entra-csp-sign-in-enforcement-hero-1024x572.jpg",
       "importance": 8,
       "paywall": false
@@ -98,7 +178,7 @@
       "url": "https://forkast.news/six-vendors-are-shipping-agent-identity-products-the-ietf-has-not-finished-the-standard/",
       "source": "Forkast.news",
       "date": "2026-10-17",
-      "summary": "Six vendors are shipping agent identity products despite the IETF's ID-JAG standard remaining an unfinished Internet-Draft (version -04, expiring November 22). The article examines the standardization gap where commercial implementations are outpacing the formal specification process for agent identity.",
+      "summary": "Six vendors are shipping agent identity products despite the IETF's ID-JAG standard remaining an unfinished Internet-Draft (version -04, expiring November 22). This creates a standardization gap where commercial implementations of agent identity are proceeding ahead of the formal specification they would rely on.",
       "image": "https://forkast.news/wp-content/uploads/2026/10/d208v2-agent-identity-implementation-map-hero-1024x687.jpg",
       "importance": 7,
       "paywall": false
@@ -108,7 +188,7 @@
       "url": "https://forkast.news/the-ietf-is-formalizing-the-identity-layer-vendors-are-already-shipping/",
       "source": "Forkast.news",
       "date": "2026-10-17",
-      "summary": "The IETF is working to formalize identity standards for autonomous agents as organizations prepare to manage large numbers of non-human identities. The standardization effort addresses authentication and authorization infrastructure for AI agents, an area where vendors have already begun shipping their own implementations.",
+      "summary": "The IETF is formalizing standards for an identity layer designed to support autonomous AI agents, addressing governance gaps as agent deployments scale rapidly. The standardization effort covers the technical infrastructure needed to authenticate and authorize non-human identities, an area where vendors have already begun shipping implementations.",
       "image": "https://forkast.news/wp-content/uploads/2026/10/d207-ietf-agent-identity-hero-1024x687.jpg",
       "importance": 7,
       "paywall": false
@@ -118,19 +198,9 @@
       "url": "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs",
       "source": "Dark Reading",
       "date": "2026-10-16",
-      "summary": "A zero-day vulnerability in BeyondTrust Remote Support has been actively exploited, joining a wave of edge device vulnerabilities affecting Ivanti, Cisco, and Palo Alto Networks. BeyondTrust is a privileged access management (PAM) vendor, and the flaw targets its remote support product used for managing privileged sessions.",
+      "summary": "A zero-day vulnerability in BeyondTrust Remote Support has been exploited, joining a wave of edge device vulnerabilities affecting Ivanti, Cisco, and Palo Alto Networks. BeyondTrust is a PAM vendor whose remote support and privileged access products are widely deployed in enterprise environments.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt4a126b2e0eae913e/6ad27ebc7cb22e18dd04a52b/Locusts-ZU_09-Getty.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Why Active Directory weaknesses stay open for years in teams with one or two admins",
-      "url": "https://www.helpnetsecurity.com/2026/10/16/david-fuhr-intcube-active-directory-security/",
-      "source": "Help Net Security",
-      "date": "2026-10-16",
-      "summary": "An interview with intcube CTO David Fuhr covers a 12-week security cohort where 27 municipalities collaborated to harden Windows Server and Active Directory configurations. The program addressed specific AD security settings including SMB signing, LDAP signing, and Kerberos hardening, with lab testing used to validate changes before deployment.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/10/14125938/david_fuhr-2-intcube.webp",
-      "importance": 6,
       "paywall": false
     },
     {
@@ -138,7 +208,7 @@
       "url": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
       "source": "The Hacker News",
       "date": "2026-10-16",
-      "summary": "Researchers have disclosed details of an APT spear-phishing campaign (UAT-11985) targeting Taiwan research organization affiliates using fake event invites to direct victims to an adversary-in-the-middle phishing framework. The campaign is designed to harvest Google account credentials and MFA codes, bypassing multi-factor authentication protections.",
+      "summary": "Researchers have disclosed details of an APT spear-phishing campaign (UAT-11985) targeting Taiwan research organization affiliates using adversary-in-the-middle (AitM) techniques to steal Google account credentials and MFA codes. The campaign employs fake event invites to bypass MFA protections by intercepting authentication tokens in real time.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPclyw7bJ19im5Qmzj9jgFlsM4XJqPK6hyphenhyphenRDCcQ0bnpWrteeTWgPNlip5T0P_oj_AC6V3osZ2xIpYipKjXWQw3BfFEQ1n28dleNCLRi7difLnPLY8Yc-oJ6BCVZ1V0VBpF_ZNu36qM_yCvyvbgBsSfh2AXq-IBIk7QjnBSR_T7s8ajMCOkIEhA5YGeYWg4/s1600/google-phish.jpg",
       "importance": 6,
       "paywall": false
@@ -148,18 +218,8 @@
       "url": "https://www.prnewswire.com/news-releases/keeper-security-and-tenable-integrate-to-streamline-cloud-risk-detection-remediation-and-vulnerability-assessment-302910900.html",
       "source": "PRNewswire",
       "date": "2026-10-16",
-      "summary": "Keeper Security and Tenable have announced an integration between Keeper's identity security platform and Tenable's cloud risk and vulnerability assessment tools. The integration enables remediation of cloud security findings and secures privileged credentials used during vulnerability scanning.",
+      "summary": "Keeper Security and Tenable have announced a product integration connecting Keeper's identity security platform with Tenable's cloud risk and vulnerability assessment tools. The integration enables remediation of cloud security findings and secures privileged credentials used during vulnerability scanning.",
       "image": "https://mmx.prnewswire.com/media/MS1864138/Keeper-logo-full-color-002.jpg?id=OA3020156&p=facebook",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "CMA takes first steps to ensure choice in business software",
-      "url": "https://www.gov.uk/government/news/cma-takes-first-steps-to-ensure-choice-in-business-software",
-      "source": "Www.gov.uk",
-      "date": "2026-10-16",
-      "summary": "The UK Competition and Markets Authority (CMA) has proposed designating Microsoft with strategic market status in its business software ecosystem. This regulatory action could have implications for Microsoft's identity and access management products, including Entra ID, given their deep integration within the broader Microsoft 365 and Azure business software ecosystem.",
-      "image": "https://www.gov.uk/assets/frontend/govuk-opengraph-image-4196a4d6333cf92aaf720047f56cfd91b3532d7635fc21ebcf0d5897df6b5f77.png",
       "importance": 6,
       "paywall": false
     },
@@ -168,29 +228,9 @@
       "url": "https://kitploit.com/en/posts/jumpserver-90ba45e1e4e23279",
       "source": "Kitploit.com",
       "date": "2026-10-16",
-      "summary": "JumpServer has released version 5.1.0 of its open-source Privileged Access Management platform. The platform provides DevOps and IT teams with secure access to SSH, RDP, Kubernetes, database, and RemoteApp endpoints through a web browser.",
+      "summary": "JumpServer has released version 5.1.0 of its open-source Privileged Access Management platform. The platform provides DevOps and IT teams with secure access to SSH, RDP, Kubernetes, Database, and RemoteApp endpoints through a web browser.",
       "image": "https://assets.kitploit.com/production/public/tools/9035/0f9c64e97e720e22b1483be483fa6ea8438dee812c3d54b8b018a55155b9fff8.png",
       "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
-      "url": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
-      "source": "The Hacker News",
-      "date": "2026-10-15",
-      "summary": "A credential-theft campaign called GhostAction compromised approximately 1,900 GitHub accounts and targeted over 30,000 repositories across 3,000 users and organizations. The attack, observed on October 8-9, 2026 and reported by GitGuardian, attempted to extract 3,174 secrets from public repositories' CI pipelines.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiddFchlm_nV3vywI0BM2-8IaZb-wHXwE8DplGqZYkRmcYkeXiSLfVmnVAU-jM4yikWW7SWokanh_S4hq88cVHjAnaWDGkl3VVAtPdv9SHWp0MNb0CIOAA-I73EuwwUSE-wNMnXEzbIdDYorJn2hIuBZQ5Jh_5I2IntiXuUYZz3sKax-wfRoaxy_pD9kGx0/s1600/ghost-git.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Canonical releases Ubuntu 26.10 Stonking Stingray",
-      "url": "https://ubuntu.com/blog/canonical-releases-ubuntu-26-10-stonking-stingray",
-      "source": "Ubuntu.com",
-      "date": "2026-10-15",
-      "summary": "Canonical released Ubuntu 26.10 Stonking Stingray, an interim release that includes improvements to enterprise identity integration among other features. The release also introduces post-quantum package signing, Rust coreutils, and privacy-focused speech-to-text capabilities.",
-      "image": "https://ubuntu.com/wp-content/uploads/6ca3/Screenshot-from-2026-10-14-17-35-16.png",
-      "importance": 3,
       "paywall": false
     },
     {
@@ -198,7 +238,7 @@
       "url": "https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching",
       "source": "Dark Reading",
       "date": "2026-10-14",
-      "summary": "A high-severity zero-day vulnerability (CVE-2026-104935) affecting Ivanti ICS combines authentication bypass and remote code execution, and was only partially discovered and patched in July. The incomplete patch left a window for threat actors to exploit the authentication bypass flaw in active attacks.",
+      "summary": "A high-severity zero-day vulnerability (CVE-2026-104935) in Ivanti ICS combines authentication bypass and remote code execution, and was only partially discovered and patched in July. The incomplete patch left a window for threat actors to exploit the authentication bypass flaw, highlighting challenges in fully remediating complex vulnerabilities in enterprise access infrastructure.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt5c7ce56f98018528/6acfd608b8750c62d9a7bd46/patching-Florencio_Horcajo_Alvarez-Getty-2270656800.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -208,18 +248,8 @@
       "url": "https://www.darkreading.com/threat-intelligence/new-anthropic-sneakpeek-silent-zero-click-threat",
       "source": "Dark Reading",
       "date": "2026-10-14",
-      "summary": "A vulnerability dubbed \"SneakPeek\" in Anthropic's Claude Code Desktop application allows attackers to silently steal credentials via the preview pane without any user interaction. The flaw can expose SSH private keys, AWS credentials, and OAuth tokens belonging to developers.",
+      "summary": "A vulnerability dubbed \"SneakPeek\" in Anthropic's Claude Code Desktop allows attackers to steal credentials silently via the application's preview pane without any user interaction. The flaw can expose sensitive authentication material including SSH private keys, AWS credentials, and OAuth tokens through a zero-click attack vector.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltebc5737d9330c848/6acfd08de9c3113a94cf7694/cat_peek_Seregaff_Getty.jpg?width=720&quality=80&disable=upscale",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Employees Built the Agents. Enterprises Just Bought the Supervisors.",
-      "url": "https://forkast.news/employees-built-the-agents-enterprises-just-bought-the-supervisors/",
-      "source": "Forkast.news",
-      "date": "2026-10-14",
-      "summary": "The article examines a growing divide in enterprise AI agent deployment, distinguishing between IT-sanctioned agents managed through identity governance platforms like Okta and employee-built or unsanctioned agents operating outside formal controls. The piece addresses how this split creates challenges for identity governance and access monitoring of non-human identities in the enterprise.",
-      "image": "https://forkast.news/wp-content/uploads/2026/10/employees-built-agents-enterprises-bought-supervisors-1024x687.jpg",
       "importance": 6,
       "paywall": false
     },
@@ -228,7 +258,7 @@
       "url": "https://www.darkreading.com/vulnerabilities-threats/zero-days-microsoft-october-patch-tuesday",
       "source": "Dark Reading",
       "date": "2026-10-13",
-      "summary": "Microsoft's October Patch Tuesday, described as the largest security update ever, contains multiple zero-day vulnerabilities including defense bypasses and unauthenticated remote code execution flaws. The update is notable for its scale and the presence of security control bypass vulnerabilities, which have direct implications for authentication and access control mechanisms.",
+      "summary": "Microsoft's October Patch Tuesday, described as the largest security update ever, contains multiple zero-day vulnerabilities including defense bypasses and unauthenticated remote code execution flaws. The update includes security fixes relevant to IAM professionals managing Microsoft environments and authentication infrastructure.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt2208c9717985ba6f/6aceb2c101a45e612a7baa2b/harvest-China_Photos-GettyImages-71574532.jpg?width=720&quality=80&disable=upscale",
       "importance": 6,
       "paywall": false
@@ -238,9 +268,9 @@
       "url": "https://www.darkreading.com/cybersecurity-operations/cyber-resilience-starts-with-iam",
       "source": "Dark Reading",
       "date": "2026-10-12",
-      "summary": "The article addresses the critical role of identity and access management in cyber resilience strategies, arguing that IAM must be central to recovery planning. It focuses on the challenges posed by enterprise app proliferation and reliance on cloud identity providers.",
+      "summary": "The article argues that identity and access management is foundational to cyber resilience, particularly given the proliferation of enterprise apps and cloud identity providers. The piece calls for a rethink of identity security strategy in modern enterprise environments.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltc4e8be3c10aa2950/6acd23ee26d33c046ebc6ef9/resilience-hogehoge511-Getty-2296989476.jpg?width=720&quality=80&disable=upscale",
-      "importance": 6,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -248,7 +278,7 @@
       "url": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
       "source": "Krebs on Security",
       "date": "2026-09-08",
-      "summary": "Microsoft released a record-breaking patch update addressing at least 974 security vulnerabilities across Windows and other software. AI is being credited with accelerating vulnerability discovery, though security teams are struggling to prioritize and deploy the volume of fixes.",
+      "summary": "Microsoft released a record-breaking patch batch addressing at least 974 security vulnerabilities across Windows and other software. AI is being credited with accelerating vulnerability discovery, though security experts note organizations are struggling to keep up with testing and deploying the volume of fixes.",
       "image": null,
       "importance": 3,
       "paywall": false
@@ -258,7 +288,7 @@
       "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
       "source": "Krebs on Security",
       "date": "2026-09-01",
-      "summary": "A dark web service is selling digital scans of over 153 million drivers licenses from the US and Canada, apparently sourced from a Louisiana-based identity verification company. The FBI's New Orleans field office has opened an official investigation into the breach of the identity verification provider.",
+      "summary": "A dark web service is selling digital scans of over 153 million U.S. and Canadian drivers licenses, with evidence pointing to a Louisiana-based identity verification company as the source of the leaked images. The FBI's New Orleans field office has launched an official inquiry into the breach, which affects identity verification infrastructure used broadly across the U.S. and Canada.",
       "image": null,
       "importance": 6,
       "paywall": false
