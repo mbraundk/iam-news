@@ -1,66 +1,106 @@
 {
-  "updated": "October 22, 2026 at 08:31 UTC",
+  "updated": "October 23, 2026 at 08:27 UTC",
   "top_stories": [
     {
-      "title": "eMudhra security blunder left trusted CA signing keys exposed to anyone",
-      "url": "https://www.helpnetsecurity.com/2026/10/21/emudhra-certificates-private-keys-compromised/",
-      "source": "Help Net Security",
+      "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+      "source": "Microsoft.com",
       "date": "2026-10-21",
-      "summary": "Indian certificate authority eMudhra exposed private keys for eight intermediate certificates due to critically weak key generation, allowing anyone to recover the keys from public certificates in under a second. The flaw was discovered by security researcher Wayne on October 17 while checking the Common CA Database (CCADB), affecting a CA that has issued over 60 million digital certificates.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/04/10193105/certificates-1500-tech.webp",
+      "summary": "A nation-state threat actor, Storm-0940, used an agentic AI tool called ARTEX to conduct a large-scale supply chain compromise via ConnectWise. The attack involved application credential abuse targeting Microsoft 365 environments, directly impacting identity and access security.",
+      "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/05/MS_Actional-Insights_Storm.jpg",
       "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Okta Advances Agent Identity Framework as Market Builds Around Pre-GA Standards",
-      "url": "https://forkast.news/okta-advances-agent-identity-framework-as-market-builds-around-pre-ga-standards/",
-      "source": "Forkast.news",
-      "date": "2026-10-20",
-      "summary": "Okta is advancing an agent identity framework to address security vulnerabilities in how AI agents authenticate, specifically targeting the problem of static, long-lived API keys used in agentic workflows. The initiative focuses on replacing plaintext or configuration-file-stored credentials with a more secure identity infrastructure for AI agents, built around pre-GA standards in the emerging market.",
-      "image": "https://forkast.news/wp-content/uploads/2026/10/okta-agent-gateway-identity-governed-tokens-2-1024x687.jpg",
-      "importance": 8,
-      "paywall": false
+      "paywall": true
     },
     {
       "title": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
       "url": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
       "source": "Dark Reading",
       "date": "2026-10-20",
-      "summary": "Major tech platforms including Google, Mozilla, Apple, and the Go project blocked certificates from Indian certificate authority eMudhra after 8 cryptographic keys were found to be compromised. The nature of the key compromise remains unclear, but the action affects PKI trust chains relevant to authentication and identity verification systems.",
+      "summary": "Major tech platforms including Google, Mozilla, Apple, and the Go project blocked certificates from Indian Certificate Authority eMudhra after 8 cryptographic keys were found to be compromised. The affected certificates have been revoked, though the cause of the key compromise has not been determined.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9204db2f2ffca6fe/6ad7d457e5c2f8b0773c4a30/ca_Inkoly_shutterstock.jpf.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
     },
     {
-      "title": "BeyondTrust Remote Support Zero-Day Continues Trend of Exploited Edge Bugs",
-      "url": "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs",
-      "source": "Dark Reading",
-      "date": "2026-10-16",
-      "summary": "BeyondTrust's Remote Support product was hit by a zero-day vulnerability, joining Ivanti, Cisco, and Palo Alto Networks in a wave of exploited edge device bugs in the same week. BeyondTrust is a privileged access management (PAM) vendor, making this vulnerability directly relevant to organizations relying on its remote support and privileged access infrastructure.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt4a126b2e0eae913e/6ad27ebc7cb22e18dd04a52b/Locusts-ZU_09-Getty.jpg?width=720&quality=80&disable=upscale",
+      "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
+      "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+      "source": "The Hacker News",
+      "date": "2026-10-23",
+      "summary": "A webinar addresses the security risks posed by unmanaged AI agents operating within enterprise networks, specifically their unreviewed access to API keys, database passwords, and internal systems. The content focuses on AI agents as an emerging insider threat vector due to lack of identity ownership, access governance, and oversight—core IAM concerns around non-human identities.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyT7lik0MCxUa_ALE00qK-x8qCQiM7doEPBK3sl90Y0J4N6zpBNzLI5ixKwtXItAzgHOIz9t-YerpeISJ7WcT7VJLyfWphEU4cHrm3CHpIwnsIcKT64fwNVkACsm7GxDnXqzqR4M5QXkLuUkUWxPEI5PhAI65_sXtcb2jW-0OhuVHC3n5vQnPVBrT_D5g/s1600/bit.jpg",
       "importance": 7,
       "paywall": false
     },
     {
-      "title": "Delinea gives AI assistants read-only access to governance data",
-      "url": "https://www.helpnetsecurity.com/2026/10/22/delinea-fastpath-mcp-server/",
-      "source": "Help Net Security",
-      "date": "2026-10-22",
-      "summary": "Delinea has launched the Delinea Fastpath MCP Server, which connects access governance data to AI assistants via the Model Context Protocol (MCP). The capability allows finance, IT, audit, and compliance teams to query access risk, access reviews, audit readiness, and segregation of duties conflicts using natural language.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
+      "title": "Best practices for integrating IAM Roles Anywhere with your PKI",
+      "url": "https://aws.amazon.com/blogs/security/best-practices-for-integrating-iam-roles-anywhere-with-your-pki/",
+      "source": "Amazon.com",
+      "date": "2026-10-21",
+      "summary": "AWS IAM Roles Anywhere allows workloads outside of AWS to obtain temporary credentials by integrating with a Public Key Infrastructure (PKI). The article outlines best practices for this integration, covering credential security and access management for non-AWS workloads connecting to AWS resources.",
+      "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/10/21/IAM-Roles-Anywhere-PKI-Blog-Hero.png",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Corma Agents Automate Access Management Beyond API Limitations",
+      "url": "https://www.prnewswire.com/news-releases/corma-agents-automate-access-management-beyond-api-limitations-302914966.html",
+      "source": "PRNewswire",
+      "date": "2026-10-21",
+      "summary": "Corma has launched browser-based AI agents designed to automate user provisioning and access workflows across applications, including those without provisioning APIs. The solution extends automated access management capabilities beyond traditional API-dependent methods for software license and access governance.",
+      "image": "https://mmx.prnewswire.com/media/MS2017221/Corma_Logo.jpg?id=OA3029620&p=facebook",
       "importance": 7,
       "paywall": false
     }
   ],
   "news": [
     {
-      "title": "AI agent permissions are outrunning security",
-      "url": "https://www.helpnetsecurity.com/2026/10/22/ai-agent-permissions-security/",
-      "source": "Help Net Security",
+      "title": "Machine speed attacks require machine speed detection and response",
+      "url": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
+      "source": "Bleeping Computer",
       "date": "2026-10-22",
-      "summary": "A survey of 1,100 IT and security decision-makers found that 70% of organizations now allow AI agents to make decisions and take actions that previously required human approval. Three in four organizations experienced at least one AI-related security issue in the past year, with excessive or poorly managed AI agent permissions identified as a contributing factor.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/10/20093458/bot-ai-shadow-1024x574.png",
-      "importance": 7,
+      "summary": "Exaforce published an analysis of machine-speed attacks involving stolen GitHub tokens, malicious AI installers, and MFA phishing that can exfiltrate data within minutes. The report argues that faster automated detection and containment are necessary to counter credential theft and MFA bypass techniques.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/10/20/exaforce-header-iamge.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable",
+      "url": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
+      "source": "The Hacker News",
+      "date": "2026-10-22",
+      "summary": "eMudhra, an Indian certificate authority, is exiting the global SSL/TLS certificate business after a researcher discovered that private keys for eight of its intermediate CA certificates were easily guessable and recoverable. The company's board made the decision five days after the vulnerability was reported, and eMudhra will replace affected customers' certificates with free ones from partners.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5DGeZCzWnHOoA87UbpfzGUlpU9xBK1x5tJsYlWOoKtyEkTRjaN4cW_lMOKdtiSXVPhVMd6JhOMRhvFOxvn853LcLaCBSNK-_m4CDIDGt048SdHQQqu63ZSZ09Ymc3UhqD_TZoLaCM6eIJL6TSYbBVINceAi4paPvjxJ4i9uN3CKZQ2s5bT4Dc_jAcv8I/s1600/ssl.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
+      "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
+      "source": "The Hacker News",
+      "date": "2026-10-22",
+      "summary": "Railway, a PaaS provider, disclosed a security incident in which an unauthorized third party may have accessed encrypted customer environment variables and in some cases obtained their decrypted contents. The company is urging credential rotation as the breach affects a subset of users whose stored secrets, such as API keys and passwords, may have been exposed.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLi5yuPoipCkAL6joBpDL5htNkHWi_rU5i5dAyspyjSrdDORYgV_LRNO4pVG_c1P0S7bnZFWHft8recxLiFRSiLsPxx3ZL-v8fzlYRuzxxG_P_ocKdJbGWzXFtoEjPszyKNUOS86HCylk0LPV1YZS7U9qZcfonBVeLEuRKioCXVbbzUySEvWGI0IaBJ8U/s1600/rail.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
+      "url": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
+      "source": "The Hacker News",
+      "date": "2026-10-22",
+      "summary": "A vulnerability in the OpenCode AI coding agent allowed malicious MCP servers to execute arbitrary code on a developer's Windows or WSL machine during the sign-in process. Anomaly patched the flaw in OpenCode version 1.18.33, with the exploit running under the developer's own access privileges.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUmn80CiQx35trhXNaAwJka_Z3T-PKQrz__dlAW1GDDVwfrk2WHit1W6GZBaaAT-a9SrmqqauUhw0raYLEOS3Vv-LNxdu0a2bmJebJWVj5mBadfgxN1N1yVREXflCcV7cPmShswRE8PC0qspFY82MDEKe8MJImYVqJCBYLwTLpCHM1IzjDX7KsOAYs7tc/s1600/opencode-mcp.jpg",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "From buzzword to blueprint: Implementing zero trust on Red Hat OpenShift with the Layered Zero Trust Validated Pattern",
+      "url": "https://www.redhat.com/en/blog/buzzword-blueprint-implementing-zero-trust-red-hat-openshift-layered-zero-trust-validated-pattern",
+      "source": "Redhat.com",
+      "date": "2026-10-22",
+      "summary": "Red Hat has published part 4 of a series on implementing zero trust security in OpenShift using the Layered Zero Trust Validated Pattern. The article focuses on making zero trust implementation repeatable within the OpenShift platform environment.",
+      "image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
+      "importance": 5,
       "paywall": false
     },
     {
@@ -68,8 +108,18 @@
       "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
       "source": "The Hacker News",
       "date": "2026-10-21",
-      "summary": "The LiteLLM Python package (version 1.107.0) was compromised in a supply chain attack that delivered a credential stealer and backdoor via PyPI wheels and Docker images. The package has since been quarantined on PyPI, with the attack documented by security firms SafeDep, Socket, StepSecurity, and Upwind.",
+      "summary": "LiteLLM version 1.107.0 was compromised in a supply chain attack that delivered a credential stealer and backdoor via PyPI wheels and Docker images. The package has since been quarantined on PyPI, with the attack documented by security firms SafeDep, Socket, StepSecurity, and Upwind.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-f1TsJE93kcT5Cp1wvKlnR-bCWFP9ZUZofd0PXryxRBt0B1q0-t0BaHnEJcNhy3IhRZq2fBU9fmILshSvlY-qk28TOO-f1JoBcGSRtwiC3MIV4gDxdXYzTS_ZMirtPka7UaG9Shie7kgWKzauZOwKgPvk8hHXUTFly2YXpzBuxUD20MdxBfKeXrRsIG-W/s1600/litellm-hack.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "eMudhra tanks 20%; why IT-enabled services stock sank in Wednesday's trade?",
+      "url": "https://www.business-standard.com/markets/news/emudhra-tanks-20-why-it-enabled-services-stock-sank-in-wednesday-s-trade-126102100353_1.html",
+      "source": "Business Standard",
+      "date": "2026-10-21",
+      "summary": "eMudhra, a digital identity and certificate authority company, saw its stock drop 20% following reports of distrust of some of its intermediate Certificate Authorities (CAs) used in its global TLS business. Certificate authority trust issues directly impact PKI-based authentication and identity verification infrastructure.",
+      "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-03/23/thumb/fitandfill/1200X628/1774251939-083.jpeg",
       "importance": 6,
       "paywall": false
     },
@@ -78,48 +128,8 @@
       "url": "https://www.darkreading.com/application-security/close-identity-gaps-sdlc-before-ai",
       "source": "Dark Reading",
       "date": "2026-10-20",
-      "summary": "A Dark Reading roundtable examined how AI is creating identity security challenges in the software development life cycle. CISOs identified improved identity visibility and collaboration as key strategies for closing identity gaps introduced by AI in development workflows.",
+      "summary": "A Dark Reading roundtable examined how AI is complicating identity security within the software development lifecycle. CISOs discussed that improved identity visibility and collaboration are key approaches to addressing identity gaps introduced by AI in development environments.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt44a0332eb39140fa/679be79d9bc2cd9f0b986638/TippaPatt-software-developer-shutterstock.jpg?width=720&quality=80&disable=upscale",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Zeabur shutting down after second security breach in two months",
-      "url": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
-      "source": "Bleeping Computer",
-      "date": "2026-10-20",
-      "summary": "Zeabur, a development platform, suffered a second security breach in two months after an attacker used leaked internal credentials stored in plaintext to compromise its infrastructure. The attacker stole over 3.2 million environment variable records and account information for 321,810 users.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/10/20/zeabur.jpg",
-      "importance": 4,
-      "paywall": false
-    },
-    {
-      "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
-      "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
-      "source": "The Hacker News",
-      "date": "2026-10-20",
-      "summary": "Eight eMudhra intermediate certificate authority (CA) private keys were compromised, confirmed by Mozilla and Google's Chrome Root Program on October 20. The compromise allows anyone holding these keys to issue fraudulent certificates for any website that browsers would accept, triggering emergency remediation across major browsers and software.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJOWLzgriXXM626bAOaX_LEoNH97Ab_XV4oQ0GxBeY3-PqkdXdcae52-wrl8r0LipTFBsvl4R7Y5j6jFsiG_9V8ZAwHOkAlsZaRcOAswStHhAG1FYm9W6kjA4FmOz0bXgVXO6LyEs9Fv75UrRFphZEzhXodKdTlYzfPK8sqW3DpxKBnD7OFQfqJJ_ay2c/s1600/ecert.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
-      "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
-      "source": "The Hacker News",
-      "date": "2026-10-20",
-      "summary": "Ransomware groups Qilin and INC are exploiting CVE-2026-0257, a patched authentication bypass flaw in Palo Alto Networks PAN-OS and Prisma Access, to establish unauthorized VPN connections and bypass MFA. The vulnerability, which carries a CVSS score of 7.8, was patched by Palo Alto Networks in May 2026 but exploitation activity continues to be observed.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgd71tvun8MRT5muo9ZiruSzkyqhGkeh-_5dP4QardwiC54o4wW3PtC7I1jtP_vVX1rPujN_YdrmILFSZw_Ikl6v8Gn2w75v-90aSHpnngi2WE-Ezv6OAO37YY4pJpNwe_DcGWRMgIOUxAEPyVisI3SxXnV30HejoGfGtlXDfAgGkdqrdFJjAI7x6jjFFj-/s1600/palo-ransomware.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
-      "url": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html",
-      "source": "The Hacker News",
-      "date": "2026-10-20",
-      "summary": "ConnectWise reset account credentials and replaced application credentials following a security incident that resulted in unauthorized access to application identities associated with its Cloud Backup product. Remediation measures also included strengthening administrative-access protections as the company continued its incident response.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgN8mboHojdAmthr-jUWvIgg5BgmRsrAFJRQFz-nEuPEAIGTqwVKwnf9c7E8jGzdpHfWZuDENURbDFFADIJ76Tf7h5lamLTOUoY5ui438ugfOJYw-2vkAuITMBMxt-0CWFxj43bdgDY19exYceRvJEScmPpWoYXBjkIHLOilUSF1wWmSta5o9ocPpLywQn/s1600/connect.jpg",
       "importance": 6,
       "paywall": false
     },
@@ -128,7 +138,7 @@
       "url": "https://aws.amazon.com/blogs/machine-learning/securing-ai-agent-identity-with-x-509-pki-on-aws/",
       "source": "Amazon.com",
       "date": "2026-10-20",
-      "summary": "The article presents a reference architecture for securing AI agent identity using X.509 PKI, combining Keyfactor EJBCA and AWS services. The solution incorporates signed request envelopes, delegation assertions, RFC 8693 audience-scoped tokens, and certificate-based cryptographic identity for multi-agent AI systems.",
+      "summary": "The article presents a reference architecture for securing AI agent identity using X.509 PKI, combining Keyfactor EJBCA and AWS services. The architecture incorporates signed request envelopes, delegation assertions, RFC 8693 audience-scoped tokens, and OCSP for cryptographic identity management in multi-agent AI systems.",
       "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/16/ML-21717-featured-image.png",
       "importance": 6,
       "paywall": false
@@ -138,7 +148,7 @@
       "url": "https://www.prnewswire.com/news-releases/tools-for-humanity-joins-zoom-isv-exchange-program-expands-proof-of-human-access-to-zooms-business-customers-302914171.html",
       "source": "PRNewswire",
       "date": "2026-10-20",
-      "summary": "Tools for Humanity has joined the Zoom ISV Exchange Program, making World ID for Zoom available in the Zoom Marketplace. The integration provides enterprises with human presence verification capabilities to authenticate real human identity and combat deepfakes in video communications.",
+      "summary": "Tools for Humanity has joined the Zoom ISV Exchange Program, making World ID available in the Zoom Marketplace for enterprise customers. The integration provides human presence verification capabilities aimed at combating deepfakes in video communications, extending Tools for Humanity's biometric identity verification to Zoom's business user base.",
       "image": "https://mmx.prnewswire.com/media/MS2016616/.jpg?id=OA3028044&p=facebook",
       "importance": 6,
       "paywall": false
@@ -148,7 +158,7 @@
       "url": "https://www.prnewswire.com/news-releases/oak-research-finds-more-than-half-of-security-leaders-cant-fully-see-who-or-what-has-access-to-their-systems-302914245.html",
       "source": "PRNewswire",
       "date": "2026-10-20",
-      "summary": "Oak Research released findings showing that more than half of security leaders lack full visibility into who or what has access to their systems. The study highlights persistent visibility gaps, unreachable applications, and ungoverned non-human identities as ongoing challenges in identity management, with AI agents increasing complexity.",
+      "summary": "Oak released research showing that more than half of security leaders lack full visibility into who or what has access to their systems. The study highlights persistent gaps in identity governance including unreachable applications and ungoverned non-human identities, with AI agents identified as an emerging challenge.",
       "image": null,
       "importance": 7,
       "paywall": false
@@ -158,49 +168,9 @@
       "url": "https://blog.hubspot.com/sales/crm-sso",
       "source": "Hubspot.com",
       "date": "2026-10-20",
-      "summary": "The article explains how single sign-on works in the context of CRM systems, covering identity provider authentication and protocols such as SAML and OpenID Connect. It is an educational/explainer piece focused on a specific SSO use case rather than reporting on new developments, research, or vendor news.",
+      "summary": "This article explains how single sign-on works within CRM systems, covering identity provider authentication and protocols such as SAML and OpenID Connect. The content appears to be an educational/explainer piece focused on CRM SSO implementation rather than reporting on new developments, research, or vendor news.",
       "image": "https://blog.hubspot.com/hubfs/crm-sso-1-20261005-2186662.webp",
       "importance": 4,
-      "paywall": false
-    },
-    {
-      "title": "The Agent Governance Tax: Enterprises Are Buying Four Layers of Control Before Proving One Layer of Value",
-      "url": "https://forkast.news/the-agent-governance-tax-enterprises-are-buying-four-layers-of-control-before-proving-one-layer-of-value/",
-      "source": "Forkast.news",
-      "date": "2026-10-20",
-      "summary": "Three enterprise vendors shipped AI agent governance stacks within 27 days, with Okta launching Agent SSO at Oktane on September 22 as part of a broader general availability release. The article examines the emerging multi-layer control stack enterprises are adopting for AI agent identity and access management before proving business value.",
-      "image": "https://forkast.news/wp-content/uploads/2026/10/d23-agent-governance-tax-v2-1024x687.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft wants to limit AI agents’ permissions when they stray from the job",
-      "url": "https://www.helpnetsecurity.com/2026/10/20/microsofts-ai-agents-threats-guardian-agents/",
-      "source": "Help Net Security",
-      "date": "2026-10-20",
-      "summary": "Microsoft introduced Guardian Agents as part of Project Perception, a system designed to dynamically limit AI agents' permissions based on activity, risk, security context, and organizational policy changes. The solution applies least-privilege and containment principles to AI agent authorization, automatically adjusting access and helping security teams investigate risk changes and apply remediation measures.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/06/09174915/insider-threat.webp",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft 365 E7 adds Project Perception to stop rogue AI agents inside companies",
-      "url": "https://soyacincau.com/2026/10/20/microsoft-365-e7-adds-project-perception-to-stop-rogue-ai-agents-inside-companies/",
-      "source": "SoyaCincau.com",
-      "date": "2026-10-20",
-      "summary": "Microsoft has launched Microsoft 365 E7, a new enterprise security suite that includes Project Perception and Agent 365 to monitor and control AI agent activity within organizations. The tools address internal threats from agentic AI systems, which relates directly to identity and access management concerns around authorization and behavior monitoring of non-human identities.",
-      "image": "https://soyacincau.com/wp-content/uploads/2026/10/20261020_Microsoft-365-E7_01.png",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "AWS IAM Identity Center simplifies identity source changes from Active Directory",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/iam-identity-center-chg-id-src-from-ad/",
-      "source": "Amazon.com",
-      "date": "2026-10-20",
-      "summary": "AWS IAM Identity Center has updated its functionality to retain workforce identities and their assignments when changing identity sources from Active Directory to external IdPs like Okta or Microsoft Entra ID. This change simplifies identity source migrations by eliminating the need to reassign permissions and roles after switching providers.",
-      "image": null,
-      "importance": 7,
       "paywall": false
     },
     {
@@ -208,69 +178,19 @@
       "url": "https://www.darkreading.com/identity-access-management-security/connectwise-disables-cloud-backups-downstream-msps",
       "source": "Dark Reading",
       "date": "2026-10-19",
-      "summary": "ConnectWise disabled cloud backups after researchers reported attackers used ConnectWise credentials to authenticate into Microsoft 365 tenants. ConnectWise states customer impact remains unconfirmed while the incident raises concerns for downstream managed service providers.",
+      "summary": "ConnectWise disabled cloud backups after researchers identified attackers authenticating into Microsoft 365 tenants using ConnectWise credentials. ConnectWise states customer impact remains unconfirmed while the incident raises concerns about credential-based access compromise affecting downstream managed service providers.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt8bed2421e7501183/6ad6650c7e69bd1337538960/Cloud_Backup-TU_IS-GettyImages-1399936043_(1).jpg?width=720&quality=80&disable=upscale",
       "importance": 6,
       "paywall": false
     },
     {
-      "title": "Microsoft targets the ‘agentic insider’ with new controls for rogue AI agents",
-      "url": "https://siliconangle.com/2026/10/19/microsoft-targets-the-agentic-insider-with-new-controls-for-rogue-ai-agents/",
-      "source": "SiliconANGLE News",
-      "date": "2026-10-19",
-      "summary": "Microsoft introduced new security controls designed to limit what AI agents can do as their assessed risk increases, addressing the emerging threat of rogue AI agents in enterprise environments. The controls target \"agentic insider\" risks where autonomous AI agents could misuse access or permissions, placing this squarely within identity and access governance frameworks.",
-      "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/10/microsoftrougeaiagents.png",
+      "title": "BeyondTrust Remote Support Zero-Day Continues Trend of Exploited Edge Bugs",
+      "url": "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs",
+      "source": "Dark Reading",
+      "date": "2026-10-16",
+      "summary": "BeyondTrust's Remote Support product was hit by a zero-day vulnerability, joining Ivanti, Cisco, and Palo Alto Networks in a wave of exploited edge device bugs. BeyondTrust is a privileged access management (PAM) vendor, making this directly relevant to IAM security infrastructure.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt4a126b2e0eae913e/6ad27ebc7cb22e18dd04a52b/Locusts-ZU_09-Getty.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "When AI becomes ‘Sally from accounts’: The new identity risk facing businesses",
-      "url": "https://www.digitaljournal.com/article/when-ai-becomes-sally-from-accounts-the-new-identity-risk-facing-businesses/",
-      "source": "Digital Journal",
-      "date": "2026-10-19",
-      "summary": "The article addresses emerging identity risks posed by AI agents given human-like personas, names, and job titles within enterprise environments. The concern centers on how anthropomorphized AI identities may be granted excessive trust, creating new challenges for identity verification and access management.",
-      "image": "https://www.digitaljournal.com/wp-content/uploads/2025/10/b0cca789f802554513aff64b5d25f8057a3ba211.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft Treats AI Agents as Insiders — and the Containment Layer Just Arrived",
-      "url": "https://forkast.news/microsoft-treats-ai-agents-as-insiders-and-the-containment-layer-just-arrived/",
-      "source": "Forkast.news",
-      "date": "2026-10-19",
-      "summary": "Microsoft announced an expansion of Project Perception on October 19, treating internal AI agents as insider identities requiring containment rather than perimeter authentication. The approach applies insider-style access controls and containment layers to AI agents operating within enterprise environments, representing a shift in how identity and authorization models apply to non-human identities.",
-      "image": "https://forkast.news/wp-content/uploads/2026/10/d12-microsoft-project-perception-agentic-insider-1024x687.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft Has a Strategy to Secure AI Agents",
-      "url": "https://www.thurrott.com/a-i/343031/microsoft-has-a-strategy-to-secure-ai-agents",
-      "source": "Thurrott.com",
-      "date": "2026-10-19",
-      "summary": "Microsoft has formalized a security strategy for AI agents, centered on a zero-trust approach to AI systems. The strategy addresses identity and access management concerns for AI agents, which increasingly require authentication and authorization controls similar to human identities.",
-      "image": "https://thurrott-assets.nyc3.digitaloceanspaces.com/web/wp-content/uploads/sites/2/2026/10/project-perception.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Automate Active Directory joins for Elastic Beanstalk Windows applications",
-      "url": "https://aws.amazon.com/blogs/devops/automate-active-directory-joins-for-elastic-beanstalk-windows-applications/",
-      "source": "Amazon.com",
-      "date": "2026-10-19",
-      "summary": "AWS Elastic Beanstalk has added automated Active Directory domain joining for Windows Server instances, eliminating the need for manual join scripts or stored domain credentials. The feature performs domain joining at instance launch before application deployment, integrating cloud workloads with Active Directory identity infrastructure.",
-      "image": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2026/10/14/DEVOPS-25248-featured-image.png",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft Patches More Than 1,400 Security Flaws",
-      "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
-      "source": "Krebs on Security",
-      "date": "2026-10-13",
-      "summary": "Microsoft released a patch update addressing more than 1,400 security vulnerabilities across Windows and other software products. This exceeds the previous record of approximately 1,000 fixes issued in September, which itself was roughly ten times the typical monthly patch volume.",
-      "image": null,
-      "importance": 4,
       "paywall": false
     },
     {
@@ -278,7 +198,7 @@
       "url": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
       "source": "Krebs on Security",
       "date": "2026-09-08",
-      "summary": "Microsoft released a record-breaking patch batch addressing at least 974 security vulnerabilities across Windows and other software. The company attributed the increased vulnerability discovery rate to AI assistance, while security experts note organizations are struggling to prioritize and deploy the high volume of monthly fixes.",
+      "summary": "Microsoft released a record-breaking patch batch addressing at least 974 security vulnerabilities across Windows and other software. Security experts note that organizations are struggling to prioritize testing and deploying the volume of fixes, with Microsoft attributing the increased discovery rate to AI assistance.",
       "image": null,
       "importance": 4,
       "paywall": false
