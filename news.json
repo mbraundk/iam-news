@@ -1,24 +1,76 @@
 {
-  "updated": "October 23, 2026 at 08:27 UTC",
+  "updated": "October 24, 2026 at 08:03 UTC",
   "top_stories": [
+    {
+      "title": "Microsoft 365 accounts compromised at 79 organizations, no passwords needed",
+      "url": "https://www.helpnetsecurity.com/2026/10/23/microsoft-365-accounts-stolen-sessions/",
+      "source": "Help Net Security",
+      "date": "2026-10-23",
+      "summary": "An attacker compromised Microsoft 365 accounts at 79 organizations over ten weeks by replaying stolen authentication sessions, bypassing password-based controls entirely. Huntress tracked 497 successful sign-ins between July 14 and September 22, 2026, with sessions replayed from servers at 1337 Services GmbH, demonstrating a large-scale MFA-bypass attack via session token theft.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/03/25130053/email-2-1500.webp",
+      "importance": 9,
+      "paywall": false
+    },
+    {
+      "title": "1Password for Agents lets personal AI agents log in without ever seeing the password",
+      "url": "https://siliconangle.com/2026/10/22/1password-for-agents-lets-personal-ai-agents-log-in-without-ever-seeing-the-password/",
+      "source": "SiliconANGLE News",
+      "date": "2026-10-22",
+      "summary": "1Password launched \"1Password for Agents,\" a sign-in platform enabling personal AI agents from Meta, Anthropic, OpenAI, and xAI to authenticate without directly accessing passwords. The product addresses non-human identity (NHI) and machine authentication for AI agents, a growing challenge in IAM.",
+      "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/05/1password.png",
+      "importance": 8,
+      "paywall": false
+    },
     {
       "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
       "source": "Microsoft.com",
       "date": "2026-10-21",
-      "summary": "A nation-state threat actor, Storm-0940, used an agentic AI tool called ARTEX to conduct a large-scale supply chain compromise via ConnectWise. The attack involved application credential abuse targeting Microsoft 365 environments, directly impacting identity and access security.",
+      "summary": "A nation-state threat actor, Storm-0940, used an agentic AI tool called ARTEX to conduct a large-scale supply chain compromise via ConnectWise. The attack involved application credential abuse targeting Microsoft 365 environments, directly impacting identity and access management across affected organizations.",
       "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/05/MS_Actional-Insights_Storm.jpg",
       "importance": 8,
       "paywall": true
     },
     {
-      "title": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
-      "url": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
+      "title": "Trust Is Not What It Seems — And Fraudsters Are Counting on It",
+      "url": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
       "source": "Dark Reading",
-      "date": "2026-10-20",
-      "summary": "Major tech platforms including Google, Mozilla, Apple, and the Go project blocked certificates from Indian Certificate Authority eMudhra after 8 cryptographic keys were found to be compromised. The affected certificates have been revoked, though the cause of the key compromise has not been determined.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9204db2f2ffca6fe/6ad7d457e5c2f8b0773c4a30/ca_Inkoly_shutterstock.jpf.jpg?width=720&quality=80&disable=upscale",
+      "date": "2026-10-23",
+      "summary": "The article addresses how threat actors are bypassing traditional security controls by using AI-assisted social engineering tactics to manipulate help desks into granting unauthorized access. This attack vector directly targets identity verification and authentication processes at the human layer, circumventing MFA and other technical IAM controls.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt34579512de050396/6a5a6336b09056633bee9fe7/trust_dial-NicoElNino-getty-2079838824.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "AI Agents as Insider Threats: Inside Microsoft's Bet on a Unified Security Stack",
+      "url": "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack",
+      "source": "Dark Reading",
+      "date": "2026-10-23",
+      "summary": "Microsoft has introduced Project Perception, which includes Guardian Agents designed to monitor and contain anomalous AI agent behavior within enterprise environments. Security experts are raising concerns that using AI agents to police other AI agents creates new insider threat vectors, with direct implications for identity and access governance of non-human identities.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt521637665481bcc9/65dfe9cfea879b040a14fbb9/policerobot-Agencja_Fotograficzna_Caro-alamy.jpg?width=720&quality=80&disable=upscale",
+      "importance": 7,
+      "paywall": false
+    }
+  ],
+  "news": [
+    {
+      "title": "You gave your AI agent access, but who is giving it orders?",
+      "url": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
+      "source": "Bleeping Computer",
+      "date": "2026-10-23",
+      "summary": "Gen Digital has introduced an Agent Trust Hub designed to address security risks posed by AI agents that can be manipulated into misusing their legitimate access permissions. The solution focuses on skill verification, secure connectivity, and runtime controls to intercept dangerous actions taken by AI agents through prompt injection via emails, websites, and plugins.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/10/21/ai-email.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
+      "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+      "source": "The Hacker News",
+      "date": "2026-10-23",
+      "summary": "Hackers have breached enterprise firewalls and VPNs, including Fortinet FortiGate and Palo Alto Networks GlobalProtect devices, exposing over 70,000 credentials. The campaign targeted exposed network edge devices across numerous organizations worldwide, with operators attempting further compromise of some victims.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSk-Q06Dd5YyYmXWMt9b860DzGRKbTae_QwvoZDKNICaEznAj2AUurJmv6vPnpcH7qqDjauFZWWx7GX1RN93BLaU9Rqgiqe9j1iQRg2Vqcz3HpSqgesA6oS-GrMTyx4CTzwOD7C_z205k57ZpT70Gv4RXi-65X-nyI04wpA3raJ5nh46pN5ox42cyLnHjv/s1600/1000117358.jpg",
+      "importance": 6,
       "paywall": false
     },
     {
@@ -26,40 +78,28 @@
       "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
       "source": "The Hacker News",
       "date": "2026-10-23",
-      "summary": "A webinar addresses the security risks posed by unmanaged AI agents operating within enterprise networks, specifically their unreviewed access to API keys, database passwords, and internal systems. The content focuses on AI agents as an emerging insider threat vector due to lack of identity ownership, access governance, and oversight—core IAM concerns around non-human identities.",
+      "summary": "A webinar addresses the security risks posed by unmanaged AI agents operating within enterprise networks, focusing on their unsupervised access to API keys, database credentials, and internal systems. The content frames AI agents as an identity and access management problem, specifically around lack of ownership, access review, and oversight—core IAM governance concerns.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyT7lik0MCxUa_ALE00qK-x8qCQiM7doEPBK3sl90Y0J4N6zpBNzLI5ixKwtXItAzgHOIz9t-YerpeISJ7WcT7VJLyfWphEU4cHrm3CHpIwnsIcKT64fwNVkACsm7GxDnXqzqR4M5QXkLuUkUWxPEI5PhAI65_sXtcb2jW-0OhuVHC3n5vQnPVBrT_D5g/s1600/bit.jpg",
       "importance": 7,
       "paywall": false
     },
     {
-      "title": "Best practices for integrating IAM Roles Anywhere with your PKI",
-      "url": "https://aws.amazon.com/blogs/security/best-practices-for-integrating-iam-roles-anywhere-with-your-pki/",
-      "source": "Amazon.com",
-      "date": "2026-10-21",
-      "summary": "AWS IAM Roles Anywhere allows workloads outside of AWS to obtain temporary credentials by integrating with a Public Key Infrastructure (PKI). The article outlines best practices for this integration, covering credential security and access management for non-AWS workloads connecting to AWS resources.",
-      "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/10/21/IAM-Roles-Anywhere-PKI-Blog-Hero.png",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Corma Agents Automate Access Management Beyond API Limitations",
-      "url": "https://www.prnewswire.com/news-releases/corma-agents-automate-access-management-beyond-api-limitations-302914966.html",
-      "source": "PRNewswire",
-      "date": "2026-10-21",
-      "summary": "Corma has launched browser-based AI agents designed to automate user provisioning and access workflows across applications, including those without provisioning APIs. The solution extends automated access management capabilities beyond traditional API-dependent methods for software license and access governance.",
-      "image": "https://mmx.prnewswire.com/media/MS2017221/Corma_Logo.jpg?id=OA3029620&p=facebook",
-      "importance": 7,
-      "paywall": false
-    }
-  ],
-  "news": [
-    {
       "title": "Machine speed attacks require machine speed detection and response",
       "url": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
       "source": "Bleeping Computer",
       "date": "2026-10-22",
-      "summary": "Exaforce published an analysis of machine-speed attacks involving stolen GitHub tokens, malicious AI installers, and MFA phishing that can exfiltrate data within minutes. The report argues that faster automated detection and containment are necessary to counter credential theft and MFA bypass techniques.",
+      "summary": "Exaforce published an analysis of machine-speed cyberattacks involving stolen GitHub tokens, malicious AI installers, and MFA phishing, where attackers can exfiltrate data within minutes of credential theft. The report argues that automated detection and containment are necessary because traditional security team response times are insufficient against these attack velocities.",
       "image": "https://www.bleepstatic.com/content/posts/2026/10/20/exaforce-header-iamge.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "LiteLLM hit by second supply chain attack this year, users urged to rotate credentials",
+      "url": "https://www.helpnetsecurity.com/2026/10/22/litellm-compromised-supply-chain-attack-pypi-docker/",
+      "source": "Help Net Security",
+      "date": "2026-10-22",
+      "summary": "LiteLLM suffered a second supply chain attack this year, with a malicious release pushed to PyPI and Docker registries designed to harvest cloud credentials, developer secrets, and AI service API keys. A previous March attack resulted in a 153GB stolen data archive linked to 2,488 corporate domains including AWS, Samsung, Cisco, and Salesforce.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/06/09120032/litellm-1500.webp",
       "importance": 6,
       "paywall": false
     },
@@ -68,7 +108,7 @@
       "url": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
       "source": "The Hacker News",
       "date": "2026-10-22",
-      "summary": "eMudhra, an Indian certificate authority, is exiting the global SSL/TLS certificate business after a researcher discovered that private keys for eight of its intermediate CA certificates were easily guessable and recoverable. The company's board made the decision five days after the vulnerability was reported, and eMudhra will replace affected customers' certificates with free ones from partners.",
+      "summary": "eMudhra, an Indian certificate authority, is exiting the global SSL/TLS certificate business after a researcher discovered that private keys for eight of its intermediate CA certificates were easily guessable and recoverable. The company's board made the decision five days after the vulnerability was reported, and eMudhra has committed to replacing affected customers' certificates with free ones from partners.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5DGeZCzWnHOoA87UbpfzGUlpU9xBK1x5tJsYlWOoKtyEkTRjaN4cW_lMOKdtiSXVPhVMd6JhOMRhvFOxvn853LcLaCBSNK-_m4CDIDGt048SdHQQqu63ZSZ09Ymc3UhqD_TZoLaCM6eIJL6TSYbBVINceAi4paPvjxJ4i9uN3CKZQ2s5bT4Dc_jAcv8I/s1600/ssl.jpg",
       "importance": 6,
       "paywall": false
@@ -78,7 +118,7 @@
       "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
       "source": "The Hacker News",
       "date": "2026-10-22",
-      "summary": "Railway, a PaaS provider, disclosed a security incident in which an unauthorized third party may have accessed encrypted customer environment variables and in some cases obtained their decrypted contents. The company is urging credential rotation as the breach affects a subset of users whose stored secrets, such as API keys and passwords, may have been exposed.",
+      "summary": "Railway, a Platform-as-a-Service provider, disclosed that an unauthorized third party may have accessed encrypted customer environment variables and in some cases obtained their decrypted contents. The company is urging credential rotation following the breach, which affected a subset of users whose stored secrets, such as API keys and passwords, may have been exposed.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLi5yuPoipCkAL6joBpDL5htNkHWi_rU5i5dAyspyjSrdDORYgV_LRNO4pVG_c1P0S7bnZFWHft8recxLiFRSiLsPxx3ZL-v8fzlYRuzxxG_P_ocKdJbGWzXFtoEjPszyKNUOS86HCylk0LPV1YZS7U9qZcfonBVeLEuRKioCXVbbzUySEvWGI0IaBJ8U/s1600/rail.jpg",
       "importance": 6,
       "paywall": false
@@ -88,9 +128,49 @@
       "url": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
       "source": "The Hacker News",
       "date": "2026-10-22",
-      "summary": "A vulnerability in the OpenCode AI coding agent allowed malicious MCP servers to execute arbitrary code on a developer's Windows or WSL machine during the sign-in process. Anomaly patched the flaw in OpenCode version 1.18.33, with the exploit running under the developer's own access privileges.",
+      "summary": "A vulnerability in the OpenCode AI coding agent allowed malicious MCP servers to execute arbitrary code on Windows or WSL systems during the user sign-in process. Anomaly patched the flaw in OpenCode version 1.18.33, with the code executing under the developer's own access privileges.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUmn80CiQx35trhXNaAwJka_Z3T-PKQrz__dlAW1GDDVwfrk2WHit1W6GZBaaAT-a9SrmqqauUhw0raYLEOS3Vv-LNxdu0a2bmJebJWVj5mBadfgxN1N1yVREXflCcV7cPmShswRE8PC0qspFY82MDEKe8MJImYVqJCBYLwTLpCHM1IzjDX7KsOAYs7tc/s1600/opencode-mcp.jpg",
       "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "AGL hits half-million milestone with passkey adoption",
+      "url": "https://www.itnews.com.au/news/agl-hits-half-million-milestone-with-passkey-adoption-629843",
+      "source": "iTnews",
+      "date": "2026-10-22",
+      "summary": "AGL has reached 500,000 passkey adoptions among its users, marking a significant milestone in its authentication modernization effort. The company discussed its technology stack and strategy for implementing passkey-based authentication as part of a broader authentication uplift initiative.",
+      "image": "https://i.nextmedia.com.au/News/AGL_passkeys.png",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Keeper Security Launches AI-Powered Phishing Protection To Warn Users Before Entering Credentials on Fake Sites",
+      "url": "https://www.prnewswire.com/news-releases/keeper-security-launches-ai-powered-phishing-protection-to-warn-users-before-entering-credentials-on-fake-sites-302916559.html",
+      "source": "PRNewswire",
+      "date": "2026-10-22",
+      "summary": "Keeper Security has launched an AI-powered phishing protection feature that detects look-alike domains, spoofed sites, and credential harvesting attempts before users enter passwords. The on-device AI capability is part of Keeper's zero-trust and zero-knowledge identity security platform.",
+      "image": "https://mmx.prnewswire.com/media/MS1864138/Keeper-logo-full-color-002.jpg?id=OA3033316&p=facebook",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "authentik version/2026.8.5",
+      "url": "https://kitploit.com/en/posts/authentik-e687a651e9f25085",
+      "source": "Kitploit.com",
+      "date": "2026-10-22",
+      "summary": "authentik has released version 2026.8.5 of its open-source identity provider and SSO platform. The release supports SAML, OAuth2/OIDC, LDAP, and RADIUS protocols for centralized authentication, authorization, and access management.",
+      "image": "https://assets.kitploit.com/production/public/tools/50747/f3ebbcd539b9e915df894173e2c1f8b932d85a067fe4aaa1a85dfe94e7ec8ab2-social-v1.webp",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "Enabling Passkeys Is Not the Same as Enforcing Them",
+      "url": "https://www.darkoperator.com/blog/2026/10/22/enabling-passkeys-is-not-the-same-as-enforcing-them",
+      "source": "Darkoperator.com",
+      "date": "2026-10-22",
+      "summary": "This article addresses the technical distinction between enabling and enforcing passkeys in Microsoft Entra ID, covering Conditional Access design and closing weak-fallback and device-code authentication gaps. It is part three of a seven-part series on migrating from MFA to passkeys in Microsoft Entra ID.",
+      "image": null,
+      "importance": 7,
       "paywall": false
     },
     {
@@ -98,7 +178,7 @@
       "url": "https://www.redhat.com/en/blog/buzzword-blueprint-implementing-zero-trust-red-hat-openshift-layered-zero-trust-validated-pattern",
       "source": "Redhat.com",
       "date": "2026-10-22",
-      "summary": "Red Hat has published part 4 of a series on implementing zero trust security in OpenShift using the Layered Zero Trust Validated Pattern. The article focuses on making zero trust implementation repeatable within the OpenShift platform environment.",
+      "summary": "Red Hat has published part 4 of a series on implementing zero trust security within OpenShift using the Layered Zero Trust Validated Pattern. The article focuses on making zero trust implementation repeatable and structured within the OpenShift platform environment.",
       "image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
       "importance": 5,
       "paywall": false
@@ -108,19 +188,29 @@
       "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
       "source": "The Hacker News",
       "date": "2026-10-21",
-      "summary": "LiteLLM version 1.107.0 was compromised in a supply chain attack that delivered a credential stealer and backdoor via PyPI wheels and Docker images. The package has since been quarantined on PyPI, with the attack documented by security firms SafeDep, Socket, StepSecurity, and Upwind.",
+      "summary": "The LiteLLM Python package (version 1.107.0) was compromised in a supply chain attack that delivered a credential stealer and backdoor via PyPI wheels and Docker images. The package has since been quarantined on PyPI, with the attack documented by security firms SafeDep, Socket, StepSecurity, and Upwind.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-f1TsJE93kcT5Cp1wvKlnR-bCWFP9ZUZofd0PXryxRBt0B1q0-t0BaHnEJcNhy3IhRZq2fBU9fmILshSvlY-qk28TOO-f1JoBcGSRtwiC3MIV4gDxdXYzTS_ZMirtPka7UaG9Shie7kgWKzauZOwKgPvk8hHXUTFly2YXpzBuxUD20MdxBfKeXrRsIG-W/s1600/litellm-hack.jpg",
       "importance": 6,
       "paywall": false
     },
     {
-      "title": "eMudhra tanks 20%; why IT-enabled services stock sank in Wednesday's trade?",
-      "url": "https://www.business-standard.com/markets/news/emudhra-tanks-20-why-it-enabled-services-stock-sank-in-wednesday-s-trade-126102100353_1.html",
-      "source": "Business Standard",
+      "title": "Best practices for integrating IAM Roles Anywhere with your PKI",
+      "url": "https://aws.amazon.com/blogs/security/best-practices-for-integrating-iam-roles-anywhere-with-your-pki/",
+      "source": "Amazon.com",
       "date": "2026-10-21",
-      "summary": "eMudhra, a digital identity and certificate authority company, saw its stock drop 20% following reports of distrust of some of its intermediate Certificate Authorities (CAs) used in its global TLS business. Certificate authority trust issues directly impact PKI-based authentication and identity verification infrastructure.",
-      "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-03/23/thumb/fitandfill/1200X628/1774251939-083.jpeg",
-      "importance": 6,
+      "summary": "AWS IAM Roles Anywhere enables workloads outside of AWS to obtain temporary credentials by integrating with a Public Key Infrastructure (PKI). The article covers best practices for this integration, focusing on certificate-based authentication as a mechanism for secure, temporary credential issuance to non-AWS workloads.",
+      "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/10/21/IAM-Roles-Anywhere-PKI-Blog-Hero.png",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
+      "url": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
+      "source": "Dark Reading",
+      "date": "2026-10-20",
+      "summary": "Major tech companies including Google, Mozilla, Apple, and the Go project blocked certificates from Indian Certificate Authority eMudhra after 8 cryptographic keys were found to be compromised. The affected certificates were revoked and blocked across browsers and platforms, though the cause of the key compromise has not been determined.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9204db2f2ffca6fe/6ad7d457e5c2f8b0773c4a30/ca_Inkoly_shutterstock.jpf.jpg?width=720&quality=80&disable=upscale",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -128,49 +218,9 @@
       "url": "https://www.darkreading.com/application-security/close-identity-gaps-sdlc-before-ai",
       "source": "Dark Reading",
       "date": "2026-10-20",
-      "summary": "A Dark Reading roundtable examined how AI is complicating identity security within the software development lifecycle. CISOs discussed that improved identity visibility and collaboration are key approaches to addressing identity gaps introduced by AI in development environments.",
+      "summary": "A Dark Reading roundtable examined how AI is complicating identity security within the software development lifecycle. CISOs identified improved identity visibility and collaboration as key strategies for closing identity gaps introduced by AI-driven development.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt44a0332eb39140fa/679be79d9bc2cd9f0b986638/TippaPatt-software-developer-shutterstock.jpg?width=720&quality=80&disable=upscale",
       "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Securing AI agent identity with X.509 PKI on AWS",
-      "url": "https://aws.amazon.com/blogs/machine-learning/securing-ai-agent-identity-with-x-509-pki-on-aws/",
-      "source": "Amazon.com",
-      "date": "2026-10-20",
-      "summary": "The article presents a reference architecture for securing AI agent identity using X.509 PKI, combining Keyfactor EJBCA and AWS services. The architecture incorporates signed request envelopes, delegation assertions, RFC 8693 audience-scoped tokens, and OCSP for cryptographic identity management in multi-agent AI systems.",
-      "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/16/ML-21717-featured-image.png",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Tools for Humanity Joins Zoom ISV Exchange Program; Expands Proof of Human Access to Zoom's Business Customers",
-      "url": "https://www.prnewswire.com/news-releases/tools-for-humanity-joins-zoom-isv-exchange-program-expands-proof-of-human-access-to-zooms-business-customers-302914171.html",
-      "source": "PRNewswire",
-      "date": "2026-10-20",
-      "summary": "Tools for Humanity has joined the Zoom ISV Exchange Program, making World ID available in the Zoom Marketplace for enterprise customers. The integration provides human presence verification capabilities aimed at combating deepfakes in video communications, extending Tools for Humanity's biometric identity verification to Zoom's business user base.",
-      "image": "https://mmx.prnewswire.com/media/MS2016616/.jpg?id=OA3028044&p=facebook",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Oak Research Finds More Than Half of Security Leaders Can't Fully See Who, or What, Has Access to Their Systems",
-      "url": "https://www.prnewswire.com/news-releases/oak-research-finds-more-than-half-of-security-leaders-cant-fully-see-who-or-what-has-access-to-their-systems-302914245.html",
-      "source": "PRNewswire",
-      "date": "2026-10-20",
-      "summary": "Oak released research showing that more than half of security leaders lack full visibility into who or what has access to their systems. The study highlights persistent gaps in identity governance including unreachable applications and ungoverned non-human identities, with AI agents identified as an emerging challenge.",
-      "image": null,
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "CRM SSO: How single sign-on works in practice",
-      "url": "https://blog.hubspot.com/sales/crm-sso",
-      "source": "Hubspot.com",
-      "date": "2026-10-20",
-      "summary": "This article explains how single sign-on works within CRM systems, covering identity provider authentication and protocols such as SAML and OpenID Connect. The content appears to be an educational/explainer piece focused on CRM SSO implementation rather than reporting on new developments, research, or vendor news.",
-      "image": "https://blog.hubspot.com/hubfs/crm-sso-1-20261005-2186662.webp",
-      "importance": 4,
       "paywall": false
     },
     {
@@ -178,7 +228,7 @@
       "url": "https://www.darkreading.com/identity-access-management-security/connectwise-disables-cloud-backups-downstream-msps",
       "source": "Dark Reading",
       "date": "2026-10-19",
-      "summary": "ConnectWise disabled cloud backups after researchers identified attackers authenticating into Microsoft 365 tenants using ConnectWise credentials. ConnectWise states customer impact remains unconfirmed while the incident raises concerns about credential-based access compromise affecting downstream managed service providers.",
+      "summary": "ConnectWise disabled cloud backup functionality after researchers identified attackers authenticating into Microsoft 365 tenants using ConnectWise credentials. ConnectWise states customer impact remains unconfirmed while the incident raises concerns about credential-based access to downstream managed service provider environments.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt8bed2421e7501183/6ad6650c7e69bd1337538960/Cloud_Backup-TU_IS-GettyImages-1399936043_(1).jpg?width=720&quality=80&disable=upscale",
       "importance": 6,
       "paywall": false
@@ -188,7 +238,7 @@
       "url": "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs",
       "source": "Dark Reading",
       "date": "2026-10-16",
-      "summary": "BeyondTrust's Remote Support product was hit by a zero-day vulnerability, joining Ivanti, Cisco, and Palo Alto Networks in a wave of exploited edge device bugs. BeyondTrust is a privileged access management (PAM) vendor, making this directly relevant to IAM security infrastructure.",
+      "summary": "BeyondTrust's Remote Support product was hit by a zero-day vulnerability, joining Ivanti, Cisco, and Palo Alto Networks in a wave of exploited edge device bugs. BeyondTrust is a privileged access management (PAM) vendor, making this directly relevant to IAM professionals relying on its remote support and privileged access infrastructure.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt4a126b2e0eae913e/6ad27ebc7cb22e18dd04a52b/Locusts-ZU_09-Getty.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -198,7 +248,7 @@
       "url": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
       "source": "Krebs on Security",
       "date": "2026-09-08",
-      "summary": "Microsoft released a record-breaking patch batch addressing at least 974 security vulnerabilities across Windows and other software. Security experts note that organizations are struggling to prioritize testing and deploying the volume of fixes, with Microsoft attributing the increased discovery rate to AI assistance.",
+      "summary": "Microsoft released a record-breaking patch batch addressing at least 974 security vulnerabilities across Windows and other software. AI is being credited for accelerating vulnerability discovery, though security experts note organizations are struggling to keep up with testing and deploying the volume of monthly patches.",
       "image": null,
       "importance": 4,
       "paywall": false
