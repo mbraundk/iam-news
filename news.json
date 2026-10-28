@@ -1,23 +1,13 @@
 {
-  "updated": "October 27, 2026 at 08:52 UTC",
+  "updated": "October 28, 2026 at 09:33 UTC",
   "top_stories": [
     {
-      "title": "Microsoft Authenticator vulnerability let rogue Android apps steal work account access",
-      "url": "https://www.helpnetsecurity.com/2026/10/27/microsoft-authenticator-vulnerability-patchedcve-2026-80097/",
-      "source": "Help Net Security",
+      "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
+      "url": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+      "source": "The Hacker News",
       "date": "2026-10-27",
-      "summary": "A vulnerability (CVE-2026-80097) in Microsoft Authenticator for Android allowed any app on the device to silently hijack work account access by exploiting Authenticator's broker functionality. The flaw required no user interaction and no special permissions, affecting enterprise accounts accessed through apps like Teams and Outlook.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/10/27070434/microsoft_authenticator-android.webp",
-      "importance": 9,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft 365 accounts compromised at 79 organizations, no passwords needed",
-      "url": "https://www.helpnetsecurity.com/2026/10/23/microsoft-365-accounts-stolen-sessions/",
-      "source": "Help Net Security",
-      "date": "2026-10-23",
-      "summary": "An attacker compromised Microsoft 365 email accounts across 79 organizations over ten weeks by replaying stolen authentication session tokens, bypassing the need for passwords entirely. The threat actor deployed hidden inbox rules to conceal their activity from victims, with findings documented by security firm Huntress.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/03/25130053/email-2-1500.webp",
+      "summary": "Microsoft has patched CVE-2026-80097, a vulnerability in Microsoft Authenticator for Android that allowed a permissionless malicious app to impersonate trusted Microsoft applications and steal work account authentication tokens. The fix is included in Authenticator for Android version 6.2606.4246, and all users are advised to update immediately.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqk63DF3MJCMgQqpg91UsWY7mjACbBgPl50GfKwDPi7v3md6sP5l8a2BUqHABjgMN_6BzgcMx4vVKW4hR9B9pz8_XHqp5ctKqQQLw-RJwuKmVWm2MaSzEMkHIsV-Yi0V6Mq_gUYYuzTpi-BzV2-8dRVYBjtuW4nb9TbobkPwvOGTkIFTpr334JB_LZIkw/s1600/msms.jpg",
       "importance": 9,
       "paywall": false
     },
@@ -26,8 +16,28 @@
       "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
       "source": "The Hacker News",
       "date": "2026-10-26",
-      "summary": "Researchers at Huntress documented a Microsoft 365 adversary-in-the-middle (AitM) campaign that captured and replayed authentication tokens to compromise 97 accounts across 79 organizations between July 14 and September 22, 2026. The attacks bypassed MFA by stealing valid session tokens after authentication, targeting email accounts through relay infrastructure.",
+      "summary": "Cybersecurity researchers at Huntress documented a Microsoft 365 campaign using adversary-in-the-middle (AitM) relay attacks to steal and replay authentication tokens, compromising 97 accounts across 79 organizations. The attacks, observed between July 14 and September 22, 2026, involved capturing active sign-in sessions to bypass authentication controls and gain unauthorized access to email accounts.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKwJ8hpTcgaV_VMCyzQDPQQOPlZmmE3Fg-XAOrUfFazMKgVGEoT7OHQgWhyJLhCpHO6Hvp35u_YZGBfyGXAuJfpwP4BriicsNfvhPXjq4BzNyULVQPzNCWzmSIGnDLN7P2RNW2sfm15qZxLrVzpDg8FvOcGTZBhMsBFPH3IhiV1k3NdGAHFRC7kkKaOMMn/s1600/contoso.jpg",
+      "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "Cisco Rethinks Privileged Infrastructure Access",
+      "url": "https://blogs.cisco.com/security/cisco-rethinks-privileged-infrastructure-access",
+      "source": "Cisco.com",
+      "date": "2026-10-26",
+      "summary": "Cisco has launched Privileged Infrastructure Access, a solution that replaces standing administrative access with identity-bound, cryptographic controls. The product targets privileged access management for critical infrastructure, competing in the PAM space with session-based, just-in-time access controls.",
+      "image": "https://blogs.cisco.com/gcs/ciscoblogs/1/2026/10/FY27_Q1_cisco-rethinks-privileged-infrastructure-access_blog_social_card.jpeg",
+      "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "Passkey enrollment and account recovery, the new weak point",
+      "url": "https://www.darkoperator.com/blog/2026/10/26/passkey-enrollment-and-account-recovery-the-new-weak-point",
+      "source": "Darkoperator.com",
+      "date": "2026-10-26",
+      "summary": "This article addresses passkey enrollment and account recovery vulnerabilities in Microsoft Entra ID, specifically covering Registration campaigns, Temporary Access Pass, and protecting security-info registration. It is part four of a seven-part series on migrating from MFA to passkeys in Microsoft Entra ID, focusing on preventing help-desk recovery processes from becoming authentication bypasses.",
+      "image": null,
       "importance": 8,
       "paywall": false
     },
@@ -36,40 +46,100 @@
       "url": "https://forkast.news/the-2-problem-three-vendors-built-agent-identity-governance-almost-nobody-is-using-it/",
       "source": "Forkast.news",
       "date": "2026-10-24",
-      "summary": "SailPoint has reported that while 79% of enterprises run AI agents in production, only 2% have deployed agent-identity governance controls, highlighting a critical gap in non-human identity management. The article examines three vendors that have built agent-identity governance solutions, framing the low adoption rate as a significant emerging challenge for IAM professionals managing autonomous AI workloads.",
+      "summary": "SailPoint has highlighted a critical gap in enterprise AI security, revealing that while 79% of enterprises run AI agents in production, only 2% have deployed agent-identity governance controls. SailPoint is among three vendors that have built agent-identity governance capabilities, addressing how automated AI workers should be managed within IAM frameworks.",
       "image": "https://forkast.news/wp-content/uploads/2026/10/agent-governance-closed-gates-1024x687.jpg",
       "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Trust Is Not What It Seems — and Fraudsters Are Counting on It",
-      "url": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
-      "source": "Dark Reading",
-      "date": "2026-10-23",
-      "summary": "The article covers social engineering attacks targeting help desks, where threat actors use AI-assisted impersonation to bypass identity verification and gain unauthorized access. This directly relates to IAM authentication and identity verification processes, particularly around help desk identity proofing and MFA bypass techniques.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt34579512de050396/6a5a6336b09056633bee9fe7/trust_dial-NicoElNino-getty-2079838824.jpg?width=720&quality=80&disable=upscale",
-      "importance": 7,
       "paywall": false
     }
   ],
   "news": [
     {
-      "title": "DreamHost forces password resets in ongoing \"incident\"",
-      "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
-      "source": "Bleeping Computer",
-      "date": "2026-10-26",
-      "summary": "DreamHost forced password resets for email and FTP/SFTP users following an incident that disrupted connections to its File Manager interface. The forced reset indicates a potential credential compromise, though details about the nature of the incident have not been fully disclosed.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/10/26/dreamhost.jpg",
-      "importance": 4,
+      "title": "NIST starts the countdown to retire quantum-vulnerable encryption",
+      "url": "https://www.helpnetsecurity.com/2026/10/28/nist-post-quantum-cryptography-migration-roadmap/",
+      "source": "Help Net Security",
+      "date": "2026-10-28",
+      "summary": "NIST released NIST IR 8547, a roadmap for transitioning federal systems to post-quantum cryptography (PQC), building on standards published in August 2024. The report specifies which cryptographic methods must be replaced, transition timelines, and considerations for organizations, with earlier deadlines applying to certain sensitive federal systems.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/14151926/nist-1500-a.webp",
+      "importance": 6,
       "paywall": false
     },
     {
-      "title": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
-      "url": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
+      "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+      "url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+      "source": "The Hacker News",
+      "date": "2026-10-28",
+      "summary": "A critical Oracle PeopleSoft vulnerability exploited by ShinyHunters since May consists of three chained flaws—an SSRF, an internal management interface exposure, and a third component—patched by Oracle under CVE-2026-35273 in June. PeopleSoft is widely used for HR and identity management functions, making this vulnerability relevant to IAM professionals managing enterprise access through the platform.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgiU-iVEycp9z-2dprGJhgl046M9ZvG7kGGwaXNzgFJg7XDubOoWWLvEuKAOczIcGuXU04db46Xa6pRMKO36ZS7Fu8Xkv7mNuPjHUS0zLTHkGlNWNRD2DLCznPf6jqvqamZSZGMBXSzh9gMYm-9sR-y7OgN7i7n6x0dfYxyl9QftWlfuQw0mpTteHy57k/s1600/sh.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
       "source": "Bleeping Computer",
-      "date": "2026-10-26",
-      "summary": "A new guide from NIST, CISA, and NSA frames runaway AI agents as security incidents requiring formal response procedures. The core identity challenge identified is establishing and recording the authority under which an AI agent operated, requiring identity records to be established before an incident occurs.",
-      "image": "https://www.bleepstatic.com/content/posts/2026/10/22/ai-agent-header.jpg",
+      "date": "2026-10-27",
+      "summary": "Microsoft released out-of-band Windows updates to revoke trust in certificates associated with compromised eMudhra certificate authority keys. The updates target systems that do not receive automatic certificate trust list updates, addressing a PKI trust chain compromise affecting a major Indian certificate authority.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2025/10/20/Windows-headpic.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Hackers bury inboxes in spam then show up on Microsoft Teams posing as IT support",
+      "url": "https://www.helpnetsecurity.com/2026/10/27/microsoft-teams-social-engineering-fake-it-help-desk/",
+      "source": "Help Net Security",
+      "date": "2026-10-27",
+      "summary": "Threat actors are conducting social engineering attacks by flooding employee inboxes with spam, then contacting victims via Microsoft Teams external chat while impersonating IT help desk personnel. Arctic Wolf documented over 400 such incidents, where fake help desk messages arrived shortly after inbox flooding to establish false urgency and trust.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2023/07/10152152/ms-teams3.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Socure links AI agents to verified people and businesses",
+      "url": "https://www.helpnetsecurity.com/2026/10/27/socure-agent-intelligence/",
+      "source": "Help Net Security",
+      "date": "2026-10-27",
+      "summary": "Socure has launched Agent Intelligence, a platform suite that detects AI agents, assigns trust scores, and ties each agent to a verified human or business identity that authorized it. The offering includes three components—Agent Detection (generally available), Agent TrustScore (beta), and Agent Credential (GA planned for Q1 2027)—addressing the emerging need to govern non-human identities in agentic AI workflows.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
+      "url": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+      "source": "The Hacker News",
+      "date": "2026-10-27",
+      "summary": "A security flaw in the GoAhead embedded web server's TLS implementation failed to enforce certificate revocation checking, allowing revoked client certificates to successfully authenticate in mutual-TLS configurations using the OpenSSL backend. The vulnerability affects setups where a certificate revocation list (CRL) is configured but revocation checking was never actually enabled, meaning revoked credentials could still pass authentication.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6ae8TupuVJ4B0uHZJxwQnaqstuuA42Jwt_Zh7m9RwCBp_IrCYuChUaac6fUphOhpalVEC8tfhGsYGxt1lmswBobM-r-ds6t0uEMSV9HZKT_dYcigHPxGJQo7dcJte96ymjxwSREmiGulG6xPIX4Hx3visDSuyaX2DJ3HRcctAz0Jw1T9ALkCEwZUlMsQ/s1600/goahead.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
+      "url": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
+      "source": "The Hacker News",
+      "date": "2026-10-27",
+      "summary": "Generative AI is enabling attackers to create more convincing fake login pages that can steal credentials, capture MFA codes, and hijack authenticated sessions. The threat targets both password-based authentication and MFA mechanisms, representing an escalating challenge for identity and access management defenses.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCX1RKz1isf0HwbYOFkKneC7maFNTVr0q0LTVHBsoGhEN5w7ZOfSLYqfq_6-oKzf51Vb3FJTVla21T-RrWus7Dxadw81UmqDBbw8rIWxfbBhPdI5tyAUQZSYwYaq9JetgW4_4yl1qbWU7ScrdxYjoTCot6v9gXMIyjsk4W66Z531z5oHaHHEguj6_EISU/s1600/keeper-password.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Keeper Security、2026年版Gartner(R) 「特権アクセス管理のマジック・クアドラント(TM)」に2年連続で選出",
+      "url": "https://prtimes.jp/main/html/rd/p/000000141.000113863.html",
+      "source": "Prtimes.jp",
+      "date": "2026-10-27",
+      "summary": "Keeper Security has been named in the 2026 Gartner Magic Quadrant for Privileged Access Management for the second consecutive year. This recognition places Keeper Security among evaluated PAM vendors in Gartner's annual industry analyst report.",
+      "image": "https://prcdn.freetls.fastly.net/release_image/113863/141/113863-141-4badca0dbfd1da346ac9e9f649d49d1d-360x360.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "AI agent security with policy-driven access control",
+      "url": "https://www.redhat.com/en/blog/ai-agent-security-policy-driven-access-control",
+      "source": "Redhat.com",
+      "date": "2026-10-27",
+      "summary": "A new piece addresses security challenges in agentic AI deployments, focusing on policy-driven access control as a governance mechanism. The article references Cloud Security Alliance research showing 70% of organizations have AI components in production while 82% lack real-time visibility into AI runtime behavior, highlighting access control gaps relevant to IAM practitioners managing AI agent permissions.",
+      "image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
       "importance": 7,
       "paywall": false
     },
@@ -78,9 +148,19 @@
       "url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
       "source": "The Hacker News",
       "date": "2026-10-26",
-      "summary": "Threat actors are exploiting Microsoft Teams' external chat feature to conduct IT support impersonation scams and deliver malware and ransomware across hundreds of documented incidents. The attacks rely on throwaway tenants and social engineering rather than authentication vulnerabilities, using Teams as an initial access vector.",
+      "summary": "Threat actors are exploiting Microsoft Teams' external chat feature to conduct IT support impersonation scams and deliver malware or ransomware. The attack pattern involves throwaway tenants and social engineering techniques across hundreds of documented incidents.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGj3R5UeJnb_pAG2XH5cEGUzKbzeRHLNAES48EgHC8ssOnuDbDOqJA9ydPHJqmxYONu2lCeu42YOv_e_XA2RtX5jVGsMkQY0QAGrzoqmY4qU6NnWrPTfX0V-U68B9Z80KHLJvZDtUeSm4dvkp06oJ9JmgJvr7CDYZ-48fwAOENt31Lrcpr4M6O_4x6ovLZ/s1600/support.jpg",
       "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
+      "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+      "source": "The Hacker News",
+      "date": "2026-10-26",
+      "summary": "A rentable Android spyware kit called uCreator has been discovered that steals Telegram 2FA passwords and clones WeChat accounts by hiding malicious code inside trojanized copies of the apps distributed outside official app stores. The kit's Telegram component has been linked to the Baohuo backdoor previously documented by security researchers.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdBBtFdo2KmBzapUDlLWoS0hh17lYfWUw0kOLWTfbgeNOTP5F5pEJPmWSzBHkjSv4HR-vwfJ-Ba38Tg_su11Zi4CDKXJ29BnlQdCrU-oU84jl7TAET_aPyWV2fRazSLy0hBz8sBP3EhFubGETPdPwpnAFAX0CSbEQfsA65JqQMob9R_4cPbbJRi91KAkY/s1600/telegram-wechat.jpg",
+      "importance": 3,
       "paywall": false
     },
     {
@@ -88,9 +168,39 @@
       "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
       "source": "The Hacker News",
       "date": "2026-10-26",
-      "summary": "An automated attack campaign is using stolen GitHub tokens to inject malicious workflows that expose repository secrets through GitHub Actions logs, affecting private repositories and GitHub Enterprise environments. Security firm Wiz analyzed the campaign, which exploits compromised authentication tokens to access and exfiltrate secrets before deleting evidence of the runs.",
+      "summary": "An automated campaign dubbed Gheist is using stolen GitHub tokens to inject malicious workflows that expose repository secrets through GitHub Actions logs, affecting private repositories and GitHub Enterprise environments. The attack vector relies on compromised authentication tokens, with Wiz researchers documenting how attackers download the exposed secrets before deleting evidence of the runs.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipCbP2hnS9ddXqMz9cNIAMEQZWy2qX45MZnYfIuO_Zszamhl_FS7ViRp4CZcjHS6uu6A4jR_S4vBzHzoMNtAb0CbaGxHxj2F07wuKWHfSbsFUov-4dsQWUNJZwfGbnfThW1sAQZ61y5ibqyhlW1iBmbWeSwE1gKHsigRRXaql9P96aFANb3al6vno7fuA/s1600/github-secrets.jpg",
       "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Akeyless Recognized in the 2026 Gartner® Magic Quadrant™ for Privileged Access Management",
+      "url": "https://www.prnewswire.co.uk/news-releases/akeyless-recognized-in-the-2026-gartner-magic-quadrant-for-privileged-access-management-302919585.html",
+      "source": "PR Newswire UK",
+      "date": "2026-10-26",
+      "summary": "Akeyless has been recognized in the 2026 Gartner Magic Quadrant for Privileged Access Management. The inclusion coincides with the company extending its Runtime Identity Security platform to cover human privileged access, in addition to AI agents and machine identities.",
+      "image": null,
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Xage Security Named in 2026 Gartner® Magic Quadrant™ for Privileged Access Management",
+      "url": "https://financialpost.com/globe-newswire/xage-security-named-in-2026-gartner-magic-quadrant-for-privileged-access-management",
+      "source": "Financial Post",
+      "date": "2026-10-26",
+      "summary": "Xage Security has been named in the 2026 Gartner Magic Quadrant for Privileged Access Management, recognized for its Ability to Execute and Completeness of Vision. Xage focuses on identity-based Zero Trust solutions for high-stakes environments such as critical infrastructure.",
+      "image": null,
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Who Authorized That Agent? Enforcing AI Authority Before the Action",
+      "url": "https://www.infosecurity-magazine.com/blogs/authorized-agent-ai-authority/",
+      "source": "Infosecurity Magazine",
+      "date": "2026-10-26",
+      "summary": "The article addresses the emerging challenge of authorizing AI agents within enterprise environments, arguing that security teams must enforce authorization policies at runtime rather than at design time. The piece focuses on how traditional IAM and access control frameworks must adapt to govern non-human identities and autonomous agent actions.",
+      "image": "https://assets.infosecurity-magazine.com/webpage/og/686ebc44-c237-4bb9-a4c6-7bc8c3b4a260.jpeg",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -98,19 +208,9 @@
       "url": "https://github.com/secorvia/frontdoor",
       "source": "Github.com",
       "date": "2026-10-25",
-      "summary": "A new open-source tool called Frontdoor has been released that maps federated identity trust paths into cloud accounts across AWS, GCP, and Azure. It identifies external access vectors including OIDC, SAML, cross-account, and cross-cloud relationships using a single binary with no database requirement.",
+      "summary": "A new open-source tool called Frontdoor has been released to map federated identity trust relationships into cloud accounts across AWS, GCP, and Azure. It identifies external access paths including OIDC, SAML, cross-account, and cross-cloud role assumption chains, distributed as a single binary with no database requirement.",
       "image": "https://repository-images.githubusercontent.com/1400583913/16c277e1-7b44-4c65-b79d-2b8f242ce4ee",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
-      "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
-      "source": "The Hacker News",
-      "date": "2026-10-24",
-      "summary": "LiteLLM disclosed that a master key accidentally committed to a public GitHub repository in late May 2026 enabled a threat actor to steal GitHub tokens and compromise the release pipeline. The attacker used the exposed credentials to push a malicious version of the LiteLLM Python package to users.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipiDo2Yur6TXZHLped9EQgORAH65rC4APGTaq_EZzlDnspAaULTQCKblBC0FeIah7nOCKTiQa2Oi8cyx-bbxHj042Km9oYAf2s78XmStFxzPBTSQ_oqv4ZcWGEkUP1wo5JfJ1UDrWQpAtz8ZHd9i3ZbGWWe8s6CMeUU_nObp5tCEywMWGovqFh9NA1H8Sv/s1600/lite.jpg",
-      "importance": 5,
+      "importance": 7,
       "paywall": false
     },
     {
@@ -128,8 +228,18 @@
       "url": "https://siliconangle.com/2026/10/23/ai-agent-governance-takes-shape-oktas-oktane-event-oktane/",
       "source": "SiliconANGLE News",
       "date": "2026-10-24",
-      "summary": "TheCUBE's coverage of Okta's Oktane event highlighted key insights around AI agent governance and identity security. The coverage focused on how enterprises need identity controls that extend beyond initial login to govern agent actions across applications and tool delegations.",
+      "summary": "theCUBE's coverage of Okta's Oktane event highlighted three key insights around AI agent governance and identity security. The coverage focused on how enterprises need identity controls that follow AI agent actions across applications beyond initial authentication, representing a shift in how identity security operates within workflows.",
       "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/10/Charlotte-Wylie-scaled.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Trust Is Not What It Seems — and Fraudsters Are Counting on It",
+      "url": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
+      "source": "Dark Reading",
+      "date": "2026-10-23",
+      "summary": "Threat actors are bypassing technical security controls by using AI-assisted social engineering attacks against help desks to gain unauthorized access. The attack vector targets identity verification processes at service desks, a critical weak point in access management and authentication workflows.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt34579512de050396/6a5a6336b09056633bee9fe7/trust_dial-NicoElNino-getty-2079838824.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
     },
@@ -138,19 +248,9 @@
       "url": "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack",
       "source": "Dark Reading",
       "date": "2026-10-23",
-      "summary": "Microsoft has launched Project Perception, which introduces Guardian Agents designed to monitor and contain anomalous AI agent behavior as a security control. Security experts are raising concerns that using AI agents to police other AI agents could introduce additional risk, particularly as autonomous agents present new insider-threat-like challenges to identity and access management frameworks.",
+      "summary": "Microsoft's Project Perception introduces Guardian Agents designed to monitor and contain anomalous AI agent behavior as part of a unified security stack. The initiative addresses emerging concerns around AI agents acting as insider threats, a topic directly relevant to identity governance and zero trust access controls for non-human identities.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt521637665481bcc9/65dfe9cfea879b040a14fbb9/policerobot-Agencja_Fotograficzna_Caro-alamy.jpg?width=720&quality=80&disable=upscale",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
-      "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
-      "source": "The Hacker News",
-      "date": "2026-10-23",
-      "summary": "Hackers have breached enterprise firewalls and VPNs, including Fortinet FortiGate and Palo Alto Networks GlobalProtect devices, exposing over 70,000 credentials. The campaign targeted network edge devices across numerous organizations worldwide, with operators attempting further compromise of some victims.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSk-Q06Dd5YyYmXWMt9b860DzGRKbTae_QwvoZDKNICaEznAj2AUurJmv6vPnpcH7qqDjauFZWWx7GX1RN93BLaU9Rqgiqe9j1iQRg2Vqcz3HpSqgesA6oS-GrMTyx4CTzwOD7C_z205k57ZpT70Gv4RXi-65X-nyI04wpA3raJ5nh46pN5ox42cyLnHjv/s1600/1000117358.jpg",
-      "importance": 6,
+      "importance": 7,
       "paywall": false
     },
     {
@@ -158,58 +258,8 @@
       "url": "https://aws.amazon.com/blogs/big-data/enable-cross-region-fine-grained-data-access-with-aws-lake-formation-and-trusted-identity-propagation/",
       "source": "Amazon.com",
       "date": "2026-10-23",
-      "summary": "AWS has expanded Trusted Identity Propagation with IAM Identity Center to support cross-Region data access in AWS Lake Formation. The feature allows fine-grained access controls on Amazon S3 and Redshift data across Regions while maintaining the querying user's actual corporate identity.",
+      "summary": "AWS has expanded Trusted Identity Propagation with IAM Identity Center to support cross-Region fine-grained data access in Lake Formation. The feature allows corporate user identities to be propagated across AWS Regions when querying S3 and Redshift data governed by Lake Formation access controls.",
       "image": "https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2026/10/21/BDB-6270-featured-image.png",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
-      "source": "Microsoft.com",
-      "date": "2026-10-23",
-      "summary": "Microsoft Threat Intelligence analyzed a supply chain compromise in LiteLLM version 1.107.0 that used Python startup hooks to steal credentials. The attack involved remote code loading as a mechanism for credential theft, with Microsoft providing detections and mitigations for the vulnerability.",
-      "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/05/MS_Actional-Insights_Links.jpg",
-      "importance": 6,
-      "paywall": true
-    },
-    {
-      "title": "Cybersecurity Stocks Rise as Evercore Survey Flags Strengthening Demand: Okta, CrowdStrike and Palo Alto Climb 4%",
-      "url": "https://biztoc.com/x/44c04bdbde51de8a",
-      "source": "Biztoc.com",
-      "date": "2026-10-23",
-      "summary": "Cybersecurity stocks including Okta rose approximately 4% following an Evercore ISI quarterly survey indicating strengthening demand in the sector. The stock movement reflects broader cybersecurity market sentiment rather than Okta-specific news or IAM developments.",
-      "image": "https://biztoc.com/cdn/44c04bdbde51de8a_s.webp",
-      "importance": 4,
-      "paywall": false
-    },
-    {
-      "title": "AGL hits half-million milestone with passkey adoption",
-      "url": "https://www.itnews.com.au/news/agl-hits-half-million-milestone-with-passkey-adoption-629843",
-      "source": "iTnews",
-      "date": "2026-10-22",
-      "summary": "AGL has reached 500,000 users adopting passkeys as part of its authentication uplift initiative. The company discussed its technical stack and approach to implementing passwordless authentication at scale.",
-      "image": "https://i.nextmedia.com.au/News/AGL_passkeys.png",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
-      "url": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
-      "source": "Dark Reading",
-      "date": "2026-10-20",
-      "summary": "Google, Mozilla, Apple, and the Go project blocked certificates from Indian certificate authority eMudhra after 8 private keys were found to be compromised. The nature of the key compromise remains unclear, but the swift response from major platform vendors resulted in distrust of the affected certificates across multiple ecosystems.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9204db2f2ffca6fe/6ad7d457e5c2f8b0773c4a30/ca_Inkoly_shutterstock.jpf.jpg?width=720&quality=80&disable=upscale",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Close Identity Gaps in Software Development Before Unleashing AI",
-      "url": "https://www.darkreading.com/application-security/close-identity-gaps-sdlc-before-ai",
-      "source": "Dark Reading",
-      "date": "2026-10-20",
-      "summary": "A Dark Reading roundtable examined how AI is creating identity gaps in the software development lifecycle that CISOs must address. The discussion highlighted collaboration, improved identity visibility, and reduced testing costs as key strategies for managing identity security challenges in AI-driven development environments.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt44a0332eb39140fa/679be79d9bc2cd9f0b986638/TippaPatt-software-developer-shutterstock.jpg?width=720&quality=80&disable=upscale",
       "importance": 6,
       "paywall": false
     },
@@ -218,9 +268,9 @@
       "url": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
       "source": "Krebs on Security",
       "date": "2026-09-08",
-      "summary": "Microsoft released a record-breaking patch batch addressing at least 974 security vulnerabilities across Windows and other software. The company attributed the accelerated vulnerability discovery pace to AI assistance, while security experts note organizations are struggling to keep up with testing and deploying the volume of fixes.",
+      "summary": "Microsoft released a record-breaking patch update addressing at least 974 security vulnerabilities across Windows operating systems and other software. Microsoft attributed the accelerated vulnerability discovery pace to AI assistance, while security experts noted organizations are struggling to keep up with testing and deploying the volume of monthly fixes.",
       "image": null,
-      "importance": 3,
+      "importance": 4,
       "paywall": false
     }
   ]
