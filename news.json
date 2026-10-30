@@ -1,76 +1,44 @@
 {
-  "updated": "October 29, 2026 at 09:47 UTC",
+  "updated": "October 30, 2026 at 09:52 UTC",
   "top_stories": [
     {
-      "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
-      "url": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
-      "source": "The Hacker News",
-      "date": "2026-10-27",
-      "summary": "Microsoft has patched CVE-2026-80097, a vulnerability in Microsoft Authenticator for Android that allowed a permissionless malicious app to impersonate trusted Microsoft applications like Teams and steal work account sign-in tokens. The fix is included in Authenticator for Android version 6.2606.4246, and users are advised to update immediately.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqk63DF3MJCMgQqpg91UsWY7mjACbBgPl50GfKwDPi7v3md6sP5l8a2BUqHABjgMN_6BzgcMx4vVKW4hR9B9pz8_XHqp5ctKqQQLw-RJwuKmVWm2MaSzEMkHIsV-Yi0V6Mq_gUYYuzTpi-BzV2-8dRVYBjtuW4nb9TbobkPwvOGTkIFTpr334JB_LZIkw/s1600/msms.jpg",
-      "importance": 9,
+      "title": "Massive Leak Exposes 41,000 Homeland Security Workers",
+      "url": "https://yro.slashdot.org/story/26/10/28/2158201/massive-leak-exposes-41000-homeland-security-workers",
+      "source": "Slashdot.org",
+      "date": "2026-10-28",
+      "summary": "A data leak has exposed records of over 41,000 DHS employees and contractors, including approximately 10,000 ICE personnel. The data was reportedly taken from DHS's Okta login system and includes phone numbers, email addresses, office addresses, and reporting relationships.",
+      "image": "https://a.fsdn.com/sd/topics/privacy_64.png",
+      "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "AI cybersecurity shifts to governing agents with Okta identity",
+      "url": "https://siliconangle.com/2026/10/28/ai-cybersecurity-shifts-governing-agents-okta-identity-aicybersecurityandresiliencesummit/",
+      "source": "SiliconANGLE News",
+      "date": "2026-10-28",
+      "summary": "Okta is addressing AI agent governance as a new frontier in identity management, focusing on establishing identity, authority, and boundaries for software agents acting across enterprise systems. The article covers how AI cybersecurity is shifting from perimeter defense to governing what trusted AI agents are permitted to do, a direct evolution of IAM principles.",
+      "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/10/HarishPeri_Thumb_Clean.jpg",
+      "importance": 8,
       "paywall": false
     },
     {
       "title": "Microsoft urges Entra ID admins to migrate users to passkeys",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
-      "source": "Bleeping Computer",
+      "source": "BleepingComputer",
       "date": "2026-10-28",
-      "summary": "Microsoft is urging Entra ID administrators to migrate users from SMS and voice authentication to phishing-resistant methods such as passkeys. Microsoft has set a February 2027 deadline for the retirement of SMS and voice authentication in Entra ID, after which continued use of these methods will cause sign-in disruptions.",
+      "summary": "Microsoft is urging Entra ID administrators to migrate users from SMS and voice authentication to phishing-resistant methods such as passkeys. Microsoft has set a February 2027 deadline for retiring SMS and voice authentication in Entra ID, after which users who have not migrated will face sign-in disruptions.",
       "image": "https://www.bleepstatic.com/content/hl-images/2026/10/28/Microsoft-logo.jpg",
       "importance": 8,
       "paywall": false
     },
     {
-      "title": "Cisco Rethinks Privileged Infrastructure Access",
-      "url": "https://blogs.cisco.com/security/cisco-rethinks-privileged-infrastructure-access",
-      "source": "Cisco.com",
-      "date": "2026-10-26",
-      "summary": "Cisco has launched Privileged Infrastructure Access, a solution designed to replace standing administrative access with identity-bound, cryptographic controls. The product targets privileged access management for critical infrastructure, competing in the PAM space by eliminating persistent admin credentials.",
-      "image": "https://blogs.cisco.com/gcs/ciscoblogs/1/2026/10/FY27_Q1_cisco-rethinks-privileged-infrastructure-access_blog_social_card.jpeg",
-      "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Passkey enrollment and account recovery, the new weak point",
-      "url": "https://www.darkoperator.com/blog/2026/10/26/passkey-enrollment-and-account-recovery-the-new-weak-point",
-      "source": "Darkoperator.com",
-      "date": "2026-10-26",
-      "summary": "This article addresses passkey enrollment and account recovery vulnerabilities in Microsoft Entra ID, focusing on weak points that can undermine passkey security. It covers specific mechanisms including Registration campaigns, Temporary Access Pass, and protecting security-info registration as part of a multi-part series on migrating from MFA to passkeys.",
-      "image": null,
-      "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
-      "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
-      "source": "Internet",
-      "date": "2026-10-26",
-      "summary": "Researchers disclosed an adversary-in-the-middle (AitM) campaign targeting Microsoft 365 that captured and replayed authentication tokens to compromise 97 accounts across 79 organizations. The attack bypasses MFA by stealing session tokens post-authentication rather than credentials, undermining standard identity security controls.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKwJ8hpTcgaV_VMCyzQDPQQOPlZmmE3Fg-XAOrUfFazMKgVGEoT7OHQgWhyJLhCpHO6Hvp35u_YZGBfyGXAuJfpwP4BriicsNfvhPXjq4BzNyULVQPzNCWzmSIGnDLN7P2RNW2sfm15qZxLrVzpDg8FvOcGTZBhMsBFPH3IhiV1k3NdGAHFRC7kkKaOMMn/s1700-nu-rw-lo-l85-e365/contoso.jpg",
-      "importance": 8,
-      "paywall": false
-    }
-  ],
-  "news": [
-    {
-      "title": "Stolen staff logins are spreading attacks between K-12 school districts",
-      "url": "https://www.helpnetsecurity.com/2026/10/29/cis-k-12-cybersecurity/",
+      "title": "Fake IT help desk callers got by on little more than names and email addresses",
+      "url": "https://www.helpnetsecurity.com/2026/10/30/cisco-talos-it-help-desk-vishing/",
       "source": "Help Net Security",
-      "date": "2026-10-29",
-      "summary": "MS-ISAC reported that 808 of its 6,116 K-12 member organizations had staff credentials circulating on dark web marketplaces during the last school year. Attackers are using stolen staff logins to phish within districts and then pivot laterally to other connected districts.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/10/28110339/hand-key-1500.webp",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
-      "url": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
-      "source": "Bleeping Computer",
-      "date": "2026-10-28",
-      "summary": "Token Security published analysis arguing that limiting access for service accounts, API keys, and AI agents is critical to reducing breach impact, using the PHP2Shell vulnerability as a case study. The piece focuses on the principle of least privilege and blast radius reduction as complementary to vulnerability patching in modern IAM and secrets management practices.",
-      "image": "https://www.bleepstatic.com/content/posts/2026/10/27/green-pumpkin.jpg",
-      "importance": 6,
+      "date": "2026-10-30",
+      "summary": "Cisco Talos Incident Response documented multiple Q3 2026 engagements where attackers impersonated IT help desk staff via phone, email, and Microsoft Teams to trick employees into opening remote access sessions. Attackers used only employee names and email addresses to social-engineer targets, with at least one incident resulting in ransomware deployment.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/07/15110755/voice-1500.webp",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -78,49 +46,71 @@
       "url": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
       "source": "The Hacker News",
       "date": "2026-10-28",
-      "summary": "A phishing campaign dubbed Skyw4lker has been identified targeting U.S. organizations using device code phishing techniques that abuse legitimate cloud authentication mechanisms. The attack method bypasses traditional credential theft by exploiting OAuth device code flows to gain unauthorized access to corporate accounts.",
+      "summary": "A phishing campaign dubbed \"Skyw4lker\" is targeting U.S. organizations by abusing device code authentication flows in cloud services rather than traditional credential theft. The attack exploits legitimate authentication mechanisms to gain access to corporate accounts while evading conventional detection methods.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgf2g4rsWnZ5eQP03cr-4e99MQStvJmuaTTi91WESG3ua1ddAW73T6X22gyaspj2SirqH-1bSAU9VkOg2F1Kh9TLmPc4jYsNAlD72S2XzCeTTRHSiN3B7is7roWwIMcIm__yRu8SkUBbyeWxAEBo5Fe-bbACZWRuoxZqv_pysQ9iMsZRHPCD_clJZsNIDs/s1600/anyrun-main.jpg",
       "importance": 7,
       "paywall": false
+    }
+  ],
+  "news": [
+    {
+      "title": "Binance hit by $6.3 billion theft in what could be the biggest crypto heist on record",
+      "url": "https://www.helpnetsecurity.com/2026/10/30/binance-crypto-hack/",
+      "source": "Help Net Security",
+      "date": "2026-10-30",
+      "summary": "Binance suffered a $6.3 billion cryptocurrency theft traced to a compromised DevOps engineer's laptop, which gave attackers access to a service container enabling unauthorized withdrawal transactions. The breach involved compromised endpoint credentials and lateral movement into backend systems, with no evidence of wallet private key leakage found.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/10/30064802/binance-1500.webp",
+      "importance": 6,
+      "paywall": false
     },
     {
-      "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-      "url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+      "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
+      "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
       "source": "The Hacker News",
+      "date": "2026-10-29",
+      "summary": "Researcher Ben Zimmermann discovered 26,400 valid credentials exposed in public Gitee repositories after scanning 7.25 million repos, with results reported on October 28. The exposed credentials were primarily API keys for cloud and AI services, representing active authentication secrets that remained functional at the time of discovery.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwVszv5076OudfiraNA4yh_XuzZZof-jYaklwUgiY700oPMvBHQfKHx-8yLNwhF9NVXahFRvWwU7c0mPCsIG-GUo45Fi_LT6ecZMsaRUfaLIL6eK16qeku1PO5aMTQRV0VKJh-pjKG4rC-RyajCGjL4R_A5W6YPsps4B4-GhEbstuAN7AnelVJPwIFK5W-/s1600/gite.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Massive data breach exposes 40,000 US Homeland Security employees",
+      "url": "https://nypost.com/2026/10/29/us-news/us-homeland-security-data-breach-exposes-40000-employees/",
+      "source": "New York Post",
+      "date": "2026-10-29",
+      "summary": "A data breach exposed sensitive personal information of over 40,000 U.S. Department of Homeland Security employees, including those in surveillance and human intelligence roles. The breach raises concerns about access controls and identity protection for federal personnel with sensitive security clearances.",
+      "image": "https://nypost.com/wp-content/uploads/sites/2/2026/10/newspress-collage-h39b3537c-1793256438327.jpg?quality=75&strip=all&1793242344&w=1200",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Personal data of 40,000 U.S. Homeland Security employees leaked in security breach",
+      "url": "https://www.cbc.ca/news/world/dhs-data-breach-leak-distributed-denial-of-secrets-9.7400488",
+      "source": "CBC News",
+      "date": "2026-10-29",
+      "summary": "A data breach exposed personal information of more than 40,000 U.S. Department of Homeland Security employees, with the data published by the leak site Distributed Denial of Secrets. The compromised data includes details on officials working in sensitive fields such as surveillance and human intelligence.",
+      "image": "https://i.cbc.ca/ais/f353a3b5-1568-4bbd-99b9-e2b9083987bd,1793234840383/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C208%2C4000%2C2250%29%3BResize%3D620",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Leak website releases data on thousands of US Homeland Security employees",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/leak-website-releases-data-on-thousands-of-us-homeland-security-employees/articleshow/135285048.cms",
+      "source": "The Times of India",
+      "date": "2026-10-29",
+      "summary": "A data breach exposed personal details of more than 40,000 Department of Homeland Security employees, including identities, contact details, and job titles. Distributed Denial of Secrets claims responsibility for releasing the leaked data on their website.",
+      "image": "https://img.etimg.com/thumb/msid-135285047,width-1200,height-900,imgsize-180086,overlay-economictimes/articleshow.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "A hacker stole more than 40,000 DHS employee records",
+      "url": "https://www.theverge.com/tech/1021528/ice-cbp-data-leak",
+      "source": "The Verge",
       "date": "2026-10-28",
-      "summary": "A critical Oracle PeopleSoft vulnerability exploited by ShinyHunters consists of three chained flaws—an SSRF, an internal management interface exposure, and a third component—patched together under CVE-2026-35273 in June. PeopleSoft is an enterprise platform used for HR and identity-related workflows, and the exploit chain has been actively used since May.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgiU-iVEycp9z-2dprGJhgl046M9ZvG7kGGwaXNzgFJg7XDubOoWWLvEuKAOczIcGuXU04db46Xa6pRMKO36ZS7Fu8Xkv7mNuPjHUS0zLTHkGlNWNRD2DLCznPf6jqvqamZSZGMBXSzh9gMYm-9sR-y7OgN7i7n6x0dfYxyl9QftWlfuQw0mpTteHy57k/s1600/sh.jpg",
+      "summary": "A hacker stole personal records of more than 41,000 Department of Homeland Security employees, including names, job titles, phone numbers, email addresses, and office locations. The breach raises concerns about identity exposure for federal employees, including those in sensitive immigration-related roles.",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2200388904.jpg?quality=90&strip=all&crop=0%2C2.8462472714856%2C100%2C78.524215886627&w=1200",
       "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
-      "source": "Bleeping Computer",
-      "date": "2026-10-27",
-      "summary": "Microsoft released out-of-band Windows updates to revoke trust in certificates linked to compromised eMudhra certificate authority keys. The updates target systems that do not receive automatic certificate trust updates, addressing a PKI trust chain compromise affecting a recognized CA.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2025/10/20/Windows-headpic.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
-      "url": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
-      "source": "The Hacker News",
-      "date": "2026-10-27",
-      "summary": "A security flaw in the GoAhead embedded web server's TLS implementation failed to enforce certificate revocation checking, allowing revoked client certificates to successfully authenticate against affected systems. The vulnerability affects builds using the OpenSSL backend with mutual-TLS configurations where a certificate revocation list (CRL) is configured but never actually applied during the authentication process.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6ae8TupuVJ4B0uHZJxwQnaqstuuA42Jwt_Zh7m9RwCBp_IrCYuChUaac6fUphOhpalVEC8tfhGsYGxt1lmswBobM-r-ds6t0uEMSV9HZKT_dYcigHPxGJQo7dcJte96ymjxwSREmiGulG6xPIX4Hx3visDSuyaX2DJ3HRcctAz0Jw1T9ALkCEwZUlMsQ/s1600/goahead.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
-      "url": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
-      "source": "The Hacker News",
-      "date": "2026-10-27",
-      "summary": "AI-generated fake login pages are enabling more sophisticated account takeover attacks by allowing attackers to more easily recreate convincing login screens impersonating trusted brands. These pages can capture both passwords and MFA codes, or hijack authenticated sessions, effectively bypassing multi-factor authentication protections.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCX1RKz1isf0HwbYOFkKneC7maFNTVr0q0LTVHBsoGhEN5w7ZOfSLYqfq_6-oKzf51Vb3FJTVla21T-RrWus7Dxadw81UmqDBbw8rIWxfbBhPdI5tyAUQZSYwYaq9JetgW4_4yl1qbWU7ScrdxYjoTCot6v9gXMIyjsk4W66Z531z5oHaHHEguj6_EISU/s1600/keeper-password.jpg",
-      "importance": 7,
       "paywall": false
     },
     {
@@ -128,7 +118,7 @@
       "url": "https://siliconangle.com/2026/10/27/dell-adds-identity-resilience-cyber-recovery-tools-aicybersecurityandresiliencesummit/",
       "source": "SiliconANGLE News",
       "date": "2026-10-27",
-      "summary": "Dell Technologies is expanding its cyber recovery tools to include protection and restoration of identity systems, not just data. The move addresses scenarios where identity infrastructure controlling access is compromised during a cyberattack, adding identity resilience as a component of its recovery portfolio.",
+      "summary": "Dell Technologies is expanding its cyber recovery tools to include identity system protection, addressing the risk of compromised access control infrastructure during cyberattacks. The expansion positions identity resilience as a core component of cyber recovery alongside traditional data protection.",
       "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/10/RobEmsleyandAdamMiller_Thumb_Clean-1.jpg",
       "importance": 7,
       "paywall": false
@@ -138,9 +128,19 @@
       "url": "https://decrypt.co/381987/ai-agents-creating-new-layer-cybersecurity-spending",
       "source": "Decrypt",
       "date": "2026-10-27",
-      "summary": "Akamai launched a security product designed to protect AI agents, joining Okta, Palo Alto, Cisco, CrowdStrike, and Zscaler in the emerging AI agent security market. The article covers the growing cybersecurity spending category around AI agents, which act autonomously and require new identity and access controls.",
+      "summary": "Akamai launched a security product for AI agents, joining Okta, Palo Alto, Cisco, CrowdStrike, and Zscaler in a growing market for protecting autonomous AI software. The article covers the emerging cybersecurity spending category around AI agent security, with Okta among the vendors offering protection for software that acts autonomously.",
       "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/ai-decrypt-style-07-gID_7.png",
       "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Dell Ships Quantum-Safe Fibre Channel Encryption on PowerStore in November, Adds Identity Recovery and AI Factory Hardening to PowerProtect",
+      "url": "https://www.storagereview.com/news/dell-powerstore-quantum-safe-fibre-channel-encryption-november-powerprotect-identity-recovery-ai-factory",
+      "source": "Storagereview.com",
+      "date": "2026-10-27",
+      "summary": "Dell Technologies announced updates to its cyber resilience portfolio, including identity recovery features in PowerProtect and quantum-safe encryption for PowerStore. The identity recovery component is a minor addition within a broader storage and infrastructure product announcement.",
+      "image": "https://www.storagereview.com/wp-content/uploads/2026/05/StorageReview-Dell-PowerStore-9500-1.jpg",
+      "importance": 3,
       "paywall": false
     },
     {
@@ -148,58 +148,8 @@
       "url": "https://siliconangle.com/2026/10/27/dell-extends-cyber-resilience-to-identity-ai-environments-and-quantum-safe-storage/",
       "source": "SiliconANGLE News",
       "date": "2026-10-27",
-      "summary": "Dell Technologies has extended its cyber resilience portfolio to include identity systems, with PowerProtect software capable of restoring compromised identity platforms to a clean, trusted state after an attack. The identity protection capability is one of three focus areas in the new release, alongside AI environments and quantum-safe storage.",
+      "summary": "Dell Technologies has extended its cyber resilience portfolio to include identity systems via PowerProtect software, which can restore compromised identity platforms to a clean, trusted state after an attack. The identity protection capability is one of three focus areas in the release, alongside AI environments and quantum-safe storage.",
       "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/10/delltechnologies-800x535.png",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Keeper Security、2026年版Gartner(R) 「特権アクセス管理のマジック・クアドラント(TM)」に2年連続で選出",
-      "url": "https://prtimes.jp/main/html/rd/p/000000141.000113863.html",
-      "source": "Prtimes.jp",
-      "date": "2026-10-27",
-      "summary": "Keeper Security has been named in the 2026 Gartner Magic Quadrant for Privileged Access Management for the second consecutive year. The announcement was made by Keeper Security APAC K.K., the company's Asia-Pacific division.",
-      "image": "https://prcdn.freetls.fastly.net/release_image/113863/141/113863-141-4badca0dbfd1da346ac9e9f649d49d1d-360x360.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "AI agent security with policy-driven access control",
-      "url": "https://www.redhat.com/en/blog/ai-agent-security-policy-driven-access-control",
-      "source": "Redhat.com",
-      "date": "2026-10-27",
-      "summary": "A new article examines security approaches for AI agent deployments, focusing on policy-driven access control as a solution to visibility and governance gaps. Research from the Cloud Security Alliance indicates 70% of organizations have AI components in production while 82% lack real-time visibility into AI runtime behavior, with only 21% having adequate controls in place.",
-      "image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Akeyless Recognized in the 2026 Gartner® Magic Quadrant™ for Privileged Access Management",
-      "url": "https://www.prnewswire.co.uk/news-releases/akeyless-recognized-in-the-2026-gartner-magic-quadrant-for-privileged-access-management-302919585.html",
-      "source": "PR Newswire UK",
-      "date": "2026-10-26",
-      "summary": "Akeyless has been recognized in the 2026 Gartner Magic Quadrant for Privileged Access Management. The inclusion coincides with Akeyless expanding its Runtime Identity Security platform to cover human privileged access, in addition to AI agents and machine identities.",
-      "image": null,
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Xage Security Named in 2026 Gartner® Magic Quadrant™ for Privileged Access Management",
-      "url": "https://financialpost.com/globe-newswire/xage-security-named-in-2026-gartner-magic-quadrant-for-privileged-access-management",
-      "source": "Financial Post",
-      "date": "2026-10-26",
-      "summary": "Xage Security has been named in the 2026 Gartner Magic Quadrant for Privileged Access Management, recognized for its Ability to Execute and Completeness of Vision. Xage focuses on identity-based Zero Trust solutions for high-stakes operational environments.",
-      "image": null,
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Who Authorized That Agent? Enforcing AI Authority Before the Action",
-      "url": "https://www.infosecurity-magazine.com/blogs/authorized-agent-ai-authority/",
-      "source": "Infosecurity Magazine",
-      "date": "2026-10-26",
-      "summary": "The article addresses the challenge of authorization and access control for AI agents, arguing that security policies must be enforced at runtime before agents execute actions. The piece focuses on how traditional IAM and authorization frameworks need to adapt to govern AI agent behavior, touching on concepts of authority enforcement relevant to access management professionals.",
-      "image": "https://assets.infosecurity-magazine.com/webpage/og/686ebc44-c237-4bb9-a4c6-7bc8c3b4a260.jpeg",
       "importance": 6,
       "paywall": false
     },
@@ -208,7 +158,7 @@
       "url": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
       "source": "Dark Reading",
       "date": "2026-10-23",
-      "summary": "Threat actors are bypassing technical security controls by using AI-assisted social engineering to manipulate help desks into granting unauthorized access. The attack vector targets identity verification and authentication processes at service desks, a critical weak point in access management workflows.",
+      "summary": "Threat actors are bypassing technical security controls by using AI-assisted social engineering to manipulate help desks into granting unauthorized access. The attack vector targets identity verification weaknesses in help desk procedures, directly undermining authentication and access management controls.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt34579512de050396/6a5a6336b09056633bee9fe7/trust_dial-NicoElNino-getty-2079838824.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -218,7 +168,7 @@
       "url": "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack",
       "source": "Dark Reading",
       "date": "2026-10-23",
-      "summary": "Microsoft's Project Perception introduces Guardian Agents designed to monitor and contain anomalous AI agent behavior within its security stack. The initiative raises questions about identity and authorization controls for AI agents, which increasingly require the same access governance considerations as human or non-human identities.",
+      "summary": "Microsoft has announced Project Perception, which introduces Guardian Agents designed to monitor and contain anomalous AI agent behavior within enterprise environments. Security experts are raising concerns that using AI agents to police other AI agents could introduce additional risk, particularly as autonomous agents increasingly operate with privileged access and identity contexts.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt521637665481bcc9/65dfe9cfea879b040a14fbb9/policerobot-Agencja_Fotograficzna_Caro-alamy.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -228,7 +178,7 @@
       "url": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
       "source": "Krebs on Security",
       "date": "2026-09-08",
-      "summary": "Microsoft released a record-breaking patch batch addressing at least 974 security vulnerabilities across Windows and other software. AI is being credited with accelerating vulnerability discovery, though security experts note organizations are struggling to keep pace with testing and deploying the volume of fixes.",
+      "summary": "Microsoft released a record-breaking patch batch addressing at least 974 security vulnerabilities across Windows and other software. The company attributed the accelerated vulnerability discovery to AI, while security experts noted that organizations are struggling to prioritize and deploy the high volume of monthly patches.",
       "image": null,
       "importance": 4,
       "paywall": false
