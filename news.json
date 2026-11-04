@@ -1,66 +1,34 @@
 {
-  "updated": "November 03, 2026 at 10:43 UTC",
+  "updated": "November 04, 2026 at 10:46 UTC",
   "top_stories": [
-    {
-      "title": "Over 41,000 DHS Employee Records Leaked Online",
-      "url": "https://www.securityweek.com/over-41000-dhs-employee-records-leaked-online/",
-      "source": "Securityweek.com",
-      "date": "2026-10-29",
-      "summary": "Over 41,000 Department of Homeland Security employee records were leaked online after allegedly being stolen from an Okta single sign-on system. The breach exposed both personal and work information of DHS employees.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "importance": 9,
-      "paywall": false
-    },
     {
       "title": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data",
       "url": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
       "source": "The Hacker News",
       "date": "2026-11-02",
-      "summary": "Attackers impersonated IT support via Microsoft Teams to gain remote access to employee devices, then exploited misconfigured Active Directory Certificate Services (AD CS) to obtain login certificates for privileged accounts including domain controllers. Microsoft investigated two such intrusions, with at least one resulting in data theft from the compromised organization.",
+      "summary": "Attackers impersonated IT support staff via Microsoft Teams to gain remote access to employee machines, then exploited misconfigured Active Directory Certificate Services (AD CS) to obtain authentication certificates for privileged accounts including domain controllers. Microsoft investigated two such intrusions, with at least one resulting in company data theft.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLv88EM1ZSjaeI7bH9DVpg2mGdkwXWUuir0S_p9IfiWG49_TgRalFdK4oQ6e7UE_JYOnNH70Z6wcftnjhcYHRY-Xc0o8GYp9r1uNzxdC_1bnXZgvon74cXkWgKpHZtwJg3IKLsqGC2HS2tcMfQS8BZu7kfrW1vAaaIA316LRzgCOn8zeGZ1WvALgJmyM4/s1600/ms-ad.jpg",
       "importance": 8,
       "paywall": false
     },
     {
-      "title": "DHS: 41,000+ Employee Records Leaked Online, Along With a Map of What Each Account Can Open",
-      "url": "https://forkast.news/dhs-41000-employee-records-leaked-online-along-with-a-map-of-what-each-account-can-open/",
-      "source": "Forkast.news",
-      "date": "2026-10-29",
-      "summary": "A threat actor published a database containing personal and work details of over 41,000 U.S. Department of Homeland Security employees. The leaked data reportedly includes a map of what each account can access, exposing access control and authorization structures across DHS systems.",
-      "image": "https://forkast.news/wp-content/uploads/2026/10/dhs-access-map-20261029-1024x687.jpg",
-      "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Opal’s agent.ID virtual event: Top security leaders on governing Al agents",
-      "url": "https://www.helpnetsecurity.com/2026/11/03/opal-security-agent-id-virtual-event/",
-      "source": "Help Net Security",
-      "date": "2026-11-03",
-      "summary": "Opal Security is hosting agent.ID, a free virtual event on November 5, 2026, focused on IAM for AI agents. The event will feature CISOs and identity leaders from companies including Elastic, Instacart, and Databricks, covering topics such as non-human identity access reviews, just-in-time access, and AI agent governance.",
-      "image": "https://framerusercontent.com/assets/I9GmOPZSurMYrMblJ6AsAb8xrxA.png",
+      "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
+      "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
+      "source": "The Hacker News",
+      "date": "2026-11-04",
+      "summary": "mSecure password manager developer mSeven Software issued a warning to users on November 3 urging them to change passwords, reset two-factor authentication, and remove passkeys following detected suspicious activity. The company has not yet disclosed the nature or scope of the incident affecting the credential management application.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtvbYhodewxI1TOMjVp0GKUmMdudVKH27My8auvMEvDbCkd_JBzdJjjBb99j2a2a9R1wgkOaTdLcM_9FEmpyweVquFetLeyfzSC5UgpukK8Ukw7keJb5HwmTnPP1qWT2QzVX3FKLtBKLDFnuMrzmfgW5dwYf6SJHZHqSDj_eYGdap3ECOMMI1Em6_oS_0/s1600/msecure.jpg",
       "importance": 7,
       "paywall": false
     },
     {
-      "title": "CISA to federal agencies: Remediate exploited Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527)",
-      "url": "https://www.helpnetsecurity.com/2026/11/02/cisa-to-federal-agencies-remediate-exploited-ivanti-connect-secure-vulnerabilities-cve-2026-111357-cve-2026-118527/",
-      "source": "Help Net Security",
-      "date": "2026-11-02",
-      "summary": "CISA added two Ivanti Connect Secure vulnerabilities (CVE-2026-111357 and CVE-2026-118527) to its Known Exploited Vulnerabilities catalog, directing federal agencies to remediate them. The flaws include a missing authentication vulnerability enabling local privilege escalation and a predictable identifier vulnerability allowing remote authenticated file upload, with three flaws reportedly chained together to gain initial access.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/11/02100958/ivanti-glow-1500.webp",
-      "importance": 7,
-      "paywall": false
-    }
-  ],
-  "news": [
-    {
-      "title": "Stolen AI access leaves companies with cloud bills of up to $1 million",
-      "url": "https://www.helpnetsecurity.com/2026/11/03/llmjacking-stolen-ai-access-cloud-bills/",
-      "source": "Help Net Security",
+      "title": "Oh, your agents need OAuth2, too",
+      "url": "https://stackoverflow.blog/2026/11/03/oh-your-agents-need-oauth2-too/",
+      "source": "Stackoverflow.blog",
       "date": "2026-11-03",
-      "summary": "Google Threat Intelligence Group and Mandiant researchers found that criminals are breaking into corporate cloud accounts and using stolen access credentials to run AI models at victims' expense, a technique called LLMJacking. In documented incidents from 2026, attackers generated over $100,000 in charges in a single day, targeting financial services, retail, and technology sectors.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/06/24093921/llm-ai-talk-1500.webp",
-      "importance": 6,
+      "summary": "Dan Moore, Senior Director of CIAM Strategy and Identity Standards at FusionAuth, discussed adapting OAuth2 protocols for autonomous AI agents at the LDX3 conference by LeadDev. The conversation focused on the security requirement of assigning distinct identities to AI agents and applying established OAuth2 frameworks to agentic systems.",
+      "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -68,9 +36,71 @@
       "url": "https://www.darkoperator.com/blog/2026/11/2/cwdl3e3gk4d6uiyor7ack9sdzvqvjj",
       "source": "Darkoperator.com",
       "date": "2026-11-02",
-      "summary": "The article provides guidance on implementing phishing-resistant MFA and passkeys in Microsoft Entra ID, focusing specifically on administrator accounts and privileged identities. It is part six of a seven-part series, covering how to identify privileged identities that may be missed in standard role reports.",
+      "summary": "This article is part of a series on implementing phishing-resistant MFA and passkeys in Microsoft Entra ID, with a focus on protecting privileged administrator accounts. The piece covers securing Global Administrator accounts and identifying privileged identities that may be missed in standard role reports.",
       "image": "http://static1.squarespace.com/static/52ad1d91e4b00a98a27ba20e/t/6ad4f089641cab5b821b7995/1793396182377/role-based-access-control_security-emergency-access_alert-logic.png?format=1500w",
       "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Okta Set to Join S&P 500; Others to Join S&P MidCap 400 and S&P SmallCap 600",
+      "url": "https://biztoc.com/x/e179887860e0a17b",
+      "source": "Biztoc.com",
+      "date": "2026-10-30",
+      "summary": "Okta Inc. is set to join the S&P 500 index, moving up from the S&P MidCap 400, effective prior to trading on November 4. This index inclusion reflects Okta's market capitalization growth as a major IAM vendor.",
+      "image": "https://biztoc.com/cdn/e179887860e0a17b_s.webp",
+      "importance": 7,
+      "paywall": false
+    }
+  ],
+  "news": [
+    {
+      "title": "Fake job interview opened the door to $6.34 billion Binance heist",
+      "url": "https://www.helpnetsecurity.com/2026/11/04/binance-hack-north-korea-fake-job-interview/",
+      "source": "Help Net Security",
+      "date": "2026-11-04",
+      "summary": "Attackers stole $6.34 billion from Binance by combining social engineering via fake job interviews, malicious software downloads, compromised internal AI tooling, endpoint compromise, and an advanced transaction-authorization bypass. The breach involved initial access gained through a tampered software installer delivered during a fraudulent recruitment process, with North Korea suspected as the threat actor.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/11/04081609/binance-bitcoin-1500.webp",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
+      "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+      "source": "The Hacker News",
+      "date": "2026-11-03",
+      "summary": "Barracuda has disclosed two vulnerabilities—a pre-authentication authorization bypass (CVE-2026-116606, CVSS 9.3) and a command injection flaw—that can be chained to bypass authorization controls and gain root access on affected devices. The flaws are relevant to IAM due to the authorization bypass component, though the primary concern is broader network security affecting Barracuda appliances.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCvGJCkYjldhAvsjMo47UqxGOTfVY1zCcjZQzgebkO8j1__fa0cFOn3CAV1jPTUpzwDDISQKPQP5eVGOl9BzRLBX7KlWuU2HMpzuHRWV2wyaItDwYgPu0X7m3qE5V1kgFzKZ1QYcRBcZyDqkUTFberiOWXBfV_-suYC1QQWq_TwBMeyme4F0FsOZnpijhC/s1600/barracuda.png",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Opal’s agent.ID virtual event: Top security leaders on governing Al agents",
+      "url": "https://www.opal.dev/agentid",
+      "source": "Opal.dev",
+      "date": "2026-11-03",
+      "summary": "Opal Security will host agent.ID, a free virtual event on November 5, 2026, focused on adapting IAM practices to AI agents. The event will feature CISOs and identity leaders from companies including Elastic, Instacart, Notion, Databricks, and Knostic.",
+      "image": "https://framerusercontent.com/assets/I9GmOPZSurMYrMblJ6AsAb8xrxA.png",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Amazon Quick on desktop now uses your organization's existing Amazon Quick sign-in",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-quick-desktop-organization-sign-in/",
+      "source": "Amazon.com",
+      "date": "2026-11-02",
+      "summary": "Amazon Quick has updated its desktop application to use the same organizational sign-in method already configured for the web version, eliminating the need for a separate OIDC application registration in the identity provider. Administrators no longer need to perform additional identity provider configuration steps to support desktop app authentication.",
+      "image": null,
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Okta to Announce Third Quarter Fiscal Year 2027 Financial Results on December 1, 2026",
+      "url": "https://biztoc.com/x/01d617a9f4f297a3",
+      "source": "Biztoc.com",
+      "date": "2026-11-02",
+      "summary": "Okta announced it will release its third quarter fiscal year 2027 financial results on December 1, 2026. The results will cover the quarter ended October 31, 2026.",
+      "image": "https://biztoc.com/cdn/01d617a9f4f297a3_s.webp",
+      "importance": 3,
       "paywall": false
     },
     {
@@ -78,19 +108,9 @@
       "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
       "source": "The Hacker News",
       "date": "2026-10-31",
-      "summary": "Chainalysis confirmed a cybersecurity incident in which an external actor accessed non-sensitive customer identity data through internal tools. The company stated that authentication credentials and session tokens were not compromised in the breach.",
+      "summary": "Chainalysis, a blockchain analysis firm, confirmed a cybersecurity intrusion in which an external actor accessed non-sensitive customer identity data through internal tools. The company stated that authentication credentials and session tokens were not compromised in the incident.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFRN0kXDPnLLvRBYqNZG4BTyUK0EaSxRtepYOQ-msXGAqu1IW8t2cdnav4ANAO8fXwY_-ug6Ictj29WcseInPhJmYOwpgcinvc8KO36A8HK6Wo41lgztgyH2jb9hGg7bVyWZ4A-adjBYuTi-hOJxMALa7myG172BWKwB_SyvrfMeqxH_3DdcyJxYwXFIKG/s1600/chain.jpg",
       "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
-      "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
-      "source": "The Hacker News",
-      "date": "2026-10-31",
-      "summary": "CISA added two Ivanti Connect Secure vulnerabilities to its Known Exploited Vulnerabilities catalog after confirming active exploitation in the wild. The flaws, including CVE-2026-111357 (CVSS 8.8), a missing authentication vulnerability, are being chained with a third flaw to achieve unauthenticated root access on affected systems.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeqP4vPt6j2lLPFj77A_1OthmSKb8mItfBrX_q8sQCAUVgTry1FxKizDI2SCLS4CglfjgbVkaMDN8ainqoOZm2pdaF6xw7sU4STZhwIFPCLSz84YXQTVx2tquPo7YJsZhgOWcD3V_w5td9BA_vVuOu1cFcrgL3SXyLF4E24IyGotrzDcbJ-M1mA85biDuW/s1600/1000120841.jpg",
-      "importance": 7,
       "paywall": false
     },
     {
@@ -104,23 +124,13 @@
       "paywall": false
     },
     {
-      "title": "Okta Set to Join S&P 500; Others to Join S&P MidCap 400 and S&P SmallCap 600",
-      "url": "https://biztoc.com/x/e179887860e0a17b",
-      "source": "Biztoc.com",
-      "date": "2026-10-30",
-      "summary": "Okta Inc. is set to join the S&P 500 index, moving up from the S&P MidCap 400, effective prior to market open on November 4. This index inclusion reflects Okta's market capitalization growth and elevates its profile among large-cap publicly traded companies.",
-      "image": "https://biztoc.com/cdn/e179887860e0a17b_s.webp",
-      "importance": 7,
-      "paywall": false
-    },
-    {
       "title": "Implement least-privilege access with designations in Amazon SageMaker Unified Studio",
       "url": "https://aws.amazon.com/blogs/big-data/implement-least-privilege-access-with-designations-in-amazon-sagemaker-unified-studio/",
       "source": "Amazon.com",
       "date": "2026-10-30",
-      "summary": "Amazon SageMaker Unified Studio has introduced a feature called \"designations,\" which are named permission sets enabling granular, least-privilege access control for project members. The feature allows administrators to define and assign specific permissions to users within SageMaker projects.",
+      "summary": "Amazon SageMaker Unified Studio has introduced a \"designations\" feature, which are named permission sets enabling granular, least-privilege access control for project members. The feature allows administrators to define and assign specific permissions to users within SageMaker projects.",
       "image": "https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2026/10/28/BDB-6265-featured-image.png",
-      "importance": 4,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -128,7 +138,7 @@
       "url": "https://www.livemint.com/companies/news/384-bn-market-cap-dhs-data-leak-details-okta-says-its-core-systems-not-compromised-all-you-need-about-company-11793362125741.html",
       "source": "Livemint",
       "date": "2026-10-30",
-      "summary": "A data leak reportedly exposing personal and job details of more than 40,000 Department of Homeland Security employees is under investigation, with Distributed Denial of Secrets claiming the data came through Okta. Okta has stated it found no evidence that its core systems or infrastructure were compromised in connection with the incident.",
+      "summary": "A data leak allegedly exposing personal and job details of over 40,000 Department of Homeland Security employees is under investigation, with Distributed Denial of Secrets claiming the data came through Okta. Okta has responded stating it found no evidence that its core systems or infrastructure were compromised.",
       "image": "https://www.livemint.com/lm-img/img/2026/10/30/1600x900/logo/Untitled_Design_1793366897655_JEDJ_1793366902039_A4Jx_0a6ad76b-55c6-447c-8b19-b20bf24c0973_9Sei.png",
       "importance": 7,
       "paywall": false
@@ -138,7 +148,7 @@
       "url": "http://www.malwarebytes.com/blog/data-breaches/2026/10/hackers-steal-and-publish-data-on-41000-homeland-security-workers",
       "source": "Malwarebytes.com",
       "date": "2026-10-30",
-      "summary": "A hacker group claims to have stolen and published data on 41,000 Department of Homeland Security employees. The exposed data includes work contact details and internal group memberships, raising concerns about identity exposure and access-related information.",
+      "summary": "A hacker group claims to have stolen and published data on 41,000 Department of Homeland Security employees. The exposed data includes work contact details and internal group memberships, raising concerns about identity exposure and directory enumeration.",
       "image": "https://www.malwarebytes.com/wp-content/uploads/sites/2/2026/10/department-of-homeland-security-logo.jpg",
       "importance": 6,
       "paywall": false
@@ -148,19 +158,9 @@
       "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/hackers-leak-41-000-dhs-staff-data",
       "source": "Bitdefender.com",
       "date": "2026-10-30",
-      "summary": "Hackers leaked personal data of over 41,000 Department of Homeland Security employees, including ICE and CBP agents. The breach exposed staff personnel details, which were subsequently published online.",
+      "summary": "Hackers leaked personal data of over 41,000 Department of Homeland Security employees, including ICE and CBP agents. The breach exposed personnel records of federal security staff and was published online.",
       "image": "https://blogapp.bitdefender.com/hotforsecurity/content/images/2026/10/dhs-leak.jpeg",
-      "importance": 4,
-      "paywall": false
-    },
-    {
-      "title": "Hackers Publish Work Details of 41,000 Homeland Security Employees",
-      "url": "https://decrypt.co/382181/hackers-publish-work-details-homeland-security-employees",
-      "source": "Decrypt",
-      "date": "2026-10-29",
-      "summary": "A hacktivist group published the work details of over 41,000 Department of Homeland Security employees, including names, titles, and phone numbers. The data was reportedly extracted from a login system, making this directly relevant to IAM professionals from an authentication and access system security perspective.",
-      "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/04/dhs-gID_4.jpg",
-      "importance": 6,
+      "importance": 5,
       "paywall": false
     }
   ]
