@@ -1,14 +1,76 @@
 {
-  "updated": "November 04, 2026 at 10:46 UTC",
+  "updated": "November 05, 2026 at 10:42 UTC",
   "top_stories": [
     {
-      "title": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data",
-      "url": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
-      "source": "The Hacker News",
-      "date": "2026-11-02",
-      "summary": "Attackers impersonated IT support staff via Microsoft Teams to gain remote access to employee machines, then exploited misconfigured Active Directory Certificate Services (AD CS) to obtain authentication certificates for privileged accounts including domain controllers. Microsoft investigated two such intrusions, with at least one resulting in company data theft.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLv88EM1ZSjaeI7bH9DVpg2mGdkwXWUuir0S_p9IfiWG49_TgRalFdK4oQ6e7UE_JYOnNH70Z6wcftnjhcYHRY-Xc0o8GYp9r1uNzxdC_1bnXZgvon74cXkWgKpHZtwJg3IKLsqGC2HS2tcMfQS8BZu7kfrW1vAaaIA316LRzgCOn8zeGZ1WvALgJmyM4/s1600/ms-ad.jpg",
+      "title": "Phishing-Resistant Isn't Enough; Yubico Takes Aim at Identity-Verification Gap",
+      "url": "https://www.darkreading.com/identity-access-management-security/beyond-phishing-resistant-yubico-identity-verification-gap",
+      "source": "Dark Reading",
+      "date": "2026-11-04",
+      "summary": "Yubico launched YubiID, a new service that bridges identity verification with credential enrollment and recovery across existing identity platforms to address gaps in phishing-resistant authentication. The announcement also includes a post-quantum YubiKey beta, extending Yubico's hardware security key offerings into quantum-resistant authentication territory.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt004492645b5f1d7e/6aeb2df8c949f4112a250228/yubikey-Formatoriginal-alamy.jpg?width=720&quality=80&disable=upscale",
       "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "mSecure password manager hack prompts password reset warnings",
+      "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
+      "source": "Bleeping Computer",
+      "date": "2026-11-04",
+      "summary": "mSeven Software suffered a cyberattack that exposed an encrypted customer database for its mSecure password manager product. The company is warning current and former customers to change passwords, reset two-factor authentication, and remove passkeys as a precautionary measure.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/11/04/hacker-password-manager-redlock.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
+      "url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
+      "source": "Bleeping Computer",
+      "date": "2026-11-04",
+      "summary": "A phishing campaign dubbed Operation CloudFire used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security tracked the attacks, blocked malicious messages, and assisted in taking down nearly 900 domains used by the threat actors.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/09/22/google-workspace-breach.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Most consumers aren’t ready to let AI agents shop unsupervised",
+      "url": "https://www.helpnetsecurity.com/2026/11/05/okta-ai-customer-experiences-report/",
+      "source": "Help Net Security",
+      "date": "2026-11-05",
+      "summary": "Okta's 2026 Customer Identity Trends Report examines consumer attitudes toward AI agents that make purchases, book services, and access personal information. The report finds only 37% of consumers are ready to delegate unsupervised actions to AI agents, with businesses facing new requirements for verifying agents and managing their permissions.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/05/14074130/identity-face-2-1500.webp",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Descope Envoy brings AI agent authentication to consumer apps",
+      "url": "https://www.helpnetsecurity.com/2026/11/04/descope-envoy/",
+      "source": "Help Net Security",
+      "date": "2026-11-04",
+      "summary": "Descope has launched Envoy, a set of capabilities enabling personal AI agents to authenticate into consumer apps via delegated sign-in paths with their own identities, permissions, and approval flows. Launch partners include GoFundMe, You.com, GoodRx, and Composio, and the solution integrates with existing authentication stacks without requiring a full rebuild.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
+      "importance": 7,
+      "paywall": false
+    }
+  ],
+  "news": [
+    {
+      "title": "Vercel rolls out new protection against stolen session cookie attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
+      "source": "Bleeping Computer",
+      "date": "2026-11-04",
+      "summary": "Vercel is rolling out Device Bound Session Credentials (DBSC) as a defense mechanism against session cookie theft from information stealer malware. DBSC cryptographically binds session credentials to a specific device, preventing stolen cookies from being used on other machines.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/11/04/vercel.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+      "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+      "source": "Bleeping Computer",
+      "date": "2026-11-04",
+      "summary": "DreamHost suffered a data breach in which attackers accessed its File Manager platform for two months, stealing customers' FTP/SFTP usernames and passwords. The breach also exposed webmail session data, involving credential theft relevant to authentication and access management.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/11/04/DreamHost.jpg",
+      "importance": 4,
       "paywall": false
     },
     {
@@ -16,61 +78,39 @@
       "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
       "source": "The Hacker News",
       "date": "2026-11-04",
-      "summary": "mSecure password manager developer mSeven Software issued a warning to users on November 3 urging them to change passwords, reset two-factor authentication, and remove passkeys following detected suspicious activity. The company has not yet disclosed the nature or scope of the incident affecting the credential management application.",
+      "summary": "mSecure password manager developer mSeven Software issued an urgent warning to users on November 3 following detection of suspicious activity linked to the app. Users are being advised to change passwords, reset two-factor authentication, and remove passkeys as precautionary measures.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtvbYhodewxI1TOMjVp0GKUmMdudVKH27My8auvMEvDbCkd_JBzdJjjBb99j2a2a9R1wgkOaTdLcM_9FEmpyweVquFetLeyfzSC5UgpukK8Ukw7keJb5HwmTnPP1qWT2QzVX3FKLtBKLDFnuMrzmfgW5dwYf6SJHZHqSDj_eYGdap3ECOMMI1Em6_oS_0/s1600/msecure.jpg",
       "importance": 7,
       "paywall": false
     },
     {
-      "title": "Oh, your agents need OAuth2, too",
-      "url": "https://stackoverflow.blog/2026/11/03/oh-your-agents-need-oauth2-too/",
-      "source": "Stackoverflow.blog",
-      "date": "2026-11-03",
-      "summary": "Dan Moore, Senior Director of CIAM Strategy and Identity Standards at FusionAuth, discussed adapting OAuth2 protocols for autonomous AI agents at the LDX3 conference by LeadDev. The conversation focused on the security requirement of assigning distinct identities to AI agents and applying established OAuth2 frameworks to agentic systems.",
-      "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Phishing-resistant MFA where it matters most, and finding the privileged identities your role report misses",
-      "url": "https://www.darkoperator.com/blog/2026/11/2/cwdl3e3gk4d6uiyor7ack9sdzvqvjj",
-      "source": "Darkoperator.com",
-      "date": "2026-11-02",
-      "summary": "This article is part of a series on implementing phishing-resistant MFA and passkeys in Microsoft Entra ID, with a focus on protecting privileged administrator accounts. The piece covers securing Global Administrator accounts and identifying privileged identities that may be missed in standard role reports.",
-      "image": "http://static1.squarespace.com/static/52ad1d91e4b00a98a27ba20e/t/6ad4f089641cab5b821b7995/1793396182377/role-based-access-control_security-emergency-access_alert-logic.png?format=1500w",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Okta Set to Join S&P 500; Others to Join S&P MidCap 400 and S&P SmallCap 600",
-      "url": "https://biztoc.com/x/e179887860e0a17b",
-      "source": "Biztoc.com",
-      "date": "2026-10-30",
-      "summary": "Okta Inc. is set to join the S&P 500 index, moving up from the S&P MidCap 400, effective prior to trading on November 4. This index inclusion reflects Okta's market capitalization growth as a major IAM vendor.",
-      "image": "https://biztoc.com/cdn/e179887860e0a17b_s.webp",
-      "importance": 7,
-      "paywall": false
-    }
-  ],
-  "news": [
-    {
-      "title": "Fake job interview opened the door to $6.34 billion Binance heist",
-      "url": "https://www.helpnetsecurity.com/2026/11/04/binance-hack-north-korea-fake-job-interview/",
-      "source": "Help Net Security",
+      "title": "AWS DataSync Enhanced mode supports OpenID Connect (OIDC) for Google Cloud and Microsoft Azure",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/datasync-enhanced-oidc-google-azure/",
+      "source": "Amazon.com",
       "date": "2026-11-04",
-      "summary": "Attackers stole $6.34 billion from Binance by combining social engineering via fake job interviews, malicious software downloads, compromised internal AI tooling, endpoint compromise, and an advanced transaction-authorization bypass. The breach involved initial access gained through a tampered software installer delivered during a fraudulent recruitment process, with North Korea suspected as the threat actor.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/11/04081609/binance-bitcoin-1500.webp",
-      "importance": 6,
+      "summary": "AWS DataSync Enhanced mode has added OpenID Connect (OIDC) authentication support for Google Cloud Storage and Microsoft Azure Blob Storage locations. The feature uses AWS IAM roles to obtain short-lived credentials from Google Cloud and Microsoft Azure for cross-cloud data transfer authentication.",
+      "image": null,
+      "importance": 4,
       "paywall": false
     },
     {
-      "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
-      "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
-      "source": "The Hacker News",
+      "title": "Who will security companies buy next in AI agent identity?",
+      "url": "https://www.cbinsights.com/research/ai-agent-identity-acquisitions-targets/",
+      "source": "Cbinsights.com",
       "date": "2026-11-03",
-      "summary": "Barracuda has disclosed two vulnerabilities—a pre-authentication authorization bypass (CVE-2026-116606, CVSS 9.3) and a command injection flaw—that can be chained to bypass authorization controls and gain root access on affected devices. The flaws are relevant to IAM due to the authorization bypass component, though the primary concern is broader network security affecting Barracuda appliances.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCvGJCkYjldhAvsjMo47UqxGOTfVY1zCcjZQzgebkO8j1__fa0cFOn3CAV1jPTUpzwDDISQKPQP5eVGOl9BzRLBX7KlWuU2HMpzuHRWV2wyaItDwYgPu0X7m3qE5V1kgFzKZ1QYcRBcZyDqkUTFberiOWXBfV_-suYC1QQWq_TwBMeyme4F0FsOZnpijhC/s1600/barracuda.png",
-      "importance": 5,
+      "summary": "A Fortune 500 company discovered over 10,000 previously unknown AI agents during a SailPoint proof of concept engagement, highlighting the growing challenge of AI agent identity governance. The article examines acquisition targets in the AI agent identity security space as vendors like SailPoint expand focus on non-human identity management.",
+      "image": "https://research-assets.cbinsights.com/2026/11/03144543/SecCosBuyAIAgents-Graphic1-102026-3.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "ServiceNow on-behalf-of token exchange with Bedrock AgentCore Gateway",
+      "url": "https://aws.amazon.com/blogs/machine-learning/servicenow-on-behalf-of-token-exchange-with-bedrock-agentcore-gateway/",
+      "source": "Amazon.com",
+      "date": "2026-11-03",
+      "summary": "Amazon Bedrock AgentCore Gateway can be configured to perform on-behalf-of (OBO) token exchange with Microsoft Entra ID, enabling AI agents to call the ServiceNow REST API while preserving the calling user's identity. The integration involves AgentCore Gateway natively handling the token exchange between the AI agent and downstream services using delegated user credentials.",
+      "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/02/ML-21070-featured-image.png",
+      "importance": 6,
       "paywall": false
     },
     {
@@ -78,9 +118,19 @@
       "url": "https://www.opal.dev/agentid",
       "source": "Opal.dev",
       "date": "2026-11-03",
-      "summary": "Opal Security will host agent.ID, a free virtual event on November 5, 2026, focused on adapting IAM practices to AI agents. The event will feature CISOs and identity leaders from companies including Elastic, Instacart, Notion, Databricks, and Knostic.",
+      "summary": "Opal Security will host agent.ID, a free virtual event on November 5, 2026, focused on IAM for AI agents. The event will feature CISOs and identity leaders from companies including Elastic, Instacart, Notion, Databricks, and Knostic discussing how to govern AI agent identities and access.",
       "image": "https://framerusercontent.com/assets/I9GmOPZSurMYrMblJ6AsAb8xrxA.png",
       "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Oh, your agents need OAuth2, too",
+      "url": "https://stackoverflow.blog/2026/11/03/oh-your-agents-need-oauth2-too/",
+      "source": "Stackoverflow.blog",
+      "date": "2026-11-03",
+      "summary": "Dan Moore, Senior Director of CIAM Strategy and Identity Standards at FusionAuth, discussed adapting OAuth2 protocols for autonomous AI agents at the LDX3 conference by LeadDev. The conversation focused on the security requirement of assigning AI agents their own distinct identities and applying established authorization frameworks to agentic workflows.",
+      "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -98,19 +148,19 @@
       "url": "https://biztoc.com/x/01d617a9f4f297a3",
       "source": "Biztoc.com",
       "date": "2026-11-02",
-      "summary": "Okta announced it will release its third quarter fiscal year 2027 financial results on December 1, 2026. The results will cover the quarter ended October 31, 2026.",
+      "summary": "Okta announced it will release its Q3 fiscal year 2027 financial results on December 1, 2026, after U.S. market close. The announcement covers the quarter ended October 31, 2026.",
       "image": "https://biztoc.com/cdn/01d617a9f4f297a3_s.webp",
       "importance": 3,
       "paywall": false
     },
     {
-      "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
-      "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
-      "source": "The Hacker News",
-      "date": "2026-10-31",
-      "summary": "Chainalysis, a blockchain analysis firm, confirmed a cybersecurity intrusion in which an external actor accessed non-sensitive customer identity data through internal tools. The company stated that authentication credentials and session tokens were not compromised in the incident.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFRN0kXDPnLLvRBYqNZG4BTyUK0EaSxRtepYOQ-msXGAqu1IW8t2cdnav4ANAO8fXwY_-ug6Ictj29WcseInPhJmYOwpgcinvc8KO36A8HK6Wo41lgztgyH2jb9hGg7bVyWZ4A-adjBYuTi-hOJxMALa7myG172BWKwB_SyvrfMeqxH_3DdcyJxYwXFIKG/s1600/chain.jpg",
-      "importance": 6,
+      "title": "Phishing-resistant MFA where it matters most, and finding the privileged identities your role report misses",
+      "url": "https://www.darkoperator.com/blog/2026/11/2/cwdl3e3gk4d6uiyor7ack9sdzvqvjj",
+      "source": "Darkoperator.com",
+      "date": "2026-11-02",
+      "summary": "The article covers implementing phishing-resistant MFA and passkeys in Microsoft Entra ID, specifically focused on protecting privileged administrator accounts. It addresses identifying privileged identities that may be missed in standard role reports and prioritizing admin accounts due to the high-impact risk of compromised Global Administrator credentials.",
+      "image": "http://static1.squarespace.com/static/52ad1d91e4b00a98a27ba20e/t/6ad4f089641cab5b821b7995/1793396182377/role-based-access-control_security-emergency-access_alert-logic.png?format=1500w",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -124,43 +174,13 @@
       "paywall": false
     },
     {
-      "title": "Implement least-privilege access with designations in Amazon SageMaker Unified Studio",
-      "url": "https://aws.amazon.com/blogs/big-data/implement-least-privilege-access-with-designations-in-amazon-sagemaker-unified-studio/",
-      "source": "Amazon.com",
+      "title": "Okta Set to Join S&P 500; Others to Join S&P MidCap 400 and S&P SmallCap 600",
+      "url": "https://biztoc.com/x/e179887860e0a17b",
+      "source": "Biztoc.com",
       "date": "2026-10-30",
-      "summary": "Amazon SageMaker Unified Studio has introduced a \"designations\" feature, which are named permission sets enabling granular, least-privilege access control for project members. The feature allows administrators to define and assign specific permissions to users within SageMaker projects.",
-      "image": "https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2026/10/28/BDB-6265-featured-image.png",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "$38.4 bn market cap: DHS Data leak details - Okta says its core systems not compromised | All you need about company",
-      "url": "https://www.livemint.com/companies/news/384-bn-market-cap-dhs-data-leak-details-okta-says-its-core-systems-not-compromised-all-you-need-about-company-11793362125741.html",
-      "source": "Livemint",
-      "date": "2026-10-30",
-      "summary": "A data leak allegedly exposing personal and job details of over 40,000 Department of Homeland Security employees is under investigation, with Distributed Denial of Secrets claiming the data came through Okta. Okta has responded stating it found no evidence that its core systems or infrastructure were compromised.",
-      "image": "https://www.livemint.com/lm-img/img/2026/10/30/1600x900/logo/Untitled_Design_1793366897655_JEDJ_1793366902039_A4Jx_0a6ad76b-55c6-447c-8b19-b20bf24c0973_9Sei.png",
+      "summary": "Okta is set to join the S&P 500 index, moving up from the S&P MidCap 400, effective prior to trading on November 4. This index inclusion reflects Okta's market capitalization growth and raises its profile among institutional investors.",
+      "image": "https://biztoc.com/cdn/e179887860e0a17b_s.webp",
       "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Hackers steal and publish data on 41,000 Homeland Security workers",
-      "url": "http://www.malwarebytes.com/blog/data-breaches/2026/10/hackers-steal-and-publish-data-on-41000-homeland-security-workers",
-      "source": "Malwarebytes.com",
-      "date": "2026-10-30",
-      "summary": "A hacker group claims to have stolen and published data on 41,000 Department of Homeland Security employees. The exposed data includes work contact details and internal group memberships, raising concerns about identity exposure and directory enumeration.",
-      "image": "https://www.malwarebytes.com/wp-content/uploads/sites/2/2026/10/department-of-homeland-security-logo.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Hackers leak personnel data of 41,000+ Homeland Security staff, including ICE and border agents",
-      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/hackers-leak-41-000-dhs-staff-data",
-      "source": "Bitdefender.com",
-      "date": "2026-10-30",
-      "summary": "Hackers leaked personal data of over 41,000 Department of Homeland Security employees, including ICE and CBP agents. The breach exposed personnel records of federal security staff and was published online.",
-      "image": "https://blogapp.bitdefender.com/hotforsecurity/content/images/2026/10/dhs-leak.jpeg",
-      "importance": 5,
       "paywall": false
     }
   ]
