@@ -1,33 +1,95 @@
 {
-  "updated": "November 05, 2026 at 10:42 UTC",
+  "updated": "November 06, 2026 at 10:42 UTC",
   "top_stories": [
     {
       "title": "Phishing-Resistant Isn't Enough; Yubico Takes Aim at Identity-Verification Gap",
       "url": "https://www.darkreading.com/identity-access-management-security/beyond-phishing-resistant-yubico-identity-verification-gap",
       "source": "Dark Reading",
       "date": "2026-11-04",
-      "summary": "Yubico launched YubiID, a new service that bridges identity verification with credential enrollment and recovery across existing identity platforms to address gaps in phishing-resistant authentication. The announcement also includes a post-quantum YubiKey beta, extending Yubico's hardware security key offerings into quantum-resistant authentication territory.",
+      "summary": "Yubico launched YubiID, a new service that bridges identity verification with credential enrollment and recovery across existing identity platforms to address gaps in phishing-resistant authentication. The announcement also includes a post-quantum YubiKey beta, extending hardware authentication capabilities to quantum-resistant cryptography.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt004492645b5f1d7e/6aeb2df8c949f4112a250228/yubikey-Formatoriginal-alamy.jpg?width=720&quality=80&disable=upscale",
       "importance": 8,
       "paywall": false
     },
     {
-      "title": "mSecure password manager hack prompts password reset warnings",
-      "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
-      "source": "Bleeping Computer",
+      "title": "Microsoft disrupts EvilTokens phishing service after thousands of accounts targeted",
+      "url": "https://www.digitaljournal.com/article/microsoft-disrupts-eviltokens-phishing-service-after-thousands-of-accounts-targeted/",
+      "source": "Digital Journal",
       "date": "2026-11-04",
-      "summary": "mSeven Software suffered a cyberattack that exposed an encrypted customer database for its mSecure password manager product. The company is warning current and former customers to change passwords, reset two-factor authentication, and remove passkeys as a precautionary measure.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/11/04/hacker-password-manager-redlock.jpg",
+      "summary": "Microsoft disrupted the EvilTokens phishing-as-a-service operation after it was used to target thousands of accounts. The service exploited a legitimate Microsoft authentication process to bypass security controls without using a conventional fake login page, representing a token-based attack on Microsoft's auth infrastructure.",
+      "image": "https://www.digitaljournal.com/wp-content/uploads/2026/03/f2cfb8592add562067375e36fef6151eddf33abd.jpg",
+      "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+      "source": "Bleeping Computer",
+      "date": "2026-11-05",
+      "summary": "Hackers are conducting phishing campaigns using fake OpenAI, SpaceX, and Anthropic event invitations to steal Microsoft and Google account credentials and authentication sessions. The attacks leverage two phishing-as-a-service platforms to capture both credentials and authentication session tokens, bypassing MFA protections.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2022/08/23/phishing-hook.jpg",
       "importance": 7,
       "paywall": false
     },
     {
-      "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
-      "url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
+      "title": "Closing the Identity Gap at the Service Desk",
+      "url": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
       "source": "Bleeping Computer",
-      "date": "2026-11-04",
-      "summary": "A phishing campaign dubbed Operation CloudFire used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security tracked the attacks, blocked malicious messages, and assisted in taking down nearly 900 domains used by the threat actors.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/09/22/google-workspace-breach.jpg",
+      "date": "2026-11-05",
+      "summary": "Attackers are exploiting IT service desks as a vector to bypass MFA by impersonating employees and requesting password resets or new authentication device registrations. Specops Software outlines why traditional identity verification methods are insufficient for account recovery and proposes approaches to defend against social engineering at the service desk.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/11/02/specops-lockscreen.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "99% of repository access tokens never expire",
+      "url": "https://www.helpnetsecurity.com/2026/11/06/blueflag-ai-agents-access-risks-report/",
+      "source": "Help Net Security",
+      "date": "2026-11-06",
+      "summary": "BlueFlag Security's State of Developer Risk 2026 report found that 99% of repository access tokens never expire, leaving developer, contractor, service account, and AI coding agent permissions active beyond their intended use. The report highlights access review gaps across code repositories, build pipelines, and connected applications as a significant identity governance risk.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2025/12/15105916/ai-hand-1500.webp",
+      "importance": 7,
+      "paywall": false
+    }
+  ],
+  "news": [
+    {
+      "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+      "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+      "source": "The Hacker News",
+      "date": "2026-11-06",
+      "summary": "Chainalysis suffered a breach that exposed names, usernames, password hashes, and live tokens for all users, forcing the company to shut down access to its Reactor and Data Solutions services. The incident involved an agentic cyber attack, with the investigation ongoing and no evidence yet of investigation data being accessed.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoSpb8lu1ytakNne4rJ58nWfLFrYtdR7MCyZ2prSaLKiAb2Bt_upvfAHl-slDTt_3h7zxFdhbPcLwzAkcHDjnvu2TNcVp6JsgJU6GI5GMvZrrmzZTUZDyeOhS0GnFV-YtazzzcgMFnUvkqKmpSr9FBrCXQhlyPZM9E8c7LPSxACwPhfJ4nFzIANqdaVXUd/s1600/chain-breach.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "DigiCert data breach exposes customer information, identity documents",
+      "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
+      "source": "Bleeping Computer",
+      "date": "2026-11-05",
+      "summary": "DigiCert suffered a data breach caused by a server migration error that inadvertently exposed an internal business system to the internet. The breach resulted in unauthorized access to customer information and identity documents.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/11/05/digicert-header.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+      "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+      "source": "The Hacker News",
+      "date": "2026-11-05",
+      "summary": "OpenSSH released emergency patch version 10.6p2 to fix a critical authentication bypass vulnerability affecting Alpine Linux servers running the standard openssh-server package. The flaw allows attackers with network access to bypass SSH authentication on accounts with no password (such as SSH key-only accounts) by supplying a password between 257 and 1,024 bytes long.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieaHvS5baW_XG1eAsBsoSp9qRzV179f0WwXoj9k6rUeX4Qa4sxpi3hvpGkgkYNMPzZQH0mvvVAoTooEAgl1G3SyFksmhqNEbDEIEWM83RH47u8qvNyIYclA7z7GUdPJGx8WfJd556iCvvtvsitAYp9M-T46OvuwkaSWwnyhlynEpYax2qyTCACsPbtQLw/s1600/ssh-linux.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Moving an organization to passkeys without breaking access",
+      "url": "https://www.darkoperator.com/blog/2026/11/5/moving-an-organization-to-passkeys-without-breaking-access",
+      "source": "Darkoperator.com",
+      "date": "2026-11-05",
+      "summary": "This article presents a phased migration roadmap for moving organizations from MFA to passkeys within Microsoft Entra ID, covering SMS/voice retirement deadlines and readiness metrics. It is part seven of a seven-part series addressing threat modeling, credential management, and access continuity during the transition.",
+      "image": null,
       "importance": 7,
       "paywall": false
     },
@@ -36,29 +98,17 @@
       "url": "https://www.helpnetsecurity.com/2026/11/05/okta-ai-customer-experiences-report/",
       "source": "Help Net Security",
       "date": "2026-11-05",
-      "summary": "Okta's 2026 Customer Identity Trends Report examines consumer attitudes toward AI agents that make purchases, book services, and access personal information. The report finds only 37% of consumers are ready to delegate unsupervised actions to AI agents, with businesses facing new requirements for verifying agents and managing their permissions.",
+      "summary": "Okta has released its 2026 Customer Identity Trends Report examining consumer attitudes toward AI agents performing actions like shopping and booking services on their behalf. The report highlights that customer control, account security, and ease of use are key factors influencing adoption of AI agents that access personal information.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/05/14074130/identity-face-2-1500.webp",
-      "importance": 7,
+      "importance": 6,
       "paywall": false
     },
-    {
-      "title": "Descope Envoy brings AI agent authentication to consumer apps",
-      "url": "https://www.helpnetsecurity.com/2026/11/04/descope-envoy/",
-      "source": "Help Net Security",
-      "date": "2026-11-04",
-      "summary": "Descope has launched Envoy, a set of capabilities enabling personal AI agents to authenticate into consumer apps via delegated sign-in paths with their own identities, permissions, and approval flows. Launch partners include GoFundMe, You.com, GoodRx, and Composio, and the solution integrates with existing authentication stacks without requiring a full rebuild.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
-      "importance": 7,
-      "paywall": false
-    }
-  ],
-  "news": [
     {
       "title": "Vercel rolls out new protection against stolen session cookie attacks",
       "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
       "source": "Bleeping Computer",
       "date": "2026-11-04",
-      "summary": "Vercel is rolling out Device Bound Session Credentials (DBSC) as a defense mechanism against session cookie theft from information stealer malware. DBSC cryptographically binds session credentials to a specific device, preventing stolen cookies from being used on other machines.",
+      "summary": "Vercel is rolling out Device Bound Session Credentials (DBSC) on its platform to protect against stolen session cookie attacks from information stealer malware. DBSC cryptographically binds session credentials to a specific device, preventing attackers from reusing stolen cookies on other machines.",
       "image": "https://www.bleepstatic.com/content/hl-images/2026/11/04/vercel.jpg",
       "importance": 6,
       "paywall": false
@@ -68,7 +118,7 @@
       "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
       "source": "Bleeping Computer",
       "date": "2026-11-04",
-      "summary": "DreamHost suffered a data breach in which attackers accessed its File Manager platform for two months, stealing customers' FTP/SFTP usernames and passwords. The breach also exposed webmail session data, involving credential theft relevant to authentication and access management.",
+      "summary": "DreamHost suffered a data breach in which attackers accessed its File Manager platform for two months, stealing customers' FTP/SFTP usernames and passwords. The breach involved credential theft and unauthorized access to webmail sessions, touching on authentication and access management concerns.",
       "image": "https://www.bleepstatic.com/content/hl-images/2026/11/04/DreamHost.jpg",
       "importance": 4,
       "paywall": false
@@ -78,9 +128,19 @@
       "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
       "source": "The Hacker News",
       "date": "2026-11-04",
-      "summary": "mSecure password manager developer mSeven Software issued an urgent warning to users on November 3 following detection of suspicious activity linked to the app. Users are being advised to change passwords, reset two-factor authentication, and remove passkeys as precautionary measures.",
+      "summary": "mSecure password manager developer mSeven Software issued a warning to users on November 3 advising them to change passwords, reset two-factor authentication, and remove passkeys following detection of suspicious activity. The company sent the alert via email but has not yet disclosed the full nature or scope of the incident.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtvbYhodewxI1TOMjVp0GKUmMdudVKH27My8auvMEvDbCkd_JBzdJjjBb99j2a2a9R1wgkOaTdLcM_9FEmpyweVquFetLeyfzSC5UgpukK8Ukw7keJb5HwmTnPP1qWT2QzVX3FKLtBKLDFnuMrzmfgW5dwYf6SJHZHqSDj_eYGdap3ECOMMI1Em6_oS_0/s1600/msecure.jpg",
-      "importance": 7,
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "7 Best Security Add-Ons for Microsoft Entra in 2026",
+      "url": "https://hackread.com/best-security-add-ons-microsoft-entra-2026/",
+      "source": "HackRead",
+      "date": "2026-11-04",
+      "summary": "An article compares seven security add-ons designed to extend Microsoft Entra's capabilities across identity verification, privileged access management, legacy authentication, hardware-backed keys, and directory recovery. The piece targets IAM professionals evaluating third-party tools to complement or enhance their Microsoft Entra deployments.",
+      "image": "https://hackread.com/wp-content/uploads/2026/11/hackers-alter-refrigeration-settings-european-discard-food-1.jpg",
+      "importance": 6,
       "paywall": false
     },
     {
@@ -88,9 +148,19 @@
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/datasync-enhanced-oidc-google-azure/",
       "source": "Amazon.com",
       "date": "2026-11-04",
-      "summary": "AWS DataSync Enhanced mode has added OpenID Connect (OIDC) authentication support for Google Cloud Storage and Microsoft Azure Blob Storage locations. The feature uses AWS IAM roles to obtain short-lived credentials from Google Cloud and Microsoft Azure for cross-cloud data transfer authentication.",
+      "summary": "AWS DataSync Enhanced mode has added OpenID Connect (OIDC) authentication support for Google Cloud Storage and Microsoft Azure Blob Storage locations. The feature uses AWS IAM roles to obtain short-lived credentials from Google Cloud and Azure for secure cross-cloud data transfer authentication.",
       "image": null,
       "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
+      "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+      "source": "The Hacker News",
+      "date": "2026-11-03",
+      "summary": "Barracuda disclosed two vulnerabilities—a pre-authentication authorization bypass (CVE-2026-116606, CVSS 9.3) and a command injection flaw—that can be chained to bypass authorization controls and gain root access on affected devices. The flaws are notable for the authorization bypass component, which allows unauthenticated attackers to circumvent access controls before exploiting the second vulnerability.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCvGJCkYjldhAvsjMo47UqxGOTfVY1zCcjZQzgebkO8j1__fa0cFOn3CAV1jPTUpzwDDISQKPQP5eVGOl9BzRLBX7KlWuU2HMpzuHRWV2wyaItDwYgPu0X7m3qE5V1kgFzKZ1QYcRBcZyDqkUTFberiOWXBfV_-suYC1QQWq_TwBMeyme4F0FsOZnpijhC/s1600/barracuda.png",
+      "importance": 5,
       "paywall": false
     },
     {
@@ -98,7 +168,7 @@
       "url": "https://www.cbinsights.com/research/ai-agent-identity-acquisitions-targets/",
       "source": "Cbinsights.com",
       "date": "2026-11-03",
-      "summary": "A Fortune 500 company discovered over 10,000 previously unknown AI agents during a SailPoint proof of concept engagement, highlighting the growing challenge of AI agent identity governance. The article examines acquisition targets in the AI agent identity security space as vendors like SailPoint expand focus on non-human identity management.",
+      "summary": "A Fortune 500 company discovered over 10,000 unknown AI agents during a SailPoint proof of concept engagement, highlighting the growing challenge of AI agent identity governance. The article examines acquisition targets in the AI agent identity security space as vendors like SailPoint expand focus on non-human identity management.",
       "image": "https://research-assets.cbinsights.com/2026/11/03144543/SecCosBuyAIAgents-Graphic1-102026-3.jpg",
       "importance": 7,
       "paywall": false
@@ -108,7 +178,7 @@
       "url": "https://aws.amazon.com/blogs/machine-learning/servicenow-on-behalf-of-token-exchange-with-bedrock-agentcore-gateway/",
       "source": "Amazon.com",
       "date": "2026-11-03",
-      "summary": "Amazon Bedrock AgentCore Gateway can be configured to perform on-behalf-of (OBO) token exchange with Microsoft Entra ID, enabling AI agents to call the ServiceNow REST API while preserving the calling user's identity. The integration involves AgentCore Gateway natively handling the token exchange between the AI agent and downstream services using delegated user credentials.",
+      "summary": "Amazon Bedrock AgentCore Gateway can be configured to perform on-behalf-of (OBO) token exchange with Microsoft Entra ID, enabling AI agents to call the ServiceNow REST API while preserving the originating user's identity. The integration involves AgentCore Gateway natively handling the token exchange process between the AI agent and downstream services.",
       "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/02/ML-21070-featured-image.png",
       "importance": 6,
       "paywall": false
@@ -118,7 +188,7 @@
       "url": "https://www.opal.dev/agentid",
       "source": "Opal.dev",
       "date": "2026-11-03",
-      "summary": "Opal Security will host agent.ID, a free virtual event on November 5, 2026, focused on IAM for AI agents. The event will feature CISOs and identity leaders from companies including Elastic, Instacart, Notion, Databricks, and Knostic discussing how to govern AI agent identities and access.",
+      "summary": "Opal Security will host agent.ID, a free virtual event on November 5, 2026, focused on adapting IAM practices to AI agents. The event will feature CISOs and identity leaders from companies including Elastic, Instacart, Notion, Databricks, and Knostic discussing AI agent governance.",
       "image": "https://framerusercontent.com/assets/I9GmOPZSurMYrMblJ6AsAb8xrxA.png",
       "importance": 6,
       "paywall": false
@@ -128,7 +198,7 @@
       "url": "https://stackoverflow.blog/2026/11/03/oh-your-agents-need-oauth2-too/",
       "source": "Stackoverflow.blog",
       "date": "2026-11-03",
-      "summary": "Dan Moore, Senior Director of CIAM Strategy and Identity Standards at FusionAuth, discussed adapting OAuth2 protocols for autonomous AI agents at the LDX3 conference by LeadDev. The conversation focused on the security requirement of assigning AI agents their own distinct identities and applying established authorization frameworks to agentic workflows.",
+      "summary": "Dan Moore, Senior Director of CIAM Strategy and Identity Standards at FusionAuth, discussed adapting OAuth2 protocols for autonomous AI agents at the LDX3 conference by LeadDev. The conversation covered the security necessity of giving AI agents their own distinct identities and applying established authorization frameworks to agentic systems.",
       "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format",
       "importance": 7,
       "paywall": false
@@ -138,7 +208,7 @@
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-quick-desktop-organization-sign-in/",
       "source": "Amazon.com",
       "date": "2026-11-02",
-      "summary": "Amazon Quick has updated its desktop application to use the same organizational sign-in method already configured for the web version, eliminating the need for a separate OIDC application registration in the identity provider. Administrators no longer need to perform additional identity provider configuration steps to support desktop app authentication.",
+      "summary": "Amazon Quick has updated its desktop application to use the same organizational sign-in method already configured for the web version, eliminating the need for a separate OIDC application registration in the identity provider. This change simplifies IAM administration by removing the requirement for administrators to set up and manage an additional OIDC integration for the desktop client.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -148,7 +218,7 @@
       "url": "https://biztoc.com/x/01d617a9f4f297a3",
       "source": "Biztoc.com",
       "date": "2026-11-02",
-      "summary": "Okta announced it will release its Q3 fiscal year 2027 financial results on December 1, 2026, after U.S. market close. The announcement covers the quarter ended October 31, 2026.",
+      "summary": "Okta announced it will release its third quarter fiscal year 2027 financial results on December 1, 2026. The results will cover the quarter ended October 31, 2026, and will be released after U.S. market close.",
       "image": "https://biztoc.com/cdn/01d617a9f4f297a3_s.webp",
       "importance": 3,
       "paywall": false
@@ -158,29 +228,19 @@
       "url": "https://www.darkoperator.com/blog/2026/11/2/cwdl3e3gk4d6uiyor7ack9sdzvqvjj",
       "source": "Darkoperator.com",
       "date": "2026-11-02",
-      "summary": "The article covers implementing phishing-resistant MFA and passkeys in Microsoft Entra ID, specifically focused on protecting privileged administrator accounts. It addresses identifying privileged identities that may be missed in standard role reports and prioritizing admin accounts due to the high-impact risk of compromised Global Administrator credentials.",
+      "summary": "This article covers implementing phishing-resistant MFA and passkeys in Microsoft Entra ID, specifically focused on protecting privileged administrator accounts. The piece is part six of a seven-part series addressing privileged identity protection and discovering identities that may be missed in standard role reports.",
       "image": "http://static1.squarespace.com/static/52ad1d91e4b00a98a27ba20e/t/6ad4f089641cab5b821b7995/1793396182377/role-based-access-control_security-emergency-access_alert-logic.png?format=1500w",
       "importance": 7,
       "paywall": false
     },
     {
-      "title": "Okta jumps after-hours following tapped inclusion in the S&P 500",
-      "url": "https://biztoc.com/x/039406a3a41cc8fa",
-      "source": "Biztoc.com",
-      "date": "2026-10-30",
-      "summary": "Okta has been selected by S&P Dow Jones Indices to join the S&P 500 benchmark index. The announcement caused Okta shares to climb 2.1% in after-hours trading.",
-      "image": "https://biztoc.com/cdn/039406a3a41cc8fa_s.webp",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Okta Set to Join S&P 500; Others to Join S&P MidCap 400 and S&P SmallCap 600",
-      "url": "https://biztoc.com/x/e179887860e0a17b",
-      "source": "Biztoc.com",
-      "date": "2026-10-30",
-      "summary": "Okta is set to join the S&P 500 index, moving up from the S&P MidCap 400, effective prior to trading on November 4. This index inclusion reflects Okta's market capitalization growth and raises its profile among institutional investors.",
-      "image": "https://biztoc.com/cdn/e179887860e0a17b_s.webp",
-      "importance": 7,
+      "title": "Microsoft Patches More Than 1,400 Security Flaws",
+      "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+      "source": "Krebs on Security",
+      "date": "2026-10-13",
+      "summary": "Microsoft released a patch update addressing more than 1,400 security vulnerabilities across Windows operating systems and other software. The patch batch surpasses the previous record of nearly 1,000 fixes issued in September.",
+      "image": null,
+      "importance": 4,
       "paywall": false
     }
   ]
