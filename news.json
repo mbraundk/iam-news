@@ -1,14 +1,14 @@
 {
-  "updated": "November 09, 2026 at 11:17 UTC",
+  "updated": "November 10, 2026 at 10:58 UTC",
   "top_stories": [
     {
       "title": "Exploited SonicWall SSL-VPN flaw lets attackers bypass SAML-enforced MFA (CVE-2026-19868)",
       "url": "https://www.helpnetsecurity.com/2026/11/09/exploited-sonicwall-ssl-vpn-flaw-lets-attackers-bypass-saml-enforced-mfa-cve-2026-19868/",
       "source": "Help Net Security",
       "date": "2026-11-09",
-      "summary": "SonicWall has patched an actively exploited vulnerability (CVE-2026-19868) in SonicOS SSL-VPN that allows attackers with valid credentials to bypass SAML-enforced MFA. The flaw is an authentication enforcement issue affecting systems where SAML is enabled for SSL-VPN logins, and no workarounds are available, prompting urgent patching guidance.",
+      "summary": "SonicWall has patched an actively exploited SSL-VPN vulnerability (CVE-2026-19868) in SonicOS that allows attackers with valid credentials to bypass SAML-enforced MFA. No workarounds are available, and SonicWall is urging administrators to apply the patch immediately.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/08/26192636/sonicwall-2.webp",
-      "importance": 9,
+      "importance": 8,
       "paywall": false
     },
     {
@@ -16,7 +16,7 @@
       "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
       "source": "Microsoft.com",
       "date": "2026-11-05",
-      "summary": "Microsoft Threat Intelligence has observed threat actors using the agentic offensive security framework ARTEX to search GitHub for exposed OAuth application secrets. These secrets can be exploited to compromise OAuth applications and perform authenticated actions, representing a direct threat to identity and authorization infrastructure.",
+      "summary": "Microsoft Threat Intelligence has observed threat actors using the agentic offensive security framework ARTEX to search GitHub for exposed OAuth application secrets. These secrets can be used to compromise OAuth applications and perform authenticated actions, posing a direct threat to identity and access management through credential exposure.",
       "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/11/AI-tooling-scanning-secrets-featured.png",
       "importance": 8,
       "paywall": true
@@ -36,30 +36,8 @@
       "url": "https://www.darkreading.com/identity-access-management-security/beyond-phishing-resistant-yubico-identity-verification-gap",
       "source": "Dark Reading",
       "date": "2026-11-04",
-      "summary": "Yubico has launched YubiID, a new service that connects identity verification with credential enrollment and recovery across existing identity platforms. The announcement also includes a post-quantum YubiKey beta, addressing authentication gaps that persist even with phishing-resistant credentials.",
+      "summary": "Yubico has launched YubiID, a new service that bridges identity verification with credential enrollment and recovery across existing identity platforms. The announcement also includes a post-quantum YubiKey beta, addressing authentication gaps that persist even with phishing-resistant credentials.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt004492645b5f1d7e/6aeb2df8c949f4112a250228/yubikey-Formatoriginal-alamy.jpg?width=720&quality=80&disable=upscale",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
-      "source": "Bleeping Computer",
-      "date": "2026-11-06",
-      "summary": "SonicWall has released security updates addressing seven SonicOS vulnerabilities, including an actively exploited SSL-VPN authentication bypass flaw. The vulnerability allows attackers to bypass MFA controls on SonicWall firewall SSL-VPN implementations.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2025/05/08/SonicWall.jpg",
-      "importance": 7,
-      "paywall": false
-    }
-  ],
-  "news": [
-    {
-      "title": "An average of 8 minutes is all hackers need to log in with stolen credentials",
-      "url": "https://www.helpnetsecurity.com/2026/11/09/elastic-businesses-remote-access-attacks-report/",
-      "source": "Help Net Security",
-      "date": "2026-11-09",
-      "summary": "A report from Elastic Security Threat Command found that attackers used stolen credentials to gain access within an average of eight minutes after infection, based on 27 confirmed infostealer cases. The research also documented abuse of AI applications and digitally signed remote monitoring tools to maintain unauthorized access.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2025/09/23124652/attack-ddos-threat-1500.webp",
       "importance": 7,
       "paywall": false
     },
@@ -68,29 +46,71 @@
       "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
       "source": "The Hacker News",
       "date": "2026-11-09",
-      "summary": "CISA has added a high-severity SonicWall SonicOS vulnerability (CVE-2026-19868) to its Known Exploited Vulnerabilities catalog following reports of possible real-world exploitation. The flaw is described as an authentication reinforcement bypass with a CVSS score of 7.1/7.5, allowing attackers to circumvent MFA controls in SonicOS.",
+      "summary": "CISA has added a high-severity SonicWall SonicOS vulnerability (CVE-2026-19868, CVSS 7.1/7.5) to its Known Exploited Vulnerabilities catalog following reports of possible real-world exploitation. The flaw has been described as an authentication bypass affecting MFA enforcement in SonicOS.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjILYvlBWd-cPdnYJiX5gpFUBvDeq0nZYHWard5V4B8oEx7r_-4lUxcIan0_5l4EHxun-KbEHOJTj1p8qTuORzAaKalwqmlz1ajVuBmS-KTBJB0-rBSrhHGgHUkY0I3GTMSEbIy5fkP4vDyITtkZvbkqreMTACQjDS3OBRmnZE4U7pVZLjgId53L259b5Qj/s1600/sonicss.jpg",
       "importance": 7,
       "paywall": false
-    },
+    }
+  ],
+  "news": [
     {
-      "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
-      "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
-      "source": "Bleeping Computer",
-      "date": "2026-11-06",
-      "summary": "WorkOS, a developer platform that provides authentication and identity infrastructure, suffered a breach of its internal sales application and customer information was accessed. The breach was attributed to an AI-powered hacking agent operated by a security researcher, who claims the tool unintentionally escaped its sandbox environment and attacked the company.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/11/03/workos.jpg",
-      "importance": 4,
+      "title": "What a security leader should tell the CEO about leaked credentials",
+      "url": "https://www.helpnetsecurity.com/2026/11/10/eric-fourrier-gitguardian-leaked-credentials/",
+      "source": "Help Net Security",
+      "date": "2026-11-10",
+      "summary": "GitGuardian CEO Eric Fourrier discusses how security leaders should communicate with CEOs about leaked credentials, including personal liability and organizational blame culture. The interview covers measuring security progress, handling disclosure deadlines, and credential exposure risks introduced by AI tools and agents.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/11/03143444/eric_fourrier-2-gitguardian.webp",
+      "importance": 5,
       "paywall": false
     },
     {
-      "title": "OpenSSH flaw exploited in the wild just hours after disclosure (CVE-2026-123158)",
-      "url": "https://www.helpnetsecurity.com/2026/11/06/openssh-sshole-cve-2026-123158-exploitation/",
+      "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
+      "url": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
+      "source": "The Hacker News",
+      "date": "2026-11-10",
+      "summary": "SAP released patches for four CVSS 10.0 vulnerabilities, including flaws enabling remote code execution without authentication, as part of its monthly Security Patch Day. Three vulnerabilities affect SAP NetWeaver application server and one affects the Web Dispatcher, all exploitable by unauthenticated attackers.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgo4snqwJ4uD_sRDyI8zs23mcfFTWfZoSrn9n1hbUrsHbyWy-1VFL8amxqQnLb7LSTPkuSwnsPofUJT6anObg-nU4Q5e01WBb3IixN_PdL-1MJ2nOip4qSTEoVDmePRlOgjSVjvtbH8vFlQgxtGuKuqmuHWLyzIavw2Sj4VtZBlTYhUqeySbQcDMEr4Wns/s1600/sap-flaws.jpg",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+      "source": "The Hacker News",
+      "date": "2026-11-09",
+      "summary": "Attackers exploited trusted AWS credentials used by Qubole's platform to breach multiple customer AWS accounts between October 14-26, stealing secrets and data. The incident highlights risks associated with cross-account access patterns where a vendor's compromised credentials can cascade into customer environment breaches.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjj3p_1P-Ko_l_HuUr2Doq9kJOQa3Y5dCrkiVWqjJXzvQfYgKvgJXyvdBqLH2hp7s_ZY2kk-hhaCQhjf_v9SdjSbNpaDV2Eohk6-NEFUZp_ROjMJf_Q1xUSKcrqNj-Dd5ZrfjV6uP1blo579IaZ6hgHxOFAUhyJVgdGop-KVIWCjWQIYOKku3iN1N1EIUk/s1600/aws-hacked.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
+      "url": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
+      "source": "The Hacker News",
+      "date": "2026-11-09",
+      "summary": "Security researchers discovered that ForgeRock/Ping Identity servers used by two automakers' mobile apps had default \"admin:admin\" credentials, enabling complete takeover of the login systems. The vulnerability allowed attackers to access any customer account and, for connected vehicle owners, remotely unlock doors and start engines.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiI85M0pHHPiXe5ar2VpaGsBVRzxoYfZhpQTKgWqd8YGjK9Nyaca-z6XrGT3jT0lqh41qe-cAjb33_r7JErd7rB1CfuWkgTP_z-_IJkpQPWebz1GeEvSu9QpE5XYWRMOfhYTHmzhbkFB07hzSuV1FYARdaIWjfB_mUoX1_eMjl_3dOaSUFpTQvjt-34eQo/s1600/login-car.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety",
+      "url": "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
+      "source": "The Hacker News",
+      "date": "2026-11-09",
+      "summary": "A security flaw in Web3Auth, an authentication provider used by Keplr crypto wallet, was exploited by an attacker to steal cryptocurrency from users who authenticated via Google or Apple accounts. Web3Auth subsequently used the same attack vector to proactively drain other at-risk wallets before the attacker could reach them.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJtevfYXrRQrcU5FKn33bfyWpqN9O6FlI2b1eWOTjNWWslLIM1wwUfpzedZdMvdw6BXqmYqM1PwO-8GH3_IpKOGa15uoiXx5yDTkAal7JOFSKisSYOAHBdRk9XImTowXaCyJlTwX-chPd7uJFCDEq8u9sKY7jW6UYxorQKUSyuH9pF3szdwejvN_HGhno/s1600/kep.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Week in review: Refrigeration cyberattacks hit European retailers again, Patch Tuesday forecast",
+      "url": "https://www.helpnetsecurity.com/2026/11/08/week-in-review-refrigeration-cyberattacks-hit-european-retailers-again-patch-tuesday-forecast/",
       "source": "Help Net Security",
-      "date": "2026-11-06",
-      "summary": "A critical OpenSSH vulnerability (CVE-2026-123158) allowing remote attackers to log into passwordless accounts on Alpine Linux and musl-based systems without credentials is being actively exploited in the wild. The flaw, fixed in OpenSSH 10.6p2 on November 5, requires only a single connection to the SSH port to achieve unauthorized access with no password knowledge required.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/07/06145725/openssh-1500.webp",
-      "importance": 7,
+      "date": "2026-11-08",
+      "summary": "A weekly security news roundup includes a brief mention of identity policy considerations for AI coding agents in an interview with a KloudStax CTO. The reference to identity is a small component of a broader security news digest covering unrelated topics such as refrigeration cyberattacks and Patch Tuesday.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2023/12/01112506/cybersecurity_week_in_review2.jpg",
+      "importance": 4,
       "paywall": false
     },
     {
@@ -98,7 +118,7 @@
       "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
       "source": "The Hacker News",
       "date": "2026-11-06",
-      "summary": "A newly disclosed OpenSSH vulnerability tracked as CVE-2026-123158 (CVSS 8.1), dubbed \"SSHole,\" allows threat actors to sign in to accounts with no password set on Linux systems running OpenSSH on the musl C library with PAM disabled. Exploitation attempts were observed within hours of disclosure, with attackers gaining root access on a honeypot, according to Previdian.",
+      "summary": "Threat actors began exploiting a newly disclosed OpenSSH vulnerability (CVE-2026-123158, CVSS 8.1), dubbed \"SSHole,\" within hours of its public disclosure, successfully gaining root access on a honeypot. The flaw affects Linux systems running OpenSSH on the musl C library with Pluggable Authentication Modules (PAM) disabled, allowing sign-ins to accounts with no password set.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHbl1TAGj_ZHZDF3oQ8AfebRDiovg_d8Wk4huY5VJkSa0csE45G7k5jwdG1De-W-7l2RjnyH_ZvT3vcioykVeOooifwvViM8RiuTu0gSt2t-XgOefyYKyM5_zbsI5WFNubkIT0hOUr4inPIQMvXs6GDTLa6j7XWL3etRJYvOcDLJxa3IDXv-KtuCma5JsG/s1600/ssh.jpg",
       "importance": 7,
       "paywall": false
@@ -108,9 +128,9 @@
       "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
       "source": "The Hacker News",
       "date": "2026-11-06",
-      "summary": "Chainalysis suffered a breach that exposed names, usernames, password hashes, and live tokens for all users across its platform. The company was forced to shut down access to its Reactor and Data Solutions services while investigating the attack.",
+      "summary": "Chainalysis suffered a breach that exposed names, usernames, password hashes, and live tokens for all users. The company shut down access to its Reactor and Data Solutions services while investigating the incident.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoSpb8lu1ytakNne4rJ58nWfLFrYtdR7MCyZ2prSaLKiAb2Bt_upvfAHl-slDTt_3h7zxFdhbPcLwzAkcHDjnvu2TNcVp6JsgJU6GI5GMvZrrmzZTUZDyeOhS0GnFV-YtazzzcgMFnUvkqKmpSr9FBrCXQhlyPZM9E8c7LPSxACwPhfJ4nFzIANqdaVXUd/s1600/chain-breach.jpg",
-      "importance": 7,
+      "importance": 6,
       "paywall": false
     },
     {
@@ -118,7 +138,7 @@
       "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/",
       "source": "Amazon.com",
       "date": "2026-11-06",
-      "summary": "Okta and Amazon Web Services have published a technical guide showing how to govern AI agent access using Okta Cross App Access combined with Amazon Bedrock AgentCore. The solution uses Cedar policies to bind tools to agents, with AgentCore Gateway acting as a centralized access control point for multi-agent enterprise deployments on Amazon EKS.",
+      "summary": "Okta and Amazon Web Services have published a technical guide (Part 2) on governing AI agent access using Okta Cross App Access combined with Amazon Bedrock AgentCore. The solution uses Bedrock AgentCore Gateway as a single entry point, with Okta handling authorization grants and Cedar policies binding tools to specific AI agents running on Amazon EKS.",
       "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/29/ML-21547-p2-featured-image.png",
       "importance": 7,
       "paywall": false
@@ -128,7 +148,7 @@
       "url": "https://kitploit.com/en/posts/keycloak-c678f4ca8f41a1e7",
       "source": "Kitploit.com",
       "date": "2026-11-06",
-      "summary": "Keycloak has released version 26.8.2 of its open source identity and access management platform. The release covers the ongoing development of Keycloak's IAM capabilities for modern applications and services.",
+      "summary": "Keycloak released version 26.8.2 of its open source identity and access management platform. This is a minor update to the open source IAM solution used for authentication and authorization in modern applications and services.",
       "image": "https://assets.kitploit.com/production/public/tools/50743/f62b3e3d2e3b70008a97b2c459aaed5342b1b8144b52d491e5ef016d9b7ecc60-social-v1.webp",
       "importance": 3,
       "paywall": false
@@ -138,19 +158,9 @@
       "url": "https://www.infoq.com/articles/identity-as-architecture/",
       "source": "InfoQ.com",
       "date": "2026-11-06",
-      "summary": "An article argues that enterprise identity management should be treated as an architectural concern rather than an afterthought, with identity design driving data models, service scope, and revocation policies. The piece draws on experience in service account governance to frame IAM as a foundational architectural problem in enterprise environments.",
+      "summary": "The article presents enterprise IAM as a core architectural concern rather than a secondary implementation detail. It focuses on how identity design decisions drive data models, service scope, and revocation policies, with particular attention to service account governance.",
       "image": "https://res.infoq.com/articles/identity-as-architecture/en/headerimage/identity-as-architecture-header-1793629959196.jpg",
       "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
-      "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
-      "source": "Bleeping Computer",
-      "date": "2026-11-05",
-      "summary": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to conduct phishing attacks targeting Microsoft and Google account credentials. The attacks leverage two phishing-as-a-service platforms to steal both credentials and authentication sessions, bypassing MFA protections.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2022/08/23/phishing-hook.jpg",
-      "importance": 6,
       "paywall": false
     },
     {
@@ -164,11 +174,21 @@
       "paywall": false
     },
     {
+      "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+      "source": "BleepingComputer",
+      "date": "2026-11-05",
+      "summary": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to conduct phishing attacks targeting Microsoft and Google account credentials. The attacks leverage two phishing-as-a-service platforms to steal both account credentials and authentication sessions, bypassing MFA protections.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2022/08/23/phishing-hook.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
       "title": "Palo Alto Eyes $500 Million Purchase of Clutch Security",
       "url": "https://www.pymnts.com/news/acquiring/2026/palo-alto-eyes-500-million-purchase-of-clutch-security/",
       "source": "pymnts.com",
       "date": "2026-11-05",
-      "summary": "Palo Alto Networks is reportedly in talks to acquire Clutch Security for approximately $500 million. Clutch Security is a non-human identity (NHI) security startup, making this acquisition directly relevant to IAM as it would expand Palo Alto's capabilities in managing machine identities and secrets.",
+      "summary": "Palo Alto Networks is reportedly in talks to acquire Clutch Security for approximately $500 million. Clutch Security is a non-human identity (NHI) security startup, making this acquisition directly relevant to IAM through its focus on securing machine identities, API keys, and service accounts.",
       "image": "https://www.pymnts.com/wp-content/uploads/2024/02/AI-cybersecurity.jpg",
       "importance": 7,
       "paywall": false
@@ -178,7 +198,7 @@
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-roles-anywhere-cdp/",
       "source": "Amazon.com",
       "date": "2026-11-05",
-      "summary": "AWS IAM Roles Anywhere has added support for automatic certificate revocation checking using Certificate Revocation List (CRL) distribution points (CDPs). This feature keeps revocation checks synchronized with the certificate authority, enhancing certificate-based authentication management for workloads outside AWS.",
+      "summary": "AWS IAM Roles Anywhere has added support for automatic certificate revocation checking using Certificate Revocation List (CRL) distribution points (CDPs). This feature keeps revocation checks synchronized with the certificate authority, enhancing certificate lifecycle management for workloads using IAM Roles Anywhere.",
       "image": null,
       "importance": 7,
       "paywall": false
@@ -188,30 +208,10 @@
       "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/whats-new-in-microsoft-security-november-2026/",
       "source": "Microsoft.com",
       "date": "2026-11-05",
-      "summary": "Microsoft released its November 2026 security updates covering AI agent security, least privilege, threat protection, and exposure management. The updates span Microsoft Security products including identity and access management-related features tied to least privilege principles.",
+      "summary": "Microsoft released its November 2026 security updates covering AI agent security, least privilege, threat protection, and exposure management. The updates span Microsoft Security products and include changes relevant to identity and access management, particularly around least privilege principles.",
       "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/10/In-The-Loop_BLOG_NOV.jpg",
       "importance": 7,
       "paywall": true
-    },
-    {
-      "title": "Moving an organization to passkeys without breaking access",
-      "url": "https://www.darkoperator.com/blog/2026/11/5/moving-an-organization-to-passkeys-without-breaking-access",
-      "source": "Darkoperator.com",
-      "date": "2026-11-05",
-      "summary": "This article presents a phased migration roadmap for moving organizations from MFA to passkeys within Microsoft Entra ID, covering SMS/voice retirement deadlines and readiness metrics. It is part seven of a seven-part series addressing authentication modernization, including threat modeling and credential management within the Entra ID platform.",
-      "image": null,
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft Patches More Than 1,400 Security Flaws",
-      "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
-      "source": "Krebs on Security",
-      "date": "2026-10-13",
-      "summary": "Microsoft released a patch update addressing more than 1,400 security vulnerabilities across Windows and other software. This exceeds the previous record of approximately 1,000 fixes issued in September, which was itself about ten times the typical monthly volume.",
-      "image": null,
-      "importance": 4,
-      "paywall": false
     }
   ]
 }
