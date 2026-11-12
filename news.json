@@ -1,23 +1,13 @@
 {
-  "updated": "November 11, 2026 at 10:40 UTC",
+  "updated": "November 12, 2026 at 10:53 UTC",
   "top_stories": [
     {
       "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
-      "source": "Bleeping Computer",
+      "source": "BleepingComputer",
       "date": "2026-11-10",
-      "summary": "A threat actor compromised IAM credentials associated with a Qubole big data platform AWS account to breach multiple customers' cloud environments and exfiltrate data. The attack exploited trusted AWS IAM access, demonstrating how compromised third-party IAM credentials can cascade into multi-tenant cloud breaches.",
+      "summary": "A threat actor compromised IAM credentials associated with a Qubole big data platform AWS account to gain unauthorized access to multiple customers' cloud environments. The attack leveraged trusted AWS IAM access to move laterally and exfiltrate data across several victim organizations' AWS environments.",
       "image": "https://www.bleepstatic.com/content/hl-images/2026/08/21/awskey.jpg",
-      "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Exploited SonicWall SSL-VPN flaw lets attackers bypass SAML-enforced MFA (CVE-2026-19868)",
-      "url": "https://www.helpnetsecurity.com/2026/11/09/exploited-sonicwall-ssl-vpn-flaw-lets-attackers-bypass-saml-enforced-mfa-cve-2026-19868/",
-      "source": "Help Net Security",
-      "date": "2026-11-09",
-      "summary": "SonicWall has patched an actively exploited SSL-VPN vulnerability (CVE-2026-19868) in SonicOS that allows attackers with valid credentials to bypass SAML-enforced MFA. No workarounds are available, and SonicWall is urging administrators to apply the patch immediately.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/08/26192636/sonicwall-2.webp",
       "importance": 8,
       "paywall": false
     },
@@ -26,9 +16,111 @@
       "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
       "source": "Bleeping Computer",
       "date": "2026-11-10",
-      "summary": "Railway, a cloud hosting provider, suffered a breach in which hackers exploited infrastructure vulnerabilities to steal customer authentication secrets. The attack resulted in approximately $740,000 in fraudulent AI charges and potentially exposed credentials for up to 100,000 workspaces.",
+      "summary": "Railway, a cloud hosting provider, suffered a breach in which hackers exploited infrastructure vulnerabilities to steal customer authentication secrets. The attack resulted in approximately $740,000 in fraudulent AI charges and potentially exposed credentials across up to 100,000 workspaces.",
       "image": "https://www.bleepstatic.com/content/hl-images/2026/10/22/railway.jpg",
       "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Check your GitHub repos: A secret stealer hit tens of thousands of them",
+      "url": "https://www.helpnetsecurity.com/2026/11/12/wfx-loot-github-actions-secret-stealer/",
+      "source": "Help Net Security",
+      "date": "2026-11-12",
+      "summary": "A threat actor compromised tens of thousands of GitHub repositories using stolen credentials, pushing credential-stealing malware dubbed \"wfx-loot\" since November 10. The campaign successfully exfiltrated GitHub Actions secrets and cloud credentials from over 1,800 repositories, with 4,837 compromised accounts identified opening probe pull requests.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/11/12102048/github-red-danger-1500.webp",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Who collects the keys when an AI agent retires?",
+      "url": "https://www.helpnetsecurity.com/2026/11/12/sprinto-ai-agent-offboarding/",
+      "source": "Help Net Security",
+      "date": "2026-11-12",
+      "summary": "The article addresses the identity lifecycle management challenge posed by AI agents, specifically focusing on offboarding processes for non-human identities. It draws a parallel between human employee offboarding (revoking credentials, collecting access keys) and the largely unaddressed problem of properly decommissioning AI agents that hold credentials and access rights.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2025/10/27095223/ai_agents-1500.webp",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Bots pose as AI agents, AI agents pose as humans, and defenses believe both",
+      "url": "https://www.helpnetsecurity.com/2026/11/12/bots-ai-agent-impersonation/",
+      "source": "Help Net Security",
+      "date": "2026-11-12",
+      "summary": "A credential stuffing operation impersonated a widely used consumer AI agent to conduct 414,210 login attempts against an online marketplace over one week in October, with all attempts targeting the sign-in page. The attack highlights emerging threats where bots masquerade as legitimate AI agents to bypass bot detection defenses, directly impacting authentication security.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/09/22085447/bots-army-1500.webp",
+      "importance": 7,
+      "paywall": false
+    }
+  ],
+  "news": [
+    {
+      "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
+      "url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+      "source": "The Hacker News",
+      "date": "2026-11-12",
+      "summary": "An attacker used stolen credentials for 4,837 GitHub accounts to plant a secret-stealing payload in over 1,806 repositories, according to Aikido Security. The malware targeted secrets and cloud credentials accessible through CI/CD workflows in those repositories.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1-4OiOkGLcK3fAr2HdhALOfc_BqR21440TsjUIuCNzv4YL0lWRC3lvUjE1vu2RdVfjunxi80gMQyGpjvUdWzMRtthW8_-hFOJ79YhFzJrNGgoKDPYXm2OaWOsN8kgBELqOPs5s9QKL4qzQzu_3NEEqHygpfQzKYxDRIQeFgMHj24oyPyaslUemke-loU/s1600/github.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "eMudhra revokes 8 more CA certificates after private key mishap",
+      "url": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
+      "source": "Bleeping Computer",
+      "date": "2026-11-11",
+      "summary": "eMudhra has revoked eight additional intermediate CA certificates following an investigation into improper private key handling during certificate generation. The incident involves the compromise of private keys used in the certificate authority's certificate-generation process, requiring revocation of the affected intermediate CA certificates.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/10/20/certificate.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
+      "source": "Bleeping Computer",
+      "date": "2026-11-11",
+      "summary": "CISA has added a high-severity Cisco BroadWorks vulnerability to its Known Exploited Vulnerabilities catalog after confirming active exploitation in attacks. Cisco BroadWorks is a telecommunications platform, and authentication/authorization flaws in such systems are directly relevant to IAM professionals monitoring infrastructure security risks.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/10/28/CISA.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+      "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+      "source": "The Hacker News",
+      "date": "2026-11-11",
+      "summary": "Zoom has patched two security vulnerabilities in Zoom Workplace for Windows, including a critical flaw (CVE-2026-108186, CVSS 9.6) involving improper input validation. The vulnerability could allow an unauthenticated user to conduct privilege escalation on affected systems.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhox0GUms6IXvet2jPVoQ5VlUIZ_V7C3iT4HI3qV-Pi7_KRybDyGKGlb2S0Z4uvih4ERjjnGOn9Prav0HpvqNNR3_HVs7W5o0wM0-XsTdp6ploM2Optp5ls97C0JU5DIqubY-lNcLvLia25Z2c__IZt8Ws1OjX0tGavbyvb_dXrltSKj-HJHijQJ9AdDxEB/s1600/zoom-prv.jpg",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+      "url": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
+      "source": "The Hacker News",
+      "date": "2026-11-11",
+      "summary": "Security researchers at Claroc found that 35,578 out of 37,571 Grok-built apps were publicly accessible without authentication. Approximately 10% of the exposed apps contained internal business data or passwords, including apps built by X and SpaceX employees.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh54t26Pk-bNbcIXgu8KrKpT_zN1KxEov16xTFlJ8kiPJ3-btXjGUE1lb0ZpamQU5jUHwmxzxHpYLsAQfiaHQUu3gxCIUw2gsEYNwMjL6nRm_jWm6t_VdHJkz6xj3fAsmTZKP8Bbax1qdT98a_PY4ynv81njiDyPXvIIihl4dqXxxC9pMMf8-Mn9dziy_A/s1600/grokai.jpg",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
+      "url": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
+      "source": "The Hacker News",
+      "date": "2026-11-11",
+      "summary": "Token describes building an AI agent that violated all three of its own security principles—distinct identity, least-privilege access, and separate traceability—by default. The article examines how browser-based AI agents operating within authenticated user sessions create identity, authorization, and auditability challenges for IAM practitioners.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhB22NtEOE6ioVcc92S5bLfFX3tbKyjNkx0j8OmHekqWq6Od4h9DtFmbmdd74VzwHCh5h6NbWnBgHgKzC49DwS7QAgA0uH3eL7BvBnN9QJu3U5-oiy5ZFMN7PvaJTBqjP7TR5VMjzrGxjfOfjgBqs3lecFZnWGEYNDp_BJgklco1L_acBqGm1M_CvtfLaY/s1600/AI-AGENT.png",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
+      "url": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
+      "source": "The Hacker News",
+      "date": "2026-11-11",
+      "summary": "eMudhra has revoked 8 additional intermediate certificate authorities (CAs) that were previously declared unaffected by its October key compromise incident. The revocation stems from an in-house Python script involved in the original compromise, with the affected intermediate CAs having their own distinct private key issue rather than weakened keys.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjONLgT6piRm0O75Y6dzQY4L2RO8OQTlWaJbwSTHFDeh82Qiadl2PT9KI9r2jC1JbwS-TqPm3g1Ea0Q8I91FalXu2GZ0fBBnfId6-8ZWKABrBQZWg7nA1X6cHq7wgHK3rc2Y5YW4yb61TjxVyywyWprml6yhBgH-SBaTvXZF-50J8-mR5Q6cGhSgfuMUdk/s1600/emudhra.jpg",
+      "importance": 6,
       "paywall": false
     },
     {
@@ -36,40 +128,8 @@
       "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
       "source": "The Hacker News",
       "date": "2026-11-11",
-      "summary": "Microsoft released patches for 1,259 vulnerabilities across its software portfolio, including an actively exploited Outlook bug that may expose NTLMv2 hashes. The NTLMv2 hash exposure vulnerability is directly relevant to IAM professionals as NTLM credentials are used in Windows authentication flows and can be leveraged for credential theft and pass-the-hash attacks.",
+      "summary": "Microsoft released patches for 1,259 vulnerabilities across its software portfolio, including an actively exploited Outlook bug that may expose NTLMv2 hashes. The NTLMv2 hash exposure vulnerability is directly relevant to IAM professionals as NTLM credentials can be captured and used in pass-the-hash attacks to compromise authentication and access controls.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_nfFO2Zf-R2XyVzQHP43rc0OLAtUtRKWYV0VIaoHZW8EeH78h2Id9FmfJQVfzFdmBD6ugVGeCehX1Nq6jlmXlMG4AmnV3Tib3YvClKGaplVg5Ngk_KlpqwHx6Pd_oYQTCj2O3HfOpt_MoSGQD-4Nv-pju5sqS7U9-rAJdpKTn-xnhA1QSmmTiQWnAFjGp/s1600/patch-ms.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
-      "source": "The Hacker News",
-      "date": "2026-11-10",
-      "summary": "A critical authentication bypass vulnerability (VSA-2026-062) in Xen Orchestra, developed by French company Vates VMS, is being actively exploited in the wild. The flaw involves improper REST cookie parsing that converts an authentication token into an empty object, allowing attackers to gain admin access without valid credentials.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMH_u7t-U3KIejAItsfC_js20xJgxT2ITYLsR0DAxzfcwDvPrzBHkpZlDuALWPnACOoknX2IALwHIUxIzfhbA24M7e8cGWTZpBMWqpX-wn6xqe8_U3fAtnR-9RsRdFHMCjvNnBsMXrEUKhVYS5bbTGL3B50UMO0aydtHIomY89s2iDAQMq0jXJJ3vh4Nvi/s1600/XEN-attack.jpg",
-      "importance": 7,
-      "paywall": false
-    }
-  ],
-  "news": [
-    {
-      "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
-      "source": "Bleeping Computer",
-      "date": "2026-11-11",
-      "summary": "CISA has flagged a high-severity Cisco BroadWorks vulnerability as actively exploited in the wild. BroadWorks is a telecommunications platform, and authentication-related vulnerabilities in such systems are relevant to IAM professionals monitoring actively exploited credential or access flaws.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/10/28/CISA.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Obsidian expands AI agent security with runtime policy enforcement",
-      "url": "https://www.helpnetsecurity.com/2026/11/11/obsidian-security-runtime-policy-decision-engine/",
-      "source": "Help Net Security",
-      "date": "2026-11-11",
-      "summary": "Obsidian Security has launched a Runtime Policy Decision Engine that gives security teams centralized control over AI agent actions before execution. The engine uses context from identity systems, third-party applications, and user-defined labels to allow, block, or require human approval for AI agent actions.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
       "importance": 6,
       "paywall": false
     },
@@ -78,9 +138,19 @@
       "url": "https://www.darkreading.com/cyber-risk/ai-coding-agents-leak-secrets-github",
       "source": "Dark Reading",
       "date": "2026-11-10",
-      "summary": "A command in Claude Code inadvertently saves files containing credentials and other sensitive data to public GitHub repositories. This creates credential exposure risks for organizations using AI coding agents, as secrets intended to remain private are being leaked to public repositories.",
+      "summary": "A command in Claude Code is inadvertently saving files containing credentials and other sensitive secrets to public GitHub repositories. The issue creates credential exposure risks for organizations using AI coding agents, with sensitive authentication data being committed to publicly accessible repositories.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt048c697c8a84cb6c/6af31954c9740413639c4243/Gorodenkoff-developer-coding-shutterstock.png?width=720&quality=80&disable=upscale",
       "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+      "source": "The Hacker News",
+      "date": "2026-11-10",
+      "summary": "A critical authentication bypass vulnerability (VSA-2026-062) in Xen Orchestra, developed by Vates VMS, is being actively exploited in the wild to grant attackers admin access. The flaw involves improper REST cookie parsing of the authenticationToken field, which converts a crafted value into an empty object that bypasses authentication checks.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMH_u7t-U3KIejAItsfC_js20xJgxT2ITYLsR0DAxzfcwDvPrzBHkpZlDuALWPnACOoknX2IALwHIUxIzfhbA24M7e8cGWTZpBMWqpX-wn6xqe8_U3fAtnR-9RsRdFHMCjvNnBsMXrEUKhVYS5bbTGL3B50UMO0aydtHIomY89s2iDAQMq0jXJJ3vh4Nvi/s1600/XEN-attack.jpg",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -88,7 +158,7 @@
       "url": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
       "source": "The Hacker News",
       "date": "2026-11-10",
-      "summary": "SAP released patches for four maximum-severity CVSS 10.0 vulnerabilities on its monthly Security Patch Day, all exploitable without authentication. Three flaws affect SAP NetWeaver application server and one affects the Web Dispatcher, with two enabling remote code execution.",
+      "summary": "SAP released patches for four CVSS 10.0 vulnerabilities on its monthly Security Patch Day, including two enabling remote code execution. Three flaws are in SAP NetWeaver application server and one is in the Web Dispatcher, all exploitable without authentication.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgo4snqwJ4uD_sRDyI8zs23mcfFTWfZoSrn9n1hbUrsHbyWy-1VFL8amxqQnLb7LSTPkuSwnsPofUJT6anObg-nU4Q5e01WBb3IixN_PdL-1MJ2nOip4qSTEoVDmePRlOgjSVjvtbH8vFlQgxtGuKuqmuHWLyzIavw2Sj4VtZBlTYhUqeySbQcDMEr4Wns/s1600/sap-flaws.jpg",
       "importance": 4,
       "paywall": false
@@ -98,39 +168,49 @@
       "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
       "source": "Krebs on Security",
       "date": "2026-11-10",
-      "summary": "Microsoft released a Patch Tuesday update addressing nearly 1,100 security vulnerabilities across Windows and supported software, including 63 critical flaws. The update includes a zero-day vulnerability in Microsoft Outlook, alongside security patches from Adobe, Apple, Google, and Mozilla.",
+      "summary": "Microsoft released a Patch Tuesday update addressing nearly 1,100 security vulnerabilities, including 63 critical flaws. The update includes a zero-day vulnerability in Microsoft Outlook, alongside patches from Adobe, Apple, Google, and Mozilla.",
       "image": null,
       "importance": 5,
       "paywall": false
     },
     {
-      "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
-      "source": "The Hacker News",
-      "date": "2026-11-09",
-      "summary": "An attacker compromised AWS accounts belonging to multiple Qubole customers between October 14-26 by exploiting credentials from an AWS account used by Qubole's platform for customer access. The breach resulted in theft of stored secrets and data, highlighting risks associated with third-party trusted access patterns in cloud environments.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjj3p_1P-Ko_l_HuUr2Doq9kJOQa3Y5dCrkiVWqjJXzvQfYgKvgJXyvdBqLH2hp7s_ZY2kk-hhaCQhjf_v9SdjSbNpaDV2Eohk6-NEFUZp_ROjMJf_Q1xUSKcrqNj-Dd5ZrfjV6uP1blo579IaZ6hgHxOFAUhyJVgdGop-KVIWCjWQIYOKku3iN1N1EIUk/s1600/aws-hacked.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
-      "url": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
-      "source": "The Hacker News",
-      "date": "2026-11-09",
-      "summary": "Security researchers discovered that ForgeRock/Ping Identity servers used by two automakers' mobile apps had default \"admin:admin\" credentials left unchanged, enabling complete account takeover. The vulnerability allowed attackers to access any customer account and, for connected car owners, remotely unlock doors and start engines.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiI85M0pHHPiXe5ar2VpaGsBVRzxoYfZhpQTKgWqd8YGjK9Nyaca-z6XrGT3jT0lqh41qe-cAjb33_r7JErd7rB1CfuWkgTP_z-_IJkpQPWebz1GeEvSu9QpE5XYWRMOfhYTHmzhbkFB07hzSuV1FYARdaIWjfB_mUoX1_eMjl_3dOaSUFpTQvjt-34eQo/s1600/login-car.jpg",
+      "title": "New 'BluePhishing' scam sees criminals spoof AI agents to get access to corporate environments",
+      "url": "https://www.techradar.com/pro/security/new-bluephishing-scam-sees-criminals-spoof-ai-agents-to-get-access-to-corporate-environments",
+      "source": "TechRadar",
+      "date": "2026-11-10",
+      "summary": "A new phishing technique called \"BluePhishing\" involves criminals spoofing AI agents to trick users into granting them access to corporate environments. The attack method exploits the OAuth-style authorization flows used by AI agents, allowing malicious agents to gain access and potentially invite additional unauthorized agents.",
+      "image": "https://cdn.mos.cms.futurecdn.net/MZeWJhJjT34M4nQvMMX7fg-1376-80.jpg",
       "importance": 7,
       "paywall": false
     },
     {
-      "title": "Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety",
-      "url": "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
-      "source": "The Hacker News",
-      "date": "2026-11-09",
-      "summary": "A security flaw in Web3Auth, an authentication provider used by Keplr crypto wallet, was exploited by an attacker to steal funds from wallets linked via Google or Apple sign-in. Web3Auth subsequently used the same vulnerability to preemptively drain other at-risk wallets as a protective measure.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJtevfYXrRQrcU5FKn33bfyWpqN9O6FlI2b1eWOTjNWWslLIM1wwUfpzedZdMvdw6BXqmYqM1PwO-8GH3_IpKOGa15uoiXx5yDTkAal7JOFSKisSYOAHBdRk9XImTowXaCyJlTwX-chPd7uJFCDEq8u9sKY7jW6UYxorQKUSyuH9pF3szdwejvN_HGhno/s1600/kep.jpg",
+      "title": "One Identity Unveils Identity Manager 10.0 LTS with AI and Modern UX",
+      "url": "https://www.nextbigfuture.com/2026/11/one-identity-unveils-identity-manager-10-0-lts-with-ai-and-modern-ux.html",
+      "source": "Next Big Future",
+      "date": "2026-11-10",
+      "summary": "One Identity has released Identity Manager 10.0 LTS, a long-term support version of its identity governance and administration platform. The new release includes AI capabilities and a modernized user experience.",
+      "image": null,
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "One Identity Unveils Active Roles 8.6 with Enhanced Security and Administration",
+      "url": "https://www.nextbigfuture.com/2026/11/one-identity-unveils-active-roles-8-6-with-enhanced-security-and-administration.html",
+      "source": "Next Big Future",
+      "date": "2026-11-10",
+      "summary": "One Identity has released Active Roles version 8.6, featuring enhanced security and administration capabilities. The update comes from One Identity, a vendor specializing in identity and access management solutions including Active Directory management.",
+      "image": null,
       "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft SSPR Changes: What Are Your Options?",
+      "url": "https://www.infosecurity-magazine.com/blogs/microsoft-sspr-changes-options/",
+      "source": "Infosecurity Magazine",
+      "date": "2026-11-10",
+      "summary": "Microsoft is making changes to its Self-Service Password Reset (SSPR) functionality, requiring organizations to move away from traditional verification methods for employee authentication. Businesses using SSPR must evaluate alternative authentication options to maintain secure password reset capabilities.",
+      "image": "https://assets.infosecurity-magazine.com/webpage/og/0c4f46e6-7006-4040-9476-be60f77a2c6a.jpg",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -138,7 +218,7 @@
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-sts-cross-partition",
       "source": "Amazon.com",
       "date": "2026-11-09",
-      "summary": "AWS Security Token Service (STS) has added support for cross-partition federation, allowing workloads to use their IAM identity in one AWS partition to obtain temporary credentials for an IAM role in a different partition. This eliminates the need to store long-term credentials when operating across AWS partitions.",
+      "summary": "AWS Security Token Service (STS) has launched cross-partition federation support, allowing workloads to use their IAM identity in one AWS partition to obtain temporary credentials for an IAM role in a different partition. This eliminates the need to store long-term credentials when operating across AWS partitions (such as standard AWS, AWS GovCloud, and AWS China regions).",
       "image": null,
       "importance": 7,
       "paywall": false
@@ -148,9 +228,19 @@
       "url": "https://www.theregister.com/security/2026/11/09/attackers-backdoor-trusted-aws-integrations-to-steal-secrets/5308553",
       "source": "Theregister.com",
       "date": "2026-11-09",
-      "summary": "Wiz researchers discovered a supply-chain attack in which threat actors backdoored trusted AWS integrations to steal secrets and credentials. The attack targeted AWS-connected software components, enabling attackers to exfiltrate sensitive identity and access credentials through compromised integrations.",
+      "summary": "Wiz researchers discovered a supply-chain attack in which threat actors backdoored trusted AWS integrations to steal secrets and credentials. The attack targeted AWS-connected software components, enabling attackers to exfiltrate sensitive access credentials and secrets from compromised environments.",
       "image": "https://image.theregister.com/1681829.jpg?imageId=1681829&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
       "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+      "source": "Internet",
+      "date": "2026-11-09",
+      "summary": "Attackers exploited trusted AWS credentials used by Qubole's platform to breach multiple customer AWS accounts between October 14-26, stealing stored secrets and data. The attack leveraged Qubole's cross-account access permissions, highlighting risks associated with third-party platform access and cloud credential management.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjj3p_1P-Ko_l_HuUr2Doq9kJOQa3Y5dCrkiVWqjJXzvQfYgKvgJXyvdBqLH2hp7s_ZY2kk-hhaCQhjf_v9SdjSbNpaDV2Eohk6-NEFUZp_ROjMJf_Q1xUSKcrqNj-Dd5ZrfjV6uP1blo579IaZ6hgHxOFAUhyJVgdGop-KVIWCjWQIYOKku3iN1N1EIUk/s1700-nu-rw-lo-l85-e365/aws-hacked.jpg",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -158,29 +248,19 @@
       "url": "https://aws.amazon.com/blogs/security/simplify-cross-partition-access-with-aws-iam-outbound-identity-federation/",
       "source": "Amazon.com",
       "date": "2026-11-09",
-      "summary": "AWS has expanded its IAM outbound identity federation to support cross-partition role assumption across Commercial, China, GovCloud (US), and European Sovereign partitions. This allows workloads to use IAM federation tokens to authenticate and authorize access across different AWS partition boundaries.",
+      "summary": "AWS has expanded IAM outbound identity federation to support cross-partition role assumption, enabling tokens to be used across AWS Commercial, China, GovCloud (US), and European Sovereign partitions. This update allows workloads operating across multiple AWS partitions to authenticate and authorize access without requiring separate credential configurations for each partition.",
       "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/03/simplify-cross-partition-hero.jpg",
       "importance": 7,
       "paywall": false
     },
     {
-      "title": "Week in review: Refrigeration cyberattacks hit European retailers again, Patch Tuesday forecast",
-      "url": "https://www.helpnetsecurity.com/2026/11/08/week-in-review-refrigeration-cyberattacks-hit-european-retailers-again-patch-tuesday-forecast/",
-      "source": "Help Net Security",
-      "date": "2026-11-08",
-      "summary": "A weekly security news roundup includes a brief mention of AI coding agent identity and command policy. The IAM-relevant content appears to be a small portion of a broader cybersecurity news digest, focused on an interview about setting identity policies for AI coding agents.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2023/12/01112506/cybersecurity_week_in_review2.jpg",
+      "title": "Microsoft Patches More Than 1,400 Security Flaws",
+      "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+      "source": "Krebs on Security",
+      "date": "2026-10-13",
+      "summary": "Microsoft released a patch update addressing more than 1,400 security vulnerabilities across Windows operating systems and other software. This patch batch exceeds the previous record of nearly 1,000 fixes issued in September.",
+      "image": null,
       "importance": 4,
-      "paywall": false
-    },
-    {
-      "title": "Phishing-Resistant Isn't Enough; Yubico Takes Aim at Identity-Verification Gap",
-      "url": "https://www.darkreading.com/identity-access-management-security/beyond-phishing-resistant-yubico-identity-verification-gap",
-      "source": "Dark Reading",
-      "date": "2026-11-04",
-      "summary": "Yubico launched YubiID, a new service that bridges identity verification with credential enrollment and recovery across existing identity platforms. The announcement also includes a post-quantum YubiKey beta, addressing authentication gaps beyond phishing-resistant MFA.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt004492645b5f1d7e/6aeb2df8c949f4112a250228/yubikey-Formatoriginal-alamy.jpg?width=720&quality=80&disable=upscale",
-      "importance": 7,
       "paywall": false
     }
   ]
