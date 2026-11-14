@@ -1,23 +1,13 @@
 {
-  "updated": "November 13, 2026 at 10:50 UTC",
+  "updated": "November 14, 2026 at 10:03 UTC",
   "top_stories": [
     {
       "title": "How attackers turned a Teams meeting booking into a device code phishing trap",
       "url": "https://www.helpnetsecurity.com/2026/11/13/microsoft-teams-device-code-phishing/",
       "source": "Help Net Security",
       "date": "2026-11-13",
-      "summary": "Attackers used a fake Microsoft Teams meeting scheduler to trick an employee into completing a device code phishing flow, yielding a valid session token despite MFA completion. The attack exploits Microsoft's legitimate device code sign-in flow, where the victim unknowingly authenticates on Microsoft's genuine login page while the attacker captures the resulting session token.",
+      "summary": "Attackers conducted a device code phishing attack by impersonating a Microsoft Teams meeting scheduler to trick an employee into entering a device code on Microsoft's legitimate login page, bypassing MFA and obtaining a valid session token. The attack exploits Microsoft's device code authentication flow, where the attacker initiates a sign-in, generates a code, and social engineers the victim into authenticating on their behalf.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/11/12155343/microsoft-teams-2026.webp",
-      "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
-      "source": "BleepingComputer",
-      "date": "2026-11-10",
-      "summary": "A threat actor compromised IAM credentials associated with a Qubole big data platform AWS account to gain unauthorized access to multiple customers' cloud environments. The attack involved exploiting trusted AWS IAM access to move laterally and exfiltrate data across several victim organizations.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/08/21/awskey.jpg",
       "importance": 8,
       "paywall": false
     },
@@ -26,7 +16,7 @@
       "url": "https://www.helpnetsecurity.com/2026/11/13/north-korean-it-workers-onboarding/",
       "source": "Help Net Security",
       "date": "2026-11-13",
-      "summary": "Material Security tracked 27 suspected North Korean fake IT worker personas that successfully reached the onboarding stage at monitored organizations over a one-year period, out of 2,429 total personas identified. At one affected company, approximately 277,000 files containing Social Security numbers were accessible company-wide or via public link, highlighting identity verification and access control failures in hiring and onboarding processes.",
+      "summary": "Material Security tracked 27 suspected North Korean fake IT worker personas that successfully reached the onboarding stage at monitored companies over one year, out of 2,429 total personas identified. The research highlights identity verification failures in hiring pipelines, with one affected company exposing approximately 277,000 files containing Social Security numbers company-wide.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/11/12094429/fake-it-worker-1500.webp",
       "importance": 7,
       "paywall": false
@@ -36,7 +26,7 @@
       "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
       "source": "The Hacker News",
       "date": "2026-11-12",
-      "summary": "Citrix has released patches for 12 security flaws affecting NetScaler ADC, NetScaler Gateway, and NetScaler Console, including a critical authentication bypass vulnerability. The most severe flaw, CVE-2026-120868, carries a CVSS score of 9.3 and involves a memory overflow vulnerability in Packet processing.",
+      "summary": "Citrix has released patches for multiple critical security flaws in NetScaler ADC, NetScaler Gateway, and NetScaler Console, including an authentication bypass vulnerability. The authentication bypass flaw (CVE-2026-120868) carries a CVSS score of 9.3 and affects widely deployed Citrix network access and gateway products.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDDv_B4B-cVtvwKyLiGQsL804yGC7_xHF7y3yD5_C284fRXBVRAn5Ashy2apgJr-jaoBHRa3ujgXv1jskM53EvP_pFt41CTazYqFT-tQdcukNBeOTzVIpZXVDsdgtup4MJOEdNNZP9SP0FAdIpG1Cnfgo0YgBXzmI_boLV4qSAsVrmYn5wA3GxnPuj21JO/s1600/citrix.jpg",
       "importance": 7,
       "paywall": false
@@ -46,41 +36,61 @@
       "url": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
       "source": "The Hacker News",
       "date": "2026-11-12",
-      "summary": "A phishing campaign active since mid-August 2026 has been stealing live Google session tokens from corporate users by using real-time proxies that bypass standard link-reputation checks. Material Security's Threat Research team identified the operation, dubbed Operation CloudFire, and has taken down hundreds of attacker domains involved in the campaign.",
+      "summary": "A phishing campaign active since mid-August 2026 has been stealing live Google sessions from corporate users through proxy-based session hijacking that bypasses standard link-checking defenses. Material Security's Threat Research team identified the operation, dubbed Operation CloudFire, and has taken down hundreds of attacker domains used in the campaign.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhf8YVgw9hIWEYN0_qgaD6MVIZad0fOCu_J5Z4Cn2CDuMzcV7HOQ9Xt4E08l1nOo7uMjAyYqYP-bUy5zHisRW8cfeSVmJcCKYgCTI2y1MpRUwsM1I2cs0MsuoAy7VSGLyTPzonhKITzWPU1hTADZnFt5VTZhlt4eJohVas2tzhl47AOV3Cp53LC_uhlpVY/s1600/mt.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
+      "url": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
+      "source": "The Hacker News",
+      "date": "2026-11-11",
+      "summary": "Token describes building an AI agent that violated all three of its own security principles—distinct identity, least-privilege access, and separate traceability—by default. The article explores how AI agents operating within authenticated user sessions create identity and access management challenges around non-human identities, access scoping, and audit trails.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhB22NtEOE6ioVcc92S5bLfFX3tbKyjNkx0j8OmHekqWq6Od4h9DtFmbmdd74VzwHCh5h6NbWnBgHgKzC49DwS7QAgA0uH3eL7BvBnN9QJu3U5-oiy5ZFMN7PvaJTBqjP7TR5VMjzrGxjfOfjgBqs3lecFZnWGEYNDp_BJgklco1L_acBqGm1M_CvtfLaY/s1600/AI-AGENT.png",
       "importance": 7,
       "paywall": false
     }
   ],
   "news": [
     {
+      "title": "When an AI Agent Goes Wrong, Can You Stop It?",
+      "url": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
+      "source": "The Hacker News",
+      "date": "2026-11-13",
+      "summary": "The article examines identity and authorization challenges posed by AI agents, specifically how an agent's granted identity and tool permissions can be exploited to perform unintended or malicious actions. The scenario presented highlights gaps in access control and authorization enforcement when AI agents operate with broad permissions, a direct concern for IAM practitioners.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXkpxeEuWVGmGvK8wGnGdzjVbMHRyNOYd3GFjgzJZZN7TL2yyLt5Jof4gsujMYS9WfZnxUjFFs3mxFaejShy46vuXK38l_5R3RvospJ6J8IunrLPSDnI0sJgGtvNiNkc89XMR_KDDHWEOxAk800C2fKhwiOLMy433M3ASErPk_jMwoexS_5-1kpdJ8emE/s1600/Keeper.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
+      "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
+      "source": "The Hacker News",
+      "date": "2026-11-13",
+      "summary": "A threat actor dubbed SilentAir has been discovered hijacking Asian telecom networks to intercept SMS-based two-factor authentication codes and spy on Taiwanese users. Enea, a Stockholm-based telecom and cybersecurity firm, identified attack sources in at least six Asian countries and assessed with high confidence that SilentAir is a state-level actor.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjskRPNlV_kYE1N2eF2J_J0fBvF_nQxnvtaS78Grj04KqkEauvr-R5jO-ynD9nm51SgF2XtCCAsWUbJrHU0wGRnXC9yHmblhNCF8Jt9NdVahMju3voR2z9xb2uqoSi7Nc085UqDBelqg4XDRdjJ2lsF7EeN28rjq7oBc_NpBUWRqLWXiOh9FBRIH28teHM/s1600/telecom-hack.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+      "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+      "source": "The Hacker News",
+      "date": "2026-11-13",
+      "summary": "An international law enforcement operation (Operation Endgame) took down servers running Gootloader, CastleRAT, and StealC malware used to steal credentials and enable ransomware attacks. Police seized approximately 6.4 million stolen login credentials belonging to over 40,000 victims, as reported by Germany's Federal Criminal Police Office (BKA).",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsu6ZFyYFr1dxp2XHIaG_pyTwkoH58ICgyXLuTthkuYSJVcqAwX_O_bEJYfheyxpYmI7nnok1xrj97q7s-9l8JHFt1ogBAOJAEUqM8_vf6H3a8eYPKzB34d6XrvnkRu8zGaoKMgSJqWsE6u2zYXLdJKTtcDvk3beN6_o40ygJ4MVSMomS3Q1aEFV_jSq8/s1600/gootloader.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
       "title": "Extortion Group Luna Moth Flits Into Law Firms a Second Time",
       "url": "https://www.darkreading.com/data-privacy/extortion-luna-moth-law-firms-second-time",
       "source": "Dark Reading",
       "date": "2026-11-12",
-      "summary": "The Luna Moth extortion group is conducting a second wave of attacks against law firms that previously refused to pay ransoms, using social engineering techniques to steal Microsoft access tokens. The campaign specifically targets OAuth or session tokens to gain unauthorized access, making it directly relevant to access management and authentication security.",
+      "summary": "The Luna Moth extortion group is targeting law firms using social engineering attacks designed to steal Microsoft access tokens. The campaign specifically re-targets organizations that previously refused to pay ransoms, with credential and token theft as the primary attack vector.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd72cfa843f157710/6af61e08fa93fcee56324598/black_and_white_moth-powerofforever-GettyImages-1920014051.jpg?width=720&quality=80&disable=upscale",
       "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Apify rotates API tokens, prompts 2FA resets after breach",
-      "url": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/",
-      "source": "Bleeping Computer",
-      "date": "2026-11-12",
-      "summary": "Apify rotated API tokens and revoked third-party OAuth connections following unauthorized access to its internal systems. The incident also prompted 2FA resets, indicating credential and authentication infrastructure was implicated in the breach.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/11/12/Apify.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Self-hosted Claude Managed Agents keeps agent credentials in your environment",
-      "url": "https://www.helpnetsecurity.com/2026/11/12/anthropic-self-hosted-claude-managed-agents/",
-      "source": "Help Net Security",
-      "date": "2026-11-12",
-      "summary": "Anthropic released a self-hosted version of Claude Managed Agents, allowing companies to keep agent credentials, sandboxes, and session history within their own cloud or on-premise environments. The private beta launched November 12, with access requested through Anthropic account teams, addressing credential control concerns for unattended AI agents operating inside corporate systems.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/05/27125835/claude-vortex.webp",
-      "importance": 5,
       "paywall": false
     },
     {
@@ -88,7 +98,7 @@
       "url": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
       "source": "The Hacker News",
       "date": "2026-11-12",
-      "summary": "A webinar is being promoted that addresses identity blind spots in Security Operations Center (SOC) environments, focusing on connecting identity context to security monitoring. The session covers scenarios involving user accounts, machine accounts, and AI agent permissions as they relate to threat detection and response.",
+      "summary": "A webinar is being promoted that addresses identity blind spots in Security Operations Center (SOC) environments. The session focuses on identifying who or what is behind suspicious activity—including human users, machine accounts, and AI agents—and what access they have during security investigations.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj765JyAl658UR5d1raKFLJmZpxXuof0-wBCobeJwnWjWZROTa4wtMyPvTTjBr4-ccE0cmKpIyGT1BetlqUPkPS_omcKVWz7RcCv6sUl2h6KxXrem_X26kzrp7kwq8bSezUsYMa6h2JNh-rPglsuNnRzt6i3IdzBjkLFNBNy5-Y0jId2B6Zhyir_jdm8O4/s1600/sails.jpg",
       "importance": 6,
       "paywall": false
@@ -98,9 +108,9 @@
       "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
       "source": "The Hacker News",
       "date": "2026-11-12",
-      "summary": "A proof-of-concept exploit called SignDrop has been publicly released, claiming to allow local Windows users to escalate privileges to SYSTEM level via the Common Log File System (CLFS) driver. The exploit abuses a log-authentication feature in clfs.sys by using path redirection when a privileged process opens a prepared log file.",
+      "summary": "A proof-of-concept exploit called SignDrop has been released that claims to allow local Windows users to escalate privileges to SYSTEM level via the Common Log File System (CLFS) driver. The exploit abuses a log-authentication feature in clfs.sys by using path redirection when a privileged process opens a prepared log file.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-9BW-gpid0fJ4GJSsWoqjYl5qF_EdYchTcxeNjFfMV-MCcvSRTs-rAmiHKNX3M2dr66bJcfUelNR5CR9g-JLKPkMrROsqrM6hf563hIMklj5v08uYDtEp7pdYPcs5Y5TEGxgTWTHDG_Q-L8Tbq12yo57xp0GOlYk8g05nU3peuA_kedIXtggnakiiCGM/s1600/signdrop.jpg",
-      "importance": 4,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -108,9 +118,39 @@
       "url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
       "source": "The Hacker News",
       "date": "2026-11-12",
-      "summary": "An attacker used stolen credentials from 4,837 hijacked GitHub accounts to plant a secret-stealing payload in over 1,806 repositories, according to Aikido Security. The malware targeted secrets and cloud credentials accessible through CI/CD workflows, representing a credential harvesting campaign at significant scale.",
+      "summary": "An attacker used stolen credentials from 4,837 hijacked GitHub accounts to plant a secret-stealing tool across more than 1,806 repositories, according to Aikido Security. The malware targeted secrets and cloud credentials accessible through CI/CD workflows, representing a supply chain credential theft campaign.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1-4OiOkGLcK3fAr2HdhALOfc_BqR21440TsjUIuCNzv4YL0lWRC3lvUjE1vu2RdVfjunxi80gMQyGpjvUdWzMRtthW8_-hFOJ79YhFzJrNGgoKDPYXm2OaWOsN8kgBELqOPs5s9QKL4qzQzu_3NEEqHygpfQzKYxDRIQeFgMHj24oyPyaslUemke-loU/s1600/github.jpg",
       "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Fine-grained access control for Amazon Bedrock Managed Knowledge Base tools",
+      "url": "https://aws.amazon.com/blogs/machine-learning/fine-grained-access-control-for-amazon-bedrock-managed-knowledge-base-tools/",
+      "source": "Amazon.com",
+      "date": "2026-11-12",
+      "summary": "Amazon Web Services published guidance on implementing fine-grained, per-user access control for Amazon Bedrock Managed Knowledge Base tools exposed to AI agents via AgentCore Gateway. The solution uses a request interceptor to inject verified identity and policies in AgentCore to enforce authorization independently for each user.",
+      "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/04/ML-21865-featured-image.png",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Your Endpoint Management Platform Could Be Your Biggest Security Risk",
+      "url": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
+      "source": "BleepingComputer",
+      "date": "2026-11-12",
+      "summary": "Action1 published content warning that endpoint management platforms pose significant security risks if compromised, enabling malware deployment and mass device disruption. The piece promotes customer-controlled cryptographic authorization as a mitigation approach.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/11/11/action1-security-alert.jpg",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft Entra adds a seven-day safeguard against irreversible identity deletion",
+      "url": "https://www.helpnetsecurity.com/2026/11/12/microsoft-entra-hard-deletion-protection/",
+      "source": "Help Net Security",
+      "date": "2026-11-12",
+      "summary": "Microsoft Entra has introduced Hard Deletion Protection, currently in preview, which provides a seven-day recovery window before selected identities are permanently deleted. The feature targets both accidental and malicious identity deletion scenarios, giving administrators a safeguard against irreversible data loss.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2025/06/12183518/microsoft_entra_id.webp",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -128,39 +168,9 @@
       "url": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
       "source": "The Hacker News",
       "date": "2026-11-11",
-      "summary": "Security researchers at Claroc found that 35,578 out of 37,571 Grok-built apps were publicly accessible without authentication. Approximately 10% of these exposed apps contained internal business data and passwords, with 24 apps built by X and SpaceX staff among those affected.",
+      "summary": "Security researchers at Claroc found that 35,578 out of 37,571 Grok-built apps were publicly accessible without authentication. Approximately 10% of these exposed apps contained internal business data, confidential information, and passwords.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh54t26Pk-bNbcIXgu8KrKpT_zN1KxEov16xTFlJ8kiPJ3-btXjGUE1lb0ZpamQU5jUHwmxzxHpYLsAQfiaHQUu3gxCIUw2gsEYNwMjL6nRm_jWm6t_VdHJkz6xj3fAsmTZKP8Bbax1qdT98a_PY4ynv81njiDyPXvIIihl4dqXxxC9pMMf8-Mn9dziy_A/s1600/grokai.jpg",
       "importance": 4,
-      "paywall": false
-    },
-    {
-      "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
-      "url": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
-      "source": "The Hacker News",
-      "date": "2026-11-11",
-      "summary": "Token describes building an AI agent that violated all three of their core security principles—dedicated identity, least-privilege access, and separate traceability—by default. The article examines how AI agents operating within authenticated user sessions create identity and access management challenges, specifically around non-human identities and attribution.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhB22NtEOE6ioVcc92S5bLfFX3tbKyjNkx0j8OmHekqWq6Od4h9DtFmbmdd74VzwHCh5h6NbWnBgHgKzC49DwS7QAgA0uH3eL7BvBnN9QJu3U5-oiy5ZFMN7PvaJTBqjP7TR5VMjzrGxjfOfjgBqs3lecFZnWGEYNDp_BJgklco1L_acBqGm1M_CvtfLaY/s1600/AI-AGENT.png",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
-      "url": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
-      "source": "The Hacker News",
-      "date": "2026-11-11",
-      "summary": "eMudhra has revoked 8 additional intermediate certificate authorities (CAs) following the expansion of its October key compromise incident, despite these CAs not having weakened keys. The revocations stem from a flaw in an in-house Python script that affected the intermediate CAs used to sign issued certificates.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjONLgT6piRm0O75Y6dzQY4L2RO8OQTlWaJbwSTHFDeh82Qiadl2PT9KI9r2jC1JbwS-TqPm3g1Ea0Q8I91FalXu2GZ0fBBnfId6-8ZWKABrBQZWg7nA1X6cHq7wgHK3rc2Y5YW4yb61TjxVyywyWprml6yhBgH-SBaTvXZF-50J8-mR5Q6cGhSgfuMUdk/s1600/emudhra.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
-      "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
-      "source": "The Hacker News",
-      "date": "2026-11-11",
-      "summary": "Microsoft released patches for 1,259 vulnerabilities across its software portfolio, including an actively exploited Outlook bug that may expose NTLMv2 hashes. The NTLMv2 hash exposure vulnerability is directly relevant to IAM professionals as NTLM authentication credentials can be captured and used in pass-the-hash attacks to compromise identities and gain unauthorized access.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_nfFO2Zf-R2XyVzQHP43rc0OLAtUtRKWYV0VIaoHZW8EeH78h2Id9FmfJQVfzFdmBD6ugVGeCehX1Nq6jlmXlMG4AmnV3Tib3YvClKGaplVg5Ngk_KlpqwHx6Pd_oYQTCj2O3HfOpt_MoSGQD-4Nv-pju5sqS7U9-rAJdpKTn-xnhA1QSmmTiQWnAFjGp/s1600/patch-ms.jpg",
-      "importance": 7,
       "paywall": false
     },
     {
@@ -168,7 +178,7 @@
       "url": "https://aws.amazon.com/blogs/big-data/how-samsung-ads-federated-snowflake-iceberg-tables-using-amazon-cognito/",
       "source": "Amazon.com",
       "date": "2026-11-11",
-      "summary": "Samsung Ads implemented a federated data architecture using Amazon Cognito for OAuth2 machine-to-machine authentication to connect Snowflake Iceberg tables with AWS Lake Formation and Amazon Athena. The solution uses Cognito specifically for M2M token-based authentication in a data pipeline context, rather than as a core IAM deployment.",
+      "summary": "Samsung Ads implemented a federated data architecture using Amazon Cognito for OAuth2 machine-to-machine authentication to connect Snowflake Iceberg tables with AWS Lake Formation and Amazon Athena. The solution uses Cognito specifically as an OAuth2 token provider for service-to-service authentication in a data pipeline context.",
       "image": "https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2026/10/30/BDB-6126-featured-image.png",
       "importance": 3,
       "paywall": false
@@ -178,7 +188,7 @@
       "url": "https://www.drupal.org/project/suit",
       "source": "Drupal.org",
       "date": "2026-11-11",
-      "summary": "A new security and identity governance toolkit called SUIT has been released for Drupal 11, implementing Zero Standing Privileges, Just-In-Time Privileged Identity Management, and step-up re-authentication. The toolkit is an open-source module targeting Drupal-based enterprise environments rather than a standalone IAM platform.",
+      "summary": "SUIT (Security & Unified Identity Toolkit) is a new enterprise security and identity governance module released for Drupal 11. It implements Zero Standing Privileges, Just-In-Time Privileged Identity Management, session protection, and step-up re-authentication capabilities.",
       "image": null,
       "importance": 4,
       "paywall": false
@@ -188,7 +198,7 @@
       "url": "https://www.darkreading.com/cyber-risk/ai-coding-agents-leak-secrets-github",
       "source": "Dark Reading",
       "date": "2026-11-10",
-      "summary": "A flaw in Claude Code, Anthropic's AI coding agent, causes files containing credentials and other sensitive secrets to be inadvertently committed and exposed in public GitHub repositories. The issue stems from a specific command behavior that saves sensitive data to version control, resulting in widespread credential leakage across organizations using the tool.",
+      "summary": "A flaw in Claude Code, an AI coding agent, causes files containing credentials and other sensitive secrets to be inadvertently committed and exposed in public GitHub repositories. The issue creates credential leakage risks for organizations using AI-assisted development tools, with thousands of secrets potentially exposed.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt048c697c8a84cb6c/6af31954c9740413639c4243/Gorodenkoff-developer-coding-shutterstock.png?width=720&quality=80&disable=upscale",
       "importance": 6,
       "paywall": false
@@ -198,29 +208,9 @@
       "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
       "source": "Krebs on Security",
       "date": "2026-11-10",
-      "summary": "Microsoft released a Patch Tuesday update addressing nearly 1,100 security vulnerabilities, including 63 critical flaws. Among the fixes is a zero-day vulnerability in Microsoft Outlook, alongside updates from Adobe, Apple, Google, and Mozilla.",
+      "summary": "Microsoft released a Patch Tuesday update addressing nearly 1,100 security vulnerabilities, including 63 critical flaws. The update includes a zero-day vulnerability in Microsoft Outlook, alongside security updates from Adobe, Apple, Google, and Mozilla.",
       "image": null,
       "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "New 'BluePhishing' scam sees criminals spoof AI agents to get access to corporate environments",
-      "url": "https://www.techradar.com/pro/security/new-bluephishing-scam-sees-criminals-spoof-ai-agents-to-get-access-to-corporate-environments",
-      "source": "TechRadar",
-      "date": "2026-11-10",
-      "summary": "A new phishing technique called \"BluePhishing\" involves criminals spoofing AI agents to trick users into granting them access to corporate environments. The attack method exploits the OAuth/authorization approval process, where malicious agents, once approved, can potentially invite additional malicious entities into the environment.",
-      "image": "https://cdn.mos.cms.futurecdn.net/MZeWJhJjT34M4nQvMMX7fg-1376-80.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft Patches More Than 1,400 Security Flaws",
-      "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
-      "source": "Krebs on Security",
-      "date": "2026-10-13",
-      "summary": "Microsoft released a patch update addressing more than 1,400 security vulnerabilities across Windows operating systems and other software. This patch batch exceeds the previous record of approximately 1,000 fixes issued in September.",
-      "image": null,
-      "importance": 4,
       "paywall": false
     }
   ]
