@@ -1,33 +1,43 @@
 {
-  "updated": "November 16, 2026 at 10:57 UTC",
+  "updated": "November 17, 2026 at 11:41 UTC",
   "top_stories": [
+    {
+      "title": "Criminal marketplace sells infostealer logs with AI-written profiles of their owners",
+      "url": "https://www.helpnetsecurity.com/2026/11/16/ai-powered-infostealer-marketplace-victim-profiles/",
+      "source": "Help Net Security",
+      "date": "2026-11-16",
+      "summary": "A criminal marketplace is selling infostealer malware logs bundled with AI-generated profiles of victims, identifying where they work and which accounts are valuable targets. The service allows buyers to search victim profiles in plain language, effectively lowering the barrier to credential-based attacks against enterprise accounts.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2023/05/22145259/laptop-ai.png",
+      "importance": 7,
+      "paywall": false
+    },
     {
       "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
       "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
       "source": "The Hacker News",
       "date": "2026-11-12",
-      "summary": "Citrix has released patches for 12 security flaws affecting NetScaler ADC, NetScaler Gateway, and NetScaler Console, including a critical authentication bypass vulnerability. The critical flaws include CVE-2026-120868 (CVSS 9.3), a memory overflow vulnerability, among others that could lead to denial-of-service or authentication bypass conditions.",
+      "summary": "Citrix has released patches for multiple critical security flaws in NetScaler ADC, NetScaler Gateway, and NetScaler Console, including an authentication bypass vulnerability. The authentication bypass flaw (CVE-2026-120868) carries a CVSS score of 9.3, alongside other vulnerabilities that could lead to denial-of-service conditions.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDDv_B4B-cVtvwKyLiGQsL804yGC7_xHF7y3yD5_C284fRXBVRAn5Ashy2apgJr-jaoBHRa3ujgXv1jskM53EvP_pFt41CTazYqFT-tQdcukNBeOTzVIpZXVDsdgtup4MJOEdNNZP9SP0FAdIpG1Cnfgo0YgBXzmI_boLV4qSAsVrmYn5wA3GxnPuj21JO/s1600/citrix.jpg",
       "importance": 7,
       "paywall": false
     },
     {
-      "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
-      "url": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
-      "source": "The Hacker News",
-      "date": "2026-11-12",
-      "summary": "A phishing campaign active since mid-August 2026 has been stealing live Google session tokens from corporate users using live proxy infrastructure to bypass traditional link-based defenses. Material Security's Threat Research team identified the operation, dubbed Operation CloudFire, and has taken down hundreds of attacker domains involved in the campaign.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhf8YVgw9hIWEYN0_qgaD6MVIZad0fOCu_J5Z4Cn2CDuMzcV7HOQ9Xt4E08l1nOo7uMjAyYqYP-bUy5zHisRW8cfeSVmJcCKYgCTI2y1MpRUwsM1I2cs0MsuoAy7VSGLyTPzonhKITzWPU1hTADZnFt5VTZhlt4eJohVas2tzhl47AOV3Cp53LC_uhlpVY/s1600/mt.jpg",
+      "title": "AWS Secrets Manager adds managed external secrets support for Auth0, Okta, and Palo Alto Networks",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/secrets-manager-managed-external-secrets-auth0-okta-palo-alto/",
+      "source": "Amazon.com",
+      "date": "2026-11-16",
+      "summary": "AWS Secrets Manager has added managed external secrets support for Auth0, Okta, and Palo Alto Networks. The feature addresses the security risk of long-lived, unrotated credentials by enabling coordinated rotation of third-party credentials directly within AWS Secrets Manager.",
+      "image": null,
       "importance": 7,
       "paywall": false
     },
     {
-      "title": "Microsoft Entra adds a seven-day safeguard against irreversible identity deletion",
-      "url": "https://www.helpnetsecurity.com/2026/11/12/microsoft-entra-hard-deletion-protection/",
-      "source": "Help Net Security",
-      "date": "2026-11-12",
-      "summary": "Microsoft Entra has launched Hard Deletion Protection in preview, introducing a seven-day recovery window before selected identities are permanently deleted. The feature targets both accidental and malicious identity deletion scenarios, giving administrators time to restore affected accounts before irreversible erasure occurs.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2025/06/12183518/microsoft_entra_id.webp",
+      "title": "AI agents are becoming identities in their own right, and security needs to catch up",
+      "url": "https://www.digitaljournal.com/article/ai-agents-are-becoming-identities-in-their-own-right-and-security-needs-to-catch-up/",
+      "source": "Digital Journal",
+      "date": "2026-11-15",
+      "summary": "AI agents are increasingly being treated as distinct identities requiring their own access management frameworks, including constrained permissions and oversight mechanisms. This represents a growing area of IAM practice as agentic AI systems require identity governance, authorization controls, and security policies similar to those applied to human and service account identities.",
+      "image": "https://www.digitaljournal.com/wp-content/uploads/2026/04/e2c272bbe87510fd7b3adb56b8df266525976092-1.jpg",
       "importance": 7,
       "paywall": false
     },
@@ -36,30 +46,70 @@
       "url": "https://www.darkreading.com/data-privacy/extortion-luna-moth-law-firms-second-time",
       "source": "Dark Reading",
       "date": "2026-11-12",
-      "summary": "The Luna Moth extortion group is targeting law firms through social engineering attacks designed to steal Microsoft access tokens. The campaign specifically retargets firms that previously refused ransom payment, using credential/token theft as the primary attack vector.",
+      "summary": "The Luna Moth extortion group is targeting law firms using social engineering tactics designed to steal Microsoft access tokens. The attack method focuses on credential and token theft to gain unauthorized access, bypassing traditional authentication controls.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd72cfa843f157710/6af61e08fa93fcee56324598/black_and_white_moth-powerofforever-GettyImages-1920014051.jpg?width=720&quality=80&disable=upscale",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "AI Coding Agents Leak Thousands of Secrets to GitHub",
-      "url": "https://www.darkreading.com/cyber-risk/ai-coding-agents-leak-secrets-github",
-      "source": "Dark Reading",
-      "date": "2026-11-10",
-      "summary": "A command in Claude Code inadvertently saves files containing credentials and other sensitive data to public GitHub repositories. The flaw creates credential exposure risks for organizations using the AI coding agent, with thousands of secrets potentially leaked.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt048c697c8a84cb6c/6af31954c9740413639c4243/Gorodenkoff-developer-coding-shutterstock.png?width=720&quality=80&disable=upscale",
       "importance": 6,
       "paywall": false
     }
   ],
   "news": [
     {
-      "title": "Ory Hydra: Open-source OAuth 2.0 server and OpenID Connect provider",
-      "url": "https://www.helpnetsecurity.com/2026/11/16/ory-hydra-oauth-server-open-source/",
+      "title": "Apple splits Mac app permissions fearing overreaching AI agents",
+      "url": "https://www.helpnetsecurity.com/2026/11/17/apple-macos-app-permission-changes/",
       "source": "Help Net Security",
+      "date": "2026-11-17",
+      "summary": "Apple has introduced more granular permissions for Device Control, Data Access, and Full Disk Access in macOS 26.3 beta 2 to address overly broad app access. The changes were prompted by concerns that developers were using Full Disk Access to expose sensitive user files, emails, and browsing history, with AI agents expected to increase these risks.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2023/06/12104920/apple-bkg2.jpg",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "40% of organizations struggle to retrace AI agents’ actions",
+      "url": "https://www.helpnetsecurity.com/2026/11/17/palo-alto-networks-ai-cloud-security-risks-report/",
+      "source": "Help Net Security",
+      "date": "2026-11-17",
+      "summary": "Palo Alto Networks' State of Cloud Security Report 2026 found that 99% of organizations use AI agents for autonomous or semiautonomous actions in development pipelines, with 40% unable to retrace those agents' actions. Nearly three-quarters of organizations grant AI agents permission to modify code, CI/CD configurations, or deploy applications to production, raising concerns about access controls and auditability.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/06/12155822/cloud-security.webp",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
+      "url": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
+      "source": "The Hacker News",
+      "date": "2026-11-17",
+      "summary": "Apple has introduced new granular app permission controls in macOS 26.3 beta 2, targeting Device Control, Data Access, and Full Disk Access APIs. The changes aim to limit how much data apps, including AI agents, can access on Mac systems.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpfVz_pnzHGcrDTsga77xG6yDhi_sMihXsGCjULyapjweerWHdHByPuWqWYmWQsDAAV37EfmctWtSZgYCHJ-2FMGEE6K94YRDVFjHVO0i1jZxn-TIewKbDqIn3y-pNMH7pqJ9SA1X2Sk_r_vn_SfRdxbPB2kH9-hHkNrigumGuQKXaA6xlHqCdWu4ZDAFH/s1600/apple-macos.jpg",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "7 Tips For Complying with CJIS Password and MFA Requirements",
+      "url": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
+      "source": "Bleeping Computer",
       "date": "2026-11-16",
-      "summary": "Ory Hydra is an open-source OAuth 2.0 server and OpenID Connect provider designed to issue and validate tokens, register client applications, and manage signing keys. The tool intentionally stores no credentials, delegating authentication to existing identity systems while handling the full OAuth 2.0 and OIDC specification compliance layer.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/11/13112855/ory-hydra-1500.webp",
+      "summary": "The FBI's Criminal Justice Information Services (CJIS) Security Policy requires law enforcement agencies to implement stronger password protections and enforce MFA across privileged and non-privileged accounts. Specops Software has published seven practical steps for meeting these requirements, including blocking compromised passwords and maintaining ongoing compliance.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/11/12/specops-password-security.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+      "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+      "source": "The Hacker News",
+      "date": "2026-11-15",
+      "summary": "A stolen access key issued to Fireworks AI was used by an attacker to compromise Anthropic's Claude Code extension on Cursor's marketplace. The key was exposed through a breach at Fireworks AI, allowing the attacker to copy data from a read-only source and distribute a trojanized extension.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg16ACawbG7rP_kT-8Boo4xdTje3BeTWyFSnNXwHhr5cvy2-1X3Ljhrc1IuZlseWd55tN8E1yjQ9ldhTnjWTU-GJBpX_Zen36YiLQGsRSRAoteqHyxx7mn_w0QgLfMKDLItA4p_jpHajucbglLnCR_zWBY_t82YvFkLa9dQFBfjP1BrTlrNdYufsGMSZiGn/s1600/cursor.jpg",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "Fake AI event invites target Microsoft and Google logins",
+      "url": "https://www.foxnews.com/tech/fake-ai-event-invites-target-microsoft-google-logins",
+      "source": "Fox News",
+      "date": "2026-11-15",
+      "summary": "A phishing campaign uses fake OpenAI event pages offering free ChatGPT Pro subscriptions to harvest Microsoft and Google account credentials from employees. The attack specifically targets corporate identity providers by tricking users into submitting their Microsoft and Google login credentials on fraudulent pages.",
+      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/03/tech-giants-anti-scam-accord-1.jpg",
       "importance": 6,
       "paywall": false
     },
@@ -68,7 +118,7 @@
       "url": "https://hackread.com/security-jobs-growing-around-enterprise-ai-agents/",
       "source": "HackRead",
       "date": "2026-11-14",
-      "summary": "The article discusses the emergence of new security roles centered on managing enterprise AI agents that now access corporate resources like email, SharePoint, and ticketing systems. The growth of AI agents performing actions across enterprise systems raises identity and access management concerns, as these non-human identities require authorization and governance controls.",
+      "summary": "Enterprise AI agents are driving new security job roles as AI systems now access shared mailboxes, SharePoint, and ticketing systems beyond simple chat interfaces. Managing identity and access permissions for AI agents is emerging as a distinct security challenge within enterprise environments.",
       "image": "https://hackread.com/wp-content/uploads/2026/11/security-jobs-growing-around-enterprise-ai-agents.jpg",
       "importance": 5,
       "paywall": false
@@ -78,7 +128,7 @@
       "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
       "source": "The Hacker News",
       "date": "2026-11-13",
-      "summary": "The FBI has attributed over $400 million in cryptocurrency theft to North Korean threat actors using a social engineering scheme called FaceStealer, which employed deepfake video calls over the last 18 months. The attacks relied on identity deception tactics targeting individuals and organizations in the crypto sector.",
+      "summary": "The FBI attributed over $400 million in cryptocurrency theft to North Korean threat actors using a social engineering scheme called FaceStealer, which employed deepfake video calls. The campaign relied on identity deception tactics to manipulate victims, carried out over an 18-month period.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDmjJA-t4vvigohRIfUR6JExYEPR0Dohh29eooVagQOvRyRDgdisxAy3wSWni5iFHjf2Dk8X2BavSeGO8hJ-wCTbDuffsdtamOuqj1PVTb75EWNF5vNe3tCsS6pyS_pSzNhEELOVU0DxHdmGx4Kt8KNqwz8YheAM9kEoVmpnHeVV1qsofLCBYDEt0E2IqX/s1600/flash.jpg",
       "importance": 4,
       "paywall": false
@@ -88,7 +138,7 @@
       "url": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
       "source": "The Hacker News",
       "date": "2026-11-13",
-      "summary": "The article examines identity and access control challenges posed by AI agents, using a scenario where an agent with broad permissions executes unintended or malicious actions via prompt injection. The discussion centers on how traditional IAM concepts like identity, authorization, and access scope apply to—and may be insufficient for—autonomous AI systems.",
+      "summary": "The article examines identity and authorization risks associated with AI agents, specifically focusing on how agent identities with broad access permissions can be manipulated into performing unintended actions. The scenario described highlights the challenge of scoping and controlling AI agent permissions within IAM frameworks.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXkpxeEuWVGmGvK8wGnGdzjVbMHRyNOYd3GFjgzJZZN7TL2yyLt5Jof4gsujMYS9WfZnxUjFFs3mxFaejShy46vuXK38l_5R3RvospJ6J8IunrLPSDnI0sJgGtvNiNkc89XMR_KDDHWEOxAk800C2fKhwiOLMy433M3ASErPk_jMwoexS_5-1kpdJ8emE/s1600/Keeper.jpg",
       "importance": 6,
       "paywall": false
@@ -98,7 +148,7 @@
       "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
       "source": "The Hacker News",
       "date": "2026-11-13",
-      "summary": "A threat actor dubbed SilentAir has been discovered hijacking Asian telecom networks to intercept SMS-based two-factor authentication codes and communications, primarily targeting users in Taiwan. Enea, a Stockholm-based telecom cybersecurity firm, identified attack sources across at least six Asian countries and assessed with high confidence that SilentAir is a state-sponsored actor.",
+      "summary": "A threat actor called SilentAir has been intercepting SMS-based two-factor authentication codes by compromising equipment inside Asian mobile operators, primarily targeting users in Taiwan. Enea, a Stockholm-based telecom and cybersecurity firm, identified attack sources in at least six Asian countries and assessed with high confidence that SilentAir is a state-level actor.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjskRPNlV_kYE1N2eF2J_J0fBvF_nQxnvtaS78Grj04KqkEauvr-R5jO-ynD9nm51SgF2XtCCAsWUbJrHU0wGRnXC9yHmblhNCF8Jt9NdVahMju3voR2z9xb2uqoSi7Nc085UqDBelqg4XDRdjJ2lsF7EeN28rjq7oBc_NpBUWRqLWXiOh9FBRIH28teHM/s1600/telecom-hack.jpg",
       "importance": 6,
       "paywall": false
@@ -108,7 +158,7 @@
       "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
       "source": "The Hacker News",
       "date": "2026-11-13",
-      "summary": "An international law enforcement operation (Operation Endgame) dismantled servers used by Gootloader, CastleRAT, and StealC malware, which were used to steal credentials and deploy ransomware. Authorities seized approximately 6.4 million stolen login credentials belonging to more than 40,000 victims, according to Germany's Federal Criminal Police Office (BKA).",
+      "summary": "An international law enforcement operation dismantled servers behind Gootloader, CastleRAT, and StealC malware, which were used to steal passwords and deploy ransomware. Authorities seized approximately 6.4 million stolen login credentials belonging to over 40,000 victims, according to Germany's Federal Criminal Police Office (BKA).",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsu6ZFyYFr1dxp2XHIaG_pyTwkoH58ICgyXLuTthkuYSJVcqAwX_O_bEJYfheyxpYmI7nnok1xrj97q7s-9l8JHFt1ogBAOJAEUqM8_vf6H3a8eYPKzB34d6XrvnkRu8zGaoKMgSJqWsE6u2zYXLdJKTtcDvk3beN6_o40ygJ4MVSMomS3Q1aEFV_jSq8/s1600/gootloader.jpg",
       "importance": 6,
       "paywall": false
@@ -118,9 +168,9 @@
       "url": "https://aws.amazon.com/blogs/machine-learning/cost-attribution-and-controls-for-ai-developer-and-productivity-tools-on-amazon-bedrock/",
       "source": "Amazon.com",
       "date": "2026-11-13",
-      "summary": "Amazon Bedrock offers built-in cost attribution that traces inference calls back to IAM principals, enabling per-user cost tracking for AI tools. The solution uses IAM Identity Center to attribute and control AI usage costs across developer and productivity tools.",
+      "summary": "Amazon Bedrock offers built-in cost attribution that traces every inference call back to the IAM principal responsible, enabling per-user cost tracking for AI tools. The solution leverages IAM Identity Center to associate Bedrock usage costs with individual users or roles without requiring additional instrumentation.",
       "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/12/ML-21035-featured-image-2.png",
-      "importance": 5,
+      "importance": 6,
       "paywall": false
     },
     {
@@ -128,9 +178,9 @@
       "url": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
       "source": "The Hacker News",
       "date": "2026-11-12",
-      "summary": "A webinar is being promoted that addresses identity blind spots in Security Operations Centers (SOCs), focusing on challenges around identifying users, machine accounts, and AI agents during security incidents. The session covers the difficulty of correlating identity context—including access permissions—with suspicious activity in environments with high alert volumes.",
+      "summary": "A webinar is being promoted around the topic of identity blind spots in security operations centers (SOCs). The session focuses on challenges security teams face in identifying who or what is behind suspicious activity, including human accounts, machine accounts, and AI agents with access to sensitive systems.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj765JyAl658UR5d1raKFLJmZpxXuof0-wBCobeJwnWjWZROTa4wtMyPvTTjBr4-ccE0cmKpIyGT1BetlqUPkPS_omcKVWz7RcCv6sUl2h6KxXrem_X26kzrp7kwq8bSezUsYMa6h2JNh-rPglsuNnRzt6i3IdzBjkLFNBNy5-Y0jId2B6Zhyir_jdm8O4/s1600/sails.jpg",
-      "importance": 6,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -138,29 +188,9 @@
       "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
       "source": "The Hacker News",
       "date": "2026-11-12",
-      "summary": "A proof-of-concept exploit called SignDrop has been publicly released, claiming to allow local Windows users to escalate privileges to SYSTEM level via the Common Log File System (CLFS) driver. The exploit abuses a log-authentication feature in clfs.sys by using path redirection when a privileged process opens a prepared log file.",
+      "summary": "A proof-of-concept exploit called SignDrop has been released that claims to allow local Windows users to escalate privileges to SYSTEM level via the Common Log File System (CLFS) driver. The exploit abuses a log-authentication feature in clfs.sys by using path redirection when a privileged process opens a prepared log file.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-9BW-gpid0fJ4GJSsWoqjYl5qF_EdYchTcxeNjFfMV-MCcvSRTs-rAmiHKNX3M2dr66bJcfUelNR5CR9g-JLKPkMrROsqrM6hf563hIMklj5v08uYDtEp7pdYPcs5Y5TEGxgTWTHDG_Q-L8Tbq12yo57xp0GOlYk8g05nU3peuA_kedIXtggnakiiCGM/s1600/signdrop.jpg",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
-      "url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
-      "source": "The Hacker News",
-      "date": "2026-11-12",
-      "summary": "An attacker used stolen credentials from 4,837 hijacked GitHub accounts to plant a secret-stealing tool across 1,806+ repositories, according to Aikido Security. The malware targeted secrets and cloud credentials accessible through CI/CD workflows in those repositories.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1-4OiOkGLcK3fAr2HdhALOfc_BqR21440TsjUIuCNzv4YL0lWRC3lvUjE1vu2RdVfjunxi80gMQyGpjvUdWzMRtthW8_-hFOJ79YhFzJrNGgoKDPYXm2OaWOsN8kgBELqOPs5s9QKL4qzQzu_3NEEqHygpfQzKYxDRIQeFgMHj24oyPyaslUemke-loU/s1600/github.jpg",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Fine-grained access control for Amazon Bedrock Managed Knowledge Base tools",
-      "url": "https://aws.amazon.com/blogs/machine-learning/fine-grained-access-control-for-amazon-bedrock-managed-knowledge-base-tools/",
-      "source": "Amazon.com",
-      "date": "2026-11-12",
-      "summary": "Amazon Web Services published guidance on implementing fine-grained access control for Amazon Bedrock Managed Knowledge Base tools exposed to AI agents via AgentCore Gateway. The approach uses a request interceptor to inject verified user identity, with AgentCore policies enforcing per-user authorization independently for MCP tool access.",
-      "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/04/ML-21865-featured-image.png",
-      "importance": 5,
+      "importance": 4,
       "paywall": false
     },
     {
@@ -168,8 +198,18 @@
       "url": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
       "source": "BleepingComputer",
       "date": "2026-11-12",
-      "summary": "Action1 published content warning that endpoint management platforms pose significant security risks if compromised, enabling malware deployment and mass device disruption. The article promotes customer-controlled cryptographic authorization as a mitigation approach.",
+      "summary": "Action1 published content warning that endpoint management platforms pose significant security risks if compromised, enabling malware deployment and mass device disruption. The piece promotes customer-controlled cryptographic authorization as a mitigation approach.",
       "image": "https://www.bleepstatic.com/content/posts/2026/11/11/action1-security-alert.jpg",
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "AI Coding Agents Leak Thousands of Secrets to GitHub",
+      "url": "https://www.darkreading.com/cyber-risk/ai-coding-agents-leak-secrets-github",
+      "source": "Dark Reading",
+      "date": "2026-11-10",
+      "summary": "A command in Claude Code inadvertently saves files containing credentials and other sensitive data to public GitHub repositories. This creates credential exposure risks for organizations using AI coding agents, as secrets intended to remain private are leaked to publicly accessible repositories.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt048c697c8a84cb6c/6af31954c9740413639c4243/Gorodenkoff-developer-coding-shutterstock.png?width=720&quality=80&disable=upscale",
       "importance": 5,
       "paywall": false
     },
