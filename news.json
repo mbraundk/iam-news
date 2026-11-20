@@ -1,95 +1,33 @@
 {
-  "updated": "November 19, 2026 at 11:26 UTC",
+  "updated": "November 20, 2026 at 11:17 UTC",
   "top_stories": [
-    {
-      "title": "AI agents inherit employee access, and nobody’s watching how they use it",
-      "url": "https://www.helpnetsecurity.com/2026/11/19/ai-agents-employee-credentials-nudge-security-report/",
-      "source": "Help Net Security",
-      "date": "2026-11-19",
-      "summary": "A Nudge Security report finds that AI agents built by employees within project trackers, CRMs, and automation tools frequently operate using the credentials and access permissions of their creators. The \"AI Adoption in Practice 2026\" report is based on anonymized telemetry from Nudge Security customer environments and tracks AI tool usage, connected integrations, and running agents across organizations.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/03/20105115/ai-faces-1500.webp",
-      "importance": 8,
-      "paywall": false
-    },
     {
       "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
       "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
       "source": "The Hacker News",
       "date": "2026-11-18",
-      "summary": "Threat actors compromised Microsoft's agent-framework PyPI package to distribute a credential stealer targeting cloud credentials, with malicious versions 1.26.1 and 1.26.2 published 33 minutes apart on November 17, 2026. The malicious code executes a credential stealer on every Python start, with the compromise confirmed by multiple security vendors including Aikido, Chainguard, Wiz, and others.",
+      "summary": "Threat actors compromised Microsoft's agent-framework PyPI package, publishing malicious versions 1.26.1 and 1.26.2 that contain a credential stealer targeting cloud credentials. The compromise was identified by multiple security vendors including Aikido, Chainguard, Wiz, and others, with the malicious versions published 33 minutes apart and designed to execute the stealer on every Python startup.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_LozO7RAz13Jr3eqWHIjlAF6M0Cs-mJXX2mKUqU0TxVS02piD1na92TAZjICmeySD4z0zS-Y_BFvceERBdk-UZvV1DUh1LGN6wK-T-yt_TROJ5fcuvROu807jqESQo93CFP3faBbReKMZQxvgYOAGl_vS2VzfO67O24NdAgh6d9jMO2mTSy2jaNJMPD9T/s1600/ms-python.jpg",
       "importance": 8,
       "paywall": false
     },
     {
-      "title": "Linx Security extends identity governance to AI agent actions",
-      "url": "https://www.helpnetsecurity.com/2026/11/17/linx-security-agent-identity-control/",
+      "title": "AI agent API security hasn’t caught up with agents already running in production",
+      "url": "https://www.helpnetsecurity.com/2026/11/20/ai-agent-api-security-production/",
       "source": "Help Net Security",
-      "date": "2026-11-17",
-      "summary": "Linx Security has announced four new capabilities designed to extend identity governance to AI agent actions, covering both managed and unmanaged agents across any gateway. The features include Shadow AI Agent Detection for unsanctioned agents and Agent Runtime Control for real-time decision-making on agent actions.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
-      "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "AWS IAM announces Access Troubleshooter to debug access denied errors",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-access-troubleshooter/",
-      "source": "Amazon.com",
-      "date": "2026-11-17",
-      "summary": "AWS IAM has launched Access Troubleshooter, a new feature that provides visibility into the full authorization context behind access denied errors. The tool eliminates trial-and-error debugging by allowing developers to inspect the complete authorization chain when access is denied.",
-      "image": null,
-      "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
-      "url": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
-      "source": "Bleeping Computer",
-      "date": "2026-11-18",
-      "summary": "Hackers compromised Microsoft's official Agent Framework Python package on PyPI, publishing malicious versions designed to steal cloud credentials and sensitive information from developers' systems. The supply chain attack targeted developers using Microsoft's Agent Framework, with the malicious packages specifically designed to exfiltrate cloud credentials.",
-      "image": null,
-      "importance": 7,
-      "paywall": false
-    }
-  ],
-  "news": [
-    {
-      "title": "Rubrik Configuration Resilience rolls back unauthorized Microsoft 365 changes",
-      "url": "https://www.helpnetsecurity.com/2026/11/19/rubrik-configuration-resilience-for-microsoft-365/",
-      "source": "Help Net Security",
-      "date": "2026-11-19",
-      "summary": "Rubrik launched Configuration Resilience for Microsoft 365, a product that monitors and rolls back unauthorized changes to Microsoft 365, Purview, and Defender configurations with a single action. The offering is part of Rubrik Security Cloud and covers recovery of identity, configuration, and data for Microsoft 365 environments.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Bitwarden expands passkey support with new Windows and macOS integrations",
-      "url": "https://www.helpnetsecurity.com/2026/11/19/bitwarden-windows-macos-passkeys-integration/",
-      "source": "Help Net Security",
-      "date": "2026-11-19",
-      "summary": "Bitwarden has expanded passkey support with native integrations for Windows and macOS, enabling users to unlock their vaults via Windows Hello or Apple Touch ID. The update also allows Windows 11 and macOS to recognize Bitwarden as a passkey provider, letting users create and store passkeys directly in their Bitwarden vault.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
+      "date": "2026-11-20",
+      "summary": "A Postman survey of nearly 9,000 developers, architects, and executives found that 25% of organizations already have AI agents calling APIs in production. Approximately 40% of respondents have not resolved how credentials and identity management will work for these agents, indicating a significant gap in machine identity and access controls.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/08/14111858/api-1500.webp",
       "importance": 7,
       "paywall": false
     },
     {
-      "title": "Major Brazilian Signature Apps Enable RCE &amp; Fraud",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/major-brazilian-signature-app-rce-fraud",
-      "source": "Dark Reading",
-      "date": "2026-11-18",
-      "summary": "Brazilian government-sanctioned digital signature authentication middleware applications contain remote code execution (RCE) vulnerabilities and fraud-enabling bugs. The flaws affect software used to authenticate exceptionally important legal documents, creating significant risks in the country's official digital identity and signing infrastructure.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd3d76d438281428b/6afb51c99f6beb04c5e535c4/Brazil_CNH-RafaPress-Getty.jpg?width=720&quality=80&disable=upscale",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
-      "url": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
-      "source": "Bleeping Computer",
-      "date": "2026-11-18",
-      "summary": "Specops Software published an analysis examining real-world attacks involving deepfakes, helpdesk impersonation, and fake IT support requests used to bypass identity verification. The piece focuses on how stronger identity verification methods can help organizations defend against social engineering threats targeting corporate access controls.",
-      "image": null,
+      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+      "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+      "source": "The Hacker News",
+      "date": "2026-11-20",
+      "summary": "A China-linked cyber espionage group tracked as Armory Castle exploited a critical VMware vCenter Server zero-day vulnerability (CVE-2026-123890, CVSS 9.8) in early September 2026. The flaw is an authentication bypass in the VMware Directory Service, allowing attackers to gain unauthorized admin access and steal data.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTSAI-N-DRII1YA3I98ZVnKnG0SMgm97oEAqyiSXZB23DPwzvTk3figFLsTCKsMJRxRhjKEPFblxfcOuB_UXc_OAXJRiVI07Jxjn-CebJVHiRQ5sc43AifBpUPNfU5-LRD6QEGbX7Vnt_HAmJZiLojS32PtNWwIWeideJZnIpgjrstJ0Iy84lYd47bePk/s1600/chinese-vmware.jpg",
       "importance": 7,
       "paywall": false
     },
@@ -98,7 +36,7 @@
       "url": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
       "source": "The Hacker News",
       "date": "2026-11-18",
-      "summary": "Researchers at Technische Universität Berlin discovered an attack that bypasses TPM lockout mechanisms on AMD-based and some Intel PCs, allowing brute-force cracking of Windows Hello and BitLocker PINs within days. The attack requires physical access to open the device case, enabling the attacker to reset the lockout counter and guess short PINs, with lab tests successfully recovering a four-digit Windows Hello PIN and a six-digit BitLocker PIN.",
+      "summary": "Researchers at Technische Universität Berlin discovered an attack that bypasses TPM lockout mechanisms on AMD-based and some Intel PCs, allowing Windows Hello and BitLocker PINs to be cracked within days. By physically resetting the TPM lockout counter, attackers can brute-force short PINs, with lab tests successfully recovering a four-digit Windows Hello PIN and a six-digit BitLocker PIN.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpsv4GxAUbzCsIV1umrxZs6VxfD1eFwAeCgRHQQG_dNbP1fLiYe48hM-Wbd_8w5IxlacAwoidLqyQgBmG7YD7qKo0_XcqW2GhggfXshuK1uXz8BOma2H0Jjs8fabCO4IxHBfRopEUFDd0xHRRv43gMeog852Usv40sfcTwnO_9coyxtIMmteJxeJI_oPA/s1600/bitlocker.jpg",
       "importance": 7,
       "paywall": false
@@ -108,9 +46,61 @@
       "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
       "source": "The Hacker News",
       "date": "2026-11-18",
-      "summary": "A Java vulnerability dubbed Java4Shell (CVE-2026-114938) enables pre-authentication remote code execution in widely used applications including Keycloak, Jira, and Jenkins. The flaw exists in Java 17.0.6 and later, running only on x86-64 Intel and AMD chips supporting the AVX-512 VBMI feature, with Keycloak's inclusion making it directly relevant to IAM deployments.",
+      "summary": "A pre-authentication remote code execution vulnerability dubbed Java4Shell (CVE-2026-114938) has been disclosed by security firm Calif, affecting Java 17.0.6 and later on specific x86-64 processors. The flaw impacts several widely used platforms including Keycloak, an open-source identity and access management solution, as well as Jira and Jenkins.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis8B-Vf6puS0vOs9mEVup755KXy8y59KD72B5VQb8SyhO1JDHkYcvg42Y1rh1xg3seyml7j2vZn5Dq1OEnFYVzD_97osoZXWkxVVOBxM48InZPbaVgV7Lo64odzPVKNPEtPeLlEAm2AFfShOFVGtypVUJAJdt07qqik_Yde9X6BxLECPH7Gekbkzl2GBDK/s1600/java4shell-flaw.jpg",
       "importance": 7,
+      "paywall": false
+    }
+  ],
+  "news": [
+    {
+      "title": "Windows 11 KB5132057 update released with 28 changes and fixes",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/",
+      "source": "Bleeping Computer",
+      "date": "2026-11-20",
+      "summary": "Microsoft released the KB5132057 preview update for Windows 11, containing 28 changes and fixes. The update includes improvements to Windows Hello, among other general Windows features.",
+      "image": null,
+      "importance": 2,
+      "paywall": false
+    },
+    {
+      "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
+      "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+      "source": "The Hacker News",
+      "date": "2026-11-19",
+      "summary": "Broadcom disclosed a critical zero-day vulnerability in VMware vCenter that allows network-adjacent attackers to bypass authentication entirely. No workarounds exist, and fixed versions have been released for all supported branches.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZ5IDT81eb7KUE0LzwGJAzuAETft3pD5sOz2dJxnQin_-zR_hH8tDKFTsLNBNoe35KM4DhFJjP7K-0YwaMoVwz7xUhTiP2vKeNqmN3kenPgwflENu35qx-QlFj-rDFdyXx1HMz6ykegw6nlnPDXppYbotjoRj-ammlyUZ-Cr0JYLS5iyZXkJXkaIO5UAc/s1600/vmware.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Rubrik Configuration Resilience rolls back unauthorized Microsoft 365 changes",
+      "url": "https://www.helpnetsecurity.com/2026/11/19/rubrik-configuration-resilience-for-microsoft-365/",
+      "source": "Help Net Security",
+      "date": "2026-11-19",
+      "summary": "Rubrik launched Configuration Resilience for Microsoft 365, a product that monitors and rolls back unauthorized changes to settings in Microsoft 365, Purview, and Defender. The offering continuously safeguards configuration settings across these Microsoft applications with a single-action rollback capability.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "Bitwarden expands passkey support with new Windows and macOS integrations",
+      "url": "https://www.helpnetsecurity.com/2026/11/19/bitwarden-windows-macos-passkeys-integration/",
+      "source": "Help Net Security",
+      "date": "2026-11-19",
+      "summary": "Bitwarden has expanded passkey support with new integrations for Windows and macOS, enabling users to log in and unlock vaults using passkeys verified through native OS authentication. The update extends passkey functionality across both desktop platforms, aligning with broader FIDO2/passwordless authentication adoption.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Major Brazilian Signature Apps Enable RCE &amp; Fraud",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/major-brazilian-signature-app-rce-fraud",
+      "source": "Dark Reading",
+      "date": "2026-11-18",
+      "summary": "Brazilian government-sanctioned authentication middleware used for legally significant document signing contains remote code execution vulnerabilities. The flaws affect signature applications that serve as authentication and authorization mechanisms for official legal documents in Brazil.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd3d76d438281428b/6afb51c99f6beb04c5e535c4/Brazil_CNH-RafaPress-Getty.jpg?width=720&quality=80&disable=upscale",
+      "importance": 6,
       "paywall": false
     },
     {
@@ -118,9 +108,49 @@
       "url": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
       "source": "The Hacker News",
       "date": "2026-11-18",
-      "summary": "Russian cyber espionage group COLD RELIC (formerly COLDRIVER/UNC4057) used stolen Google Workspace data from one compromised U.S. organization to breach a second organization. The attack chain involved leveraging cloud identity credentials and workspace access as a launchpad for linked intrusions, as investigated by Google's Mandiant and Threat Intelligence Group.",
+      "summary": "Russian cyber espionage group COLD RELIC (formerly COLDRIVER/UNC4057) weaponized stolen Google Workspace data to breach a second U.S. organization, using a single cloud compromise as a launchpad for linked intrusions. The campaign demonstrates credential and identity data theft being used for lateral movement into third-party organizations, with Mandiant and Google's GTIG investigating the 2026 compromise.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLbxlzqi-uBPlDXGecxrfXQ8kZLpAKsDO5c7KmTTyYyNQQE6bdI0TqT7Rk_JrKRie2pMB_xrLRKy1Cksp1GYHfUGHXz7UGg5nWOAQmPmiRKoUJkMCHrMvW7A72W9x7_I7KESMQmJLQVrJth_Ozj7i1nF7IPB4W_WV-NQyy0afEMgGVbGdaSNfIjolqtC4-/s1600/cloud.jpg",
       "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Step-up authentication: how to right-size authentication to risk",
+      "url": "https://aws.amazon.com/blogs/security/step-up-authentication-how-to-right-size-authentication-to-risk/",
+      "source": "Amazon.com",
+      "date": "2026-11-18",
+      "summary": "The article covers step-up authentication, a method of applying stronger authentication challenges based on the risk level of specific user actions within an application. It contrasts low-risk actions (such as viewing an account balance) with high-risk actions (such as initiating a wire transfer) to explain how authentication requirements should be calibrated accordingly.",
+      "image": "https://d2908q01vomqb2.cloudfront.net/827bfc458708f0b442009c9c9836f7e4b65557fb/2020/06/03/Blog-Post_thumbnail.png",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Detecting cross-cloud lateral movement with AWS Security Hub",
+      "url": "https://aws.amazon.com/blogs/security/detecting-cross-cloud-lateral-movement-with-aws-security-hub/",
+      "source": "Amazon.com",
+      "date": "2026-11-18",
+      "summary": "The article addresses detecting cross-cloud lateral movement by adversaries who compromise identities and traverse federated trust relationships between cloud providers. It focuses on using AWS Security Hub to identify this attack pattern across multicloud environments, with identity federation as the central attack vector.",
+      "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/18/cloud-compute.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Okta Stock Rallies Amid Concerns Over Digital Infrastructure Vulnerability",
+      "url": "https://biztoc.com/x/10865f9b6e8fae33",
+      "source": "Biztoc.com",
+      "date": "2026-11-18",
+      "summary": "Okta's stock price rose alongside other cybersecurity stocks following recent outages that drew attention to digital infrastructure vulnerabilities. The article focuses on stock market movement rather than specific product, security, or operational developments at Okta.",
+      "image": "https://cdn.biztoc.com/10865f9b6e8fae33_s.webp",
+      "importance": 4,
+      "paywall": false
+    },
+    {
+      "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
+      "url": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
+      "source": "BleepingComputer",
+      "date": "2026-11-18",
+      "summary": "Specops Software has published an analysis examining real-world attacks involving deepfakes, helpdesk impersonation, and fake IT support requests used to bypass identity verification. The report focuses on how attackers exploit weak verification processes at the helpdesk level to gain unauthorized access to corporate systems.",
+      "image": "https://www.bleepstatic.com/content/posts/2026/11/16/specops-hacker.jpg",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -128,29 +158,9 @@
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-account-access-manager-easier/",
       "source": "Amazon.com",
       "date": "2026-11-18",
-      "summary": "AWS has updated its IAM account access manager with new features to simplify deployment and administration. The updates include support for AWS managed policies, infrastructure-as-code (IaC) integration, and improvements to role assignment workflows.",
+      "summary": "AWS has updated its IAM account access manager with new features to simplify deployment and usage. The improvements include support for AWS managed policies, infrastructure-as-code (IaC) integration, and enhanced role assignment capabilities.",
       "image": null,
       "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
-      "url": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
-      "source": "Bleeping Computer",
-      "date": "2026-11-17",
-      "summary": "Attackers are stealing credentials and access secrets exposed in public Docker Hub images within seconds of publication, with exploitation occurring as fast as eight seconds after a secret is leaked. The research highlights the automated scanning infrastructure used by threat actors to harvest cloud keys, API tokens, and other access credentials from publicly accessible container images.",
-      "image": null,
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
-      "url": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
-      "source": "The Hacker News",
-      "date": "2026-11-17",
-      "summary": "Apple is introducing more granular app permission controls in macOS 26 beta 2, affecting Device Control, Data Access, and Full Disk Access APIs. The changes are partly motivated by AI agent security risks and aim to give users more transparency over what data applications can access.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpfVz_pnzHGcrDTsga77xG6yDhi_sMihXsGCjULyapjweerWHdHByPuWqWYmWQsDAAV37EfmctWtSZgYCHJ-2FMGEE6K94YRDVFjHVO0i1jZxn-TIewKbDqIn3y-pNMH7pqJ9SA1X2Sk_r_vn_SfRdxbPB2kH9-hHkNrigumGuQKXaA6xlHqCdWu4ZDAFH/s1600/apple-macos.jpg",
-      "importance": 5,
       "paywall": false
     },
     {
@@ -158,69 +168,9 @@
       "url": "https://aws.amazon.com/blogs/machine-learning/secure-oauth-patterns-for-snowflake-cortex-ai-through-amazon-bedrock-agentcore/",
       "source": "Amazon.com",
       "date": "2026-11-17",
-      "summary": "AWS published a technical walkthrough of three OAuth authentication patterns for connecting Amazon Bedrock AgentCore to Snowflake Cortex AI via MCP, tested using AgentCore Identity. The patterns covered include Snowflake-native OAuth, three-legged OAuth with a corporate identity provider, and two-legged OAuth for service-to-service authentication.",
+      "summary": "AWS published a technical walkthrough of three OAuth authentication patterns for connecting Amazon Bedrock AgentCore to Snowflake Cortex AI via MCP. The patterns covered include Snowflake OAuth, three-legged OAuth with a corporate IdP, and two-legged OAuth, tested through AgentCore Identity.",
       "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/16/ML-21095-featured-image.png",
       "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Securing REST APIs with JWT authorizers in Amazon API Gateway",
-      "url": "https://aws.amazon.com/blogs/compute/securing-rest-apis-with-jwt-authorizers-in-amazon-api-gateway/",
-      "source": "Amazon.com",
-      "date": "2026-11-17",
-      "summary": "Amazon API Gateway has added native JWT authorizer support for REST APIs, enabling token validation from any OIDC-compatible identity provider without requiring a Lambda authorizer. The feature supports machine-to-machine authentication flows using standard JWT/OIDC protocols directly within the API Gateway layer.",
-      "image": "https://d2908q01vomqb2.cloudfront.net/1b6453892473a467d07372d45eb05abc2031647a/2026/11/10/ComputeBlog-2825-featured-image.png",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Semperis updates Lightning identity security platform to defend against AI agent attacks",
-      "url": "https://siliconangle.com/2026/11/17/semperis-updates-lightning-identity-security-platform-to-defend-against-ai-agent-attacks/",
-      "source": "SiliconANGLE News",
-      "date": "2026-11-17",
-      "summary": "Semperis has released an updated version of its Lightning identity security platform, specifically designed to defend against AI agent-based identity attacks. The update targets enterprise identity protection and cyber resilience use cases, expanding the platform's capabilities to address emerging AI-driven threats.",
-      "image": "https://images.siliconangle.com/blogs.dir/1/files/2023/08/semperis.png",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Airlock Digital blocks unauthorized AI agent actions at the endpoint",
-      "url": "https://www.helpnetsecurity.com/2026/11/17/airlock-digital-agentic-control/",
-      "source": "Help Net Security",
-      "date": "2026-11-17",
-      "summary": "Airlock Digital released version 7.1 of its software, introducing \"Agentic Control\" to manage and restrict AI agent actions at the endpoint. The feature extends the vendor's Deny by Default Application Control framework to govern AI agent behavior.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "How Modern PAM Secures the AI Agents That Password Vaults Can’t",
-      "url": "https://hackread.com/pam-secures-ai-agents-password-vaults-cant/",
-      "source": "HackRead",
-      "date": "2026-11-17",
-      "summary": "The article examines how modern Privileged Access Management (PAM) solutions address security challenges posed by AI agents, which traditional password vaults cannot adequately protect. It covers specific PAM capabilities including just-in-time access provisioning, least-privilege controls, activity monitoring, and real-time intervention mechanisms for AI agent environments.",
-      "image": "https://hackread.com/wp-content/uploads/2026/11/pam-secures-ai-agents-password-vaults-cant.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Okta Review 2026: Pricing, Pros & Cons",
-      "url": "https://leadchangegroup.com/software/okta/",
-      "source": "Leadchangegroup.com",
-      "date": "2026-11-17",
-      "summary": "A review of Okta's identity platform covers pricing starting at $6 per user per month across five plans. The review focuses on use cases for IT and HR teams managing joiner, mover, and leaver access workflows from HR systems.",
-      "image": "https://leadchangegroup.com/logos/okta.png",
-      "importance": 3,
-      "paywall": false
-    },
-    {
-      "title": "Okta Pricing 2026: Plans & Cost per User",
-      "url": "https://leadchangegroup.com/software/okta/pricing/",
-      "source": "Leadchangegroup.com",
-      "date": "2026-11-17",
-      "summary": "An article outlines Okta's 2026 pricing structure, detailing plans including Starter, Core Essentials, and Essentials tiers starting at $6 per user per month. The breakdown includes per-headcount costs and additional fees across the available plan tiers.",
-      "image": "https://leadchangegroup.com/brand/og-default.png",
-      "importance": 4,
       "paywall": false
     },
     {
@@ -228,7 +178,7 @@
       "url": "https://www.darkreading.com/cyber-risk/nist-finalizes-post-quantum-cryptography-guidance-gao-offers-a-reality-check",
       "source": "Dark Reading",
       "date": "2026-11-16",
-      "summary": "NIST has finalized its post-quantum cryptography guidance as GAO released a report showing federal agencies are behind in implementing quantum-resistant defenses. Post-quantum cryptography directly impacts IAM systems, as current encryption underpinning authentication protocols and identity infrastructure faces potential compromise from quantum computing.",
+      "summary": "NIST has finalized its post-quantum cryptography guidance as GAO reports that federal agencies are behind on implementing quantum-resistant defenses. Post-quantum cryptography directly impacts authentication and encryption mechanisms foundational to IAM systems, including certificate-based authentication, PKI, and secure credential exchange.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltfe572d94baa464a0/67bf001706ed6e9954636f2b/pqc-quantum-adam121AdobeStock.jpg?width=720&quality=80&disable=upscale",
       "importance": 6,
       "paywall": false
@@ -238,7 +188,7 @@
       "url": "https://www.darkreading.com/data-privacy/extortion-luna-moth-law-firms-second-time",
       "source": "Dark Reading",
       "date": "2026-11-12",
-      "summary": "The Luna Moth extortion group is targeting law firms using social engineering attacks designed to steal Microsoft access tokens. The campaign specifically retargets organizations that previously refused to pay ransoms, focusing on credential and token theft as the primary attack vector.",
+      "summary": "The Luna Moth extortion group is launching follow-up attacks against law firms that refused to pay initial ransoms, using social engineering techniques to steal Microsoft access tokens. The campaign specifically targets OAuth/access token theft as the primary credential compromise vector.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd72cfa843f157710/6af61e08fa93fcee56324598/black_and_white_moth-powerofforever-GettyImages-1920014051.jpg?width=720&quality=80&disable=upscale",
       "importance": 6,
       "paywall": false
@@ -248,7 +198,7 @@
       "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
       "source": "Krebs on Security",
       "date": "2026-11-10",
-      "summary": "Microsoft released a Patch Tuesday update addressing nearly 1,100 security vulnerabilities, including 63 critical flaws. The update includes a zero-day vulnerability in Microsoft Outlook, alongside security updates from Adobe, Apple, Google, and Mozilla.",
+      "summary": "Microsoft released a Patch Tuesday update addressing nearly 1,100 security vulnerabilities, including 63 critical flaws. Among the fixes is a zero-day vulnerability in Microsoft Outlook, alongside updates from Adobe, Apple, Google, and Mozilla.",
       "image": null,
       "importance": 5,
       "paywall": false
