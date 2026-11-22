@@ -1,12 +1,32 @@
 {
-  "updated": "November 21, 2026 at 10:53 UTC",
+  "updated": "November 22, 2026 at 11:01 UTC",
   "top_stories": [
+    {
+      "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+      "source": "Bleeping Computer",
+      "date": "2026-11-21",
+      "summary": "Microsoft suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. The breach directly affects Microsoft Entra, a core IAM platform, with attackers targeting identity infrastructure data including admin accounts and tenant configurations.",
+      "image": null,
+      "importance": 9,
+      "paywall": false
+    },
+    {
+      "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+      "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+      "source": "Bleeping Computer",
+      "date": "2026-11-21",
+      "summary": "Rackspace disclosed a breach of its Spot cloud platform in which attackers used compromised credentials to gain unauthorized access to customer Kubernetes clusters. The attackers were able to deploy unauthorized workloads and access Kubernetes secrets stored within those clusters.",
+      "image": null,
+      "importance": 7,
+      "paywall": false
+    },
     {
       "title": "VMware vCenter zero-day exploited for months before patch (CVE-2026-123890)",
       "url": "https://www.helpnetsecurity.com/2026/11/20/vmware-vcenter-zero-day-cve-2026-123890-exploited/",
       "source": "Help Net Security",
       "date": "2026-11-20",
-      "summary": "A China-nexus espionage group exploited a VMware vCenter zero-day vulnerability (CVE-2026-123890, CVSS 9.8) for over two months before Broadcom released a patch. The flaw allows a remote, unauthenticated attacker to obtain an administrator session on vCenter Server, directly impacting privileged access and authentication controls.",
+      "summary": "A China-nexus espionage group exploited a VMware vCenter zero-day vulnerability (CVE-2026-123890, CVSS 9.8) for over two months before Broadcom released a patch. The flaw allows a remote, unauthenticated attacker to obtain an administrator session on vCenter Server, directly compromising privileged access to virtualized infrastructure.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/01/18110318/vmware-1400-monitor.jpg",
       "importance": 7,
       "paywall": false
@@ -16,7 +36,7 @@
       "url": "https://www.helpnetsecurity.com/2026/11/20/ai-agent-api-security-production/",
       "source": "Help Net Security",
       "date": "2026-11-20",
-      "summary": "A Postman survey of nearly 9,000 developers, architects, and executives found that 25% of organizations already have AI agents calling APIs in production. Approximately 40% of respondents have not yet resolved how credentials and identity management will work for these agents.",
+      "summary": "A Postman survey of nearly 9,000 developers, architects, and executives found that 25% of organizations already have AI agents calling APIs in production. Approximately 40% of respondents have not resolved how credentials and identity management will work for these agents, indicating a significant gap in machine identity and authorization practices.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/08/14111858/api-1500.webp",
       "importance": 7,
       "paywall": false
@@ -26,28 +46,8 @@
       "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
       "source": "The Hacker News",
       "date": "2026-11-20",
-      "summary": "A China-linked threat group known as Armory Castle exploited a critical zero-day vulnerability (CVE-2026-123890, CVSS 9.8) in VMware vCenter Server in early September 2026. The flaw is an authentication bypass in the VMware Directory Service that allowed attackers to gain unauthorized admin access and steal data.",
+      "summary": "A China-linked threat group known as Armory Castle (formerly UNC5221) exploited a critical zero-day vulnerability in VMware vCenter Server (CVE-2026-123890, CVSS 9.8) in early September 2026. The flaw is an authentication bypass in the VMware Directory Service that allowed attackers to gain unauthorized admin access and steal data.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTSAI-N-DRII1YA3I98ZVnKnG0SMgm97oEAqyiSXZB23DPwzvTk3figFLsTCKsMJRxRhjKEPFblxfcOuB_UXc_OAXJRiVI07Jxjn-CebJVHiRQ5sc43AifBpUPNfU5-LRD6QEGbX7Vnt_HAmJZiLojS32PtNWwIWeideJZnIpgjrstJ0Iy84lYd47bePk/s1600/chinese-vmware.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
-      "url": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
-      "source": "The Hacker News",
-      "date": "2026-11-18",
-      "summary": "Researchers at Technische Universität Berlin discovered an attack that bypasses TPM lockout mechanisms on AMD-based and some Intel PCs, allowing brute-force cracking of Windows Hello and BitLocker PINs within days. By physically opening a device and resetting the TPM lockout counter, attackers were able to recover a four-digit Windows Hello PIN and a six-digit BitLocker PIN in lab testing.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpsv4GxAUbzCsIV1umrxZs6VxfD1eFwAeCgRHQQG_dNbP1fLiYe48hM-Wbd_8w5IxlacAwoidLqyQgBmG7YD7qKo0_XcqW2GhggfXshuK1uXz8BOma2H0Jjs8fabCO4IxHBfRopEUFDd0xHRRv43gMeog852Usv40sfcTwnO_9coyxtIMmteJxeJI_oPA/s1600/bitlocker.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
-      "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
-      "source": "The Hacker News",
-      "date": "2026-11-18",
-      "summary": "A pre-authentication remote code execution vulnerability dubbed Java4Shell (CVE-2026-114938) has been disclosed by security firm Calif, affecting Java 17.0.6 and later on specific x86-64 processors. The flaw impacts several widely used platforms including Keycloak, an open-source identity and access management solution, as well as Jira and Jenkins.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis8B-Vf6puS0vOs9mEVup755KXy8y59KD72B5VQb8SyhO1JDHkYcvg42Y1rh1xg3seyml7j2vZn5Dq1OEnFYVzD_97osoZXWkxVVOBxM48InZPbaVgV7Lo64odzPVKNPEtPeLlEAm2AFfShOFVGtypVUJAJdt07qqik_Yde9X6BxLECPH7Gekbkzl2GBDK/s1600/java4shell-flaw.jpg",
       "importance": 7,
       "paywall": false
     }
@@ -58,7 +58,7 @@
       "url": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/",
       "source": "Bleeping Computer",
       "date": "2026-11-20",
-      "summary": "NordPass published content advocating for centralized password management over spreadsheet-based credential tracking for IT administrators. The piece covers credential visibility, identifying weak or reused passwords, and secure sharing practices.",
+      "summary": "NordPass published content advocating for centralized password management over spreadsheet-based credential tracking for IT administrators. The piece focuses on improving credential visibility and reducing risks from weak, reused, or compromised passwords shared outside approved systems.",
       "image": null,
       "importance": 4,
       "paywall": false
@@ -68,9 +68,49 @@
       "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/",
       "source": "Bleeping Computer",
       "date": "2026-11-20",
-      "summary": "Microsoft released the KB5132057 preview update for Windows 11, which includes 28 changes and fixes. Among the updates are improvements to Windows Hello, the biometric authentication feature built into Windows 11.",
+      "summary": "Microsoft released the KB5132057 preview update for Windows 11, containing 28 changes and fixes. The update includes improvements to Windows Hello, alongside other changes to Windows Search and the Run dialog.",
       "image": null,
-      "importance": 2,
+      "importance": 3,
+      "paywall": false
+    },
+    {
+      "title": "Scope down permissions of existing sessions using AWS STS GetScopedCredentials",
+      "url": "https://aws.amazon.com/blogs/security/scope-down-permissions-of-existing-sessions-using-aws-sts-getscopedcredentials/",
+      "source": "Amazon.com",
+      "date": "2026-11-20",
+      "summary": "AWS has launched a new Security Token Service API called GetScopedCredentials that allows developers to scope down permissions of existing sessions to only what specific tasks require. The API is designed for AI agent workflows where sub-agents should operate with least-privilege access rather than inheriting full parent session permissions.",
+      "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/10/21/Lock-data.jpeg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Stock Looks Fully Valued On New Onboarding Security Tie Up",
+      "url": "https://biztoc.com/x/84db503201140cb7",
+      "source": "Biztoc.com",
+      "date": "2026-11-20",
+      "summary": "SailPoint is highlighted in a financial analysis examining whether its 25.2% return over the past year is supported by its cash flows. The article focuses on stock valuation in the context of a new onboarding security partnership and upcoming investor events.",
+      "image": "https://cdn.biztoc.com/84db503201140cb7_s.webp",
+      "importance": 3,
+      "paywall": false
+    },
+    {
+      "title": "jumpserver v5.2.0",
+      "url": "https://kitploit.com/en/posts/jumpserver-d57a9e17f525ce9e",
+      "source": "Kitploit.com",
+      "date": "2026-11-20",
+      "summary": "JumpServer has released version 5.2.0 of its open-source Privileged Access Management (PAM) platform. The platform provides DevOps and IT teams with secure access to SSH, RDP, Kubernetes, Database, and RemoteApp endpoints through a web browser.",
+      "image": "https://assets.kitploit.com/production/public/tools/9035/0f9c64e97e720e22b1483be483fa6ea8438dee812c3d54b8b018a55155b9fff8.png",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Windows 11 passkey bug cries failure after successful sign-in",
+      "url": "https://www.theregister.com/security/2026/11/20/windows-11-passkey-bug-cries-failure-after-successful-sign-in/5311263",
+      "source": "Theregister.com",
+      "date": "2026-11-20",
+      "summary": "Microsoft released an optional update for Windows 11 versions 25H2 and 26H2 to fix a passkey authentication bug that displayed a misleading failure error after a successful Android sign-in. The bug caused the sign-in process to show an error message despite the passkey authentication completing successfully.",
+      "image": "https://image.theregister.com/5289791.webp?width=1200",
+      "importance": 6,
       "paywall": false
     },
     {
@@ -88,7 +128,7 @@
       "url": "https://www.golem.de/sonstiges/zustimmung/auswahl.html?from=https%3A%2F%2Fwww.golem.de%2Fnews%2Fanzeige-microsoft-entra-id-identitaeten-und-zugriffe-sicher-verwalten-2611-215382.html&referer=https%3A%2F%2Ft.co%2Fa3394ddcff",
       "source": "Golem.de",
       "date": "2026-11-20",
-      "summary": "Microsoft Entra ID is featured in a sponsored advertisement promoting identity and access management capabilities. The ad highlights a workshop covering hybrid environment configuration and security strategies using the platform.",
+      "summary": "Microsoft Entra ID is being promoted through a workshop focused on identity management and access protection configuration. The workshop covers hybrid environment setup and security strategies for Entra ID deployments.",
       "image": null,
       "importance": 5,
       "paywall": false
@@ -98,7 +138,7 @@
       "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
       "source": "The Hacker News",
       "date": "2026-11-19",
-      "summary": "Broadcom disclosed a critical zero-day vulnerability in VMware vCenter that allows network-adjacent attackers to bypass authentication and gain unauthorized system access. Fixed versions have been released for all supported branches, with no available workaround for the authentication bypass flaw.",
+      "summary": "Broadcom disclosed a critical zero-day vulnerability in VMware vCenter that allows network-adjacent attackers to bypass authentication and gain unauthorized system access. Fixed versions have been released for all supported branches, with no available workaround provided.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZ5IDT81eb7KUE0LzwGJAzuAETft3pD5sOz2dJxnQin_-zR_hH8tDKFTsLNBNoe35KM4DhFJjP7K-0YwaMoVwz7xUhTiP2vKeNqmN3kenPgwflENu35qx-QlFj-rDFdyXx1HMz6ykegw6nlnPDXppYbotjoRj-ammlyUZ-Cr0JYLS5iyZXkJXkaIO5UAc/s1600/vmware.jpg",
       "importance": 6,
       "paywall": false
@@ -108,7 +148,7 @@
       "url": "https://aws.amazon.com/blogs/security/your-aws-security-identity-and-governance-guide-to-reinvent-2026/",
       "source": "Amazon.com",
       "date": "2026-11-19",
-      "summary": "AWS is previewing its Security, Identity, and Governance track for re:Invent 2026, scheduled for November 30 to December 4 in Las Vegas. The event will focus on identity challenges introduced by AI agents operating autonomously across systems, among other IAM-related topics.",
+      "summary": "AWS is promoting its Security, Identity, and Governance track at re:Invent 2026, scheduled for November 30 to December 4 in Las Vegas. The event will cover identity management topics including AI agent identity, with sessions directed at security and IAM professionals.",
       "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/19/Security-Identity-Governance-guide-Figure-1.jpg",
       "importance": 6,
       "paywall": false
@@ -128,7 +168,7 @@
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-secrets-manager-integration/",
       "source": "Amazon.com",
       "date": "2026-11-19",
-      "summary": "Amazon Cognito has added integration with AWS Secrets Manager, enabling user pool app client secrets to be stored and managed through Secrets Manager. This update affects how developers secure authentication credentials for applications built on Cognito's sign-in and access control platform.",
+      "summary": "Amazon Cognito has added integration with AWS Secrets Manager, enabling user pool app client secrets to be stored and managed through Secrets Manager. This update affects how developers handle authentication secrets for applications using Cognito's sign-in and access control capabilities.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -138,19 +178,9 @@
       "url": "https://www.tenable.com/blog/identity-context-is-essential-for-exposure-management-tenable-one-adds-ways-to-bring-in",
       "source": "Tenable.com",
       "date": "2026-11-19",
-      "summary": "Tenable One has added the ability to ingest identity findings from third-party sources within its exposure management platform. The new capability allows security teams to assess and prioritize identity-related exposures such as stale and overprivileged accounts alongside vulnerability and misconfiguration data.",
+      "summary": "Tenable One has expanded its exposure management platform to ingest identity findings from third-party sources. The update enables security teams to assess and prioritize exposures related to stale and overprivileged accounts alongside vulnerability and misconfiguration data.",
       "image": "https://www.tenable.com/sites/default/files/images/articles/Two%20new%20ways%20to%20bring%20identity%20security%20data%20into%20Tenable%20One.png",
       "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Bitwarden expands passkey support with new Windows and macOS integrations",
-      "url": "https://www.helpnetsecurity.com/2026/11/19/bitwarden-windows-macos-passkeys-integration/",
-      "source": "Help Net Security",
-      "date": "2026-11-19",
-      "summary": "Bitwarden has expanded passkey support with new integrations for Windows and macOS, enabling users to log in and unlock their vaults using passkeys through native OS authentication. The update extends passkey functionality across both desktop platforms, aligning with broader FIDO2/passwordless authentication standards relevant to IAM practitioners.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
-      "importance": 6,
       "paywall": false
     },
     {
@@ -158,29 +188,9 @@
       "url": "https://www.darkreading.com/vulnerabilities-threats/major-brazilian-signature-app-rce-fraud",
       "source": "Dark Reading",
       "date": "2026-11-18",
-      "summary": "Brazilian government-sanctioned authentication middleware used for legally binding document signing contains remote code execution vulnerabilities. The flaws affect signature applications that serve as authentication mechanisms for high-stakes legal documents in Brazil.",
+      "summary": "Brazilian government-sanctioned authentication middleware applications used for legally binding document signing contain remote code execution vulnerabilities. The flaws affect signature apps that serve as authentication mechanisms for high-value legal documents, exposing users to both RCE attacks and potential fraud.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd3d76d438281428b/6afb51c99f6beb04c5e535c4/Brazil_CNH-RafaPress-Getty.jpg?width=720&quality=80&disable=upscale",
       "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Step-up authentication: how to right-size authentication to risk",
-      "url": "https://aws.amazon.com/blogs/security/step-up-authentication-how-to-right-size-authentication-to-risk/",
-      "source": "Amazon.com",
-      "date": "2026-11-18",
-      "summary": "The article covers step-up authentication, a risk-based approach that requires additional identity verification only when users attempt higher-risk actions within an application. It explains how authentication requirements can be calibrated to the sensitivity of specific actions, such as distinguishing between viewing account data versus initiating financial transactions.",
-      "image": "https://d2908q01vomqb2.cloudfront.net/827bfc458708f0b442009c9c9836f7e4b65557fb/2020/06/03/Blog-Post_thumbnail.png",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Detecting cross-cloud lateral movement with AWS Security Hub",
-      "url": "https://aws.amazon.com/blogs/security/detecting-cross-cloud-lateral-movement-with-aws-security-hub/",
-      "source": "Amazon.com",
-      "date": "2026-11-18",
-      "summary": "The article addresses detecting cross-cloud lateral movement by attackers who compromise identities and follow federated trusts across cloud providers. It focuses on using AWS Security Hub to identify this identity-based attack pattern in multicloud environments.",
-      "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/18/cloud-compute.jpg",
-      "importance": 7,
       "paywall": false
     },
     {
@@ -188,7 +198,7 @@
       "url": "https://www.darkreading.com/cyber-risk/nist-finalizes-post-quantum-cryptography-guidance-gao-offers-a-reality-check",
       "source": "Dark Reading",
       "date": "2026-11-16",
-      "summary": "NIST has finalized its post-quantum cryptography guidance as GAO released a report showing federal agencies are behind in implementing quantum-resistant defenses. Post-quantum cryptography directly impacts IAM systems that rely on encryption for authentication, key exchange, and secure identity protocols.",
+      "summary": "NIST has finalized its post-quantum cryptography guidance, establishing standards to protect sensitive data against quantum computing threats. A GAO report reveals that federal agencies are lagging in implementing these defenses, which directly impacts IAM systems relying on current encryption and authentication protocols.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltfe572d94baa464a0/67bf001706ed6e9954636f2b/pqc-quantum-adam121AdobeStock.jpg?width=720&quality=80&disable=upscale",
       "importance": 6,
       "paywall": false
@@ -198,7 +208,7 @@
       "url": "https://www.darkreading.com/data-privacy/extortion-luna-moth-law-firms-second-time",
       "source": "Dark Reading",
       "date": "2026-11-12",
-      "summary": "The Luna Moth extortion group is targeting law firms using social engineering tactics designed to steal Microsoft access tokens. The campaign involves retargeting organizations that previously refused to pay ransoms, with credential and token theft as the primary attack vector.",
+      "summary": "The Luna Moth extortion group is targeting law firms using social engineering tactics designed to steal Microsoft access tokens. The campaign specifically revisits law firms that previously refused to pay ransoms, focusing on credential and token theft as the primary attack vector.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd72cfa843f157710/6af61e08fa93fcee56324598/black_and_white_moth-powerofforever-GettyImages-1920014051.jpg?width=720&quality=80&disable=upscale",
       "importance": 6,
       "paywall": false
@@ -208,7 +218,7 @@
       "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
       "source": "Krebs on Security",
       "date": "2026-11-10",
-      "summary": "Microsoft released a Patch Tuesday update addressing nearly 1,100 security vulnerabilities, including 63 critical flaws. Among the fixes is a zero-day vulnerability in Microsoft Outlook, alongside updates from other software vendors including Adobe, Apple, Google, and Mozilla.",
+      "summary": "Microsoft released a Patch Tuesday update fixing nearly 1,100 security vulnerabilities across Windows and supported software, including 63 critical flaws. Among the patches is a zero-day vulnerability in Microsoft Outlook, alongside updates from Adobe, Apple, Google, and Mozilla.",
       "image": null,
       "importance": 5,
       "paywall": false
