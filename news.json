@@ -1,14 +1,34 @@
 {
-  "updated": "November 22, 2026 at 11:01 UTC",
+  "updated": "November 23, 2026 at 12:10 UTC",
   "top_stories": [
     {
       "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
       "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
       "source": "Bleeping Computer",
       "date": "2026-11-21",
-      "summary": "Microsoft suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. The breach directly affects Microsoft Entra, a core IAM platform, with attackers targeting identity infrastructure data including admin accounts and tenant configurations.",
+      "summary": "Microsoft suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access. The attackers were able to steal administrator email addresses and tenant configuration information from affected organizations.",
       "image": null,
       "importance": 9,
+      "paywall": false
+    },
+    {
+      "title": "Attackers exploited Microsoft Entra Connect Health flaw to access tenant data",
+      "url": "https://www.helpnetsecurity.com/2026/11/23/microsoft-entra-connect-health-vulnerability-tenant-data/",
+      "source": "Help Net Security",
+      "date": "2026-11-23",
+      "summary": "Attackers exploited a vulnerability in the Microsoft Entra Connect Health API to access tenant data, including technical contact email addresses and configuration details of affected Entra tenants. Microsoft Entra Connect Health is a cloud-based monitoring service for on-premises identity infrastructure, and Microsoft notified affected organizations of the breach.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/19192616/microsoft-chip.webp",
+      "importance": 9,
+      "paywall": false
+    },
+    {
+      "title": "How Security Vendors Are Tackling Access-Control Challenges for AI Agents",
+      "url": "https://www.darkreading.com/identity-access-management-security/ai-agents-bring-enterprises-new-access-control-challenges",
+      "source": "Dark Reading",
+      "date": "2026-11-21",
+      "summary": "Security vendors are developing varying approaches to access control for AI agents, converging identity, runtime, and development controls. CISOs must evaluate differing vendor strategies for keeping AI agents constrained to their assigned tasks and permissions.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt64d615142d7be882/6882572f618f869f048e5227/Agentic_AI_(1800)_Pattara_Alamy.jpg?width=720&quality=80&disable=upscale",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -16,28 +36,8 @@
       "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
       "source": "Bleeping Computer",
       "date": "2026-11-21",
-      "summary": "Rackspace disclosed a breach of its Spot cloud platform in which attackers used compromised credentials to gain unauthorized access to customer Kubernetes clusters. The attackers were able to deploy unauthorized workloads and access Kubernetes secrets stored within those clusters.",
+      "summary": "Rackspace disclosed a breach of its Spot cloud platform in which attackers used compromised credentials to gain unauthorized access to customer Kubernetes clusters. The attackers were able to deploy unauthorized workloads and access Kubernetes secrets, highlighting credential compromise as the attack vector.",
       "image": null,
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "VMware vCenter zero-day exploited for months before patch (CVE-2026-123890)",
-      "url": "https://www.helpnetsecurity.com/2026/11/20/vmware-vcenter-zero-day-cve-2026-123890-exploited/",
-      "source": "Help Net Security",
-      "date": "2026-11-20",
-      "summary": "A China-nexus espionage group exploited a VMware vCenter zero-day vulnerability (CVE-2026-123890, CVSS 9.8) for over two months before Broadcom released a patch. The flaw allows a remote, unauthenticated attacker to obtain an administrator session on vCenter Server, directly compromising privileged access to virtualized infrastructure.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/01/18110318/vmware-1400-monitor.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "AI agent API security hasn’t caught up with agents already running in production",
-      "url": "https://www.helpnetsecurity.com/2026/11/20/ai-agent-api-security-production/",
-      "source": "Help Net Security",
-      "date": "2026-11-20",
-      "summary": "A Postman survey of nearly 9,000 developers, architects, and executives found that 25% of organizations already have AI agents calling APIs in production. Approximately 40% of respondents have not resolved how credentials and identity management will work for these agents, indicating a significant gap in machine identity and authorization practices.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/08/14111858/api-1500.webp",
       "importance": 7,
       "paywall": false
     },
@@ -46,7 +46,7 @@
       "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
       "source": "The Hacker News",
       "date": "2026-11-20",
-      "summary": "A China-linked threat group known as Armory Castle (formerly UNC5221) exploited a critical zero-day vulnerability in VMware vCenter Server (CVE-2026-123890, CVSS 9.8) in early September 2026. The flaw is an authentication bypass in the VMware Directory Service that allowed attackers to gain unauthorized admin access and steal data.",
+      "summary": "A China-linked threat actor known as Armory Castle exploited a critical zero-day vulnerability (CVE-2026-123890, CVSS 9.8) in VMware vCenter Server in early September 2026. The flaw is an authentication bypass in the VMware Directory Service, allowing attackers to gain unauthorized admin access and steal data.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTSAI-N-DRII1YA3I98ZVnKnG0SMgm97oEAqyiSXZB23DPwzvTk3figFLsTCKsMJRxRhjKEPFblxfcOuB_UXc_OAXJRiVI07Jxjn-CebJVHiRQ5sc43AifBpUPNfU5-LRD6QEGbX7Vnt_HAmJZiLojS32PtNWwIWeideJZnIpgjrstJ0Iy84lYd47bePk/s1600/chinese-vmware.jpg",
       "importance": 7,
       "paywall": false
@@ -54,23 +54,43 @@
   ],
   "news": [
     {
+      "title": "Google’s semantic governance policies can block an AI agent’s tool call before it runs",
+      "url": "https://www.helpnetsecurity.com/2026/11/23/google-semantic-governance-policies/",
+      "source": "Help Net Security",
+      "date": "2026-11-23",
+      "summary": "Google has introduced semantic governance policies in Preview on the Gemini platform that evaluate and block AI agent tool calls before execution if they violate company rules or don't match user requests. The enforcement mechanism sits outside the agent at a checkpoint such as Agent Gateway, with permissions defining what actions an agent is allowed to take.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/16180422/google-cloud.webp",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Entra Connect Health data exposure: what to do | Enzo Soler",
+      "url": "https://enzosoler.com/news/microsoft-entra-connect-health-flaw-tenant-data-exposed/",
+      "source": "Enzosoler.com",
+      "date": "2026-11-21",
+      "summary": "Microsoft disclosed that attackers exploited a vulnerability in the Entra Connect Health API to read tenant metadata including administrator and technical contact email addresses, tenant IDs, and license tiers. Microsoft patched the flaw server-side on November 19, with no customer-side action required to remediate the vulnerability itself.",
+      "image": "https://enzosoler.com/images/news/microsoft-entra-connect-health-flaw-tenant-data-exposed-hero.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft Debuts Offensive, Defensive Security Tools for the AI Era",
+      "url": "https://www.darkreading.com/endpoint-security/microsoft-offense-defense-ai-security-tools",
+      "source": "Dark Reading",
+      "date": "2026-11-20",
+      "summary": "Microsoft announced new AI agent security tools and transparency standards at its Ignite technical conference. The tools are aimed at protecting enterprise systems in AI deployments, though the announcement is broadly focused on AI security rather than specifically on identity or access management capabilities.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt823dceb89b6bf324/6a1dd1f32928e11bac7b2d1a/microsoft_DrewAngerer_Getty.jpg?width=720&quality=80&disable=upscale",
+      "importance": 5,
+      "paywall": false
+    },
+    {
       "title": "Still tracking company passwords in spreadsheets? You’re flying blind.",
       "url": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/",
       "source": "Bleeping Computer",
       "date": "2026-11-20",
-      "summary": "NordPass published content advocating for centralized password management over spreadsheet-based credential tracking for IT administrators. The piece focuses on improving credential visibility and reducing risks from weak, reused, or compromised passwords shared outside approved systems.",
+      "summary": "NordPass published content advocating for centralized password management over spreadsheet-based credential tracking for IT administrators. The piece covers credential visibility, identifying weak or reused passwords, and secure sharing practices.",
       "image": null,
       "importance": 4,
-      "paywall": false
-    },
-    {
-      "title": "Windows 11 KB5132057 update released with 28 changes and fixes",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/",
-      "source": "Bleeping Computer",
-      "date": "2026-11-20",
-      "summary": "Microsoft released the KB5132057 preview update for Windows 11, containing 28 changes and fixes. The update includes improvements to Windows Hello, alongside other changes to Windows Search and the Run dialog.",
-      "image": null,
-      "importance": 3,
       "paywall": false
     },
     {
@@ -78,9 +98,9 @@
       "url": "https://aws.amazon.com/blogs/security/scope-down-permissions-of-existing-sessions-using-aws-sts-getscopedcredentials/",
       "source": "Amazon.com",
       "date": "2026-11-20",
-      "summary": "AWS has launched a new Security Token Service API called GetScopedCredentials that allows developers to scope down permissions of existing sessions to only what specific tasks require. The API is designed for AI agent workflows where sub-agents should operate with least-privilege access rather than inheriting full parent session permissions.",
+      "summary": "AWS has introduced a new Security Token Service (STS) API called GetScopedCredentials that allows developers to narrow down permissions of existing sessions rather than granting full session permissions. The API is specifically designed for AI agent architectures where sub-agents should only receive the minimum permissions needed for their specific tasks.",
       "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/10/21/Lock-data.jpeg",
-      "importance": 7,
+      "importance": 6,
       "paywall": false
     },
     {
@@ -88,7 +108,7 @@
       "url": "https://biztoc.com/x/84db503201140cb7",
       "source": "Biztoc.com",
       "date": "2026-11-20",
-      "summary": "SailPoint is highlighted in a financial analysis examining whether its 25.2% return over the past year is supported by its cash flows. The article focuses on stock valuation in the context of a new onboarding security partnership and upcoming investor events.",
+      "summary": "SailPoint is highlighted in a financial analysis examining whether its 25.2% return over the past year is supported by its cash flows. The article focuses on stock valuation and investor considerations around product partnerships and upcoming investor events.",
       "image": "https://cdn.biztoc.com/84db503201140cb7_s.webp",
       "importance": 3,
       "paywall": false
@@ -98,7 +118,7 @@
       "url": "https://kitploit.com/en/posts/jumpserver-d57a9e17f525ce9e",
       "source": "Kitploit.com",
       "date": "2026-11-20",
-      "summary": "JumpServer has released version 5.2.0 of its open-source Privileged Access Management (PAM) platform. The platform provides DevOps and IT teams with secure access to SSH, RDP, Kubernetes, Database, and RemoteApp endpoints through a web browser.",
+      "summary": "JumpServer has released version 5.2.0 of its open-source Privileged Access Management platform. The platform provides DevOps and IT teams with secure access to SSH, RDP, Kubernetes, Database, and RemoteApp endpoints through a web browser.",
       "image": "https://assets.kitploit.com/production/public/tools/9035/0f9c64e97e720e22b1483be483fa6ea8438dee812c3d54b8b018a55155b9fff8.png",
       "importance": 6,
       "paywall": false
@@ -108,9 +128,19 @@
       "url": "https://www.theregister.com/security/2026/11/20/windows-11-passkey-bug-cries-failure-after-successful-sign-in/5311263",
       "source": "Theregister.com",
       "date": "2026-11-20",
-      "summary": "Microsoft released an optional update for Windows 11 versions 25H2 and 26H2 to fix a passkey authentication bug that displayed a misleading failure error after a successful Android sign-in. The bug caused the sign-in process to show an error message despite the passkey authentication completing successfully.",
+      "summary": "Microsoft released an optional update for Windows 11 versions 25H2 and 26H2 to fix a passkey authentication bug. The bug caused a misleading error message to appear on Android devices even after a passkey sign-in had completed successfully.",
       "image": "https://image.theregister.com/5289791.webp?width=1200",
-      "importance": 6,
+      "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Windows 11 KB5132057 update released with 28 changes and fixes",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/",
+      "source": "BleepingComputer",
+      "date": "2026-11-20",
+      "summary": "Microsoft released the KB5132057 November Windows 11 preview update containing 28 changes and fixes. The update includes improvements to Windows Hello among other non-IAM-focused changes.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/11/17/windows_11_haedpic.jpg",
+      "importance": 2,
       "paywall": false
     },
     {
@@ -138,7 +168,7 @@
       "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
       "source": "The Hacker News",
       "date": "2026-11-19",
-      "summary": "Broadcom disclosed a critical zero-day vulnerability in VMware vCenter that allows network-adjacent attackers to bypass authentication and gain unauthorized system access. Fixed versions have been released for all supported branches, with no available workaround provided.",
+      "summary": "Broadcom disclosed a critical zero-day vulnerability in VMware vCenter that allows network-adjacent attackers to bypass authentication entirely. No workaround exists, and fixed versions have been released for all supported branches.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZ5IDT81eb7KUE0LzwGJAzuAETft3pD5sOz2dJxnQin_-zR_hH8tDKFTsLNBNoe35KM4DhFJjP7K-0YwaMoVwz7xUhTiP2vKeNqmN3kenPgwflENu35qx-QlFj-rDFdyXx1HMz6ykegw6nlnPDXppYbotjoRj-ammlyUZ-Cr0JYLS5iyZXkJXkaIO5UAc/s1600/vmware.jpg",
       "importance": 6,
       "paywall": false
@@ -148,9 +178,9 @@
       "url": "https://aws.amazon.com/blogs/security/your-aws-security-identity-and-governance-guide-to-reinvent-2026/",
       "source": "Amazon.com",
       "date": "2026-11-19",
-      "summary": "AWS is promoting its Security, Identity, and Governance track at re:Invent 2026, scheduled for November 30 to December 4 in Las Vegas. The event will cover identity management topics including AI agent identity, with sessions directed at security and IAM professionals.",
+      "summary": "AWS is promoting its Security, Identity, and Governance track at re:Invent 2026, scheduled for November 30 to December 4 in Las Vegas. The announcement highlights identity challenges related to AI agents as a key theme for the event's sessions.",
       "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/19/Security-Identity-Governance-guide-Figure-1.jpg",
-      "importance": 6,
+      "importance": 5,
       "paywall": false
     },
     {
@@ -168,7 +198,7 @@
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-secrets-manager-integration/",
       "source": "Amazon.com",
       "date": "2026-11-19",
-      "summary": "Amazon Cognito has added integration with AWS Secrets Manager, enabling user pool app client secrets to be stored and managed through Secrets Manager. This update affects how developers handle authentication secrets for applications using Cognito's sign-in and access control capabilities.",
+      "summary": "Amazon Cognito has added integration with AWS Secrets Manager, enabling user pool app client secrets to be stored and managed through Secrets Manager. This update affects authentication and access control workflows for applications, AI agents, and microservices built on Cognito.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -178,7 +208,7 @@
       "url": "https://www.tenable.com/blog/identity-context-is-essential-for-exposure-management-tenable-one-adds-ways-to-bring-in",
       "source": "Tenable.com",
       "date": "2026-11-19",
-      "summary": "Tenable One has expanded its exposure management platform to ingest identity findings from third-party sources. The update enables security teams to assess and prioritize exposures related to stale and overprivileged accounts alongside vulnerability and misconfiguration data.",
+      "summary": "Tenable One has expanded its exposure management platform to ingest identity findings from third-party sources. The update enables security teams to assess and prioritize identity-related exposures such as stale and overprivileged accounts alongside vulnerability and misconfiguration data.",
       "image": "https://www.tenable.com/sites/default/files/images/articles/Two%20new%20ways%20to%20bring%20identity%20security%20data%20into%20Tenable%20One.png",
       "importance": 7,
       "paywall": false
@@ -188,7 +218,7 @@
       "url": "https://www.darkreading.com/vulnerabilities-threats/major-brazilian-signature-app-rce-fraud",
       "source": "Dark Reading",
       "date": "2026-11-18",
-      "summary": "Brazilian government-sanctioned authentication middleware applications used for legally binding document signing contain remote code execution vulnerabilities. The flaws affect signature apps that serve as authentication mechanisms for high-value legal documents, exposing users to both RCE attacks and potential fraud.",
+      "summary": "Brazilian government-sanctioned authentication middleware applications used for legally binding document signing contain remote code execution vulnerabilities. The flaws affect signature apps that serve as authentication mechanisms for high-stakes legal documents in Brazil.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd3d76d438281428b/6afb51c99f6beb04c5e535c4/Brazil_CNH-RafaPress-Getty.jpg?width=720&quality=80&disable=upscale",
       "importance": 6,
       "paywall": false
@@ -198,18 +228,8 @@
       "url": "https://www.darkreading.com/cyber-risk/nist-finalizes-post-quantum-cryptography-guidance-gao-offers-a-reality-check",
       "source": "Dark Reading",
       "date": "2026-11-16",
-      "summary": "NIST has finalized its post-quantum cryptography guidance, establishing standards to protect sensitive data against quantum computing threats. A GAO report reveals that federal agencies are lagging in implementing these defenses, which directly impacts IAM systems relying on current encryption and authentication protocols.",
+      "summary": "NIST has finalized its post-quantum cryptography guidance, establishing standards for encryption that can withstand quantum computing attacks. A GAO report reveals that federal agencies are behind in implementing defenses against quantum threats that could compromise current encryption protecting sensitive data.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltfe572d94baa464a0/67bf001706ed6e9954636f2b/pqc-quantum-adam121AdobeStock.jpg?width=720&quality=80&disable=upscale",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Extortion Group Luna Moth Flits Into Law Firms a Second Time",
-      "url": "https://www.darkreading.com/data-privacy/extortion-luna-moth-law-firms-second-time",
-      "source": "Dark Reading",
-      "date": "2026-11-12",
-      "summary": "The Luna Moth extortion group is targeting law firms using social engineering tactics designed to steal Microsoft access tokens. The campaign specifically revisits law firms that previously refused to pay ransoms, focusing on credential and token theft as the primary attack vector.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd72cfa843f157710/6af61e08fa93fcee56324598/black_and_white_moth-powerofforever-GettyImages-1920014051.jpg?width=720&quality=80&disable=upscale",
       "importance": 6,
       "paywall": false
     },
@@ -218,9 +238,19 @@
       "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
       "source": "Krebs on Security",
       "date": "2026-11-10",
-      "summary": "Microsoft released a Patch Tuesday update fixing nearly 1,100 security vulnerabilities across Windows and supported software, including 63 critical flaws. Among the patches is a zero-day vulnerability in Microsoft Outlook, alongside updates from Adobe, Apple, Google, and Mozilla.",
+      "summary": "Microsoft released a Patch Tuesday update addressing nearly 1,100 security vulnerabilities, including 63 critical flaws. The update includes a zero-day vulnerability in Microsoft Outlook, alongside patches from Adobe, Apple, Google, and Mozilla.",
       "image": null,
       "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft Patches More Than 1,400 Security Flaws",
+      "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+      "source": "Krebs on Security",
+      "date": "2026-10-13",
+      "summary": "Microsoft released a patch update addressing more than 1,400 security vulnerabilities across Windows and other software products. This exceeds the previous record of approximately 1,000 fixes issued in September, which was itself about ten times the typical monthly patch volume.",
+      "image": null,
+      "importance": 4,
       "paywall": false
     }
   ]
