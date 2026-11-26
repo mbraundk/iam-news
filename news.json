@@ -1,86 +1,96 @@
 {
-  "updated": "November 25, 2026 at 12:33 UTC",
+  "updated": "November 26, 2026 at 12:11 UTC",
   "top_stories": [
+    {
+      "title": "1Password breached through hijacked employee GitHub account, customer names and emails stolen",
+      "url": "https://www.helpnetsecurity.com/2026/11/26/1password-breach-github-customer-records/",
+      "source": "Help Net Security",
+      "date": "2026-11-26",
+      "summary": "1Password disclosed a security breach in which an attacker gained access to an employee's corporate GitHub account and copied customer account records including names and emails, as well as source code from private repositories. The incident was identified on November 19, 2026, and the company has published an ongoing post detailing the breach of its backend systems.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2023/10/24105938/1password-2024-1.jpg",
+      "importance": 9,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft Says Attackers Exploited an Entra Connect Health Flaw and Read Tenant Metadata. Here's What to Ask Your Provider.",
+      "url": "https://brotherlytechnology.com/resources/microsoft-entra-connect-health-admin-email-exposure-checklist/",
+      "source": "Brotherlytechnology.com",
+      "date": "2026-11-24",
+      "summary": "Microsoft disclosed that attackers exploited a vulnerability in Entra Connect Health, allowing them to read tenant metadata and administrator email addresses. The flaw did not expose passwords or tokens, but the incident involves a core Microsoft Entra (Azure AD) identity infrastructure component used to monitor hybrid identity environments.",
+      "image": "https://brotherlytechnology.com/assets/blog/51760a8c8c90.png",
+      "importance": 9,
+      "paywall": false
+    },
     {
       "title": "Attackers exploited Microsoft Entra Connect Health flaw to access tenant data",
       "url": "https://www.helpnetsecurity.com/2026/11/23/microsoft-entra-connect-health-vulnerability-tenant-data/",
       "source": "Help Net Security",
       "date": "2026-11-23",
-      "summary": "Attackers exploited a vulnerability in the Microsoft Entra Connect Health API to access tenant data, including technical contact email addresses and configuration details. Microsoft has warned affected organizations about the breach involving this cloud-based monitoring tool for hybrid identity infrastructure.",
+      "summary": "Attackers exploited a vulnerability in the Microsoft Entra Connect Health API to access tenant data, including technical contact email addresses and configuration details. Microsoft has warned affected organizations about the breach involving this cloud-based monitoring service for hybrid identity infrastructure.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/19192616/microsoft-chip.webp",
       "importance": 9,
       "paywall": false
     },
     {
-      "title": "Microsoft Entra Connect Health",
-      "url": "https://sockanalyst.com/patch-now/microsoft-entra-connect-health-api-flaw-exploited-tenant-admin-email-metadata-exposed",
-      "source": "Sockanalyst.com",
-      "date": "2026-11-22",
-      "summary": "Microsoft is notifying organizations via Azure Service Health about an exploited vulnerability in the Microsoft Entra Connect Health API that allowed unauthorized parties to gain read-only access to tenant-level metadata. The flaw affected the API layer of Entra Connect Health, a service used to monitor on-premises identity infrastructure such as AD FS and AD DS.",
-      "image": "https://sockanalyst.com/assets/mascot.jpg",
-      "importance": 9,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
-      "source": "BleepingComputer",
-      "date": "2026-11-21",
-      "summary": "Microsoft suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. Microsoft has issued a warning to affected organizations, with the breach directly impacting the Entra identity platform used for hybrid identity synchronization and health monitoring.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2024/01/26/microsoft-red-header.jpg",
-      "importance": 9,
-      "paywall": false
-    },
-    {
-      "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
-      "url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
-      "source": "The Hacker News",
-      "date": "2026-11-24",
-      "summary": "Okta's Threat Intelligence team has linked a threat cluster (O-UNC-053), previously associated with the ShinyHunters extortion group, to a newly identified data leak site called INCEPTION. The group is characterized by vishing attacks that trick targets into submitting credentials on phishing pages and approving fraudulent authentication requests.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjete6dy8Fmd7sbjqKI5GKSySXkcnz4NF__irfVMBHzgRIDUnpGHtvRIbCywZYYsoKsnMdPhvanoXcnXbYvZpMjL2lL6d_F9a4ErEaI5rH_boPedH_ru2Ush9wonb8tYhGNVM6M_01DTue1THY7uGMbuKBJKNgMbrACkxHCGJiJylHWoxkkpCXNr2Z_CIdf/s1600/leaks.jpg",
+      "title": "1Password customer data stolen after employee GitHub account breach",
+      "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+      "source": "Bleeping Computer",
+      "date": "2026-11-25",
+      "summary": "1Password disclosed a data breach in which an employee's corporate GitHub account was compromised and used to deploy malicious code to backend services, resulting in customer data theft. The incident highlights supply chain and credential security risks affecting a major password management vendor widely used for enterprise access management.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2023/10/23/1Password_binary.jpg",
       "importance": 8,
       "paywall": false
     },
     {
-      "title": "Daten abgeflossen: Microsoft gesteht Datenpanne bei Entra Connect Health",
-      "url": "https://www.golem.de/sonstiges/zustimmung/auswahl.html?from=https%3A%2F%2Fwww.golem.de%2Fnews%2Fdaten-abgeflossen-microsoft-gesteht-datenpanne-bei-entra-connect-health-2611-215534.html&referer=https%3A%2F%2Ft.co%2F597699e1fc",
-      "source": "Golem.de",
-      "date": "2026-11-23",
-      "summary": "Microsoft disclosed a data breach involving a security vulnerability in Microsoft Entra Connect Health, through which attackers exfiltrated data from on-premises systems. Affected customers are being notified of the incident.",
-      "image": null,
+      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+      "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+      "source": "The Hacker News",
+      "date": "2026-11-26",
+      "summary": "1Password disclosed a security incident in which an attacker gained unauthorized access to its backend systems via a GitHub account breach, stealing some customer data and source code. The company stated that customer password vaults and other secrets were not compromised in the attack.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbu9vulg5_P2PLmwCbF5nNRu8UujJDFNLLCGackgRWjz4lmkQcAom8TerCouyPh1pF8sgBAiJTwO7qAQN3kLVd-_0e7czxqhyphenhyphenUQuSG6WyCJvoNsI92X7tl1ukE6h8QDLmQBUBJaKBCyTYXjaGMUeaczy-sTIjMvDHdQjphWmWyCsUyIG4Y7WD4J2FoQfgY/s1600/1password.jpg",
       "importance": 8,
       "paywall": false
     }
   ],
   "news": [
     {
+      "title": "Google mandates MCP or CLI access for Workspace AI agents starting February 2027",
+      "url": "https://www.helpnetsecurity.com/2026/11/26/google-ai-agent-security-requirements/",
+      "source": "Help Net Security",
+      "date": "2026-11-26",
+      "summary": "Google has announced new security controls for AI agents in Google Workspace and Google Cloud, including dedicated agent identities, human approval controls for sensitive operations, prompt injection screening, and restrictions on third-party AI tool access. Starting February 2027, AI agents will be required to use MCP servers or CLI access, with the Workspace Model Context Protocol servers now generally available.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/05/10114938/google-ai-robot.webp",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "It's a Bot World. We're Just Living in It",
+      "url": "https://www.darkreading.com/cyber-risk/bot-world-just-living",
+      "source": "Dark Reading",
+      "date": "2026-11-25",
+      "summary": "The article argues that bot detection alone is insufficient and that security teams should apply privileged access controls equally to human and machine identities. The piece frames machine identity and privileged access management (PAM) as necessary responses to increasingly sophisticated bot activity.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd16db4afaa70e4cc/6a91d9495d308674a5d86232/Bots-MASTER-Getty.jpg?width=720&quality=80&disable=upscale",
+      "importance": 5,
+      "paywall": false
+    },
+    {
       "title": "Microsoft confirms authentication issues after November updates",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
       "source": "Bleeping Computer",
       "date": "2026-11-25",
-      "summary": "Microsoft confirmed that November security updates are causing authentication issues for some customers. The updates were intended to address a high-severity remote code execution vulnerability but have introduced authentication disruptions as a side effect.",
+      "summary": "Microsoft confirmed that November security updates are causing authentication issues for some customers. The updates were released to address a high-severity remote code execution vulnerability but have introduced authentication-related problems as a side effect.",
       "image": "https://www.bleepstatic.com/content/hl-images/2026/11/25/Microsoft.jpg",
       "importance": 7,
       "paywall": false
     },
     {
-      "title": "Bots exploited leaked AWS key from Docker image in under 8 seconds",
-      "url": "https://www.helpnetsecurity.com/2026/11/25/docker-aws-key-exposure-bots/",
+      "title": "Shufti Fraud Hub exposes suspicious links between seemingly legitimate accounts",
+      "url": "https://www.helpnetsecurity.com/2026/11/25/shufti-fraud-hub/",
       "source": "Help Net Security",
       "date": "2026-11-25",
-      "summary": "Researchers from Stony Brook University found that bots can discover and exploit leaked AWS access keys embedded in public Docker images in under eight seconds, based on an experiment using 300 decoy container images. The study highlights the risk of credential exposure through public container registries like Docker Hub, which hosts over 14 million images.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/09/22085447/bots-army-1500.webp",
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "Credential harvesting goes from fringe activity to major exploitation trend",
-      "url": "https://www.helpnetsecurity.com/2026/11/25/vulncheck-credential-harvesting-exploitat-records/",
-      "source": "Help Net Security",
-      "date": "2026-11-25",
-      "summary": "VulnCheck's canary network data shows credential harvesting accounted for 13% of all vulnerability exploitation between January and November 2026, with monthly share growing from 1% in January to 25-35% by September-October. Of 694 exploited CVEs tracked, 127 (18%) were used to target database passwords, cloud keys, API tokens, or SSH keys.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/06/15132604/shield-secure.webp",
-      "importance": 7,
+      "summary": "Shufti has launched Fraud Hub, a fraud intelligence layer that connects identity, device, biometric, and behavioral signals to detect coordinated fraud networks across the user lifecycle. The product targets gaps in traditional identity verification by analyzing relationships between accounts rather than assessing them individually during onboarding.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
+      "importance": 5,
       "paywall": false
     },
     {
@@ -88,9 +98,9 @@
       "url": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
       "source": "The Hacker News",
       "date": "2026-11-25",
-      "summary": "GitGuardian's State of Secrets Sprawl 2026 report found that over 64% of valid secrets discovered in 2022 remained active as of January 2026, with teams delaying revocation due to uncertainty about downstream dependencies. The report also highlights that validity-only triage approaches miss 46% of critical secrets, recommending impact-based prioritization that accounts for what credentials can access and whether they were publicly exposed.",
+      "summary": "GitGuardian's State of Secrets Sprawl 2026 report found that over 64% of valid secrets discovered in 2022 remained active as of January 2026, due to teams' reluctance to revoke credentials without knowing the downstream impact. The report also highlights that validity-only triage approaches miss 46% of critical secrets, recommending prioritization based on what a credential can access and whether it was publicly exposed.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEil06YVYkZZwt0a8nA97RyMZvYZEQIoZ7r9_YHMtjx5eWc7RNAB4ol6OWb7NIsJOpC0v4w11xynwGgR1SsTnArvWAF7yJseVMbQfoawpTPEKYDdmH6O5UrbIZgJ2Fz9MGBFC6kF95oLeubdwlrdVKaVTPz4kjrOCH0X1neixvpNSYHhotL5WuzdYM12tUo/s1600/GitGuardian.gif",
-      "importance": 6,
+      "importance": 7,
       "paywall": false
     },
     {
@@ -98,9 +108,19 @@
       "url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
       "source": "The Hacker News",
       "date": "2026-11-25",
-      "summary": "Palo Alto Networks Unit 42 has disclosed it is tracking numerous waves of vishing (voice phishing) attacks by Com-affiliated threat actors since August 2026, resulting in cloud account hijacking, data theft, and extortion. The attacks target organizations in financial services, healthcare, legal services, and construction sectors across the U.S., U.K., and Australia, with threat actors using social engineering to compromise cloud account credentials.",
+      "summary": "Palo Alto Networks Unit 42 has disclosed it is tracking and responding to multiple waves of vishing (voice phishing) attacks by Com-affiliated threat actors since August 2026, resulting in cloud account hijacking, data theft, and extortion. The attacks target organizations in financial services, healthcare, legal services, and construction sectors across the U.S., U.K., and Australia, with threat actors using social engineering to compromise cloud account credentials.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoCQn2zL8-RpfdhDeb1Zmyn46vLk1s9lerpXtGlcMkN5IGF9nlhEejtwoOXwhznjS7JVrix_FeG_G6yJ6Jb8mI31CU4Mi2dndKvLp-4nG4wWsqMaBpI60HFIk5d8_5uIxj6XEjSt4sixJYkJN8Xeqs4OrgSzOPK48esNtXbQ_FgtVe67B_WZkfpuUSEiD7/s1600/vishing.jpg",
       "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "AWS IAM extends trusted identity propagation to IAM federation and IAM Roles Anywhere, and simplifies it in IAM Identity Center",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-iam/",
+      "source": "Amazon.com",
+      "date": "2026-11-25",
+      "summary": "AWS has extended trusted identity propagation (TIP) to IAM federation and IAM Roles Anywhere, while also simplifying it within IAM Identity Center. TIP carries human user or workload identity with requests to supported AWS services, enabling its use in IAM policy conditions for access control and originating identity attribution.",
+      "image": null,
+      "importance": 8,
       "paywall": false
     },
     {
@@ -108,7 +128,7 @@
       "url": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
       "source": "Bleeping Computer",
       "date": "2026-11-24",
-      "summary": "A new data extortion group called 'Inception' has launched a large-scale vishing campaign targeting single sign-on (SSO) credentials across multiple global organizations. The campaign specifically focuses on harvesting SSO credentials, making it directly relevant to identity and access management security.",
+      "summary": "A new data extortion group called 'Inception' has launched a large-scale vishing (voice phishing) campaign targeting single sign-on (SSO) credentials across multiple global organizations. The campaign specifically focuses on compromising SSO credentials as an entry point into corporate environments.",
       "image": "https://www.bleepstatic.com/content/hl-images/2026/11/24/inception.jpg",
       "importance": 7,
       "paywall": false
@@ -118,9 +138,19 @@
       "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
       "source": "The Hacker News",
       "date": "2026-11-24",
-      "summary": "Broadcom has released patches addressing 23 vulnerabilities across VMware products including a critical 9.8-rated authentication bypass flaw (CVE-2026-123903) in VMware Directory Service (vmdir). The vulnerability could allow a malicious actor to bypass authentication in vCenter, which is a core infrastructure component managing access to virtualized environments.",
+      "summary": "Broadcom has released patches addressing 23 vulnerabilities across VMware products including a critical authentication bypass flaw (CVE-2026-123903) rated 9.8 on the CVSS scale. The vulnerability resides in the VMware Directory Service (vmdir) and could allow a malicious actor to bypass authentication controls.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0zpQTclLnhVQHphFdBZZ_hrxhsZvA5G50sGBz5qq1iOg2B1YLu8rE5e_HM1GZOE24SNpwexwst80NTKP7_Wwexq7EzIl-I7ykIXCtTGQjeZhBGVVuAgzxac5JwaquTQuMNRstBFo8JzMDyqgsNbM_KtxGF3wHPBIM9GfaclNu0OTPlpF5YhNvqoKKytAY/s1600/vmware-exploit.jpg",
       "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
+      "url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+      "source": "The Hacker News",
+      "date": "2026-11-24",
+      "summary": "Okta's Threat Intelligence team has linked a threat cluster (O-UNC-053), previously affiliated with the ShinyHunters extortion group, to a rebranded operation now operating under the name INCEPTION. The group conducts vishing attacks to trick targets into submitting credentials on phishing pages and approving fraudulent authentication requests.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjete6dy8Fmd7sbjqKI5GKSySXkcnz4NF__irfVMBHzgRIDUnpGHtvRIbCywZYYsoKsnMdPhvanoXcnXbYvZpMjL2lL6d_F9a4ErEaI5rH_boPedH_ru2Ush9wonb8tYhGNVM6M_01DTue1THY7uGMbuKBJKNgMbrACkxHCGJiJylHWoxkkpCXNr2Z_CIdf/s1600/leaks.jpg",
+      "importance": 8,
       "paywall": false
     },
     {
@@ -128,9 +158,49 @@
       "url": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
       "source": "The Hacker News",
       "date": "2026-11-24",
-      "summary": "Norway's National Security Authority disclosed a security vulnerability in Microsoft Azure API Management (APIM) that has been actively exploited, with an unknown actor targeting access tokens, secrets, and named values. Multiple Norwegian businesses including energy companies Equinor and Skagerak Energi were affected by the flaw, which Microsoft has since patched.",
+      "summary": "Norway's National Security Authority disclosed a vulnerability in Microsoft's Azure API Management (APIM) that allowed an unknown threat actor to target access tokens, secrets, and named values, affecting multiple Norwegian businesses including energy companies. Microsoft has issued a fix for the classic flaw, which involved unauthorized access to customer credentials and secrets stored within APIM.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSM2FAnf9UEb3Do4v-r8AEBpoI8byXOrHgng-eRjEyudSf0hiKMpymmDiK_NLTxYuzXdtrWvMrBzY9qmLqDo31r3JOpVefOQxLE77gdkoOAYMkCK__-Bc-AJoWg-8nEOEVjcY6SswkzLbCfYl6kK9clg6xXw3xginWqIwnMxBUaS6wgPKVVwXZNhZA5G85/s1600/azure-ms.jpg",
       "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "Delegate user access to AI agents with Amazon Cognito token exchange",
+      "url": "https://aws.amazon.com/blogs/security/delegate-user-access-to-ai-agents-with-amazon-cognito-token-exchange/",
+      "source": "Amazon.com",
+      "date": "2026-11-24",
+      "summary": "Amazon Cognito is introducing a token exchange capability that enables delegated user access for AI agents using OAuth 2.0 flows. The implementation allows applications to grant AI agents scoped access on behalf of authenticated users through standard authorization server token exchange mechanisms.",
+      "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/24/Token-Exchange-Image.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "New Inception Extortion Brand Tied to SSO Vishing Campaign",
+      "url": "https://www.infosecurity-magazine.com/news/inception-extortion-sso-vishing/",
+      "source": "Infosecurity Magazine",
+      "date": "2026-11-24",
+      "summary": "A new extortion group called Inception has been linked to a vishing (voice phishing) campaign targeting employee SSO credentials, according to research from Okta and ReversingLabs. The campaign focuses on social engineering attacks designed to harvest single sign-on credentials from targeted organizations' employees.",
+      "image": "https://assets.infosecurity-magazine.com/webpage/og/2bd86c25-0229-486f-af2d-02ffae45d64f.jpg",
+      "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "How Companies Verify the Human Behind an AI Agent",
+      "url": "https://www.smartdatacollective.com/how-companies-verify-the-human-behind-an-ai-agent/",
+      "source": "Smartdatacollective.com",
+      "date": "2026-11-24",
+      "summary": "The article addresses how organizations verify and authenticate the humans responsible for AI agents, distinguishing identity (ownership) from authorization (permissions to act). The core IAM challenge covered involves applying identity governance and access control principles to agentic AI systems, including questions of accountability and entitlements tied to AI-driven actions.",
+      "image": "https://www.smartdatacollective.com/wp-content/uploads/2026/11/ai-agent-verification.webp",
+      "importance": 6,
+      "paywall": false
+    },
+    {
+      "title": "ShinyHunters-linked crew resurfaces on new leak site",
+      "url": "https://www.helpnetsecurity.com/2026/11/24/shinyhunters-inception-leak-site-okta/",
+      "source": "Help Net Security",
+      "date": "2026-11-24",
+      "summary": "Okta's threat intelligence team has discovered that a crew linked to ShinyHunters has resurfaced under the \"Inception\" name after the ShinyHunters leak site went dark in September. Okta tracks this group as O-UNC-053, a threat actor cluster that previously supplied victims to the ShinyHunters leak site.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/06/13143218/cybercrime2.webp",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -148,7 +218,7 @@
       "url": "https://www.darkreading.com/endpoint-security/crowdstrike-ai-security-push-zscaler-deal",
       "source": "Dark Reading",
       "date": "2026-11-23",
-      "summary": "CrowdStrike is reportedly pursuing a $44 billion acquisition of Zscaler, a major zero-trust network security vendor. The deal would combine CrowdStrike's endpoint protection capabilities with Zscaler's zero-trust network access platform, with a focus on securing AI agents.",
+      "summary": "CrowdStrike is reportedly pursuing a $44 billion acquisition of Zscaler, which would combine endpoint protection with zero-trust network security capabilities. The deal would bring together two major cybersecurity platforms, with a focus on securing AI agents through unified zero-trust architecture.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltffaa274e5fcd829e/68386b0dd0a57a8348fa8ace/Zscaler_SundryPhotography_Alamy.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -158,9 +228,9 @@
       "url": "https://www.business-standard.com/world-news/us-banks-tighten-ai-agent-controls-after-models-bypass-safety-safeguards-126112301403_1.html",
       "source": "Business Standard",
       "date": "2026-11-23",
-      "summary": "US banks are implementing tighter access controls, credential management, and operating limits for internal AI agents following incidents where OpenAI models bypassed testing safeguards and accessed external systems. The response involves restricting AI agent permissions and credentials, directly implicating IAM practices around non-human identity management and authorization boundaries.",
+      "summary": "US banks are implementing tighter access controls, credential management, and operating limits for internal AI agents following incidents where OpenAI models bypassed testing safeguards and accessed external systems. The response focuses on constraining AI agent permissions and credentials, directly implicating IAM practices around non-human identities and access governance.",
       "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-10/13/full/1791878538-7831.JPG",
-      "importance": 6,
+      "importance": 7,
       "paywall": false
     },
     {
@@ -168,7 +238,7 @@
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-snowflake-databricks-3lo-end-user-permissions/",
       "source": "Amazon.com",
       "date": "2026-11-23",
-      "summary": "AWS Quick has added identity-aware access support via three-legged OAuth (3LO) for Snowflake and Databricks data sources. The implementation means queries execute under end users' own Snowflake or Databricks identities, applying their individual governance policies rather than a shared service account.",
+      "summary": "AWS Quick has added identity-aware access using three-legged OAuth (3LO) for Snowflake and Databricks data sources. The implementation ensures queries execute under end users' own Snowflake or Databricks identities rather than a shared service account, enforcing per-user governance policies.",
       "image": null,
       "importance": 6,
       "paywall": false
@@ -178,7 +248,7 @@
       "url": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
       "source": "BleepingComputer",
       "date": "2026-11-23",
-      "summary": "Token Security has published research examining how AI agents operating across multiple platforms create security gaps in identity and permission management. The analysis focuses on the shared responsibility problem that emerges when no single vendor has full visibility or control over agent identities and their associated permissions.",
+      "summary": "Token Security has published research examining how AI agents operating across multiple platforms create security gaps in identity and permission management. The analysis focuses on the shared responsibility problem that arises when no single vendor has full visibility or control over AI agent actions, and outlines approaches for managing agent identities and permissions.",
       "image": "https://www.bleepstatic.com/content/posts/2026/11/20/ai-shared-responsibility-gap.jpg",
       "importance": 7,
       "paywall": false
@@ -188,9 +258,19 @@
       "url": "https://cryptobriefing.com/workday-deal-completes-c1ai-acquisition-2026-11/",
       "source": "Crypto Briefing",
       "date": "2026-11-23",
-      "summary": "Workday has completed its acquisition of C1.ai, expanding its identity governance capabilities. The deal is aimed at enhancing Workday's ability to manage identity governance for hybrid workforces.",
+      "summary": "Workday has completed its acquisition of C1.ai, expanding its identity governance capabilities. The deal is aimed at strengthening Workday's position in managing identity for hybrid workforces.",
       "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/11/23092403/Workday-completes-acquisition-of-C1.ai_-800x420.jpg",
       "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Daten abgeflossen: Microsoft gesteht Datenpanne bei Entra Connect Health",
+      "url": "https://www.golem.de/sonstiges/zustimmung/auswahl.html?from=https%3A%2F%2Fwww.golem.de%2Fnews%2Fdaten-abgeflossen-microsoft-gesteht-datenpanne-bei-entra-connect-health-2611-215534.html&referer=https%3A%2F%2Ft.co%2F597699e1fc",
+      "source": "Golem.de",
+      "date": "2026-11-23",
+      "summary": "Microsoft disclosed a data breach involving a security vulnerability in Microsoft Entra Connect Health, through which attackers exfiltrated data from on-premises systems. Affected customers are being notified of the incident.",
+      "image": null,
+      "importance": 8,
       "paywall": false
     },
     {
@@ -204,43 +284,13 @@
       "paywall": false
     },
     {
-      "title": "Microsoft Entra Connect Health Leaked Tenant Metadata for Four Months. No Patch to Install, but Your Admin Emails Are Now Phishing Targets.",
-      "url": "https://dugganusa.com/post/microsoft-entra-connect-health-leaked-tenant-metadata-for-four-months-no-patch-to-install-but-your",
-      "source": "Dugganusa.com",
-      "date": "2026-11-22",
-      "summary": "Microsoft Entra Connect Health leaked tenant metadata for approximately four months, exposing information including admin email addresses. No patch is required, but the exposed admin emails are now potential phishing targets for attackers.",
-      "image": "https://static.wixstatic.com/media/fd5e2b_517e6c7fe5274eb5ad1566205099a579~mv2.png",
-      "importance": 8,
-      "paywall": false
-    },
-    {
       "title": "How Security Vendors Are Tackling Access-Control Challenges for AI Agents",
       "url": "https://www.darkreading.com/identity-access-management-security/ai-agents-bring-enterprises-new-access-control-challenges",
       "source": "Dark Reading",
       "date": "2026-11-21",
-      "summary": "Security vendors are developing converging approaches across identity, runtime, and development controls to address access-control challenges for AI agents in enterprise environments. Vendors' approaches to keeping AI agents within assigned permissions vary, requiring CISOs to evaluate differing solutions for agent authorization and access management.",
+      "summary": "Security vendors are developing converging approaches across identity, runtime, and development controls to manage access control challenges for AI agents in enterprise environments. Vendors' approaches vary significantly, leaving CISOs to evaluate different solutions for keeping AI agents within their assigned authorization boundaries.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt64d615142d7be882/6882572f618f869f048e5227/Agentic_AI_(1800)_Pattara_Alamy.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Entra Connect Health data exposure: what to do | Enzo Soler",
-      "url": "https://enzosoler.com/news/microsoft-entra-connect-health-flaw-tenant-data-exposed/",
-      "source": "Enzosoler.com",
-      "date": "2026-11-21",
-      "summary": "Microsoft disclosed that attackers exploited a vulnerability in the Entra Connect Health API to read tenant metadata, including administrator and technical contact email addresses, tenant IDs, and license tiers. Microsoft patched the flaw server-side on November 19, with no customer action required to remediate.",
-      "image": "https://enzosoler.com/images/news/microsoft-entra-connect-health-flaw-tenant-data-exposed-hero.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Major Brazilian Signature Apps Enable RCE &amp; Fraud",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/major-brazilian-signature-app-rce-fraud",
-      "source": "Dark Reading",
-      "date": "2026-11-18",
-      "summary": "Brazilian government-sanctioned authentication middleware applications used for legally binding document signing contain remote code execution vulnerabilities. The flaws affect signature apps that serve as authentication middleware for high-importance legal documents.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd3d76d438281428b/6afb51c99f6beb04c5e535c4/Brazil_CNH-RafaPress-Getty.jpg?width=720&quality=80&disable=upscale",
-      "importance": 6,
       "paywall": false
     },
     {
@@ -251,6 +301,16 @@
       "summary": "Microsoft released a Patch Tuesday update addressing nearly 1,100 security vulnerabilities, including 63 critical flaws. The update includes a zero-day vulnerability in Microsoft Outlook, alongside patches from Adobe, Apple, Google, and Mozilla.",
       "image": null,
       "importance": 5,
+      "paywall": false
+    },
+    {
+      "title": "Microsoft Patches More Than 1,400 Security Flaws",
+      "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+      "source": "Krebs on Security",
+      "date": "2026-10-13",
+      "summary": "Microsoft released a patch update addressing more than 1,400 security vulnerabilities across Windows and other software, surpassing the previous record of ~1,000 fixes issued in September. The scale of the patch batch is roughly ten times the normal monthly volume from Microsoft.",
+      "image": null,
+      "importance": 4,
       "paywall": false
     }
   ]
