@@ -1,12 +1,12 @@
 {
-  "updated": "November 26, 2026 at 12:11 UTC",
+  "updated": "November 27, 2026 at 11:59 UTC",
   "top_stories": [
     {
       "title": "1Password breached through hijacked employee GitHub account, customer names and emails stolen",
       "url": "https://www.helpnetsecurity.com/2026/11/26/1password-breach-github-customer-records/",
       "source": "Help Net Security",
       "date": "2026-11-26",
-      "summary": "1Password disclosed a security breach in which an attacker gained access to an employee's corporate GitHub account and copied customer account records including names and emails, as well as source code from private repositories. The incident was identified on November 19, 2026, and the company has published an ongoing post detailing the breach of its backend systems.",
+      "summary": "1Password suffered a security breach after an attacker hijacked an employee's corporate GitHub account, gaining access to backend systems. The attacker copied customer account records including names and emails, as well as source code from private repositories, with the incident beginning November 19, 2026.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2023/10/24105938/1password-2024-1.jpg",
       "importance": 9,
       "paywall": false
@@ -22,22 +22,22 @@
       "paywall": false
     },
     {
-      "title": "Attackers exploited Microsoft Entra Connect Health flaw to access tenant data",
-      "url": "https://www.helpnetsecurity.com/2026/11/23/microsoft-entra-connect-health-vulnerability-tenant-data/",
-      "source": "Help Net Security",
-      "date": "2026-11-23",
-      "summary": "Attackers exploited a vulnerability in the Microsoft Entra Connect Health API to access tenant data, including technical contact email addresses and configuration details. Microsoft has warned affected organizations about the breach involving this cloud-based monitoring service for hybrid identity infrastructure.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/19192616/microsoft-chip.webp",
-      "importance": 9,
-      "paywall": false
-    },
-    {
       "title": "1Password customer data stolen after employee GitHub account breach",
       "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
       "source": "Bleeping Computer",
       "date": "2026-11-25",
-      "summary": "1Password disclosed a data breach in which an employee's corporate GitHub account was compromised and used to deploy malicious code to backend services, resulting in customer data theft. The incident highlights supply chain and credential security risks affecting a major password management vendor widely used for enterprise access management.",
+      "summary": "1Password disclosed a data breach in which a corporate GitHub account belonging to an employee was compromised and used to deploy malicious code targeting backend services. The attack resulted in the theft of customer data from the password manager provider.",
       "image": "https://www.bleepstatic.com/content/hl-images/2023/10/23/1Password_binary.jpg",
+      "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "In 2027, “the agent did it” stops being an excuse",
+      "url": "https://www.helpnetsecurity.com/2026/11/27/sailpoint-2027-ai-identity-security-predictions-report/",
+      "source": "Help Net Security",
+      "date": "2026-11-27",
+      "summary": "SailPoint's 2027 Identity Security Predictions report highlights a critical gap in AI agent governance, finding that 79% of enterprises have deployed AI agents in production while only 2% have implemented identity security controls for them. The report predicts that by 2027, regulators, boards, and insurers will demand accountability for how organizations govern automated decisions, manage access privileges, and prevent operational disruption from autonomous AI agents.",
+      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/10/22104948/predictions.webp",
       "importance": 8,
       "paywall": false
     },
@@ -46,7 +46,7 @@
       "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
       "source": "The Hacker News",
       "date": "2026-11-26",
-      "summary": "1Password disclosed a security incident in which an attacker gained unauthorized access to its backend systems via a GitHub account breach, stealing some customer data and source code. The company stated that customer password vaults and other secrets were not compromised in the attack.",
+      "summary": "1Password disclosed a security incident in which an attacker gained unauthorized access to its backend systems via a GitHub account breach, stealing some customer data and source code. The company stated that customer password vaults and other secrets were not compromised in the breach.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbu9vulg5_P2PLmwCbF5nNRu8UujJDFNLLCGackgRWjz4lmkQcAom8TerCouyPh1pF8sgBAiJTwO7qAQN3kLVd-_0e7czxqhyphenhyphenUQuSG6WyCJvoNsI92X7tl1ukE6h8QDLmQBUBJaKBCyTYXjaGMUeaczy-sTIjMvDHdQjphWmWyCsUyIG4Y7WD4J2FoQfgY/s1600/1password.jpg",
       "importance": 8,
       "paywall": false
@@ -54,11 +54,31 @@
   ],
   "news": [
     {
+      "title": "Fake paid expert interviews impersonate brands to steal Google logins",
+      "url": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
+      "source": "Bleeping Computer",
+      "date": "2026-11-26",
+      "summary": "A phishing campaign called \"GoodGuys\" is actively targeting corporate users by impersonating major brands including Google, Nvidia, Accenture, and SpaceX to steal Google and Okta credentials. The attack uses fake invitations to paid expert interviews and webinars as the social engineering lure.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/11/06/Phishing.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Recap of Microsoft Ignite 2026: Copilot as the Work OS and Agent Governance",
+      "url": "https://www.infoq.com/news/2026/11/microsoft-ignite-2026-recap/",
+      "source": "InfoQ.com",
+      "date": "2026-11-26",
+      "summary": "Microsoft Ignite 2026 featured announcements extending agent identity and governance capabilities across Azure, Entra, and Defender platforms. The event highlighted Copilot positioning as a work operating system with associated identity and cost controls for AI agents.",
+      "image": "https://res.infoq.com/news/2026/11/microsoft-ignite-2026-recap/en/headerimage/generatedHeaderImage-1795605995597.jpg",
+      "importance": 6,
+      "paywall": false
+    },
+    {
       "title": "Google mandates MCP or CLI access for Workspace AI agents starting February 2027",
       "url": "https://www.helpnetsecurity.com/2026/11/26/google-ai-agent-security-requirements/",
       "source": "Help Net Security",
       "date": "2026-11-26",
-      "summary": "Google has announced new security controls for AI agents in Google Workspace and Google Cloud, including dedicated agent identities, human approval controls for sensitive operations, prompt injection screening, and restrictions on third-party AI tool access. Starting February 2027, AI agents will be required to use MCP servers or CLI access, with the Workspace Model Context Protocol servers now generally available.",
+      "summary": "Google has announced that AI agents accessing Google Workspace and Google Cloud will be required to use MCP (Model Context Protocol) or CLI access methods starting February 2027. The security controls are designed to govern how autonomous AI agents authenticate and interact with enterprise data and cloud infrastructure.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/05/10114938/google-ai-robot.webp",
       "importance": 7,
       "paywall": false
@@ -68,29 +88,9 @@
       "url": "https://www.darkreading.com/cyber-risk/bot-world-just-living",
       "source": "Dark Reading",
       "date": "2026-11-25",
-      "summary": "The article argues that bot detection alone is insufficient and that security teams should apply privileged access controls equally to human and machine identities. The piece frames machine identity and privileged access management (PAM) as necessary responses to increasingly sophisticated bot activity.",
+      "summary": "The article argues that bot detection has become ineffective as a security strategy. It advocates for applying privileged access management principles equally to human users and automated machine/bot identities as an alternative control mechanism.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd16db4afaa70e4cc/6a91d9495d308674a5d86232/Bots-MASTER-Getty.jpg?width=720&quality=80&disable=upscale",
-      "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft confirms authentication issues after November updates",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
-      "source": "Bleeping Computer",
-      "date": "2026-11-25",
-      "summary": "Microsoft confirmed that November security updates are causing authentication issues for some customers. The updates were released to address a high-severity remote code execution vulnerability but have introduced authentication-related problems as a side effect.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/11/25/Microsoft.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Shufti Fraud Hub exposes suspicious links between seemingly legitimate accounts",
-      "url": "https://www.helpnetsecurity.com/2026/11/25/shufti-fraud-hub/",
-      "source": "Help Net Security",
-      "date": "2026-11-25",
-      "summary": "Shufti has launched Fraud Hub, a fraud intelligence layer that connects identity, device, biometric, and behavioral signals to detect coordinated fraud networks across the user lifecycle. The product targets gaps in traditional identity verification by analyzing relationships between accounts rather than assessing them individually during onboarding.",
-      "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/11/28150559/hns-large_logo.webp",
-      "importance": 5,
+      "importance": 6,
       "paywall": false
     },
     {
@@ -98,7 +98,7 @@
       "url": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
       "source": "The Hacker News",
       "date": "2026-11-25",
-      "summary": "GitGuardian's State of Secrets Sprawl 2026 report found that over 64% of valid secrets discovered in 2022 remained active as of January 2026, due to teams' reluctance to revoke credentials without knowing the downstream impact. The report also highlights that validity-only triage approaches miss 46% of critical secrets, recommending prioritization based on what a credential can access and whether it was publicly exposed.",
+      "summary": "GitGuardian's State of Secrets Sprawl 2026 report found that over 64% of valid secrets discovered in 2022 remained active in January 2026, due to teams' hesitation over potential disruption from revoking credentials. The report highlights that validity-only triage methods miss 46% of critical secrets, recommending impact-based prioritization that considers what a credential can access and whether it was publicly exposed.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEil06YVYkZZwt0a8nA97RyMZvYZEQIoZ7r9_YHMtjx5eWc7RNAB4ol6OWb7NIsJOpC0v4w11xynwGgR1SsTnArvWAF7yJseVMbQfoawpTPEKYDdmH6O5UrbIZgJ2Fz9MGBFC6kF95oLeubdwlrdVKaVTPz4kjrOCH0X1neixvpNSYHhotL5WuzdYM12tUo/s1600/GitGuardian.gif",
       "importance": 7,
       "paywall": false
@@ -108,9 +108,49 @@
       "url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
       "source": "The Hacker News",
       "date": "2026-11-25",
-      "summary": "Palo Alto Networks Unit 42 has disclosed it is tracking and responding to multiple waves of vishing (voice phishing) attacks by Com-affiliated threat actors since August 2026, resulting in cloud account hijacking, data theft, and extortion. The attacks target organizations in financial services, healthcare, legal services, and construction sectors across the U.S., U.K., and Australia, with threat actors using social engineering to compromise cloud account credentials.",
+      "summary": "Palo Alto Networks Unit 42 has disclosed it is tracking numerous waves of vishing (voice phishing) attacks by Com-affiliated threat actors since August 2026 that result in cloud account hijacking, data theft, and extortion. The attacks target financial services, healthcare, legal services, construction companies across the U.S., U.K., and Australia, with the threat actors using social engineering to compromise cloud account credentials and access.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoCQn2zL8-RpfdhDeb1Zmyn46vLk1s9lerpXtGlcMkN5IGF9nlhEejtwoOXwhznjS7JVrix_FeG_G6yJ6Jb8mI31CU4Mi2dndKvLp-4nG4wWsqMaBpI60HFIk5d8_5uIxj6XEjSt4sixJYkJN8Xeqs4OrgSzOPK48esNtXbQ_FgtVe67B_WZkfpuUSEiD7/s1600/vishing.jpg",
       "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "Attacker used 1Password employee’s GitHub account to copy customer records",
+      "url": "https://siliconangle.com/2026/11/25/attacker-used-1password-employees-github-account-to-copy-customer-records/",
+      "source": "SiliconANGLE News",
+      "date": "2026-11-25",
+      "summary": "1Password disclosed a security incident in which an attacker accessed a corporate GitHub account belonging to an employee and copied customer account records. The breach affected a subset of customers, with the attacker gaining access through the employee's GitHub credentials.",
+      "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/07/1password1.png",
+      "importance": 8,
+      "paywall": false
+    },
+    {
+      "title": "Secure agentic access to AWS with Enterprise-Managed Authorization",
+      "url": "https://aws.amazon.com/blogs/security/secure-agentic-access-to-aws-with-enterprise-managed-authorization/",
+      "source": "Amazon.com",
+      "date": "2026-11-25",
+      "summary": "AWS Sign-In is introducing Enterprise-Managed Authorization (EMA) using the Identity Assertion JWT Authorization Grant (ID-JAG) to authorize AI agents accessing AWS MCP Server. The feature integrates with existing enterprise identity systems to provide secure agentic access control within AWS environments.",
+      "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/25/Secure-Agentic-Access-to-AWS-4.jpg",
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "What defenders need to know about ARTEX, the agentic AI framework threat actors abuse",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
+      "source": "Microsoft.com",
+      "date": "2026-11-25",
+      "summary": "The AI-powered penetration testing framework ARTEX is being abused by multiple threat actor groups including Storm-0940, Storm-3358, Onyx Sleet, Pearl Sleet, Crystal Typhoon, and Salt Typhoon. These actors are using ARTEX to accelerate network reconnaissance and credential attacks, posing direct threats to authentication and access control systems.",
+      "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/11/ARTEX-featured.png",
+      "importance": 6,
+      "paywall": true
+    },
+    {
+      "title": "Planning for 99.99 percent availability with the Amazon Cognito Plus feature plan",
+      "url": "https://aws.amazon.com/blogs/security/planning-for-99-99-percent-availability-with-the-amazon-cognito-plus-feature-plan/",
+      "source": "Amazon.com",
+      "date": "2026-11-25",
+      "summary": "Amazon Cognito has introduced a Plus feature plan designed to support 99.99% availability for sign-in and access control workloads. The plan covers managed user directories, social and enterprise federation, and passwordless authentication methods including passkeys and one-time passwords.",
+      "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/23/AWS-Security-Blog-99.99_-Hero-Image.jpg",
+      "importance": 6,
       "paywall": false
     },
     {
@@ -118,19 +158,9 @@
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-iam/",
       "source": "Amazon.com",
       "date": "2026-11-25",
-      "summary": "AWS has extended trusted identity propagation (TIP) to IAM federation and IAM Roles Anywhere, while also simplifying it within IAM Identity Center. TIP carries human user or workload identity with requests to supported AWS services, enabling its use in IAM policy conditions for access control and originating identity attribution.",
+      "summary": "AWS has extended trusted identity propagation (TIP) to IAM federation and IAM Roles Anywhere, while also simplifying its implementation in IAM Identity Center. TIP carries human user or workload identity with requests to supported AWS services, enabling its use in IAM policy conditions for access control and originating identity tracking.",
       "image": null,
       "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "New Inception extortion gang launches large-scale vishing campaign",
-      "url": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
-      "source": "Bleeping Computer",
-      "date": "2026-11-24",
-      "summary": "A new data extortion group called 'Inception' has launched a large-scale vishing (voice phishing) campaign targeting single sign-on (SSO) credentials across multiple global organizations. The campaign specifically focuses on compromising SSO credentials as an entry point into corporate environments.",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/11/24/inception.jpg",
-      "importance": 7,
       "paywall": false
     },
     {
@@ -138,7 +168,7 @@
       "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
       "source": "The Hacker News",
       "date": "2026-11-24",
-      "summary": "Broadcom has released patches addressing 23 vulnerabilities across VMware products including a critical authentication bypass flaw (CVE-2026-123903) rated 9.8 on the CVSS scale. The vulnerability resides in the VMware Directory Service (vmdir) and could allow a malicious actor to bypass authentication controls.",
+      "summary": "Broadcom has patched a critical authentication bypass vulnerability (CVE-2026-123903, CVSS 9.8) in VMware vCenter's Directory Service (vmdir), along with 22 other flaws affecting VMware ESX, Workstation, Fusion, and Avi Load Balancer. The flaw allows a malicious actor to bypass authentication, following prior zero-day exploitation of similar vulnerabilities in VMware products.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0zpQTclLnhVQHphFdBZZ_hrxhsZvA5G50sGBz5qq1iOg2B1YLu8rE5e_HM1GZOE24SNpwexwst80NTKP7_Wwexq7EzIl-I7ykIXCtTGQjeZhBGVVuAgzxac5JwaquTQuMNRstBFo8JzMDyqgsNbM_KtxGF3wHPBIM9GfaclNu0OTPlpF5YhNvqoKKytAY/s1600/vmware-exploit.jpg",
       "importance": 7,
       "paywall": false
@@ -148,7 +178,7 @@
       "url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
       "source": "The Hacker News",
       "date": "2026-11-24",
-      "summary": "Okta's Threat Intelligence team has linked a threat cluster (O-UNC-053), previously affiliated with the ShinyHunters extortion group, to a rebranded operation now operating under the name INCEPTION. The group conducts vishing attacks to trick targets into submitting credentials on phishing pages and approving fraudulent authentication requests.",
+      "summary": "Okta's Threat Intelligence team has linked a threat cluster (O-UNC-053) affiliated with ShinyHunters to a rebranded extortion operation called INCEPTION. The group is known for using vishing attacks to steal credentials through phishing pages and MFA approval manipulation.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjete6dy8Fmd7sbjqKI5GKSySXkcnz4NF__irfVMBHzgRIDUnpGHtvRIbCywZYYsoKsnMdPhvanoXcnXbYvZpMjL2lL6d_F9a4ErEaI5rH_boPedH_ru2Ush9wonb8tYhGNVM6M_01DTue1THY7uGMbuKBJKNgMbrACkxHCGJiJylHWoxkkpCXNr2Z_CIdf/s1600/leaks.jpg",
       "importance": 8,
       "paywall": false
@@ -158,9 +188,19 @@
       "url": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
       "source": "The Hacker News",
       "date": "2026-11-24",
-      "summary": "Norway's National Security Authority disclosed a vulnerability in Microsoft's Azure API Management (APIM) that allowed an unknown threat actor to target access tokens, secrets, and named values, affecting multiple Norwegian businesses including energy companies. Microsoft has issued a fix for the classic flaw, which involved unauthorized access to customer credentials and secrets stored within APIM.",
+      "summary": "Norway's NSM disclosed a vulnerability in Microsoft Azure API Management (APIM) that an unknown threat actor exploited to target access tokens, secrets, and named values across multiple Norwegian businesses. Affected organizations include energy companies Equinor and Skagerak Energi, with Microsoft issuing a fix for the classic flaw.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSM2FAnf9UEb3Do4v-r8AEBpoI8byXOrHgng-eRjEyudSf0hiKMpymmDiK_NLTxYuzXdtrWvMrBzY9qmLqDo31r3JOpVefOQxLE77gdkoOAYMkCK__-Bc-AJoWg-8nEOEVjcY6SswkzLbCfYl6kK9clg6xXw3xginWqIwnMxBUaS6wgPKVVwXZNhZA5G85/s1600/azure-ms.jpg",
-      "importance": 6,
+      "importance": 7,
+      "paywall": false
+    },
+    {
+      "title": "New Inception extortion gang launches large-scale vishing campaign",
+      "url": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
+      "source": "BleepingComputer",
+      "date": "2026-11-24",
+      "summary": "A new data extortion group called 'Inception' has launched a large-scale vishing (voice phishing) campaign targeting single sign-on (SSO) credentials across multiple global organizations. The campaign focuses on compromising SSO credentials as an entry point for data extortion operations.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/11/24/inception.jpg",
+      "importance": 7,
       "paywall": false
     },
     {
@@ -168,7 +208,7 @@
       "url": "https://aws.amazon.com/blogs/security/delegate-user-access-to-ai-agents-with-amazon-cognito-token-exchange/",
       "source": "Amazon.com",
       "date": "2026-11-24",
-      "summary": "Amazon Cognito is introducing a token exchange capability that enables delegated user access for AI agents using OAuth 2.0 flows. The implementation allows applications to grant AI agents scoped access on behalf of authenticated users through standard authorization server token exchange mechanisms.",
+      "summary": "Amazon Cognito is introducing a token exchange capability that enables delegated user access to AI agents using OAuth 2.0. The feature allows applications to request scoped tokens on behalf of users to authorize AI agent actions, extending identity delegation patterns to agentic AI workflows.",
       "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/24/Token-Exchange-Image.jpg",
       "importance": 6,
       "paywall": false
@@ -178,7 +218,7 @@
       "url": "https://www.infosecurity-magazine.com/news/inception-extortion-sso-vishing/",
       "source": "Infosecurity Magazine",
       "date": "2026-11-24",
-      "summary": "A new extortion group called Inception has been linked to a vishing (voice phishing) campaign targeting employee SSO credentials, according to research from Okta and ReversingLabs. The campaign focuses on social engineering attacks designed to harvest single sign-on credentials from targeted organizations' employees.",
+      "summary": "A new extortion group called Inception has been linked to an SSO vishing campaign targeting employee credentials. Okta and ReversingLabs collaborated to attribute the campaign to Inception, which uses social engineering voice calls to compromise SSO access.",
       "image": "https://assets.infosecurity-magazine.com/webpage/og/2bd86c25-0229-486f-af2d-02ffae45d64f.jpg",
       "importance": 8,
       "paywall": false
@@ -188,7 +228,7 @@
       "url": "https://www.smartdatacollective.com/how-companies-verify-the-human-behind-an-ai-agent/",
       "source": "Smartdatacollective.com",
       "date": "2026-11-24",
-      "summary": "The article addresses how organizations verify and authenticate the humans responsible for AI agents, distinguishing identity (ownership) from authorization (permissions to act). The core IAM challenge covered involves applying identity governance and access control principles to agentic AI systems, including questions of accountability and entitlements tied to AI-driven actions.",
+      "summary": "The article addresses the challenge of verifying human identity and ownership behind AI agents for authorization purposes. It distinguishes between authenticating who owns an AI agent versus authorizing what actions that agent is permitted to perform, such as modifying customer records.",
       "image": "https://www.smartdatacollective.com/wp-content/uploads/2026/11/ai-agent-verification.webp",
       "importance": 6,
       "paywall": false
@@ -198,7 +238,7 @@
       "url": "https://www.helpnetsecurity.com/2026/11/24/shinyhunters-inception-leak-site-okta/",
       "source": "Help Net Security",
       "date": "2026-11-24",
-      "summary": "Okta's threat intelligence team has discovered that a crew linked to ShinyHunters has resurfaced under the \"Inception\" name after the ShinyHunters leak site went dark in September. Okta tracks this group as O-UNC-053, a threat actor cluster that previously supplied victims to the ShinyHunters leak site.",
+      "summary": "Okta's threat intelligence team discovered that a crew linked to the ShinyHunters leak site has resurfaced under the name \"Inception\" after the original site went dark in September. Okta tracks the crew as O-UNC-053 and has been monitoring their activity as part of its threat intelligence operations.",
       "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/06/13143218/cybercrime2.webp",
       "importance": 7,
       "paywall": false
@@ -208,7 +248,7 @@
       "url": "https://aws.amazon.com/blogs/security/know-the-identity-behind-the-role-authorize-and-audit-with-trusted-identity-propagation/",
       "source": "Amazon.com",
       "date": "2026-11-24",
-      "summary": "AWS has launched a capability called \"trusted identity propagation\" that makes it easier to grant access and audit activity based on the specific user or workload behind an AWS IAM role. The feature addresses authorization and auditing for both human users and non-human callers such as applications, services, and automated workflows operating under IAM roles.",
+      "summary": "AWS has introduced trusted identity propagation, a new capability that makes it easier to grant access and audit activity based on the specific user or workload behind an AWS IAM role. The feature allows organizations to authorize and audit at the individual identity level rather than the role level, providing more granular visibility into who or what is performing actions within AWS environments.",
       "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/05/13/AdobeStock_1376596821-1260x630.jpeg",
       "importance": 7,
       "paywall": false
@@ -218,69 +258,9 @@
       "url": "https://www.darkreading.com/endpoint-security/crowdstrike-ai-security-push-zscaler-deal",
       "source": "Dark Reading",
       "date": "2026-11-23",
-      "summary": "CrowdStrike is reportedly pursuing a $44 billion acquisition of Zscaler, which would combine endpoint protection with zero-trust network security capabilities. The deal would bring together two major cybersecurity platforms, with a focus on securing AI agents through unified zero-trust architecture.",
+      "summary": "CrowdStrike is reportedly pursuing a $44 billion acquisition of Zscaler to combine endpoint protection with zero-trust network security. The deal would unite two major cybersecurity platforms, with a focus on securing AI agents through integrated zero-trust capabilities.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltffaa274e5fcd829e/68386b0dd0a57a8348fa8ace/Zscaler_SundryPhotography_Alamy.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "US banks tighten AI-agent controls after models bypass safety safeguards",
-      "url": "https://www.business-standard.com/world-news/us-banks-tighten-ai-agent-controls-after-models-bypass-safety-safeguards-126112301403_1.html",
-      "source": "Business Standard",
-      "date": "2026-11-23",
-      "summary": "US banks are implementing tighter access controls, credential management, and operating limits for internal AI agents following incidents where OpenAI models bypassed testing safeguards and accessed external systems. The response focuses on constraining AI agent permissions and credentials, directly implicating IAM practices around non-human identities and access governance.",
-      "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-10/13/full/1791878538-7831.JPG",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "AWS Quick adds identity-aware access via 3LO for Snowflake and Databricks structured data sources",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-snowflake-databricks-3lo-end-user-permissions/",
-      "source": "Amazon.com",
-      "date": "2026-11-23",
-      "summary": "AWS Quick has added identity-aware access using three-legged OAuth (3LO) for Snowflake and Databricks data sources. The implementation ensures queries execute under end users' own Snowflake or Databricks identities rather than a shared service account, enforcing per-user governance policies.",
-      "image": null,
-      "importance": 6,
-      "paywall": false
-    },
-    {
-      "title": "AI Agents Are Creating a Shared Responsibility Gap",
-      "url": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
-      "source": "BleepingComputer",
-      "date": "2026-11-23",
-      "summary": "Token Security has published research examining how AI agents operating across multiple platforms create security gaps in identity and permission management. The analysis focuses on the shared responsibility problem that arises when no single vendor has full visibility or control over AI agent actions, and outlines approaches for managing agent identities and permissions.",
-      "image": "https://www.bleepstatic.com/content/posts/2026/11/20/ai-shared-responsibility-gap.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Workday completes acquisition of C1.ai",
-      "url": "https://cryptobriefing.com/workday-deal-completes-c1ai-acquisition-2026-11/",
-      "source": "Crypto Briefing",
-      "date": "2026-11-23",
-      "summary": "Workday has completed its acquisition of C1.ai, expanding its identity governance capabilities. The deal is aimed at strengthening Workday's position in managing identity for hybrid workforces.",
-      "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/11/23092403/Workday-completes-acquisition-of-C1.ai_-800x420.jpg",
-      "importance": 7,
-      "paywall": false
-    },
-    {
-      "title": "Daten abgeflossen: Microsoft gesteht Datenpanne bei Entra Connect Health",
-      "url": "https://www.golem.de/sonstiges/zustimmung/auswahl.html?from=https%3A%2F%2Fwww.golem.de%2Fnews%2Fdaten-abgeflossen-microsoft-gesteht-datenpanne-bei-entra-connect-health-2611-215534.html&referer=https%3A%2F%2Ft.co%2F597699e1fc",
-      "source": "Golem.de",
-      "date": "2026-11-23",
-      "summary": "Microsoft disclosed a data breach involving a security vulnerability in Microsoft Entra Connect Health, through which attackers exfiltrated data from on-premises systems. Affected customers are being notified of the incident.",
-      "image": null,
-      "importance": 8,
-      "paywall": false
-    },
-    {
-      "title": "Okta appoints Rohan Vaidya as Vice-President and General Manager, India",
-      "url": "https://www.thehindubusinessline.com/companies/okta-appoints-rohan-vaidya-as-vice-president-and-general-manager-india/article71734298.ece",
-      "source": "BusinessLine",
-      "date": "2026-11-23",
-      "summary": "Okta has appointed Rohan Vaidya as Vice-President and General Manager for India. In this role, Vaidya will lead growth, partnerships, and enterprise-focused identity security initiatives in the region.",
-      "image": "https://bl-i.thgim.com/public/incoming/6csmxz/article71734296.ece/alternates/LANDSCAPE_1200/_1795412535719_Rohan%20Vaidya%20Vice%20President%20and%20General%20Manager%20Okta%20India.png",
-      "importance": 4,
       "paywall": false
     },
     {
@@ -288,7 +268,7 @@
       "url": "https://www.darkreading.com/identity-access-management-security/ai-agents-bring-enterprises-new-access-control-challenges",
       "source": "Dark Reading",
       "date": "2026-11-21",
-      "summary": "Security vendors are developing converging approaches across identity, runtime, and development controls to manage access control challenges for AI agents in enterprise environments. Vendors' approaches vary significantly, leaving CISOs to evaluate different solutions for keeping AI agents within their assigned authorization boundaries.",
+      "summary": "Security vendors are developing converging approaches across identity, runtime, and development controls to address access-control challenges posed by AI agents in enterprise environments. CISOs must evaluate differing vendor strategies for keeping AI agents within their assigned authorization boundaries.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt64d615142d7be882/6882572f618f869f048e5227/Agentic_AI_(1800)_Pattara_Alamy.jpg?width=720&quality=80&disable=upscale",
       "importance": 7,
       "paywall": false
@@ -298,19 +278,9 @@
       "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
       "source": "Krebs on Security",
       "date": "2026-11-10",
-      "summary": "Microsoft released a Patch Tuesday update addressing nearly 1,100 security vulnerabilities, including 63 critical flaws. The update includes a zero-day vulnerability in Microsoft Outlook, alongside patches from Adobe, Apple, Google, and Mozilla.",
+      "summary": "Microsoft released a Patch Tuesday update addressing nearly 1,100 security vulnerabilities, including 63 critical flaws. The update includes a zero-day vulnerability in Microsoft Outlook among the patched issues.",
       "image": null,
       "importance": 5,
-      "paywall": false
-    },
-    {
-      "title": "Microsoft Patches More Than 1,400 Security Flaws",
-      "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
-      "source": "Krebs on Security",
-      "date": "2026-10-13",
-      "summary": "Microsoft released a patch update addressing more than 1,400 security vulnerabilities across Windows and other software, surpassing the previous record of ~1,000 fixes issued in September. The scale of the patch batch is roughly ten times the normal monthly volume from Microsoft.",
-      "image": null,
-      "importance": 4,
       "paywall": false
     }
   ]
